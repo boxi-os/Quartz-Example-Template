@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt
+translationKey: gestaltung/ueber-dem-inhalt/brotkrumen
 ---
 
 ## Von Haus aus
@@ -27,3 +28,7 @@ ganze Weg über fünf Stationen.
 > [!note] Nicht auf der Startseite
 > Die Komponente ist mit `condition: not-index` konfiguriert; auf einer Ordner-Startseite wäre die
 > letzte Krume identisch mit dem Titel darunter.
+
+> [!note] Der Sprachordner ist auch eine Krume
+> Auf einer englischen Seite beginnt der Pfad mit `en` — er ist ein Ordner wie jeder andere, und
+> Quartz hat keinen Grund, ihn anders zu behandeln.

@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - links
+translationKey: formatierung/links/einbettungen
 ---
 
 Ein Ausrufezeichen vor dem Wikilink bettet den Inhalt ein, statt darauf zu verweisen.

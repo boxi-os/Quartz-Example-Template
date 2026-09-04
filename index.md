@@ -35,5 +35,8 @@ ein Graph braucht Verweise.
 In einem eigenen **Obsidian-Vault**. Das Projekt zeigt mit einem Symlink darauf, statt eine Kopie
 zu halten. Wer hier etwas ändert, ändert es an der Quelle.
 
+Dieselben Seiten gibt es auf **Englisch**, umgeschaltet wird oben rechts. Wie das gebaut ist,
+steht unter [[gestaltung/mehrsprachigkeit/index|Zwei Sprachen]].
+
 Ein Blick auf eine lange Seite lohnt sich: [[beispiele/langer-artikel|Ein langer Artikel]] —
 Überschriften bis zur sechsten Ebene, damit das Inhaltsverzeichnis vollständig ist.

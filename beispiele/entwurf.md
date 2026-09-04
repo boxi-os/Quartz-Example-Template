@@ -5,6 +5,7 @@ section: Beispiele
 draft: true
 tags:
   - beispiele
+translationKey: beispiele/entwurf
 ---
 
 Wenn diese Seite auf der gebauten Website erscheint, ist das Plugin *Remove draft* aus oder das

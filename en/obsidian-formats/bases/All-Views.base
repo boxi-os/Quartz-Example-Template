@@ -1,0 +1,50 @@
+filters:
+  and:
+    - file.hasTag("formatting")
+    - file.ext == "md"
+formulas:
+  Area: file.folder
+views:
+  - type: table
+    name: Table
+    order:
+      - title
+      - description
+      - formula.Area
+    sort:
+      - property: title
+        direction: ASC
+  - type: cards
+    name: Cards
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: list
+    name: List
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: board
+    name: Board
+    groupBy:
+      property: formula.Area
+      direction: ASC
+    order:
+      - title
+    sort:
+      - property: title
+        direction: ASC
+  - type: gallery
+    name: Gallery
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC

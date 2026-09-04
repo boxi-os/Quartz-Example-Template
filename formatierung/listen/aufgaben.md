@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - listen
+translationKey: formatierung/listen/aufgaben
 ---
 
 ```md

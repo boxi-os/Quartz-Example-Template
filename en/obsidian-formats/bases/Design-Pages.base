@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.hasTag("design")
+    - file.ext == "md"
+formulas:
+  Area: file.folder
+views:
+  - type: list
+    name: By area
+    groupBy:
+      property: formula.Area
+      direction: ASC
+    order:
+      - title
+      - description
+    sort:
+      - property: file.name
+        direction: ASC

@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - seitenapparat
+translationKey: gestaltung/seitenapparat/zuletzt-geaendert
 ---
 
 ## Von Haus aus
@@ -26,3 +27,8 @@ und Titel übereinander.
 
 Seitdem sind alle Listenregeln auf `.page-listing` eingegrenzt. Die Lehre: **Ein Klassenname gehört
 nicht der Komponente, in der man ihn zuerst gesehen hat.**
+
+> [!note] Beide Sprachen in einer Liste
+> Die Liste entsteht aus jeder Seite des Builds, eine englische Seite kann also in der Leiste einer
+> deutschen auftauchen. Wie beim Suchindex trennte das nur ein Build je Sprache — siehe
+> [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].

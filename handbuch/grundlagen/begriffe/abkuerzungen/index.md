@@ -4,6 +4,7 @@ description: Ebene vier — die tiefste Ebene dieser Beispielstruktur.
 section: Handbuch
 tags:
   - begriffe
+translationKey: handbuch/grundlagen/begriffe/abkuerzungen/index
 ---
 
 Ebene vier. Tiefer geht diese Beispielstruktur nicht, weil ein Explorer ab hier ohnehin nicht mehr

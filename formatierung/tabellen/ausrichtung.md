@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - tabellen
+translationKey: formatierung/tabellen/ausrichtung
 ---
 
 ```md

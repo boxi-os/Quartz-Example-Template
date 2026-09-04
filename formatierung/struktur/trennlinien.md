@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - struktur
+translationKey: formatierung/struktur/trennlinien
 ---
 
 ```md

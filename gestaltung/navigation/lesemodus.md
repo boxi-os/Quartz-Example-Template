@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - navigation
+translationKey: gestaltung/navigation/lesemodus
 ---
 
 Der Lesemodus blendet die Seitenleisten aus, solange man auf der Seite bleibt.

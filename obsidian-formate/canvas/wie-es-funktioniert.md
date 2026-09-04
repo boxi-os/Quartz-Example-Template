@@ -5,6 +5,8 @@ section: Obsidian-Formate
 tags:
   - obsidian-formate
   - canvas
+aliases:
+  - How a canvas is built
 ---
 
 Eine `.canvas`-Datei ist JSON mit genau zwei Listen:

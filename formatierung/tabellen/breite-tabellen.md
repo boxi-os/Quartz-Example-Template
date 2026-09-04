@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - tabellen
+translationKey: formatierung/tabellen/breite-tabellen
 ---
 
 | Kennung | Bezeichnung | Bereich | Standard | Beschreibung |

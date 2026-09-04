@@ -5,6 +5,7 @@ section: Handbuch
 tags:
   - handbuch
   - grundlagen
+translationKey: handbuch/grundlagen/index
 ---
 
 Ebene zwei. Siehe [[handbuch/grundlagen/erste-schritte|Erste Schritte]] und

@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - frontmatter
+translationKey: formatierung/eigenschaften/frontmatter
 ---
 
 Zwischen zwei Zeilen aus drei Bindestrichen, ganz am Anfang der Datei:
@@ -35,6 +36,7 @@ draft: false
 | `aliases` | Weiterleitungen von anderen Pfaden — siehe [[formatierung/links/aliase\|Aliase]] |
 | `draft: true` | Die Seite wird gar nicht erst gebaut |
 | `unlisted: true` | Die Seite wird gebaut, taucht aber in keiner Liste auf |
+| `translationKey` | Bindet die Seite an ihre Übersetzung — siehe [[gestaltung/mehrsprachigkeit/verknuepfung\|Wie die Sprachen sich finden]] |
 
 ## Woher das Datum kommt
 

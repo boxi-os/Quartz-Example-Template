@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - mathematik
+translationKey: formatierung/mathematik/inline
 ---
 
 Ein Dollarzeichen umschließt die Formel:

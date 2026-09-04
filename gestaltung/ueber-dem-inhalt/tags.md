@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt
+translationKey: gestaltung/ueber-dem-inhalt/tags
 ---
 
 ## Von Haus aus
@@ -27,3 +28,7 @@ Tag, aber es ist nicht sein Name.
 
 Beim Überfahren wechselt die Fläche und der Rand erscheint in der Akzentfarbe; die Pille springt
 dabei nicht, weil der Rand vorher transparent da war.
+
+> [!note] Englische Tags, englische Tag-Seiten
+> Die englischen Seiten tragen englische Tags (`formatting` statt `formatierung`), jede Sprache
+> bekommt damit eigene Tag-Seiten. Ein gemeinsamer Tag hätte beide Sprachen in eine Liste geworfen.

@@ -5,6 +5,7 @@ section: Beispiele
 unlisted: true
 tags:
   - beispiele
+translationKey: beispiele/unlisted
 ---
 
 Diese Seite existiert auf der gebauten Website und ist über ihren Pfad erreichbar, taucht aber in

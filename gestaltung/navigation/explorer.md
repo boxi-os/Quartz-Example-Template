@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - navigation
+translationKey: gestaltung/navigation/explorer
 ---
 
 Links im Fenster steht der Baum über alle Notizen. Er ist die Komponente mit dem größten
@@ -45,6 +46,17 @@ Struktur nicht.
 
 Zu sehen ist das am besten unter [[handbuch/grundlagen/begriffe/abkuerzungen/liste|Liste]] — vier
 Ordner tief.
+
+## Zwei Sprachen, ein Baum
+
+Der Explorer weiß nichts von Sprachen: Er baut seinen Baum aus jeder Seite des Builds und zeigte
+ohne Zutun den deutschen und den englischen zugleich. Die Vorlage löst das im Stylesheet. Auf einer
+deutschen Seite ist der `en`-Ordner ausgeblendet; auf einer englischen alles außer ihm, und seine
+eigene Zeile gleich mit, damit der englische Baum ganz oben steht statt eine Ebene eingerückt.
+
+Der Weg des Plugins — ein `filterFn` für den Explorer — ist von hier aus nicht erreichbar: Er wird
+nur aus `quartz.ts` entgegengenommen, und dieses Projekt baut sein Layout aus
+`quartz.config.yaml`. Siehe [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
 
 ## Zwei Funde beim Bauen
 

@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - frontmatter
+translationKey: formatierung/eigenschaften/anzeige
 ---
 
 Die Eigenschaften stehen als klappbare Tabelle zwischen Datum und Text.

@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - im-inhalt
+translationKey: gestaltung/im-inhalt/fliesstext
 ---
 
 ## Die Breite des Textes

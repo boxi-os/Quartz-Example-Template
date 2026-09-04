@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt
+translationKey: gestaltung/ueber-dem-inhalt/titel-und-datum
 ---
 
 ## Der Titel
@@ -30,3 +31,8 @@ noch blasser ist als der Text. Die Werte sind der Inhalt, die Zeichensetzung tri
 Aus dem Frontmatter, sonst aus git, sonst aus dem Dateisystem — in dieser Reihenfolge, eingestellt
 beim Plugin *Created modified date*. Bei einer Notiz, die noch nie committet wurde, warnt der Build:
 *„isn't yet tracked by git, dates will be inaccurate"*.
+
+> [!note] Das Format folgt der Seite, nicht der Website
+> Quartz formatiert Daten site-weit nach `configuration.locale`, hier also deutsch. Das
+> `localizeDates` des Mehrsprachigkeits-Plugins formatiert jedes `<time>`-Element im Browser in der
+> Sprache der Seite nach — eine englische Seite zeigt damit ein englisches Datum.

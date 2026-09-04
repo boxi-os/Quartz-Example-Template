@@ -1,0 +1,39 @@
+---
+title: Obsidian formats
+description: Three file types that are not Markdown pages — Bases, Canvas and Excalidraw.
+section: Obsidian formats
+tags:
+  - obsidian-formats
+translationKey: obsidian-formate/index
+layoutBoxNote: sidebar-note.en.md
+layoutBoxHint:
+  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
+layoutBoxCta:
+  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
+layoutBoxColophon:
+  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
+---
+
+Not everything in a vault is a note. Obsidian knows three further file types, and Quartz can turn
+all three into pages — each through a plugin of its own.
+
+| Type | Extension | What it is | Quartz plugin |
+| --- | --- | --- | --- |
+| [[en/obsidian-formats/bases/index\|Bases]] | `.base` | a query over the vault, as a table, cards or a list | `bases-page` |
+| [[en/obsidian-formats/canvas/index\|Canvas]] | `.canvas` | an infinite surface with cards and connections | `canvas-page` |
+| [[en/obsidian-formats/excalidraw/index\|Excalidraw]] | `.excalidraw.md` | a drawing | `obsidian-plugin-excalidraw` |
+
+## What they have in common
+
+All three become **page types of their own**. That means: they get a row of their own in the
+layout editor of the app and can use a page grid of their own — a canvas needs the full width, a
+bases table does not.
+
+All three are also **files, not texts**. They are edited in Obsidian, not in the editor of the app.
+The vault is therefore the right place for them.
+
+## What sets them apart
+
+Bases and Canvas are **core features** of Obsidian — they need no plugin in the vault. Excalidraw
+is a community plugin; without it a drawing cannot be opened in Obsidian. On the built site that
+makes no difference: there the Quartz plugin renders.

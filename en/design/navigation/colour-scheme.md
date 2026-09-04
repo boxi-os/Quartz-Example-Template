@@ -1,0 +1,38 @@
+---
+title: Colour scheme switch
+description: The button between light and dark.
+section: Design
+tags:
+  - design
+  - navigation
+translationKey: gestaltung/navigation/farbschema
+layoutBoxNote: sidebar-note.en.md
+layoutBoxHint:
+  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
+layoutBoxCta:
+  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
+layoutBoxColophon:
+  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
+---
+
+## Out of the box
+
+A button with two symbols, one of which is visible depending on the scheme.
+
+## In this template
+
+It is part of the toolbar in the header and shares its measurements: 44 × 44 px, the same border,
+the same corners as search, reader mode and the language switcher. A row of controls with differing
+heights reads as a mistake.
+
+On hover the border changes to the accent colour and the surface to the tinted variant — the same
+feedback as with its neighbours.
+
+## A finding while building
+
+The first version of this file styled an `<input>`/`<label>` pair. There is none here: the
+component is a single `<button class="darkmode">` with two SVGs in it. The rules hit nothing —
+which only became visible when every selector of the template was checked against the built page.
+
+Hence the rule that applies everywhere in this template: **look in the built HTML before writing a
+rule.** Class names are no contract.

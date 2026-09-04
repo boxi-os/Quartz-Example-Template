@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - navigation
+translationKey: gestaltung/navigation/farbschema
 ---
 
 ## Von Haus aus
@@ -13,8 +14,8 @@ Ein Knopf mit zwei Symbolen, von denen je nach Schema eines sichtbar ist.
 
 ## In dieser Vorlage
 
-Er ist Teil der Werkzeugleiste im Kopfbereich und teilt deren Maße: 44 × 44 px, gleicher Rahmen, gleiche Ecken wie
-Suche und Lesemodus. Eine Reihe von Bedienelementen mit unterschiedlichen Höhen liest sich als
+Er ist Teil der Werkzeugleiste im Kopfbereich und teilt deren Maße: 44 × 44 px, gleicher Rahmen,
+gleiche Ecken wie Suche, Lesemodus und Sprachumschalter. Eine Reihe von Bedienelementen mit unterschiedlichen Höhen liest sich als
 Fehler.
 
 Beim Überfahren wechselt der Rand auf die Akzentfarbe und die Fläche auf die getönte Variante —

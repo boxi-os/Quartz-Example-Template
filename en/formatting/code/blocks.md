@@ -1,0 +1,81 @@
+---
+title: Code blocks
+description: Code over several lines, with a language and a copy button.
+section: Formatting
+tags:
+  - formatting
+  - code
+translationKey: formatierung/code/bloecke
+layoutBoxNote: sidebar-note.en.md
+layoutBoxHint:
+  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
+layoutBoxCta:
+  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
+layoutBoxColophon:
+  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
+---
+
+````md
+```ts
+export function greet(name: string): string {
+  return `Hello, ${name}`
+}
+```
+````
+
+```ts
+export function greet(name: string): string {
+  return `Hello, ${name}`
+}
+```
+
+## Without a language
+
+````md
+```
+Plain text without highlighting.
+```
+````
+
+```
+Plain text without highlighting.
+```
+
+## With a title
+
+A `title=` after the language puts a label above the block — handy for naming the file the excerpt
+belongs to.
+
+````md
+```yaml title="quartz.config.yaml"
+configuration:
+  pageTitle: Minimal & lesbar
+```
+````
+
+```yaml title="quartz.config.yaml"
+configuration:
+  pageTitle: Minimal & lesbar
+```
+
+## Long lines
+
+A code block does not wrap long lines, it scrolls: breaking a shell command costs more than
+scrolling it.
+
+```bash
+npx quartz build --serve --port 8080 --wsPort 3001 --bundleInfo --verbose --directory content
+```
+
+## In this template
+
+Three differences from the default:
+
+- The **language** sits at the top left of the block, as an `::after` in the stylesheet — so it
+  does not end up in a copy.
+- The **copy button** is 44 px across and appears on hover, on focus *and* permanently on devices
+  without a pointer. **Out of the box** it is only visible on hover and therefore unreachable on a
+  phone.
+- The **background** comes from the template, not from the syntax theme: `keepBackground: false`
+  makes shiki set only the colours of the characters. That way the block fits in both colour
+  schemes.

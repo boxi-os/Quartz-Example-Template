@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - besonderes
+translationKey: formatierung/besonderes/pfeile-und-emoji
 ---
 
 ## Pfeile

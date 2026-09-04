@@ -5,6 +5,7 @@ section: Handbuch
 tags:
   - handbuch
   - referenz
+translationKey: handbuch/vertiefung/muster
 ---
 
 ## Was überall gleich ist

@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - im-inhalt
+translationKey: gestaltung/im-inhalt/tabellen-und-medien
 ---
 
 ## Tabellen

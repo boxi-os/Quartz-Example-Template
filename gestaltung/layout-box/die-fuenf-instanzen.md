@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - layout-box
+translationKey: gestaltung/layout-box/die-fuenf-instanzen
 ---
 
 | Schlüssel | Ort | Form | Was daran zu sehen ist |
@@ -38,3 +39,9 @@ kleine Zeile.
 Beim Import einer Vorlage überlebt derzeit **nur eine** der fünf Instanzen. Alle tragen denselben
 abgeleiteten Namen (`quartz-layout-box`), und der Import ordnet die Einträge nach Namen zu. Das ist
 gemessen und als Befund festgehalten.
+
+> [!note] Die englischen Seiten füllen vier davon selbst
+> Inhalt lässt sich je Seite ersetzen, deshalb zeigt jede englische Seite mit `layoutBoxNote` auf
+> ein englisches Schnipsel und setzt Hinweis, Aufruf und Impressumszeile auf englischen Text.
+> Der *Titel* einer Box lässt sich so nicht ersetzen — siehe
+> [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].

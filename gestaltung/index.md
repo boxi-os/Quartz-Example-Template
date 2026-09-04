@@ -4,6 +4,7 @@ description: Was Quartz von Haus aus tut, und was diese Vorlage daran ändert �
 section: Gestaltung
 tags:
   - gestaltung
+translationKey: gestaltung/index
 ---
 
 Jede Seite in diesem Bereich behandelt **eine** Komponente und hat zwei Absätze:
@@ -25,6 +26,7 @@ Unterschiede gäbe es zwar auch, aber sie wäre weit weg von der Sache.
 | [[gestaltung/im-inhalt/fliesstext\|Im Inhalt]] | Fließtext, Callouts, Code, Tabellen, Medien |
 | [[gestaltung/seitentypen/ordner-und-tags\|Seitentypen]] | Ordner- und Tag-Listen, Vorschau, Suche, Fehlerseite |
 | [[gestaltung/layout-box/index\|Layout-Box]] | Das eigene Plugin in fünf Ausprägungen |
+| [[gestaltung/mehrsprachigkeit/index\|Zwei Sprachen]] | Erkennung, Verknüpfung, Umschalter — und wo es aufhört |
 
 ## Die drei Entscheidungen, die alles andere tragen
 

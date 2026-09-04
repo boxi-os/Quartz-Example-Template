@@ -1,0 +1,24 @@
+filters:
+  and:
+    - file.hasTag("formatting")
+    - file.ext == "md"
+formulas:
+  Area: file.folder
+views:
+  - type: table
+    name: As a table
+    order:
+      - title
+      - description
+      - formula.Area
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: cards
+    name: As cards
+    order:
+      - title
+      - description
+    sort:
+      - property: file.name
+        direction: ASC

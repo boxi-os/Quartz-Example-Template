@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - mathematik
+translationKey: formatierung/mathematik/bloecke
 ---
 
 Zwei Dollarzeichen setzen die Formel als eigenen Block:

@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - seitentypen
+translationKey: gestaltung/seitentypen/fehlerseite
 ---
 
 ## Von Haus aus
@@ -32,5 +33,9 @@ tiefer sitzt, sieht kaputt aus statt ruhig.
 > [!tip] Warum das eine eigene Entscheidung ist
 > Wer auf einer Fehlerseite landet, sucht einen Weg zurück — nicht eine Umgebungsanzeige seiner
 > nicht existierenden Notiz. Alles, was nicht dabei hilft, ist Dekoration auf einem Fehler.
+
+> [!note] Die Fehlerseite hat keine Sprache
+> Quartz schreibt eine `404.html` für die ganze Website, sie bleibt also in der Sprache der Site.
+> Wer sich in einer englischen Adresse vertippt, landet auf der deutschen Fehlerseite.
 
 Ausprobieren: eine beliebige nicht existierende Adresse aufrufen.

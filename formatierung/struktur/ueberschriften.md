@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - struktur
+translationKey: formatierung/struktur/ueberschriften
 ---
 
 Der Seitentitel ist bereits eine `h1`, deshalb beginnt der Text sinnvollerweise bei `##`. Diese

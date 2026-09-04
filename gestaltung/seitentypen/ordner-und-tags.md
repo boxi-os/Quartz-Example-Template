@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - seitentypen
+translationKey: gestaltung/seitentypen/ordner-und-tags
 ---
 
 Für jeden Ordner und jeden Tag entsteht automatisch eine Seite mit einer Liste.
@@ -40,3 +41,8 @@ das dreispaltige Raster in der schmalen Seitenleiste.
 
 Der Titel ist der Tag-Name als reiner Text. Diese Vorlage stellt ihm ein Rautenzeichen voran — als
 `::before`, damit es nicht in der Vorlesereihenfolge landet.
+
+> [!note] Zwei Sprachen, zwei Sätze Listen
+> Zu jedem Ordner gibt es eine Ordnerseite, auch zu `en/`, und die englischen Seiten tragen
+> englische Tags. Die Listen mischen die Sprachen deshalb nie — mit einer Ausnahme: die Ordnerseite
+> von `en` selbst, die die englische Startseite ist und von Hand geschrieben wird.

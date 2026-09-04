@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - text
+translationKey: formatierung/text/sonderzeichen
 ---
 
 Markdown wandelt nichts automatisch um: Was hier steht, muss im Quelltext so eingegeben werden.

@@ -4,6 +4,7 @@ description: Jedes Element, das Obsidian schreibt und Quartz rendert — Quellte
 section: Formatierung
 tags:
   - formatierung
+translationKey: formatierung/index
 ---
 
 Dreizehn Bereiche, je Element eine kurze Seite. Das Muster ist überall gleich: zuerst der

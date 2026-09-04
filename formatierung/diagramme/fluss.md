@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - diagramme
+translationKey: formatierung/diagramme/fluss
 ---
 
 ````md

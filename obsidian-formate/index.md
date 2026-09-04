@@ -4,6 +4,7 @@ description: Drei Dateitypen, die keine Markdown-Seiten sind — Bases, Canvas u
 section: Obsidian-Formate
 tags:
   - obsidian-formate
+translationKey: obsidian-formate/index
 ---
 
 Nicht alles in einem Vault ist eine Notiz. Obsidian kennt drei weitere Dateitypen, und Quartz kann

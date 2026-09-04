@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - code
+translationKey: formatierung/code/sprachen
 ---
 
 Das Kürzel nach den drei Backticks bestimmt die Hervorhebung. Eine Auswahl:

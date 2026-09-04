@@ -1,0 +1,168 @@
+{
+  "title": "Structure of the editorial frame",
+  "kind": "structure",
+  "direction": "down",
+  "nodes": [
+    {
+      "id": "frame",
+      "label": "editorial",
+      "shape": "ellipse",
+      "color": "yellow",
+      "note": "12 columns, max. 1440 px"
+    },
+    {
+      "id": "header",
+      "label": "Header",
+      "color": "orange",
+      "note": "Word mark and title"
+    },
+    {
+      "id": "toolbar",
+      "label": "Toolbar",
+      "color": "orange",
+      "note": "in the header, on the right"
+    },
+    {
+      "id": "explorer",
+      "label": "Explorer",
+      "color": "teal",
+      "note": "Columns 1 to 3"
+    },
+    {
+      "id": "notiz",
+      "label": "Note box",
+      "color": "teal",
+      "note": "Layout box, Markdown"
+    },
+    {
+      "id": "recent",
+      "label": "Recently changed",
+      "color": "teal"
+    },
+    {
+      "id": "krumen",
+      "label": "Breadcrumbs",
+      "color": "blue"
+    },
+    {
+      "id": "titel",
+      "label": "Title and date",
+      "color": "blue"
+    },
+    {
+      "id": "props",
+      "label": "Properties",
+      "color": "blue"
+    },
+    {
+      "id": "text",
+      "label": "The article",
+      "color": "blue",
+      "note": "Columns 4 to 9"
+    },
+    {
+      "id": "cta",
+      "label": "Call to action",
+      "color": "blue",
+      "note": "Layout box"
+    },
+    {
+      "id": "toc",
+      "label": "Table of contents",
+      "color": "violet",
+      "note": "Columns 10 to 12"
+    },
+    {
+      "id": "backlinks",
+      "label": "Links here",
+      "color": "violet"
+    },
+    {
+      "id": "graph",
+      "label": "Surroundings",
+      "color": "violet"
+    },
+    {
+      "id": "footer",
+      "label": "Footer",
+      "color": "orange",
+      "note": "Links and colophon"
+    }
+  ],
+  "edges": [
+    {
+      "from": "frame",
+      "to": "header"
+    },
+    {
+      "from": "header",
+      "to": "toolbar"
+    },
+    {
+      "from": "frame",
+      "to": "krumen"
+    },
+    {
+      "from": "frame",
+      "to": "toc"
+    },
+    {
+      "from": "frame",
+      "to": "footer"
+    },
+    {
+      "from": "frame",
+      "to": "explorer"
+    },
+    {
+      "from": "explorer",
+      "to": "notiz"
+    },
+    {
+      "from": "notiz",
+      "to": "recent"
+    },
+    {
+      "from": "krumen",
+      "to": "titel"
+    },
+    {
+      "from": "titel",
+      "to": "props"
+    },
+    {
+      "from": "props",
+      "to": "text"
+    },
+    {
+      "from": "text",
+      "to": "cta"
+    },
+    {
+      "from": "toc",
+      "to": "backlinks"
+    },
+    {
+      "from": "backlinks",
+      "to": "graph"
+    }
+  ],
+  "legend": [
+    {
+      "color": "orange",
+      "label": "across the full width"
+    },
+    {
+      "color": "teal",
+      "label": "left column (1-3)"
+    },
+    {
+      "color": "blue",
+      "label": "content (4-9)"
+    },
+    {
+      "color": "violet",
+      "label": "right column (10-12)"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+---
+title: How the two languages find each other
+description: Three strategies, three proofs — and what the Obsidian plugin has to do with it.
+section: Design
+tags:
+  - design
+  - multilingual
+translationKey: gestaltung/mehrsprachigkeit/verknuepfung
+layoutBoxNote: sidebar-note.en.md
+layoutBoxHint:
+  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
+layoutBoxCta:
+  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
+layoutBoxColophon:
+  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
+---
+
+For the switcher to lead from a page to its translation, somebody has to say which two pages belong
+together. The plugin knows three ways and tries them in this order.
+
+## 1 · `translationKey` in the frontmatter
+
+```yaml
+---
+title: Betonung
+translationKey: formatierung/text/betonung
+---
+```
+
+Two pages with the same key are translations of each other. **That is how this site works almost
+everywhere** — 118 of 122 pairs.
+
+The reason is a measured one: several pages here carry the same title. "Grundform" exists three
+times (callouts, tables, footnotes), "Code", "Eigenschaften" and "Callouts" twice each. Titles or
+file names could not decide which English page is meant; the plugin recognises that and in such a
+case prefers not to link at all, with a warning in the build.
+
+The key is the German path without its extension. It is unique, it rarely changes, and you can see
+from the line what it points at.
+
+## 2 · Aliases — the way through the Obsidian plugin
+
+The Obsidian community plugin **Multilingual** translates the name of a note and writes it into the
+`aliases`. That is exactly the field the Quartz plugin reads: an alias matching the title or the
+file name of a page in another language links the two.
+
+Three pages of this site hang on that **alone** and deliberately carry no `translationKey`:
+
+| German page | Alias in it | English page |
+| --- | --- | --- |
+| [[obsidian-formate/bases/wie-es-funktioniert\|Wie eine Base aufgebaut ist]] | `How a base is built` | [[en/obsidian-formats/bases/how-it-works\|How a base is built]] |
+| [[obsidian-formate/canvas/wie-es-funktioniert\|Wie ein Canvas aufgebaut ist]] | `How a canvas is built` | [[en/obsidian-formats/canvas/how-it-works\|How a canvas is built]] |
+| [[obsidian-formate/excalidraw/wie-es-funktioniert\|Wie eine Excalidraw-Datei aufgebaut ist]] | `How an Excalidraw file is built` | [[en/obsidian-formats/excalidraw/how-it-works\|How an Excalidraw file is built]] |
+
+All three have the same file name (`wie-es-funktioniert`) and sit in different folders — a good test
+that the linking really goes through the title and not through the file name.
+
+> [!warning] Why not aliases everywhere
+> The *Alias redirects* plugin builds a forwarding page for **every** alias. If each of the 122
+> German notes carried its English title as an alias, 122 extra pages would appear, leading from
+> `/emphasis` to the *German* page. That is not a fault, but it would not have been a decision —
+> hence the aliases only stand where they are meant to show something.
+
+> [!note] The translation service did not run here
+> The Obsidian plugin needs an API key for Google Translate or DeepL. It is installed in the vault
+> and set up for German → English, but the key is missing; the aliases above are entered in exactly
+> the form the plugin would write. Anyone providing a key can have them generated from then on
+> through the *Translate note name* command.
+
+## 3 · The same path
+
+Two pages whose path without the language part is identical belong together. On this site that
+applies to **exactly one pair**, and to the most visible one at that: the home pages. `index.md`
+falls into the default language, so its base path is `index`; `en/index.md` sits in the language
+folder, so its base path is `index` too. The two are linked without a single field in the
+frontmatter.
+
+For every other page the route does not apply, because the English paths are English —
+`formatierung/text/betonung` becomes `formatting/text/emphasis`, not the same path in a different
+folder. That is deliberate: an English address with German words in it would be half a translation.
+
+## What comes out of it
+
+After the build every page carries a `multilanguage` field with its language, its base path, the
+strategy that detected it and the list of its translations. The switcher builds its entries from
+that list, and the `hreflang` entries in the head of the page come from it too.

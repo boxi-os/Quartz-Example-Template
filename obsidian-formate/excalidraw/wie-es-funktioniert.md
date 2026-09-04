@@ -5,6 +5,8 @@ section: Obsidian-Formate
 tags:
   - obsidian-formate
   - excalidraw
+aliases:
+  - How an Excalidraw file is built
 ---
 
 ## Das Obsidian-Format: `.excalidraw.md`

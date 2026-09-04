@@ -12,6 +12,7 @@ liste:
   - zwei
   - drei
 leer:
+translationKey: formatierung/eigenschaften/datentypen
 ---
 
 Diese Seite trägt selbst vier Beispielfelder. Die Eigenschaften-Tabelle über diesem Text zeigt sie.

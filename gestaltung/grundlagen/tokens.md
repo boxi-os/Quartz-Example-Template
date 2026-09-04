@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - grundlagen
+translationKey: gestaltung/grundlagen/tokens
 ---
 
 **Kein Stylesheet dieser Vorlage enthält eine Farbe oder eine Länge als Zahl.** Alles liest

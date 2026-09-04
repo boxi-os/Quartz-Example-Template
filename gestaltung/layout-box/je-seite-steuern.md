@@ -8,6 +8,7 @@ tags:
 layoutBoxNote: false
 layoutBoxCta:
   html: "<p>Diese Box zeigt auf dieser einen Seite einen anderen Text — gesetzt im Frontmatter, nicht in der Konfiguration.</p>"
+translationKey: gestaltung/layout-box/je-seite-steuern
 ---
 
 Diese Seite steuert zwei der fünf Instanzen über ihr eigenes Frontmatter:
@@ -36,3 +37,9 @@ anderen Seiten ist sie da. Und der Kasten unter diesem Text zeigt einen anderen 
 Ohne `frontmatterKey` würde ein `layoutBox: false` **alle fünf** Boxen gleichzeitig ausschalten. Die
 Vorlage vergibt deshalb je Instanz einen eigenen Namen — das ist auch die im Plugin dokumentierte
 Vorgehensweise für Mehrfachverwendung.
+
+## Wozu das hier genutzt wird
+
+Genau davon leben die englischen Seiten dieser Website: Sie zeigen mit `layoutBoxNote` auf ein
+englisches Schnipsel und geben Hinweis, Aufruf und Impressumszeile englischen Text. Es ist der
+einzige Hebel, der innerhalb eines Builds einen Unterschied je Sprache macht.

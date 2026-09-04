@@ -1,0 +1,50 @@
+---
+title: Escaping characters
+description: When Markdown reads something as markup that is meant to be text.
+section: Formatting
+tags:
+  - formatting
+  - special
+translationKey: formatierung/besonderes/escapes
+layoutBoxNote: sidebar-note.en.md
+layoutBoxHint:
+  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
+layoutBoxCta:
+  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
+layoutBoxColophon:
+  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
+---
+
+A backslash in front takes the meaning away from a character:
+
+```md
+\*no emphasis\*, \[no bracket\], \# no heading, \| no column separator
+```
+
+\*no emphasis\*, \[no bracket\], \# no heading, \| no column separator
+
+## What has to be escaped
+
+| Character | Otherwise |
+| --- | --- |
+| `*` `_` | emphasis |
+| `[` `]` | link |
+| `#` at the start of a line | heading |
+| `-` `+` at the start of a line | list item |
+| `` ` `` | code |
+| `\|` in tables | column separator |
+| `$` | formula |
+| `%%` | comment |
+
+## The other way
+
+Inside inline code nothing needs escaping:
+
+```md
+`*none of this applies here*`
+```
+
+`*none of this applies here*`
+
+That is why every example on these pages sits in a code block — otherwise each of them would render
+itself instead of showing itself.

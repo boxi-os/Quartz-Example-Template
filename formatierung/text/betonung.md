@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - text
+translationKey: formatierung/text/betonung
 ---
 
 ## Die fünf Auszeichnungen

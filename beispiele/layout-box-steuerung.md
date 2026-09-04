@@ -8,6 +8,7 @@ tags:
 layoutBoxNote: false
 layoutBoxCta:
   html: "<p>Diese Box zeigt auf dieser einen Seite einen anderen Text — gesetzt im Frontmatter, nicht in der Konfiguration.</p>"
+translationKey: beispiele/layout-box-steuerung
 ---
 
 Diese Seite steuert zwei der fünf Layout-Box-Instanzen über ihr eigenes Frontmatter:
@@ -48,3 +49,8 @@ Möglich ist das, weil jede Instanz einen eigenen `frontmatterKey` hat. Ohne das
 Vier davon holen ihren Inhalt aus der Konfiguration (`html:`) und reisen deshalb vollständig mit
 dem Vorlagen-Paket. Die Box in der linken Spalte lädt aus einer Datei und zeigt damit den anderen
 Weg — die Datei muss beim Weitergeben mitkopiert werden.
+
+> [!note] Der Titel bleibt, wie er konfiguriert ist
+> Das Frontmatter kann den Inhalt einer Box ersetzen und sie ausblenden, ihren Titel aber nicht.
+> Deshalb stehen die beiden betitelten Boxen auf den englischen Seiten dieser Website weiterhin
+> deutsch da — siehe [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].

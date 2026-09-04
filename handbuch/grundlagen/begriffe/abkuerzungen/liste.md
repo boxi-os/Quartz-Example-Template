@@ -4,6 +4,7 @@ description: Die tiefste Datei der Beispielstruktur.
 section: Handbuch
 tags:
   - referenz
+translationKey: handbuch/grundlagen/begriffe/abkuerzungen/liste
 ---
 
 | Kürzel | Bedeutung |

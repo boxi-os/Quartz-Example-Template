@@ -5,6 +5,7 @@ section: Obsidian-Formate
 tags:
   - obsidian-formate
   - canvas
+translationKey: obsidian-formate/canvas/index
 ---
 
 Ein Canvas ist eine freie Fläche: Man legt Karten darauf, verbindet sie mit Pfeilen und ordnet sie

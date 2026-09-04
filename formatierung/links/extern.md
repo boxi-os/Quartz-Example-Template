@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - links
+translationKey: formatierung/links/extern
 ---
 
 ```md

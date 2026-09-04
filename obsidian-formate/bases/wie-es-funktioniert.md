@@ -5,6 +5,8 @@ section: Obsidian-Formate
 tags:
   - obsidian-formate
   - bases
+aliases:
+  - How a base is built
 ---
 
 Eine `.base`-Datei hat bis zu drei Abschnitte:

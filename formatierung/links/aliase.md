@@ -7,6 +7,7 @@ tags:
   - links
 aliases:
   - Zweitname für Aliase
+translationKey: formatierung/links/aliase
 ---
 
 Im Frontmatter:
@@ -36,3 +37,9 @@ verschoben wurde.
 - Eine Abkürzung soll dieselbe Seite finden wie das ausgeschriebene Wort.
 
 Ein Beispiel mit mehreren Aliassen: [[beispiele/alias|Eine Seite mit Alias]].
+
+> [!note] Aliase tragen auch die Übersetzung
+> Das Obsidian-Plugin *Multilingual* schreibt den übersetzten Notiznamen in genau dieses Feld, und
+> `quartz-multilanguage` kann die beiden Sprachen daran verknüpfen. Drei Seiten dieser Website
+> hängen allein daran — siehe
+> [[gestaltung/mehrsprachigkeit/verknuepfung|Wie die Sprachen sich finden]].

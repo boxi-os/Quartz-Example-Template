@@ -4,6 +4,7 @@ description: Seiten, an denen sich einzelne Plugins und Sonderfälle zeigen lass
 section: Beispiele
 tags:
   - beispiele
+translationKey: beispiele/index
 ---
 
 Jede Seite hier zeigt einen Sonderfall.

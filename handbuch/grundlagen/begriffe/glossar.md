@@ -5,6 +5,7 @@ section: Handbuch
 tags:
   - begriffe
   - referenz
+translationKey: handbuch/grundlagen/begriffe/glossar
 ---
 
 **Baustein** — einer der zehn Teile, aus denen ein Vorlagen-Paket besteht. Siehe

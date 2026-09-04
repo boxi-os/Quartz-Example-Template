@@ -7,6 +7,7 @@ tags:
 aliases:
   - Zweitname
   - beispiele/anderer-pfad
+translationKey: beispiele/alias
 ---
 
 Diese Seite ist unter drei Pfaden erreichbar: unter ihrem eigenen, unter `Zweitname` und unter

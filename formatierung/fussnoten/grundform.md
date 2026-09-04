@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - fussnoten
+translationKey: formatierung/fussnoten/grundform
 ---
 
 ```md

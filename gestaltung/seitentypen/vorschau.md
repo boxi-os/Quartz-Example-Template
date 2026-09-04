@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - seitentypen
+translationKey: gestaltung/seitentypen/vorschau
 ---
 
 ## Von Haus aus

@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - besonderes
+translationKey: formatierung/besonderes/html
 ---
 
 ```md

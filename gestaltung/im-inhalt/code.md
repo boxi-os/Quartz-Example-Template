@@ -6,6 +6,7 @@ tags:
   - gestaltung
   - im-inhalt
   - code
+translationKey: gestaltung/im-inhalt/code
 ---
 
 ## Inline

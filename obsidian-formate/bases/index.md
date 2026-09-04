@@ -5,6 +5,7 @@ section: Obsidian-Formate
 tags:
   - obsidian-formate
   - bases
+translationKey: obsidian-formate/bases/index
 ---
 
 Eine Base ist eine gespeicherte Abfrage: Sie sammelt Notizen nach Kriterien und zeigt sie in einer
@@ -38,6 +39,11 @@ Alle fünf sind in dieser Vorlage gestaltet — zu sehen unter
 
 Bases-Seiten nutzen den Frame **`index`** — zwei Spalten, keine rechte Leiste. Eine Tabelle braucht
 kein Inhaltsverzeichnis.
+
+> [!warning] Der Umschalter findet diese Seiten nicht
+> Eine `.base`-Datei hat kein Frontmatter und kann deshalb keinen `translationKey` tragen. Der
+> Sprachumschalter bietet auf so einer Seite die Startseite der anderen Sprache an statt der
+> entsprechenden Base. Siehe [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
 
 > [!note] Bases sind neu
 > Sie kamen mit Obsidian 1.9 als Kernfunktion dazu. Ältere Vaults haben sie nicht; im

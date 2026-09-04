@@ -6,6 +6,7 @@ tags:
   - gestaltung
   - grundlagen
   - barrierefreiheit
+translationKey: gestaltung/grundlagen/barrierefreiheit
 ---
 
 ## Kein Zustand hängt allein an der Farbe

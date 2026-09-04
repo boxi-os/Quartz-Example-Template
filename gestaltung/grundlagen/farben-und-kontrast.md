@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - grundlagen
+translationKey: gestaltung/grundlagen/farben-und-kontrast
 ---
 
 ## Die neun Rollen

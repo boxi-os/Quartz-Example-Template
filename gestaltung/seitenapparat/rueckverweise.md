@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - seitenapparat
+translationKey: gestaltung/seitenapparat/rueckverweise
 ---
 
 Unter dem Inhaltsverzeichnis steht, welche anderen Notizen auf die aktuelle verweisen.
@@ -32,3 +33,8 @@ Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 > Komponenten-**Plugin**, und jedes dieser npm-Pakete bringt seine eigenen kompilierten
 > Übersetzungen mit. Die Sprachdatei des Projekts erreicht sie nicht. Der Eintrag steht trotzdem
 > in der Vorlage — der Mechanismus ist richtig, nur seine Reichweite ist heute klein.
+
+> [!note] Rückverweise überschreiten die Sprachgrenze nicht
+> Eine deutsche Seite verlinkt auf deutsche Seiten, eine englische auf englische; damit bleiben die
+> beiden Listen getrennt. Das tut nicht das Plugin — es folgt daraus, dass jede Seite nur innerhalb
+> ihres eigenen Baums verlinkt.

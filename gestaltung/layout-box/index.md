@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - layout-box
+translationKey: gestaltung/layout-box/index
 ---
 
 `quartz-layout-box` rendert einen HTML- oder Markdown-Schnipsel an jeder Stelle des Seitenlayouts:

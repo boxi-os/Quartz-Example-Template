@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - grundlagen
+translationKey: gestaltung/grundlagen/frames
 ---
 
 Ein Frame ist das Raster einer Seite: welche Bereiche es gibt, wo sie liegen, wie breit sie sind.

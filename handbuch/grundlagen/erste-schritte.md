@@ -4,6 +4,7 @@ description: Eine gewöhnliche Seite auf Ebene zwei.
 section: Handbuch
 tags:
   - grundlagen
+translationKey: handbuch/grundlagen/erste-schritte
 ---
 
 Eine Seite ohne Besonderheiten — genau dafür ist sie da. Sie zeigt, wie eine normale Notiz in

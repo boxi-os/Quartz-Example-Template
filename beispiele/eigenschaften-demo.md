@@ -18,6 +18,7 @@ liste:
   - zwei
   - drei
 leer:
+translationKey: beispiele/eigenschaften-demo
 ---
 
 Diese Seite trägt mehr Frontmatter, als angezeigt wird. Die Vorlage zeigt in der

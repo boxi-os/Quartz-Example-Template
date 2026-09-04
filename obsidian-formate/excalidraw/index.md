@@ -5,6 +5,7 @@ section: Obsidian-Formate
 tags:
   - obsidian-formate
   - excalidraw
+translationKey: obsidian-formate/excalidraw/index
 ---
 
 Excalidraw ist ein Zeichenwerkzeug für Skizzen, Diagramme und Abläufe. Als Obsidian-Plugin

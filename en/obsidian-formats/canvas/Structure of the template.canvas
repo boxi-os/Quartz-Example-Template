@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "mitte",
+      "type": "text",
+      "text": "# Minimal and readable\n\nThe example template: ten parts, every component\ndesigned, every contrast measured.",
+      "x": -170,
+      "y": -80,
+      "width": 340,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "What Obsidian writes",
+      "x": -720,
+      "y": -420,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f1",
+      "type": "file",
+      "file": "en/formatting/callouts/all-types.md",
+      "x": -700,
+      "y": -370,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "text": "Every element as source\nand rendered result.",
+      "x": -700,
+      "y": -280,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "What is not a note",
+      "x": 380,
+      "y": -420,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f2",
+      "type": "file",
+      "file": "en/obsidian-formats/bases/index.md",
+      "x": 400,
+      "y": -370,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "text": "Bases, Canvas, Excalidraw —\nthree page types of their own.",
+      "x": 400,
+      "y": -280,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "What the template does differently",
+      "x": -720,
+      "y": 160,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f3",
+      "type": "file",
+      "file": "en/design/foundations/colours-and-contrast.md",
+      "x": -700,
+      "y": 210,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "text": "Per component: out of the box\nagainst this template.",
+      "x": -700,
+      "y": 300,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "What the explorer is for",
+      "x": 380,
+      "y": 160,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f4",
+      "type": "file",
+      "file": "en/handbook/basics/terms/abbreviations/list.md",
+      "x": 400,
+      "y": 210,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "text": "Four folder levels deep —\nfor tree and breadcrumbs.",
+      "x": 400,
+      "y": 300,
+      "width": 300,
+      "height": 70
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "mitte",
+      "fromSide": "left",
+      "toNode": "f1",
+      "toSide": "right"
+    },
+    {
+      "id": "e2",
+      "fromNode": "mitte",
+      "fromSide": "right",
+      "toNode": "f2",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "mitte",
+      "fromSide": "left",
+      "toNode": "f3",
+      "toSide": "right"
+    },
+    {
+      "id": "e4",
+      "fromNode": "mitte",
+      "fromSide": "right",
+      "toNode": "f4",
+      "toSide": "left"
+    }
+  ]
+}

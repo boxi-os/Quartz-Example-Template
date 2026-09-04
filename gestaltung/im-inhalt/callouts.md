@@ -6,6 +6,7 @@ tags:
   - gestaltung
   - im-inhalt
   - callouts
+translationKey: gestaltung/im-inhalt/callouts
 ---
 
 ## Von Haus aus

@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - code
+translationKey: formatierung/code/bloecke
 ---
 
 ````md

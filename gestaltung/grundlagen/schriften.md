@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - grundlagen
+translationKey: gestaltung/grundlagen/schriften
 ---
 
 | Rolle | Schrift | Wofür |

@@ -1,0 +1,16 @@
+{
+  "targetLanguages": [
+    "en"
+  ],
+  "autoTranslate": false,
+  "ignoreDateFormat": "YYYY-MM-DD",
+  "ignoreRegex": "",
+  "ignorePath": "en",
+  "addOriginalName": false,
+  "translationService": "DeepL",
+  "apiKeys": {
+    "Google Translate": "",
+    "DeepL": ""
+  },
+  "setupComplete": false
+}

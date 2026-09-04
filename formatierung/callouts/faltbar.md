@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - callouts
+translationKey: formatierung/callouts/faltbar
 ---
 
 Ein `-` oder `+` hinter dem Typ macht den Callout faltbar.

@@ -7,6 +7,7 @@ lastmod: 2026-09-02
 tags:
   - beispiele
   - typografie
+translationKey: beispiele/langer-artikel
 ---
 
 Diese Seite ist absichtlich lang und tief gegliedert. Sie beantwortet zwei Fragen, die eine kurze

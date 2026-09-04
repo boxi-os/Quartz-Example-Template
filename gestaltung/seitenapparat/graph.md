@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - seitenapparat
+translationKey: gestaltung/seitenapparat/graph
 ---
 
 ## Von Haus aus

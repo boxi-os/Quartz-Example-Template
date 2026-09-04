@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - medien
+translationKey: formatierung/medien/einbettungen
 ---
 
 Das Plugin *Layout Box* dieser Vorlage schaltet Bilder nach Farbschema um: Ein Element mit der

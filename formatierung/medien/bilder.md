@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - medien
+translationKey: formatierung/medien/bilder
 ---
 
 ## Zwei Schreibweisen

@@ -5,6 +5,7 @@ section: Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt
+translationKey: gestaltung/ueber-dem-inhalt/eigenschaften
 ---
 
 ## Von Haus aus

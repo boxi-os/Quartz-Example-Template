@@ -4,6 +4,7 @@ description: Vier Ordnerebenen, damit Explorer, Brotkrumen und Ordnerseiten etwa
 section: Handbuch
 tags:
   - handbuch
+translationKey: handbuch/index
 ---
 
 Dieser Bereich ist absichtlich tief verschachtelt. Er beantwortet eine Frage, die man einer

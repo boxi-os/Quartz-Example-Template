@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - links
+translationKey: formatierung/links/wikilinks
 ---
 
 ```md
@@ -27,6 +28,12 @@ Solange der Dateiname im Vault eindeutig ist, reicht er allein:
 
 Das Plugin *Crawl links* löst den Pfad beim Bauen auf. Diese Vorlage steht auf
 `markdownLinkResolution: shortest` — die kürzeste eindeutige Schreibweise gewinnt.
+
+> [!note] Zwei Sprachen, zwei Dateinamen
+> Das ist einer der Gründe, warum die englischen Seiten englische Dateinamen tragen: `headings`
+> findet die englische Seite, `ueberschriften` die deutsche. Hätten beide Sprachen dieselben Namen,
+> wäre die Kurzform mehrdeutig geworden — siehe
+> [[gestaltung/mehrsprachigkeit/index|Zwei Sprachen]].
 
 ## Ein Link ins Leere
 

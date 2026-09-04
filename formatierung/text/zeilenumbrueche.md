@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - text
+translationKey: formatierung/text/zeilenumbrueche
 ---
 
 ## Ein Umbruch im Quelltext ist keiner auf der Seite

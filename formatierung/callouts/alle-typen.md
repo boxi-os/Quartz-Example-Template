@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
   - callouts
+translationKey: formatierung/callouts/alle-typen
 ---
 
 > [!note] note
