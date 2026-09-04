@@ -19,16 +19,14 @@ Ein Absatz entsteht durch eine Leerzeile davor und danach.
 
 Dieser hier ist der zweite.
 
-## Das Lesemaß
+## Wie breit ein Absatz wird
 
-Fließtext ist in dieser Vorlage auf **68 Zeichen** begrenzt — unabhängig davon, wie breit das
-Fenster ist. Dieser Absatz zeigt es: Er bricht um, obwohl rechts noch Platz wäre. Eine Zeile mit
-140 Zeichen zwingt das Auge, den Zeilenanfang zu suchen.
+Die Breite entscheidet das **Seitenraster**, nicht der Absatz. Der Frame `editorial`, den
+Inhaltsseiten benutzen, gibt dem Text die mittlere von drei Spalten und begrenzt die ganze Seite
+auf 1440 px.
 
-Was **nicht** als Fließtext gilt und die volle Spalte nehmen darf: Tabellen, Codeblöcke, Diagramme,
-Bilder und Formeln.
+Eine Begrenzung am einzelnen Absatz gibt es in dieser Vorlage nicht — sie wäre eine zweite Stelle,
+an der über dieselbe Sache entschieden wird, und zwei solche Stellen widersprechen sich
+irgendwann. Wer die Spalte schmaler will, ändert den Frame.
 
-> [!info] Von Haus aus
-> Quartz begrenzt den Text nicht auf eine Zeichenzahl, sondern die ganze Seite auf eine Pixelbreite
-> (`.page { max-width: … }`). Bei einem breiten Fenster wird die Zeile dadurch länger, nicht die
-> Spalte daneben. Der Unterschied steht unter [[gestaltung/grundlagen/tokens|Tokens]].
+Siehe [[gestaltung/grundlagen/frames|Frames]].

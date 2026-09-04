@@ -11,11 +11,10 @@ tags:
 Variablen. Das ist keine Kosmetik: Nach dem Import bleiben sie in der App unter *Stile → Variablen*
 bearbeitbar, ein Wert in SCSS nicht.
 
-## Die sieben mit der größten Reichweite
+## Die sechs mit der größten Reichweite
 
 | Token | Wert | Was sich ändert |
 | --- | --- | --- |
-| `--tpl-measure` | 68ch | Zeilenlänge des Fließtexts |
 | `--tpl-space-md` | 1rem | Grundabstand; die ganze Skala hängt daran |
 | `--tpl-target` | 44px | Mindestgröße **aller** Bedienelemente |
 | `--tpl-indent` | 0.85rem | Eine Ebene in Explorer *und* Inhaltsverzeichnis |

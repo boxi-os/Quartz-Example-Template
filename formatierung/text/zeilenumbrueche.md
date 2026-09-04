@@ -1,13 +1,13 @@
 ---
 title: Zeilenumbrüche
-description: Warum ein einfacher Umbruch hier wirkt — und in Standard-Markdown nicht.
+description: Warum ein Umbruch im Quelltext hier keiner auf der Seite ist — und wie man einen erzwingt.
 section: Formatierung
 tags:
   - formatierung
   - text
 ---
 
-## Ein Umbruch im Quelltext ist ein Umbruch auf der Seite
+## Ein Umbruch im Quelltext ist keiner auf der Seite
 
 ```md
 Erste Zeile
@@ -17,13 +17,14 @@ Zweite Zeile
 Erste Zeile
 Zweite Zeile
 
-Das ist **nicht** selbstverständlich. In Standard-Markdown werden diese beiden Zeilen zu einem
-Absatz zusammengezogen; man bräuchte zwei Leerzeichen am Zeilenende oder ein `<br>`.
+Beide Zeilen bilden **einen Absatz**. Das ist das Verhalten von Standard-Markdown: Ein einfacher
+Umbruch im Quelltext gilt als Leerzeichen, und der Text fließt.
 
-Hier wirkt der Umbruch, weil das Plugin *Hard line breaks* aktiv ist. Für Notizen, die in Obsidian
-geschrieben werden, ist das die erwartete Schreibweise.
+Das ist wichtig für Notizen, die im Editor umbrochen geschrieben werden — so wie alle Seiten dieser
+Website. Sie sind bei Spalte 100 umgebrochen, damit sie sich lesen und vergleichen lassen; auf der
+Seite ist davon nichts zu sehen.
 
-## Absatz statt Umbruch
+## Absatz
 
 ```md
 Ein Absatz.
@@ -35,12 +36,31 @@ Ein Absatz.
 
 Ein zweiter Absatz, durch eine Leerzeile getrennt.
 
-Der Unterschied ist sichtbar: Zwischen Absätzen liegt Abstand, zwischen umgebrochenen Zeilen nicht.
+**Das ist der übliche Weg.** Wo ein Umbruch semantisch nötig ist, ist meist ein Absatz gemeint.
 
 ## Umbruch erzwingen
 
+Für die Fälle, in denen wirklich ein Umbruch innerhalb eines Absatzes gehört — eine Anschrift, ein
+Vers, eine Zeile in einem Formular:
+
 ```md
 Erste Zeile<br>Zweite Zeile
 ```
 
 Erste Zeile<br>Zweite Zeile
+
+Oder mit zwei Leerzeichen am Zeilenende, was im Quelltext allerdings unsichtbar ist und deshalb
+leicht verloren geht.
+
+## Der Schalter dahinter
+
+Das Plugin *Hard line breaks* dreht diese Regel um: Mit ihm wird **jeder** Umbruch im Quelltext zu
+einem Umbruch auf der Seite. Obsidian selbst verhält sich so, weshalb der Schalter naheliegt.
+
+> [!warning] Diese Vorlage lässt ihn aus
+> Gemessen, bevor er ausgeschaltet wurde: neun aufgezwungene Umbrüche auf einer einzigen Seite,
+> jeder mitten im Satz. Wer seine Notizen im Editor umbricht — und das tut fast jeder, der lange
+> Texte schreibt — bekommt mit dem Plugin einen zerhackten Fließtext.
+>
+> Wer zeilenweise schreibt (Listen, Verse, kurze Zeilen) und den Umbruch wirklich meint, schaltet
+> es in der App unter *Plugins* wieder ein.

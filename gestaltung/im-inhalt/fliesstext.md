@@ -7,19 +7,20 @@ tags:
   - im-inhalt
 ---
 
-## Das Lesemaß
+## Die Breite des Textes
 
-**In dieser Vorlage** ist Fließtext auf **68 Zeichen** begrenzt. Tabellen, Codeblöcke, Diagramme,
-Bilder und Formeln sind ausgenommen und dürfen die volle Spalte nehmen.
+**In dieser Vorlage** entscheidet das Seitenraster, wie breit der Text wird — nicht eine Regel am
+Absatz. `editorial` gibt dem Inhalt die mittlere von drei Spalten, der Frame deckelt die Seite bei
+1440 px.
 
-**Von Haus aus** begrenzt Quartz nicht den Text, sondern die Seite auf eine Pixelbreite. Bei einem
-breiten Fenster wächst dadurch die Zeilenlänge.
+**Von Haus aus** macht Quartz dasselbe, nur mit anderen Zahlen: Es begrenzt die Seite über
+`.page { max-width }`.
 
-> [!example] Der Fund dahinter
-> Die Regel griff in der ersten Fassung **überhaupt nicht.** Gerendertes Markdown ist kein direktes
-> Kind von `<article>`, sondern liegt in einem `<div class="markdown-preview-view">`. `article > p`
-> traf damit nichts — und der Text sah trotzdem gut aus, weil die Spalte des Frames zufällig ungefähr
-> passte. Gemessen: `max-width` war `none`, der Absatz 786 px breit. Jetzt sind es 686 px.
+> [!note] Was hier einmal stand
+> Eine frühere Fassung begrenzte den Fließtext zusätzlich auf 68 Zeichen. Das ist ein verbreiteter
+> Rat, führt aber dazu, dass zwei Stellen dieselbe Frage beantworten — die Spaltenbreite und die
+> Zeilenlänge — und bei jeder Änderung am Frame nachgezogen werden muss. Die Entscheidung liegt
+> jetzt nur noch im Raster.
 
 ## Überschriften
 
