@@ -1,0 +1,152 @@
+{
+  "nodes": [
+    {
+      "id": "mitte",
+      "type": "text",
+      "text": "# Minimal & lesbar\n\nDie Beispielvorlage: zehn Bausteine, jede Komponente\ngestaltet, jeder Kontrast gemessen.",
+      "x": -170,
+      "y": -80,
+      "width": 340,
+      "height": 160,
+      "color": "4"
+    },
+    {
+      "id": "g1",
+      "type": "group",
+      "label": "Was Obsidian schreibt",
+      "x": -720,
+      "y": -420,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f1",
+      "type": "file",
+      "file": "formatierung/callouts/alle-typen.md",
+      "x": -700,
+      "y": -370,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t1",
+      "type": "text",
+      "text": "Jedes Element als Quelltext\nund gerendertes Ergebnis.",
+      "x": -700,
+      "y": -280,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "g2",
+      "type": "group",
+      "label": "Was keine Notiz ist",
+      "x": 380,
+      "y": -420,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f2",
+      "type": "file",
+      "file": "obsidian-formate/bases/index.md",
+      "x": 400,
+      "y": -370,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t2",
+      "type": "text",
+      "text": "Bases, Canvas, Excalidraw —\ndrei eigene Seitentypen.",
+      "x": 400,
+      "y": -280,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "g3",
+      "type": "group",
+      "label": "Was die Vorlage anders macht",
+      "x": -720,
+      "y": 160,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f3",
+      "type": "file",
+      "file": "gestaltung/grundlagen/farben-und-kontrast.md",
+      "x": -700,
+      "y": 210,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t3",
+      "type": "text",
+      "text": "Je Komponente: von Haus aus\ngegen diese Vorlage.",
+      "x": -700,
+      "y": 300,
+      "width": 300,
+      "height": 70
+    },
+    {
+      "id": "g4",
+      "type": "group",
+      "label": "Wofür der Explorer da ist",
+      "x": 380,
+      "y": 160,
+      "width": 340,
+      "height": 220
+    },
+    {
+      "id": "f4",
+      "type": "file",
+      "file": "handbuch/grundlagen/begriffe/abkuerzungen/liste.md",
+      "x": 400,
+      "y": 210,
+      "width": 300,
+      "height": 80
+    },
+    {
+      "id": "t4",
+      "type": "text",
+      "text": "Vier Ordnerebenen tief —\nfür Baum und Brotkrumen.",
+      "x": 400,
+      "y": 300,
+      "width": 300,
+      "height": 70
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "mitte",
+      "fromSide": "left",
+      "toNode": "f1",
+      "toSide": "right"
+    },
+    {
+      "id": "e2",
+      "fromNode": "mitte",
+      "fromSide": "right",
+      "toNode": "f2",
+      "toSide": "left"
+    },
+    {
+      "id": "e3",
+      "fromNode": "mitte",
+      "fromSide": "left",
+      "toNode": "f3",
+      "toSide": "right"
+    },
+    {
+      "id": "e4",
+      "fromNode": "mitte",
+      "fromSide": "right",
+      "toNode": "f4",
+      "toSide": "left"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "title": "Aufbau des editorial-Frames",
+  "kind": "structure",
+  "direction": "down",
+  "nodes": [
+    {
+      "id": "frame",
+      "label": "editorial",
+      "shape": "ellipse",
+      "color": "yellow",
+      "note": "1440 px, zentriert"
+    },
+    {
+      "id": "header",
+      "label": "Kopfbereich",
+      "color": "orange",
+      "note": "Wortmarke und Titel"
+    },
+    {
+      "id": "toolbar",
+      "label": "Werkzeugleiste",
+      "color": "teal",
+      "note": "Suche, Farbschema, Lesemodus"
+    },
+    {
+      "id": "explorer",
+      "label": "Explorer",
+      "color": "teal",
+      "note": "vier Ebenen tief"
+    },
+    {
+      "id": "notiz",
+      "label": "Hinweisbox",
+      "color": "teal",
+      "note": "Layout-Box, Markdown"
+    },
+    {
+      "id": "recent",
+      "label": "Zuletzt geaendert",
+      "color": "teal"
+    },
+    {
+      "id": "krumen",
+      "label": "Brotkrumen",
+      "color": "blue"
+    },
+    {
+      "id": "titel",
+      "label": "Titel und Datum",
+      "color": "blue"
+    },
+    {
+      "id": "props",
+      "label": "Eigenschaften",
+      "color": "blue"
+    },
+    {
+      "id": "text",
+      "label": "Der Artikel",
+      "color": "blue",
+      "note": "68 Zeichen"
+    },
+    {
+      "id": "cta",
+      "label": "Aufruf",
+      "color": "blue",
+      "note": "Layout-Box"
+    },
+    {
+      "id": "toc",
+      "label": "Inhaltsverzeichnis",
+      "color": "violet",
+      "note": "bis h6"
+    },
+    {
+      "id": "backlinks",
+      "label": "Verweise hierher",
+      "color": "violet"
+    },
+    {
+      "id": "graph",
+      "label": "Umgebung",
+      "color": "violet"
+    },
+    {
+      "id": "footer",
+      "label": "Fusszeile",
+      "color": "orange",
+      "note": "Links und Impressum"
+    }
+  ],
+  "edges": [
+    {
+      "from": "frame",
+      "to": "header"
+    },
+    {
+      "from": "frame",
+      "to": "toolbar"
+    },
+    {
+      "from": "frame",
+      "to": "krumen"
+    },
+    {
+      "from": "frame",
+      "to": "toc"
+    },
+    {
+      "from": "frame",
+      "to": "footer"
+    },
+    {
+      "from": "toolbar",
+      "to": "explorer"
+    },
+    {
+      "from": "explorer",
+      "to": "notiz"
+    },
+    {
+      "from": "notiz",
+      "to": "recent"
+    },
+    {
+      "from": "krumen",
+      "to": "titel"
+    },
+    {
+      "from": "titel",
+      "to": "props"
+    },
+    {
+      "from": "props",
+      "to": "text"
+    },
+    {
+      "from": "text",
+      "to": "cta"
+    },
+    {
+      "from": "toc",
+      "to": "backlinks"
+    },
+    {
+      "from": "backlinks",
+      "to": "graph"
+    }
+  ],
+  "legend": [
+    {
+      "color": "orange",
+      "label": "ueber die ganze Breite"
+    },
+    {
+      "color": "teal",
+      "label": "linke Spalte"
+    },
+    {
+      "color": "blue",
+      "label": "Inhalt"
+    },
+    {
+      "color": "violet",
+      "label": "rechte Spalte"
+    }
+  ]
+}

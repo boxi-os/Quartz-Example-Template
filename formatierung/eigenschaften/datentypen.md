@@ -1,0 +1,44 @@
+---
+title: Datentypen
+description: Text, Zahl, Wahrheitswert, Liste — und wie sie angezeigt werden.
+section: Formatierung
+tags:
+  - formatierung
+  - frontmatter
+zahl: 42
+wahr: true
+liste:
+  - eins
+  - zwei
+  - drei
+leer:
+---
+
+Diese Seite trägt selbst vier Beispielfelder. Die Eigenschaften-Tabelle über diesem Text zeigt sie.
+
+````md
+---
+zahl: 42
+wahr: true
+falsch: false
+liste:
+  - eins
+  - zwei
+leer:
+---
+````
+
+| Typ | Schreibweise | Anzeige in dieser Vorlage |
+| --- | --- | --- |
+| Text | `feld: Wert` | wie er ist |
+| Zahl | `zahl: 42` | in Ziffernbreite (`tabular-nums`) |
+| Wahrheitswert | `wahr: true` | als Wort, positiv eingefärbt |
+| Liste | Einträge mit `-` | als Reihe von Marken |
+| Leer | `leer:` | kursiv und gedämpft |
+| Datum | `date: 2026-09-01` | nach Gebietsschema formatiert |
+
+## Was angezeigt wird, entscheidet die Konfiguration
+
+Das Plugin *Note properties* zeigt standardmäßig nicht alles, sondern nur die Felder aus
+`includedProperties`. Diese Vorlage listet dort `description`, `tags`, `section` und die vier
+Demofelder dieser Seite. Ein Feld, das eine Seite nicht hat, bekommt keine Zeile.

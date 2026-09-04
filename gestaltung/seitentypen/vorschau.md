@@ -1,0 +1,29 @@
+---
+title: Link-Vorschau
+description: Was beim Überfahren eines internen Links erscheint.
+section: Gestaltung
+tags:
+  - gestaltung
+  - seitentypen
+---
+
+## Von Haus aus
+
+Ein Kasten mit dem Anfang der Zielseite.
+
+## In dieser Vorlage
+
+Die zweite von genau zwei Stellen mit echtem Schatten — sie schwebt wirklich über der Seite.
+Deckende Fläche, denn eine durchscheinende Vorschau über Fließtext ist unlesbar.
+
+Der Inhalt ist auf **20 rem gekappt**, und am Schnitt liegt ein weicher Verlauf: Eine abgeschnittene
+Vorschau soll geschnitten aussehen, nicht kaputt.
+
+Weggelassen wird darin, was in einer Vorschau nur stört: Callouts, Tags und Codeblöcke. Eine
+Vorschau soll die Frage beantworten, ob sich der Klick lohnt — mehr nicht.
+
+## Nur mit Zeiger
+
+Bei `@media (hover: none)` wird sie ganz abgeschaltet. Daraus folgt eine Regel für den Inhalt:
+**Keine Information darf ausschließlich in einer Vorschau stehen**, denn auf einem Telefon gibt es
+sie nicht.

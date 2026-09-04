@@ -27,4 +27,4 @@ und wiederholte, was ohnehin darüber steht.
 Wer alle Felder sehen will, stellt in der App unter *Plugins → Note properties* die Option
 `includeAll` auf wahr.
 
-Siehe auch [[formatierung/eigenschaften|Eigenschaften]] in der Formatierungsreferenz.
+Siehe auch [[formatierung/eigenschaften/frontmatter|Eigenschaften]] in der Formatierungsreferenz.

@@ -1,0 +1,18 @@
+filters:
+  and:
+    - file.hasTag("gestaltung")
+    - file.ext == "md"
+formulas:
+  Bereich: file.folder
+views:
+  - type: list
+    name: Nach Bereich
+    groupBy:
+      property: formula.Bereich
+      direction: ASC
+    order:
+      - title
+      - description
+    sort:
+      - property: file.name
+        direction: ASC

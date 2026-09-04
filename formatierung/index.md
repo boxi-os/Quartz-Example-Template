@@ -1,35 +1,35 @@
 ---
 title: Formatierung
-description: Alle Obsidian-Formatierungen — jeweils der Quelltext und direkt darunter das Ergebnis.
+description: Jedes Element, das Obsidian schreibt und Quartz rendert — Quelltext und Ergebnis nebeneinander.
 section: Formatierung
 tags:
-  - referenz
   - formatierung
 ---
 
-Diese Seiten zeigen jedes Element, das in Obsidian geschrieben und von Quartz gerendert wird:
-zuerst der Quelltext in einem Codeblock, direkt darunter das Ergebnis. Was hier gut aussieht,
-sieht überall in der Vorlage gut aus — das ist der Zweck.
+Dreizehn Bereiche, je Element eine kurze Seite. Das Muster ist überall gleich: zuerst der
+Quelltext in einem Codeblock, direkt darunter das gerenderte Ergebnis.
 
-## Die Seiten
+> [!tip] Wozu die kleinen Seiten
+> Eine Seite je Element lässt sich verlinken, im Explorer wiederfinden und einzeln nachschlagen.
+> Eine lange Sammelseite kann man nur überfliegen.
 
-| Seite | Inhalt |
-| ----- | ------ |
-| [[formatierung/text-und-betonung\|Text und Betonung]] | fett, kursiv, durchgestrichen, hervorgehoben, Sonderzeichen |
-| [[formatierung/ueberschriften\|Überschriften]] | H1 bis H6, Trennlinien, Absätze, Zeilenumbrüche |
-| [[formatierung/listen-und-aufgaben\|Listen und Aufgaben]] | geordnet, ungeordnet, verschachtelt, Aufgaben, Definitionen |
-| [[formatierung/links-und-einbettungen\|Links und Einbettungen]] | Wikilinks, Aliasse, Überschriften, Blockreferenzen, Transklusion |
-| [[formatierung/callouts\|Callouts]] | alle dreizehn Typen, faltbar, verschachtelt |
-| [[formatierung/code\|Code]] | inline, Blöcke, Sprachen, Hervorhebung |
-| [[formatierung/tabellen\|Tabellen]] | Ausrichtung, Formatierung in Zellen, breite Tabellen |
-| [[formatierung/mathematik\|Mathematik]] | LaTeX inline und als Block |
-| [[formatierung/diagramme\|Diagramme]] | Mermaid: Fluss, Sequenz, Gantt, Klassen |
-| [[formatierung/fussnoten-und-kommentare\|Fußnoten und Kommentare]] | Fußnoten, Inline-Fußnoten, Kommentare |
-| [[formatierung/eigenschaften\|Eigenschaften]] | Frontmatter, Datentypen, Anzeige |
-| [[formatierung/medien\|Medien]] | Bilder, Größen, Video, Audio, YouTube |
-| [[formatierung/sonstiges\|Sonstiges]] | HTML, Escapes, Emoji, Tags |
+## Die Bereiche
 
-> [!info] Was hier nicht steht
-> Elemente, deren Plugin in dieser Vorlage ausgeschaltet ist, werden auf der jeweiligen Seite als
-> solche benannt statt als kaputtes Beispiel gezeigt. Betroffen sind Excalidraw-Zeichnungen,
-> Literaturverweise (Citations) und verschlüsselte Seiten.
+| Bereich | Was darin steht |
+| --- | --- |
+| [[formatierung/text/betonung\|Text]] | fett, kursiv, durchgestrichen, hervorgehoben, Sonderzeichen |
+| [[formatierung/struktur/ueberschriften\|Struktur]] | Überschriften, Absätze, Trennlinien |
+| [[formatierung/listen/ungeordnet\|Listen]] | ungeordnet, geordnet, Aufgaben, Verschachtelung |
+| [[formatierung/links/wikilinks\|Links]] | Wikilinks, Sprungziele, externe Links, Einbettungen |
+| [[formatierung/callouts/grundform\|Callouts]] | alle dreizehn Typen, faltbar, verschachtelt |
+| [[formatierung/code/inline\|Code]] | inline, Blöcke, Sprachen, Zeilenhervorhebung |
+| [[formatierung/tabellen/grundform\|Tabellen]] | Grundform, Ausrichtung, Inhalte, breite Tabellen |
+| [[formatierung/mathematik/inline\|Mathematik]] | LaTeX inline und als Block |
+| [[formatierung/diagramme/fluss\|Diagramme]] | Mermaid in vier Ausprägungen |
+| [[formatierung/fussnoten/grundform\|Fußnoten]] | Fußnoten, Varianten, Kommentare |
+| [[formatierung/eigenschaften/frontmatter\|Eigenschaften]] | Frontmatter, Datentypen, Anzeige |
+| [[formatierung/medien/bilder\|Medien]] | Bilder, Größen, Video, Audio, Einbettungen |
+| [[formatierung/besonderes/html\|Besonderes]] | HTML, Escapes, Pfeile, Emoji |
+
+Was **keine** Markdown-Seite ist — Bases, Canvas und Excalidraw — steht unter
+[[obsidian-formate/index|Obsidian-Formate]].
