@@ -1,6 +1,6 @@
 ---
 title: Farben und Kontrast
-description: Neun Rollen, zwei davon verkehrt herum benannt — und 78 gemessene Paare.
+description: Neun Rollen, zwei davon verkehrt herum benannt — und 83 gemessene Paare.
 section: Gestaltung
 tags:
   - gestaltung
@@ -35,9 +35,14 @@ beide messen sich gegen jeden Grund, auf dem sie vorkommen (6,36:1 für Sienna a
 
 ## Was gemessen wird
 
-**78 Paare**, bei jedem Lauf: jede Text-auf-Grund-Kombination in beiden Modi, die Alpha-Farben über
-den Grund gerechnet, und alle zwölf Callout-Farben gegen den Grund *und* gegen ihre eigene getönte
-Fläche. Der knappste Wert liegt bei 4,68:1 gegen eine Schwelle von 4,5.
+**83 Paare**, bei jedem Lauf: jede Text-auf-Grund-Kombination in beiden Modi, die Alpha-Farben über
+den Grund gerechnet, alle zwölf Callout-Farben gegen den Grund *und* gegen ihre eigene getönte
+Fläche, und seit dem 05.09.2026 die fünf korrigierten Farben des Syntax-Themas gegen die Fläche des
+Codeblocks. Der knappste Wert liegt bei 4,68:1 gegen eine Schwelle von 4,5.
+
+Die drei Prüfungen lesen ihre Werte aus verschiedenen Dateien, aber nach demselben Prinzip: aus
+`palette.mjs`, aus `body-callouts.scss` und aus `body-code.scss` — immer aus dem, was ausgeliefert
+wird, nie aus einer zweiten Liste, die man vergessen kann.
 
 ## Die eine Ausnahme, und wohin sie führt
 

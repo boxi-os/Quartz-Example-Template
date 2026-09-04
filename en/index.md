@@ -32,7 +32,7 @@ links.
 
 1. **The width decides the grid.** The frame gives the text its column; there is no second limit on
    the individual paragraph that could fall out with it.
-2. **Colours are measured.** 78 pairs meet WCAG AA in light and dark, the twelve callout types
+2. **Colours are measured.** 83 pairs meet WCAG AA in light and dark, the twelve callout types
    included. Quartz's own callout colours do not — eleven of twelve fail.
 3. **No stylesheet contains a number.** Everything reads variables that stay editable in the app
    after the import.

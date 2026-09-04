@@ -38,5 +38,5 @@ list of all the differences would be possible too, but it would be far away from
 ## The three decisions everything else rests on
 
 1. **The width decides the grid** — the frame, in one place, not the paragraph as well.
-2. **Colours are measured.** 78 pairs, all above the WCAG threshold, in both modes.
+2. **Colours are measured.** 83 pairs, all above the WCAG threshold, in both modes.
 3. **No stylesheet contains a number.** Everything reads variables that stay editable in the app.

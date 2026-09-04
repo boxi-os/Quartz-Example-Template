@@ -43,12 +43,35 @@ It is paid for in separation: the surface now stands at 1.12 : 1 against the pag
 1.34 : 1. That is why the block takes its border from `--tpl-rule` — exactly the colour its fill
 used to be.
 
-> [!warning] One colour of the syntax theme stays below the threshold
-> The orange `github-light` uses for CSS variable names reaches only 3.04 : 1 even on the lighter
-> surface, against the 4.5 : 1 WCAG asks for text. That is not a consequence of this change — it
-> was 2.54 : 1 before — but it is the one place in this template where a visible colour has not
-> passed a measurement. Curing it would mean changing the syntax theme or overriding that one
-> token.
+## Five colours of the syntax theme are corrected
+
+The lighter ground was not enough. So the count was made over the **whole built site**: every
+`--shiki-light` and `--shiki-dark` value on all 333 pages, with its frequency and its contrast
+against the code surface. Five pairs failed:
+
+| Colour | what for | before | now |
+| --- | --- | --- | --- |
+| `#22863A` light | strings, tags (206×) | 4.02 : 1 | `#1F7A35` — 4.69 : 1 |
+| `#D73A49` light | keywords (112×) | 3.98 : 1 | `#CA2938` — 4.70 : 1 |
+| `#E36209` light | constants, CSS variables (82×) | 3.04 : 1 | `#B04C07` — 4.70 : 1 |
+| `#6A737D` light | comments (4×) | 4.19 : 1 | `#636B74` — 4.70 : 1 |
+| `#6A737D` dark | comments (4×) | 2.74 : 1 | `#949CA4` — 4.74 : 1 |
+
+Every correction keeps the hue and the saturation and changes only the lightness — `github-light`
+still reads as `github-light`. It is the same thing this template does with Quartz's callout
+colours.
+
+They have been checked on every run since: `--check-contrast` reads the five values out of
+`body-code.scss` and measures them against `--tpl-surface-code`. 78 pairs have become 83.
+
+> [!note] How that works technically
+> shiki writes the colour **inline onto every single `<span>`**
+> (`style="--shiki-light:#E36209;--shiki-dark:#FFAB70;"`), and an inline declaration beats any
+> author rule that is not `!important`. So what is overridden is the *variable*, not `color` — then
+> Quartz's own light/dark switch carries on doing what it should.
+>
+> What this does not cover: a language whose tokens produce a tenth colour would arrive unmeasured.
+> The count is repeatable — grep `--shiki-light:` out of `public/`.
 
 Long lines do not wrap, they scroll inside the block.
 

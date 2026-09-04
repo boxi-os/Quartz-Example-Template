@@ -36,12 +36,35 @@ Bezahlt wird das mit Trennung: Die Fläche steht jetzt nur noch 1,12 : 1 gegen d
 1,34 : 1. Deshalb bekommt der Block seinen Rahmen aus `--tpl-rule` — genau der Farbe, die vorher
 seine Füllung war.
 
-> [!warning] Eine Farbe des Syntax-Themas bleibt unter der Schwelle
-> Das Orange von `github-light`, mit dem CSS-Variablennamen gesetzt werden, erreicht auch auf der
-> helleren Fläche nur 3,04 : 1 statt der 4,5 : 1, die WCAG für Text verlangt. Das ist keine Folge
-> dieser Änderung — vorher waren es 2,54 : 1 —, aber es ist die eine Stelle dieser Vorlage, an der
-> eine sichtbare Farbe nicht gemessen bestanden hat. Heilen ließe sie sich nur, indem man das
-> Syntax-Thema wechselt oder diesen einen Token überschreibt.
+## Fünf Farben des Syntax-Themas sind korrigiert
+
+Der hellere Grund reichte nicht. Gezählt wurde deshalb über die **ganze gebaute Site**: jeder
+`--shiki-light`- und `--shiki-dark`-Wert auf allen 333 Seiten, mit seiner Häufigkeit und seinem
+Kontrast gegen die Codefläche. Fünf Paare fielen durch:
+
+| Farbe | wofür | vorher | jetzt |
+| --- | --- | --- | --- |
+| `#22863A` hell | Zeichenketten, Tags (206×) | 4,02 : 1 | `#1F7A35` — 4,69 : 1 |
+| `#D73A49` hell | Schlüsselwörter (112×) | 3,98 : 1 | `#CA2938` — 4,70 : 1 |
+| `#E36209` hell | Konstanten, CSS-Variablen (82×) | 3,04 : 1 | `#B04C07` — 4,70 : 1 |
+| `#6A737D` hell | Kommentare (4×) | 4,19 : 1 | `#636B74` — 4,70 : 1 |
+| `#6A737D` dunkel | Kommentare (4×) | 2,74 : 1 | `#949CA4` — 4,74 : 1 |
+
+Jede Korrektur behält Farbton und Sättigung und ändert nur die Helligkeit — `github-light` liest
+sich weiterhin als `github-light`. Es ist dasselbe, was diese Vorlage mit Quartz' Callout-Farben
+tut.
+
+Geprüft werden sie seitdem bei jedem Lauf: `--check-contrast` liest die fünf Werte aus
+`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden.
+
+> [!note] Wie das technisch geht
+> shiki schreibt die Farbe **inline an jedes einzelne `<span>`**
+> (`style="--shiki-light:#E36209;--shiki-dark:#FFAB70;"`), und eine Inline-Deklaration schlägt jede
+> Autorenregel, die nicht `!important` ist. Überschrieben wird deshalb die *Variable*, nicht
+> `color` — dann macht Quartz' eigene Hell-Dunkel-Umschaltung weiter, was sie soll.
+>
+> Was das nicht abdeckt: eine Sprache, deren Tokens eine zehnte Farbe erzeugen, käme ungemessen
+> herein. Die Zählung ist wiederholbar — `--shiki-light:` aus `public/` greppen.
 
 Lange Zeilen brechen nicht um, sondern scrollen im Block.
 
