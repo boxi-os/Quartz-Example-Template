@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240" role="img" aria-label="Ein Rechteck mit drei Spalten, das den Aufbau des editorial-Frames zeigt">
+  <rect width="480" height="240" fill="#F1EFE9"/>
+  <rect x="24" y="24" width="432" height="34" rx="6" fill="#D8D5CC"/>
+  <rect x="24" y="70" width="96" height="146" rx="6" fill="#C7C3B7"/>
+  <rect x="132" y="70" width="216" height="146" rx="6" fill="#2C5A4C"/>
+  <rect x="360" y="70" width="96" height="146" rx="6" fill="#C7C3B7"/>
+  <text x="240" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" fill="#FCFCFA" text-anchor="middle">Inhalt</text>
+  <text x="72" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Navigation</text>
+  <text x="408" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Apparat</text>
+  <text x="240" y="47" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Kopfbereich</text>
+</svg>
