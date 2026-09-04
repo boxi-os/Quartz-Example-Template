@@ -45,10 +45,11 @@ structure.
 - **Long names** are truncated rather than wrapped; three lines for a file name tear the tree
   apart.
 - **A long tree scrolls inside itself** (60 % of the window height) rather than pushing the footer
-  away, and fades out softly while doing so — but **only on the side where there is more to come**.
-  At the very top the first row is whole, at the very bottom the last one is, and a tree that is
-  showing everything anyway does not fade at all. Two registered lengths on `scroll(self block)`
-  carry that; where there is nothing to scroll there is no timeline and both stay at zero.
+  away, and fades out softly while doing so — in Chromium **only on the side where there is more to
+  come**: at the very top the first row is whole, at the very bottom the last one is, and a tree
+  that is showing everything anyway does not fade at all. Two registered lengths on
+  `scroll(self block)` carry that. Firefox and Safari have no scroll-driven animations and get the
+  edge permanently at both ends — less clever, but correct.
 - **On a phone it is a drawer.** The button sits in the app bar, becomes a cross when opened, the
   drawer travels in from the left over a darkened page, and the page itself does not scroll along
   meanwhile.
@@ -67,6 +68,23 @@ one indent in.
 The plugin's own answer — a `filterFn` for the explorer — cannot be reached from here: it is taken
 only from `quartz.ts`, and this project builds its layout from `quartz.config.yaml`. See
 [[en/design/multilingual/limits|Where the two languages stop]].
+
+## Which element actually scrolls
+
+That had to be settled before the mask and the edge could sit in the right place at all. Quartz
+gives the inner list `max-height: 100%` — and the two browsers resolve that differently:
+
+| | scrolling element | box | list |
+| --- | --- | --- | --- |
+| Chrome | the inner `ul` | 540 px, no overflow | 540 px, 148 px of overflow |
+| Firefox | the box `.explorer-content` | 540 px, 148 px of overflow | 688 px, no overflow |
+
+Measured on the same page: 148 px of overflow in both, but on two different elements. Everything
+this template hangs on the scrolling — the soft edge, the contained overscroll, the thin scrollbar
+— sits on `.explorer-content`. In Chrome that was an element which does not scroll.
+
+The list therefore gives up its cap (`max-height: none; overflow: visible`), and the box is the one
+scroller in both browsers.
 
 ## Two findings while building
 

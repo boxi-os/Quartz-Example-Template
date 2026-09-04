@@ -38,10 +38,11 @@ Struktur nicht.
 - **Lange Namen** werden abgeschnitten statt umgebrochen; drei Zeilen für einen Dateinamen zerreißen
   den Baum.
 - **Ein langer Baum scrollt in sich selbst** (60 % der Fensterhöhe) statt die Fußzeile
-  wegzuschieben, und blendet dabei weich aus — aber **nur auf der Seite, auf der noch etwas kommt**.
-  Ganz oben ist die erste Zeile vollständig, ganz unten die letzte, und ein Baum, der ohnehin
-  vollständig zu sehen ist, blendet gar nicht aus. Zwei registrierte Längen an `scroll(self block)`
-  tragen das; wo nichts zu rollen ist, gibt es keine Zeitachse und beide bleiben auf null.
+  wegzuschieben, und blendet dabei weich aus — in Chromium **nur auf der Seite, auf der noch etwas
+  kommt**: ganz oben ist die erste Zeile vollständig, ganz unten die letzte, und ein Baum, der
+  ohnehin vollständig zu sehen ist, blendet gar nicht aus. Zwei registrierte Längen an
+  `scroll(self block)` tragen das. Firefox und Safari kennen keine scroll-getriebenen Animationen
+  und bekommen die Kante deshalb dauerhaft an beiden Enden — weniger klug, aber richtig.
 - **Am Telefon ist er eine Schublade.** Der Knopf sitzt in der App-Leiste, wird beim Öffnen zum
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.
@@ -59,6 +60,25 @@ eigene Zeile gleich mit, damit der englische Baum ganz oben steht statt eine Ebe
 Der Weg des Plugins — ein `filterFn` für den Explorer — ist von hier aus nicht erreichbar: Er wird
 nur aus `quartz.ts` entgegengenommen, und dieses Projekt baut sein Layout aus
 `quartz.config.yaml`. Siehe [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
+
+## Welches Element eigentlich rollt
+
+Das musste erst geklärt werden, bevor Maske und Kante überhaupt an der richtigen Stelle sitzen
+konnten. Quartz gibt der inneren Liste `max-height: 100%` — und die beiden Browser lösen das
+verschieden auf:
+
+| | rollendes Element | Kasten | Liste |
+| --- | --- | --- | --- |
+| Chrome | die innere `ul` | 540 px, kein Überlauf | 540 px, 148 px Überlauf |
+| Firefox | der Kasten `.explorer-content` | 540 px, 148 px Überlauf | 688 px, kein Überlauf |
+
+Gemessen auf derselben Seite: 148 px Überlauf in beiden, aber an zwei verschiedenen Elementen.
+Alles, was diese Vorlage an das Rollen hängt — die weiche Kante, das eingesperrte Überscrollen, die
+dünne Rollleiste —, sitzt auf `.explorer-content`. In Chrome traf es damit ein Element, das gar
+nicht rollt.
+
+Die Liste gibt ihre Deckelung deshalb auf (`max-height: none; overflow: visible`), und der Kasten
+ist in beiden Browsern der eine Roller.
 
 ## Zwei Funde beim Bauen
 

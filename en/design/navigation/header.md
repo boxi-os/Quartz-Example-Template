@@ -56,6 +56,13 @@ Two registered lengths carry it (`--tpl-header-pad`, `--tpl-header-title`), boun
 `scroll(root block)`. Nothing here moves on its own — the height is a function of the scroll
 position, not of time — so with `prefers-reduced-motion` there is nothing to suppress.
 
+> [!note] Chromium only
+> Firefox and Safari have no scroll-driven animations. There the header sticks as well but stays
+> at its resting 61 px. Both are behind `@supports (animation-timeline: scroll())` — without that
+> bracket the `animation` shorthand runs there as an animation with **zero duration**, and
+> `fill: both` jumps straight to the end keyframe: in Firefox the header sat permanently in its
+> *small* form.
+
 Two things hang on it and are therefore in the same calculation:
 
 - The **right column** sticks below the header rather than behind it: its `top` reads
