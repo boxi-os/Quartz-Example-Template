@@ -1,6 +1,6 @@
 ---
 title: Tokens
-description: 46 Variablen, aus denen die ganze Gestaltung besteht.
+description: 49 Variablen, aus denen die ganze Gestaltung besteht.
 section: Gestaltung
 tags:
   - gestaltung
@@ -21,6 +21,17 @@ bearbeitbar, ein Wert in SCSS nicht.
 | `--tpl-radius-md` | 8px | Ecken von Karten, Codeblöcken, Callouts |
 | `--tpl-accent-bar` | 3px | Jeder Akzentbalken |
 | `--tpl-motion` | 150ms | Jede Übergangsdauer |
+
+## Zwei Zeilenabstände, nicht einer
+
+`--tpl-leading-normal` steht auf 1,65 und gilt für den Fließtext. Für alles, was in
+`--tpl-text-sm` oder kleiner gesetzt ist, gibt es `--tpl-leading-snug` mit 1,45.
+
+Das ist keine Feinheit. 1,65 ist ein Verhältnis, das für 1 rem über sechs Rasterspalten gemessen
+wurde. Dieselbe Zahl bei 0,875 rem in einer drei Spalten schmalen Leiste legt fast 21 px zwischen
+zwei Zeilen von 14 px Höhe — ein dreizeiliger Absatz liest sich dann wie drei einzelne. Genau so sah
+die Notiz-Box in der Seitenleiste aus. Die drei Bereiche, die aus Kleinschrift bestehen — linke
+Leiste, rechte Leiste, Fußzeile — sagen das einmal, statt dass jede Komponente darin es wiederholt.
 
 ## Drei Arten von Variablen
 

@@ -8,7 +8,7 @@
       "label": "editorial",
       "shape": "ellipse",
       "color": "yellow",
-      "note": "1440 px, zentriert"
+      "note": "12 Spalten, max. 1440 px"
     },
     {
       "id": "header",
@@ -19,14 +19,14 @@
     {
       "id": "toolbar",
       "label": "Werkzeugleiste",
-      "color": "teal",
-      "note": "Suche, Farbschema, Lesemodus"
+      "color": "orange",
+      "note": "im Kopf, rechts"
     },
     {
       "id": "explorer",
       "label": "Explorer",
       "color": "teal",
-      "note": "vier Ebenen tief"
+      "note": "Spalten 1 bis 3"
     },
     {
       "id": "notiz",
@@ -58,7 +58,7 @@
       "id": "text",
       "label": "Der Artikel",
       "color": "blue",
-      "note": "eine Spalte des Rasters"
+      "note": "Spalten 4 bis 9"
     },
     {
       "id": "cta",
@@ -70,7 +70,7 @@
       "id": "toc",
       "label": "Inhaltsverzeichnis",
       "color": "violet",
-      "note": "bis h6"
+      "note": "Spalten 10 bis 12"
     },
     {
       "id": "backlinks",
@@ -95,7 +95,7 @@
       "to": "header"
     },
     {
-      "from": "frame",
+      "from": "header",
       "to": "toolbar"
     },
     {
@@ -111,7 +111,7 @@
       "to": "footer"
     },
     {
-      "from": "toolbar",
+      "from": "frame",
       "to": "explorer"
     },
     {
@@ -154,15 +154,15 @@
     },
     {
       "color": "teal",
-      "label": "linke Spalte"
+      "label": "linke Spalte (1-3)"
     },
     {
       "color": "blue",
-      "label": "Inhalt"
+      "label": "Inhalt (4-9)"
     },
     {
       "color": "violet",
-      "label": "rechte Spalte"
+      "label": "rechte Spalte (10-12)"
     }
   ]
 }

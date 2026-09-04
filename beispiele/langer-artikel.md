@@ -15,9 +15,10 @@ enthält? Und wie verhält sich die Seitenleiste, wenn sie länger wird als das 
 
 ## Wie breit der Text wird
 
-Die Breite entscheidet das Seitenraster. Der Frame `editorial`, den Inhaltsseiten benutzen, gibt
-dem Text die mittlere von drei Spalten — links die Navigation, rechts das Inhaltsverzeichnis und
-die Rückverweise. Die Seite selbst ist auf 1440 Pixel begrenzt.
+Die Breite entscheidet das Seitenraster. Der Frame `editorial`, den Inhaltsseiten benutzen, teilt
+die Seite in zwölf gleiche Spalten und gibt dem Text sechs davon — links drei für die Navigation,
+rechts drei für Inhaltsverzeichnis und Rückverweise. Die Seite selbst ist auf 1440 Pixel begrenzt,
+der Text landet damit bei 690 Pixeln, also rund 72 Zeichen.
 
 ### Warum nicht zusätzlich am Absatz
 
@@ -84,11 +85,11 @@ Dazu eine ==Hervorhebung== und eine Fußnote[^lang].
 
 ### Eine Tabelle
 
-| Breite | Frame | Spalten |
-| ------ | ----- | ------- |
-| über 1100 px | editorial | drei |
-| 721 bis 1100 px | editorial | zwei |
-| bis 720 px | editorial | eine |
+| Breite | Raster | Blöcke nebeneinander |
+| ------ | ------ | -------------------- |
+| über 1100 px | 12 Spalten | drei: 3 / 6 / 3 |
+| 801 bis 1100 px | 12 Spalten | zwei: 3 / 9, Apparat unter dem Text |
+| bis 800 px | 1 Spalte | einer |
 
 ### Ein Codeblock
 

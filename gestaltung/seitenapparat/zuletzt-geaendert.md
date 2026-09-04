@@ -21,7 +21,7 @@ diese Liste im Weg.
 
 Diese Komponente benutzt **dieselben Klassennamen** wie die Ordner- und Tag-Listen: `.section`,
 `.meta`, `.desc`, `.tags`. Die Listenregeln der Vorlage waren zunächst nicht eingegrenzt und
-landeten deshalb auch hier — in einer 240 px schmalen Spalte stapelte das dreispaltige Raster Datum
+landeten deshalb auch hier — in der schmalen Seitenleiste stapelte das dreispaltige Raster Datum
 und Titel übereinander.
 
 Seitdem sind alle Listenregeln auf `.page-listing` eingegrenzt. Die Lehre: **Ein Klassenname gehört

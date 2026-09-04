@@ -9,23 +9,44 @@ tags:
 
 Ein Frame ist das Raster einer Seite: welche Bereiche es gibt, wo sie liegen, wie breit sie sind.
 
-| Frame | Genutzt von | Aufbau am Desktop |
-| --- | --- | --- |
-| `editorial` | Inhaltsseiten | drei Spalten: Navigation · Text · Apparat |
-| `index` | Ordner, Tags, Bases | zwei Spalten, rechte Leiste ausgeblendet |
-| `focus` | Fehlerseite | eine Spalte, 680 px, zentriert |
+Alle drei Frames dieser Vorlage teilen sich am Desktop **ein Raster: zwölf gleiche Spalten,
+20 px Rinne, 20 px Rand, gedeckelt auf 1440 px.** Das ergibt 1400 px nutzbare Breite, elf Rinnen und
+damit eine Spalte von 98,33 px. Die drei Blöcke rasten darauf ein:
 
-Jeder ist für **drei Breiten** ausgelegt. Die Schwellen dieser Vorlage liegen bei 1100 und 720 px —
-etwas enger als Quartz' eigene (1200 / 800), weil die linke Spalte hier schmaler ist.
+| Block | Spalten | Breite |
+| --- | --- | --- |
+| Navigation | 1–3 | 335 px |
+| Text | 4–9 | 690 px |
+| Apparat | 10–12 | 335 px |
+
+| Frame | Genutzt von | Besonderheit |
+| --- | --- | --- |
+| `editorial` | Inhaltsseiten | alle sieben Bereiche belegt |
+| `index` | Ordner, Tags, Bases | rechte Spalte bleibt frei, aber reserviert |
+| `focus` | Fehlerseite | beide Randspalten leer, kein Apparat |
+
+Dass auch Ordner-, Tag-, Bases- und Fehlerseiten die rechte Spalte behalten, ist Absicht: Der Text
+beginnt dann auf **jeder** Seite an derselben Stelle, und der Sprung von einem Artikel zu seinem
+Ordner verschiebt die Zeile nicht mehr.
+
+Jeder Frame ist für **drei Breiten** ausgelegt. Die Schwellen liegen bei 1100 und 800 px. Die 800
+sind nicht frei gewählt: Das Explorer-Plugin schaltet in seinem eigenen Stylesheet bei genau
+`max-width: 800px` auf die Schublade um. Vorher stand hier 720, und zwischen 721 und 800 px
+widersprachen sich die beiden — der Explorer war schon ein Hamburger, während der Frame die Seite
+noch als Tablet auslegte.
+
+Am Tablet fällt die rechte **Spalte** weg; ihr Inhalt rutscht unter den Text, statt zu verschwinden.
+Mobil steht alles untereinander.
 
 ## Was Quartz mitbringt
 
 **Von Haus aus** gibt es `default` (drei Spalten), `full-width` und `minimal`. Sie sind fest
 eingebaut und lassen sich nicht in der Geometrie ändern — nur auswählen.
 
-**In dieser Vorlage** sind die drei Frames selbst gebaut: Spaltenbreiten, Zeilen, Abstände,
-Maximalbreite und Ausrichtung sind je Breite gesetzt. Ein Bereich, der auf einer Breite nichts zu
-suchen hat, wird ausgeblendet statt leer gelassen.
+**In dieser Vorlage** sind die drei Frames selbst gebaut: Spaltenzahl, Zeilen, Abstände,
+Maximalbreite und Ausrichtung sind je Breite gesetzt. Ein Bereich, der auf einer Breite wirklich
+nichts zu suchen hat, wird ausgeblendet — eine Spalte, die nur gerade leer ist, bleibt dagegen
+stehen, damit die Textspalte nicht wandert.
 
 ## Zwei Eigenheiten des Editors
 

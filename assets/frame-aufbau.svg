@@ -1,11 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240" role="img" aria-label="Ein Rechteck mit drei Spalten, das den Aufbau des editorial-Frames zeigt">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="480" height="240" role="img" aria-label="Ein Zwoelf-Spalten-Raster mit Kopfbereich, dreispaltiger Navigation, sechsspaltigem Inhalt und dreispaltigem Apparat">
   <rect width="480" height="240" fill="#F1EFE9"/>
-  <rect x="24" y="24" width="432" height="34" rx="6" fill="#D8D5CC"/>
-  <rect x="24" y="70" width="96" height="146" rx="6" fill="#C7C3B7"/>
-  <rect x="132" y="70" width="216" height="146" rx="6" fill="#2C5A4C"/>
-  <rect x="360" y="70" width="96" height="146" rx="6" fill="#C7C3B7"/>
-  <text x="240" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" fill="#FCFCFA" text-anchor="middle">Inhalt</text>
-  <text x="72" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Navigation</text>
-  <text x="408" y="148" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Apparat</text>
-  <text x="240" y="47" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Kopfbereich</text>
+  <rect x="24.0" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="60.5" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="97.0" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="133.5" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="170.1" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="206.6" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="243.1" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="279.6" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="316.1" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="352.6" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="389.1" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="425.6" y="14" width="30.3" height="4" rx="2" fill="#C7C3B7"/>
+  <rect x="24" y="30" width="432" height="30" rx="6" fill="#D8D5CC"/>
+  <rect x="24.0" y="72" width="103.4" height="144" rx="6" fill="#C7C3B7"/>
+  <rect x="133.5" y="72" width="212.9" height="144" rx="6" fill="#2A4E6C"/>
+  <rect x="352.6" y="72" width="103.4" height="144" rx="6" fill="#C7C3B7"/>
+  <text x="240.0" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="15" fill="#FCFCFA" text-anchor="middle">Inhalt</text>
+  <text x="240.0" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#C9D6E2" text-anchor="middle">6 Spalten</text>
+  <text x="75.7" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Navigation</text>
+  <text x="75.7" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#33322E" text-anchor="middle">3 Spalten</text>
+  <text x="404.3" y="140" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Apparat</text>
+  <text x="404.3" y="160" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#33322E" text-anchor="middle">3 Spalten</text>
+  <text x="240" y="50" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12" fill="#33322E" text-anchor="middle">Kopfbereich</text>
+  <text x="240" y="232" font-family="ui-sans-serif, system-ui, sans-serif" font-size="11" fill="#5F5D57" text-anchor="middle">12 Spalten · 20 px Rinne · 20 px Rand · max. 1440 px</text>
 </svg>

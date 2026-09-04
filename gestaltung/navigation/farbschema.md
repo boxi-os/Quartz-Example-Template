@@ -13,7 +13,7 @@ Ein Knopf mit zwei Symbolen, von denen je nach Schema eines sichtbar ist.
 
 ## In dieser Vorlage
 
-Er ist Teil der Werkzeugleiste und teilt deren Maße: 44 × 44 px, gleicher Rahmen, gleiche Ecken wie
+Er ist Teil der Werkzeugleiste im Kopfbereich und teilt deren Maße: 44 × 44 px, gleicher Rahmen, gleiche Ecken wie
 Suche und Lesemodus. Eine Reihe von Bedienelementen mit unterschiedlichen Höhen liest sich als
 Fehler.
 

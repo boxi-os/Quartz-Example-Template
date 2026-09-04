@@ -20,10 +20,17 @@ Quartz benennt seine Palette nach Rollen. **Zwei davon lesen sich rückwärts:**
 | `gray` | Sekundärtext **und jeder Rand eines Bedienelements** | `#5F5D57` | `#A1A3A8` |
 | `darkgray` | Fließtext | `#33322E` | `#D5D7DB` |
 | `dark` | Überschriften | `#17171A` | `#F3F4F6` |
-| `secondary` | Links, der eine Akzent | `#2C5A4C` | `#86D5BC` |
-| `tertiary` | Link-Hover | `#1F4034` | `#B4E4D3` |
+| `secondary` | Links, der eine Akzent | `#2A4E6C` | `#8CB8DA` |
+| `tertiary` | Link-Hover, aktive Navigation | `#9C4221` | `#E8A56B` |
 | `highlight` | getönte Fläche | 10 % Akzent | 12 % Akzent |
-| `textHighlight` | `==Hervorhebung==` | warmes Gelb | Akzent, 28 % |
+| `textHighlight` | `==Hervorhebung==` | warmes Gelb | Akzent, 30 % |
+
+Die beiden Akzente sind mit Absicht **zwei verschiedene Farben** und nicht zwei Helligkeiten
+derselben. `tertiary` markiert, was gerade angefasst oder gerade aktiv ist; wenn es nur eine
+dunklere Variante von `secondary` wäre, sähe man dem Ergebnis nicht an, welche der beiden Rollen
+gerade greift. Ein tiefes Navy und ein warmes Sienna beantworten diese Frage auf einen Blick — und
+beide messen sich gegen jeden Grund, auf dem sie vorkommen (6,36:1 für Sienna auf dem Seitengrund,
+4,76:1 auf einer Karte).
 
 ## Was gemessen wird
 

@@ -21,6 +21,10 @@ Ziffernbreite untereinander.
 
 Unter 720 px fällt das auf eine Spalte zusammen; das Datum ist der Teil, der wandert.
 
+Am Desktop behalten Ordner- und Tag-Seiten die **rechte Spalte**, auch wenn nur Rückverweise darin
+stehen. Damit beginnt die Liste genau dort, wo auf einer Inhaltsseite der Text beginnt — der Sprung
+von einem Artikel zu seinem Ordner verschiebt die Zeile nicht mehr.
+
 Beide Seitentypen nutzen den Frame **`index`**: zwei Spalten ohne rechte Leiste. Eine Liste von
 Links braucht kein Inhaltsverzeichnis und keine Rückverweise.
 
@@ -30,7 +34,7 @@ Links braucht kein Inhaltsverzeichnis und keine Rückverweise.
 gedämpft setzt, gräut jeden Eintragstitel auf jeder Listenseite aus.
 
 **Dieselben Klassennamen benutzt „zuletzt geändert".** Ohne Eingrenzung auf `.page-listing` landet
-das dreispaltige Raster in der 240 px schmalen Seitenleiste.
+das dreispaltige Raster in der schmalen Seitenleiste.
 
 ## Die Tag-Seite
 

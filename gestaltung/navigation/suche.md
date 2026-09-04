@@ -15,8 +15,9 @@ Ein Knopf mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgra
 
 - Der Rand kommt aus **`gray`**, nicht aus `lightgray`. Das ist die Umsetzung der Kontrastregel:
   `lightgray` misst 1,34:1 gegen den Grund und darf deshalb nichts umranden, das man bedient.
-- Der Knopf ist **44 px hoch** und füllt die Breite der Leiste — er ist das wichtigste Bedienelement
-  der Seitenleiste.
+- Der Knopf steht **im Kopfbereich**, ganz rechts, zusammen mit den beiden Umschaltern. Er ist
+  44 px hoch und rund 15 rem breit — breit genug, um als Feld gelesen zu werden, schmal genug, dass
+  der Kopf weiter dem Seitentitel gehört. Am Telefon wird er ein Quadrat ohne Beschriftung.
 - Die **Überlagerung** ist eine von genau zwei Stellen dieser Vorlage mit echtem Schatten. Sie
   schwebt wirklich über der Seite, also darf sie es auch zeigen.
 - Das **Eingabefeld** bekommt keinen Fokusring, sondern eine kräftigere Unterkante — ein Ring
