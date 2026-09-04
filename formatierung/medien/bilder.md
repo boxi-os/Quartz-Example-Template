@@ -105,4 +105,4 @@ Hintergrund auf dem warmen Grund dieser Seite wie ein Loch aus — **von Haus au
 rahmenlos.
 
 Eine ausdrücklich gesetzte Breite bleibt erhalten; die Vorlage begrenzt nur nach oben auf die
-Spaltenbreite. Bilder sind vom Lesemaß ausgenommen und dürfen die ganze Spalte nutzen.
+Spaltenbreite.

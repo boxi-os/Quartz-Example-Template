@@ -1,6 +1,6 @@
 ---
 title: Fließtext
-description: Das Lesemaß, die Überschriftenskala und die Links darin.
+description: Die Breite des Textes, die Überschriftenskala und die Links darin.
 section: Gestaltung
 tags:
   - gestaltung

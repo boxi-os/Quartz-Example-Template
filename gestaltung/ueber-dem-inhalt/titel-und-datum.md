@@ -11,10 +11,9 @@ tags:
 
 **Von Haus aus** setzt Quartz die Seitenüberschrift in derselben Größe wie eine `h1` im Text.
 
-**In dieser Vorlage** ist sie größer, enger gesperrt (`letter-spacing: -0.02em`) und **vom Lesemaß
-ausgenommen**: Ein Titel wird überflogen, nicht Zeile für Zeile gelesen, und ein Titel, der nach
-vier Wörtern umbricht, sieht aus wie ein Versehen. `text-wrap: balance` verteilt die Zeilen
-gleichmäßig, wenn er doch umbricht.
+**In dieser Vorlage** ist sie größer und enger gesperrt (`letter-spacing: -0.02em`), und ihre
+Zeilen werden ausgeglichen statt gefüllt (`text-wrap: balance`): Ein Titel wird überflogen, nicht
+Zeile für Zeile gelesen, und einer, der nach vier Wörtern umbricht, sieht aus wie ein Versehen.
 
 Auf schmalen Bildschirmen sinkt er eine Stufe — bei 390 px wäre die volle Größe der halbe
 Bildschirm.

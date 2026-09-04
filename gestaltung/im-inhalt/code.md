@@ -19,7 +19,7 @@ Inter sonst zu groß wirkt.
 Die Fläche kommt von der Vorlage, nicht vom Syntax-Thema: `keepBackground: false` sorgt dafür, dass
 shiki nur die Zeichenfarben setzt. Nur so passt der Block in beiden Farbschemata.
 
-Der Block ist vom Lesemaß ausgenommen und scrollt bei langen Zeilen in sich selbst.
+Lange Zeilen brechen nicht um, sondern scrollen im Block.
 
 ## Das Sprachlabel
 

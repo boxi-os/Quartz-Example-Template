@@ -10,7 +10,7 @@ tags:
 | Kennung | Bezeichnung | Bereich | Standard | Beschreibung |
 | ------- | ----------- | ------- | -------- | ------------ |
 | `--tpl-space-md` | Abstand mittel | Raum | 1rem | Der Grundabstand zwischen Blöcken |
-| `--tpl-measure` | Lesemaß | Typografie | 68ch | Zeilenlänge des Fließtexts |
+| `--tpl-space-lg` | Abstand groß | Raum | 1.5rem | Zwischen Blöcken und um Figuren |
 | `--tpl-radius-md` | Radius mittel | Form | 8px | Ecken von Karten und Codeblöcken |
 | `--tpl-focus-color` | Fokusfarbe | Zustand | var(--secondary) | Farbe des Fokusrings |
 | `--tpl-indent` | Einrückung | Struktur | 0.85rem | Eine Ebene in Explorer und Inhaltsverzeichnis |

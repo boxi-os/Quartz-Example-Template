@@ -13,22 +13,21 @@ Diese Seite ist absichtlich lang und tief gegliedert. Sie beantwortet zwei Frage
 Seite nicht beantworten kann: Wie sieht das Inhaltsverzeichnis aus, wenn es alle sechs Ebenen
 enthält? Und wie verhält sich die Seitenleiste, wenn sie länger wird als das Fenster?
 
-## Das Lesemaß
+## Wie breit der Text wird
 
-Der Fließtext ist auf 68 Zeichen begrenzt. Das ist die einzige wirksamste Entscheidung für
-Lesbarkeit in dieser Vorlage — und diejenige, die am häufigsten verloren geht, sobald ein Layout
-breiter wird. Tabellen, Codeblöcke, Diagramme und Bilder gelten nicht als Fließtext und dürfen die
-ganze Spalte nehmen.
+Die Breite entscheidet das Seitenraster. Der Frame `editorial`, den Inhaltsseiten benutzen, gibt
+dem Text die mittlere von drei Spalten — links die Navigation, rechts das Inhaltsverzeichnis und
+die Rückverweise. Die Seite selbst ist auf 1440 Pixel begrenzt.
 
-### Warum nicht die ganze Breite
+### Warum nicht zusätzlich am Absatz
 
-Eine Zeile mit 140 Zeichen zwingt das Auge, den Zeilenanfang zu suchen. Auf einem 1728 Pixel
-breiten Bildschirm wäre genau das die Folge, wenn der Text der Spalte folgte.
+Eine zweite Begrenzung am einzelnen Absatz wäre eine zweite Stelle, an der über dieselbe Frage
+entschieden wird. Zwei solche Stellen müssen von Hand in Übereinstimmung gehalten werden — und
+irgendwann sind sie es nicht mehr.
 
-#### Was stattdessen mit der Breite passiert
+#### Was das für breite Bildschirme heißt
 
-Sie geht an die Spalten daneben: links die Navigation, rechts das Inhaltsverzeichnis und die
-Rückverweise. Bleibt Platz übrig, bleibt er leer.
+Bleibt Platz übrig, geht er an die Spalten daneben, nicht an die Zeilenlänge.
 
 ##### Ab welcher Breite umgebrochen wird
 
@@ -94,7 +93,7 @@ Dazu eine ==Hervorhebung== und eine Fußnote[^lang].
 ### Ein Codeblock
 
 ```ts
-// Der Block darf die ganze Spalte nehmen; das Lesemaß gilt hier nicht.
+// Lange Zeilen scrollen, statt umzubrechen.
 export function measure(text: string): number {
   return text.length
 }

@@ -23,8 +23,8 @@ ein Graph braucht Verweise.
 
 ## Die drei Entscheidungen, die alles tragen
 
-1. **Der Text hat ein Maß.** 68 Zeichen, unabhängig von der Fensterbreite. Tabellen, Diagramme und
-   Codeblöcke dürfen die ganze Spalte nehmen — Fließtext nicht.
+1. **Die Breite entscheidet das Raster.** Der Frame gibt dem Text seine Spalte; es gibt keine
+   zweite Begrenzung am einzelnen Absatz, die damit in Streit geraten könnte.
 2. **Farben sind gemessen.** 78 Paare erfüllen WCAG AA in hell und dunkel, die zwölf Callout-Typen
    eingeschlossen. Quartz' eigene Callout-Farben tun das nicht — elf von zwölf scheitern.
 3. **Kein Stylesheet enthält eine Zahl.** Alles liest Variablen, die nach dem Import in der App

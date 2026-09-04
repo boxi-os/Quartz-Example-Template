@@ -58,7 +58,7 @@
       "id": "text",
       "label": "Der Artikel",
       "color": "blue",
-      "note": "68 Zeichen"
+      "note": "eine Spalte des Rasters"
     },
     {
       "id": "cta",

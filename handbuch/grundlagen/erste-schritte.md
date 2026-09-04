@@ -11,8 +11,8 @@ diesem Layout aussieht, wenn sie weder lang noch kurz ist.
 
 ## Ein Abschnitt
 
-Der Text steht im Maß von 68 Zeichen. Rechts stehen Inhaltsverzeichnis und Rückverweise, links die
-Navigation. Auf einem Tablet wandert die rechte Spalte unter den Text, auf einem Telefon steht
+Der Text nimmt die mittlere Spalte des Frames. Rechts stehen Inhaltsverzeichnis und Rückverweise,
+links die Navigation. Auf einem Tablet wandert die rechte Spalte unter den Text, auf einem Telefon steht
 alles untereinander.
 
 ## Noch einer

@@ -52,8 +52,8 @@ configuration:
 
 ## Lange Zeilen
 
-Ein Codeblock ist die eine Stelle, an der das Lesemaß nicht gilt: Einen Shell-Befehl umzubrechen
-kostet mehr, als ihn zu scrollen.
+Ein Codeblock bricht lange Zeilen nicht um, sondern scrollt: Einen Shell-Befehl umzubrechen kostet
+mehr, als ihn zu scrollen.
 
 ```bash
 npx quartz build --serve --port 8080 --wsPort 3001 --bundleInfo --verbose --directory content

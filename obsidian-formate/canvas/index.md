@@ -17,8 +17,8 @@ Wie das Format aufgebaut ist: [[obsidian-formate/canvas/wie-es-funktioniert|Wie 
 
 ## In dieser Vorlage
 
-Eine Canvas-Seite braucht die **volle Breite** — eine Fläche in einer 68 Zeichen breiten Spalte
-zeigt nichts. Das Plugin bringt dafür ein eigenes Seitenraster mit, und diese Vorlage lässt ihm den
+Eine Canvas-Seite braucht die **volle Breite** — eine Fläche in der schmalen Textspalte zeigt
+nichts. Das Plugin bringt dafür ein eigenes Seitenraster mit, und diese Vorlage lässt ihm den
 Vortritt.
 
 > [!note] Zoomen und Verschieben

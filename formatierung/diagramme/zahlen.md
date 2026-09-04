@@ -39,7 +39,7 @@ quadrantChart
     quadrant-2 Planen
     quadrant-3 Lassen
     quadrant-4 Delegieren
-    Lesemass: [0.2, 0.9]
+    Fliesstext lesbar: [0.2, 0.9]
     Kontrast messen: [0.4, 0.85]
     Eigene Frames: [0.8, 0.6]
     Callout-Farben: [0.3, 0.7]
@@ -55,7 +55,7 @@ quadrantChart
     quadrant-2 Planen
     quadrant-3 Lassen
     quadrant-4 Delegieren
-    Lesemass: [0.2, 0.9]
+    Fliesstext lesbar: [0.2, 0.9]
     Kontrast messen: [0.4, 0.85]
     Eigene Frames: [0.8, 0.6]
     Callout-Farben: [0.3, 0.7]
