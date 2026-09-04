@@ -12,10 +12,27 @@ oder mehreren Ansichten. Die Datei ist YAML und endet auf `.base`.
 
 Zwei Beispiele in diesem Vault, beide über die Notizen dieser Website selbst:
 
-- [[obsidian-formate/bases/Formatierungsseiten.base|Formatierungsseiten]] — Tabelle und Karten
-- [[obsidian-formate/bases/Gestaltungsseiten.base|Gestaltungsseiten]] — nach Bereich gruppierte Liste
+- [[obsidian-formate/bases/Alle-Ansichten.base|Alle Ansichten]] — **alle fünf Darstellungsformen**
+  derselben Daten: Tabelle, Kacheln, Liste, Board und Galerie
+- [[obsidian-formate/bases/Formatierungsseiten.base|Formatierungsseiten]] — Tabelle und Kacheln
+- [[obsidian-formate/bases/Gestaltungsseiten.base|Gestaltungsseiten]] — Liste, nach Bereich gruppiert
 
 Wie das Format aufgebaut ist: [[obsidian-formate/bases/wie-es-funktioniert|Wie es funktioniert]].
+
+## Die fünf Darstellungsformen
+
+Eine Base kann dieselben Daten auf fünf Arten zeigen; die Umschalter stehen oben auf der Seite.
+
+| Ansicht | Wofür sie taugt |
+| --- | --- |
+| **Tabelle** | viele Spalten vergleichen, nach einer Spalte sortieren |
+| **Kacheln** | wenige Angaben je Eintrag, nebeneinander überfliegen |
+| **Liste** | kompakt untereinander, mit Gruppierung |
+| **Board** | nach einem Feld in Spalten aufgeteilt, wie ein Kanban |
+| **Galerie** | großflächig, für Einträge mit Bild |
+
+Alle fünf sind in dieser Vorlage gestaltet — zu sehen unter
+[[obsidian-formate/bases/Alle-Ansichten.base|Alle Ansichten]].
 
 ## In dieser Vorlage
 

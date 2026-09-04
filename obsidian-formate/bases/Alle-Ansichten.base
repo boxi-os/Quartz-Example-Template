@@ -1,0 +1,50 @@
+filters:
+  and:
+    - file.hasTag("formatierung")
+    - file.ext == "md"
+formulas:
+  Bereich: file.folder
+views:
+  - type: table
+    name: Tabelle
+    order:
+      - title
+      - description
+      - formula.Bereich
+    sort:
+      - property: title
+        direction: ASC
+  - type: cards
+    name: Kacheln
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: list
+    name: Liste
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: board
+    name: Board
+    groupBy:
+      property: formula.Bereich
+      direction: ASC
+    order:
+      - title
+    sort:
+      - property: title
+        direction: ASC
+  - type: gallery
+    name: Galerie
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
