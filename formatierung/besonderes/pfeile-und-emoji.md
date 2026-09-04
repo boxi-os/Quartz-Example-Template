@@ -32,6 +32,18 @@ der Tag-Liste.
 Absatz voller Pillen ist nicht lesbar. Unter dem Titel, wo die Tags gesammelt stehen, behalten sie
 die Pille.
 
+### Tags mit Ebenen
+
+Ein Schrägstrich staffelt Tags:
+
+```md
+#bereich/unterbereich
+```
+
+Jede Ebene bekommt eine eigene Tag-Seite, und die übergeordnete sammelt die untergeordneten mit
+ein. Gut für ein Vokabular, das wachsen soll — `#quelle/buch` und `#quelle/artikel` liegen dann
+beide unter `#quelle`.
+
 ## Emoji
 
 ```md

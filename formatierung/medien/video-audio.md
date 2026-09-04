@@ -1,45 +1,78 @@
 ---
 title: Video und Audio
-description: Bewegtbild und Ton einbinden.
+description: Ton und Bewegtbild einbinden — mit dem, was Quartz von selbst daraus macht.
 section: Formatierung
 tags:
   - formatierung
   - medien
 ---
 
-## Aus dem Vault
+## Audio
 
 ```md
-![[video.mp4]]
-![[ton.mp3]]
+![[beispiel-ton.wav]]
 ```
 
-Obsidian und Quartz erzeugen daraus `<video>` bzw. `<audio>` mit Bedienelementen.
+![[beispiel-ton.wav]]
 
-## Als HTML
+Aus dem Wikilink wird ein `<audio controls>` — mit Abspielknopf, Fortschritt und Lautstärke, ohne
+dass man etwas dafür tut. Unterstützt werden die Formate, die der Browser kennt: **WAV**, **MP3**,
+**OGG**, **M4A**, **FLAC**, **WebM**.
+
+Auch als HTML, wenn man Attribute braucht:
 
 ```md
-<video src="assets/video.mp4" controls></video>
-<audio src="assets/ton.mp3" controls></audio>
+<audio src="assets/beispiel-ton.wav" controls preload="none"></audio>
 ```
 
-Der Weg über HTML erlaubt zusätzliche Attribute wie `poster`, `loop` oder `muted`.
+<audio src="assets/beispiel-ton.wav" controls preload="none"></audio>
 
-## YouTube
+`preload="none"` lädt die Datei erst beim Abspielen — bei mehreren Aufnahmen auf einer Seite ist
+das der Unterschied zwischen einer schnellen und einer langsamen Seite.
+
+## Video
+
+```md
+![[film.mp4]]
+<video src="assets/film.mp4" controls poster="assets/beispiel-breit.png"></video>
+```
+
+Dieselbe Mechanik: Der Wikilink wird zu einem `<video controls>`. Formate sind **MP4**, **WebM**
+und **OGV**.
+
+> [!info] Hier liegt keine Videodatei
+> Diese Vorlage bringt bewusst keine mit: Schon ein paar Sekunden Video wiegen mehr als der ganze
+> übrige Beispielinhalt, und ein Vorlagenpaket transportiert ohnehin keine Mediendateien. Die
+> Gestaltung für `<video>` ist trotzdem da und greift, sobald eine Datei danebenliegt.
+>
+> Für kurze Bewegung ohne Ton ist ein [[formatierung/medien/bilder|GIF]] die einfachere Wahl —
+> eines liegt auf der Bilderseite.
+
+### Das Vorschaubild
+
+`poster` bestimmt, was vor dem Abspielen zu sehen ist. Ohne Angabe zeigt der Browser das erste
+Bild — und das ist bei einer Aufblende schwarz.
+
+### YouTube und andere Dienste
 
 ```md
 ![](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ```
 
-Das Plugin *Obsidian flavored markdown* wandelt die URL in eine Einbettung, wenn
+Das Plugin *Obsidian flavored markdown* wandelt die nackte URL in eine Einbettung, wenn
 `enableYouTubeEmbed` aktiv ist — in dieser Vorlage ist es das.
 
 ## In dieser Vorlage
 
-Eine Einbettung behält das Seitenverhältnis 16:9. Ohne diese Regel fällt ein `iframe` in einer
-Grid-Zelle auf null Höhe zusammen — das passiert genau dann, wenn die Seite ein eigenes
-Seitenraster verwendet, also in dieser Vorlage überall.
+- Ein **Audiospieler** nimmt die volle Spaltenbreite und bekommt Abstand nach oben und unten. Das
+  Bedienelement selbst gehört dem Browser; die Vorlage rührt es nicht an, weil ein nachgebauter
+  Spieler seine Tastaturbedienung verliert.
+- Ein **Video** bekommt Rahmen und Ecken wie ein Bild und behält sein Seitenverhältnis.
+- Eine **Einbettung** (`iframe`) bekommt `aspect-ratio: 16/9`. Ohne diese Regel fällt sie in einer
+  Grid-Zelle auf null Höhe zusammen — was genau dann passiert, wenn die Seite ein eigenes Raster
+  verwendet, also in dieser Vorlage überall.
 
-> [!note] Kein Beispiel auf dieser Seite
-> Video- und Audiodateien würden das Vorlagenpaket unnötig schwer machen. Die Regeln sind
-> vorhanden, das Beispiel fehlt bewusst.
+> [!tip] Untertitel gehören dazu
+> `<video>` nimmt `<track kind="captions" src="…vtt" srclang="de" default>`. Ohne Untertitel ist
+> ein Video für einen Teil der Leser nicht zugänglich — und für alle unbrauchbar, die es ohne Ton
+> ansehen.

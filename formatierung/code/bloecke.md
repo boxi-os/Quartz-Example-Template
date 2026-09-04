@@ -33,6 +33,23 @@ Reiner Text ohne Hervorhebung.
 Reiner Text ohne Hervorhebung.
 ```
 
+## Mit Titel
+
+Ein `title=` hinter der Sprache setzt eine Beschriftung über den Block — praktisch, um den
+Dateinamen zu nennen, zu dem der Ausschnitt gehört.
+
+````md
+```yaml title="quartz.config.yaml"
+configuration:
+  pageTitle: Minimal & lesbar
+```
+````
+
+```yaml title="quartz.config.yaml"
+configuration:
+  pageTitle: Minimal & lesbar
+```
+
 ## Lange Zeilen
 
 Ein Codeblock ist die eine Stelle, an der das Lesemaß nicht gilt: Einen Shell-Befehl umzubrechen

@@ -32,6 +32,27 @@ kein Zustand — deshalb drei Signale statt einem.
 Außerdem verliert die Liste ihre Aufzählungspunkte, sobald sie Kästchen enthält: Punkt und Kästchen
 nebeneinander sind eine Marke zu viel.
 
+## Andere Zeichen im Kästchen
+
+Obsidian erlaubt beliebige Zeichen zwischen den Klammern und zeigt dafür eigene Symbole:
+
+```md
+- [/] halb erledigt
+- [-] verworfen
+- [>] verschoben
+- [?] fraglich
+```
+
+- [/] halb erledigt
+- [-] verworfen
+- [>] verschoben
+- [?] fraglich
+
+> [!warning] Auf der Website bleibt nur offen und erledigt
+> Gemessen: Von allen Zeichen erkennt Quartz nur `[ ]` und `[x]` als Zustand — der Rest wird zu
+> einem leeren Kästchen, das Zeichen geht verloren. Wer die Zwischenzustände auch auf der Website
+> braucht, schreibt sie in den Text statt in die Klammer.
+
 > [!note] Anklickbar sind sie nicht
 > Auf einer gebauten Website ist das Kästchen eine Anzeige, kein Bedienelement. Abgehakt wird in
 > Obsidian.

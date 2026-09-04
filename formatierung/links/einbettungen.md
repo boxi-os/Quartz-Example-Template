@@ -23,6 +23,29 @@ Ein Ausrufezeichen vor dem Wikilink bettet den Inhalt ein, statt darauf zu verwe
 
 ![[formatierung/links/wikilinks#Kurzform]]
 
+## Nur einen Block
+
+Mit der Blockkennung aus [[formatierung/links/ziele|Sprungziele]]:
+
+```md
+![[formatierung/links/ziele#^merksatz]]
+```
+
+![[formatierung/links/ziele#^merksatz]]
+
+Das ist die feinste Stufe: ein einzelner Absatz statt einer ganzen Seite oder eines Abschnitts.
+
+## Ein Bild von außerhalb
+
+Auch eine URL lässt sich einbetten:
+
+```md
+![Beschreibung](https://example.com/bild.png)
+```
+
+Das lädt bei jedem Seitenaufruf von einem fremden Server. Für eine Website, die auch offline und in
+zehn Jahren noch funktionieren soll, ist die Datei im Vault die bessere Wahl.
+
 ## In dieser Vorlage
 
 Eine eingebettete Seite bekommt einen gestrichelten Balken links und eine getönte Fläche — man soll
