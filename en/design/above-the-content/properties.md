@@ -22,7 +22,9 @@ A plain table in the text colour, collapsible.
 ## In this template
 
 - on a **tinted surface** with a border and rounded corners
-- the **header row** capitalised, small and muted — it is a label, not content
+- the **header row** capitalised, small and muted — it is a label, not content, and since
+  2026-09-05 it carries no rule beneath it: a second horizontal so close to the box's own edge
+  reads as a seam
 - the **key** muted and as wide as its text, the **value** takes the rest
 - **value types** are distinguished: a number in figure width, a boolean as a coloured word, a list
   as a row of markers, an empty field in italics

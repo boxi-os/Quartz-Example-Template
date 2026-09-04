@@ -35,6 +35,28 @@ Zwei Feinheiten:
   volle Breite und nimmt den Schubladen-Knopf des Explorers mit auf. Die Suche gibt dort ihr Wort
   auf und wird ein Quadrat wie die beiden anderen; ihre 44 px behält sie.
 
+## Er bleibt stehen und wird kleiner
+
+Seit dem 05.09.2026 klebt der Kopf auf jeder Breite oben am Fenster, nicht mehr nur am Telefon: Die
+vier Bedienelemente und der Weg zurück zur Startseite sind das, wonach man mitten in einem langen
+Artikel greift, und mehrere Seiten hier sind drei Bildschirme hoch.
+
+Beim Scrollen schrumpft er. Was dabei kleiner wird, ist der **Innenabstand** und der Seitentitel —
+nicht die Bedienelemente: Ein Ziel, das seine Größe ändert, während man danach greift, ist
+schlimmer als eine hohe Leiste. Gemessen: 61 px in Ruhe, 49 px ab 4 rem Scrollweg.
+
+Getragen wird das von zwei registrierten Längen (`--tpl-header-pad`, `--tpl-header-title`), die an
+`scroll(root block)` hängen. Nichts davon bewegt sich von selbst — die Höhe ist eine Funktion der
+Scrollposition, nicht der Zeit —, deshalb gibt es bei `prefers-reduced-motion` auch nichts zu
+unterdrücken.
+
+Zwei Dinge hängen daran und stehen deshalb in derselben Rechnung:
+
+- Die **rechte Spalte** klebt unter dem Kopf, nicht darunter verborgen: Ihr `top` liest
+  `--tpl-header-h` und wandert mit nach oben, während der Kopf schrumpft.
+- **Sprungziele** halten die Höhe der kleinen Leiste über sich frei (`scroll-margin-block-start`),
+  sonst landete jede Überschrift aus dem Inhaltsverzeichnis hinter dem Kopf.
+
 ## Ein Fund beim Bauen
 
 Das Plugin setzt `width: 100%` auf jede Layout-Box. In einer Flex-Zeile machte das die Marke

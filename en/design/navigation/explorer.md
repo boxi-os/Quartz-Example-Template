@@ -45,8 +45,10 @@ structure.
 - **Long names** are truncated rather than wrapped; three lines for a file name tear the tree
   apart.
 - **A long tree scrolls inside itself** (60 % of the window height) rather than pushing the footer
-  away, and **fades out softly at the top and bottom** while doing so — the edge says there is more
-  without drawing a line.
+  away, and fades out softly while doing so — but **only on the side where there is more to come**.
+  At the very top the first row is whole, at the very bottom the last one is, and a tree that is
+  showing everything anyway does not fade at all. Two registered lengths on `scroll(self block)`
+  carry that; where there is nothing to scroll there is no timeline and both stay at zero.
 - **On a phone it is a drawer.** The button sits in the app bar, becomes a cross when opened, the
   drawer travels in from the left over a darkened page, and the page itself does not scroll along
   meanwhile.

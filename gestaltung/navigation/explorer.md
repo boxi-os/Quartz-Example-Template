@@ -38,8 +38,10 @@ Struktur nicht.
 - **Lange Namen** werden abgeschnitten statt umgebrochen; drei Zeilen für einen Dateinamen zerreißen
   den Baum.
 - **Ein langer Baum scrollt in sich selbst** (60 % der Fensterhöhe) statt die Fußzeile
-  wegzuschieben, und blendet dabei **oben und unten weich aus** — die Kante sagt, dass da noch mehr
-  ist, ohne eine Linie zu ziehen.
+  wegzuschieben, und blendet dabei weich aus — aber **nur auf der Seite, auf der noch etwas kommt**.
+  Ganz oben ist die erste Zeile vollständig, ganz unten die letzte, und ein Baum, der ohnehin
+  vollständig zu sehen ist, blendet gar nicht aus. Zwei registrierte Längen an `scroll(self block)`
+  tragen das; wo nichts zu rollen ist, gibt es keine Zeitachse und beide bleiben auf null.
 - **Am Telefon ist er eine Schublade.** Der Knopf sitzt in der App-Leiste, wird beim Öffnen zum
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.

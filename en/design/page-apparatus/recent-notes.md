@@ -21,9 +21,18 @@ A list of the most recently edited pages with date, description and tags.
 
 ## In this template
 
-Limited to five entries, separated by hairlines, description truncated after two lines. Visible
-only on the desktop — on a phone the sidebar stands above the content, and there this list is in
-the way.
+Limited to five entries, separated by hairlines, and **boiled down to one line of title plus a
+date**. Visible only on the desktop — on a phone the sidebar stands above the content, and there
+this list is in the way.
+
+Measured before the boiling down: one entry was 113 px tall, and five of them filled 700 px of a
+bar that also carries the tree and a note box. Afterwards: 57 px per entry, 398 px for the box.
+
+Two of the three lines were an accident. The rule for the box's own heading read
+`.recent-notes h1, h2, h3` — and every entry title *is* an `h3`, so all five were being set in
+small caps with letter-spacing. The selector now names the box's own child (`> h3`) and nothing
+deeper. The description and the tag pills are gone entirely: the one repeats the title at half the
+legibility, the others are taller than the entry they label.
 
 ## A finding while building
 

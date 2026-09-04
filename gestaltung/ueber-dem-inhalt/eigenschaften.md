@@ -15,7 +15,9 @@ Eine schlichte Tabelle in Textfarbe, klappbar.
 ## In dieser Vorlage
 
 - auf einer **getönten Fläche** mit Rahmen und runden Ecken
-- die **Kopfzeile** versal, klein und gedämpft — sie ist Beschriftung, nicht Inhalt
+- die **Kopfzeile** versal, klein und gedämpft — sie ist Beschriftung, nicht Inhalt, und trägt
+  seit dem 05.09.2026 keine Linie mehr unter sich: Eine zweite Waagerechte so dicht an der eigenen
+  Kante der Box liest sich als Naht
 - der **Schlüssel** gedämpft und so breit wie sein Text, der **Wert** nimmt den Rest
 - **Werttypen** werden unterschieden: eine Zahl in Ziffernbreite, ein Wahrheitswert als
   eingefärbtes Wort, eine Liste als Reihe von Marken, ein leeres Feld kursiv

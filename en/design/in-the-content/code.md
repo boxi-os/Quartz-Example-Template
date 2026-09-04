@@ -27,6 +27,29 @@ Inter otherwise looks too big.
 The surface comes from the template, not from the syntax theme: `keepBackground: false` makes shiki
 set only the character colours. Only that way does the block fit in both colour schemes.
 
+Since 2026-09-05 it is **lighter than the rest of the tint** and has a token of its own
+(`--tpl-surface-code`, `#F1EFE9` in light mode, still `lightgray` in dark). A block is a large
+area, and the tint that is right for one word of inline code turns twenty lines into a grey slab.
+Measured, what it buys:
+
+| Colour | on the old surface | on the new one |
+| --- | --- | --- |
+| Text (`#24292E`) | 10.69 : 1 | 12.76 : 1 |
+| Blue (`#005CC5`) | 4.59 : 1 | 5.47 : 1 |
+| Purple (`#6F42C1`) | 4.75 : 1 | 5.66 : 1 |
+| Orange (`#E36209`) | 2.54 : 1 | 3.04 : 1 |
+
+It is paid for in separation: the surface now stands at 1.12 : 1 against the page ground instead of
+1.34 : 1. That is why the block takes its border from `--tpl-rule` — exactly the colour its fill
+used to be.
+
+> [!warning] One colour of the syntax theme stays below the threshold
+> The orange `github-light` uses for CSS variable names reaches only 3.04 : 1 even on the lighter
+> surface, against the 4.5 : 1 WCAG asks for text. That is not a consequence of this change — it
+> was 2.54 : 1 before — but it is the one place in this template where a visible colour has not
+> passed a measurement. Curing it would mean changing the syntax theme or overriding that one
+> token.
+
 Long lines do not wrap, they scroll inside the block.
 
 ## The language label
@@ -43,6 +66,24 @@ unreachable.
 pointer** (`@media (hover: none)`). It measures 44 px, while the symbol inside stays small. It is
 hidden through `opacity`, never through `display` — otherwise it would not be there for the
 keyboard at all.
+
+And it is **the icon alone**: no border, no surface. Its state is the colour of the icon, from
+`gray` to `dark`.
+
+> [!bug] The exception to the layering rule
+> "Everything in `custom.scss` is unlayered and therefore beats the plugin styles" — true for
+> component CSS, not for **resource stylesheets**. Quartz ships this button's styling in
+> `static/resource-style-….css`, unlayered and linked *after* `index.css`. At equal specificity the
+> later rule wins:
+>
+> ```css
+> .clipboard-button { float: right; border: 1px solid; border-color: var(--dark);
+>                     background-color: var(--light); margin: .3rem; padding: .4rem }
+> ```
+>
+> Measured on the built page: the button still reported a 1px border and `--light` behind it,
+> although every rule in this template said `border: none` and `background: transparent`. One
+> descendant in the selector (`pre .clipboard-button`) settles it.
 
 ## Highlighted lines
 

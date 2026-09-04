@@ -1,6 +1,6 @@
 ---
 title: Tokens
-description: 49 variables the whole design is made of.
+description: 50 variables the whole design is made of.
 section: Design
 tags:
   - design

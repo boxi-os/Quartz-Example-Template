@@ -1,6 +1,6 @@
 ---
 title: Tokens
-description: 49 Variablen, aus denen die ganze Gestaltung besteht.
+description: 50 Variablen, aus denen die ganze Gestaltung besteht.
 section: Gestaltung
 tags:
   - gestaltung

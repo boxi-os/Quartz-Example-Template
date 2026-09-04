@@ -11,14 +11,24 @@ translationKey: gestaltung/grundlagen/frames
 Ein Frame ist das Raster einer Seite: welche Bereiche es gibt, wo sie liegen, wie breit sie sind.
 
 Alle drei Frames dieser Vorlage teilen sich am Desktop **ein Raster: zwölf gleiche Spalten,
-20 px Rinne, 20 px Rand, gedeckelt auf 1440 px.** Das ergibt 1400 px nutzbare Breite, elf Rinnen und
-damit eine Spalte von 98,33 px. Die drei Blöcke rasten darauf ein:
+2 rem Rinne, 20 px Rand, gedeckelt auf 1440 px.** Das ergibt 1400 px nutzbare Breite; elf Rinnen zu
+je 32 px nehmen 352 davon, eine Spalte misst also 87,33 px. Die drei Blöcke rasten darauf ein:
 
 | Block | Spalten | Breite |
 | --- | --- | --- |
-| Navigation | 1–3 | 335 px |
-| Text | 4–9 | 690 px |
-| Apparat | 10–12 | 335 px |
+| Navigation | 1–3 | 326 px |
+| Text | 4–9 | 684 px |
+| Apparat | 10–12 | 326 px |
+
+Die Rinne ist am 05.09.2026 von 20 px auf 2 rem gewachsen — die Seite sollte lockerer wirken. Der
+Rand blieb bei 20 px: Er ist der Abstand zum Fensterrand, nicht der zwischen zwei Dingen.
+
+> [!warning] Am Telefon bleibt die Rinne bei 20 px
+> Ein Zwölf-Spalten-Raster hat elf Rinnen, ganz gleich was darin steht, und die setzen seine
+> Mindestbreite: 11 × 32 + 40 Rand sind 392 px und damit mehr als ein 390-px-Bildschirm hat.
+> Gemessen, bevor diese Ausnahme existierte: **jede** Seite scrollte seitwärts um 18 px. Sichtbar
+> ist die Spaltenrinne dort ohnehin nicht, weil mobil jeder Bereich über alle zwölf Spalten geht;
+> die Zeilenrinne behält die vollen 2 rem.
 
 | Frame | Genutzt von | Besonderheit |
 | --- | --- | --- |

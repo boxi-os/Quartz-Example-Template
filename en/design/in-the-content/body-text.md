@@ -18,7 +18,7 @@ layoutBoxColophon:
 ## The width of the text
 
 **In this template** the page grid decides how wide the text gets — not a rule on the paragraph.
-The frame gives the content six of twelve columns, which is 690 px on a page capped at 1440 px — at
+The frame gives the content six of twelve columns, which is 684 px on a page capped at 1440 px — at
 a font size of 1 rem, about 72 characters.
 
 **Out of the box** Quartz does the same, only with different numbers: it caps the page through

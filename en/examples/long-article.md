@@ -26,7 +26,7 @@ behave when it grows longer than the window?
 The width is decided by the page grid. The `editorial` frame, which content pages use, divides the
 page into twelve equal columns and gives the text six of them — three on the left for navigation,
 three on the right for the table of contents and the backlinks. The page itself is capped at 1440
-pixels, which puts the text at 690 pixels, or roughly 72 characters.
+pixels, which puts the text at 684 pixels, or roughly 71 characters.
 
 ### Why not on the paragraph as well
 

@@ -17,15 +17,25 @@ layoutBoxColophon:
 
 A frame is the grid of a page: which areas there are, where they sit, how wide they are.
 
-On the desktop all three frames of this template share **one grid: twelve equal columns, a 20 px
-gutter, a 20 px margin, capped at 1440 px.** That gives 1400 px of usable width, eleven gutters and
-therefore a column of 98.33 px. The three blocks snap onto it:
+On the desktop all three frames of this template share **one grid: twelve equal columns, a 2 rem
+gutter, a 20 px margin, capped at 1440 px.** That gives 1400 px of usable width; eleven gutters of
+32 px take 352 of it, so a column measures 87.33 px. The three blocks snap onto it:
 
 | Block | Columns | Width |
 | --- | --- | --- |
-| Navigation | 1–3 | 335 px |
-| Text | 4–9 | 690 px |
-| Apparatus | 10–12 | 335 px |
+| Navigation | 1–3 | 326 px |
+| Text | 4–9 | 684 px |
+| Apparatus | 10–12 | 326 px |
+
+The gutter grew from 20 px to 2 rem on 2026-09-05 — the page was meant to breathe more. The margin
+stayed at 20 px: it is the distance to the edge of the window, not the distance between two things.
+
+> [!warning] On a phone the gutter stays at 20 px
+> A twelve-column grid has eleven gutters whatever it contains, and they set its minimum width:
+> 11 × 32 plus 40 of margin is 392 px, which is more than a 390 px screen has. Measured before this
+> exception existed: **every** page scrolled sideways by 18 px. The column gutter is invisible there
+> anyway, because on a phone every area spans all twelve columns; the row gutter keeps its full
+> 2 rem.
 
 | Frame | Used by | Particularity |
 | --- | --- | --- |

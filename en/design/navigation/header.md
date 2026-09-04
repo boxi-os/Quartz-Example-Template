@@ -42,6 +42,28 @@ A few details:
   width and takes the explorer's drawer button with it. The search gives up its word there and
   becomes a square like the others; it keeps its 44 px.
 
+## It stays and it shrinks
+
+Since 2026-09-05 the header sticks to the top of the window at every width, not only on a phone:
+the four controls and the way back to the home page are what a reader reaches for in the middle of
+a long article, and several pages here are three screens tall.
+
+It shrinks while scrolling. What gets smaller is the **padding** and the site title — not the
+controls: a target that changes size while you reach for it is worse than a tall bar. Measured:
+61 px at rest, 49 px from 4 rem of scrolling on.
+
+Two registered lengths carry it (`--tpl-header-pad`, `--tpl-header-title`), bound to
+`scroll(root block)`. Nothing here moves on its own — the height is a function of the scroll
+position, not of time — so with `prefers-reduced-motion` there is nothing to suppress.
+
+Two things hang on it and are therefore in the same calculation:
+
+- The **right column** sticks below the header rather than behind it: its `top` reads
+  `--tpl-header-h` and travels up as the header shrinks.
+- **Jump targets** keep the small bar's height free above themselves
+  (`scroll-margin-block-start`), otherwise every heading from the table of contents would land
+  behind the header.
+
 ## A finding while building
 
 The plugin sets `width: 100%` on every layout box. In a flex row that made the mark 1376 px wide

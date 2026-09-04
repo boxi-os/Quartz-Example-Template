@@ -11,7 +11,7 @@ translationKey: gestaltung/im-inhalt/fliesstext
 ## Die Breite des Textes
 
 **In dieser Vorlage** entscheidet das Seitenraster, wie breit der Text wird — nicht eine Regel am
-Absatz. Der Frame gibt dem Inhalt sechs von zwölf Spalten, das sind 690 px auf einer Seite, die bei
+Absatz. Der Frame gibt dem Inhalt sechs von zwölf Spalten, das sind 684 px auf einer Seite, die bei
 1440 px gedeckelt ist — bei 1 rem Schriftgröße rund 72 Zeichen.
 
 **Von Haus aus** macht Quartz dasselbe, nur mit anderen Zahlen: Es begrenzt die Seite über

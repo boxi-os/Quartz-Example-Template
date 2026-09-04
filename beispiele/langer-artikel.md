@@ -19,7 +19,7 @@ enthält? Und wie verhält sich die Seitenleiste, wenn sie länger wird als das 
 Die Breite entscheidet das Seitenraster. Der Frame `editorial`, den Inhaltsseiten benutzen, teilt
 die Seite in zwölf gleiche Spalten und gibt dem Text sechs davon — links drei für die Navigation,
 rechts drei für Inhaltsverzeichnis und Rückverweise. Die Seite selbst ist auf 1440 Pixel begrenzt,
-der Text landet damit bei 690 Pixeln, also rund 72 Zeichen.
+der Text landet damit bei 684 Pixeln, also rund 71 Zeichen.
 
 ### Warum nicht zusätzlich am Absatz
 
