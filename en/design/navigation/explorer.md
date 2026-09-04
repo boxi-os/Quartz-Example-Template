@@ -48,8 +48,9 @@ structure.
   away, and fades out softly while doing so — in Chromium **only on the side where there is more to
   come**: at the very top the first row is whole, at the very bottom the last one is, and a tree
   that is showing everything anyway does not fade at all. Two registered lengths on
-  `scroll(self block)` carry that. Firefox and Safari have no scroll-driven animations and get the
-  edge permanently at both ends — less clever, but correct.
+  `scroll(self block)` carry that. A browser without scroll-driven animations gets the edge
+  permanently at both ends — less clever, but correct. That was measured on Firefox 155; which
+  version of which browser can do it is decided by `@supports`, not by this page.
 - **On a phone it is a drawer.** The button sits in the app bar, becomes a cross when opened, the
   drawer travels in from the left over a darkened page, and the page itself does not scroll along
   meanwhile.

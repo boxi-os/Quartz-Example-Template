@@ -50,9 +50,9 @@ Getragen wird das von zwei registrierten Längen (`--tpl-header-pad`, `--tpl-hea
 Scrollposition, nicht der Zeit —, deshalb gibt es bei `prefers-reduced-motion` auch nichts zu
 unterdrücken.
 
-> [!note] Nur in Chromium
-> Firefox und Safari kennen keine scroll-getriebenen Animationen. Dort klebt der Kopf ebenfalls,
-> bleibt aber immer in seiner Ruhegröße von 61 px. Beides steht hinter
+> [!note] Das Schrumpfen braucht scroll-getriebene Animationen
+> Wo es sie nicht gibt — nachgemessen an Firefox 155 —, klebt der Kopf ebenfalls, bleibt aber immer
+> in seiner Ruhegröße von 61 px. Beides steht hinter
 > `@supports (animation-timeline: scroll())` — ohne diese Klammer läuft der `animation`-Kurzbefehl
 > dort als Animation mit **null Sekunden Dauer**, und `fill: both` springt sofort auf das
 > Endbild: Der Kopf saß in Firefox dauerhaft in seiner *kleinen* Form.

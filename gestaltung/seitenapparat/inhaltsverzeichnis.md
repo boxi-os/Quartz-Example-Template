@@ -37,8 +37,8 @@ Gestaltet ist jede Stufe einzeln:
 - **Gerollt wird eine Ebene höher**, in der rechten Spalte als Ganzem — mit derselben weichen Kante
   wie im Explorer und mit nur einer Rollleiste statt zweier ineinander. In Chromium ist dabei immer
   nur die Seite weich, hinter der noch etwas liegt: Am Anfang der Liste ist der erste Eintrag
-  scharf, am Ende der letzte. Firefox und Safari bekommen die Kante an beiden Enden, weil sie keine
-  scroll-getriebenen Animationen kennen.
+  scharf, am Ende der letzte. Ein Browser ohne scroll-getriebene Animationen bekommt die Kante an
+  beiden Enden.
 - **Kein Ausblenden per Deckkraft.** Quartz dimmt einen Eintrag, der gerade nicht im Bild ist, auf
   `opacity: 0.35`; das misst sich auf diesem Grund unter 3:1. Der Zustand bleibt, gesagt wird er in
   Farbe, Gewicht und Balken — drei Signalen, die alle gemessen sind.

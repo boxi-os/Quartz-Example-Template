@@ -41,8 +41,9 @@ Struktur nicht.
   wegzuschieben, und blendet dabei weich aus — in Chromium **nur auf der Seite, auf der noch etwas
   kommt**: ganz oben ist die erste Zeile vollständig, ganz unten die letzte, und ein Baum, der
   ohnehin vollständig zu sehen ist, blendet gar nicht aus. Zwei registrierte Längen an
-  `scroll(self block)` tragen das. Firefox und Safari kennen keine scroll-getriebenen Animationen
-  und bekommen die Kante deshalb dauerhaft an beiden Enden — weniger klug, aber richtig.
+  `scroll(self block)` tragen das. Ein Browser ohne scroll-getriebene Animationen bekommt die Kante
+  dauerhaft an beiden Enden — weniger klug, aber richtig. Nachgemessen ist das an Firefox 155;
+  welche Version welchen Browsers sie kann, entscheidet `@supports` und nicht diese Seite.
 - **Am Telefon ist er eine Schublade.** Der Knopf sitzt in der App-Leiste, wird beim Öffnen zum
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.
