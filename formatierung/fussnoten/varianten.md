@@ -44,10 +44,13 @@ Ein Satz mit einer Inline-Fußnote.^[Der Text steht direkt hier.]
 
 Ein Satz mit einer Inline-Fußnote.^[Der Text steht direkt hier.]
 
-> [!warning] Nicht überall unterstützt
-> Die Inline-Form ist eine Obsidian-Erweiterung. Wenn sie auf der gebauten Seite als Rohtext
-> erscheint statt als Fußnote, fehlt die Unterstützung — dann ist die lange Form mit `[^name]` die
-> sichere Wahl.
+> [!failure] Hier funktioniert sie nicht
+> Die Zeile darüber ist der Beweis: Auf der gebauten Seite steht `^[Der Text steht direkt hier.]`
+> als Rohtext, Klammern und Dach inbegriffen. Die Inline-Form ist eine Obsidian-Erweiterung, und
+> keines der Markdown-Plugins dieser Vorlage kennt sie. In Obsidian sieht man eine ordentliche
+> Fußnote, auf der Website nicht — der unangenehmste Fall, weil er beim Schreiben nicht auffällt.
+>
+> Die lange Form mit `[^name]` ist deshalb die einzige, die trägt.
 
 ## Dieselbe Fußnote zweimal
 

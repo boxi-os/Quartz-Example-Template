@@ -36,8 +36,10 @@ lines too.
 
 <!-- This does not appear in the output either. -->
 
-The difference: an HTML comment stays in the delivered HTML (invisible, but readable in the page
-source). A `%%` comment is removed at build time.
+Measured on the built page: **both forms are gone.** In many Markdown tools an HTML comment
+survives into the delivered HTML and is readable in the page source — not here; Quartz strips it
+just like the `%%` comment. Rely on neither: what must not appear in the output does not belong in
+the file.
 
 > [!warning] A comment is not secrecy
 > Both forms remain in the Markdown file. Anyone who can read the repository reads them. For

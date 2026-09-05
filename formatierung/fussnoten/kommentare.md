@@ -36,8 +36,10 @@ mehrere Zeilen.
 
 <!-- Auch das erscheint nicht in der Ausgabe. -->
 
-Der Unterschied: Ein HTML-Kommentar bleibt im ausgelieferten HTML stehen (unsichtbar, aber im
-Quelltext der Seite lesbar). Ein `%%`-Kommentar wird schon beim Bauen entfernt.
+Gemessen an der gebauten Seite: **beide Formen sind weg.** Ein HTML-Kommentar bleibt in vielen
+Markdown-Werkzeugen im ausgelieferten HTML stehen und ist dort im Quelltext lesbar — hier nicht,
+Quartz entfernt ihn wie den `%%`-Kommentar. Verlassen sollte man sich auf keines von beidem: Was
+nicht in der Ausgabe stehen darf, gehört nicht in die Datei.
 
 > [!warning] Ein Kommentar ist keine Geheimhaltung
 > Beide Formen stehen weiterhin in der Markdown-Datei. Wer das Repository lesen kann, liest sie.

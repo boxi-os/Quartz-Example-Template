@@ -33,7 +33,7 @@ stayed at 20 px: it is the distance to the edge of the window, not the distance 
 | Frame | Used by | Particularity |
 | --- | --- | --- |
 | `editorial` | content pages | all seven areas occupied |
-| `index` | folders, tags, bases | right column stays empty, but reserved |
+| `index` | folders, tags, bases | right column without a table of contents — there are no headings there |
 | `focus` | error page | both outer columns empty, no apparatus |
 
 That folder, tag, bases and error pages keep the right column too is deliberate: the text then
@@ -47,6 +47,13 @@ own stylesheet. Before, 720 stood here, and between 721 and 800 px the two contr
 
 On a tablet the right **column** falls away; its content slides below the text instead of
 disappearing. On a phone everything stands one below the other.
+
+> [!bug] Only `editorial` moves it down
+> Below 1100 px, `index` and `focus` hide the right column instead. For `focus` it is empty, so
+> that costs nothing. For `index` it is not: measured at 900 and at 390 px it carries
+> `display: none`, so folder, tag and bases pages lose their **backlinks and the graph** entirely
+> on a tablet and on a phone. On an article page both survive and merely move below the text. That
+> is a bug in the frame, not a design.
 
 ## What Quartz brings along
 

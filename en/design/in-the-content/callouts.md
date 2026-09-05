@@ -11,10 +11,11 @@ translationKey: gestaltung/im-inhalt/callouts
 
 ## Out of the box
 
-Quartz ships twelve type colours, each the same in both colour schemes, plus a border and a very
-pale surface.
+Quartz knows thirteen types and sets twelve colours for them; `note` keeps the base colour. Each
+holds in both colour schemes alike, plus a border and a very pale surface.
 
-Measured against the light ground of this template, **eleven of twelve** fail the WCAG threshold:
+Measured against the light ground of this template, **eleven of thirteen** fail the WCAG
+threshold:
 
 | Type | Default colour | against the light ground |
 | --- | --- | --- |

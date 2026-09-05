@@ -21,9 +21,14 @@ leer:
 translationKey: beispiele/eigenschaften-demo
 ---
 
-Diese Seite trägt mehr Frontmatter, als angezeigt wird. Die Vorlage zeigt in der
-Eigenschaften-Tabelle nur `description`, `tags` und `section` — alles andere stünde auf jeder Seite
-und wiederholte, was ohnehin darüber steht.
+Diese Seite trägt mehr Frontmatter, als angezeigt wird. Die Vorlage listet in
+`includedProperties` sieben Felder: `description`, `tags` und `section`, die jede Seite haben kann,
+dazu `zahl`, `wahr`, `liste` und `leer` — die vier, die es nur hier und auf
+[[formatierung/eigenschaften/datentypen|Datentypen]] gibt und die die vier Werttypen vorführen. Die
+Tabelle oben zählt deshalb sieben.
+
+Nicht angezeigt werden `falsch`, `aliases` und `translationKey`: Das erste ist im Frontmatter, aber
+nicht in der Liste, die beiden anderen sind Technik und stünden auf fast jeder Seite.
 
 Wer alle Felder sehen will, stellt in der App unter *Plugins → Note properties* die Option
 `includeAll` auf wahr.

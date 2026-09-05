@@ -35,7 +35,7 @@ Dateinamen vorgelesen.
 | **JPEG** | Fotos und Verläufe | 40 KB für 1200 × 800 |
 | **WebP** | dasselbe wie JPEG, kleiner | 9 KB für 800 × 800 |
 | **GIF** | kurze Bewegtbilder ohne Ton | 14 KB, 12 Bilder |
-| **SVG** | Diagramme, Logos, alles Gezeichnete | 1 KB, beliebig skalierbar |
+| **SVG** | Diagramme, Logos, alles Gezeichnete | 3 KB, beliebig skalierbar |
 
 ### JPEG — für Fotos
 

@@ -19,8 +19,8 @@ Wie das Format aufgebaut ist: [[obsidian-formate/excalidraw/wie-es-funktioniert|
 ## Was das Quartz-Plugin daraus macht
 
 Kein Bild, sondern **interaktives SVG**: Man kann zoomen und verschieben. Formen, Text, Pfeile und
-Freihandstriche werden nachgezeichnet, Farben passen sich dem Farbschema an — das Plugin bringt für
-alle 65 Excalidraw-Farben eine dunkle Entsprechung mit.
+Freihandstriche werden nachgezeichnet, Farben passen sich dem Farbschema an — das Plugin führt dafür
+eine Tabelle mit 63 Paaren, je einer hellen Excalidraw-Farbe und ihrer dunklen Entsprechung.
 
 Eingebettete Notizen (`[[notiz]]` in der Zeichnung) werden aufgelöst und mit ihrem Inhalt
 dargestellt.
@@ -32,3 +32,10 @@ Plugin zeigt Obsidian nur den Warnhinweis oben in der Datei.
 
 **Das Plugin ist kein Kernbestandteil von Quartz.** Es muss über die Plugin-Verwaltung installiert
 werden — anders als Bases und Canvas, die schon dabei sind.
+
+> [!warning] Die Zeichnungsseite steht für sich
+> Anders als bei Canvas bringt hier das Plugin sein eigenes Seitenraster mit, und diese Vorlage
+> überschreibt es nicht. Auf einer Zeichnungsseite gibt es deshalb weder Explorer noch
+> Seitenapparat — und, gemessen am gebauten Markup, auch **keinen Sprachumschalter**: Die beiden
+> Zeichnungen sind das einzige Seitenpaar dieser Website, das gar nicht verknüpft ist. Siehe
+> [[gestaltung/mehrsprachigkeit/verknuepfung|Wie die Sprachen sich finden]].

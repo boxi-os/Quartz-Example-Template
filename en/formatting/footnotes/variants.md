@@ -44,9 +44,13 @@ A sentence with an inline footnote.^[The text stands right here.]
 
 A sentence with an inline footnote.^[The text stands right here.]
 
-> [!warning] Not supported everywhere
-> The inline form is an Obsidian extension. If it appears on the built page as raw text instead of
-> a footnote, support is missing — then the long form with `[^name]` is the safe choice.
+> [!failure] It does not work here
+> The line above is the proof: on the built page `^[The text stands right here.]` shows as raw
+> text, caret and brackets included. The inline form is an Obsidian extension, and none of this
+> template's Markdown plugins knows it. In Obsidian you see a proper footnote, on the site you do
+> not — the nastiest case, because nothing about it shows while writing.
+>
+> The long form with `[^name]` is therefore the only one that holds.
 
 ## The same footnote twice
 

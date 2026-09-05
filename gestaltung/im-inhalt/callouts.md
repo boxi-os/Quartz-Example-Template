@@ -11,10 +11,10 @@ translationKey: gestaltung/im-inhalt/callouts
 
 ## Von Haus aus
 
-Quartz liefert zwölf Typfarben mit, jeweils dieselbe in beiden Farbschemata, dazu einen Rahmen und
-eine sehr blasse Fläche.
+Quartz kennt dreizehn Typen und setzt zwölf Farben dafür; `note` behält die Grundfarbe. Jede gilt
+in beiden Farbschemata gleich, dazu kommen ein Rahmen und eine sehr blasse Fläche.
 
-Gemessen gegen den hellen Grund dieser Vorlage scheitern **elf von zwölf** an der WCAG-Schwelle:
+Gemessen gegen den hellen Grund dieser Vorlage scheitern **elf von dreizehn** an der WCAG-Schwelle:
 
 | Typ | Standardfarbe | gegen hellen Grund |
 | --- | --- | --- |

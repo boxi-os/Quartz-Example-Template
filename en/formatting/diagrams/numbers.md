@@ -13,20 +13,24 @@ translationKey: formatierung/diagramme/zahlen
 ````md
 ```mermaid
 pie title Lines per area
-    "Stylesheets" : 2900
-    "Notes" : 4200
-    "Script" : 700
-    "Configuration" : 400
+    "Notes" : 10900
+    "Stylesheets" : 4900
+    "Script" : 2100
+    "Configuration" : 500
 ```
 ````
 
 ```mermaid
 pie title Lines per area
-    "Stylesheets" : 2900
-    "Notes" : 4200
-    "Script" : 700
-    "Configuration" : 400
+    "Notes" : 10900
+    "Stylesheets" : 4900
+    "Script" : 2100
+    "Configuration" : 500
 ```
+
+The numbers are real, rounded to hundreds and measured on 2026-09-05: notes are both languages
+together, stylesheets the 34 files under `quartz/styles/custom/`, script the template build in the
+app repository. They grow; the diagram does not follow on its own.
 
 ## Quadrant chart
 

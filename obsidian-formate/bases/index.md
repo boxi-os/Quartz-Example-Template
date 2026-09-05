@@ -11,7 +11,7 @@ translationKey: obsidian-formate/bases/index
 Eine Base ist eine gespeicherte Abfrage: Sie sammelt Notizen nach Kriterien und zeigt sie in einer
 oder mehreren Ansichten. Die Datei ist YAML und endet auf `.base`.
 
-Zwei Beispiele in diesem Vault, beide über die Notizen dieser Website selbst:
+Drei Beispiele in diesem Vault, alle über die Notizen dieser Website selbst:
 
 - [[obsidian-formate/bases/Alle-Ansichten.base|Alle Ansichten]] — **alle fünf Darstellungsformen**
   derselben Daten: Tabelle, Kacheln, Liste, Board und Galerie
@@ -37,8 +37,11 @@ Alle fünf sind in dieser Vorlage gestaltet — zu sehen unter
 
 ## In dieser Vorlage
 
-Bases-Seiten nutzen den Frame **`index`** — zwei Spalten, keine rechte Leiste. Eine Tabelle braucht
-kein Inhaltsverzeichnis.
+Bases-Seiten nutzen den Frame **`index`**, denselben wie Ordner- und Tag-Seiten. Ein
+Inhaltsverzeichnis entsteht dort nicht, weil eine Tabelle keine Überschriften hat; die rechte
+Spalte bleibt am Desktop trotzdem stehen, damit die Tabelle dort beginnt, wo sonst der Text
+beginnt. Unter 1100 px blendet dieser Frame sie aus — siehe den Befund unter
+[[gestaltung/grundlagen/frames|Frames]].
 
 > [!warning] Der Umschalter findet diese Seiten nicht
 > Eine `.base`-Datei hat kein Frontmatter und kann deshalb keinen `translationKey` tragen. Der

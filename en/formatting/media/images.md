@@ -35,7 +35,7 @@ name.
 | **JPEG** | photographs and gradients | 40 KB for 1200 × 800 |
 | **WebP** | the same as JPEG, smaller | 9 KB for 800 × 800 |
 | **GIF** | short moving images without sound | 14 KB, 12 frames |
-| **SVG** | diagrams, logos, everything drawn | 1 KB, scalable at will |
+| **SVG** | diagrams, logos, everything drawn | 3 KB, scalable at will |
 
 ### JPEG — for photographs
 

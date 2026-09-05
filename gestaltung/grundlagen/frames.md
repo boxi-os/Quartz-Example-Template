@@ -33,7 +33,7 @@ Rand blieb bei 20 px: Er ist der Abstand zum Fensterrand, nicht der zwischen zwe
 | Frame | Genutzt von | Besonderheit |
 | --- | --- | --- |
 | `editorial` | Inhaltsseiten | alle sieben Bereiche belegt |
-| `index` | Ordner, Tags, Bases | rechte Spalte bleibt frei, aber reserviert |
+| `index` | Ordner, Tags, Bases | rechte Spalte ohne Inhaltsverzeichnis — dort gibt es keine Überschriften |
 | `focus` | Fehlerseite | beide Randspalten leer, kein Apparat |
 
 Dass auch Ordner-, Tag-, Bases- und Fehlerseiten die rechte Spalte behalten, ist Absicht: Der Text
@@ -48,6 +48,13 @@ noch als Tablet auslegte.
 
 Am Tablet fällt die rechte **Spalte** weg; ihr Inhalt rutscht unter den Text, statt zu verschwinden.
 Mobil steht alles untereinander.
+
+> [!bug] Nur `editorial` schiebt sie nach unten
+> `index` und `focus` blenden die rechte Spalte unter 1100 px stattdessen aus. Bei `focus` ist sie
+> leer, das kostet nichts. Bei `index` ist sie es nicht: Gemessen bei 900 und bei 390 px steht dort
+> `display: none`, und damit verlieren Ordner-, Tag- und Bases-Seiten auf Tablet und Telefon ihre
+> **Rückverweise und die Graphansicht** ganz. Auf einer Artikelseite bleiben beide erhalten und
+> rücken nur unter den Text. Das ist ein Fehler im Frame, kein Entwurf.
 
 ## Was Quartz mitbringt
 

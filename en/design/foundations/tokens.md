@@ -8,8 +8,8 @@ tags:
 translationKey: gestaltung/grundlagen/tokens
 ---
 
-**No stylesheet in this template contains a colour or a length as a number.** Everything reads
-variables. That is not cosmetics: after the import they stay editable in the app under *Styles →
+**Neither this template's colours nor its measures live in the stylesheets; both come from 50
+variables.** That is not cosmetics: after the import they stay editable in the app under *Styles →
 Variables*, a value in SCSS does not.
 
 ## The six with the widest reach
@@ -40,6 +40,22 @@ once, instead of every component inside them repeating it.
 2. **Quartz variables where the template disagrees** — the border of controls, for instance. Those
    are read by *Quartz*, not by our stylesheets; they look unused and are not.
 3. **Our own `--tpl-*` tokens** — the actual system.
+
+## What does stand literally
+
+Measured across the 34 stylesheets, comments excluded: **41 colour values** and **112 lengths**. All
+for the same reason — a variable *cannot* stand in that place.
+
+| Where | What | Why |
+| --- | --- | --- |
+| `body-callouts` | 24 colours | Thirteen callout hues in two modes, less the quote callout, which reads the accent colour. They mean **status**, not palette: a `warning` that follows the accent colour is no longer a `warning`. |
+| `body-code` | 10 colours | The five syntax corrections — the replaced and the replacing value each. |
+| `body-mermaid` | 2 reds | Mermaid's error state, which it colours itself. |
+| `a11y` | 2 greys | Inside `@media print`. On paper neither the light nor the dark palette applies. |
+| `nav-explorer` | 1 black | The scrim behind the drawer on a phone — not a colour, a dimming. |
+| everywhere | 20× `1px`/`2px` | Hairlines and focus rings. A line is one pixel wide, not one step of a grid. |
+| everywhere | 26× `0.06em`–`0.18em` | Letter-spacing. It relates to the type size, not to the spacing scale. |
+| 13 rules | `720px`, `800px`, `801px` | A media query cannot read a variable. |
 
 ## What Quartz does instead
 

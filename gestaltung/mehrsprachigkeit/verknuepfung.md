@@ -21,9 +21,12 @@ translationKey: formatierung/text/betonung
 ---
 ```
 
-Zwei Seiten mit demselben Schlüssel sind Übersetzungen voneinander. **So arbeitet diese Website
-überall** — alle 122 Paare. Vier davon tragen zusätzlich Aliase, damit auch dieser Weg auf der
-Website zu sehen ist; verknüpft sind auch sie über den Schlüssel.
+Zwei Seiten mit demselben Schlüssel sind Übersetzungen voneinander. **So arbeiten 122 der 127
+Paare dieser Website** — alles, was eine gewöhnliche Seite ist. Vier davon tragen zusätzlich
+Aliase, damit auch dieser Weg auf der Website zu sehen ist; verknüpft sind auch sie über den
+Schlüssel. Von den übrigen fünf gehen drei den Weg darunter und eines den darunter; das letzte,
+die beiden Excalidraw-Zeichnungen, ist gar nicht verknüpft — ihre Seite rendert den Umschalter
+nicht, weil das Plugin ein eigenes Frame mitbringt.
 
 Der Grund ist ein gemessener: Mehrere Seiten hier tragen denselben Titel. „Grundform" gibt es
 dreimal (Callouts, Tabellen, Fußnoten), „Code", „Eigenschaften" und „Callouts" je zweimal. Über
@@ -52,8 +55,8 @@ ein guter Prüfstein dafür, dass wirklich über den Titel und nicht über den D
 wird.
 
 > [!warning] Warum nicht überall Aliase
-> Das Plugin *Alias redirects* baut für **jeden** Alias eine Weiterleitungsseite. Hätte jede der 122
-> deutschen Notizen ihren englischen Titel als Alias, entstünden 122 zusätzliche Seiten, die von
+> Das Plugin *Alias redirects* baut für **jeden** Alias eine Weiterleitungsseite. Hätte jede der 127
+> deutschen Notizen ihren englischen Titel als Alias, entstünden 127 zusätzliche Seiten, die von
 > `/emphasis` auf die *deutsche* Seite führen. Das ist kein Fehler, aber es war keine Entscheidung —
 > deshalb stehen die Aliase nur dort, wo sie etwas zeigen sollen.
 

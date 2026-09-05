@@ -13,20 +13,24 @@ translationKey: formatierung/diagramme/zahlen
 ````md
 ```mermaid
 pie title Zeilen je Bereich
-    "Stylesheets" : 2900
-    "Notizen" : 4200
-    "Skript" : 700
-    "Konfiguration" : 400
+    "Notizen" : 10900
+    "Stylesheets" : 4900
+    "Skript" : 2100
+    "Konfiguration" : 500
 ```
 ````
 
 ```mermaid
 pie title Zeilen je Bereich
-    "Stylesheets" : 2900
-    "Notizen" : 4200
-    "Skript" : 700
-    "Konfiguration" : 400
+    "Notizen" : 10900
+    "Stylesheets" : 4900
+    "Skript" : 2100
+    "Konfiguration" : 500
 ```
+
+Die Zahlen sind echt, auf Hunderter gerundet und am 05.09.2026 gemessen: Notizen sind beide
+Sprachen zusammen, Stylesheets die 34 Dateien unter `quartz/styles/custom/`, Skript der
+Vorlagenbau im App-Repo. Sie wachsen, das Diagramm nicht von selbst.
 
 ## Vier-Felder-Tafel
 

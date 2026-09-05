@@ -8,9 +8,9 @@ tags:
 translationKey: gestaltung/grundlagen/tokens
 ---
 
-**Kein Stylesheet dieser Vorlage enthält eine Farbe oder eine Länge als Zahl.** Alles liest
-Variablen. Das ist keine Kosmetik: Nach dem Import bleiben sie in der App unter *Stile → Variablen*
-bearbeitbar, ein Wert in SCSS nicht.
+**Farbe und Maß dieser Vorlage stehen nicht in den Stylesheets, sondern in 50 Variablen.** Das ist
+keine Kosmetik: Nach dem Import bleiben sie in der App unter *Stile → Variablen* bearbeitbar, ein
+Wert in SCSS nicht.
 
 ## Die sechs mit der größten Reichweite
 
@@ -40,6 +40,22 @@ Leiste, rechte Leiste, Fußzeile — sagen das einmal, statt dass jede Komponent
 2. **Quartz-Variablen, wo die Vorlage widerspricht** — etwa der Rand von Bedienelementen. Diese
    liest *Quartz*, nicht unsere Stylesheets; sie sehen ungenutzt aus und sind es nicht.
 3. **Eigene `--tpl-*`-Tokens** — das eigentliche System.
+
+## Was doch literal dasteht
+
+Gemessen über die 34 Stylesheets, Kommentare abgezogen: **41 Farbwerte** und **112 Längen**. Alle
+haben denselben Grund — an dieser Stelle *kann* keine Variable stehen.
+
+| Wo | Was | Warum |
+| --- | --- | --- |
+| `body-callouts` | 24 Farben | Dreizehn Callout-Töne in zwei Modi, abzüglich des Zitat-Callouts, das die Akzentfarbe liest. Sie bedeuten **Status**, nicht Palette: Ein `warning`, das der Akzentfarbe folgt, ist kein `warning` mehr. |
+| `body-code` | 10 Farben | Die fünf Syntax-Korrekturen — je der ersetzte und der ersetzende Wert. |
+| `body-mermaid` | 2 Rottöne | Mermaids Fehlerzustand, den es selbst einfärbt. |
+| `a11y` | 2 Grautöne | In `@media print`. Auf Papier gilt weder die helle noch die dunkle Palette. |
+| `nav-explorer` | 1 Schwarz | Die Abdunklung hinter der Schublade auf dem Handy — kein Farbwert, ein Schleier. |
+| überall | 20× `1px`/`2px` | Haarlinien und Fokusringe. Eine Linie ist ein Pixel breit, nicht ein Rasterschritt. |
+| überall | 26× `0.06em`–`0.18em` | Laufweiten. Sie beziehen sich auf die Schriftgröße, nicht auf die Abstandsskala. |
+| 13 Regeln | `720px`, `800px`, `801px` | Eine Media-Query kann keine Variable lesen. |
 
 ## Was Quartz stattdessen tut
 

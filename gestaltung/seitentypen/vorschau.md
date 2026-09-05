@@ -14,7 +14,7 @@ Ein Kasten mit dem Anfang der Zielseite.
 
 ## In dieser Vorlage
 
-Die zweite von genau zwei Stellen mit echtem Schatten — sie schwebt wirklich über der Seite.
+Sie trägt einen echten Schatten — eine der fünf Stellen, die wirklich über der Seite schweben.
 Deckende Fläche, denn eine durchscheinende Vorschau über Fließtext ist unlesbar.
 
 Der Inhalt ist auf **20 rem gekappt**, und am Schnitt liegt ein weicher Verlauf: Eine abgeschnittene

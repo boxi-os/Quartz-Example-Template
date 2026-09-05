@@ -14,7 +14,7 @@ A box with the start of the target page.
 
 ## In this template
 
-The second of exactly two places with a real shadow — it really does float above the page. An
+It carries a real shadow — one of the five places that genuinely float above the page. An
 opaque surface, because a translucent preview over body text is unreadable.
 
 The content is **capped at 20 rem**, and at the cut lies a soft gradient: a truncated preview should

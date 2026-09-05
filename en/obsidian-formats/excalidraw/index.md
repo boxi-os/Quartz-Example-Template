@@ -19,8 +19,8 @@ How the format is built: [[en/obsidian-formats/excalidraw/how-it-works|How it wo
 ## What the Quartz plugin makes of it
 
 Not an image but **interactive SVG**: it can be zoomed and panned. Shapes, text, arrows and
-freehand strokes are redrawn, colours adapt to the colour scheme — the plugin brings a dark
-counterpart for all 65 Excalidraw colours.
+freehand strokes are redrawn, colours adapt to the colour scheme — for that the plugin keeps a
+table of 63 pairs, each a light Excalidraw colour and its dark counterpart.
 
 Embedded notes (`[[note]]` inside the drawing) are resolved and shown with their content.
 
@@ -31,3 +31,10 @@ Obsidian shows only the warning at the top of the file.
 
 **The plugin is not a core part of Quartz.** It has to be installed through the plugin management —
 unlike Bases and Canvas, which are already there.
+
+> [!warning] A drawing page stands on its own
+> Unlike with canvas, here the plugin brings its own page grid and this template does not override
+> it. A drawing page therefore has neither an explorer nor a page apparatus — and, measured on the
+> built markup, **no language switcher** either: the two drawings are the one page pair on this
+> site that is not linked at all. See
+> [[en/design/multilingual/linking|How the two languages find each other]].

@@ -26,8 +26,11 @@ Am Desktop behalten Ordner- und Tag-Seiten die **rechte Spalte**, auch wenn nur 
 stehen. Damit beginnt die Liste genau dort, wo auf einer Inhaltsseite der Text beginnt — der Sprung
 von einem Artikel zu seinem Ordner verschiebt die Zeile nicht mehr.
 
-Beide Seitentypen nutzen den Frame **`index`**: zwei Spalten ohne rechte Leiste. Eine Liste von
-Links braucht kein Inhaltsverzeichnis und keine Rückverweise.
+Beide Seitentypen nutzen den Frame **`index`**. Der unterscheidet sich vom `editorial` nur in
+einem Punkt: Unter 1100 px blendet er die rechte Spalte aus, statt ihren Inhalt unter den Text zu
+schieben. Ein Inhaltsverzeichnis gibt es hier ohnehin nicht — eine Liste von Links hat keine
+Überschriften. Rückverweise und Graph aber schon, und die gehen dabei verloren; siehe den Befund
+unter [[gestaltung/grundlagen/frames|Frames]].
 
 ## Zwei Funde beim Bauen
 

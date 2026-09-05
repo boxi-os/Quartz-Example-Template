@@ -21,9 +21,14 @@ empty:
 translationKey: beispiele/eigenschaften-demo
 ---
 
-This page carries more frontmatter than is displayed. In the property table the template shows only
-`description`, `tags` and `section` — everything else would be on every page and repeat what stands
-above it anyway.
+This page carries more frontmatter than is displayed. The template lists seven fields in
+`includedProperties`: `description`, `tags` and `section`, which any page may have, plus `zahl`,
+`wahr`, `liste` and `leer` — the four that exist only here and on
+[[en/formatting/properties/data-types|Data types]], and that demonstrate the four value types. That
+is why the table above counts seven.
+
+Not shown are `falsch`, `aliases` and `translationKey`: the first is in the frontmatter but not in
+the list, the other two are plumbing and would stand on nearly every page.
 
 To see all fields, set the option `includeAll` to true in the app under *Plugins → Note
 properties*.

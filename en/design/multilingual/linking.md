@@ -20,9 +20,12 @@ translationKey: formatierung/text/betonung
 ---
 ```
 
-Two pages with the same key are translations of each other. **That is how this site works
-everywhere** — all 122 pairs. Four of them additionally carry aliases, so that this route is
-visible on the site as well; they too are linked by the key.
+Two pages with the same key are translations of each other. **That is how 122 of this site's 127
+pairs work** — everything that is an ordinary page. Four of them additionally carry aliases, so
+that this route is visible on the site as well; they too are linked by the key. Of the remaining
+five, three take the route below and one the route below that; the last, the two Excalidraw
+drawings, is not linked at all — their page renders no switcher, because the plugin brings a frame
+of its own.
 
 The reason is a measured one: several pages here carry the same title. "Grundform" exists three
 times (callouts, tables, footnotes), "Code", "Eigenschaften" and "Callouts" twice each. Titles or
@@ -50,8 +53,8 @@ All three have the same file name (`wie-es-funktioniert`) and sit in different f
 that the linking really goes through the title and not through the file name.
 
 > [!warning] Why not aliases everywhere
-> The *Alias redirects* plugin builds a forwarding page for **every** alias. If each of the 122
-> German notes carried its English title as an alias, 122 extra pages would appear, leading from
+> The *Alias redirects* plugin builds a forwarding page for **every** alias. If each of the 127
+> German notes carried its English title as an alias, 127 extra pages would appear, leading from
 > `/emphasis` to the *German* page. That is not a fault, but it would not have been a decision —
 > hence the aliases only stand where they are meant to show something.
 
