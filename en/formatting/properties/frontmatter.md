@@ -42,7 +42,8 @@ draft: false
 
 Without a `date` in the frontmatter Quartz takes the date from git — and without git from the file
 system. The order is set on the *Created modified date* plugin; this template uses
-`frontmatter → git → filesystem`.
+`frontmatter → filesystem`, leaving git out because it cannot answer here — why, is under
+[[en/design/above-the-content/title-and-date|Title and date]].
 
 > [!tip] Fields of your own are allowed
 > A field Quartz does not know does no harm. This template uses `section`, for instance — for the

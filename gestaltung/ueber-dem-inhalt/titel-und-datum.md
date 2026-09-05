@@ -28,9 +28,20 @@ noch blasser ist als der Text. Die Werte sind der Inhalt, die Zeichensetzung tri
 
 ## Woher das Datum kommt
 
-Aus dem Frontmatter, sonst aus git, sonst aus dem Dateisystem — in dieser Reihenfolge, eingestellt
-beim Plugin *Created modified date*. Bei einer Notiz, die noch nie committet wurde, warnt der Build:
-*„isn't yet tracked by git, dates will be inaccurate"*.
+Aus dem Frontmatter, sonst aus dem Dateisystem — in dieser Reihenfolge, eingestellt beim Plugin
+*Created modified date*.
+
+> [!warning] Ein Symlink nimmt Quartz die git-Daten
+> Von Haus aus steht dort `frontmatter → git → filesystem`, und git wäre die bessere Quelle: Ein
+> Commit-Datum überlebt ein Kopieren, ein Wiederherstellen und ein frisches Auschecken, die
+> Änderungszeit einer Datei nicht. Hier fehlt es trotzdem. Der Inhalt dieser Website liegt in einem
+> Obsidian-Vault, auf den `content/` per Symlink zeigt; das Plugin folgt dem Symlink und findet auch
+> das git des Vaults, rechnet den Dateipfad danach aber weiter gegen das Projektverzeichnis — und
+> fragt so nach einem Pfad, der aus dem Vault wieder herausführt. Jede Abfrage scheitert. Für **250
+> der 254 Seiten** stand deshalb *„isn't yet tracked by git, dates will be inaccurate"* im
+> Bauprotokoll; stumm blieben nur die vier Seiten, die ein `lastmod` im Frontmatter tragen und git
+> daher gar nicht erst fragen. Das Datum kam die ganze Zeit aus dem Dateisystem, `git` in der Liste
+> war nur Lärm. Der Fehler ist gemeldet; sobald er behoben ist, gehört `git` wieder davor.
 
 > [!note] Das Format folgt der Seite, nicht der Website
 > Quartz formatiert Daten site-weit nach `configuration.locale`, hier also deutsch. Das

@@ -42,7 +42,8 @@ draft: false
 
 Ohne `date` im Frontmatter nimmt Quartz das Datum aus git — und ohne git aus dem Dateisystem.
 Eingestellt wird die Reihenfolge beim Plugin *Created modified date*; diese Vorlage nutzt
-`frontmatter → git → filesystem`.
+`frontmatter → filesystem` und lässt git aus, weil es hier nichts beantworten kann — warum, steht
+unter [[gestaltung/ueber-dem-inhalt/titel-und-datum|Titel und Datum]].
 
 > [!tip] Eigene Felder sind erlaubt
 > Ein Feld, das Quartz nicht kennt, stört nicht. Diese Vorlage nutzt zum Beispiel `section` — für
