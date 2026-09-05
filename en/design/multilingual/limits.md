@@ -6,13 +6,6 @@ tags:
   - design
   - multilingual
 translationKey: gestaltung/mehrsprachigkeit/grenzen
-layoutBoxNote: sidebar-note.en.md
-layoutBoxHint:
-  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
-layoutBoxCta:
-  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
-layoutBoxColophon:
-  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
 ---
 
 This site is **one** build with `locale: de-DE`. The content is bilingual, the interface is not.
@@ -30,18 +23,16 @@ state of the backlinks, the labels of the search.
 **Dates are the exception.** `localizeDates: true` re-formats every `<time>` element in the browser
 in the language of the page. That is the only thing the plugin can move at this boundary.
 
-## The layout boxes: content yes, title no
+## The layout boxes are the exception
 
-Every English page sets four of the five boxes to English content in its frontmatter: the note box
-points at an English snippet; the hint, the call to action and the colophon line stand there as
-English HTML. The fifth is the word mark and carries the name of the site, which is not
-translated.
+Four of the five boxes speak both languages — content and heading. That makes them the only control
+on this site that reads the language of the *page* rather than the language of the site. It costs
+four `byLang` entries in the configuration and not a line in the notes; what it looks like is in
+[[en/design/layout-box/the-five-instances|The five instances]].
 
-What does **not** work is the title: the plugin's frontmatter control knows `hidden`, `file` and
-`html`, but no `title`. The two titled boxes — "Über dieses Handbuch" in the left column and
-"Weiterlesen" below the text — therefore carry a German heading over English content on English
-pages too. The clean way to fix it would be a `title` option in the frontmatter
-control of `quartz-layout-box`; it is recorded as a finding.
+It is at the same time the proof of what the others fail on: the plugin can do this only because it
+sees `fileData.frontmatter.lang`. Quartz's built-in components are handed `cfg.locale` at that
+point and have no way of learning the page's language at all.
 
 ## One search, one graph, one listing
 
@@ -78,6 +69,12 @@ A `.base` or `.canvas` file is not Markdown and has no header lines. It can ther
 a `translationKey` nor an alias. Two such pages would only be linked by their path — and that
 differs per language here. On these pages the switcher therefore offers the home page of the other
 language.
+
+For the same reason they carry no `lang` and therefore count as German — `<html lang="de">`, and
+the layout boxes show their German base setting even though the page sits under `en/`. Measured on
+four pages: three bases and one canvas. Changing that would mean changing where the language comes
+from: `.base` and `.canvas` are JSON and YAML, not Markdown, and have no place for a frontmatter
+field.
 
 ## What a second build would solve
 

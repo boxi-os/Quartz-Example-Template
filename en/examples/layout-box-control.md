@@ -9,10 +9,6 @@ layoutBoxNote: false
 layoutBoxCta:
   html: "<p>On this one page this box shows a different text — set in the frontmatter, not in the configuration.</p>"
 translationKey: beispiele/layout-box-steuerung
-layoutBoxHint:
-  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
-layoutBoxColophon:
-  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
 ---
 
 This page controls two of the five layout box instances through its own frontmatter:
@@ -39,6 +35,8 @@ That works because every instance has its own `frontmatterKey`. Without it, a si
 | `layoutBoxNote: other.md` | load a different snippet from the same folder |
 | `layoutBoxNote: {html: "…"}` | set your own content; `{file: "…"}` and `{hidden: true}` work too |
 
+The long form takes six fields: `hidden`, `file`, `html`, `title`, `collapsible` and `collapsed`.
+
 ## The five instances of this template
 
 | Key | Place | Form |
@@ -53,7 +51,9 @@ Four of them take their content from the configuration (`html:`) and therefore t
 template package in full. The box in the left column loads from a file and shows the other way —
 that file has to be copied along when the template is passed on.
 
-> [!note] The title stays as configured
-> The frontmatter can replace the content of a box, and can hide it, but not its title. That is why
-> the two titled boxes still read German on the English pages of this site — see
-> [[en/design/multilingual/limits|Where the two languages stop]].
+> [!note] For a whole language there is a better place
+> The frontmatter holds for **one** page. What should hold for every page of one language stands in
+> the configuration under `byLang` and needs no line in the notes — see
+> [[en/design/layout-box/the-five-instances|The five instances]]. When both apply, the frontmatter
+> wins: the box below this text shows its own content, but carries the heading of the page's
+> language.

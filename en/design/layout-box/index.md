@@ -6,13 +6,6 @@ tags:
   - design
   - layout-box
 translationKey: gestaltung/layout-box/index
-layoutBoxNote: sidebar-note.en.md
-layoutBoxHint:
-  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
-layoutBoxCta:
-  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
-layoutBoxColophon:
-  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
 ---
 
 `quartz-layout-box` renders an HTML or Markdown snippet at any place in the page layout: header,
@@ -31,13 +24,18 @@ something different.
 | A CSS class of your own | `className:` |
 | Replace placeholders | `placeholders:` |
 | Controllable per page | `frontmatterKey:` |
+| Different per language | `byLang:` |
 | An image per colour scheme | classes `img-light` / `img-dark` |
 
 ## Placeholders
 
-`{{title}}`, `{{slug}}`, `{{root}}`, `{{siteTitle}}`, `{{baseUrl}}`, `{{locale}}` and every
-frontmatter field through `{{frontmatter.name}}`. `{{root}}` is the relative path to the home page —
-so a link works even when the page sits in a sub-path.
+`{{title}}`, `{{slug}}`, `{{root}}`, `{{siteTitle}}`, `{{baseUrl}}`, `{{locale}}`, `{{lang}}` and
+every frontmatter field through `{{frontmatter.name}}`. `{{root}}` is the relative path to the home
+page — so a link works even when the page sits in a sub-path.
+
+`{{locale}}` names the language of **the page** (from the `lang` frontmatter field) and only falls
+back to `configuration.locale` when the page has none. `{{lang}}` is its front part: `en` rather
+than `en-US`.
 
 ## The design
 

@@ -24,18 +24,16 @@ Leerzustand der Rückverweise, die Beschriftungen der Suche.
 **Ausnahme Daten.** `localizeDates: true` formatiert jedes `<time>`-Element im Browser nach der
 Seitensprache. Das ist das Einzige, was das Plugin an dieser Grenze verschieben kann.
 
-## Die Layout-Boxen: Inhalt ja, Titel nein
+## Die Layout-Boxen sind die Ausnahme
 
-Jede englische Seite setzt in ihrem Frontmatter vier der fünf Boxen auf englischen Inhalt: Die
-Notiz-Box zeigt auf ein englisches Schnipsel; Hinweis, Aufruf und Impressumszeile stehen als
-englisches HTML dort. Die fünfte ist die Wortmarke und trägt den Namen der Website, der nicht
-übersetzt wird.
+Vier der fünf Boxen sprechen beide Sprachen — Inhalt und Überschrift. Sie sind damit das einzige
+Bedienelement dieser Website, das die Sprache der *Seite* liest statt die der Website. Das kostet
+vier Einträge `byLang` in der Konfiguration und keine Zeile in den Notizen; wie es aussieht, steht
+in [[gestaltung/layout-box/die-fuenf-instanzen|Die fünf Instanzen]].
 
-Was **nicht** geht, ist der Titel: Die Frontmatter-Steuerung des Plugins kennt `hidden`, `file` und
-`html`, aber kein `title`. Die beiden betitelten Boxen — „Über dieses Handbuch" in der linken
-Spalte und „Weiterlesen" unter dem Text — tragen deshalb auch auf englischen Seiten eine deutsche
-Überschrift über englischem Inhalt. Der saubere Weg dafür wäre eine Option `title` in der
-Frontmatter-Steuerung von `quartz-layout-box`; als Befund ist das festgehalten.
+Es ist zugleich der Beleg dafür, woran die anderen scheitern: Das Plugin kann das nur, weil es
+`fileData.frontmatter.lang` sieht. Quartz' eingebaute Komponenten bekommen an dieser Stelle
+`cfg.locale` gereicht und hätten gar keine Möglichkeit, die Seitensprache zu erfahren.
 
 ## Eine Suche, ein Graph, eine Liste
 
@@ -72,6 +70,12 @@ Eine `.base`- oder `.canvas`-Datei ist kein Markdown und hat keine Kopfzeilen. S
 keinen `translationKey` tragen und keinen Alias. Verknüpft würden zwei solche Seiten nur über den
 Pfad — und der ist hier je Sprache verschieden. Der Umschalter bietet auf diesen Seiten deshalb die
 Startseite der anderen Sprache an.
+
+Aus demselben Grund tragen sie kein `lang` und gelten damit als deutsch — `<html lang="de">`, und
+die Layout-Boxen zeigen ihre deutsche Grundeinstellung, obwohl die Seite unter `en/` liegt.
+Gemessen an vier Seiten: drei Bases und einer Canvas. Wer das ändern will, muss es dort ändern, wo
+die Sprache herkommt: `.base` und `.canvas` sind JSON und YAML, nicht Markdown, und haben keinen
+Platz für ein Frontmatter-Feld.
 
 ## Was ein zweiter Build lösen würde
 

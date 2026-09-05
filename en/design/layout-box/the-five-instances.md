@@ -6,13 +6,6 @@ tags:
   - design
   - layout-box
 translationKey: gestaltung/layout-box/die-fuenf-instanzen
-layoutBoxNote: sidebar-note.en.md
-layoutBoxHint:
-  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
-layoutBoxCta:
-  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
-layoutBoxColophon:
-  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
 ---
 
 | Key | Place | Form | What it shows |
@@ -46,7 +39,30 @@ When a template is imported, only **one** of the five instances currently surviv
 the same derived name (`quartz-layout-box`), and the import matches entries by name. That is
 measured and recorded as a finding.
 
-> [!note] The English pages fill four of them themselves
-> Content can be replaced per page, so every English page points `layoutBoxNote` at an English
-> snippet and sets the hint, the call to action and the colophon in English. The *title* of a box
-> cannot be replaced that way — see [[en/design/multilingual/limits|Where the two languages stop]].
+## Four of them speak both languages
+
+Four of the five carry text and therefore stand in the configuration twice: once in German as the
+base setting, once in English under `byLang`.
+
+```yaml
+options:
+  file: sidebar-note.md
+  title: Über dieses Handbuch
+  byLang:
+    en:
+      file: sidebar-note.en.md
+      title: About this handbook
+```
+
+The plugin reads the page's `lang` frontmatter field — the one Quartz writes `<html lang>` from —
+and merges the matching entry over the base setting. It needs no companion for that: whether `lang`
+comes from the multilanguage plugin or was written by hand makes no difference to it.
+
+The fifth is the site mark. It carries the name of the site, which is not translated, and therefore
+stays without `byLang`.
+
+> [!info] This used to sit in every page
+> Until 5 September 2026 there was no `byLang`, and each of the 126 English pages carried four
+> blocks in its own frontmatter — 876 lines all saying the same thing. The headings could not be
+> translated at all, because the frontmatter control knew no `title` back then. The plugin caught
+> up on both that day.

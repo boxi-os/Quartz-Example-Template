@@ -36,6 +36,9 @@ Möglich ist das, weil jede Instanz einen eigenen `frontmatterKey` hat. Ohne das
 | `layoutBoxNote: andere.md` | anderes Snippet aus demselben Ordner laden |
 | `layoutBoxNote: {html: "…"}` | eigenen Inhalt setzen; auch `{file: "…"}` und `{hidden: true}` |
 
+Die ausführliche Form nimmt sechs Felder: `hidden`, `file`, `html`, `title`, `collapsible` und
+`collapsed`.
+
 ## Die fünf Instanzen dieser Vorlage
 
 | Schlüssel | Ort | Form |
@@ -50,7 +53,9 @@ Vier davon holen ihren Inhalt aus der Konfiguration (`html:`) und reisen deshalb
 dem Vorlagen-Paket. Die Box in der linken Spalte lädt aus einer Datei und zeigt damit den anderen
 Weg — die Datei muss beim Weitergeben mitkopiert werden.
 
-> [!note] Der Titel bleibt, wie er konfiguriert ist
-> Das Frontmatter kann den Inhalt einer Box ersetzen und sie ausblenden, ihren Titel aber nicht.
-> Deshalb stehen die beiden betitelten Boxen auf den englischen Seiten dieser Website weiterhin
-> deutsch da — siehe [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
+> [!note] Für eine ganze Sprache gibt es einen besseren Ort
+> Das Frontmatter gilt für **eine** Seite. Was für alle Seiten einer Sprache gelten soll, steht in
+> der Konfiguration unter `byLang` und braucht keine Zeile in den Notizen — siehe
+> [[gestaltung/layout-box/die-fuenf-instanzen|Die fünf Instanzen]]. Treffen beide zu, gewinnt das
+> Frontmatter: Der Kasten unter diesem Text zeigt seinen eigenen Inhalt, trägt aber die
+> Überschrift der Seitensprache.

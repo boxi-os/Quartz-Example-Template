@@ -24,13 +24,18 @@ jedes Mal für etwas anderes.
 | Eigene CSS-Klasse | `className:` |
 | Platzhalter ersetzen | `placeholders:` |
 | Je Seite steuerbar | `frontmatterKey:` |
+| Je Sprache anders | `byLang:` |
 | Bild je Farbschema | Klassen `img-light` / `img-dark` |
 
 ## Platzhalter
 
-`{{title}}`, `{{slug}}`, `{{root}}`, `{{siteTitle}}`, `{{baseUrl}}`, `{{locale}}` und jedes
-Frontmatter-Feld über `{{frontmatter.name}}`. `{{root}}` ist der relative Weg zur Startseite — damit
-funktioniert ein Link auch, wenn die Seite in einem Unterpfad liegt.
+`{{title}}`, `{{slug}}`, `{{root}}`, `{{siteTitle}}`, `{{baseUrl}}`, `{{locale}}`, `{{lang}}` und
+jedes Frontmatter-Feld über `{{frontmatter.name}}`. `{{root}}` ist der relative Weg zur Startseite —
+damit funktioniert ein Link auch, wenn die Seite in einem Unterpfad liegt.
+
+`{{locale}}` nennt die Sprache **der Seite** (aus dem Frontmatter-Feld `lang`) und fällt nur auf
+`configuration.locale` zurück, wenn die Seite keine hat. `{{lang}}` ist davon der vordere Teil:
+`en` statt `en-US`.
 
 ## Die Gestaltung
 

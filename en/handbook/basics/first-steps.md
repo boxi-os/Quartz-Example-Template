@@ -5,13 +5,6 @@ section: Handbook
 tags:
   - basics
 translationKey: handbuch/grundlagen/erste-schritte
-layoutBoxNote: sidebar-note.en.md
-layoutBoxHint:
-  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
-layoutBoxCta:
-  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
-layoutBoxColophon:
-  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
 ---
 
 A page without anything special — that is exactly what it is for. It shows what a normal note looks

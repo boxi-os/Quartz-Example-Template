@@ -40,8 +40,30 @@ Beim Import einer Vorlage überlebt derzeit **nur eine** der fünf Instanzen. Al
 abgeleiteten Namen (`quartz-layout-box`), und der Import ordnet die Einträge nach Namen zu. Das ist
 gemessen und als Befund festgehalten.
 
-> [!note] Die englischen Seiten füllen vier davon selbst
-> Inhalt lässt sich je Seite ersetzen, deshalb zeigt jede englische Seite mit `layoutBoxNote` auf
-> ein englisches Schnipsel und setzt Hinweis, Aufruf und Impressumszeile auf englischen Text.
-> Der *Titel* einer Box lässt sich so nicht ersetzen — siehe
-> [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
+## Vier davon sprechen zwei Sprachen
+
+Vier der fünf tragen Text und stehen deshalb in der Konfiguration zweimal: einmal deutsch als
+Grundeinstellung, einmal englisch unter `byLang`.
+
+```yaml
+options:
+  file: sidebar-note.md
+  title: Über dieses Handbuch
+  byLang:
+    en:
+      file: sidebar-note.en.md
+      title: About this handbook
+```
+
+Das Plugin liest das Feld `lang` aus dem Frontmatter der Seite — dasselbe, aus dem Quartz das
+`<html lang>` schreibt — und legt den passenden Eintrag über die Grundeinstellung. Es braucht dafür
+keinen Partner: Ob `lang` vom Mehrsprachigkeits-Plugin kommt oder von Hand dasteht, ist ihm gleich.
+
+Die fünfte ist die Wortmarke. Sie trägt den Namen der Website, der nicht übersetzt wird, und bleibt
+deshalb ohne `byLang`.
+
+> [!info] Vorher stand das in jeder Seite
+> Bis zum 5. September 2026 gab es `byLang` nicht, und jede der 126 englischen Seiten trug vier
+> Blöcke im eigenen Frontmatter — 876 Zeilen, die alle dasselbe sagten. Die Überschriften ließen
+> sich so überhaupt nicht übersetzen, weil die Frontmatter-Steuerung damals kein `title` kannte.
+> Beides hat das Plugin an diesem Tag nachgeholt.

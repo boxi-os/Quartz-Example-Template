@@ -6,13 +6,6 @@ tags:
   - design
   - navigation
 translationKey: gestaltung/navigation/kopfbereich
-layoutBoxNote: sidebar-note.en.md
-layoutBoxHint:
-  html: "<p>On a narrow screen the navigation is collapsed at the top.</p>"
-layoutBoxCta:
-  html: "<p>This page belongs to <a href=\"{{root}}/en/\">{{siteTitle}}</a> — the example template for QuartzControl. An overview of every area is on the <a href=\"{{root}}/en/\">English home page</a>.</p>"
-layoutBoxColophon:
-  html: "<p>{{siteTitle}} · Language: {{locale}} · This page: <code>{{slug}}</code></p>"
 ---
 
 At the top stands the word mark, next to it the page title, at the right-hand end search, colour
