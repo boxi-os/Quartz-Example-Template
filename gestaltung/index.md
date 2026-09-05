@@ -19,7 +19,7 @@ Unterschiede gäbe es zwar auch, aber sie wäre weit weg von der Sache.
 
 | Bereich | Komponenten |
 | --- | --- |
-| [[gestaltung/grundlagen/farben-und-kontrast\|Grundlagen]] | Farben, Schriften, Tokens, Frames, Barrierefreiheit |
+| [[gestaltung/grundlagen/farben-und-kontrast\|Grundlagen]] | Farben, Schriften, Tokens, Frames, Barrierefreiheit, Anpassen |
 | [[gestaltung/navigation/explorer\|Navigation]] | Explorer, Suche, Farbschema, Lesemodus, Kopfbereich, Fußzeile |
 | [[gestaltung/seitenapparat/inhaltsverzeichnis\|Seitenapparat]] | Inhaltsverzeichnis, Rückverweise, Graph, zuletzt geändert |
 | [[gestaltung/ueber-dem-inhalt/brotkrumen\|Über dem Inhalt]] | Brotkrumen, Titel, Datum, Eigenschaften, Tags |
