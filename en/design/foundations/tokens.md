@@ -57,6 +57,30 @@ for the same reason — a variable *cannot* stand in that place.
 | everywhere | 27× `0.1em`, `1em` and others | Measures that relate to the type size rather than to the spacing scale — the padding of an inline-code pill, the size of an icon in line height. The three recurring letter-spacings became tokens on 2026-09-05. |
 | 13 rules | `720px`, `800px`, `801px` | A media query cannot read a variable. |
 
+## What repeats, and why it may
+
+Two shapes stand in several stylesheets nearly word for word:
+
+| Shape | in how many files |
+| --- | ---: |
+| The panel heading — heading face, uppercase, semibold, muted, `--tpl-tracking-label` | 9 |
+| The hovered link — accent colour, underlined, `--tpl-underline-offset` | 7 |
+
+That could be pulled into one shared file, and here that would be the wrong move. The stylesheets
+are cut by component, and the documentation hangs off that: every page in this section carries the
+table of the variables *its* component reads. Move the panel heading into `base.scss` and it
+disappears from nine of those tables and turns up in one that nobody reads while adjusting the
+backlinks.
+
+What has to be shared are the **values** — and they are: `--tpl-tracking-label` and
+`--tpl-underline-offset` stand once each and hold everywhere. The shape beside them is six lines,
+readable where they take effect.
+
+> [!note] A shared file would not be straightforward here anyway
+> Sass solves this with partials (`_shared.scss`). The app does not allow a filename with a leading
+> underscore, and a file without one would sit in the list under *Styles → Custom CSS* as a
+> stylesheet that emits nothing.
+
 ## What Quartz does instead
 
 **Out of the box** there are the nine colour variables and the typeface roles, but no scale for

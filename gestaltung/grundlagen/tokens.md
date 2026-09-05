@@ -57,6 +57,30 @@ haben denselben Grund — an dieser Stelle *kann* keine Variable stehen.
 | überall | 27× `0.1em`, `1em` u. a. | Maße, die sich auf die Schriftgröße beziehen und nicht auf die Abstandsskala — der Innenabstand einer Code-Pille, die Größe eines Symbols in Zeilenhöhe. Die drei wiederkehrenden Laufweiten sind seit dem 05.09.2026 Tokens. |
 | 13 Regeln | `720px`, `800px`, `801px` | Eine Media-Query kann keine Variable lesen. |
 
+## Was sich wiederholt, und warum es das darf
+
+Zwei Formen stehen in mehreren Stylesheets fast wortgleich:
+
+| Form | in wie vielen Dateien |
+| --- | ---: |
+| Die Panel-Überschrift — Überschriftenschrift, versal, halbfett, gedämpft, `--tpl-tracking-label` | 9 |
+| Der überfahrene Link — Akzentfarbe, unterstrichen, `--tpl-underline-offset` | 7 |
+
+Das ließe sich zu einer gemeinsamen Datei zusammenziehen, und genau das wäre hier falsch. Die
+Stylesheets sind nach Komponenten geschnitten, und die Doku hängt daran: Auf jeder Seite dieses
+Bereichs steht die Tabelle der Variablen, die *ihre* Komponente liest. Zöge man die Panel-Überschrift
+nach `base.scss`, verschwände sie aus neun dieser Tabellen und tauchte in einer auf, die niemand
+liest, während man die Rückverweise anpasst.
+
+Was geteilt werden muss, sind die **Werte** — und die sind es: `--tpl-tracking-label` und
+`--tpl-underline-offset` stehen je einmal und gelten überall. Die Form daneben ist sechs Zeilen, die
+lesbar dort stehen, wo sie wirken.
+
+> [!note] Eine gemeinsame Datei ginge hier ohnehin nicht ohne Weiteres
+> Sass löst so etwas über Partials (`_shared.scss`). Die App lässt einen Dateinamen mit führendem
+> Unterstrich nicht zu, und eine Datei ohne ihn stünde in der Liste unter *Stile → Eigenes CSS* als
+> Stylesheet, das nichts ausgibt.
+
 ## Was Quartz stattdessen tut
 
 **Von Haus aus** gibt es die neun Farbvariablen und die Schriftrollen, aber keine Skala für

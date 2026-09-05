@@ -7,6 +7,7 @@ tags:
   - frontmatter
 zahl: 42
 wahr: true
+falsch: false
 liste:
   - eins
   - zwei
@@ -15,7 +16,7 @@ leer:
 translationKey: formatierung/eigenschaften/datentypen
 ---
 
-Diese Seite trägt selbst vier Beispielfelder. Die Eigenschaften-Tabelle über diesem Text zeigt sie.
+Diese Seite trägt selbst fünf Beispielfelder. Die Eigenschaften-Tabelle über diesem Text zeigt sie.
 
 ````md
 ---
@@ -33,7 +34,7 @@ leer:
 | --- | --- | --- |
 | Text | `feld: Wert` | wie er ist |
 | Zahl | `zahl: 42` | in Ziffernbreite (`tabular-nums`) |
-| Wahrheitswert | `wahr: true` | als Wort, positiv eingefärbt |
+| Wahrheitswert | `wahr: true` / `falsch: false` | als Wort — wahr in der Positiv-Farbe, falsch gedämpft |
 | Liste | Einträge mit `-` | als Reihe von Marken |
 | Leer | `leer:` | kursiv und gedämpft |
 | Datum | `date: 2026-09-01` | nach Gebietsschema formatiert |
@@ -41,5 +42,5 @@ leer:
 ## Was angezeigt wird, entscheidet die Konfiguration
 
 Das Plugin *Note properties* zeigt standardmäßig nicht alles, sondern nur die Felder aus
-`includedProperties`. Diese Vorlage listet dort `description`, `tags`, `section` und die vier
-Demofelder dieser Seite. Ein Feld, das eine Seite nicht hat, bekommt keine Zeile.
+`includedProperties`. Diese Vorlage listet dort `description`, `tags`, `section` und die fünf
+Demofelder dieser Seite — in beiden Sprachen, weil die englische Fassung sie englisch benennt. Ein Feld, das eine Seite nicht hat, bekommt keine Zeile.

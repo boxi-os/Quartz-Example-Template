@@ -22,13 +22,13 @@ translationKey: beispiele/eigenschaften-demo
 ---
 
 Diese Seite trägt mehr Frontmatter, als angezeigt wird. Die Vorlage listet in
-`includedProperties` sieben Felder: `description`, `tags` und `section`, die jede Seite haben kann,
-dazu `zahl`, `wahr`, `liste` und `leer` — die vier, die es nur hier und auf
-[[formatierung/eigenschaften/datentypen|Datentypen]] gibt und die die vier Werttypen vorführen. Die
-Tabelle oben zählt deshalb sieben.
+`includedProperties` dreizehn Felder: `description`, `tags` und `section`, die jede Seite haben
+kann, dazu die fünf Demofelder — `zahl`, `wahr`, `falsch`, `liste`, `leer` — und noch einmal
+dieselben fünf mit englischen Namen, weil die englische Fassung dieser Seite sie so nennt. Ein Feld,
+das eine Seite nicht hat, bekommt keine Zeile; die Tabelle oben zählt deshalb acht.
 
-Nicht angezeigt werden `falsch`, `aliases` und `translationKey`: Das erste ist im Frontmatter, aber
-nicht in der Liste, die beiden anderen sind Technik und stünden auf fast jeder Seite.
+Nicht angezeigt werden `aliases` und `translationKey`: Beide sind Technik und stünden auf fast jeder
+Seite.
 
 Wer alle Felder sehen will, stellt in der App unter *Plugins → Note properties* die Option
 `includeAll` auf wahr.
