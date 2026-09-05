@@ -22,8 +22,8 @@ einem Vault, mit dem Plugin `quartz-multilanguage`.
 | Tags | `formatierung`, `gestaltung`, … | `formatting`, `design`, … |
 
 **Die deutschen Notizen mussten dafür nicht umziehen.** Das ist der Grund für diesen Zuschnitt: Die
-Ordner-Strategie hätte auch `de/` verlangen können, aber dann hätte jede der 122 Notizen einen neuen
-Pfad bekommen und jeder der 99 Wikilinks eine Korrektur. Eine Seite, auf die keine Strategie passt,
+Ordner-Strategie hätte auch `de/` verlangen können, aber dann hätte jede der 126 Notizen einen neuen
+Pfad bekommen und jeder der 140 Wikilinks eine Korrektur. Eine Seite, auf die keine Strategie passt,
 fällt in die Standardsprache — das genügt.
 
 ## Die Teile

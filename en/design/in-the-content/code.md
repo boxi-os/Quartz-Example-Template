@@ -55,7 +55,7 @@ still reads as `github-light`. It is the same thing this template does with Quar
 colours.
 
 They have been checked on every run since: `--check-contrast` reads the five values out of
-`body-code.scss` and measures them against `--tpl-surface-code`. 78 pairs have become 83.
+`body-code.scss` and measures them against `--tpl-surface-code`. 78 pairs have become 83; with the thirteenth callout, no longer skipped since 2026-09-05, 87.
 
 > [!note] How that works technically
 > shiki writes the colour **inline onto every single `<span>`**

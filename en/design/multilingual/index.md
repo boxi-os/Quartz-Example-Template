@@ -22,8 +22,8 @@ the same, with the `quartz-multilanguage` plugin.
 | Tags | `formatierung`, `gestaltung`, … | `formatting`, `design`, … |
 
 **The German notes did not have to move for this.** That is the reason for this cut: the folder
-strategy could have demanded a `de/` as well, but then each of the 122 notes would have got a new
-path and each of the 99 wikilinks a correction. A page no strategy matches falls into the default
+strategy could have demanded a `de/` as well, but then each of the 126 notes would have got a new
+path and each of the 140 wikilinks a correction. A page no strategy matches falls into the default
 language — that is enough.
 
 ## The parts

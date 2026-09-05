@@ -11,24 +11,27 @@ This site is the example content for the template **Minimal and readable**. It e
 design can be seen: an explorer needs folders, a table of contents needs headings, a graph needs
 links.
 
-> [!tip] Four ways in
+> [!tip] Five ways in
 > Each area shows something different about the same design.
 
 | Area | What is in it |
 | --- | --- |
-| [[en/formatting/index\|Formatting]] | Every Obsidian element as source and rendered result — 45 short pages |
+| [[en/formatting/index\|Formatting]] | Every Obsidian element as source and rendered result — 62 short pages |
 | [[en/obsidian-formats/index\|Obsidian formats]] | Bases, Canvas and Excalidraw: three file types that are not notes |
 | [[en/design/index\|Design]] | Per component: what Quartz does out of the box, and what this template changes |
 | [[en/handbook/index\|Handbook]] | Four folder levels deep — so that the explorer and the breadcrumbs have something to show |
+| [[en/examples/index\|Examples]] | Special cases: draft, unlisted, alias, a full frontmatter |
 
 ## The three decisions everything rests on
 
 1. **The width decides the grid.** The frame gives the text its column; there is no second limit on
    the individual paragraph that could fall out with it.
-2. **Colours are measured.** 83 pairs meet WCAG AA in light and dark, the twelve callout types
-   included. Quartz's own callout colours do not — eleven of twelve fail.
-3. **No stylesheet contains a number.** Everything reads variables that stay editable in the app
-   after the import.
+2. **Colours are measured.** 87 pairs meet WCAG AA in light and dark, the thirteen restated callout
+   colours included. Quartz's own do not — eleven of twelve fail.
+3. **No stylesheet sets a colour or a measure of the design itself.** Both come from variables that
+   stay editable in the app after the import. What does stand there literally is named and
+   accounted for: the callout and syntax colours, because they mean status rather than palette; the
+   hairlines; and the breakpoints — a media query cannot read a variable.
 
 ## Where the content is kept
 

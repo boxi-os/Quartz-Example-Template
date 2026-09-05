@@ -55,7 +55,7 @@ sich weiterhin als `github-light`. Es ist dasselbe, was diese Vorlage mit Quartz
 tut.
 
 Geprüft werden sie seitdem bei jedem Lauf: `--check-contrast` liest die fünf Werte aus
-`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden.
+`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten Callout, der seit dem 05.09.2026 nicht mehr übersprungen wird, sind es 87.
 
 > [!note] Wie das technisch geht
 > shiki schreibt die Farbe **inline an jedes einzelne `<span>`**

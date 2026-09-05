@@ -35,8 +35,8 @@ card).
 
 ## What is measured
 
-**83 pairs**, on every run: every text-on-ground combination in both modes, the alpha colours
-computed over the ground, all twelve callout colours against the ground *and* against their own
+**87 pairs**, on every run: every text-on-ground combination in both modes, the alpha colours
+computed over the ground, all thirteen callout colours against the ground *and* against their own
 tinted surface, and since 2026-09-05 the five corrected colours of the syntax theme against the code
 block's surface. The tightest value is 4.68:1 against a threshold of 4.5.
 

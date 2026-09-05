@@ -20,8 +20,9 @@ translationKey: formatierung/text/betonung
 ---
 ```
 
-Two pages with the same key are translations of each other. **That is how this site works almost
-everywhere** — 118 of 122 pairs.
+Two pages with the same key are translations of each other. **That is how this site works
+everywhere** — all 122 pairs. Four of them additionally carry aliases, so that this route is
+visible on the site as well; they too are linked by the key.
 
 The reason is a measured one: several pages here carry the same title. "Grundform" exists three
 times (callouts, tables, footnotes), "Code", "Eigenschaften" and "Callouts" twice each. Titles or

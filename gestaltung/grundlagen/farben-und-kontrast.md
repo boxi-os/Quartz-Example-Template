@@ -35,8 +35,8 @@ beide messen sich gegen jeden Grund, auf dem sie vorkommen (6,36:1 für Sienna a
 
 ## Was gemessen wird
 
-**83 Paare**, bei jedem Lauf: jede Text-auf-Grund-Kombination in beiden Modi, die Alpha-Farben über
-den Grund gerechnet, alle zwölf Callout-Farben gegen den Grund *und* gegen ihre eigene getönte
+**87 Paare**, bei jedem Lauf: jede Text-auf-Grund-Kombination in beiden Modi, die Alpha-Farben über
+den Grund gerechnet, alle dreizehn Callout-Farben gegen den Grund *und* gegen ihre eigene getönte
 Fläche, und seit dem 05.09.2026 die fünf korrigierten Farben des Syntax-Themas gegen die Fläche des
 Codeblocks. Der knappste Wert liegt bei 4,68:1 gegen eine Schwelle von 4,5.
 

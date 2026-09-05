@@ -22,7 +22,8 @@ translationKey: formatierung/text/betonung
 ```
 
 Zwei Seiten mit demselben Schlüssel sind Übersetzungen voneinander. **So arbeitet diese Website
-fast überall** — 118 von 122 Paaren.
+überall** — alle 122 Paare. Vier davon tragen zusätzlich Aliase, damit auch dieser Weg auf der
+Website zu sehen ist; verknüpft sind auch sie über den Schlüssel.
 
 Der Grund ist ein gemessener: Mehrere Seiten hier tragen denselben Titel. „Grundform" gibt es
 dreimal (Callouts, Tabellen, Fußnoten), „Code", „Eigenschaften" und „Callouts" je zweimal. Über

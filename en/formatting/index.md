@@ -26,7 +26,7 @@ code block first, the rendered result directly below it.
 | [[en/formatting/code/inline\|Code]] | inline, blocks, languages, line highlighting |
 | [[en/formatting/tables/basics\|Tables]] | basic form, alignment, contents, wide tables |
 | [[en/formatting/math/inline\|Mathematics]] | LaTeX inline and as a block |
-| [[en/formatting/diagrams/flow\|Diagrams]] | Mermaid in four flavours |
+| [[en/formatting/diagrams/flow\|Diagrams]] | Mermaid: fourteen kinds across six pages |
 | [[en/formatting/footnotes/basics\|Footnotes]] | footnotes, variants, comments |
 | [[en/formatting/properties/frontmatter\|Properties]] | frontmatter, data types, display |
 | [[en/formatting/media/images\|Media]] | images, sizes, video, audio, embeds |

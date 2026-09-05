@@ -26,7 +26,7 @@ Quelltext in einem Codeblock, direkt darunter das gerenderte Ergebnis.
 | [[formatierung/code/inline\|Code]] | inline, Blöcke, Sprachen, Zeilenhervorhebung |
 | [[formatierung/tabellen/grundform\|Tabellen]] | Grundform, Ausrichtung, Inhalte, breite Tabellen |
 | [[formatierung/mathematik/inline\|Mathematik]] | LaTeX inline und als Block |
-| [[formatierung/diagramme/fluss\|Diagramme]] | Mermaid in vier Ausprägungen |
+| [[formatierung/diagramme/fluss\|Diagramme]] | Mermaid: vierzehn Arten auf sechs Seiten |
 | [[formatierung/fussnoten/grundform\|Fußnoten]] | Fußnoten, Varianten, Kommentare |
 | [[formatierung/eigenschaften/frontmatter\|Eigenschaften]] | Frontmatter, Datentypen, Anzeige |
 | [[formatierung/medien/bilder\|Medien]] | Bilder, Größen, Video, Audio, Einbettungen |

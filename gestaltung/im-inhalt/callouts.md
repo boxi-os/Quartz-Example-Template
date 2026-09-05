@@ -25,7 +25,7 @@ Gemessen gegen den hellen Grund dieser Vorlage scheitern **elf von zwölf** an d
 
 ## In dieser Vorlage
 
-Alle zwölf sind neu gesetzt, **je Modus einmal**, und werden bei jedem Lauf zweifach gemessen:
+Alle dreizehn sind neu gesetzt, **je Modus einmal**, und werden bei jedem Lauf zweifach gemessen:
 gegen den Seitengrund und gegen die eigene getönte Fläche. Der Farbton bleibt erhalten — Blau bleibt
 Blau —, damit der Typ weiterhin an der Farbe erkennbar ist.
 

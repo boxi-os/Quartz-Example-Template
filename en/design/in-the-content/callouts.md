@@ -25,7 +25,7 @@ Measured against the light ground of this template, **eleven of twelve** fail th
 
 ## In this template
 
-All twelve are set anew, **once per mode**, and are measured twice on every run: against the page
+All thirteen are set anew, **once per mode**, and are measured twice on every run: against the page
 ground and against their own tinted surface. The hue is kept — blue stays blue — so that the type
 is still recognisable by its colour.
 
