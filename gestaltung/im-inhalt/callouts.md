@@ -61,10 +61,10 @@ Diese 19 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der Ap
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

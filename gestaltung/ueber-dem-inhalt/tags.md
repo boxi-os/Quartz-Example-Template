@@ -46,9 +46,9 @@ Diese 11 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der Ap
 | `--tag-background-hover` | — | nur hier |
 | `--tag-color` | — | nur hier |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 

@@ -43,15 +43,15 @@ These 16 variables are read by `meta-note-properties.scss`. They can be changed 
 | --- | --- | --- |
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--tpl-positive` | `#136B34` · dark `#6DD68F` | only here |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
-| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |

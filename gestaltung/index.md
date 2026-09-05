@@ -32,5 +32,5 @@ Unterschiede gäbe es zwar auch, aber sie wäre weit weg von der Sache.
 
 1. **Die Breite entscheidet das Raster** — der Frame, an einer Stelle, nicht zusätzlich der Absatz.
 2. **Farben sind gemessen.** 87 Paare, alle über der WCAG-Schwelle, in beiden Modi.
-3. **Farbe und Maß stehen nicht in den Stylesheets**, sondern in 50 Variablen, die in der App
+3. **Farbe und Maß stehen nicht in den Stylesheets**, sondern in 53 Variablen, die in der App
    bearbeitbar bleiben. Was doch literal dasteht, ist benannt und begründet.

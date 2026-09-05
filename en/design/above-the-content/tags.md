@@ -45,9 +45,9 @@ These 11 variables are read by `meta-tag-list.scss`. They can be changed in the 
 | `--tag-background-hover` | — | only here |
 | `--tag-color` | — | only here |
 | `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 8 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 

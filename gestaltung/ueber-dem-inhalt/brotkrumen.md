@@ -41,7 +41,7 @@ Diese 7 Variablen liest `meta-breadcrumbs.scss`. Ändern lassen sie sich in der 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
 | `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
 | `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |

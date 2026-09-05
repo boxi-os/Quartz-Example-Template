@@ -51,19 +51,19 @@ so that it does not end up in the reading order.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by `page-folder.scss` and `page-tag.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by `page-listing.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-3xs` | `0.125rem` | 7 other components |
-| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |

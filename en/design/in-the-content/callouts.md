@@ -62,10 +62,10 @@ These 19 variables are read by `body-callouts.scss`. They can be changed in the 
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 18 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
+| `--tpl-space-md` | `1rem` | 17 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

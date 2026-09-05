@@ -44,17 +44,18 @@ zwischen den zwei Zeilen zwei verschiedene Lücken.
 > [!note] Kommentare wären der dritte Teil
 > Das Plugin *Comments* (giscus) ist in dieser Vorlage ausgeschaltet — es braucht ein
 > GitHub-Repository, das eine importierende Website nicht hat. Die Gestaltung dafür reist trotzdem
-> mit (`site-comments.scss`), damit ein Einschalten in der App nicht einen ungestalteten Rahmen
+> mit — im unteren Teil von `site-footer.scss` —, damit ein Einschalten in der App nicht einen
+> ungestalteten Rahmen
 > unter jede Seite setzt.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 11 Variablen liest `site-footer.scss` und `site-comments.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest `site-footer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
 | `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 weitere Komponenten |
@@ -62,7 +63,7 @@ Diese 11 Variablen liest `site-footer.scss` und `site-comments.scss`. Ändern la
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-xl` | `2.5rem` | 4 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 

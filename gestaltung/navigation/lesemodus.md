@@ -40,9 +40,9 @@ Diese 10 Variablen liest `nav-reader-mode.scss`. Ändern lassen sie sich in der 
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
-| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-target` | `44px` | 11 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

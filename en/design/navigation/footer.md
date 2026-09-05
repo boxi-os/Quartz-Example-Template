@@ -43,17 +43,18 @@ between the two lines.
 
 > [!note] Comments would be the third part
 > The *Comments* plugin (giscus) is switched off in this template — it needs a GitHub repository
-> that an importing site does not have. The styling travels along anyway (`site-comments.scss`), so
+> that an importing site does not have. The styling travels along anyway — in the lower half of
+> `site-footer.scss` — so
 > that switching it on in the app does not drop an unstyled frame under every page.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by `site-footer.scss` and `site-comments.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 11 variables are read by `site-footer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
@@ -61,7 +62,7 @@ These 11 variables are read by `site-footer.scss` and `site-comments.scss`. They
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-xl` | `2.5rem` | 4 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 

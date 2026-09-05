@@ -32,5 +32,5 @@ list of all the differences would be possible too, but it would be far away from
 
 1. **The width decides the grid** — the frame, in one place, not the paragraph as well.
 2. **Colours are measured.** 87 pairs, all above the WCAG threshold, in both modes.
-3. **Neither colour nor measure lives in the stylesheets** — both come from 50 variables that stay
+3. **Neither colour nor measure lives in the stylesheets** — both come from 53 variables that stay
    editable in the app. What does stand literally is named and accounted for.

@@ -51,14 +51,14 @@ Aus dem Frontmatter, sonst aus dem Dateisystem — in dieser Reihenfolge, einges
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 7 Variablen liest `meta-article-title.scss` und `meta-content-meta.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 7 Variablen liest `meta-title-and-date.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-text-2xl` | `1.75rem` | Tokens |
 | `--tpl-text-3xl` | `2.25rem` | Tokens, Fehlerseite |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |

@@ -43,7 +43,7 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 > Since 2026-09-05 the 15 rem live in the search plugin's `layout.groupOptions.basis`, together
 > with `shrink: false`. The second belongs with it: a shrinkable item contributes only its content
 > width to the group's size, so the group stayed at 322 px while its children wanted 452 — and the
-> bar wrapped onto two rows, the header growing from 61 to 101 px. On a phone `nav-toolbar.scss`
+> bar wrapped onto two rows, the header growing from 61 to 101 px. On a phone `nav-header.scss`
 > takes the width back off, with `!important`, because nothing else beats an inline style.
 
 > [!note] The index spans both languages
@@ -60,20 +60,20 @@ These 18 variables are read by `nav-search.scss`. They can be changed in the app
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-lg` | `14px` | The graph, Link preview |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
-| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
-| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-lg` | `1.15rem` | Tokens, Link preview |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 

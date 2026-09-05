@@ -55,9 +55,9 @@ These 13 variables are read by `page-canvas.scss`. They can be changed in the ap
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
-| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

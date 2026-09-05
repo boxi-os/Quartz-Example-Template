@@ -73,7 +73,7 @@ explicitly.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `nav-toolbar.scss` and `nav-page-title.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 13 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -83,11 +83,11 @@ These 13 variables are read by `nav-toolbar.scss` and `nav-page-title.scss`. The
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
 | `--tpl-header-pad` | set in the stylesheet (`base.scss`) | Tokens |
 | `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
 

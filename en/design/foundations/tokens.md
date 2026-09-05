@@ -1,6 +1,6 @@
 ---
 title: Tokens
-description: 50 variables the whole design is made of.
+description: 53 variables the whole design is made of.
 section: Design
 tags:
   - design
@@ -43,7 +43,7 @@ once, instead of every component inside them repeating it.
 
 ## What does stand literally
 
-Measured across the 34 stylesheets, comments excluded: **41 colour values** and **112 lengths**. All
+Measured across the 30 stylesheets, comments excluded: **41 colour values** and **91 lengths**. All
 for the same reason — a variable *cannot* stand in that place.
 
 | Where | What | Why |
@@ -54,7 +54,7 @@ for the same reason — a variable *cannot* stand in that place.
 | `a11y` | 2 greys | Inside `@media print`. On paper neither the light nor the dark palette applies. |
 | `nav-explorer` | 1 black | The scrim behind the drawer on a phone — not a colour, a dimming. |
 | everywhere | 20× `1px`/`2px` | Hairlines and focus rings. A line is one pixel wide, not one step of a grid. |
-| everywhere | 26× `0.06em`–`0.18em` | Letter-spacing. It relates to the type size, not to the spacing scale. |
+| everywhere | 27× `0.1em`, `1em` and others | Measures that relate to the type size rather than to the spacing scale — the padding of an inline-code pill, the size of an icon in line height. The three recurring letter-spacings became tokens on 2026-09-05. |
 | 13 rules | `720px`, `800px`, `801px` | A media query cannot read a variable. |
 
 ## What Quartz does instead
@@ -73,7 +73,7 @@ These 39 variables are read by `base.scss`. They can be changed in the app under
 | `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--icon-chevron` | set in the stylesheet (`base.scss`) | Callout colours |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
@@ -92,15 +92,15 @@ These 39 variables are read by `base.scss`. They can be changed in the app under
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xl` | `4rem` | Error page |
 | `--tpl-space-3xs` | `0.125rem` | 7 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xl` | `2.5rem` | 5 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
-| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-space-xl` | `2.5rem` | 4 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-2xl` | `1.75rem` | Title and date |
 | `--tpl-text-3xl` | `2.25rem` | Title and date, Error page |
 | `--tpl-text-base` | `1rem` | 4 other components |

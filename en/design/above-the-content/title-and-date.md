@@ -50,14 +50,14 @@ date* plugin.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by `meta-article-title.scss` and `meta-content-meta.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by `meta-title-and-date.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
-| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-text-2xl` | `1.75rem` | Tokens |
 | `--tpl-text-3xl` | `2.25rem` | Tokens, Error page |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |

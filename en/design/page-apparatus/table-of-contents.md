@@ -66,18 +66,18 @@ These 17 variables are read by `aside-toc.scss`. They can be changed in the app 
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
 | `--tpl-indent` | `0.85rem` | The explorer |
 | `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
-| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-3xs` | `0.125rem` | 7 other components |
-| `--tpl-space-md` | `1rem` | 18 other components |
-| `--tpl-space-xs` | `0.5rem` | 21 other components |
-| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-space-md` | `1rem` | 17 other components |
+| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 8 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
