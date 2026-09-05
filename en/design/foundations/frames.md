@@ -67,6 +67,43 @@ in and their geometry cannot be changed — only selected.
 width and alignment are set per width. An area that really has no business at one width is hidden —
 a column that merely happens to be empty stays, so that the text column does not wander.
 
+## Fixing the width of an outer column
+
+The twelve columns are `1fr` and therefore share the space evenly — at every window width all three
+blocks shrink together. Anyone wanting a fixed width instead enters it in the frame editor under
+*Grid*, in the **column widths** field: one input per column, empty meaning `1fr`, and the values
+hold per breakpoint.
+
+The arithmetic is where one stumbles: **an outer column is not one track but three** — plus the two
+gutters between them, which belong to the area's own width. For 320 px, fields 1–3 and 10–12 each
+take
+
+```
+calc((320px - 4rem) / 3)
+```
+
+and fields 4–9 stay empty. Measured on the built page:
+
+| Window | left | text | right |
+| ---: | ---: | ---: | ---: |
+| 1728 px | 320 | 696 | 320 |
+| 1440 px | 320 | 696 | 320 |
+| 1300 px | 320 | 556 | 320 |
+| 1200 px | 320 | 456 | 320 |
+| 1101 px | 320 | 357 | 320 |
+
+For comparison with `1fr`: 326 / 684 / 326 at 1440 px and 266 / 564 / 266 at 1200 px.
+
+> [!warning] The text alone pays the difference
+> With `1fr` all three blocks lose together; with fixed outer columns only the text column does. At
+> 1101 px — just above the tablet break — it is left with 357 px, a good 37 characters per line. The
+> values therefore belong on the desktop breakpoint and not on tablet or mobile, where the outer
+> column moves below the text or spans the full width anyway.
+
+This template makes **no** use of it: it stays with twelve equal columns, because the text measure
+is then a consequence of the grid rather than a second decision beside it — see
+[[en/design/in-the-content/body-text|Body text]].
+
 ## Two peculiarities of the editor
 
 - A value may contain **no comma** — so no `minmax(0, 1fr)`.

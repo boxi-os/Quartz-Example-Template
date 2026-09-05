@@ -70,6 +70,43 @@ Maximalbreite und Ausrichtung sind je Breite gesetzt. Ein Bereich, der auf einer
 nichts zu suchen hat, wird ausgeblendet — eine Spalte, die nur gerade leer ist, bleibt dagegen
 stehen, damit die Textspalte nicht wandert.
 
+## Eine Randspalte fest machen
+
+Die zwölf Spalten sind `1fr` und teilen sich damit den Platz gleichmäßig — bei jeder Fensterbreite
+schrumpfen alle drei Blöcke zusammen. Wer stattdessen eine feste Breite will, trägt sie im
+Frame-Editor unter *Raster* im Feld **Spaltenbreiten** ein: ein Eingabefeld je Spalte, leer heißt
+`1fr`, und die Werte gelten je Breakpoint für sich.
+
+Die Rechnung dabei ist die Stelle, an der man stolpert: **Eine Randspalte ist kein Track, sondern
+drei** — plus die zwei Rinnen dazwischen, die zur Fläche des Bereichs gehören. Für 320 px bekommen
+die Felder 1–3 und 10–12 also je
+
+```
+calc((320px - 4rem) / 3)
+```
+
+und die Felder 4–9 bleiben leer. Gemessen an der gebauten Seite:
+
+| Fenster | links | Text | rechts |
+| ---: | ---: | ---: | ---: |
+| 1728 px | 320 | 696 | 320 |
+| 1440 px | 320 | 696 | 320 |
+| 1300 px | 320 | 556 | 320 |
+| 1200 px | 320 | 456 | 320 |
+| 1101 px | 320 | 357 | 320 |
+
+Zum Vergleich mit `1fr`: 326 / 684 / 326 bei 1440 px und 266 / 564 / 266 bei 1200 px.
+
+> [!warning] Den Unterschied zahlt allein der Text
+> Mit `1fr` verlieren alle drei Blöcke gemeinsam, mit festen Rändern nur die Textspalte. Bei
+> 1101 px — knapp über dem Tablet-Umbruch — bleiben ihr 357 px, also gut 37 Zeichen je Zeile. Die
+> Werte gehören deshalb auf den Desktop-Breakpoint und nicht auf Tablet oder Mobil, wo die
+> Randspalte ohnehin unter den Text rückt oder ganz über die Breite geht.
+
+Diese Vorlage macht davon **keinen** Gebrauch: Sie bleibt bei zwölf gleichen Spalten, weil die
+Textbreite dann eine Folge des Rasters ist und nicht eine zweite Entscheidung daneben — siehe
+[[gestaltung/im-inhalt/fliesstext|Fließtext]].
+
 ## Zwei Eigenheiten des Editors
 
 - Ein Wert darf **kein Komma** enthalten — also kein `minmax(0, 1fr)`.
