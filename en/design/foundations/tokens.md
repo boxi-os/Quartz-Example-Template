@@ -66,7 +66,7 @@ change the base gap has to look for it in many places.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 37 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 39 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -107,6 +107,8 @@ These 37 variables are read by `base.scss`. They can be changed in the app under
 | `--tpl-text-lg` | `1.15rem` | Search, Link preview |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xl` | `1.4rem` | The language switcher |
+| `--tpl-tracking-caps` | `0.06em` | Code styling, Bases |
+| `--tpl-tracking-label` | `0.08em` | 8 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

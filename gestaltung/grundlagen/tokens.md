@@ -66,7 +66,7 @@ Grundabstand ändern will, sucht ihn an vielen Stellen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 37 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 39 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -107,6 +107,8 @@ Diese 37 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *
 | `--tpl-text-lg` | `1.15rem` | Suche, Link-Vorschau |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xl` | `1.4rem` | Der Sprachumschalter |
+| `--tpl-tracking-caps` | `0.06em` | Code, Bases |
+| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

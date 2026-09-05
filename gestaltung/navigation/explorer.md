@@ -114,7 +114,7 @@ Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 30 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 31 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -148,6 +148,7 @@ Diese 30 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App
 | `--tpl-target` | `44px` | 12 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

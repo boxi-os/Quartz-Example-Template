@@ -108,7 +108,7 @@ Surface **and** a bar on the left. A tint alone is too weak on a block that is t
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 21 variables are read by `body-code.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 22 variables are read by `body-code.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -133,6 +133,7 @@ These 21 variables are read by `body-code.scss`. They can be changed in the app 
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 12 other components |
 | `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-tracking-caps` | `0.06em` | Tokens, Bases |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

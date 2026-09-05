@@ -36,7 +36,7 @@ ganze Weg über fünf Stationen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 6 Variablen liest `meta-breadcrumbs.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 7 Variablen liest `meta-breadcrumbs.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -46,6 +46,7 @@ Diese 6 Variablen liest `meta-breadcrumbs.scss`. Ändern lassen sie sich in der 
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
 | `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

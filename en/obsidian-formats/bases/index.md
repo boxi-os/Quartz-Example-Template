@@ -54,7 +54,7 @@ below that.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 25 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 28 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -83,6 +83,9 @@ These 25 variables are read by `page-bases.scss`. They can be changed in the app
 | `--tpl-target` | `44px` | 12 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-tracking-caps` | `0.06em` | Tokens, Code styling |
+| `--tpl-tracking-label` | `0.08em` | 8 other components |
+| `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

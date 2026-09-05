@@ -70,7 +70,7 @@ stays without `byLang`.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 25 variables are read by `plugin-layout-box.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 27 variables are read by `plugin-layout-box.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -99,6 +99,8 @@ These 25 variables are read by `plugin-layout-box.scss`. They can be changed in 
 | `--tpl-text-base` | `1rem` | 4 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-tracking-label` | `0.08em` | 8 other components |
+| `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

@@ -71,7 +71,7 @@ deshalb ohne `byLang`.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 25 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 27 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -100,6 +100,8 @@ Diese 25 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in de
 | `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
+| `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

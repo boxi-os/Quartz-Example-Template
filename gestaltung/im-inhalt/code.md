@@ -107,7 +107,7 @@ Fläche **und** Balken links. Eine Tönung allein ist auf einem ohnehin getönte
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 21 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -132,6 +132,7 @@ Diese 21 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App un
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
 | `--tpl-target` | `44px` | 12 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-tracking-caps` | `0.06em` | Tokens, Bases |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

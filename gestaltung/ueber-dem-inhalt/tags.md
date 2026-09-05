@@ -36,7 +36,7 @@ dabei nicht, weil der Rand vorher transparent da war.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 10 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -50,6 +50,7 @@ Diese 10 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der Ap
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

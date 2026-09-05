@@ -42,7 +42,7 @@ Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 8 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 9 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -54,6 +54,7 @@ Diese 8 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der A
 | `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

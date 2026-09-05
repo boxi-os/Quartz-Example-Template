@@ -51,7 +51,7 @@ so that it does not end up in the reading order.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by `page-folder.scss` and `page-tag.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by `page-folder.scss` and `page-tag.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -66,6 +66,7 @@ These 11 variables are read by `page-folder.scss` and `page-tag.scss`. They can 
 | `--tpl-space-xs` | `0.5rem` | 21 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

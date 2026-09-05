@@ -35,7 +35,7 @@ over five stations.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 6 variables are read by `meta-breadcrumbs.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -45,6 +45,7 @@ These 6 variables are read by `meta-breadcrumbs.scss`. They can be changed in th
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
 | `--tpl-space-3xs` | `0.125rem` | 7 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

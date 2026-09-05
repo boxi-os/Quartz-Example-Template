@@ -37,7 +37,7 @@ everything that is left over and leaves the key its content width.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 15 variables are read by `meta-note-properties.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 16 variables are read by `meta-note-properties.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -56,6 +56,7 @@ These 15 variables are read by `meta-note-properties.scss`. They can be changed 
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-tracking-label` | `0.08em` | 8 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

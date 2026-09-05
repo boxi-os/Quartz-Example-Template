@@ -45,7 +45,7 @@ nicht der Komponente, in der man ihn zuerst gesehen hat.**
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 13 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -61,6 +61,7 @@ Diese 12 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in d
 | `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
