@@ -38,12 +38,10 @@ Struktur nicht.
 - **Lange Namen** werden abgeschnitten statt umgebrochen; drei Zeilen für einen Dateinamen zerreißen
   den Baum.
 - **Ein langer Baum scrollt in sich selbst** (60 % der Fensterhöhe) statt die Fußzeile
-  wegzuschieben, und blendet dabei weich aus — in Chromium **nur auf der Seite, auf der noch etwas
-  kommt**: ganz oben ist die erste Zeile vollständig, ganz unten die letzte, und ein Baum, der
-  ohnehin vollständig zu sehen ist, blendet gar nicht aus. Zwei registrierte Längen an
-  `scroll(self block)` tragen das. Ein Browser ohne scroll-getriebene Animationen bekommt die Kante
-  dauerhaft an beiden Enden — weniger klug, aber richtig. Nachgemessen ist das an Firefox 155;
-  welche Version welchen Browsers sie kann, entscheidet `@supports` und nicht diese Seite.
+  wegzuschieben, und blendet dabei **oben und unten weich aus**. Der Kasten trägt dafür genau so
+  viel Innenabstand, wie die Kante tief ist: Ganz oben steht die erste Zeile deshalb *unter* dem
+  Verlauf statt darin, ganz unten die letzte darüber. Beide Enden liest man in voller Stärke; weich
+  wird nur, was gerade vorbeizieht.
 - **Am Telefon ist er eine Schublade.** Der Knopf sitzt in der App-Leiste, wird beim Öffnen zum
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.

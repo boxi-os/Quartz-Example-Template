@@ -35,10 +35,8 @@ Gestaltet ist jede Stufe einzeln:
   mit eigener Rollleiste, mitten in einer Spalte, die selbst schon rollte. Alle drei sind hier
   aufgehoben.
 - **Gerollt wird eine Ebene höher**, in der rechten Spalte als Ganzem — mit derselben weichen Kante
-  wie im Explorer und mit nur einer Rollleiste statt zweier ineinander. In Chromium ist dabei immer
-  nur die Seite weich, hinter der noch etwas liegt: Am Anfang der Liste ist der erste Eintrag
-  scharf, am Ende der letzte. Ein Browser ohne scroll-getriebene Animationen bekommt die Kante an
-  beiden Enden.
+  wie im Explorer und mit nur einer Rollleiste statt zweier ineinander. Der Innenabstand der Spalte
+  ist so tief wie die Kante, damit der erste und der letzte Eintrag nicht darunter liegen.
 - **Kein Ausblenden per Deckkraft.** Quartz dimmt einen Eintrag, der gerade nicht im Bild ist, auf
   `opacity: 0.35`; das misst sich auf diesem Grund unter 3:1. Der Zustand bleibt, gesagt wird er in
   Farbe, Gewicht und Balken — drei Signalen, die alle gemessen sind.

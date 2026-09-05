@@ -40,9 +40,8 @@ Every step is designed separately:
   its base stylesheet. Together the three turn a long outline into a short stub with a scrollbar of
   its own, in the middle of a column that was already scrolling. All three are lifted here.
 - **Scrolling happens one level up**, in the right column as a whole — with the same soft edge as
-  in the explorer, and with one scrollbar instead of two inside each other. In Chromium only the
-  side with more behind it is ever soft: at the start of the list the first entry is crisp, at the
-  end the last one is. A browser without scroll-driven animations gets the edge at both ends.
+  in the explorer, and with one scrollbar instead of two inside each other. The column's padding is
+  as deep as the edge, so that the first and the last entry do not sit underneath it.
 - **No fading by opacity.** Quartz dims an entry that is currently out of view to `opacity: 0.35`;
   on this ground that measures below 3:1. The state remains, but it is said in colour, weight and
   bar — three signals, all of them measured.
