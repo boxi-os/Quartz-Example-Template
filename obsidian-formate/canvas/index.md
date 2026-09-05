@@ -28,9 +28,9 @@ keine Seitenleisten, keine Brotkrumen.
 > Ein Dateiknoten zeigt eine Notiz mit ihrem ganzen Inhalt — und die Links darin bekommen den
 > Ordner der eingebetteten Notiz **zweimal** vorangestellt. Aus dem Verweis auf
 > `gestaltung/grundlagen/frames` in der Bases-Übersicht wird auf dieser Seite
-> `../../obsidian-formate/bases/../../../gestaltung/grundlagen/frames` — ein Pfad, der aus der
-> Website herausführt. Gemessen: **sieben je Sprache**, alle in demselben Dateiknoten, und die Zahl
-> wächst mit jedem Link, der in einer eingebetteten Notiz dazukommt.
+> `../../obsidian-formate/bases/../../../obsidian-formate/bases/alle-ansichten.base` — ein Pfad, der
+> aus der Website herausführt. Gemessen: **sechs je Sprache**, alle in demselben Dateiknoten, und die
+> Zahl wächst mit jedem Link, der in einer eingebetteten Notiz dazukommt.
 >
 > Das ist ein Fehler im Plugin `canvas-page`, nicht in dieser Vorlage — die Links stimmen auf ihren
 > eigenen Seiten. Wer sich darauf verlassen will, klickt den Knotentitel an und liest die Notiz

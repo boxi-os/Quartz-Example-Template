@@ -39,9 +39,8 @@ Alle fünf sind in dieser Vorlage gestaltet — zu sehen unter
 
 Bases-Seiten nutzen den Frame **`index`**, denselben wie Ordner- und Tag-Seiten. Ein
 Inhaltsverzeichnis entsteht dort nicht, weil eine Tabelle keine Überschriften hat; die rechte
-Spalte bleibt am Desktop trotzdem stehen, damit die Tabelle dort beginnt, wo sonst der Text
-beginnt. Unter 1100 px blendet dieser Frame sie aus — siehe den Befund unter
-[[gestaltung/grundlagen/frames|Frames]].
+Spalte bleibt trotzdem stehen, damit die Tabelle dort beginnt, wo sonst der Text beginnt — am
+Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 
 > [!warning] Der Umschalter findet diese Seiten nicht
 > Eine `.base`-Datei hat kein Frontmatter und kann deshalb keinen `translationKey` tragen. Der

@@ -38,9 +38,9 @@ All five are designed in this template — to be seen under
 ## In this template
 
 Bases pages use the **`index`** frame, the same one folder and tag pages use. No table of
-contents arises there, because a table has no headings; the right column still stands on the
-desktop, so the table begins where the text otherwise begins. Below 1100 px this frame hides it —
-see the finding under [[en/design/foundations/frames|Frames]].
+contents arises there, because a table has no headings; the right column still stands, so the table
+begins where the text otherwise begins — beside the content on the desktop, in a row of its own
+below that.
 
 > [!note] Bases are new
 > They arrived with Obsidian 1.9 as a core feature. Older vaults do not have them; in the example

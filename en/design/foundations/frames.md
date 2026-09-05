@@ -48,12 +48,15 @@ own stylesheet. Before, 720 stood here, and between 721 and 800 px the two contr
 On a tablet the right **column** falls away; its content slides below the text instead of
 disappearing. On a phone everything stands one below the other.
 
-> [!bug] Only `editorial` moves it down
-> Below 1100 px, `index` and `focus` hide the right column instead. For `focus` it is empty, so
-> that costs nothing. For `index` it is not: measured at 900 and at 390 px it carries
-> `display: none`, so folder, tag and bases pages lose their **backlinks and the graph** entirely
-> on a tablet and on a phone. On an article page both survive and merely move below the text. That
-> is a bug in the frame, not a design.
+That holds for `editorial` and for `index` alike. Only `focus` really hides the column — there it
+is empty, so that costs nothing.
+
+> [!example] What used to be wrong here
+> For a long time `index` hid the right column below 1100 px instead of moving it down, on the
+> assumption that it was empty on a listing page: a list of links has no headings, hence no table
+> of contents. Measured on `/formatierung/` it is not empty — backlinks and the graph live there.
+> On a tablet and on a phone both therefore vanished from every folder, tag and bases page. Since
+> 2026-09-05 `index` gives the right column the same row `editorial` does.
 
 ## What Quartz brings along
 

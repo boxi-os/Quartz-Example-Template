@@ -17,7 +17,9 @@ Ein Knopf mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgra
 - Der Rand kommt aus **`gray`**, nicht aus `lightgray`. Das ist die Umsetzung der Kontrastregel:
   `lightgray` misst 1,34:1 gegen den Grund und darf deshalb nichts umranden, das man bedient.
 - Der Knopf steht **im Kopfbereich**, ganz rechts, zusammen mit den drei anderen Bedienelementen.
-  Er ist 44 px hoch wie seine Nachbarn. Am Telefon wird er ein Quadrat ohne Beschriftung.
+  Er ist 44 px hoch wie seine Nachbarn und 15 rem breit — breit genug, um als Feld gelesen zu
+  werden, schmal genug, dass der Kopf weiter dem Seitentitel gehört. Am Telefon wird er ein Quadrat
+  ohne Beschriftung.
 - Die **Überlagerung** trägt einen echten Schatten. Den bekommt in dieser Vorlage nur, was
   wirklich über der Seite schwebt statt in ihr zu liegen: diese Überlagerung, die Linkvorschau,
   das Sprachmenü, die Schublade am Telefon und der große Graph. Fünf Stellen, und die Regel zählt,
@@ -31,13 +33,19 @@ Ein Knopf mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgra
 
 Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine deckende ersetzt.
 
-> [!bug] Das Feld erreicht seine Breite nie
-> `nav-toolbar.scss` gibt ihm `flex: 0 1 15rem` — 240 px als Ausgangsbreite, schrumpfen erlaubt.
-> Gemessen sind es **110 px**, und zwar bei 1728, 1440, 1100 und 900 px Fensterbreite gleichermaßen,
-> obwohl die Werkzeugleiste dort nur 322 von 1400 px belegt. Der Grund steht eine Ebene tiefer:
-> Quartz legt um jede Komponente einen eigenen `div` ohne Klasse, und *der* ist `flex: 0 1 auto` und
-> schrumpft auf seinen Inhalt. Die 15 rem stehen am falschen Element. Der Knopf liest sich damit als
-> Knopf statt als Feld — genau das, was die Breite verhindern sollte.
+> [!example] Warum die Breite in der Konfiguration steht und nicht im Stylesheet
+> Sie stand einmal dort, als `flex: 0 1 15rem` an `.search` — und wirkte nicht: Gemessen waren es
+> **110 px**, bei 1728, 1440, 1100 und 900 px gleichermaßen, obwohl die Werkzeugleiste dort nur 322
+> von 1400 px belegte. Quartz legt um jede Komponente einer Gruppe einen eigenen `div` ohne Klasse
+> und schreibt dessen Flex-Werte als **Inline-Stil** aus der Konfiguration. Das Flex-Element ist
+> also der Wrapper, nicht `.search`, und ein Inline-Stil schlägt jedes Stylesheet.
+>
+> Die 15 rem stehen deshalb seit dem 05.09.2026 in `layout.groupOptions.basis` der Suche, zusammen
+> mit `shrink: false`. Das zweite gehört dazu: Ein schrumpfbares Element steuert nur seine
+> Inhaltsbreite zur Größe der Gruppe bei, die Gruppe blieb bei 322 px, während ihre Kinder 452
+> wollten — und die Leiste brach auf zwei Zeilen um, der Kopf wuchs von 61 auf 101 px. Am Telefon
+> nimmt `nav-toolbar.scss` die Breite wieder weg, mit `!important`, weil nur das gegen einen
+> Inline-Stil ankommt.
 
 > [!note] Der Index umfasst beide Sprachen
 > Es gibt einen Suchindex für die ganze Website, eine englische Seite kann also in einem deutschen

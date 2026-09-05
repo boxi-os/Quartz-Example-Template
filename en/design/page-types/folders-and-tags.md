@@ -26,11 +26,9 @@ On the desktop, folder and tag pages keep the **right column**, even when only b
 it. The listing therefore begins exactly where the text begins on a content page — jumping from an
 article to its folder no longer shifts the line.
 
-Both page types use the **`index`** frame. It differs from `editorial` in one point only: below
-1100 px it hides the right column instead of moving its content below the text. There is no table
-of contents here anyway — a list of links has no headings. Backlinks and the graph there are,
-though, and those are lost in the process; see the finding under
-[[en/design/foundations/frames|Frames]].
+Both page types use the **`index`** frame, which is geometrically the same as `editorial`. There
+is still no table of contents here — a list of links has no headings. Backlinks and the graph there
+are, and they stand on the right as everywhere else.
 
 ## Two findings while building
 

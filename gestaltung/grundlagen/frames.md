@@ -49,12 +49,16 @@ noch als Tablet auslegte.
 Am Tablet fällt die rechte **Spalte** weg; ihr Inhalt rutscht unter den Text, statt zu verschwinden.
 Mobil steht alles untereinander.
 
-> [!bug] Nur `editorial` schiebt sie nach unten
-> `index` und `focus` blenden die rechte Spalte unter 1100 px stattdessen aus. Bei `focus` ist sie
-> leer, das kostet nichts. Bei `index` ist sie es nicht: Gemessen bei 900 und bei 390 px steht dort
-> `display: none`, und damit verlieren Ordner-, Tag- und Bases-Seiten auf Tablet und Telefon ihre
-> **Rückverweise und die Graphansicht** ganz. Auf einer Artikelseite bleiben beide erhalten und
-> rücken nur unter den Text. Das ist ein Fehler im Frame, kein Entwurf.
+Das gilt für `editorial` und für `index` gleichermaßen. Nur `focus` blendet die Spalte wirklich
+aus — dort ist sie leer, das kostet nichts.
+
+> [!example] Was hier einmal falsch war
+> `index` hat die rechte Spalte unter 1100 px lange ausgeblendet statt sie nach unten zu schieben,
+> in der Annahme, sie sei auf einer Listenseite leer: Eine Liste von Links hat keine Überschriften,
+> also kein Inhaltsverzeichnis. Gemessen an `/formatierung/` ist sie es nicht — Rückverweise und
+> Graphansicht stehen dort. Auf Tablet und Telefon verschwanden damit beide von jeder Ordner-, Tag-
+> und Bases-Seite. Seit dem 05.09.2026 hat `index` dieselbe Zeile für die rechte Spalte wie
+> `editorial`.
 
 ## Was Quartz mitbringt
 
