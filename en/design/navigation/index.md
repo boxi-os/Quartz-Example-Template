@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: Explorer, search, colour scheme, reader mode, header.
+description: Explorer, search, colour scheme, reader mode, header, footer.
 section: Design
 tags:
   - design

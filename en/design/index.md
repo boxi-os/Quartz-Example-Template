@@ -20,7 +20,7 @@ list of all the differences would be possible too, but it would be far away from
 | Area | Components |
 | --- | --- |
 | [[en/design/foundations/colours-and-contrast\|Foundations]] | colours, typefaces, tokens, frames, accessibility |
-| [[en/design/navigation/explorer\|Navigation]] | explorer, search, colour scheme, reader mode, header |
+| [[en/design/navigation/explorer\|Navigation]] | explorer, search, colour scheme, reader mode, header, footer |
 | [[en/design/page-apparatus/table-of-contents\|Page apparatus]] | table of contents, backlinks, graph, recently changed |
 | [[en/design/above-the-content/breadcrumbs\|Above the content]] | breadcrumbs, title, date, properties, tags |
 | [[en/design/in-the-content/body-text\|In the content]] | body text, callouts, code, tables, media |

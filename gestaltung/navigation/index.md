@@ -1,6 +1,6 @@
 ---
 title: Navigation
-description: Explorer, Suche, Farbschema, Lesemodus, Kopfbereich.
+description: Explorer, Suche, Farbschema, Lesemodus, Kopfbereich, Fußzeile.
 section: Gestaltung
 tags:
   - gestaltung
