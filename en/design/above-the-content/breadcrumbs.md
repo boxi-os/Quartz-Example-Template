@@ -31,3 +31,20 @@ over five stations.
 > [!note] The language folder is a crumb too
 > On an English page the path begins with `en` — it is a folder like any other, and Quartz has no
 > reason to treat it differently.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 6 variables are read by `meta-breadcrumbs.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-space-3xs` | `0.125rem` | 7 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

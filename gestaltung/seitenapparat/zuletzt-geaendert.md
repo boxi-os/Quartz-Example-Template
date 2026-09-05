@@ -41,3 +41,26 @@ nicht der Komponente, in der man ihn zuerst gesehen hat.**
 > Die Liste entsteht aus jeder Seite des Builds, eine englische Seite kann also in der Leiste einer
 > deutschen auftauchen. Wie beim Suchindex trennte das nur ein Build je Sprache — siehe
 > [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 12 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
+| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-leading-snug` | `1.45` | 3 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

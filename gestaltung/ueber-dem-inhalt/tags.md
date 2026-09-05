@@ -32,3 +32,24 @@ dabei nicht, weil der Rand vorher transparent da war.
 > [!note] Englische Tags, englische Tag-Seiten
 > Die englischen Seiten tragen englische Tags (`formatting` statt `formatierung`), jede Sprache
 > bekommt damit eigene Tag-Seiten. Ein gemeinsamer Tag hätte beide Sprachen in eine Liste geworfen.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 10 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tag-background` | — | nur hier |
+| `--tag-background-hover` | — | nur hier |
+| `--tag-color` | — | nur hier |
+| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

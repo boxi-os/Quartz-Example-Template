@@ -33,3 +33,29 @@ value.
 
 The way that works is the other way round: **`width: 100%` on the value cell.** It claims
 everything that is left over and leaves the key its content width.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 15 variables are read by `meta-note-properties.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
+| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--tpl-positive` | `#136B34` · dark `#6DD68F` | only here |
+| `--tpl-radius-md` | `8px` | 16 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 14 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-sm` | `0.75rem` | 10 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-xs` | `0.78rem` | 8 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

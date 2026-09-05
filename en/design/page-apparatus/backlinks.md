@@ -37,3 +37,22 @@ That is a word from the tool, not from the language.
 > A German page links to German pages, an English one to English pages, so the two backlink lists
 > stay separate. That is not something the plugin does — it follows from the fact that every page
 > only links within its own tree.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 8 variables are read by `aside-backlinks.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-xs` | `0.5rem` | 21 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

@@ -44,3 +44,15 @@ Quartz rendert **keinen Skip-Link**, und ein Stylesheet kann keinen hinzufügen 
 im Markup stehen, um fokussierbar zu sein. Auf einer Seite mit Explorer kostet der Weg zum Artikel
 per Tastatur deshalb einen Tabstopp pro Baumzeile. Die Gestaltung dafür liegt bereit; sie greift,
 sobald ein solcher Link existiert.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese Variable liest `a11y.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

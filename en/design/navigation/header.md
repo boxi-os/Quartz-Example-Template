@@ -69,3 +69,27 @@ Two things hang on it and are therefore in the same calculation:
 The plugin sets `width: 100%` on every layout box. In a flex row that made the mark 1376 px wide
 and pushed the title onto the next line. `flex` does not lift a set width — it had to be taken back
 explicitly.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 13 variables are read by `nav-toolbar.scss` and `nav-page-title.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | Tokens |
+| `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 14 other components |
+| `--tpl-space-sm` | `0.75rem` | 10 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-target` | `44px` | 11 other components |
+| `--tpl-text-base` | `1rem` | 4 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

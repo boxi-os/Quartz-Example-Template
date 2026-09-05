@@ -39,3 +39,20 @@ tiefer sitzt, sieht kaputt aus statt ruhig.
 > Wer sich in einer englischen Adresse vertippt, landet auf der deutschen Fehlerseite.
 
 Ausprobieren: eine beliebige nicht existierende Adresse aufrufen.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 6 Variablen liest `page-404.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-space-2xl` | `4rem` | Tokens |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
+| `--tpl-text-3xl` | `2.25rem` | Tokens, Titel und Datum |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

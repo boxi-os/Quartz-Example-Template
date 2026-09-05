@@ -38,3 +38,20 @@ rather than calm.
 > mistypes an English address lands on the German error page.
 
 To try it: call up any address that does not exist.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 6 variables are read by `page-404.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--tpl-space-2xl` | `4rem` | Tokens |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-xl` | `2.5rem` | 5 other components |
+| `--tpl-text-3xl` | `2.25rem` | Tokens, Title and date |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

@@ -44,3 +44,15 @@ Quartz renders **no skip link**, and a stylesheet cannot add one — the element
 markup to be focusable. On a page with an explorer, reaching the article by keyboard therefore
 costs one tab stop per row of the tree. The design for it is ready; it takes effect as soon as such
 a link exists.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+This variable is read by `a11y.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

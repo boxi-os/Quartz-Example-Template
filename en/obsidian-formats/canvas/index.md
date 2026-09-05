@@ -38,3 +38,27 @@ built page the result is header, surface and footer — no sidebars, no breadcru
 > [!note] Zooming and panning
 > On the built page the canvas can be zoomed with the mouse wheel and moved with the mouse button
 > held down — it is not a snapshot but the surface itself.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 13 variables are read by `page-canvas.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
+| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
+| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--tpl-motion` | `150ms ease` | 12 other components |
+| `--tpl-radius-md` | `8px` | 16 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
+| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

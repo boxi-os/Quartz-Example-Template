@@ -39,3 +39,27 @@ keine Seitenleisten, keine Brotkrumen.
 > [!note] Zoomen und Verschieben
 > Auf der gebauten Seite lässt sich das Canvas mit dem Mausrad zoomen und mit gedrückter Maustaste
 > verschieben — es ist keine Momentaufnahme, sondern die Fläche selbst.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 13 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
+| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
+| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

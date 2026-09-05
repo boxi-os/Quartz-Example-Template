@@ -32,3 +32,20 @@ ganze Weg über fünf Stationen.
 > [!note] Der Sprachordner ist auch eine Krume
 > Auf einer englischen Seite beginnt der Pfad mit `en` — er ist ein Ordner wie jeder andere, und
 > Quartz hat keinen Grund, ihn anders zu behandeln.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 6 Variablen liest `meta-breadcrumbs.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

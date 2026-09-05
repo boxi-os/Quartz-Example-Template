@@ -51,3 +51,32 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 > Es gibt einen Suchindex für die ganze Website, eine englische Seite kann also in einem deutschen
 > Suchergebnis auftauchen. Trennen ließe sich das nur mit einem Build je Sprache — siehe
 > [[gestaltung/mehrsprachigkeit/grenzen|Wo die zwei Sprachen aufhören]].
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
+| `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
+| `--tpl-radius-lg` | `14px` | Graph, Link-Vorschau |
+| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-lg` | `1.15rem` | Tokens, Link-Vorschau |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

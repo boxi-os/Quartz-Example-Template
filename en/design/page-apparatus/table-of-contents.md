@@ -56,3 +56,30 @@ with every scroll.
 > [!note] The depth numbers are relative
 > `depth-0` is not `h1` but the shallowest heading on the page. On a normal page that is `h2`, so
 > `h6` lands on `depth-4`.
+
+<!-- QuartzControl:variables:start -->
+## Which variables apply here
+
+These 16 variables are read by `aside-toc.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+
+| Variable | Value | also applies to |
+| --- | --- | --- |
+| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
+| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
+| `--gray` | `#5F5D57` · dark `#A1A3A8` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--tpl-indent` | `0.85rem` | The explorer |
+| `--tpl-motion` | `150ms ease` | 12 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-3xs` | `0.125rem` | 7 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-xs` | `0.5rem` | 21 other components |
+| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-xs` | `0.78rem` | 8 other components |
+
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+<!-- QuartzControl:variables:end -->

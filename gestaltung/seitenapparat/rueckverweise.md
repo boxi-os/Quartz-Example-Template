@@ -38,3 +38,22 @@ Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 > Eine deutsche Seite verlinkt auf deutsche Seiten, eine englische auf englische; damit bleiben die
 > beiden Listen getrennt. Das tut nicht das Plugin — es folgt daraus, dass jede Seite nur innerhalb
 > ihres eigenen Baums verlinkt.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 8 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

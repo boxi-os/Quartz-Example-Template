@@ -47,3 +47,25 @@ Der Titel ist der Tag-Name als reiner Text. Diese Vorlage stellt ihm ein Rautenz
 > Zu jedem Ordner gibt es eine Ordnerseite, auch zu `en/`, und die englischen Seiten tragen
 > englische Tags. Die Listen mischen die Sprachen deshalb nie — mit einer Ausnahme: die Ordnerseite
 > von `en` selbst, die die englische Startseite ist und von Hand geschrieben wird.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 11 Variablen liest `page-folder.scss` und `page-tag.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

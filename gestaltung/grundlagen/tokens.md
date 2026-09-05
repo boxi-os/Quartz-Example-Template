@@ -62,3 +62,51 @@ haben denselben Grund — an dieser Stelle *kann* keine Variable stehen.
 **Von Haus aus** gibt es die neun Farbvariablen und die Schriftrollen, aber keine Skala für
 Abstände, Radien, Zielgrößen oder Bewegung. Werte stehen dort direkt in den Regeln. Wer den
 Grundabstand ändern will, sucht ihn an vielen Stellen.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 37 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
+| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
+| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--icon-chevron` | im Stylesheet gesetzt (`base.scss`) | Callouts |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
+| `--tpl-fade` | `20px` | nur hier |
+| `--tpl-fade-mask` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--tpl-focus-color` | `var(--secondary)` = `#2A4E6C` | nur hier |
+| `--tpl-focus-offset` | `2px` | Callouts |
+| `--tpl-focus-width` | `2px` | Callouts |
+| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--tpl-header-pad` | im Stylesheet gesetzt (`base.scss`) | Kopfbereich |
+| `--tpl-icon-sm` | `0.95rem` | Explorer, Der Sprachumschalter |
+| `--tpl-leading-normal` | `1.65` | nur hier |
+| `--tpl-leading-snug` | `1.45` | 3 weitere Komponenten |
+| `--tpl-leading-tight` | `1.25` | nur hier |
+| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
+| `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xl` | `4rem` | Fehlerseite |
+| `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
+| `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-2xl` | `1.75rem` | Titel und Datum |
+| `--tpl-text-3xl` | `2.25rem` | Titel und Datum, Fehlerseite |
+| `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
+| `--tpl-text-lg` | `1.15rem` | Suche, Link-Vorschau |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-xl` | `1.4rem` | Der Sprachumschalter |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->

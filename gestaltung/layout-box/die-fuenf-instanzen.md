@@ -67,3 +67,39 @@ deshalb ohne `byLang`.
 > Blöcke im eigenen Frontmatter — 876 Zeilen, die alle dasselbe sagten. Die Überschriften ließen
 > sich so überhaupt nicht übersetzen, weil die Frontmatter-Steuerung damals kein `title` kannte.
 > Beides hat das Plugin an diesem Tag nachgeholt.
+
+<!-- QuartzControl:variables:start -->
+## Welche Variablen hier greifen
+
+Diese 25 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+
+| Variable | Wert | gilt außerdem für |
+| --- | --- | --- |
+| `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
+| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
+| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--tertiary` | `#9C4221` · dunkel `#E8A56B` | Fließtext, Diagramme |
+| `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
+| `--tpl-leading-snug` | `1.45` | 3 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
+| `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
+| `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 21 weitere Komponenten |
+| `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 weitere Komponenten |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
+| `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+<!-- QuartzControl:variables:end -->
