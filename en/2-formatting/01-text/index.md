@@ -1,0 +1,12 @@
+---
+title: 2.1 Text
+description: Emphasis, special characters and line breaks.
+section: Formatting
+tags:
+  - formatting
+translationKey: formatierung/text/index
+cover: "[[assets/covers/cover-text.svg]]"
+---
+
+The markup that concerns single words and lines — and the two of them that do not come from
+Markdown itself but from a plugin.

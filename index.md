@@ -16,11 +16,11 @@ ein Graph braucht Verweise.
 
 | Bereich | Was darin steht |
 | --- | --- |
-| [[formatierung/index\|Formatierung]] | Jedes Obsidian-Element als Quelltext und gerendertes Ergebnis — 62 kurze Seiten |
-| [[obsidian-formate/index\|Obsidian-Formate]] | Bases, Canvas und Excalidraw: drei Dateitypen, die keine Notizen sind |
-| [[gestaltung/index\|Gestaltung]] | Je Komponente: was Quartz von Haus aus tut, und was diese Vorlage ändert |
-| [[handbuch/index\|Handbuch]] | Vier Ordnerebenen tief — damit Explorer und Brotkrumen etwas zu zeigen haben |
-| [[beispiele/index\|Beispiele]] | Sonderfälle: Entwurf, ungelistet, Alias, volles Frontmatter |
+| [[2-formatierung/index\|Formatierung]] | Jedes Obsidian-Element als Quelltext und gerendertes Ergebnis — 62 kurze Seiten |
+| [[3-obsidian-formate/index\|Obsidian-Formate]] | Bases, Canvas und Excalidraw: drei Dateitypen, die keine Notizen sind |
+| [[5-gestaltung/index\|Gestaltung]] | Je Komponente: was Quartz von Haus aus tut, und was diese Vorlage ändert |
+| [[7-nachschlagen/index\|Handbuch]] | Vier Ordnerebenen tief — damit Explorer und Brotkrumen etwas zu zeigen haben |
+| [[4-seiten-steuern/index\|Beispiele]] | Sonderfälle: Entwurf, ungelistet, Alias, volles Frontmatter |
 
 ## Die drei Entscheidungen, die alles tragen
 
@@ -39,7 +39,7 @@ In einem eigenen **Obsidian-Vault**. Das Projekt zeigt mit einem Symlink darauf,
 zu halten. Wer hier etwas ändert, ändert es an der Quelle.
 
 Dieselben Seiten gibt es auf **Englisch**, umgeschaltet wird oben rechts. Wie das gebaut ist,
-steht unter [[gestaltung/mehrsprachigkeit/index|Zwei Sprachen]].
+steht unter [[6-anpassen/07-zwei-sprachen/index|Zwei Sprachen]].
 
-Ein Blick auf eine lange Seite lohnt sich: [[beispiele/langer-artikel|Ein langer Artikel]] —
+Ein Blick auf eine lange Seite lohnt sich: [[1-einstieg/04-so-ist-eine-seite-aufgebaut|Ein langer Artikel]] —
 Überschriften bis zur sechsten Ebene, damit das Inhaltsverzeichnis vollständig ist.

@@ -16,11 +16,11 @@ links.
 
 | Area | What is in it |
 | --- | --- |
-| [[en/formatting/index\|Formatting]] | Every Obsidian element as source and rendered result — 62 short pages |
-| [[en/obsidian-formats/index\|Obsidian formats]] | Bases, Canvas and Excalidraw: three file types that are not notes |
-| [[en/design/index\|Design]] | Per component: what Quartz does out of the box, and what this template changes |
-| [[en/handbook/index\|Handbook]] | Four folder levels deep — so that the explorer and the breadcrumbs have something to show |
-| [[en/examples/index\|Examples]] | Special cases: draft, unlisted, alias, a full frontmatter |
+| [[en/2-formatting/index\|Formatting]] | Every Obsidian element as source and rendered result — 62 short pages |
+| [[en/3-obsidian-formats/index\|Obsidian formats]] | Bases, Canvas and Excalidraw: three file types that are not notes |
+| [[en/5-design/index\|Design]] | Per component: what Quartz does out of the box, and what this template changes |
+| [[en/7-reference/index\|Handbook]] | Four folder levels deep — so that the explorer and the breadcrumbs have something to show |
+| [[en/4-controlling-a-page/index\|Examples]] | Special cases: draft, unlisted, alias, a full frontmatter |
 
 ## The three decisions everything rests on
 
@@ -38,5 +38,5 @@ links.
 In an **Obsidian vault** of its own. The project points at it with a symlink instead of holding a
 copy. Change something here and you change it at the source.
 
-One long page is worth a look: [[en/examples/long-article|A long article]] — headings down to the
+One long page is worth a look: [[en/1-getting-started/04-how-a-page-is-built|A long article]] — headings down to the
 sixth level, so the table of contents is complete.
