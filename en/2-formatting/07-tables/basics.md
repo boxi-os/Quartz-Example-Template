@@ -1,7 +1,7 @@
 ---
 title: Tables — the basic form
 description: Rows, columns and the header.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - tables

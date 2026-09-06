@@ -1,7 +1,7 @@
 ---
 title: Formulas in a sentence
 description: LaTeX in the middle of a sentence.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - math

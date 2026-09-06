@@ -1,7 +1,7 @@
 ---
 title: The header
 description: Word mark, page title and the four controls in one row.
-section: Design
+section: 5 The design
 tags:
   - design
   - navigation

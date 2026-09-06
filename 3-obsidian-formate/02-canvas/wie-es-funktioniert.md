@@ -1,7 +1,7 @@
 ---
 title: Wie ein Canvas aufgebaut ist
 description: JSON mit Knoten und Kanten.
-section: Obsidian-Formate
+section: 3 Obsidian-Formate
 tags:
   - obsidian-formate
   - canvas

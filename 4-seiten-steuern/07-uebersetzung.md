@@ -1,7 +1,7 @@
 ---
 title: 4.7 Übersetzung
 description: Die Felder, die eine Seite mit ihrer Übersetzung verbinden — translationKey, aliases, lang — und wann man sie braucht.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
   - mehrsprachigkeit

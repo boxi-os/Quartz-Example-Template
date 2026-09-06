@@ -1,7 +1,7 @@
 ---
 title: 2.10 Footnotes
 description: Footnotes, variants and comments.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
 translationKey: formatierung/fussnoten/index

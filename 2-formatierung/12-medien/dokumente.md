@@ -1,7 +1,7 @@
 ---
 title: Dokumente
 description: PDFs einbinden, verlinken und auf eine bestimmte Seite springen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - medien

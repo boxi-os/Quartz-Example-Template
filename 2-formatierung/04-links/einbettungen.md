@@ -1,7 +1,7 @@
 ---
 title: Einbettungen
 description: Eine andere Seite mitten in dieser anzeigen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - links

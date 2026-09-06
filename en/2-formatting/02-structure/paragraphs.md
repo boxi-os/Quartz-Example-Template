@@ -1,7 +1,7 @@
 ---
 title: Paragraphs
 description: How a paragraph comes about and how wide it gets.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - structure

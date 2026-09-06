@@ -1,7 +1,7 @@
 ---
 title: Wikilinks
 description: The Obsidian notation for internal links.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - links

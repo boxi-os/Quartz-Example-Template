@@ -1,7 +1,7 @@
 ---
 title: Callouts
 description: Zwölf Farben, alle neu gesetzt und gemessen.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - im-inhalt

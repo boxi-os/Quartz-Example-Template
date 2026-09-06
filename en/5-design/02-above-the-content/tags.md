@@ -1,7 +1,7 @@
 ---
 title: Tags
 description: Markers under the title and in the body text.
-section: Design
+section: 5 The design
 tags:
   - design
   - above-the-content

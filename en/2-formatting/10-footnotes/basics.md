@@ -1,7 +1,7 @@
 ---
 title: Footnotes — the basic form
 description: A marker in the text, the text at the foot of the page.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - footnotes

@@ -1,7 +1,7 @@
 ---
 title: Codeblöcke
 description: Mehrzeiliger Code, mit Sprache und Kopierknopf.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - code

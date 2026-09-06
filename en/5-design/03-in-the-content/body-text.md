@@ -1,7 +1,7 @@
 ---
 title: Body text
 description: The width of the text, the heading scale and the links inside it.
-section: Design
+section: 5 The design
 tags:
   - design
   - in-the-content

@@ -1,7 +1,7 @@
 ---
 title: 4.3 Aliase
 description: Eine Seite unter mehreren Pfaden erreichbar machen — das Plugin Alias redirects legt Weiterleitungen an.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
 aliases:

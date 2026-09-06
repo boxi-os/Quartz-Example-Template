@@ -1,7 +1,7 @@
 ---
 title: Arrows, tags and emoji
 description: Small things Obsidian converts in passing.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - special

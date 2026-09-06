@@ -1,7 +1,7 @@
 ---
 title: 1.4 So ist eine Seite aufgebaut
 description: Die Teile einer Seite mit ihren Namen — und eine absichtlich lange, tief gegliederte Seite, an der man sie alle sieht.
-section: Einstieg
+section: 1 Einstieg
 tags:
   - einstieg
   - typografie

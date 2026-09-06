@@ -1,7 +1,7 @@
 ---
 title: 2.4 Links
 description: Wikilinks, jump targets, external links, embeds, aliases.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
 translationKey: formatierung/links/index

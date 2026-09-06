@@ -1,7 +1,7 @@
 ---
 title: Formelblöcke
 description: Abgesetzte Formeln, mehrzeilig und als Matrix.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - mathematik

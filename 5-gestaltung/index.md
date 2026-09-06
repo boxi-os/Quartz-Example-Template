@@ -1,7 +1,7 @@
 ---
 title: 5 Die Gestaltung
 description: Was Quartz von Haus aus tut und was diese Vorlage daran ändert — Komponente für Komponente, mit der Tabelle der Variablen, die jede davon liest.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
 translationKey: gestaltung/index

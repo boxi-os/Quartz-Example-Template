@@ -1,7 +1,7 @@
 ---
 title: Sequence diagrams
 description: Who says what to whom, and in which order.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - diagrams

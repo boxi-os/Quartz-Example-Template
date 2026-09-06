@@ -1,7 +1,7 @@
 ---
 title: 1 Einstieg
 description: Für wen dieses Handbuch ist, wie es geschrieben ist und was man vorher wissen muss — nämlich fast nichts.
-section: Einstieg
+section: 1 Einstieg
 tags:
   - einstieg
 translationKey: einstieg/index

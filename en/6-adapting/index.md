@@ -1,7 +1,7 @@
 ---
 title: 6 Adapting
 description: Where a colour, a typeface, a spacing, the page grid or the languages come from — and how to change them, mostly without code.
-section: Adapting
+section: 6 Adapting
 tags:
   - adapting
 translationKey: anpassen/index

@@ -1,7 +1,7 @@
 ---
 title: Farbschema-Umschalter
 description: Der Knopf zwischen hell und dunkel.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - navigation

@@ -12,7 +12,7 @@ views:
       - title
       - description
     sort:
-      - property: title
+      - property: file.path
         direction: ASC
   - type: table
     name: As a table
@@ -21,7 +21,5 @@ views:
       - section
       - description
     sort:
-      - property: section
-        direction: ASC
-      - property: title
+      - property: file.path
         direction: ASC

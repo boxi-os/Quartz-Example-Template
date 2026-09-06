@@ -1,7 +1,7 @@
 ---
 title: Ausrichtung
 description: Doppelpunkte in der Trennzeile steuern die Spaltenausrichtung.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - tabellen

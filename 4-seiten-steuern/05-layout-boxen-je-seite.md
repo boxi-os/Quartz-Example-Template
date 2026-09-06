@@ -1,7 +1,7 @@
 ---
 title: 4.5 Layout-Boxen je Seite
 description: Eine Layout-Box auf einer einzelnen Seite ausblenden, umbenennen oder anders füllen — im Frontmatter, nicht in der Konfiguration.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
   - layout-box

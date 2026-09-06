@@ -1,7 +1,7 @@
 ---
 title: Code
 description: Inline, Blöcke, Sprachlabel und der Kopierknopf.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - im-inhalt

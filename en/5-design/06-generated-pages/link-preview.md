@@ -1,7 +1,7 @@
 ---
 title: Link preview
 description: What appears when hovering an internal link.
-section: Design
+section: 5 The design
 tags:
   - design
   - page-types

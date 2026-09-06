@@ -1,7 +1,7 @@
 ---
 title: 2.13 Odds and ends
 description: HTML, escapes, arrows, tags, emoji.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
 translationKey: formatierung/besonderes/index

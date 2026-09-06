@@ -1,7 +1,7 @@
 ---
 title: 7.3 Patterns
 description: The decisions that run through every component — said once, instead of repeated on thirty pages.
-section: Reference
+section: 7 Reference
 tags:
   - reference
   - terms

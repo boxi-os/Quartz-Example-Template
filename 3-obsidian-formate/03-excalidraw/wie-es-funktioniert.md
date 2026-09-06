@@ -1,7 +1,7 @@
 ---
 title: Wie eine Excalidraw-Datei aufgebaut ist
 description: Markdown außen, Zeichendaten innen — und der zweite, einfachere Weg.
-section: Obsidian-Formate
+section: 3 Obsidian-Formate
 tags:
   - obsidian-formate
   - excalidraw

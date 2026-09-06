@@ -1,7 +1,7 @@
 ---
 title: Betonung
 description: Fett, kursiv, durchgestrichen, hervorgehoben — und welches Plugin welches davon liefert.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - text

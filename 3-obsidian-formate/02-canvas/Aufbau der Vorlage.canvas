@@ -14,190 +14,190 @@
       "id": "g1",
       "type": "group",
       "label": "Für den Anfang",
-      "x": -720,
-      "y": -420,
+      "x": -760,
+      "y": -470,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f1",
       "type": "file",
       "file": "1-einstieg/01-was-diese-vorlage-ist.md",
-      "x": -700,
-      "y": -370,
+      "x": -740,
+      "y": -426,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t1",
       "type": "text",
       "text": "Was das hier ist und wie es zusammenhängt.",
-      "x": -700,
+      "x": -740,
       "y": -280,
       "width": 300,
-      "height": 70
+      "height": 64
     },
     {
       "id": "g2",
       "type": "group",
       "label": "Was Obsidian schreibt",
-      "x": -720,
-      "y": -160,
+      "x": -760,
+      "y": -170,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f2",
       "type": "file",
       "file": "2-formatierung/05-callouts/alle-typen.md",
-      "x": -700,
-      "y": -110,
+      "x": -740,
+      "y": -126,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t2",
       "type": "text",
       "text": "Jedes Element als Quelltext und gerendertes Ergebnis.",
-      "x": -700,
-      "y": -20,
+      "x": -740,
+      "y": 20,
       "width": 300,
-      "height": 70
+      "height": 64
     },
     {
       "id": "g3",
       "type": "group",
       "label": "Was keine Notiz ist",
-      "x": -720,
-      "y": 100,
+      "x": -760,
+      "y": 130,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f3",
       "type": "file",
       "file": "3-obsidian-formate/01-bases/wie-es-funktioniert.md",
-      "x": -700,
-      "y": 150,
+      "x": -740,
+      "y": 174,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t3",
       "type": "text",
       "text": "Bases, Canvas, Excalidraw — drei eigene Seitentypen.",
-      "x": -700,
-      "y": 240,
+      "x": -740,
+      "y": 320,
       "width": 300,
-      "height": 70
+      "height": 64
     },
     {
       "id": "g4",
       "type": "group",
       "label": "Was eine Seite über sich sagt",
-      "x": 380,
-      "y": -420,
+      "x": 420,
+      "y": -470,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f4",
       "type": "file",
       "file": "4-seiten-steuern/02-entwurf-und-ungelistet.md",
-      "x": 400,
-      "y": -370,
+      "x": 440,
+      "y": -426,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t4",
       "type": "text",
       "text": "Frontmatter: Entwurf, Datum, Alias, Titelbild.",
-      "x": 400,
+      "x": 440,
       "y": -280,
       "width": 300,
-      "height": 70
+      "height": 64
     },
     {
       "id": "g5",
       "type": "group",
       "label": "Was die Vorlage anders macht",
-      "x": 380,
-      "y": -160,
+      "x": 420,
+      "y": -170,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f5",
       "type": "file",
       "file": "5-gestaltung/01-navigation/explorer.md",
-      "x": 400,
-      "y": -110,
+      "x": 440,
+      "y": -126,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t5",
       "type": "text",
       "text": "Je Komponente: von Haus aus gegen diese Vorlage.",
-      "x": 400,
-      "y": -20,
+      "x": 440,
+      "y": 20,
       "width": 300,
-      "height": 70
+      "height": 64
     },
     {
       "id": "g6",
       "type": "group",
       "label": "Was man ändern kann",
-      "x": 380,
-      "y": 100,
+      "x": 420,
+      "y": 130,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f6",
       "type": "file",
       "file": "6-anpassen/01-etwas-aendern.md",
-      "x": 400,
-      "y": 150,
+      "x": 440,
+      "y": 174,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t6",
       "type": "text",
       "text": "Farben, Schriften, Maße, Raster, Sprachen.",
-      "x": 400,
-      "y": 240,
+      "x": 440,
+      "y": 320,
       "width": 300,
-      "height": 70
+      "height": 64
     },
     {
       "id": "g7",
       "type": "group",
       "label": "Was man aufschlägt",
       "x": -170,
-      "y": 360,
+      "y": 430,
       "width": 340,
-      "height": 220
+      "height": 270
     },
     {
       "id": "f7",
       "type": "file",
       "file": "7-nachschlagen/03-muster.md",
       "x": -150,
-      "y": 410,
+      "y": 474,
       "width": 300,
-      "height": 80
+      "height": 130
     },
     {
       "id": "t7",
       "type": "text",
       "text": "Glossar, Muster, Grenzen, alle Seiten.",
       "x": -150,
-      "y": 500,
+      "y": 620,
       "width": 300,
-      "height": 70
+      "height": 64
     }
   ],
   "edges": [

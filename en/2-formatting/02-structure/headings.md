@@ -1,7 +1,7 @@
 ---
 title: Headings
 description: Six levels — and why the last two stop shrinking here.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - structure

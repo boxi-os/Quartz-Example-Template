@@ -1,7 +1,7 @@
 ---
 title: Link-Vorschau
 description: Was beim Überfahren eines internen Links erscheint.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - seitentypen

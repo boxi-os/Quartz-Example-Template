@@ -1,7 +1,7 @@
 ---
 title: Search results
 description: The list in the search overlay.
-section: Design
+section: 5 The design
 tags:
   - design
   - page-types

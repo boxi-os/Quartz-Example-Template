@@ -1,7 +1,7 @@
 ---
 title: 2.4 Links
 description: Wikilinks, Sprungziele, externe Verweise, Einbettungen, Aliase.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/links/index

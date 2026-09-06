@@ -1,7 +1,7 @@
 ---
 title: The five instances
 description: The same plugin, five times, for something different each time.
-section: Design
+section: 5 The design
 tags:
   - design
   - layout-box

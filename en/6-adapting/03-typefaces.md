@@ -1,7 +1,7 @@
 ---
 title: 6.3 Typefaces
 description: Three families, self-hosted — and why the @font-face rules are corrected by hand.
-section: Adapting
+section: 6 Adapting
 tags:
   - adapting
 translationKey: anpassen/schriften

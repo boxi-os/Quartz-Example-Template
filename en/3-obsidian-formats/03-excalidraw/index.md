@@ -1,7 +1,7 @@
 ---
 title: 3.3 Excalidraw
 description: Diagrams that look hand-drawn and stay interactive on the site.
-section: Obsidian formats
+section: 3 Obsidian formats
 tags:
   - obsidian-formats
   - excalidraw

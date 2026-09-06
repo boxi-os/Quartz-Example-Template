@@ -1,7 +1,7 @@
 ---
 title: Formeln im Text
 description: LaTeX mitten im Satz.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - mathematik

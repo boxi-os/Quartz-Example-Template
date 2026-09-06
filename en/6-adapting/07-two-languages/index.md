@@ -1,7 +1,7 @@
 ---
 title: 6.7 Two languages
 description: How the same site is made in German and English — from one vault and one build.
-section: Adapting
+section: 6 Adapting
 tags:
   - adapting
   - multilingual

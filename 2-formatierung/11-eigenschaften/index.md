@@ -1,7 +1,7 @@
 ---
 title: 2.11 Eigenschaften
 description: Frontmatter, Datentypen, Anzeige.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/eigenschaften/index

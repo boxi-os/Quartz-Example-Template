@@ -1,7 +1,7 @@
 ---
 title: Sprungziele
 description: Auf eine Überschrift oder einen einzelnen Block verweisen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - links

@@ -1,7 +1,7 @@
 ---
 title: 6 Anpassen
 description: Wo eine Farbe, eine Schrift, ein Abstand, das Seitenraster oder die Sprachen herkommen — und wie man sie ändert, meist ohne Code.
-section: Anpassen
+section: 6 Anpassen
 tags:
   - anpassen
 translationKey: anpassen/index

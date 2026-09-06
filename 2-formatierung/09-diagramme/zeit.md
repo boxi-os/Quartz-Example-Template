@@ -1,7 +1,7 @@
 ---
 title: Zeit-Diagramme
 description: Gantt-Pläne und Zeitleisten.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - diagramme

@@ -1,7 +1,7 @@
 ---
 title: Graph
 description: Die Umgebung einer Notiz als Netz.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - seitenapparat

@@ -1,7 +1,7 @@
 ---
 title: HTML in Markdown
 description: What is let through and where the limit is.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - special

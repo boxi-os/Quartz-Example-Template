@@ -1,7 +1,7 @@
 ---
 title: How a canvas is built
 description: JSON with nodes and edges.
-section: Obsidian formats
+section: 3 Obsidian formats
 tags:
   - obsidian-formats
   - canvas

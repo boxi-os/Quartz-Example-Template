@@ -1,7 +1,7 @@
 ---
 title: 7.1 Glossary
 description: Every term of this handbook in two or three sentences — alphabetical, with a link to the page that goes into it.
-section: Reference
+section: 7 Reference
 tags:
   - reference
   - terms

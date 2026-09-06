@@ -1,7 +1,7 @@
 ---
 title: 2.1 Text
 description: Betonung, Sonderzeichen und Zeilenumbrüche.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/text/index

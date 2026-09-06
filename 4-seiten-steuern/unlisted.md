@@ -1,7 +1,7 @@
 ---
 title: Eine ungelistete Seite
 description: Wird gebaut, erscheint aber in keiner Liste.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 unlisted: true
 tags:
   - seiten-steuern

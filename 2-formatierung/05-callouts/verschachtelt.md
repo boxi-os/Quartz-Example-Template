@@ -1,7 +1,7 @@
 ---
 title: Verschachtelte Callouts
 description: Ein Callout im Callout — und wo die Grenze liegt.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - callouts

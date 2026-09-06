@@ -1,7 +1,7 @@
 ---
 title: Der Sprachumschalter
 description: Drei Bauformen, eine davon sichtbar — und wo sie steht.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - mehrsprachigkeit

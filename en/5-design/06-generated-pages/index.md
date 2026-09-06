@@ -1,7 +1,7 @@
 ---
 title: 5.6 Generated pages
 description: Listings, preview, search results, error page.
-section: Design
+section: 5 The design
 tags:
   - design
 translationKey: gestaltung/erzeugte-seiten/index

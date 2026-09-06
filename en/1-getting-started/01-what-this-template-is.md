@@ -1,7 +1,7 @@
 ---
 title: 1.1 What this template is
 description: A design for Quartz sites that you import into QuartzControl — and the three decisions it is made of.
-section: Getting started
+section: 1 Getting started
 tags:
   - getting-started
 translationKey: einstieg/was-diese-vorlage-ist

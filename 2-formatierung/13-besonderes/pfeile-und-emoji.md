@@ -1,7 +1,7 @@
 ---
 title: Pfeile, Tags und Emoji
 description: Kleinigkeiten, die Obsidian im Vorbeigehen umwandelt.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - besonderes

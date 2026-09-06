@@ -1,7 +1,7 @@
 ---
 title: 5.4 Beside the content
 description: Table of contents, backlinks, graph, recently changed.
-section: Design
+section: 5 The design
 tags:
   - design
 translationKey: gestaltung/neben-dem-inhalt/index

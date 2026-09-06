@@ -1,7 +1,7 @@
 ---
 title: 2.9 Diagramme
 description: Vierzehn Mermaid-Diagrammarten.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/diagramme/index

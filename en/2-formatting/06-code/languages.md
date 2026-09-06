@@ -1,7 +1,7 @@
 ---
 title: Languages
 description: Which highlighting for what — with examples.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - code

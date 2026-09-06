@@ -1,7 +1,7 @@
 ---
 title: Title and date
 description: The heading of the page and the line below it.
-section: Design
+section: 5 The design
 tags:
   - design
   - above-the-content

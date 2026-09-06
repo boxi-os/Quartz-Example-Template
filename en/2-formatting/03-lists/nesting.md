@@ -1,7 +1,7 @@
 ---
 title: Nesting and quotes
 description: How deep you can go, and how quotes nest.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - lists

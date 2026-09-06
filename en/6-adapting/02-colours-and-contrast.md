@@ -1,7 +1,7 @@
 ---
 title: 6.2 Colours and contrast
 description: Nine roles, two of them named the wrong way round — and 89 measured pairs.
-section: Adapting
+section: 6 Adapting
 tags:
   - adapting
 translationKey: anpassen/farben-und-kontrast

@@ -1,7 +1,7 @@
 ---
 title: 7.4 Bekannte Grenzen
 description: Was nicht geht, warum nicht, und was die Vorlage stattdessen tut — gesammelt aus allen Kapiteln, je mit dem Verweis auf die Seite, die es ausführt.
-section: Nachschlagen
+section: 7 Nachschlagen
 tags:
   - nachschlagen
   - referenz

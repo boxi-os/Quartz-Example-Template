@@ -1,7 +1,7 @@
 ---
 title: 2.12 Media
 description: Images, documents, video and audio.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
 translationKey: formatierung/medien/index

@@ -1,7 +1,7 @@
 ---
 title: 1.4 How a page is built
 description: The parts of a page with their names — and a deliberately long, deeply structured page on which all of them can be seen.
-section: Getting started
+section: 1 Getting started
 tags:
   - getting-started
   - typography

@@ -1,7 +1,7 @@
 ---
 title: Ungeordnete Listen
 description: Aufzählungen und ihre Verschachtelung.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - listen

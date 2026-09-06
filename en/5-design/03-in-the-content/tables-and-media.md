@@ -1,7 +1,7 @@
 ---
 title: Tables and media
 description: Two elements that want to blow up the column.
-section: Design
+section: 5 The design
 tags:
   - design
   - in-the-content

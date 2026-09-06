@@ -1,7 +1,7 @@
 ---
 title: Sequenzdiagramme
 description: Wer sagt wem was, in welcher Reihenfolge.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - diagramme

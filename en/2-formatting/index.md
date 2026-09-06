@@ -1,7 +1,7 @@
 ---
 title: 2 Formatting
 description: Every element Obsidian writes and Quartz renders — source and result side by side, 62 short pages in thirteen sections.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
 translationKey: formatierung/index

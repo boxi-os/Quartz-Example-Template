@@ -1,7 +1,7 @@
 ---
 title: Sprachen
 description: Welche Hervorhebung wofür — mit Beispielen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - code

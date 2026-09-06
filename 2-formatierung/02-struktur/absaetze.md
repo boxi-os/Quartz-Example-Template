@@ -1,7 +1,7 @@
 ---
 title: Absätze
 description: Wie ein Absatz entsteht und wie breit er wird.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - struktur

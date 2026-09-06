@@ -1,7 +1,7 @@
 ---
 title: 7 Reference
 description: Glossary, abbreviations, the recurring patterns, the known limits — and a list of all pages.
-section: Reference
+section: 7 Reference
 tags:
   - reference
 translationKey: nachschlagen/index

@@ -1,7 +1,7 @@
 ---
 title: 7.1 Glossar
 description: Jeder Begriff dieses Handbuchs in zwei, drei Sätzen — alphabetisch, mit dem Verweis auf die Seite, die ihn ausführt.
-section: Nachschlagen
+section: 7 Nachschlagen
 tags:
   - nachschlagen
   - referenz

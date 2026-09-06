@@ -1,7 +1,7 @@
 ---
 title: Callout colours
 description: Twelve colours, all of them set anew and measured.
-section: Design
+section: 5 The design
 tags:
   - design
   - in-the-content

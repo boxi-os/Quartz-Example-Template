@@ -1,7 +1,7 @@
 ---
 title: Flussdiagramme
 description: Mermaid — Abläufe und Entscheidungen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - diagramme

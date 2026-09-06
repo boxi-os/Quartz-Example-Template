@@ -1,7 +1,7 @@
 ---
 title: 4 Eine Seite steuern
 description: Was das Frontmatter einer Seite bewirkt — Titel, Datum, Entwurf, Alias, eigene Felder, Layout-Boxen, Titelbild, Übersetzung.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
 translationKey: seiten-steuern/index

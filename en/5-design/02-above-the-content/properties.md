@@ -1,7 +1,7 @@
 ---
 title: The property table
 description: The frontmatter table under the title.
-section: Design
+section: 5 The design
 tags:
   - design
   - above-the-content

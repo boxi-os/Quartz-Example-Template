@@ -1,7 +1,7 @@
 ---
 title: 1.2 The tools
 description: Obsidian, Quartz, QuartzControl and git — four programs, each with one job, and how they fit together.
-section: Getting started
+section: 1 Getting started
 tags:
   - getting-started
 translationKey: einstieg/die-werkzeuge

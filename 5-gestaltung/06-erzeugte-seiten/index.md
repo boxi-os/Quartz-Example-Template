@@ -1,7 +1,7 @@
 ---
 title: 5.6 Erzeugte Seiten
 description: Listen, Vorschau, Suchergebnisse, Fehlerseite.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
 translationKey: gestaltung/erzeugte-seiten/index

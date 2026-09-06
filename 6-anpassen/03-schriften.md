@@ -1,7 +1,7 @@
 ---
 title: 6.3 Schriften
 description: Drei Familien, selbst gehostet — und warum die @font-face-Regeln von Hand korrigiert sind.
-section: Anpassen
+section: 6 Anpassen
 tags:
   - anpassen
 translationKey: anpassen/schriften

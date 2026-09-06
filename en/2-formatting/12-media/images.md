@@ -1,7 +1,7 @@
 ---
 title: Images
 description: Five formats, two notations, sizes — and which format is good for what.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - media

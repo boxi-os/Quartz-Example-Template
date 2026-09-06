@@ -1,7 +1,7 @@
 ---
 title: 2 Formatierung
 description: Jedes Element, das Obsidian schreibt und Quartz rendert — Quelltext und Ergebnis nebeneinander, 62 kurze Seiten in dreizehn Abschnitten.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/index

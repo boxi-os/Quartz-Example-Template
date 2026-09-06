@@ -1,7 +1,7 @@
 ---
 title: Aliase
 description: Eine Seite unter mehreren Namen erreichbar machen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - links

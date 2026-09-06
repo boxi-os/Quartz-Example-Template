@@ -1,7 +1,7 @@
 ---
 title: 4.7 Translation
 description: The fields that connect a page with its translation — translationKey, aliases, lang — and when you need them.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
   - multilingual

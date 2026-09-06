@@ -1,7 +1,7 @@
 ---
 title: 1.3 Von der Notiz zur Website
 description: Der Weg einer Änderung — schreiben, ansehen, bauen, veröffentlichen — und was dabei wo passiert.
-section: Einstieg
+section: 1 Einstieg
 tags:
   - einstieg
 translationKey: einstieg/von-der-notiz-zur-website

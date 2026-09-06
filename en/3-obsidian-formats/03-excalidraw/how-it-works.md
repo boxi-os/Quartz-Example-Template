@@ -1,7 +1,7 @@
 ---
 title: How an Excalidraw file is built
 description: Markdown outside, drawing data inside — and the second, simpler way.
-section: Obsidian formats
+section: 3 Obsidian formats
 tags:
   - obsidian-formats
   - excalidraw

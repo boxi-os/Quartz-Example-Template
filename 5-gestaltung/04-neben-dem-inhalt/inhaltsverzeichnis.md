@@ -1,7 +1,7 @@
 ---
 title: Inhaltsverzeichnis
 description: Die Gliederung rechts — alle Ebenen, nicht nur drei.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - seitenapparat

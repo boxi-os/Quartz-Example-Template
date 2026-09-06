@@ -1,7 +1,7 @@
 ---
 title: 2.7 Tabellen
 description: Grundform, Ausrichtung, Inhalte, breite Tabellen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/tabellen/index

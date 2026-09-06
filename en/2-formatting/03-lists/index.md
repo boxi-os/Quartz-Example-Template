@@ -1,7 +1,7 @@
 ---
 title: 2.3 Lists
 description: Unordered, ordered, tasks, nested.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
 translationKey: formatierung/listen/index

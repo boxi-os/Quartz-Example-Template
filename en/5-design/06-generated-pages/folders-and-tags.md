@@ -1,7 +1,7 @@
 ---
 title: Folder and tag pages
 description: The listings Quartz generates automatically.
-section: Design
+section: 5 The design
 tags:
   - design
   - page-types

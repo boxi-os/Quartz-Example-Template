@@ -1,7 +1,7 @@
 ---
 title: Kopfbereich
 description: Wortmarke, Seitentitel und die vier Bedienelemente in einer Zeile.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - navigation

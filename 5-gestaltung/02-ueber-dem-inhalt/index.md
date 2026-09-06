@@ -1,7 +1,7 @@
 ---
 title: 5.2 Über dem Inhalt
 description: Brotkrumen, Titel, Datum, Eigenschaften, Tags.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
 translationKey: gestaltung/ueber-dem-inhalt/index

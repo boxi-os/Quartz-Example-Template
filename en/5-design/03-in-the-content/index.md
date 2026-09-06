@@ -1,7 +1,7 @@
 ---
 title: 5.3 In the content
 description: Body text, callouts, code, tables and media.
-section: Design
+section: 5 The design
 tags:
   - design
 translationKey: gestaltung/im-inhalt/index

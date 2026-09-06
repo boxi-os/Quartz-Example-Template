@@ -1,7 +1,7 @@
 ---
 title: Benannte und mehrfache Fußnoten
 description: Namen statt Zahlen, mehrere Verweise, Fußnoten im Fließtext.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - fussnoten

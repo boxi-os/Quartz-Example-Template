@@ -1,7 +1,7 @@
 ---
 title: 1.2 Die Werkzeuge
 description: Obsidian, Quartz, QuartzControl und git — vier Programme, jedes mit einer Aufgabe, und wie sie zusammenhängen.
-section: Einstieg
+section: 1 Einstieg
 tags:
   - einstieg
 translationKey: einstieg/die-werkzeuge

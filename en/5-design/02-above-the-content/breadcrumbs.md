@@ -1,7 +1,7 @@
 ---
 title: Breadcrumbs
 description: The path from the home page to here.
-section: Design
+section: 5 The design
 tags:
   - design
   - above-the-content

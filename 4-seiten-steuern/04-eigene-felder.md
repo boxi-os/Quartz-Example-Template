@@ -1,7 +1,7 @@
 ---
 title: 4.4 Eigene Felder
 description: Frontmatter-Felder, die Quartz nicht kennt — und wie die Eigenschaften-Tabelle sie zeigt.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 date: 2026-07-02
 lastmod: 2026-09-01
 tags:

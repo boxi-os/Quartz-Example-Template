@@ -1,7 +1,7 @@
 ---
 title: 4 Controlling a page
 description: What a page's frontmatter does — title, date, draft, alias, custom fields, layout boxes, cover image, translation.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
 translationKey: seiten-steuern/index

@@ -1,7 +1,7 @@
 ---
 title: 7 Nachschlagen
 description: Glossar, Abkürzungen, die wiederkehrenden Muster, die bekannten Grenzen — und eine Liste aller Seiten.
-section: Nachschlagen
+section: 7 Nachschlagen
 tags:
   - nachschlagen
 translationKey: nachschlagen/index

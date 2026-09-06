@@ -1,7 +1,7 @@
 ---
 title: 7.2 Abbreviations
 description: The abbreviations that occur in this handbook.
-section: Reference
+section: 7 Reference
 tags:
   - reference
   - terms

@@ -1,7 +1,7 @@
 ---
 title: The explorer
 description: The folder tree on the left — designed down to the fourth level.
-section: Design
+section: 5 The design
 tags:
   - design
   - navigation

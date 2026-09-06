@@ -1,7 +1,7 @@
 ---
 title: Eigenschaften
 description: Die Frontmatter-Tabelle unter dem Titel.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt

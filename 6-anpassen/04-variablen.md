@@ -1,7 +1,7 @@
 ---
 title: 6.4 Variablen
 description: 53 Variablen, aus denen die ganze Gestaltung besteht.
-section: Anpassen
+section: 6 Anpassen
 tags:
   - anpassen
 translationKey: anpassen/variablen

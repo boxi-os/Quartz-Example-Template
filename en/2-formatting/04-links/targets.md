@@ -1,7 +1,7 @@
 ---
 title: Jump targets
 description: Linking to a heading or to a single block.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - links

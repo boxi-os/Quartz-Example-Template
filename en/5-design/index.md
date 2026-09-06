@@ -1,7 +1,7 @@
 ---
 title: 5 The design
 description: What Quartz does out of the box and what this template changes about it — component by component, with the table of the variables each of them reads.
-section: Design
+section: 5 The design
 tags:
   - design
 translationKey: gestaltung/index

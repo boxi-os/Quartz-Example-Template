@@ -1,7 +1,7 @@
 ---
 title: Frontmatter
 description: Die Felder ganz oben in der Datei und was Quartz damit macht.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - frontmatter

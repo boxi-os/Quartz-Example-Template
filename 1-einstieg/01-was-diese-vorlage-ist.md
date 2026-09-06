@@ -1,7 +1,7 @@
 ---
 title: 1.1 Was diese Vorlage ist
 description: Eine Gestaltung für Quartz-Websites, die man in QuartzControl importiert — und die drei Entscheidungen, aus denen sie besteht.
-section: Einstieg
+section: 1 Einstieg
 tags:
   - einstieg
 translationKey: einstieg/was-diese-vorlage-ist

@@ -1,7 +1,7 @@
 ---
 title: 4.5 Layout boxes per page
 description: Hiding, renaming or refilling a layout box on a single page — in the frontmatter, not in the configuration.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
   - layout-box

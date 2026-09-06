@@ -1,7 +1,7 @@
 ---
 title: 4.4 Custom fields
 description: Frontmatter fields Quartz does not know — and how the property table shows them.
-section: Controlling a page
+section: 4 Controlling a page
 date: 2026-07-02
 lastmod: 2026-09-01
 tags:

@@ -1,7 +1,7 @@
 ---
 title: 7.3 Muster
 description: Die Entscheidungen, die sich durch jede Komponente ziehen — einmal gesagt, statt auf dreißig Seiten wiederholt.
-section: Nachschlagen
+section: 7 Nachschlagen
 tags:
   - nachschlagen
   - referenz

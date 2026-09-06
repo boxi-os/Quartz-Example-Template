@@ -1,7 +1,7 @@
 ---
 title: Images per colour scheme
 description: Two images, of which only ever one is visible.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - media

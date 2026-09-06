@@ -1,7 +1,7 @@
 ---
 title: Special characters
 description: Quotation marks, dashes and ellipses — set the way typography wants them.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - text

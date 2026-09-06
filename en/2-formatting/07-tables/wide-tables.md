@@ -1,7 +1,7 @@
 ---
 title: Wide tables
 description: What happens when a table does not fit the column.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - tables

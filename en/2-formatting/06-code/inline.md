@@ -1,7 +1,7 @@
 ---
 title: Code in a sentence
 description: A command in the middle of a sentence.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - code

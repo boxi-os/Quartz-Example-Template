@@ -1,7 +1,7 @@
 ---
 title: 5.4 Neben dem Inhalt
 description: Inhaltsverzeichnis, Rückverweise, Graph, zuletzt geändert.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
 translationKey: gestaltung/neben-dem-inhalt/index

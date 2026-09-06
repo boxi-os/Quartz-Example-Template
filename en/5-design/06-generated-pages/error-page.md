@@ -1,7 +1,7 @@
 ---
 title: Error page
 description: What appears at an address that does not exist.
-section: Design
+section: 5 The design
 tags:
   - design
   - page-types

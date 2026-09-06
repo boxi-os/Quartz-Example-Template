@@ -1,7 +1,7 @@
 ---
 title: Callouts — the basic form
 description: How a callout is built, with and without a title of its own.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - callouts

@@ -1,7 +1,7 @@
 ---
 title: Displaying the properties
 description: Where the table sits, what it shows and how to change that.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - frontmatter

@@ -1,7 +1,7 @@
 ---
 title: 4.1 Title, description, date
 description: The three statements every page should have — and where the date comes from when none is given.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
 date: 2026-09-06

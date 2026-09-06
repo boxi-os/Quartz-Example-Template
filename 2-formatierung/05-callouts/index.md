@@ -1,7 +1,7 @@
 ---
 title: 2.5 Callouts
 description: Dreizehn Typen, faltbar und verschachtelt.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/callouts/index

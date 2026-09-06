@@ -1,7 +1,7 @@
 ---
 title: 4.2 Entwurf und ungelistet
 description: Zwei Wege, eine Seite zurückzuhalten — einer baut sie gar nicht, der andere versteckt sie nur.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
 translationKey: seiten-steuern/entwurf-und-ungelistet

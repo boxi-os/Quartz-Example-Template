@@ -1,7 +1,7 @@
 ---
 title: Ordner- und Tag-Seiten
 description: Die Listen, die Quartz automatisch erzeugt.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - seitentypen

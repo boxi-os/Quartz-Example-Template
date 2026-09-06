@@ -1,7 +1,7 @@
 ---
 title: 4.3 Aliases
 description: Making a page reachable under several paths — the plugin Alias redirects creates the redirects.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
 aliases:

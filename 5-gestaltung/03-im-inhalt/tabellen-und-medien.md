@@ -1,7 +1,7 @@
 ---
 title: Tabellen und Medien
 description: Zwei Elemente, die die Spalte sprengen wollen.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - im-inhalt

@@ -1,7 +1,7 @@
 ---
 title: 4.6 Titelbild
 description: Das Feld cover — ein Bild je Seite für die Galerie und die Kacheln einer Base.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
 cover: "[[assets/covers/cover-index.svg]]"

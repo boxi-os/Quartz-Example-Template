@@ -1,7 +1,7 @@
 ---
 title: 1 Getting started
 description: Who this handbook is for, how it is written, and what you need to know beforehand — which is almost nothing.
-section: Getting started
+section: 1 Getting started
 tags:
   - getting-started
 translationKey: einstieg/index

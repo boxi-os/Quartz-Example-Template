@@ -1,7 +1,7 @@
 ---
 title: 3.3 Excalidraw
 description: Handgezeichnet wirkende Diagramme, die auf der Website interaktiv bleiben.
-section: Obsidian-Formate
+section: 3 Obsidian-Formate
 tags:
   - obsidian-formate
   - excalidraw

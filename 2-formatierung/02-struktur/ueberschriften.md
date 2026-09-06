@@ -1,7 +1,7 @@
 ---
 title: Überschriften
 description: Sechs Ebenen — und warum die letzten beiden hier nicht weiter schrumpfen.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - struktur

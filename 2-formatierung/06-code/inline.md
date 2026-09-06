@@ -1,7 +1,7 @@
 ---
 title: Code im Text
 description: Ein Befehl mitten im Satz.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - code

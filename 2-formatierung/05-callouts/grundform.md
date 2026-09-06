@@ -1,7 +1,7 @@
 ---
 title: Callouts — Grundform
 description: Der Aufbau eines Callouts, mit und ohne eigenen Titel.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - callouts

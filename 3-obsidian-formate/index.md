@@ -1,7 +1,7 @@
 ---
 title: 3 Obsidian-Formate
 description: Drei Dateitypen, die keine Markdown-Seiten sind — Bases, Canvas und Excalidraw.
-section: Obsidian-Formate
+section: 3 Obsidian-Formate
 tags:
   - obsidian-formate
 translationKey: obsidian-formate/index

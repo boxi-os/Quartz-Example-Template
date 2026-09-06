@@ -1,7 +1,7 @@
 ---
 title: Lesemodus
 description: Die Leisten ausblenden — und sehen, dass es an ist.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - navigation

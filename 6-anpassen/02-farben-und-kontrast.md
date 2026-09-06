@@ -1,7 +1,7 @@
 ---
 title: 6.2 Farben und Kontrast
 description: Neun Rollen, zwei davon verkehrt herum benannt — und 89 gemessene Paare.
-section: Anpassen
+section: 6 Anpassen
 tags:
   - anpassen
 translationKey: anpassen/farben-und-kontrast

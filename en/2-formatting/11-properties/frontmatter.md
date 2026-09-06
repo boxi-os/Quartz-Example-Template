@@ -1,7 +1,7 @@
 ---
 title: Frontmatter
 description: The fields at the very top of the file and what Quartz does with them.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - frontmatter

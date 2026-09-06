@@ -1,7 +1,7 @@
 ---
 title: 2.12 Medien
 description: Bilder, Dokumente, Video und Audio.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/medien/index

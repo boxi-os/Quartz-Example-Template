@@ -1,7 +1,7 @@
 ---
 title: Video und Audio
 description: Ton und Bewegtbild einbinden — mit dem, was Quartz von selbst daraus macht.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - medien

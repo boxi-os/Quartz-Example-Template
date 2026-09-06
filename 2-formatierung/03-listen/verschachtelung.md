@@ -1,7 +1,7 @@
 ---
 title: Verschachtelung und Zitate
 description: Wie tief man gehen kann, und wie Zitate sich schachteln.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - listen

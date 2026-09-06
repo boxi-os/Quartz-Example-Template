@@ -1,7 +1,7 @@
 ---
 title: Aliases
 description: Making a page reachable under several names.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - links

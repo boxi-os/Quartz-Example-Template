@@ -1,7 +1,7 @@
 ---
 title: Kommentare
 description: Text, der nur im Quelltext steht.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - fussnoten

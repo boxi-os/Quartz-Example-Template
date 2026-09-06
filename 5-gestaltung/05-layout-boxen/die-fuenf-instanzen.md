@@ -1,7 +1,7 @@
 ---
 title: Die fünf Instanzen
 description: Dasselbe Plugin, fünfmal, für jeweils etwas anderes.
-section: Gestaltung
+section: 5 Die Gestaltung
 tags:
   - gestaltung
   - layout-box

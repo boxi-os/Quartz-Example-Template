@@ -1,7 +1,7 @@
 ---
 title: 7.4 Known limits
 description: What does not work, why not, and what the template does instead — collected from all chapters, each with a link to the page that goes into it.
-section: Reference
+section: 7 Reference
 tags:
   - reference
   - terms

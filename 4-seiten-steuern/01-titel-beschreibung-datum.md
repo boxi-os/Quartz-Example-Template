@@ -1,7 +1,7 @@
 ---
 title: 4.1 Titel, Beschreibung, Datum
 description: Die drei Angaben, die jede Seite haben sollte — und woher das Datum kommt, wenn keines dasteht.
-section: Seiten steuern
+section: 4 Eine Seite steuern
 tags:
   - seiten-steuern
 date: 2026-09-06

@@ -1,7 +1,7 @@
 ---
 title: 1.3 From note to website
 description: The way a change travels — write, look, build, publish — and what happens where.
-section: Getting started
+section: 1 Getting started
 tags:
   - getting-started
 translationKey: einstieg/von-der-notiz-zur-website

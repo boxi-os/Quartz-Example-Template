@@ -1,7 +1,7 @@
 ---
 title: Colour scheme switch
 description: The button between light and dark.
-section: Design
+section: 5 The design
 tags:
   - design
   - navigation

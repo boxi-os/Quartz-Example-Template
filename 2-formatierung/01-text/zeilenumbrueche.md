@@ -1,7 +1,7 @@
 ---
 title: Zeilenumbrüche
 description: Warum ein Umbruch im Quelltext hier keiner auf der Seite ist — und wie man einen erzwingt.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - text

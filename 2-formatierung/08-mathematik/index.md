@@ -1,7 +1,7 @@
 ---
 title: 2.8 Mathematik
 description: LaTeX im Text und als Block.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/mathematik/index

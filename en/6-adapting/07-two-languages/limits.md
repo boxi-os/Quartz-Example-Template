@@ -1,7 +1,7 @@
 ---
 title: Where the two languages stop
 description: What stays monolingual in one build — measured, not assumed.
-section: Adapting
+section: 6 Adapting
 tags:
   - adapting
   - multilingual

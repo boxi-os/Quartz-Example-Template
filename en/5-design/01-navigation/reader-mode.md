@@ -1,7 +1,7 @@
 ---
 title: Reader mode
 description: Hiding the bars — and seeing that it is on.
-section: Design
+section: 5 The design
 tags:
   - design
   - navigation

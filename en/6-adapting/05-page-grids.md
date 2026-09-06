@@ -1,7 +1,7 @@
 ---
 title: 6.5 Page grids
 description: Three page grids of our own instead of the three that ship with Quartz.
-section: Adapting
+section: 6 Adapting
 tags:
   - adapting
 translationKey: anpassen/seitenraster

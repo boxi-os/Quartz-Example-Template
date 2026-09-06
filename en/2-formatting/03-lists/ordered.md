@@ -1,7 +1,7 @@
 ---
 title: Ordered lists
 description: Numbered lists and what the numbers really do.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - lists

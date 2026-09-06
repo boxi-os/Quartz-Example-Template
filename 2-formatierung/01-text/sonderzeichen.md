@@ -1,7 +1,7 @@
 ---
 title: Sonderzeichen
 description: Anführungszeichen, Gedankenstriche und Auslassungspunkte — typografisch richtig gesetzt.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - text

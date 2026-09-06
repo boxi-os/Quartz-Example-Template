@@ -1,7 +1,7 @@
 ---
 title: Search
 description: The field in the bar and the overlay behind it.
-section: Design
+section: 5 The design
 tags:
   - design
   - navigation

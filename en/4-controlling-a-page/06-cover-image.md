@@ -1,7 +1,7 @@
 ---
 title: 4.6 Cover image
 description: The field cover — one image per page for the gallery and the cards of a base.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
 cover: "[[assets/covers/cover-index.svg]]"

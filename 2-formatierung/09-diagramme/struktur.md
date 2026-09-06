@@ -1,7 +1,7 @@
 ---
 title: Struktur-Diagramme
 description: Klassen, Entitäten und Mindmaps.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
   - diagramme

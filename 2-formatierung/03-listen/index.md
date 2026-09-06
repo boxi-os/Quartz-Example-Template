@@ -1,7 +1,7 @@
 ---
 title: 2.3 Listen
 description: Ungeordnet, geordnet, Aufgaben, verschachtelt.
-section: Formatierung
+section: 2 Formatierung
 tags:
   - formatierung
 translationKey: formatierung/listen/index

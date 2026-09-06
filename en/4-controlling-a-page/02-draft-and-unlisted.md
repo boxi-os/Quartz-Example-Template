@@ -1,7 +1,7 @@
 ---
 title: 4.2 Draft and unlisted
 description: Two ways of holding a page back — one does not build it at all, the other only hides it.
-section: Controlling a page
+section: 4 Controlling a page
 tags:
   - controlling-a-page
 translationKey: seiten-steuern/entwurf-und-ungelistet

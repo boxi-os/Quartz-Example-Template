@@ -1,7 +1,7 @@
 ---
 title: Emphasis
 description: Bold, italic, struck through, highlighted — and which plugin delivers which of them.
-section: Formatting
+section: 2 Formatting
 tags:
   - formatting
   - text
