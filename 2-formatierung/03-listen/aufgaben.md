@@ -29,7 +29,8 @@ cover: "[[assets/covers/cover-listen.svg]]"
 
 **In dieser Vorlage** bekommt ein erledigter Punkt zusätzlich gedämpfte Farbe *und* eine
 Durchstreichung. Ein Zustand, der nur an einem kleinen Häkchen hängt, ist für einen Teil der Leser
-kein Zustand — deshalb drei Signale statt einem.
+kein Zustand — deshalb drei Signale statt einem. Und die Vorlage zeichnet **alle sechs Zustände**,
+die Obsidian kennt, nicht nur zwei — siehe unten.
 
 Außerdem verliert die Liste ihre Aufzählungspunkte, sobald sie Kästchen enthält: Punkt und Kästchen
 nebeneinander sind eine Marke zu viel.
@@ -50,11 +51,29 @@ Obsidian erlaubt beliebige Zeichen zwischen den Klammern und zeigt dafür eigene
 - [>] verschoben
 - [?] fraglich
 
-> [!warning] Auf der Website bleibt nur offen und erledigt
-> Gemessen: Von allen Zeichen erkennt Quartz nur `[ ]` und `[x]` als Zustand — der Rest wird zu
-> einem leeren Kästchen, das Zeichen geht verloren. Wer die Zwischenzustände auch auf der Website
-> braucht, schreibt sie in den Text statt in die Klammer.
+Alle vier kommen auf der Website an, und diese Vorlage zeichnet sie — jedes Zeichen bekommt seine
+eigene Marke im Kästchen:
 
-> [!note] Anklickbar sind sie nicht
-> Auf einer gebauten Website ist das Kästchen eine Anzeige, kein Bedienelement. Abgehakt wird in
-> Obsidian.
+| Zeichen | Marke | Farbe | Text |
+| --- | --- | --- | --- |
+| `[ ]` | leeres Kästchen | gedämpft | normal |
+| `[x]` | Haken | Akzent | durchgestrichen |
+| `[/]` | Schrägstrich | Akzent | normal |
+| `[-]` | Minus | gedämpft | durchgestrichen |
+| `[>]` | Pfeil nach rechts | gedämpft | normal |
+| `[?]` | Fragezeichen | gedämpft | normal |
+
+Die Farbe trennt zwei Gruppen: Akzent für das, was noch irgendwohin führt, gedämpft für das, was
+liegen bleibt. Wer die Zeichen nicht kennt, sieht wenigstens diese zwei Gruppen.
+
+> [!note] Das war nicht immer so
+> Bis vor Kurzem behielt Quartz nur `[ ]` und `[x]`, alles andere wurde ein leeres Kästchen und das
+> Zeichen war weg. Seit das Obsidian-Plugin es als `data-task` an die Zeile schreibt, ist es da —
+> und seitdem kann eine Vorlage etwas damit anfangen.
+
+> [!note] Anklicken geht, aber es bleibt in diesem Browser
+> Auf der gebauten Website lässt sich ein offenes Kästchen anhaken. Gemessen: Quartz merkt sich das
+> in `localStorage` dieses Browsers und stellt es beim nächsten Besuch wieder her — in deiner Notiz
+> steht danach trotzdem nichts anderes, und ein anderer Browser sieht die Liste wieder wie
+> geschrieben. Abgehakt wird also weiterhin in Obsidian; der Haken auf der Website ist eine Notiz an
+> dich selbst.

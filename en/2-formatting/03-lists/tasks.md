@@ -29,7 +29,7 @@ cover: "[[assets/covers/cover-listen.svg]]"
 
 **In this template** a completed point also gets a muted colour *and* a strikethrough. A state that
 hangs on a small tick alone is no state at all for some readers — hence three signals instead of
-one.
+one. And the template draws **all six states** Obsidian knows, not just two — see below.
 
 The list also loses its bullets as soon as it contains boxes: bullet and box next to each other are
 one marker too many.
@@ -50,10 +50,28 @@ Obsidian allows any character between the brackets and shows its own symbols for
 - [>] deferred
 - [?] questionable
 
-> [!warning] On the site only open and done survive
-> Measured: of all the characters, Quartz recognises only `[ ]` and `[x]` as a state — the rest
-> become an empty box and the character is lost. Anyone who needs the intermediate states on the
-> site as well writes them into the text rather than into the brackets.
+All four arrive on the site, and this template draws them — every character gets its own mark in
+the box:
 
-> [!note] They are not clickable
-> On a built site the box is a display, not a control. Ticking happens in Obsidian.
+| Character | Mark | Colour | Text |
+| --- | --- | --- | --- |
+| `[ ]` | empty box | muted | plain |
+| `[x]` | tick | accent | struck through |
+| `[/]` | slash | accent | plain |
+| `[-]` | minus | muted | struck through |
+| `[>]` | arrow to the right | muted | plain |
+| `[?]` | question mark | muted | plain |
+
+The colour separates two groups: accent for what is still going somewhere, muted for what is being
+left behind. A reader who does not know the characters at least sees those two groups.
+
+> [!note] It was not always like this
+> Until recently Quartz kept only `[ ]` and `[x]`; everything else became an empty box and the
+> character was gone. Since the Obsidian plugin writes it onto the line as `data-task` it is there
+> — and since then a template can do something with it.
+
+> [!note] Clicking works, but it stays in this browser
+> On the built site an open box can be ticked. Measured: Quartz remembers it in this browser's
+> `localStorage` and restores it on your next visit — your note still says what it said, and
+> another browser sees the list as written. Ticking things off still happens in Obsidian; the tick
+> on the site is a note to yourself.
