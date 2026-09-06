@@ -47,7 +47,7 @@ a link exists.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-This variable is read by `a11y.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+This variable is read by `a11y.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

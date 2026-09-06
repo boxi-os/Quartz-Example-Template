@@ -37,7 +37,7 @@ alles, was übrig ist, und lässt dem Schlüssel seine Inhaltsbreite.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 16 Variablen liest `meta-note-properties.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
+Diese 16 Variablen liest `meta-note-properties.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -58,5 +58,5 @@ Diese 16 Variablen liest `meta-note-properties.scss`. Ändern lassen sie sich in
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

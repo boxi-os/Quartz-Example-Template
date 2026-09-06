@@ -131,7 +131,7 @@ Diese 40 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *
 | `--tpl-text-lg` | `1.15rem` | Suche, Link-Vorschau |
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-text-xl` | `1.4rem` | Der Sprachumschalter |
-| `--tpl-tracking-caps` | `0.06em` | Code, 3.1 [[7-nachschlagen/01-glossar#Base\|Bases]] |
+| `--tpl-tracking-caps` | `0.06em` | Code, 3.1 Bases |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

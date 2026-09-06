@@ -26,7 +26,7 @@ Cards with a title, a path and an excerpt.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by `page-search-results.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 17 variables are read by `page-search-results.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -48,5 +48,5 @@ These 17 variables are read by `page-search-results.scss`. They can be changed i
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 
-*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

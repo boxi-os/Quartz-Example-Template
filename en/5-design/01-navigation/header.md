@@ -73,7 +73,7 @@ explicitly.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 15 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 15 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ These 15 variables are read by `nav-header.scss`. They can be changed in the app
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--titleFont` | `"Instrument Sans", ui-sans-serif, system-…` | only here |
-| `--tpl-header-pad` | set in the [[en/7-reference/01-glossary#Stylesheet\|stylesheet]] (`base.scss`) | 6.4 Variables |
+| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | 6.4 Variables |
 | `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-page-fade` | `24px` | only here |
 | `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |

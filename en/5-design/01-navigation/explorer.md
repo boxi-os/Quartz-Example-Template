@@ -129,7 +129,7 @@ These 32 variables are read by `nav-explorer.scss`. They can be changed in the a
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-accent-bar` | `3px` | 5 other components |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | only here |
-| `--tpl-icon` | `1.1rem` | [[en/7-reference/01-glossary#Colour scheme\|Colour scheme]] switch, Reader mode |
+| `--tpl-icon` | `1.1rem` | Colour scheme switch, Reader mode |
 | `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The language switcher |
 | `--tpl-indent` | `0.85rem` | Table of contents |
 | `--tpl-motion` | `150ms ease` | 12 other components |

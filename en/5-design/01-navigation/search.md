@@ -54,7 +54,7 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 18 variables are read by `nav-search.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 18 variables are read by `nav-search.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

@@ -60,7 +60,7 @@ with every scroll.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by `aside-toc.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 17 variables are read by `aside-toc.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

@@ -43,7 +43,7 @@ changed here is measured here.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 19 variables are read by `body-callouts.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 19 variables are read by `body-callouts.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

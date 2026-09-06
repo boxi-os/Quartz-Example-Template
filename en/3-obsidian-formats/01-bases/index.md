@@ -44,7 +44,7 @@ below that.
 
 > [!warning] Bases speak English
 > Above every view stands a line such as *“Showing 45 of 45 entries”*, and the column headings
-> carry the English field names (`Description`). Both come from the compiled plugin `bases-page`
+> carry the English field names (`Description`). Both come from the compiled [[en/7-reference/01-glossary#Plugin|plugin]] `bases-page`
 > and cannot be changed through the language file or an option. On a German page that is a line in
 > the wrong language; the template therefore sets it quietly instead of removing it — a line that
 > steps back disturbs less than one that shouts.
@@ -68,7 +68,7 @@ below that.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 30 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 30 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -103,5 +103,5 @@ These 30 variables are read by `page-bases.scss`. They can be changed in the app
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

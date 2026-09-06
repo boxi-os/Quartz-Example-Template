@@ -50,7 +50,7 @@ date* [[en/7-reference/01-glossary#Plugin|plugin]].
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by `meta-title-and-date.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 7 variables are read by `meta-title-and-date.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -62,5 +62,5 @@ These 7 variables are read by `meta-title-and-date.scss`. They can be changed in
 | `--tpl-text-3xl` | `2.25rem` | 6.4 Variables, Error page |
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 
-*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

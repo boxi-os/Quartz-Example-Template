@@ -18,7 +18,7 @@ Gerendert mit KaTeX. Für alles von einer Variablen im Satz bis zur mehrzeiligen
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 3 Variablen liest `body-math.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
+Diese 3 Variablen liest `body-math.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -26,5 +26,5 @@ Diese 3 Variablen liest `body-math.scss`. Ändern lassen sie sich in der App unt
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
 | `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

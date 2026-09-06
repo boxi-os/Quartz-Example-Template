@@ -50,7 +50,7 @@ between the two lines.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by `site-footer.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 11 variables are read by `site-footer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -66,5 +66,5 @@ These 11 variables are read by `site-footer.scss`. They can be changed in the ap
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

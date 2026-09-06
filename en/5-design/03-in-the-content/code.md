@@ -133,7 +133,7 @@ These 22 variables are read by `body-code.scss`. They can be changed in the app 
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-caps` | `0.06em` | 6.4 Variables, 3.1 [[en/7-reference/01-glossary#Base\|Bases]] |
+| `--tpl-tracking-caps` | `0.06em` | 6.4 Variables, 3.1 Bases |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

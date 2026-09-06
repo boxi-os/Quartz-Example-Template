@@ -49,7 +49,7 @@ Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 
 > [!warning] Bases sprechen Englisch
 > Über jeder Ansicht steht eine Zeile wie *„Showing 45 of 45 entries“*, und die Spaltenköpfe
-> tragen die englischen Feldnamen (`Description`). Beides kommt aus dem kompilierten Plugin
+> tragen die englischen Feldnamen (`Description`). Beides kommt aus dem kompilierten [[7-nachschlagen/01-glossar#Plugin|Plugin]]
 > `bases-page` und lässt sich weder über die Sprachdatei noch über eine Option ändern. Die Vorlage
 > setzt die Zeile deshalb leise, statt sie zu entfernen — eine falschsprachige Zeile, die
 > zurücktritt, stört weniger als eine, die schreit.
@@ -68,7 +68,7 @@ Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
+Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -103,5 +103,5 @@ Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App u
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

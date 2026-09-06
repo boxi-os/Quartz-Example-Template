@@ -55,7 +55,7 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
+Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

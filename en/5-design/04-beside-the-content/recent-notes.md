@@ -44,7 +44,7 @@ belong to the component you first saw it in.**
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `aside-recent-notes.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
+These 13 variables are read by `aside-recent-notes.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -62,5 +62,5 @@ These 13 variables are read by `aside-recent-notes.scss`. They can be changed in
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 
-*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
+*This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
