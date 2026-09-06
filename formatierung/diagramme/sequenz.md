@@ -6,6 +6,7 @@ tags:
   - formatierung
   - diagramme
 translationKey: formatierung/diagramme/sequenz
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 ````md

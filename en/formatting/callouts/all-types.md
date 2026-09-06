@@ -6,6 +6,7 @@ tags:
   - formatting
   - callouts
 translationKey: formatierung/callouts/alle-typen
+cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
 > [!note] note

@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/links/index
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 The part of Obsidian that turns notes into a network. What stands here also decides what the graph

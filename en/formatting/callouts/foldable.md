@@ -6,6 +6,7 @@ tags:
   - formatting
   - callouts
 translationKey: formatierung/callouts/faltbar
+cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
 A `-` or `+` after the type makes the callout foldable.

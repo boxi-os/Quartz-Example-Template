@@ -6,6 +6,7 @@ tags:
   - formatting
   - frontmatter
 translationKey: formatierung/eigenschaften/frontmatter
+cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
 Between two lines of three hyphens, at the very start of the file:

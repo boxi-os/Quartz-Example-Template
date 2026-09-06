@@ -6,6 +6,7 @@ tags:
   - formatting
   - media
 translationKey: formatierung/medien/einbettungen
+cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
 The *Layout Box* plugin of this template switches images by colour scheme: an element with the

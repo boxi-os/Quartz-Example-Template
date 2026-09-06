@@ -6,6 +6,7 @@ tags:
   - formatting
   - special
 translationKey: formatierung/besonderes/pfeile-und-emoji
+cover: "[[assets/covers/cover-besonderes.svg]]"
 ---
 
 ## Arrows

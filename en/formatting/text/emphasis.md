@@ -6,6 +6,7 @@ tags:
   - formatting
   - text
 translationKey: formatierung/text/betonung
+cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 ## The five kinds of markup

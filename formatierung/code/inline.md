@@ -6,6 +6,7 @@ tags:
   - formatierung
   - code
 translationKey: formatierung/code/inline
+cover: "[[assets/covers/cover-code.svg]]"
 ---
 
 ```md

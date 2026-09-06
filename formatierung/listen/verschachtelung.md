@@ -6,6 +6,7 @@ tags:
   - formatierung
   - listen
 translationKey: formatierung/listen/verschachtelung
+cover: "[[assets/covers/cover-listen.svg]]"
 ---
 
 ## Zitat

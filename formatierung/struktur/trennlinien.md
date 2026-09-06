@@ -6,6 +6,7 @@ tags:
   - formatierung
   - struktur
 translationKey: formatierung/struktur/trennlinien
+cover: "[[assets/covers/cover-struktur.svg]]"
 ---
 
 ```md

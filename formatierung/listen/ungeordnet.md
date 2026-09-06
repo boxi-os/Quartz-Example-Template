@@ -6,6 +6,7 @@ tags:
   - formatierung
   - listen
 translationKey: formatierung/listen/ungeordnet
+cover: "[[assets/covers/cover-listen.svg]]"
 ---
 
 ```md

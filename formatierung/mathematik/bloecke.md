@@ -6,6 +6,7 @@ tags:
   - formatierung
   - mathematik
 translationKey: formatierung/mathematik/bloecke
+cover: "[[assets/covers/cover-mathematik.svg]]"
 ---
 
 Zwei Dollarzeichen setzen die Formel als eigenen Block:

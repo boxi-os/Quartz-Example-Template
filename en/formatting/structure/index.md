@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/struktur/index
+cover: "[[assets/covers/cover-struktur.svg]]"
 ---
 
 How a page is divided up, and how wide its text gets while doing so.

@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/index
+cover: "[[assets/covers/cover-index.svg]]"
 ---
 
 Thirteen areas, one short page per element. The pattern is the same everywhere: the source in a

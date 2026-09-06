@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/mathematik/index
+cover: "[[assets/covers/cover-mathematik.svg]]"
 ---
 
 Rendered with KaTeX. For everything from a variable in a sentence to a derivation over several

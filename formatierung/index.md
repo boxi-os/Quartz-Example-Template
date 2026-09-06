@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
 translationKey: formatierung/index
+cover: "[[assets/covers/cover-index.svg]]"
 ---
 
 Dreizehn Bereiche, je Element eine kurze Seite. Das Muster ist überall gleich: zuerst der

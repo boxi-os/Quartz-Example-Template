@@ -6,6 +6,7 @@ tags:
   - formatierung
   - medien
 translationKey: formatierung/medien/einbettungen
+cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
 Das Plugin *Layout Box* dieser Vorlage schaltet Bilder nach Farbschema um: Ein Element mit der

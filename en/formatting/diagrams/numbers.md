@@ -6,6 +6,7 @@ tags:
   - formatting
   - diagrams
 translationKey: formatierung/diagramme/zahlen
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 ## Pie chart

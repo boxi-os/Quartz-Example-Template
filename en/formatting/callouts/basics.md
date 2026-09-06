@@ -6,6 +6,7 @@ tags:
   - formatting
   - callouts
 translationKey: formatierung/callouts/grundform
+cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
 ## With a title of your own

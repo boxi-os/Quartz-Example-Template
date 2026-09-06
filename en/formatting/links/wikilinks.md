@@ -6,6 +6,7 @@ tags:
   - formatting
   - links
 translationKey: formatierung/links/wikilinks
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 ```md

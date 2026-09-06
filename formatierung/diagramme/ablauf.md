@@ -6,6 +6,7 @@ tags:
   - formatierung
   - diagramme
 translationKey: formatierung/diagramme/ablauf
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 ## Zustandsdiagramm

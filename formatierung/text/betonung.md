@@ -6,6 +6,7 @@ tags:
   - formatierung
   - text
 translationKey: formatierung/text/betonung
+cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 ## Die fünf Auszeichnungen

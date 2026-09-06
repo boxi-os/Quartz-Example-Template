@@ -6,6 +6,7 @@ tags:
   - formatting
   - footnotes
 translationKey: formatierung/fussnoten/kommentare
+cover: "[[assets/covers/cover-fussnoten.svg]]"
 ---
 
 ## Obsidian comment

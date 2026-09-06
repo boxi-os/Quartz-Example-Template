@@ -6,6 +6,7 @@ tags:
   - formatierung
   - diagramme
 translationKey: formatierung/diagramme/zahlen
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 ## Tortendiagramm

@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
 translationKey: formatierung/diagramme/index
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 Abläufe, Strukturen, Zeiten und Zahlen — alle aus Text erzeugt und alle in der Farbpalette dieser Vorlage.

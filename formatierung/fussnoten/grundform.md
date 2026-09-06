@@ -6,6 +6,7 @@ tags:
   - formatierung
   - fussnoten
 translationKey: formatierung/fussnoten/grundform
+cover: "[[assets/covers/cover-fussnoten.svg]]"
 ---
 
 ```md

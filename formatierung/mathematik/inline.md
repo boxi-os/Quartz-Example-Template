@@ -6,6 +6,7 @@ tags:
   - formatierung
   - mathematik
 translationKey: formatierung/mathematik/inline
+cover: "[[assets/covers/cover-mathematik.svg]]"
 ---
 
 Ein Dollarzeichen umschließt die Formel:

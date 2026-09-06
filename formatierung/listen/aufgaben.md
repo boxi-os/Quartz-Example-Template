@@ -6,6 +6,7 @@ tags:
   - formatierung
   - listen
 translationKey: formatierung/listen/aufgaben
+cover: "[[assets/covers/cover-listen.svg]]"
 ---
 
 ```md

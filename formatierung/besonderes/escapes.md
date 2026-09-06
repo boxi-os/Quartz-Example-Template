@@ -6,6 +6,7 @@ tags:
   - formatierung
   - besonderes
 translationKey: formatierung/besonderes/escapes
+cover: "[[assets/covers/cover-besonderes.svg]]"
 ---
 
 Ein Backslash davor nimmt dem Zeichen seine Bedeutung:

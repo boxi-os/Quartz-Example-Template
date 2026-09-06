@@ -6,6 +6,7 @@ tags:
   - formatierung
   - struktur
 translationKey: formatierung/struktur/ueberschriften
+cover: "[[assets/covers/cover-struktur.svg]]"
 ---
 
 Der Seitentitel ist bereits eine `h1`, deshalb beginnt der Text sinnvollerweise bei `##`. Diese

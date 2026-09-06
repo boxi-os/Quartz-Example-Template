@@ -15,9 +15,9 @@ views:
       - property: title
         direction: ASC
   - type: cards
+    image: cover
     name: Kacheln
     order:
-      - title
       - description
     sort:
       - property: title
@@ -41,6 +41,7 @@ views:
       - property: title
         direction: ASC
   - type: gallery
+    image: cover
     name: Galerie
     order:
       - title

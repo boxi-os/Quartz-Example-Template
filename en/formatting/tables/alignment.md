@@ -6,6 +6,7 @@ tags:
   - formatting
   - tables
 translationKey: formatierung/tabellen/ausrichtung
+cover: "[[assets/covers/cover-tabellen.svg]]"
 ---
 
 ```md

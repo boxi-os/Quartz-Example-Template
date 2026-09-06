@@ -15,9 +15,9 @@ views:
       - property: file.name
         direction: ASC
   - type: cards
+    image: cover
     name: As cards
     order:
-      - title
       - description
     sort:
       - property: file.name

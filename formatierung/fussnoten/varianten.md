@@ -6,6 +6,7 @@ tags:
   - formatierung
   - fussnoten
 translationKey: formatierung/fussnoten/varianten
+cover: "[[assets/covers/cover-fussnoten.svg]]"
 ---
 
 ## Benannt statt nummeriert

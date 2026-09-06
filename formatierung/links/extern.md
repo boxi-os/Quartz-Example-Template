@@ -6,6 +6,7 @@ tags:
   - formatierung
   - links
 translationKey: formatierung/links/extern
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 ```md

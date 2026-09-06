@@ -6,6 +6,7 @@ tags:
   - formatting
   - math
 translationKey: formatierung/mathematik/inline
+cover: "[[assets/covers/cover-mathematik.svg]]"
 ---
 
 A single dollar sign encloses the formula:

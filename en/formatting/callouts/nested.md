@@ -6,6 +6,7 @@ tags:
   - formatting
   - callouts
 translationKey: formatierung/callouts/verschachtelt
+cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
 ````md

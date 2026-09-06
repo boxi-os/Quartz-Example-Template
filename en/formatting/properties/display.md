@@ -6,6 +6,7 @@ tags:
   - formatting
   - frontmatter
 translationKey: formatierung/eigenschaften/anzeige
+cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
 The properties sit as a collapsible table between the date and the text.

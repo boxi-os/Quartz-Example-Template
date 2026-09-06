@@ -6,6 +6,7 @@ tags:
   - formatierung
   - code
 translationKey: formatierung/code/sprachen
+cover: "[[assets/covers/cover-code.svg]]"
 ---
 
 Das Kürzel nach den drei Backticks bestimmt die Hervorhebung. Eine Auswahl:

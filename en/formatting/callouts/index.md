@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/callouts/index
+cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
 Boxes that interrupt the flow of reading on purpose. Their colours are set anew in this template,

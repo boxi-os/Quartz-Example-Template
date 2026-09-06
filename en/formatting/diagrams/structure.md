@@ -6,6 +6,7 @@ tags:
   - formatting
   - diagrams
 translationKey: formatierung/diagramme/struktur
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 ## Class diagram

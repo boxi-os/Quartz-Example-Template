@@ -6,6 +6,7 @@ tags:
   - formatierung
   - medien
 translationKey: formatierung/medien/dokumente
+cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
 ## Als Link

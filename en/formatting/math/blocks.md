@@ -6,6 +6,7 @@ tags:
   - formatting
   - math
 translationKey: formatierung/mathematik/bloecke
+cover: "[[assets/covers/cover-mathematik.svg]]"
 ---
 
 Two dollar signs set the formula as a block of its own:

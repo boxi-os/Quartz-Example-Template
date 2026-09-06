@@ -6,6 +6,7 @@ tags:
   - formatting
   - text
 translationKey: formatierung/text/sonderzeichen
+cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 Markdown converts nothing automatically: what stands here has to be typed this way in the source.

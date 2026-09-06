@@ -6,6 +6,7 @@ tags:
   - formatting
   - structure
 translationKey: formatierung/struktur/ueberschriften
+cover: "[[assets/covers/cover-struktur.svg]]"
 ---
 
 The page title is already an `h1`, so the text sensibly starts at `##`. This page nonetheless goes

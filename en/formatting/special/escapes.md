@@ -6,6 +6,7 @@ tags:
   - formatting
   - special
 translationKey: formatierung/besonderes/escapes
+cover: "[[assets/covers/cover-besonderes.svg]]"
 ---
 
 A backslash in front takes the meaning away from a character:

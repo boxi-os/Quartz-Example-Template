@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/text/index
+cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 The markup that concerns single words and lines — and the two of them that do not come from

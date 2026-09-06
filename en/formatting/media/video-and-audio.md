@@ -6,6 +6,7 @@ tags:
   - formatting
   - media
 translationKey: formatierung/medien/video-audio
+cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
 ## Audio

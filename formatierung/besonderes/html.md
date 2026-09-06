@@ -6,6 +6,7 @@ tags:
   - formatierung
   - besonderes
 translationKey: formatierung/besonderes/html
+cover: "[[assets/covers/cover-besonderes.svg]]"
 ---
 
 ```md

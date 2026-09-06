@@ -6,6 +6,7 @@ tags:
   - formatierung
   - links
 translationKey: formatierung/links/einbettungen
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 Ein Ausrufezeichen vor dem Wikilink bettet den Inhalt ein, statt darauf zu verweisen.

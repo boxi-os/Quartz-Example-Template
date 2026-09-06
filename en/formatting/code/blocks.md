@@ -6,6 +6,7 @@ tags:
   - formatting
   - code
 translationKey: formatierung/code/bloecke
+cover: "[[assets/covers/cover-code.svg]]"
 ---
 
 ````md

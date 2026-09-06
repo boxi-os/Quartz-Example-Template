@@ -6,6 +6,7 @@ tags:
   - formatierung
   - besonderes
 translationKey: formatierung/besonderes/pfeile-und-emoji
+cover: "[[assets/covers/cover-besonderes.svg]]"
 ---
 
 ## Pfeile

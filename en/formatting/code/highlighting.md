@@ -6,6 +6,7 @@ tags:
   - formatting
   - code
 translationKey: formatierung/code/hervorhebung
+cover: "[[assets/covers/cover-code.svg]]"
 ---
 
 Curly braces after the language mark lines:

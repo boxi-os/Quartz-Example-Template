@@ -6,6 +6,7 @@ tags:
   - formatierung
   - links
 translationKey: formatierung/links/ziele
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 ## Auf eine Überschrift

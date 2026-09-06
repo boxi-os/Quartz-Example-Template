@@ -6,6 +6,7 @@ tags:
   - formatierung
   - code
 translationKey: formatierung/code/hervorhebung
+cover: "[[assets/covers/cover-code.svg]]"
 ---
 
 Geschweifte Klammern hinter der Sprache markieren Zeilen:

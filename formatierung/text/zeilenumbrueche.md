@@ -6,6 +6,7 @@ tags:
   - formatierung
   - text
 translationKey: formatierung/text/zeilenumbrueche
+cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 ## Ein Umbruch im Quelltext ist keiner auf der Seite

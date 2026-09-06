@@ -6,6 +6,7 @@ tags:
   - formatierung
   - frontmatter
 translationKey: formatierung/eigenschaften/frontmatter
+cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
 Zwischen zwei Zeilen aus drei Bindestrichen, ganz am Anfang der Datei:

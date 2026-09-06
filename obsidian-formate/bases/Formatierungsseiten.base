@@ -15,9 +15,9 @@ views:
       - property: file.name
         direction: ASC
   - type: cards
+    image: cover
     name: Als Karten
     order:
-      - title
       - description
     sort:
       - property: file.name

@@ -5,6 +5,7 @@ section: Formatting
 tags:
   - formatting
 translationKey: formatierung/diagramme/index
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 Processes, structures, times and numbers — all generated from text and all in the colour palette of

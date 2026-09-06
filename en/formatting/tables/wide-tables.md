@@ -6,6 +6,7 @@ tags:
   - formatting
   - tables
 translationKey: formatierung/tabellen/breite-tabellen
+cover: "[[assets/covers/cover-tabellen.svg]]"
 ---
 
 | Name | Label | Area | Default | Description |

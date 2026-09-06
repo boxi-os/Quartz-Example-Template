@@ -6,6 +6,7 @@ tags:
   - formatting
   - links
 translationKey: formatierung/links/einbettungen
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 An exclamation mark in front of the wikilink embeds the content instead of linking to it.

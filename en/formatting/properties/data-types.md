@@ -14,6 +14,7 @@ list:
   - three
 empty:
 translationKey: formatierung/eigenschaften/datentypen
+cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
 This page carries five example fields itself. The property table above this text shows them.

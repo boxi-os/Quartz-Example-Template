@@ -5,6 +5,7 @@ section: Formatierung
 tags:
   - formatierung
 translationKey: formatierung/mathematik/index
+cover: "[[assets/covers/cover-mathematik.svg]]"
 ---
 
 Gerendert mit KaTeX. Für alles von einer Variablen im Satz bis zur mehrzeiligen Herleitung.

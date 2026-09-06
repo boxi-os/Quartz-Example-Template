@@ -6,6 +6,7 @@ tags:
   - formatting
   - media
 translationKey: formatierung/medien/bilder
+cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
 ## Two notations

@@ -6,6 +6,7 @@ tags:
   - formatierung
   - frontmatter
 translationKey: formatierung/eigenschaften/anzeige
+cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
 Die Eigenschaften stehen als klappbare Tabelle zwischen Datum und Text.

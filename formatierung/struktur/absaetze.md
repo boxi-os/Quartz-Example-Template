@@ -6,6 +6,7 @@ tags:
   - formatierung
   - struktur
 translationKey: formatierung/struktur/absaetze
+cover: "[[assets/covers/cover-struktur.svg]]"
 ---
 
 ## Ein Absatz

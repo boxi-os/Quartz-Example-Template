@@ -8,6 +8,7 @@ tags:
 aliases:
   - Second name for aliases
 translationKey: formatierung/links/aliase
+cover: "[[assets/covers/cover-links.svg]]"
 ---
 
 In the frontmatter:

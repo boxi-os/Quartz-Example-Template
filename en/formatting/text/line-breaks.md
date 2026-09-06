@@ -6,6 +6,7 @@ tags:
   - formatting
   - text
 translationKey: formatierung/text/zeilenumbrueche
+cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 ## A break in the source is not one on the page

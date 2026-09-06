@@ -6,6 +6,7 @@ tags:
   - formatting
   - diagrams
 translationKey: formatierung/diagramme/zeit
+cover: "[[assets/covers/cover-diagramme.svg]]"
 ---
 
 ## Gantt

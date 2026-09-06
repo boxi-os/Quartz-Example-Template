@@ -6,6 +6,7 @@ tags:
   - formatting
   - code
 translationKey: formatierung/code/sprachen
+cover: "[[assets/covers/cover-code.svg]]"
 ---
 
 The short name after the three backticks decides the highlighting. A selection:
