@@ -14,7 +14,7 @@ A button with a magnifying glass that opens an overlay. The border comes from `l
 
 ## In this template
 
-- The border comes from **`gray`**, not from `lightgray`. That is the contrast rule put into
+- The border comes from **`gray`**, not from `lightgray`. That is the [[en/7-reference/01-glossary#Contrast|contrast]] rule put into
   practice: `lightgray` measures 1.34:1 against the ground and may therefore not surround anything
   you operate.
 - The button sits **in the header**, at the far right, together with the three other controls. It
@@ -23,10 +23,10 @@ A button with a magnifying glass that opens an overlay. The border comes from `l
   label.
 - The **overlay** carries a real shadow. In this template only what genuinely floats above the page
   rather than sitting in it gets one: this overlay, the link preview, the language menu, the drawer
-  on a phone and the global graph. Five places — and it is the rule that counts, not the number.
+  on a phone and the global [[en/7-reference/01-glossary#Graph|graph]]. Five places — and it is the rule that counts, not the number.
 - The **input field** gets no focus ring but a heavier bottom edge — a ring inside a rounded box
   looks like a mistake.
-- **Results**: the keyboard cursor and the pointer hover look the same. The arrow keys move through
+- **Results**: the keyboard cursor and the pointer [[en/7-reference/01-glossary#Hover|hover]] look the same. The arrow keys move through
   the list, and the highlighted row is the only signal of where you are.
 - The **match in the text** is marked with the same colour as `==highlight==` in the body text.
   "This is what you were looking for" means the same thing across the whole site.
@@ -38,9 +38,9 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 > **110 px**, equally at 1728, 1440, 1100 and 900 px, even though the toolbar occupied only 322 of
 > 1400 px. Quartz wraps every component of a group in a class-less `div` of its own and writes that
 > div's flex values as an **inline style** from the configuration. The flex item is therefore the
-> wrapper, not `.search`, and an inline style beats every stylesheet.
+> wrapper, not `.search`, and an inline style beats every [[en/7-reference/01-glossary#Stylesheet|stylesheet]].
 >
-> Since 2026-09-05 the 15 rem live in the search plugin's `layout.groupOptions.basis`, together
+> Since 2026-09-05 the 15 rem live in the search [[en/7-reference/01-glossary#Plugin|plugin]]'s `layout.groupOptions.basis`, together
 > with `shrink: false`. The second belongs with it: a shrinkable item contributes only its content
 > width to the group's size, so the group stayed at 322 px while its children wanted 452 — and the
 > bar wrapped onto two rows, the header growing from 61 to 101 px. On a phone `nav-header.scss`
@@ -48,13 +48,13 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 
 > [!note] The index spans both languages
 > There is one search index for the whole site, so a German page can turn up in an English search
-> result. Splitting it would mean one build per language — see
+> result. Splitting it would mean one [[en/7-reference/01-glossary#Build|build]] per language — see
 > [[en/6-adapting/07-two-languages/limits|Where the two languages stop]].
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 18 variables are read by `nav-search.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 18 variables are read by `nav-search.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

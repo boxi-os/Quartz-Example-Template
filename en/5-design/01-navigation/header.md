@@ -13,12 +13,12 @@ scheme switch, reader mode and the language switcher. Below it a separating line
 
 ## Out of the box
 
-The header contains only the page title. There is no mark — you would have to build a component of
+The header contains only the page title. There is no mark — you would have to [[en/7-reference/01-glossary#Build|build]] a component of
 your own for that. Search and the two switches sit in the left sidebar.
 
 ## In this template
 
-The mark comes from a **layout box instance** with an inline SVG, once light and once dark. It is
+The mark comes from a **[[en/7-reference/01-glossary#Layout box|layout box]] instance** with an inline SVG, once light and once dark. It is
 at the same time the link to the home page.
 
 A few details:
@@ -27,12 +27,12 @@ A few details:
   contain only an SVG and would have no accessible name. `display: none` would have been wrong here
   — that is exactly the mistake the first version contained.
 - The four controls stand **in the header, not in the bar**. That is where they are looked for, and
-  it is the only area every frame has — on the error page there used to be neither search nor
-  colour scheme switch, because it has no sidebars.
+  it is the only area every [[en/7-reference/01-glossary#Frame|frame]] has — on the error page there used to be neither search nor
+  [[en/7-reference/01-glossary#Colour scheme|colour scheme]] switch, because it has no sidebars.
 - They form one **group** (`toolbar`) with `wrap`, so that four controls plus the site name still
   fit on a 360 px phone.
 - On a phone the header becomes an **app bar**: it stays at the top while scrolling, runs the full
-  width and takes the explorer's drawer button with it. The search gives up its word there and
+  width and takes the [[en/7-reference/01-glossary#Explorer|explorer]]'s drawer button with it. The search gives up its word there and
   becomes a square like the others; it keeps its 44 px.
 
 ## It stays and it shrinks
@@ -66,14 +66,14 @@ Two things hang on it and are therefore in the same calculation:
 
 ## A finding while building
 
-The plugin sets `width: 100%` on every layout box. In a flex row that made the mark 1376 px wide
+The [[en/7-reference/01-glossary#Plugin|plugin]] sets `width: 100%` on every layout box. In a flex row that made the mark 1376 px wide
 and pushed the title onto the next line. `flex` does not lift a set width — it had to be taken back
 explicitly.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 15 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 15 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ These 15 variables are read by `nav-header.scss`. They can be changed in the app
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--titleFont` | `"Instrument Sans", ui-sans-serif, system-…` | only here |
-| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | 6.4 Variables |
+| `--tpl-header-pad` | set in the [[en/7-reference/01-glossary#Stylesheet\|stylesheet]] (`base.scss`) | 6.4 Variables |
 | `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-page-fade` | `24px` | only here |
 | `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |

@@ -42,7 +42,7 @@ Ein Satz mit einem #inline-tag mittendrin.
 
 Ein Satz mit einem #inline-tag mittendrin.
 
-Ein Tag im Fließtext zählt genauso wie eines im Frontmatter: Es erscheint auf der Tag-Seite und in
+Ein Tag im Fließtext zählt genauso wie eines im [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]: Es erscheint auf der Tag-Seite und in
 der Tag-Liste.
 
 > [!bug] Der Link daran ist kaputt

@@ -14,7 +14,7 @@ this template.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 22 variables are read by `body-mermaid.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 22 variables are read by `body-mermaid.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -24,7 +24,7 @@ These 22 variables are read by `body-mermaid.scss`. They can be changed in the a
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--mm-1` | set in the stylesheet (`body-mermaid.scss`) | only here |
+| `--mm-1` | set in the [[en/7-reference/01-glossary#Stylesheet\|stylesheet]] (`body-mermaid.scss`) | only here |
 | `--mm-2` | set in the stylesheet (`body-mermaid.scss`) | only here |
 | `--mm-3` | set in the stylesheet (`body-mermaid.scss`) | only here |
 | `--mm-4` | set in the stylesheet (`body-mermaid.scss`) | only here |

@@ -20,7 +20,7 @@ Deckende Fläche, denn eine durchscheinende Vorschau über Fließtext ist unlesb
 Der Inhalt ist auf **20 rem gekappt**, und am Schnitt liegt ein weicher Verlauf: Eine abgeschnittene
 Vorschau soll geschnitten aussehen, nicht kaputt.
 
-Weggelassen wird darin, was in einer Vorschau nur stört: Callouts, Tags und Codeblöcke. Eine
+Weggelassen wird darin, was in einer Vorschau nur stört: [[7-nachschlagen/01-glossar#Callout|Callouts]], Tags und Codeblöcke. Eine
 Vorschau soll die Frage beantworten, ob sich der Klick lohnt — mehr nicht.
 
 ## Nur mit Zeiger
@@ -32,7 +32,7 @@ sie nicht.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 13 Variablen liest `page-popover.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 13 Variablen liest `page-popover.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -50,5 +50,5 @@ Diese 13 Variablen liest `page-popover.scss`. Ändern lassen sie sich in der App
 | `--tpl-text-lg` | `1.15rem` | 6.4 Variablen, Suche |
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

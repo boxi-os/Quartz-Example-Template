@@ -37,7 +37,7 @@ Obsidians Suche den Text in einer Zeichnung.
 
 Das JSON kann auch **komprimiert** vorliegen (`compressed-json`, LZ-String) — Obsidian stellt das in
 den Plugin-Einstellungen ein. Beides wird von Quartz gelesen; unkomprimiert ist besser
-versionierbar, weil git die Änderungen zeigen kann.
+versionierbar, weil [[7-nachschlagen/01-glossar#git|git]] die Änderungen zeigen kann.
 
 ## Der zweite Weg: `.excalidraw`
 

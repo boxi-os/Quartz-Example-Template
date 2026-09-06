@@ -31,7 +31,7 @@ otherwise the Markdown inside it is not processed.
 <summary>A collapsible section</summary>
 
 The content appears when unfolded. There has to be a blank line between `<summary>` and the text,
-otherwise the Markdown inside it is not processed.
+otherwise the [[en/7-reference/01-glossary#Markdown|Markdown]] inside it is not processed.
 
 </details>
 

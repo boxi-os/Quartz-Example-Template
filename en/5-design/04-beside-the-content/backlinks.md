@@ -28,7 +28,7 @@ The template renames the component in its language file — "Links here" instead
 That is a word from the tool, not from the language.
 
 > [!warning] This renaming has no effect
-> Measured: every visible heading on a Quartz 5 page comes from a component **plugin**, and each of
+> Measured: every visible heading on a Quartz 5 page comes from a component **[[en/7-reference/01-glossary#Plugin|plugin]]**, and each of
 > those npm packages brings its own compiled translations with it. The project's language file does
 > not reach them. The entry is in the template all the same — the mechanism is right, only its
 > reach is small today.
@@ -41,7 +41,7 @@ That is a word from the tool, not from the language.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 9 variables are read by `aside-backlinks.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 9 variables are read by `aside-backlinks.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -55,5 +55,5 @@ These 9 variables are read by `aside-backlinks.scss`. They can be changed in the
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

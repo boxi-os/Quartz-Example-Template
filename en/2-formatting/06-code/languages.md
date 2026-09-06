@@ -20,7 +20,7 @@ The short name after the three backticks decides the highlighting. A selection:
 
 ```yaml
 configuration:
-  pageTitle: Minimal & lesbar
+  pageTitle: Example
   locale: de-DE
 ```
 
@@ -45,4 +45,4 @@ def greet(name: str) -> str:
 ## Which theme
 
 This template uses `github-light` and `github-dark` — two themes that belong together and whose
-colours stay legible on both grounds. It is set on the *Syntax highlighting* plugin.
+colours stay legible on both grounds. It is set on the *Syntax highlighting* [[en/7-reference/01-glossary#Plugin|plugin]].

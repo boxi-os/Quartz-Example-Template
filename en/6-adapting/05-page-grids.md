@@ -32,7 +32,7 @@ stayed at 20 px: it is the distance to the edge of the window, not the distance 
 | Frame | Used by | Particularity |
 | --- | --- | --- |
 | `editorial` | content pages | all seven areas occupied |
-| `index` | folders, tags, bases | right column without a table of contents — there are no headings there |
+| `index` | folders, tags, [[en/7-reference/01-glossary#Base\|bases]] | right column without a table of contents — there are no headings there |
 | `focus` | error page | both outer columns empty, no apparatus |
 
 That folder, tag, bases and error pages keep the right column too is deliberate: the text then
@@ -40,8 +40,8 @@ begins in the same place on **every** page, and jumping from an article to its f
 shifts the line.
 
 Every frame is laid out for **three widths**. The thresholds sit at 1100 and 800 px. The 800 are
-not freely chosen: the explorer plugin switches to its drawer at exactly `max-width: 800px` in its
-own stylesheet. Before, 720 stood here, and between 721 and 800 px the two contradicted each other
+not freely chosen: the [[en/7-reference/01-glossary#Explorer|explorer]] [[en/7-reference/01-glossary#Plugin|plugin]] switches to its drawer at exactly `max-width: 800px` in its
+own [[en/7-reference/01-glossary#Stylesheet|stylesheet]]. Before, 720 stood here, and between 721 and 800 px the two contradicted each other
 — the explorer was already a hamburger while the frame still laid the page out as a tablet.
 
 On a tablet the right **column** falls away; its content slides below the text instead of
@@ -53,7 +53,7 @@ is empty, so that costs nothing.
 > [!example] What used to be wrong here
 > For a long time `index` hid the right column below 1100 px instead of moving it down, on the
 > assumption that it was empty on a listing page: a list of links has no headings, hence no table
-> of contents. Measured on `/formatierung/` it is not empty — backlinks and the graph live there.
+> of contents. Measured on `/formatierung/` it is not empty — [[en/7-reference/01-glossary#Backlinks|backlinks]] and the [[en/7-reference/01-glossary#Graph|graph]] live there.
 > On a tablet and on a phone both therefore vanished from every folder, tag and bases page. Since
 > 2026-09-05 `index` gives the right column the same row `editorial` does.
 
@@ -106,7 +106,7 @@ is then a consequence of the grid rather than a second decision beside it — se
 ## Two peculiarities of the editor
 
 - A value may contain **no comma** — so no `minmax(0, 1fr)`.
-- Lengths stand as numbers, not as tokens: a frame has to work even when someone imports only the
+- Lengths stand as numbers, not as [[en/7-reference/01-glossary#Token|tokens]]: a frame has to work even when someone imports only the
   *Frames* part and the variables are missing.
 
 What a drawing of it looks like: [[en/3-obsidian-formats/03-excalidraw/index|Excalidraw]].

@@ -22,12 +22,12 @@ another in figure width.
 
 Below 720 px it collapses into one column; the date is the part that moves.
 
-On the desktop, folder and tag pages keep the **right column**, even when only backlinks stand in
+On the desktop, folder and tag pages keep the **right column**, even when only [[en/7-reference/01-glossary#Backlinks|backlinks]] stand in
 it. The listing therefore begins exactly where the text begins on a content page — jumping from an
 article to its folder no longer shifts the line.
 
-Both page types use the **`index`** frame, which is geometrically the same as `editorial`. There
-is still no table of contents here — a list of links has no headings. Backlinks and the graph there
+Both page types use the **`index`** [[en/7-reference/01-glossary#Frame|frame]], which is geometrically the same as `editorial`. There
+is still no table of contents here — a list of links has no headings. Backlinks and the [[en/7-reference/01-glossary#Graph|graph]] there
 are, and they stand on the right as everywhere else.
 
 ## Two findings while building
@@ -51,7 +51,7 @@ so that it does not end up in the reading order.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by `page-listing.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by `page-listing.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -68,5 +68,5 @@ These 12 variables are read by `page-listing.scss`. They can be changed in the a
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

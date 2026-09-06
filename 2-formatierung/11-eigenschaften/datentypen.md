@@ -42,6 +42,6 @@ leer:
 
 ## Was angezeigt wird, entscheidet die Konfiguration
 
-Das Plugin *Note properties* zeigt standardmäßig nicht alles, sondern nur die Felder aus
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Note properties* zeigt standardmäßig nicht alles, sondern nur die Felder aus
 `includedProperties`. Diese Vorlage listet dort `description`, `tags`, `section` und die fünf
 Demofelder dieser Seite — in beiden Sprachen, weil die englische Fassung sie englisch benennt. Ein Feld, das eine Seite nicht hat, bekommt keine Zeile.

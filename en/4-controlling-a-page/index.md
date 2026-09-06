@@ -35,9 +35,9 @@ How to *write* frontmatter — the data types, the display — stands in
 | `draft: true` | the page is not built | [[en/4-controlling-a-page/02-draft-and-unlisted\|4.2]] |
 | `unlisted: true` | the page is built but appears in no list | [[en/4-controlling-a-page/02-draft-and-unlisted\|4.2]] |
 | `aliases` | further paths under which the page can be reached | [[en/4-controlling-a-page/03-aliases\|4.3]] |
-| `tags` | tag list under the title, tag pages, filter of a base | [[en/5-design/02-above-the-content/tags\|Tags]] |
+| `tags` | tag list under the title, tag pages, filter of a [[en/7-reference/01-glossary#Base\|base]] | [[en/5-design/02-above-the-content/tags\|Tags]] |
 | custom fields such as `section` | appear in the property table | [[en/4-controlling-a-page/04-custom-fields\|4.4]] |
-| `layoutBoxNote`, `layoutBoxCta`, … | hide or refill a layout box on this page | [[en/4-controlling-a-page/05-layout-boxes-per-page\|4.5]] |
+| `layoutBoxNote`, `layoutBoxCta`, … | hide or refill a [[en/7-reference/01-glossary#Layout box\|layout box]] on this page | [[en/4-controlling-a-page/05-layout-boxes-per-page\|4.5]] |
 | `cover` | a cover image for gallery and cards | [[en/4-controlling-a-page/06-cover-image\|4.6]] |
 | `translationKey`, `lang` | connect the page with its translation | [[en/4-controlling-a-page/07-translation\|4.7]] |
 

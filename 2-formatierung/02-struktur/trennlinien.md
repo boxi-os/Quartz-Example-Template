@@ -19,7 +19,7 @@ Drei Bindestriche in einer eigenen Zeile. Die Linie trennt Abschnitte, die keine
 verdienen.
 
 > [!warning] Vorsicht am Dateianfang
-> Drei Bindestriche ganz oben in der Datei eröffnen das **Frontmatter**, keine Trennlinie. Wer eine
+> Drei Bindestriche ganz oben in der Datei eröffnen das **[[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]**, keine Trennlinie. Wer eine
 > Seite mit einer Linie beginnen will, setzt einen Absatz davor.
 
 ## In dieser Vorlage

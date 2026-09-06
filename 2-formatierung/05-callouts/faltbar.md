@@ -9,7 +9,7 @@ translationKey: formatierung/callouts/faltbar
 cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
-Ein `-` oder `+` hinter dem Typ macht den Callout faltbar.
+Ein `-` oder `+` hinter dem Typ macht den [[7-nachschlagen/01-glossar#Callout|Callout]] faltbar.
 
 ````md
 > [!question]- Zugeklappt (Minus)

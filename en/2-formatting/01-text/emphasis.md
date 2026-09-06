@@ -27,9 +27,9 @@ cover: "[[assets/covers/cover-text.svg]]"
 
 ## Which comes from where
 
-Two of the five do not come from Markdown itself:
+Two of the five do not come from [[en/7-reference/01-glossary#Markdown|Markdown]] itself:
 
-| Markup | Comes from | Without the plugin |
+| Markup | Comes from | Without the [[en/7-reference/01-glossary#Plugin\|plugin]] |
 | --- | --- | --- |
 | `~~struck through~~` | GitHub Flavored Markdown | stays as raw text |
 | `==highlighted==` | Obsidian Flavored Markdown | stays as raw text |
@@ -50,7 +50,7 @@ The underscore inside a word is deliberately *not* read as italics — otherwise
 
 ## Superscript and subscript
 
-Markdown knows neither; Quartz lets HTML through:
+Markdown knows neither; Quartz lets [[en/7-reference/01-glossary#HTML|HTML]] through:
 
 ```md
 H<sub>2</sub>O and E = mc<sup>2</sup>

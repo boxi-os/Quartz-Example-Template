@@ -8,16 +8,16 @@ tags:
 translationKey: anpassen/zwei-sprachen/grenzen
 ---
 
-This site is **one** build with `locale: de-DE`. The content is bilingual, the interface is not.
+This site is **one** [[en/7-reference/01-glossary#Build|build]] with `locale: de-DE`. The content is bilingual, the interface is not.
 What that means in concrete terms:
 
 ## The Quartz interface stays German
 
 Every visible label that does not come from a note takes its language from `configuration.locale` —
-site-wide. Looked up in the built code of the plugins: the explorer reads `cfg?.locale`, the
-backlinks `cfg.locale`; not a single component looks at the language of the page it is rendering.
+site-wide. Looked up in the built code of the [[en/7-reference/01-glossary#Plugin|plugins]]: the [[en/7-reference/01-glossary#Explorer|explorer]] reads `cfg?.locale`, the
+[[en/7-reference/01-glossary#Backlinks|backlinks]] `cfg.locale`; not a single component looks at the language of the page it is rendering.
 
-Affected are: "Explorer", "Backlinks", "Graph View", "Table of Contents", "Recent Notes", the empty
+Affected are: "Explorer", "Backlinks", "[[en/7-reference/01-glossary#Graph|Graph]] View", "Table of Contents", "Recent Notes", the empty
 state of the backlinks, the labels of the search.
 
 **Dates are the exception.** `localizeDates: true` re-formats every `<time>` element in the browser
@@ -48,10 +48,10 @@ the German error page.
 ## The explorer had to be separated by hand
 
 The plugin brings a filter for the explorer with it (`languageExplorerFilter`), but the explorer
-takes functions **only from `quartz.ts`** — YAML cannot carry a function. This project builds its
+takes functions **only from `quartz.ts`** — [[en/7-reference/01-glossary#YAML|YAML]] cannot carry a function. This project builds its
 layout from `quartz.config.yaml`, so that route is closed.
 
-It is solved in the stylesheet. The explorer writes a `data-folderpath` with the full path onto
+It is solved in the [[en/7-reference/01-glossary#Stylesheet|stylesheet]]. The explorer writes a `data-folderpath` with the full path onto
 every folder row and an absolute `href` onto every file — both are enough to hide the branch of the
 other language:
 
@@ -65,15 +65,15 @@ called "en".
 
 ## Pages without frontmatter cannot be linked
 
-A `.base` or `.canvas` file is not Markdown and has no header lines. It can therefore carry neither
-a `translationKey` nor an alias. Two such pages would only be linked by their path — and that
+A `.base` or `.canvas` file is not [[en/7-reference/01-glossary#Markdown|Markdown]] and has no header lines. It can therefore carry neither
+a `translationKey` nor an [[en/7-reference/01-glossary#Alias|alias]]. Two such pages would only be linked by their path — and that
 differs per language here. On these pages the switcher therefore offers the home page of the other
 language.
 
 For the same reason they carry no `lang` and therefore count as German — `<html lang="de">`, and
-the layout boxes show their German base setting even though the page sits under `en/`. Measured on
-four pages: three bases and one canvas. Changing that would mean changing where the language comes
-from: `.base` and `.canvas` are JSON and YAML, not Markdown, and have no place for a frontmatter
+the [[en/7-reference/01-glossary#Layout box|layout boxes]] show their German [[en/7-reference/01-glossary#Base|base]] setting even though the page sits under `en/`. Measured on
+four pages: three bases and one [[en/7-reference/01-glossary#Canvas|canvas]]. Changing that would mean changing where the language comes
+from: `.base` and `.canvas` are JSON and YAML, not Markdown, and have no place for a [[en/7-reference/01-glossary#Frontmatter|frontmatter]]
 field.
 
 ## What a second build would solve

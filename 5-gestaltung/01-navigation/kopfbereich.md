@@ -27,12 +27,12 @@ Zwei Feinheiten:
   nur ein SVG und hätte keinen zugänglichen Namen. `display: none` wäre hier falsch gewesen — genau
   dieser Fehler steckte in der ersten Fassung.
 - Die vier Bedienelemente stehen **im Kopf, nicht in der Leiste**. Dort sucht man sie, und es ist
-  der einzige Bereich, den jeder Frame hat — auf der Fehlerseite gab es vorher weder Suche noch
+  der einzige Bereich, den jeder [[7-nachschlagen/01-glossar#Frame|Frame]] hat — auf der Fehlerseite gab es vorher weder Suche noch
   Farbschema-Umschalter, weil sie keine Seitenleisten hat.
 - Sie bilden eine **Gruppe** (`toolbar`) mit `wrap`, damit vier Bedienelemente und der Seitenname
   auch auf einem 360 px breiten Telefon nebeneinander passen.
 - Am Telefon wird der Kopf zur **App-Leiste**: Er bleibt beim Scrollen oben stehen, läuft über die
-  volle Breite und nimmt den Schubladen-Knopf des Explorers mit auf. Die Suche gibt dort ihr Wort
+  volle Breite und nimmt den Schubladen-Knopf des [[7-nachschlagen/01-glossar#Explorer|Explorers]] mit auf. Die Suche gibt dort ihr Wort
   auf und wird ein Quadrat wie die beiden anderen; ihre 44 px behält sie.
 
 ## Er bleibt stehen und wird kleiner
@@ -66,14 +66,14 @@ Zwei Dinge hängen daran und stehen deshalb in derselben Rechnung:
 
 ## Ein Fund beim Bauen
 
-Das Plugin setzt `width: 100%` auf jede Layout-Box. In einer Flex-Zeile machte das die Marke
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] setzt `width: 100%` auf jede [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]]. In einer Flex-Zeile machte das die Marke
 1376 px breit und schob den Titel in die nächste Zeile. `flex` hebt eine gesetzte Breite nicht auf —
 sie musste ausdrücklich zurückgenommen werden.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 15 Variablen liest `nav-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 15 Variablen liest `nav-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -81,7 +81,7 @@ Diese 15 Variablen liest `nav-header.scss`. Ändern lassen sie sich in der App u
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
 | `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
 | `--titleFont` | `"Instrument Sans", ui-sans-serif, system-…` | nur hier |
-| `--tpl-header-pad` | im Stylesheet gesetzt (`base.scss`) | 6.4 Variablen |
+| `--tpl-header-pad` | im [[7-nachschlagen/01-glossar#Stylesheet\|Stylesheet]] gesetzt (`base.scss`) | 6.4 Variablen |
 | `--tpl-header-title` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--tpl-page-fade` | `24px` | nur hier |
 | `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |

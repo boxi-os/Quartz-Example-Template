@@ -8,7 +8,7 @@ translationKey: formatierung/tabellen/index
 cover: "[[assets/covers/cover-tabellen.svg]]"
 ---
 
-Markdown's most awkward element — and the question of what happens when a table is wider than the
+[[en/7-reference/01-glossary#Markdown|Markdown]]'s most awkward element — and the question of what happens when a table is wider than the
 column.
 
 ## The pages

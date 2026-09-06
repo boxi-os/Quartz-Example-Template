@@ -15,7 +15,7 @@ you are in the right place. If you know Quartz, skim it and carry on at
 
 1. [[en/1-getting-started/01-what-this-template-is|1.1 What this template is]] — the idea behind
    it and the three decisions everything follows from.
-2. [[en/1-getting-started/02-the-tools|1.2 The tools]] — Obsidian, Quartz, QuartzControl and git:
+2. [[en/1-getting-started/02-the-tools|1.2 The tools]] — Obsidian, Quartz, QuartzControl and [[en/7-reference/01-glossary#git|git]]:
    what each of them does and how they fit together.
 3. [[en/1-getting-started/03-from-note-to-website|1.3 From note to website]] — the way a change
    travels from typing to the published page.
@@ -36,7 +36,7 @@ Whoever compares their own site with this one finds the difference named there.
 from the built site. That is why the handbook contains so many numbers: they can be checked.
 
 **Boxes with a meaning.** A box of the type *warning* names something that is easy to get wrong.
-One of the type *bug* names a fault in Quartz or a plugin that the template cannot fix, only work
+One of the type *bug* names a fault in Quartz or a [[en/7-reference/01-glossary#Plugin|plugin]] that the template cannot fix, only work
 around. *note* is an aside, *tip* a handy move. What the boxes look like is shown in
 [[en/2-formatting/05-callouts/all-types|All callout types]].
 

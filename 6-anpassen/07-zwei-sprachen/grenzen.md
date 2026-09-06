@@ -8,17 +8,17 @@ tags:
 translationKey: anpassen/zwei-sprachen/grenzen
 ---
 
-Diese Website ist **ein** Build mit `locale: de-DE`. Der Inhalt ist zweisprachig, die Oberfläche
+Diese Website ist **ein** [[7-nachschlagen/01-glossar#Build|Build]] mit `locale: de-DE`. Der Inhalt ist zweisprachig, die Oberfläche
 nicht. Was das konkret heißt:
 
 ## Die Oberfläche von Quartz bleibt deutsch
 
 Jede sichtbare Beschriftung, die nicht aus einer Notiz kommt, holt ihre Sprache aus
-`configuration.locale` — und zwar site-weit. Nachgesehen im gebauten Code der Plugins: Der Explorer
-liest `cfg?.locale`, die Rückverweise `cfg.locale`; keine einzige Komponente sieht die Sprache der
+`configuration.locale` — und zwar site-weit. Nachgesehen im gebauten Code der [[7-nachschlagen/01-glossar#Plugin|Plugins]]: Der [[7-nachschlagen/01-glossar#Explorer|Explorer]]
+liest `cfg?.locale`, die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] `cfg.locale`; keine einzige Komponente sieht die Sprache der
 Seite an, die sie gerade rendert.
 
-Betroffen sind: „Explorer", „Backlinks", „Graph View", „Table of Contents", „Recent Notes", der
+Betroffen sind: „Explorer", „Backlinks", „[[7-nachschlagen/01-glossar#Graph|Graph]] View", „Table of Contents", „Recent Notes", der
 Leerzustand der Rückverweise, die Beschriftungen der Suche.
 
 **Ausnahme Daten.** `localizeDates: true` formatiert jedes `<time>`-Element im Browser nach der
@@ -49,10 +49,10 @@ vertippt, landet auf der deutschen Fehlerseite.
 ## Der Explorer musste von Hand getrennt werden
 
 Das Plugin bringt einen Filter für den Explorer mit (`languageExplorerFilter`), aber der Explorer
-nimmt Funktionen **nur aus `quartz.ts`** entgegen — YAML kann keine Funktion transportieren. Dieses
+nimmt Funktionen **nur aus `quartz.ts`** entgegen — [[7-nachschlagen/01-glossar#YAML|YAML]] kann keine Funktion transportieren. Dieses
 Projekt baut sein Layout aus `quartz.config.yaml`, der Weg ist damit zu.
 
-Gelöst ist es im Stylesheet. Der Explorer schreibt an jede Ordnerzeile ein `data-folderpath` mit dem
+Gelöst ist es im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]]. Der Explorer schreibt an jede Ordnerzeile ein `data-folderpath` mit dem
 vollen Pfad und an jede Datei ein absolutes `href` — beides reicht, um den fremdsprachigen Ast
 auszublenden:
 
@@ -66,14 +66,14 @@ Ordner namens „en".
 
 ## Seiten ohne Frontmatter lassen sich nicht verknüpfen
 
-Eine `.base`- oder `.canvas`-Datei ist kein Markdown und hat keine Kopfzeilen. Sie kann deshalb
-keinen `translationKey` tragen und keinen Alias. Verknüpft würden zwei solche Seiten nur über den
+Eine `.base`- oder `.canvas`-Datei ist kein [[7-nachschlagen/01-glossar#Markdown|Markdown]] und hat keine Kopfzeilen. Sie kann deshalb
+keinen `translationKey` tragen und keinen [[7-nachschlagen/01-glossar#Alias|Alias]]. Verknüpft würden zwei solche Seiten nur über den
 Pfad — und der ist hier je Sprache verschieden. Der Umschalter bietet auf diesen Seiten deshalb die
 Startseite der anderen Sprache an.
 
 Aus demselben Grund tragen sie kein `lang` und gelten damit als deutsch — `<html lang="de">`, und
-die Layout-Boxen zeigen ihre deutsche Grundeinstellung, obwohl die Seite unter `en/` liegt.
-Gemessen an vier Seiten: drei Bases und einer Canvas. Wer das ändern will, muss es dort ändern, wo
+die [[7-nachschlagen/01-glossar#Layout-Box|Layout-Boxen]] zeigen ihre deutsche Grundeinstellung, obwohl die Seite unter `en/` liegt.
+Gemessen an vier Seiten: drei [[7-nachschlagen/01-glossar#Base|Bases]] und einer [[7-nachschlagen/01-glossar#Canvas|Canvas]]. Wer das ändern will, muss es dort ändern, wo
 die Sprache herkommt: `.base` und `.canvas` sind JSON und YAML, nicht Markdown, und haben keinen
 Platz für ein Frontmatter-Feld.
 

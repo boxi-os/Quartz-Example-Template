@@ -7,8 +7,8 @@ tags:
 translationKey: obsidian-formate/index
 ---
 
-Not everything in a vault is a note. Obsidian knows three further file types, and Quartz can turn
-all three into pages — each through a plugin of its own.
+Not everything in a [[en/7-reference/01-glossary#Vault|vault]] is a note. Obsidian knows three further file types, and Quartz can turn
+all three into pages — each through a [[en/7-reference/01-glossary#Plugin|plugin]] of its own.
 
 | Type | Extension | What it is | Quartz plugin |
 | --- | --- | --- | --- |
@@ -19,14 +19,14 @@ all three into pages — each through a plugin of its own.
 ## What they have in common
 
 All three become **page types of their own**. That means: they get a row of their own in the
-layout editor of the app and can use a page grid of their own — a canvas needs the full width, a
-bases table does not.
+layout editor of the app and can use a page grid of their own — a [[en/7-reference/01-glossary#Canvas|canvas]] needs the full width, a
+[[en/7-reference/01-glossary#Base|bases]] table does not.
 
 All three are also **files, not texts**. They are edited in Obsidian, not in the editor of the app.
 The vault is therefore the right place for them.
 
 ## What sets them apart
 
-Bases and Canvas are **core features** of Obsidian — they need no plugin in the vault. Excalidraw
+Bases and Canvas are **core features** of Obsidian — they need no plugin in the vault. [[en/7-reference/01-glossary#Excalidraw|Excalidraw]]
 is a community plugin; without it a drawing cannot be opened in Obsidian. On the built site that
 makes no difference: there the Quartz plugin renders.

@@ -19,7 +19,7 @@ cover: "[[assets/covers/cover-links.svg]]"
 
 ## Kurzform
 
-Solange der Dateiname im Vault eindeutig ist, reicht er allein:
+Solange der Dateiname im [[7-nachschlagen/01-glossar#Vault|Vault]] eindeutig ist, reicht er allein:
 
 ```md
 [[ueberschriften]]
@@ -27,7 +27,7 @@ Solange der Dateiname im Vault eindeutig ist, reicht er allein:
 
 [[ueberschriften]]
 
-Das Plugin *Crawl links* löst den Pfad beim Bauen auf. Diese Vorlage steht auf
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Crawl links* löst den Pfad beim Bauen auf. Diese Vorlage steht auf
 `markdownLinkResolution: shortest` — die kürzeste eindeutige Schreibweise gewinnt.
 
 > [!note] Zwei Sprachen, zwei Dateinamen

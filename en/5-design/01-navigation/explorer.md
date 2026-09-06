@@ -34,7 +34,7 @@ structure.
   unfolded folder looked exactly like one somebody had unfolded by hand ten minutes earlier — the
   trail from the root to the current page was invisible.
 - **Every disclosure arrow is the same Lucide chevron.** Before, the head of the tree, every
-  folder, the table of contents and the collapsible layout box drew four different ones.
+  folder, the table of contents and the collapsible [[en/7-reference/01-glossary#Layout box|layout box]] drew four different ones.
 - **Long names** are truncated rather than wrapped; three lines for a file name tear the tree
   apart.
 - **A long tree scrolls inside itself** (60 % of the window height) rather than pushing the footer
@@ -46,18 +46,18 @@ structure.
   drawer travels in from the left over a darkened page, and the page itself does not scroll along
   meanwhile.
 
-The best place to see this is under
-[[en/7-reference/02-abbreviations|List]] — four folders deep.
+It is best seen under [[en/2-formatting/05-callouts/basics|Callouts — the basic form]] — three
+folders deep, and a fully unfolded branch in the explorer.
 
 ## Two languages, one tree
 
-The explorer knows nothing about languages: it builds its tree from every page of the build, so
+The explorer knows nothing about languages: it [[en/7-reference/01-glossary#Build|builds]] its tree from every page of the build, so
 without help it would show the German and the English tree at once. The template solves that in
-CSS. On a German page the `en` folder is hidden; on an English page everything except it is hidden,
+[[en/7-reference/01-glossary#CSS and SCSS|CSS]]. On a German page the `en` folder is hidden; on an English page everything except it is hidden,
 and the folder's own row is taken out so that the English tree stands at the top level rather than
 one indent in.
 
-The plugin's own answer — a `filterFn` for the explorer — cannot be reached from here: it is taken
+The [[en/7-reference/01-glossary#Plugin|plugin]]'s own answer — a `filterFn` for the explorer — cannot be reached from here: it is taken
 only from `quartz.ts`, and this project builds its layout from `quartz.config.yaml`. See
 [[en/6-adapting/07-two-languages/limits|Where the two languages stop]].
 
@@ -97,7 +97,7 @@ head standing.
 > `localStorage` and assumes *folded* for everything that is not in there. Open, therefore, are
 > only the folders on the way to the current page.
 >
-> A stylesheet cannot cure that: "open" and "never touched" carry the same class, and CSS cannot
+> A [[en/7-reference/01-glossary#Stylesheet|stylesheet]] cannot cure that: "open" and "never touched" carry the same class, and CSS cannot
 > tell the two apart.
 
 The explorer **itself** — the whole component — is unfolded and stays that way; only on a phone
@@ -129,7 +129,7 @@ These 32 variables are read by `nav-explorer.scss`. They can be changed in the a
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-accent-bar` | `3px` | 5 other components |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | only here |
-| `--tpl-icon` | `1.1rem` | Colour scheme switch, Reader mode |
+| `--tpl-icon` | `1.1rem` | [[en/7-reference/01-glossary#Colour scheme\|Colour scheme]] switch, Reader mode |
 | `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The language switcher |
 | `--tpl-indent` | `0.85rem` | Table of contents |
 | `--tpl-motion` | `150ms ease` | 12 other components |

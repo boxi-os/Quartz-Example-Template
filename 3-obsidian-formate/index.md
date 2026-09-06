@@ -7,8 +7,8 @@ tags:
 translationKey: obsidian-formate/index
 ---
 
-Nicht alles in einem Vault ist eine Notiz. Obsidian kennt drei weitere Dateitypen, und Quartz kann
-alle drei zu Seiten machen — jeder über ein eigenes Plugin.
+Nicht alles in einem [[7-nachschlagen/01-glossar#Vault|Vault]] ist eine Notiz. Obsidian kennt drei weitere Dateitypen, und Quartz kann
+alle drei zu Seiten machen — jeder über ein eigenes [[7-nachschlagen/01-glossar#Plugin|Plugin]].
 
 | Typ | Endung | Was es ist | Quartz-Plugin |
 | --- | --- | --- | --- |
@@ -27,6 +27,6 @@ Editor der App. Der Vault ist deshalb der richtige Ort für sie.
 
 ## Was sie unterscheidet
 
-Bases und Canvas sind **Kernfunktionen** von Obsidian — sie brauchen kein Plugin im Vault.
-Excalidraw ist ein Community-Plugin; ohne das Plugin lässt sich eine Zeichnung in Obsidian nicht
+[[7-nachschlagen/01-glossar#Base|Bases]] und [[7-nachschlagen/01-glossar#Canvas|Canvas]] sind **Kernfunktionen** von Obsidian — sie brauchen kein Plugin im Vault.
+[[7-nachschlagen/01-glossar#Excalidraw|Excalidraw]] ist ein Community-Plugin; ohne das Plugin lässt sich eine Zeichnung in Obsidian nicht
 öffnen. Auf der gebauten Website spielt das keine Rolle: Dort rendert das Quartz-Plugin.

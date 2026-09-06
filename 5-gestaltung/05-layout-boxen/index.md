@@ -18,14 +18,14 @@ jedes Mal für etwas anderes.
 | --- | --- |
 | Inhalt aus einer Datei | `file:` |
 | Inhalt aus der Konfiguration | `html:` |
-| Markdown statt HTML | Datei auf `.md` enden lassen |
+| [[7-nachschlagen/01-glossar#Markdown\|Markdown]] statt [[7-nachschlagen/01-glossar#HTML\|HTML]] | Datei auf `.md` enden lassen |
 | Überschrift darüber | `title:` |
 | Aufklappbar | `collapsible:` und `collapsed:` |
 | Eigene CSS-Klasse | `className:` |
 | Platzhalter ersetzen | `placeholders:` |
 | Je Seite steuerbar | `frontmatterKey:` |
 | Je Sprache anders | `byLang:` |
-| Bild je Farbschema | Klassen `img-light` / `img-dark` |
+| Bild je [[7-nachschlagen/01-glossar#Farbschema\|Farbschema]] | Klassen `img-light` / `img-dark` |
 
 ## Platzhalter
 
@@ -39,7 +39,7 @@ damit funktioniert ein Link auch, wenn die Seite in einem Unterpfad liegt.
 
 ## Die Gestaltung
 
-Das Plugin liefert bewusst **farblose** Stile mit: Breite, Bildumschaltung, ein gestrichelter
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] liefert bewusst **farblose** Stile mit: Breite, Bildumschaltung, ein gestrichelter
 Platzhalter für fehlende Dateien. Das ist die richtige Entscheidung für ein Komponenten-Plugin — es
 überlässt das Aussehen der Website.
 

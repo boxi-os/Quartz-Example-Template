@@ -23,14 +23,14 @@ are the ones QuartzControl uses in the layout editor as well.
 | Part | Where | What stands in it |
 | --- | --- | --- |
 | **Header** | at the top, across all columns | the word mark, the site name, the search, the light/dark switch, reader mode, the language switcher |
-| **Left column** (left) | on the left | the explorer — the folder tree of all pages —, the box “About this handbook”, the recently changed pages |
-| **Above the content** (beforeBody) | above the text | the breadcrumbs (the path from the home page to here), the title, date and reading time, the property table, the tags |
+| **Left column** (left) | on the left | the [[en/7-reference/01-glossary#Explorer\|explorer]] — the folder tree of all pages —, the box “About this handbook”, the recently changed pages |
+| **Above the content** (beforeBody) | above the text | the [[en/7-reference/01-glossary#Breadcrumbs\|breadcrumbs]] (the path from the home page to here), the title, date and reading time, the property table, the tags |
 | **Content** (body) | centre | the note itself |
 | **After the content** (afterBody) | below the text | the box “Read on” |
-| **Right column** (right) | on the right | the table of contents, the backlinks (which pages link here), the graph |
+| **Right column** (right) | on the right | the table of contents, the [[en/7-reference/01-glossary#Backlinks\|backlinks]] (which pages link here), the [[en/7-reference/01-glossary#Graph\|graph]] |
 | **Footer** | at the bottom | the colophon line |
 
-Which part lies where is decided by the page grid, called a **frame** in Quartz — more on that in a
+Which part lies where is decided by the page grid, called a **[[en/7-reference/01-glossary#Frame|frame]]** in Quartz — more on that in a
 moment. What stands in each part is decided by the layout, in QuartzControl under *Layout*. What
 each part looks like and why is chapter [[en/5-design/index|5 The design]].
 
@@ -95,7 +95,7 @@ A paragraph with **emphasis**, *italics*, `code` and an [[en/7-reference/index|i
 [^long]: Footnotes collect at the end of the page, separated by a line.
 
 > [!tip] A callout in the middle
-> Callouts interrupt the flow of reading on purpose. That is why they have a colour bar on the left
+> [[en/7-reference/01-glossary#Callout|Callouts]] interrupt the flow of reading on purpose. That is why they have a colour bar on the left
 > and no full border — they should stand out without cutting the column in two.
 
 ### A list

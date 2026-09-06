@@ -44,8 +44,8 @@ Die Kurzfassung; was jedes Feld im Einzelnen tut, steht in
 
 ## Woher das Datum kommt
 
-Ohne `date` im Frontmatter nimmt Quartz das Datum aus git — und ohne git aus dem Dateisystem.
-Eingestellt wird die Reihenfolge beim Plugin *Created modified date*; diese Vorlage nutzt
+Ohne `date` im Frontmatter nimmt Quartz das Datum aus [[7-nachschlagen/01-glossar#git|git]] — und ohne git aus dem Dateisystem.
+Eingestellt wird die Reihenfolge beim [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Created modified date*; diese Vorlage nutzt
 `frontmatter → filesystem` und lässt git aus, weil es hier nichts beantworten kann — warum, steht
 unter [[5-gestaltung/02-ueber-dem-inhalt/titel-und-datum|Titel und Datum]].
 

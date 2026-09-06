@@ -16,14 +16,14 @@ an diese, damit sie zum Rest passt.
 ## Was überall gleich ist
 
 1. **Überschriften der Seitenleisten** sind klein, versal und gedämpft — sie sind Beschriftung,
-   nicht Inhalt. Dieselbe Form steht in neun Stylesheets, und das ist Absicht: Jede Seite in
+   nicht Inhalt. Dieselbe Form steht in neun [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]], und das ist Absicht: Jede Seite in
    Kapitel 5 soll ihre eigene Tabelle der Variablen vollständig zeigen.
-2. **Ein Zustand wird nie nur durch Farbe gezeigt.** Der aktive Eintrag im Explorer hat Farbe,
+2. **Ein Zustand wird nie nur durch Farbe gezeigt.** Der aktive Eintrag im [[7-nachschlagen/01-glossar#Explorer|Explorer]] hat Farbe,
    Schriftschnitt *und* einen Balken; ein erledigter Aufgabenpunkt ist gedämpft *und*
    durchgestrichen; ein externer Link ist andersfarbig *und* trägt einen Pfeil.
 3. **Ränder von Bedienelementen** ziehen ihre Farbe aus `--tpl-rule-control`, nicht aus
    `--lightgray`. Der zarte Ton reicht für eine Trennlinie, aber nicht für den Rand von etwas, das
-   man bedient — WCAG verlangt dort 3:1.
+   man bedient — [[7-nachschlagen/01-glossar#WCAG|WCAG]] verlangt dort 3:1.
 4. **Alles, was man antippt, ist mindestens 44 px groß** (`--tpl-target`). WCAG verlangt 24; 44
    ist die Größe, bei der niemand zielen muss.
 5. **Zwei Zeilenabstände, nicht einer.** 1,65 für den Fließtext, 1,45 für alles in Kleinschrift —
@@ -32,7 +32,7 @@ an diese, damit sie zum Rest passt.
 6. **Ein überfahrener Link** wird akzentfarbig und unterstrichen, mit tiefer gesetzter
    Unterstreichung. Dieselbe Geste in sieben Stylesheets, derselbe Wert aus einer Variable.
 7. **Alle Ausklapp-Pfeile sind dieselbe Chevron** aus dem Lucide-Satz — im Explorer, im
-   Inhaltsverzeichnis, in der aufklappbaren Layout-Box.
+   Inhaltsverzeichnis, in der aufklappbaren [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]].
 8. **Was über den Rand läuft, scrollt in sich selbst** und blendet dabei weich aus, statt die
    Seite länger zu machen: der Explorer, das Inhaltsverzeichnis, eine breite Tabelle, ein
    Codeblock.

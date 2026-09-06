@@ -9,9 +9,9 @@ translationKey: obsidian-formate/bases/index
 ---
 
 A base is a saved query: it collects notes by criteria and shows them in one or several views. The
-file is YAML and ends in `.base`.
+file is [[en/7-reference/01-glossary#YAML|YAML]] and ends in `.base`.
 
-Three examples in this vault, all of them over the notes of this site itself:
+Three examples in this [[en/7-reference/01-glossary#Vault|vault]], all of them over the notes of this site itself:
 
 - [[en/3-obsidian-formats/01-bases/All-Views.base|All views]] — **all five forms of presentation** of
   the same data: table, cards, list, board and gallery
@@ -37,7 +37,7 @@ All five are designed in this template — to be seen under
 
 ## In this template
 
-Bases pages use the **`index`** frame, the same one folder and tag pages use. No table of
+Bases pages use the **`index`** [[en/7-reference/01-glossary#Frame|frame]], the same one folder and tag pages use. No table of
 contents arises there, because a table has no headings; the right column still stands, so the table
 begins where the text otherwise begins — beside the content on the desktop, in a row of its own
 below that.
@@ -47,14 +47,14 @@ below that.
 > vault the feature is switched on.
 
 > [!warning] The switcher does not find these pages
-> A `.base` file has no frontmatter, so it can carry no `translationKey`. The language switcher on
+> A `.base` file has no [[en/7-reference/01-glossary#Frontmatter|frontmatter]], so it can carry no `translationKey`. The language switcher on
 > such a page therefore offers the other language's home page instead of the corresponding base.
 > See [[en/6-adapting/07-two-languages/limits|Where the two languages stop]].
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 30 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 30 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ These 30 variables are read by `page-bases.scss`. They can be changed in the app
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
 
 ## The pages

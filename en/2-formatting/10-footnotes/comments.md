@@ -37,11 +37,11 @@ lines too.
 
 <!-- This does not appear in the output either. -->
 
-Measured on the built page: **both forms are gone.** In many Markdown tools an HTML comment
+Measured on the built page: **both forms are gone.** In many [[en/7-reference/01-glossary#Markdown|Markdown]] tools an [[en/7-reference/01-glossary#HTML|HTML]] comment
 survives into the delivered HTML and is readable in the page source — not here; Quartz strips it
 just like the `%%` comment. Rely on neither: what must not appear in the output does not belong in
 the file.
 
 > [!warning] A comment is not secrecy
-> Both forms remain in the Markdown file. Anyone who can read the repository reads them. For
-> anything genuinely confidential there is `ignorePatterns` or the *Encrypted pages* plugin.
+> Both forms remain in the Markdown file. Anyone who can read the [[en/7-reference/01-glossary#Repository|repository]] reads them. For
+> anything genuinely confidential there is `ignorePatterns` or the *Encrypted pages* [[en/7-reference/01-glossary#Plugin|plugin]].

@@ -25,7 +25,7 @@ cover: "[[assets/covers/cover-links.svg]]"
 Wer die Seite liest, soll vorher wissen, dass ein Klick sie verlässt — und die Farbe allein sagt
 das nicht.
 
-Der Pfeil steht als `::after` im Stylesheet, nicht im Text. Er landet damit nicht in einer Kopie
+Der Pfeil steht als `::after` im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]], nicht im Text. Er landet damit nicht in einer Kopie
 und nicht in der Vorlesereihenfolge.
 
 ## Titel

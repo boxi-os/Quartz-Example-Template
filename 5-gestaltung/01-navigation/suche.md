@@ -22,7 +22,7 @@ Ein Knopf mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgra
   ohne Beschriftung.
 - Die **Überlagerung** trägt einen echten Schatten. Den bekommt in dieser Vorlage nur, was
   wirklich über der Seite schwebt statt in ihr zu liegen: diese Überlagerung, die Linkvorschau,
-  das Sprachmenü, die Schublade am Telefon und der große Graph. Fünf Stellen, und die Regel zählt,
+  das Sprachmenü, die Schublade am Telefon und der große [[7-nachschlagen/01-glossar#Graph|Graph]]. Fünf Stellen, und die Regel zählt,
   nicht die Zahl.
 - Das **Eingabefeld** bekommt keinen Fokusring, sondern eine kräftigere Unterkante — ein Ring
   innerhalb eines abgerundeten Kastens sieht aus wie ein Fehler.
@@ -38,7 +38,7 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 > **110 px**, bei 1728, 1440, 1100 und 900 px gleichermaßen, obwohl die Werkzeugleiste dort nur 322
 > von 1400 px belegte. Quartz legt um jede Komponente einer Gruppe einen eigenen `div` ohne Klasse
 > und schreibt dessen Flex-Werte als **Inline-Stil** aus der Konfiguration. Das Flex-Element ist
-> also der Wrapper, nicht `.search`, und ein Inline-Stil schlägt jedes Stylesheet.
+> also der Wrapper, nicht `.search`, und ein Inline-Stil schlägt jedes [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]].
 >
 > Die 15 rem stehen deshalb seit dem 05.09.2026 in `layout.groupOptions.basis` der Suche, zusammen
 > mit `shrink: false`. Das zweite gehört dazu: Ein schrumpfbares Element steuert nur seine
@@ -49,13 +49,13 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 
 > [!note] Der Index umfasst beide Sprachen
 > Es gibt einen Suchindex für die ganze Website, eine englische Seite kann also in einem deutschen
-> Suchergebnis auftauchen. Trennen ließe sich das nur mit einem Build je Sprache — siehe
+> Suchergebnis auftauchen. Trennen ließe sich das nur mit einem [[7-nachschlagen/01-glossar#Build|Build]] je Sprache — siehe
 > [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]].
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

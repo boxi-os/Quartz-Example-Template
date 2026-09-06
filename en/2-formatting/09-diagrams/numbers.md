@@ -30,8 +30,8 @@ pie title Lines per area
 ```
 
 The numbers are real, rounded to hundreds and measured on 2026-09-05: notes are both languages
-together, stylesheets the 34 files under `quartz/styles/custom/`, script the template build in the
-app repository. They grow; the diagram does not follow on its own.
+together, [[en/7-reference/01-glossary#Stylesheet|stylesheets]] the 34 files under `quartz/styles/custom/`, script the template [[en/7-reference/01-glossary#Build|build]] in the
+app [[en/7-reference/01-glossary#Repository|repository]]. They grow; the diagram does not follow on its own.
 
 ## Quadrant chart
 

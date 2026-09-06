@@ -11,7 +11,7 @@ translationKey: gestaltung/im-inhalt/fliesstext
 ## The width of the text
 
 **In this template** the page grid decides how wide the text gets — not a rule on the paragraph.
-The frame gives the content six of twelve columns, which is 684 px on a page capped at 1440 px — at
+The [[en/7-reference/01-glossary#Frame|frame]] gives the content six of twelve columns, which is 684 px on a page capped at 1440 px — at
 a font size of 1 rem, about 72 characters.
 
 **Out of the box** Quartz does the same, only with different numbers: it caps the page through
@@ -32,7 +32,7 @@ gap says what belongs to the heading.
 ## Links
 
 Colour **and** underline. The underline is semi-transparent and set low, so that it does not cut
-through the descenders; on hover it becomes opaque. External links carry an arrow.
+through the descenders; on [[en/7-reference/01-glossary#Hover|hover]] it becomes opaque. External links carry an arrow.
 
 ## Quotes
 
@@ -47,7 +47,7 @@ dark mode. Both are measured against the text colour.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 23 variables are read by `body-content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 23 variables are read by `body-content.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -75,5 +75,5 @@ These 23 variables are read by `body-content.scss`. They can be changed in the a
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

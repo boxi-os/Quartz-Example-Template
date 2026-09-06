@@ -22,11 +22,11 @@ Ziffernbreite untereinander.
 
 Unter 720 px fällt das auf eine Spalte zusammen; das Datum ist der Teil, der wandert.
 
-Am Desktop behalten Ordner- und Tag-Seiten die **rechte Spalte**, auch wenn nur Rückverweise darin
+Am Desktop behalten Ordner- und Tag-Seiten die **rechte Spalte**, auch wenn nur [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] darin
 stehen. Damit beginnt die Liste genau dort, wo auf einer Inhaltsseite der Text beginnt — der Sprung
 von einem Artikel zu seinem Ordner verschiebt die Zeile nicht mehr.
 
-Beide Seitentypen nutzen den Frame **`index`**, der geometrisch derselbe ist wie `editorial`. Ein
+Beide Seitentypen nutzen den [[7-nachschlagen/01-glossar#Frame|Frame]] **`index`**, der geometrisch derselbe ist wie `editorial`. Ein
 Inhaltsverzeichnis entsteht hier trotzdem nicht — eine Liste von Links hat keine Überschriften.
 Rückverweise und Graphansicht schon, und die stehen rechts wie überall sonst.
 
@@ -51,7 +51,7 @@ Der Titel ist der Tag-Name als reiner Text. Diese Vorlage stellt ihm ein Rautenz
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 12 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -68,5 +68,5 @@ Diese 12 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

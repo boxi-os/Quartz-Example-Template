@@ -12,8 +12,8 @@ liegen vier Schritte, und jeder hat einen Ort.
 
 ## 1 · Schreiben — in Obsidian
 
-Man öffnet den Vault in Obsidian und schreibt. Eine neue Datei ist eine neue Seite; ein Ordner ein
-Ast im Explorer; ein `[[Wikilink]]` ein Verweis, den der Graph und die Rückverweise sehen.
+Man öffnet den [[7-nachschlagen/01-glossar#Vault|Vault]] in Obsidian und schreibt. Eine neue Datei ist eine neue Seite; ein Ordner ein
+Ast im [[7-nachschlagen/01-glossar#Explorer|Explorer]]; ein `[[Wikilink]]` ein Verweis, den der [[7-nachschlagen/01-glossar#Graph|Graph]] und die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] sehen.
 Kopfzeilen zwischen zwei `---` ganz oben in der Datei — das **Frontmatter** — geben der Seite
 Titel, Beschreibung, Datum und Tags; was man damit alles steuern kann, steht in
 [[4-seiten-steuern/index|4 Eine Seite steuern]].
@@ -30,9 +30,9 @@ speichert, sieht die Seite Sekunden später im Browser.
 ## 3 · Bauen — der Build
 
 Derselbe Bereich kann die Website auch **bauen**, ohne sie zu zeigen: Quartz liest alle Notizen,
-wendet die Plugins an — Links auflösen, Inhaltsverzeichnis erzeugen, Suche indexieren, Seiten für
+wendet die [[7-nachschlagen/01-glossar#Plugin|Plugins]] an — Links auflösen, Inhaltsverzeichnis erzeugen, Suche indexieren, Seiten für
 Ordner und Tags anlegen — und schreibt fertige HTML-Dateien in den Ausgabeordner `public/`. Ein
-Entwurf (`draft: true` im Frontmatter) wird dabei ausgelassen; siehe
+Entwurf (`draft: true` im [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]) wird dabei ausgelassen; siehe
 [[4-seiten-steuern/02-entwurf-und-ungelistet|4.2 Entwurf und ungelistet]].
 
 ## 4 · Veröffentlichen
@@ -54,7 +54,7 @@ mit einem bestehenden Ordner *verknüpft* statt ihn zu *kopieren*. Beides lässt
 > [!warning] Was ein Symlink kostet
 > Zwei Dinge folgen dem Link nicht. **Snapshots** — die Sicherungen, die QuartzControl vor jedem
 > größeren Eingriff anlegt — lassen den Inhalt aus, sobald `content/` ein Link ist; der Vault muss
-> selbst gesichert sein, hier über sein eigenes git. Und das Plugin, das das Datum einer Seite aus
+> selbst gesichert sein, hier über sein eigenes [[7-nachschlagen/01-glossar#git|git]]. Und das Plugin, das das Datum einer Seite aus
 > git liest, verrechnet sich am Link und fällt auf das Dateisystem zurück — siehe
 > [[4-seiten-steuern/01-titel-beschreibung-datum|4.1 Titel, Beschreibung, Datum]].
 
@@ -62,6 +62,6 @@ mit einem bestehenden Ordner *verknüpft* statt ihn zu *kopieren*. Beides lässt
 
 Wer nicht diese Website, sondern eine eigene mit dieser Gestaltung will, geht den Weg andersherum:
 ein neues Projekt in QuartzControl anlegen, den eigenen Vault verknüpfen, dann unter *Vorlagen*
-die Vorlage importieren. Die App zeigt vorher, welche Bausteine das Paket enthält und was im
+die Vorlage importieren. Die App zeigt vorher, welche [[7-nachschlagen/01-glossar#Baustein|Bausteine]] das Paket enthält und was im
 Projekt dadurch ersetzt wird, und legt einen Snapshot an. Was mitkommt und was nicht:
 [[6-anpassen/08-das-vorlagenpaket|6.8 Das Vorlagenpaket]].

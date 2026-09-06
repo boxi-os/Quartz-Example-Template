@@ -24,7 +24,7 @@ Obsidian turns character sequences like `-->` into real arrows. The option for i
 > Measured on the built page it reads `—> and <— and <—> and ==>`. Two things go wrong there, and
 > they are independent of each other:
 >
-> 1. **`parseArrows` converts nothing.** Counter-test with *GitHub flavored markdown* switched off:
+> 1. **`parseArrows` converts nothing.** Counter-test with *GitHub flavored [[en/7-reference/01-glossary#Markdown|markdown]]* switched off:
 >    the line then reads `--> and <-- and <--> and ==>`, still the raw text. The option is set and
 >    stays without effect.
 > 2. **The dash replacement happens anyway.** *GitHub flavored markdown* turns every `--` into an
@@ -42,14 +42,14 @@ A sentence with an #inline-tag in the middle of it.
 
 A sentence with an #inline-tag in the middle of it.
 
-A tag in the body text counts just as much as one in the frontmatter: it appears on the tag page
+A tag in the body text counts just as much as one in the [[en/7-reference/01-glossary#Frontmatter|frontmatter]]: it appears on the tag page
 and in the tag list.
 
 > [!bug] The link on it is broken
 > Measured on the built page, the tag in the paragraph above points at
 > `../../.././../../tags/inline-tag` — one `../` too many, a path that leads out of the site. The
 > same tag in the list below the title links perfectly correctly. Both links are produced in the
-> same build, just in different places: `parseTags` in *Obsidian flavored markdown* miscounts the
+> same [[en/7-reference/01-glossary#Build|build]], just in different places: `parseTags` in *Obsidian flavored markdown* miscounts the
 > way back to the root for a tag in the body text. A bug in Quartz, not in this template.
 
 **In this template** a tag inside a paragraph loses its pill shape and keeps only the colour — a

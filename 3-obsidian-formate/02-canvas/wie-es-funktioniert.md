@@ -32,8 +32,8 @@ Eine `.canvas`-Datei ist JSON mit genau zwei Listen:
 
 | `type` | Inhalt | Zusätzliche Felder |
 | --- | --- | --- |
-| `text` | Markdown direkt in der Karte | `text` |
-| `file` | eine Notiz aus dem Vault | `file`, optional `subpath` |
+| `text` | [[7-nachschlagen/01-glossar#Markdown\|Markdown]] direkt in der Karte | `text` |
+| `file` | eine Notiz aus dem [[7-nachschlagen/01-glossar#Vault\|Vault]] | `file`, optional `subpath` |
 | `link` | eine Webseite als eingebettete Ansicht | `url` |
 | `group` | ein beschrifteter Rahmen um andere Karten | `label` |
 
@@ -58,7 +58,7 @@ Obsidian zieht man die Karten; die Datei wird dabei gepflegt.
 
 ## Verlinken
 
-Ein Wikilink auf eine solche Datei braucht die **Endung**:
+Ein [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] auf eine solche Datei braucht die **Endung**:
 
 ```md
 [[3-obsidian-formate/01-bases/Formatierungsseiten.base|Formatierungsseiten]]

@@ -37,14 +37,14 @@ Since then every listing rule is scoped to `.page-listing`. The lesson: **a clas
 belong to the component you first saw it in.**
 
 > [!note] Both languages in one list
-> The list is built from every page of the build, so a German page can appear in the sidebar of an
+> The list is built from every page of the [[en/7-reference/01-glossary#Build|build]], so a German page can appear in the sidebar of an
 > English one. Like the search index, that would only be separated by one build per language — see
 > [[en/6-adapting/07-two-languages/limits|Where the two languages stop]].
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `aside-recent-notes.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 13 variables are read by `aside-recent-notes.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -62,5 +62,5 @@ These 13 variables are read by `aside-recent-notes.scss`. They can be changed in
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

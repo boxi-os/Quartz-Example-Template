@@ -25,7 +25,7 @@ Wiederholung dessen, was ohnehin darüber steht.
 
 ## In dieser Vorlage
 
-**Von Haus aus** rendert das Plugin eine schlichte Tabelle in Textfarbe.
+**Von Haus aus** rendert das [[7-nachschlagen/01-glossar#Plugin|Plugin]] eine schlichte Tabelle in Textfarbe.
 
 **In dieser Vorlage** liegt sie auf einer getönten Fläche mit Rahmen, der Schlüssel steht gedämpft
 und schmal, der Wert nimmt den Rest. Die Kopfzeile ist versal und klein — sie ist Beschriftung,

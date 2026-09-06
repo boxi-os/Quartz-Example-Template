@@ -42,7 +42,7 @@ empty:
 
 ## What is displayed is decided by the configuration
 
-The *Note properties* plugin does not show everything by default, only the fields from
+The *Note properties* [[en/7-reference/01-glossary#Plugin|plugin]] does not show everything by default, only the fields from
 `includedProperties`. This template lists `description`, `tags`, `section` and the five demo fields
 of this page — in both languages, because the German version names them in German. A field a page
 does not have gets no row.

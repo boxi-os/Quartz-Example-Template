@@ -11,13 +11,13 @@ layoutBoxCta:
 translationKey: seiten-steuern/layout-boxen-je-seite
 ---
 
-A **layout box** is a box with content of its own that the plugin *quartz-layout-box* places at
+A **layout box** is a box with content of its own that the [[en/7-reference/01-glossary#Plugin|plugin]] *quartz-layout-box* places at
 one spot of the page layout — the word mark at the top, the box “About this handbook” on the
 left, the box “Read on” below the text. This template has five of them; what each does stands in
 [[en/5-design/05-layout-boxes/index|5.5 Layout boxes]]. Here it is about how a single page can
 have one of them differently.
 
-This page controls two of the five instances through its own frontmatter:
+This page controls two of the five instances through its own [[en/7-reference/01-glossary#Frontmatter|frontmatter]]:
 
 ```yaml
 ---
@@ -45,8 +45,8 @@ In the long form the key takes six fields: `hidden`, `file`, `html`, `title`, `c
 
 | Key | Place | What the box is |
 | --- | --- | --- |
-| `layoutBoxMark` | header | the word mark, one image per colour scheme |
-| `layoutBoxNote` | left column | “About this handbook”, from a Markdown file, collapsible |
+| `layoutBoxMark` | header | the word mark, one image per [[en/7-reference/01-glossary#Colour scheme\|colour scheme]] |
+| `layoutBoxNote` | left column | “About this handbook”, from a [[en/7-reference/01-glossary#Markdown\|Markdown]] file, collapsible |
 | `layoutBoxHint` | left column | a hint, on narrow screens only |
 | `layoutBoxCta` | after the content | “Read on”, with placeholders |
 | `layoutBoxColophon` | footer | the colophon line |
@@ -69,7 +69,7 @@ When both apply, the frontmatter wins. The order is:
 
 1. this page's frontmatter
 2. `byLang` for this page's language
-3. the entry's base setting
+3. the entry's [[en/7-reference/01-glossary#Base|base]] setting
 
 This page is the proof of it: in both languages its box below the text shows its own text from
 the frontmatter, but carries the heading `byLang` sets for that language.

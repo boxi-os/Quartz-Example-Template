@@ -34,7 +34,7 @@ Struktur nicht.
   färbt mit. Vorher sah ein aufgeklappter Ordner genauso aus wie einer, den jemand vor zehn Minuten
   von Hand aufgeklappt hatte — die Spur von der Wurzel zur aktuellen Seite war unsichtbar.
 - **Alle Ausklapp-Pfeile sind dieselbe Lucide-Chevron.** Vorher zeichneten der Kopf des Baums, jeder
-  Ordner, das Inhaltsverzeichnis und die aufklappbare Layout-Box vier verschiedene.
+  Ordner, das Inhaltsverzeichnis und die aufklappbare [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]] vier verschiedene.
 - **Lange Namen** werden abgeschnitten statt umgebrochen; drei Zeilen für einen Dateinamen zerreißen
   den Baum.
 - **Ein langer Baum scrollt in sich selbst** (60 % der Fensterhöhe) statt die Fußzeile
@@ -51,12 +51,12 @@ drei Ordner tief, und im Explorer ein voll aufgeklappter Ast.
 
 ## Zwei Sprachen, ein Baum
 
-Der Explorer weiß nichts von Sprachen: Er baut seinen Baum aus jeder Seite des Builds und zeigte
-ohne Zutun den deutschen und den englischen zugleich. Die Vorlage löst das im Stylesheet. Auf einer
+Der Explorer weiß nichts von Sprachen: Er baut seinen Baum aus jeder Seite des [[7-nachschlagen/01-glossar#Build|Builds]] und zeigte
+ohne Zutun den deutschen und den englischen zugleich. Die Vorlage löst das im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]]. Auf einer
 deutschen Seite ist der `en`-Ordner ausgeblendet; auf einer englischen alles außer ihm, und seine
 eigene Zeile gleich mit, damit der englische Baum ganz oben steht statt eine Ebene eingerückt.
 
-Der Weg des Plugins — ein `filterFn` für den Explorer — ist von hier aus nicht erreichbar: Er wird
+Der Weg des [[7-nachschlagen/01-glossar#Plugin|Plugins]] — ein `filterFn` für den Explorer — ist von hier aus nicht erreichbar: Er wird
 nur aus `quartz.ts` entgegengenommen, und dieses Projekt baut sein Layout aus
 `quartz.config.yaml`. Siehe [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]].
 
@@ -99,7 +99,7 @@ Inhalt und lässt den Kopf stehen.
 > deshalb nur die Ordner auf dem Weg zur aktuellen Seite.
 >
 > Mit einem Stylesheet ist das nicht zu heilen: „offen“ und „noch nie angefasst“ tragen dieselbe
-> Klasse, CSS kann die beiden nicht unterscheiden.
+> Klasse, [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]] kann die beiden nicht unterscheiden.
 
 Der Explorer **selbst** — die ganze Komponente — ist dagegen aufgeklappt und bleibt es; nur am
 Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe Navigation.

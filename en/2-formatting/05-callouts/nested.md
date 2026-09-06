@@ -18,10 +18,10 @@ cover: "[[assets/covers/cover-callouts.svg]]"
 ````
 
 > [!info] Outside
-> Text in the outer callout.
+> Text in the outer [[en/7-reference/01-glossary#Callout|callout]].
 >
 > > [!tip] Inside
-> > The inner one loses its frame but keeps the colour bar.
+> > The inner one loses its [[en/7-reference/01-glossary#Frame|frame]] but keeps the colour bar.
 
 ## Two levels deep
 

@@ -15,7 +15,7 @@ cover: "[[assets/covers/cover-tabellen.svg]]"
 | `--tpl-space-lg` | Abstand groß | Raum | 1.5rem | Zwischen Blöcken und um Figuren |
 | `--tpl-radius-md` | Radius mittel | Form | 8px | Ecken von Karten und Codeblöcken |
 | `--tpl-focus-color` | Fokusfarbe | Zustand | var(--secondary) | Farbe des Fokusrings |
-| `--tpl-indent` | Einrückung | Struktur | 0.85rem | Eine Ebene in Explorer und Inhaltsverzeichnis |
+| `--tpl-indent` | Einrückung | Struktur | 0.85rem | Eine Ebene in [[7-nachschlagen/01-glossar#Explorer\|Explorer]] und Inhaltsverzeichnis |
 | `--tpl-target` | Zielgröße | Bedienung | 44px | Mindestgröße aller Bedienelemente |
 
 Diese Tabelle ist breiter als die Textspalte. Sie **scrollt in sich selbst** — die Seite bleibt

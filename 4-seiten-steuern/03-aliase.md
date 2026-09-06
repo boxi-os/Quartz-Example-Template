@@ -11,7 +11,7 @@ translationKey: seiten-steuern/aliase
 ---
 
 Ein **Alias** ist ein zweiter Name für eine Seite. In Obsidian findet die Schnellsuche eine Notiz
-auch unter ihrem Alias, und ein `[[Alias]]` zeigt auf sie. Auf der Website baut das Plugin
+auch unter ihrem Alias, und ein `[[Alias]]` zeigt auf sie. Auf der Website baut das [[7-nachschlagen/01-glossar#Plugin|Plugin]]
 *Alias redirects* für jeden Alias eine kleine Weiterleitungsseite: Wer die alte Adresse aufruft,
 landet auf der neuen.
 
@@ -31,7 +31,7 @@ unter `/4-seiten-steuern/anderer-pfad`. Ein Alias darf ein Wort sein oder ein ga
 **Eine Seite wurde umbenannt oder verschoben.** Der alte Pfad als Alias hält alte Links am Leben —
 Lesezeichen, Verweise von anderen Websites, Suchmaschinen-Treffer.
 
-**Ein Begriff hat zwei Namen.** „Backlinks“ und „Rückverweise“ meinen dasselbe; ein Alias lässt
+**Ein Begriff hat zwei Namen.** „Backlinks“ und „[[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]]“ meinen dasselbe; ein Alias lässt
 beide finden.
 
 **Eine Übersetzung verbinden.** Ein Alias, der dem Titel der Seite in der anderen Sprache

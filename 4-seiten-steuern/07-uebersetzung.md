@@ -10,7 +10,7 @@ translationKey: seiten-steuern/uebersetzung
 
 Diese Website gibt es auf Deutsch und Englisch. Damit der Umschalter oben rechts von einer Seite zu
 ihrer Übersetzung findet, müssen beide sagen, dass sie zusammengehören. Das geschieht im
-Frontmatter — auf drei Wegen, von denen man meist nur den ersten braucht.
+[[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]] — auf drei Wegen, von denen man meist nur den ersten braucht.
 
 ## `translationKey` — der Normalfall
 
@@ -27,7 +27,7 @@ und man der Zeile ansieht, worauf sie zeigt. So sind alle regulären Seiten hier
 
 ## `aliases` — der Weg über den Titel
 
-Ein Alias, der dem Titel oder Dateinamen der Seite in der anderen Sprache entspricht, verbindet die
+Ein [[7-nachschlagen/01-glossar#Alias|Alias]], der dem Titel oder Dateinamen der Seite in der anderen Sprache entspricht, verbindet die
 beiden ebenfalls. Das Obsidian-Plugin *Multilingual* schreibt solche Aliase automatisch. Drei
 Seiten dieser Website hängen absichtlich nur daran, um den Weg vorzuführen.
 
@@ -38,7 +38,7 @@ auf die beiden Startseiten zu: `index.md` und `en/index.md`.
 
 ## `lang` — die Sprache einer Seite
 
-Die Sprache erkennt das Plugin am Ordner: Was unter `en/` liegt, ist englisch; alles andere fällt
+Die Sprache erkennt das [[7-nachschlagen/01-glossar#Plugin|Plugin]] am Ordner: Was unter `en/` liegt, ist englisch; alles andere fällt
 in die Standardsprache Deutsch. Ein Feld `lang` braucht man nur, wenn eine Seite anders liegt, als
 sie spricht.
 

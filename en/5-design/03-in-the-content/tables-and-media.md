@@ -10,7 +10,7 @@ translationKey: gestaltung/im-inhalt/tabellen-und-medien
 
 ## Tables
 
-**Out of the box** Quartz frames the table and sets the padding directly on the element.
+**Out of the box** Quartz [[en/7-reference/01-glossary#Frame|frames]] the table and sets the padding directly on the element.
 
 **In this template** there are no vertical lines and no outer frame: a hairline under each row, a
 heavier one under the header, and the last row loses its line. The header is set in the heading
@@ -41,7 +41,7 @@ the box** an embed is not visually separated from the surrounding text.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by `body-media.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by `body-media.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -58,5 +58,5 @@ These 12 variables are read by `body-media.scss`. They can be changed in the app
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

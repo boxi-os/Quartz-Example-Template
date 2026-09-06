@@ -20,7 +20,7 @@ Inter otherwise looks too big.
 The surface comes from the template, not from the syntax theme: `keepBackground: false` makes shiki
 set only the character colours. Only that way does the block fit in both colour schemes.
 
-Since 2026-09-05 it is **lighter than the rest of the tint** and has a token of its own
+Since 2026-09-05 it is **lighter than the rest of the tint** and has a [[en/7-reference/01-glossary#Token|token]] of its own
 (`--tpl-surface-code`, `#F1EFE9` in light mode, still `lightgray` in dark). A block is a large
 area, and the tint that is right for one word of inline code turns twenty lines into a grey slab.
 Measured, what it buys:
@@ -39,19 +39,19 @@ used to be.
 ## Five colours of the syntax theme are corrected
 
 The lighter ground was not enough. So the count was made over the **whole built site**: every
-`--shiki-light` and `--shiki-dark` value on all 333 pages, with its frequency and its contrast
+`--shiki-light` and `--shiki-dark` value on all 333 pages, with its frequency and its [[en/7-reference/01-glossary#Contrast|contrast]]
 against the code surface. Five pairs failed:
 
 | Colour | what for | before | now |
 | --- | --- | --- | --- |
 | `#22863A` light | strings, tags (206×) | 4.02 : 1 | `#1F7A35` — 4.69 : 1 |
 | `#D73A49` light | keywords (112×) | 3.98 : 1 | `#CA2938` — 4.70 : 1 |
-| `#E36209` light | constants, CSS variables (82×) | 3.04 : 1 | `#B04C07` — 4.70 : 1 |
+| `#E36209` light | constants, [[en/7-reference/01-glossary#CSS and SCSS\|CSS]] variables (82×) | 3.04 : 1 | `#B04C07` — 4.70 : 1 |
 | `#6A737D` light | comments (4×) | 4.19 : 1 | `#636B74` — 4.70 : 1 |
 | `#6A737D` dark | comments (4×) | 2.74 : 1 | `#949CA4` — 4.74 : 1 |
 
 Every correction keeps the hue and the saturation and changes only the lightness — `github-light`
-still reads as `github-light`. It is the same thing this template does with Quartz's callout
+still reads as `github-light`. It is the same thing this template does with Quartz's [[en/7-reference/01-glossary#Callout|callout]]
 colours.
 
 They have been checked on every run since: `--check-contrast` reads the five values out of
@@ -70,12 +70,12 @@ Long lines do not wrap, they scroll inside the block.
 
 ## The language label
 
-At the top left stands the language — as an `::after` in the stylesheet, not as an element. So it
+At the top left stands the language — as an `::after` in the [[en/7-reference/01-glossary#Stylesheet|stylesheet]], not as an element. So it
 does not end up in a copy, nor in the reading order.
 
 ## The copy button
 
-**Out of the box** it appears only on hover with a pointer — on a phone it is therefore
+**Out of the box** it appears only on [[en/7-reference/01-glossary#Hover|hover]] with a pointer — on a phone it is therefore
 unreachable.
 
 **In this template** it appears on hover, **on focus** and **permanently on devices without a
@@ -87,7 +87,7 @@ And it is **the icon alone**: no border, no surface. Its state is the colour of 
 `gray` to `dark`.
 
 > [!bug] The exception to the layering rule
-> "Everything in `custom.scss` is unlayered and therefore beats the plugin styles" — true for
+> "Everything in `custom.scss` is unlayered and therefore beats the [[en/7-reference/01-glossary#Plugin|plugin]] styles" — true for
 > component CSS, not for **resource stylesheets**. Quartz ships this button's styling in
 > `static/resource-style-….css`, unlayered and linked *after* `index.css`. At equal specificity the
 > later rule wins:
@@ -133,7 +133,7 @@ These 22 variables are read by `body-code.scss`. They can be changed in the app 
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-caps` | `0.06em` | 6.4 Variables, 3.1 Bases |
+| `--tpl-tracking-caps` | `0.06em` | 6.4 Variables, 3.1 [[en/7-reference/01-glossary#Base\|Bases]] |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

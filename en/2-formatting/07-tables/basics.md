@@ -26,7 +26,7 @@ enough.
 
 ## In this template
 
-**Out of the box** Quartz frames the table and sets the padding on the element itself.
+**Out of the box** Quartz [[en/7-reference/01-glossary#Frame|frames]] the table and sets the padding on the element itself.
 
 **In this template** there are no vertical lines and no outer frame: only a hairline under each row
 and a heavier one under the header. The header is set in the heading typeface and does not wrap.

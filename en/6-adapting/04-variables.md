@@ -7,18 +7,18 @@ tags:
 translationKey: anpassen/variablen
 ---
 
-**Neither this template's colours nor its measures live in the stylesheets; both come from 50
+**Neither this template's colours nor its measures live in the [[en/7-reference/01-glossary#Stylesheet|stylesheets]]; both come from 53
 variables.** That is not cosmetics: after the import they stay editable in the app under *Styles →
-Variables*, a value in SCSS does not.
+Variables*, a value in [[en/7-reference/01-glossary#CSS and SCSS|SCSS]] does not.
 
 ## The six with the widest reach
 
 | Token | Value | What changes |
 | --- | --- | --- |
-| `--tpl-space-md` | 1rem | base gap; the whole scale hangs on it |
+| `--tpl-space-md` | 1rem | [[en/7-reference/01-glossary#Base\|base]] gap; the whole scale hangs on it |
 | `--tpl-target` | 44px | minimum size of **every** control |
-| `--tpl-indent` | 0.85rem | one level in the explorer *and* the table of contents |
-| `--tpl-radius-md` | 8px | corners of cards, code blocks, callouts |
+| `--tpl-indent` | 0.85rem | one level in the [[en/7-reference/01-glossary#Explorer\|explorer]] *and* the table of contents |
+| `--tpl-radius-md` | 8px | corners of cards, code blocks, [[en/7-reference/01-glossary#Callout\|callouts]] |
 | `--tpl-accent-bar` | 3px | every accent bar |
 | `--tpl-motion` | 150ms | every transition duration |
 
@@ -49,7 +49,7 @@ for the same reason — a variable *cannot* stand in that place.
 | --- | --- | --- |
 | `body-callouts` | 24 colours | Thirteen callout hues in two modes, less the quote callout, which reads the accent colour. They mean **status**, not palette: a `warning` that follows the accent colour is no longer a `warning`. |
 | `body-code` | 10 colours | The five syntax corrections — the replaced and the replacing value each. |
-| `body-mermaid` | 2 reds | Mermaid's error state, which it colours itself. |
+| `body-mermaid` | 2 reds | [[en/7-reference/01-glossary#Mermaid\|Mermaid]]'s error state, which it colours itself. |
 | `a11y` | 2 greys | Inside `@media print`. On paper neither the light nor the dark palette applies. |
 | `nav-explorer` | 1 black | The scrim behind the drawer on a phone — not a colour, a dimming. |
 | everywhere | 20× `1px`/`2px` | Hairlines and focus rings. A line is one pixel wide, not one step of a grid. |
@@ -69,7 +69,7 @@ That could be pulled into one shared file, and here that would be the wrong move
 are cut by component, and the documentation hangs off that: every page in this section carries the
 table of the variables *its* component reads. Move the panel heading into `base.scss` and it
 disappears from nine of those tables and turns up in one that nobody reads while adjusting the
-backlinks.
+[[en/7-reference/01-glossary#Backlinks|backlinks]].
 
 What has to be shared are the **values** — and they are: `--tpl-tracking-label` and
 `--tpl-underline-offset` stand once each and hold everywhere. The shape beside them is six lines,
@@ -77,7 +77,7 @@ readable where they take effect.
 
 > [!note] A shared file would not be straightforward here anyway
 > Sass solves this with partials (`_shared.scss`). The app does not allow a filename with a leading
-> underscore, and a file without one would sit in the list under *Styles → Custom CSS* as a
+> underscore, and a file without one would sit in the list under *Styles → Custom [[en/7-reference/01-glossary#CSS and SCSS|CSS]]* as a
 > stylesheet that emits nothing.
 
 ## What Quartz does instead

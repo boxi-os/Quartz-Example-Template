@@ -28,6 +28,9 @@ draft: false
 
 ## What Quartz evaluates
 
+The short version; what every field does in detail stands in
+[[en/4-controlling-a-page/index|4 Controlling a page]].
+
 | Field | Effect |
 | ---- | ------- |
 | `title` | page title, browser title, label in listings and search |
@@ -41,11 +44,11 @@ draft: false
 
 ## Where the date comes from
 
-Without a `date` in the frontmatter Quartz takes the date from git — and without git from the file
-system. The order is set on the *Created modified date* plugin; this template uses
+Without a `date` in the frontmatter Quartz takes the date from [[en/7-reference/01-glossary#git|git]] — and without git from the file
+system. The order is set on the *Created modified date* [[en/7-reference/01-glossary#Plugin|plugin]]; this template uses
 `frontmatter → filesystem`, leaving git out because it cannot answer here — why, is under
 [[en/5-design/02-above-the-content/title-and-date|Title and date]].
 
 > [!tip] Fields of your own are allowed
 > A field Quartz does not know does no harm. This template uses `section`, for instance — for the
-> display in the properties and for a placeholder in the layout box.
+> display in the property table, see [[en/4-controlling-a-page/04-custom-fields|4.4 Custom fields]].

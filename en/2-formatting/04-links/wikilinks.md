@@ -19,7 +19,7 @@ cover: "[[assets/covers/cover-links.svg]]"
 
 ## Short form
 
-As long as the file name is unique within the vault, it is enough on its own:
+As long as the file name is unique within the [[en/7-reference/01-glossary#Vault|vault]], it is enough on its own:
 
 ```md
 [[headings]]
@@ -27,7 +27,7 @@ As long as the file name is unique within the vault, it is enough on its own:
 
 [[headings]]
 
-The *Crawl links* plugin resolves the path at build time. This template runs on
+The *Crawl links* [[en/7-reference/01-glossary#Plugin|plugin]] resolves the path at [[en/7-reference/01-glossary#Build|build]] time. This template runs on
 `markdownLinkResolution: shortest` — the shortest unambiguous notation wins.
 
 > [!note] Two languages, two file names

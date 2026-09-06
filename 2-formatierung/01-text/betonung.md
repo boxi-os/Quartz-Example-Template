@@ -27,9 +27,9 @@ cover: "[[assets/covers/cover-text.svg]]"
 
 ## Wer was liefert
 
-Zwei der fünf kommen nicht aus Markdown selbst:
+Zwei der fünf kommen nicht aus [[7-nachschlagen/01-glossar#Markdown|Markdown]] selbst:
 
-| Auszeichnung | Kommt von | Ohne das Plugin |
+| Auszeichnung | Kommt von | Ohne das [[7-nachschlagen/01-glossar#Plugin\|Plugin]] |
 | --- | --- | --- |
 | `~~durchgestrichen~~` | GitHub Flavored Markdown | bleibt als Rohtext stehen |
 | `==hervorgehoben==` | Obsidian Flavored Markdown | bleibt als Rohtext stehen |
@@ -50,7 +50,7 @@ Der Unterstrich mitten im Wort wird bewusst *nicht* als Kursivsetzung gelesen �
 
 ## Hoch- und tiefgestellt
 
-Markdown kennt beides nicht; Quartz lässt HTML durch:
+Markdown kennt beides nicht; Quartz lässt [[7-nachschlagen/01-glossar#HTML|HTML]] durch:
 
 ```md
 H<sub>2</sub>O und E = mc<sup>2</sup>

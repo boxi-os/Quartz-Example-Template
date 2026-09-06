@@ -25,7 +25,7 @@ cover: "[[assets/covers/cover-links.svg]]"
 reading the page should know beforehand that a click leaves it — and the colour alone does not say
 so.
 
-The arrow sits in the stylesheet as an `::after`, not in the text. So it does not end up in a copy,
+The arrow sits in the [[en/7-reference/01-glossary#Stylesheet|stylesheet]] as an `::after`, not in the text. So it does not end up in a copy,
 nor in the reading order of a screen reader.
 
 ## Title
@@ -36,5 +36,5 @@ nor in the reading order of a screen reader.
 
 [Quartz](https://quartz.jzhao.xyz/ "The documentation")
 
-The text in quotation marks appears as a tooltip on hover. Do not rely on it: on a phone there is
+The text in quotation marks appears as a tooltip on [[en/7-reference/01-glossary#Hover|hover]]. Do not rely on it: on a phone there is
 none.

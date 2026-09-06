@@ -8,7 +8,7 @@ tags:
 translationKey: gestaltung/navigation/fusszeile
 ---
 
-Ganz unten auf jeder Seite stehen zwei Dinge, die aus zwei verschiedenen Plugins kommen und wie
+Ganz unten auf jeder Seite stehen zwei Dinge, die aus zwei verschiedenen [[7-nachschlagen/01-glossar#Plugin|Plugins]] kommen und wie
 eines aussehen sollen.
 
 ## Von Haus aus
@@ -38,7 +38,7 @@ Footer-Plugin, sondern ist eine der fünf Instanzen des Layout-Box-Plugins, gese
 `{{locale}}` und `{{slug}}`; siehe [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]].
 
 Dass beide zusammen wie ein Block wirken, ist der Grund für die getrennte Behandlung: Das
-Footer-Plugin bringt seinen eigenen Abstand mit, die Layout-Box ihren — und ohne Zutun stünden
+Footer-Plugin bringt seinen eigenen Abstand mit, die [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]] ihren — und ohne Zutun stünden
 zwischen den zwei Zeilen zwei verschiedene Lücken.
 
 > [!note] Kommentare wären der dritte Teil
@@ -51,7 +51,7 @@ zwischen den zwei Zeilen zwei verschiedene Lücken.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 11 Variablen liest `site-footer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest `site-footer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -67,5 +67,5 @@ Diese 11 Variablen liest `site-footer.scss`. Ändern lassen sie sich in der App 
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

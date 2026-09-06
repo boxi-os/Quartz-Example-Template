@@ -27,7 +27,7 @@ Karten mit Titel, Pfad und Textausschnitt.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest `page-search-results.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest `page-search-results.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -49,5 +49,5 @@ Diese 17 Variablen liest `page-search-results.scss`. Ändern lassen sie sich in 
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

@@ -68,5 +68,5 @@ Ein Link auf eine Datei sieht aus wie ein externer Link, mit Pfeil. Ein eingebet
 denselben Rahmen und dieselben Ecken wie ein Bild, damit es nicht als Fremdkörper in der Seite
 sitzt.
 
-**Von Haus aus** bindet Quartz PDFs nicht besonders ein — ein Wikilink darauf wird zu einem
+**Von Haus aus** bindet Quartz PDFs nicht besonders ein — ein [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] darauf wird zu einem
 gewöhnlichen Link.

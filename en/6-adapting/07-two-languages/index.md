@@ -8,8 +8,8 @@ tags:
 translationKey: anpassen/zwei-sprachen/index
 ---
 
-Quartz knows **one** `locale` per site. This template publishes two languages from one vault all
-the same, with the `quartz-multilanguage` plugin.
+Quartz knows **one** `locale` per site. This template publishes two languages from one [[en/7-reference/01-glossary#Vault|vault]] all
+the same, with the `quartz-multilanguage` [[en/7-reference/01-glossary#Plugin|plugin]].
 
 ## The layout
 
@@ -22,8 +22,8 @@ the same, with the `quartz-multilanguage` plugin.
 | Tags | `formatierung`, `gestaltung`, … | `formatting`, `design`, … |
 
 **The German notes did not have to move for this.** That is the reason for this cut: the folder
-strategy could have demanded a `de/` as well, but then each of the 127 notes would have got a new
-path and each of the 143 wikilinks a correction. A page no strategy matches falls into the default
+strategy could have demanded a `de/` as well, but then each of the 133 German notes would have got a new
+path and each of the 143 [[en/7-reference/01-glossary#Wikilink|wikilinks]] a correction. A page no strategy matches falls into the default
 language — that is enough.
 
 ## The parts
@@ -37,19 +37,19 @@ language — that is enough.
 ## What else the plugin does
 
 - **`<html lang>` per page.** The plugin writes the locale of its language into every page without a
-  `lang` of its own. A screen reader changes its pronunciation by it, and the stylesheets of this
-  template hang their explorer rule on it.
+  `lang` of its own. A screen reader changes its pronunciation by it, and the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] of this
+  template hang their [[en/7-reference/01-glossary#Explorer|explorer]] rule on it.
 - **`hreflang` and `og:locale`.** Every page with a translation gets `<link rel="alternate">` to its
   siblings and an `x-default`. The configuration needs `baseUrl` for that.
 - **Notices above the page.** Anyone landing on a German page with an English browser language gets
   a box at the top: "This page is also available in English." The text is only filled in by the
   browser and therefore appears in neither the search index nor the description.
 - **Dates in the page language.** `localizeDates: true` re-formats every `<time>` element in the
-  browser — the only thing about the Quartz interface that becomes bilingual without a second build.
+  browser — the only thing about the Quartz interface that becomes bilingual without a second [[en/7-reference/01-glossary#Build|build]].
 
 ## One build or two
 
-This site is **one** build. That keeps the search, the graph and the addresses together, but it
+This site is **one** build. That keeps the search, the [[en/7-reference/01-glossary#Graph|graph]] and the addresses together, but it
 costs the interface: everything Quartz labels itself follows `configuration.locale` and stays
 German. For that the plugin knows `publishLanguages` — one build per language, each with its own
 `locale` and its own `baseUrl`. What that means in each case is under

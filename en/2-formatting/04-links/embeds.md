@@ -9,7 +9,7 @@ translationKey: formatierung/links/einbettungen
 cover: "[[assets/covers/cover-links.svg]]"
 ---
 
-An exclamation mark in front of the wikilink embeds the content instead of linking to it.
+An exclamation mark in front of the [[en/7-reference/01-glossary#Wikilink|wikilink]] embeds the content instead of linking to it.
 
 ```md
 ![[en/2-formatting/02-structure/horizontal-rules]]
@@ -46,7 +46,7 @@ A URL can be embedded too:
 ```
 
 That loads from a foreign server on every page view. For a site meant to work offline and in ten
-years' time, the file in the vault is the better choice.
+years' time, the file in the [[en/7-reference/01-glossary#Vault|vault]] is the better choice.
 
 ## In this template
 
@@ -56,4 +56,4 @@ surrounding text.
 
 > [!warning] Careful with chains
 > If the embedded page embeds something in turn, the page quickly becomes hard to follow — and a
-> circle (A embeds B, B embeds A) is an error that only the build reveals.
+> circle (A embeds B, B embeds A) is an error that only the [[en/7-reference/01-glossary#Build|build]] reveals.

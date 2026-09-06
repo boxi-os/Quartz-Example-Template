@@ -24,7 +24,7 @@ Vorlage gestaltet deshalb **nur den Kasten darum**, nicht die Zeichnung:
 - die **Gesamtansicht** bekommt denselben Schatten wie die Suche — beide schweben wirklich
 
 Ein halb umgefärbter Graph wäre schlechter als ein fremdfarbiger: Die Zeichnung löst ihre Farben
-selbst auf, und ein Stylesheet, das dagegen arbeitet, trifft immer nur die Hälfte.
+selbst auf, und ein [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]], das dagegen arbeitet, trifft immer nur die Hälfte.
 
 **Auf schmalen Bildschirmen wird er ausgeblendet** (`display: desktop-only`) — ein Netz aus Punkten
 in einer 390 px breiten Spalte zeigt nichts.
@@ -32,7 +32,7 @@ in einer 390 px breiten Spalte zeigt nichts.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest `aside-graph.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest `aside-graph.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

@@ -8,7 +8,7 @@ translationKey: formatierung/text/index
 cover: "[[assets/covers/cover-text.svg]]"
 ---
 
-Die Auszeichnungen, die einzelne Wörter und Zeilen betreffen — und die zwei davon, die nicht aus Markdown selbst kommen, sondern aus einem Plugin.
+Die Auszeichnungen, die einzelne Wörter und Zeilen betreffen — und die zwei davon, die nicht aus [[7-nachschlagen/01-glossar#Markdown|Markdown]] selbst kommen, sondern aus einem [[7-nachschlagen/01-glossar#Plugin|Plugin]].
 
 ## Die Seiten
 

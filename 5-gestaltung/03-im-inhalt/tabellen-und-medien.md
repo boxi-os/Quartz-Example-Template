@@ -43,7 +43,7 @@ Gestrichelter Balken und getönte Fläche: Man soll sehen, wo fremder Inhalt anf
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `body-media.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 12 Variablen liest `body-media.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -60,5 +60,5 @@ Diese 12 Variablen liest `body-media.scss`. Ändern lassen sie sich in der App u
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

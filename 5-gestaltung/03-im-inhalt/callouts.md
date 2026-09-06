@@ -36,13 +36,13 @@ Dazu drei Struktur-Entscheidungen:
   Typfarbe.
 - **Verschachtelte Callouts** geben ihren Rahmen auf und behalten nur den Balken.
 
-Die Prüfung liest die Farben **aus dem Stylesheet**, nicht aus einer Kopie in der Konfiguration.
+Die Prüfung liest die Farben **aus dem [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]]**, nicht aus einer Kopie in der Konfiguration.
 Ein Wert, der hier geändert wird, wird auch hier gemessen.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 19 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 19 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

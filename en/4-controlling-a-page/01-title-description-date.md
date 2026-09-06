@@ -10,7 +10,7 @@ translationKey: seiten-steuern/titel-beschreibung-datum
 
 ## `title`
 
-The title stands as the heading above the page, in the browser tab, in the explorer, in every list
+The title stands as the heading above the page, in the browser tab, in the [[en/7-reference/01-glossary#Explorer|explorer]], in every list
 and in every search result. If it is missing, Quartz takes the file name. This site sets it on
 every page, because a file name like `headings` is not a title.
 
@@ -31,17 +31,17 @@ format follows the language of the page: an English page shows an English date.
 
 ### Where the date comes from when none is given
 
-Quartz asks in turn: the frontmatter, then git, then the file system. The order is set on the
-plugin *Created modified date*, in QuartzControl under *Plugins*. This template leaves git out —
+Quartz asks in turn: the [[en/7-reference/01-glossary#Frontmatter|frontmatter]], then [[en/7-reference/01-glossary#git|git]], then the file system. The order is set on the
+[[en/7-reference/01-glossary#Plugin|plugin]] *Created modified date*, in QuartzControl under *Plugins*. This template leaves git out —
 `frontmatter → filesystem` — and that has a measured reason.
 
 > [!warning] A symlink takes Quartz's git dates away
-> git — the program that records the history of files — would be the better source: a commit date
+> git — the program that records the history of files — would be the better source: a [[en/7-reference/01-glossary#Commit|commit]] date
 > survives a copy, a restore and a fresh checkout; a file's modification time does not. It is
-> missing here all the same. The content lives in an Obsidian vault that `content/` points to
-> through a symlink; the plugin follows the link and does find the vault's git, but then computes
+> missing here all the same. The content lives in an Obsidian [[en/7-reference/01-glossary#Vault|vault]] that `content/` points to
+> through a [[en/7-reference/01-glossary#Symlink|symlink]]; the plugin follows the link and does find the vault's git, but then computes
 > the file path against the project directory — and so asks for a path that leads back out of the
-> vault. Every query fails. For **250 of 254 pages** the build log therefore said *“isn't yet
+> vault. Every query fails. For **250 of 254 pages** the [[en/7-reference/01-glossary#Build|build]] log therefore said *“isn't yet
 > tracked by git, dates will be inaccurate”*; only the four that carry a `lastmod` stayed quiet,
 > because they never ask git at all. The bug is reported; as soon as it is fixed, `git` belongs
 > back in the list.

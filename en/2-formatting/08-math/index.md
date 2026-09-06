@@ -14,7 +14,7 @@ lines.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 3 variables are read by `body-math.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 3 variables are read by `body-math.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ These 3 variables are read by `body-math.scss`. They can be changed in the app u
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
 
 ## The pages

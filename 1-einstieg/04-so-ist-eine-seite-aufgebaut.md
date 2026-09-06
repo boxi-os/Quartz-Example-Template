@@ -23,14 +23,14 @@ Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
 | Teil | Wo | Was darin steht |
 | --- | --- | --- |
 | **Kopfbereich** (header) | oben, über alle Spalten | die Wortmarke, der Seitenname, die Suche, der Schalter für hell und dunkel, der Lesemodus, der Sprachumschalter |
-| **Linke Spalte** (left) | links | der Explorer — der Ordnerbaum aller Seiten —, die Box „Über dieses Handbuch“, die zuletzt geänderten Seiten |
-| **Über dem Inhalt** (beforeBody) | über dem Text | die Brotkrumen (der Pfad von der Startseite hierher), der Titel, Datum und Lesezeit, die Eigenschaften-Tabelle, die Tags |
+| **Linke Spalte** (left) | links | der [[7-nachschlagen/01-glossar#Explorer\|Explorer]] — der Ordnerbaum aller Seiten —, die Box „Über dieses Handbuch“, die zuletzt geänderten Seiten |
+| **Über dem Inhalt** (beforeBody) | über dem Text | die [[7-nachschlagen/01-glossar#Brotkrumen\|Brotkrumen]] (der Pfad von der Startseite hierher), der Titel, Datum und Lesezeit, die Eigenschaften-Tabelle, die Tags |
 | **Inhalt** (body) | Mitte | die Notiz selbst |
 | **Nach dem Inhalt** (afterBody) | unter dem Text | die Box „Weiterlesen“ |
-| **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis, die Rückverweise (welche Seiten hierher verlinken), der Graph |
+| **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis, die [[7-nachschlagen/01-glossar#Rückverweise\|Rückverweise]] (welche Seiten hierher verlinken), der [[7-nachschlagen/01-glossar#Graph\|Graph]] |
 | **Fußzeile** (footer) | unten | die Impressumszeile |
 
-Welcher Teil wo liegt, entscheidet das Seitenraster, in Quartz **Frame** genannt — dazu gleich
+Welcher Teil wo liegt, entscheidet das Seitenraster, in Quartz **[[7-nachschlagen/01-glossar#Frame|Frame]]** genannt — dazu gleich
 mehr. Was in jedem Teil steht, entscheidet das Layout, in QuartzControl unter *Layout*. Wie jeder
 Teil aussieht und warum, ist Kapitel [[5-gestaltung/index|5 Die Gestaltung]].
 
@@ -96,7 +96,7 @@ Dazu eine ==Hervorhebung== und eine Fußnote[^lang].
 [^lang]: Fußnoten sammeln sich am Ende der Seite, abgetrennt durch eine Linie.
 
 > [!tip] Ein Callout mittendrin
-> Callouts unterbrechen den Lesefluss absichtlich. Deshalb haben sie einen Farbbalken links und
+> [[7-nachschlagen/01-glossar#Callout|Callouts]] unterbrechen den Lesefluss absichtlich. Deshalb haben sie einen Farbbalken links und
 > keine volle Umrandung — sie sollen auffallen, ohne die Spalte zu zerschneiden.
 
 ### Eine Liste

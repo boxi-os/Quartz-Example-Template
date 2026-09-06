@@ -28,7 +28,7 @@ cover: "[[assets/covers/cover-tabellen.svg]]"
 ## Der senkrechte Strich
 
 Ein `|` in einer Zelle beendet die Spalte. Er muss mit `\|` geschützt werden — **auch innerhalb
-eines Wikilinks**, wo der Strich sonst Ziel und Text trennt:
+eines [[7-nachschlagen/01-glossar#Wikilink|Wikilinks]]**, wo der Strich sonst Ziel und Text trennt:
 
 ```md
 | [[2-formatierung/index\|Formatierung]] |

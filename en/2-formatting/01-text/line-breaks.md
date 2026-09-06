@@ -19,7 +19,7 @@ Second line
 First line
 Second line
 
-Both lines form **one paragraph**. That is the behaviour of standard Markdown: a single break in
+Both lines form **one paragraph**. That is the behaviour of standard [[en/7-reference/01-glossary#Markdown|Markdown]]: a single break in
 the source counts as a space, and the text flows.
 
 That matters for notes that are written wrapped in the editor — like every page of this site. They
@@ -57,7 +57,7 @@ lost.
 
 ## The switch behind it
 
-The *Hard line breaks* plugin reverses this rule: with it, **every** break in the source becomes a
+The *Hard line breaks* [[en/7-reference/01-glossary#Plugin|plugin]] reverses this rule: with it, **every** break in the source becomes a
 break on the page. Obsidian itself behaves that way, which makes the switch tempting.
 
 > [!warning] This template leaves it off

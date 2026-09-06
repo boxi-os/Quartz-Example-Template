@@ -9,7 +9,7 @@ translationKey: anpassen/zwei-sprachen/verknuepfung
 ---
 
 For the switcher to lead from a page to its translation, somebody has to say which two pages belong
-together. The plugin knows three ways and tries them in this order.
+together. The [[en/7-reference/01-glossary#Plugin|plugin]] knows three ways and tries them in this order.
 
 ## 1 · `translationKey` in the frontmatter
 
@@ -20,17 +20,17 @@ translationKey: formatierung/text/betonung
 ---
 ```
 
-Two pages with the same key are translations of each other. **That is how 122 of this site's 127
-pairs work** — everything that is an ordinary page. Four of them additionally carry aliases, so
+Two pages with the same key are translations of each other. **That is how 128 of this site's 133
+pairs work** — everything that is an ordinary page. Four of them additionally carry [[en/7-reference/01-glossary#Alias|aliases]], so
 that this route is visible on the site as well; they too are linked by the key. Of the remaining
-five, three take the route below and one the route below that; the last, the two Excalidraw
-drawings, is not linked at all — their page renders no switcher, because the plugin brings a frame
+five, three take the route below and one the route below that; the last, the two [[en/7-reference/01-glossary#Excalidraw|Excalidraw]]
+drawings, is not linked at all — their page renders no switcher, because the plugin brings a [[en/7-reference/01-glossary#Frame|frame]]
 of its own.
 
 The reason is a measured one: several pages here carry the same title. "Grundform" exists three
-times (callouts, tables, footnotes), "Code", "Eigenschaften" and "Callouts" twice each. Titles or
+times ([[en/7-reference/01-glossary#Callout|callouts]], tables, footnotes), "Code", "Eigenschaften" and "Callouts" twice each. Titles or
 file names could not decide which English page is meant; the plugin recognises that and in such a
-case prefers not to link at all, with a warning in the build.
+case prefers not to link at all, with a warning in the [[en/7-reference/01-glossary#Build|build]].
 
 The key is the German path without its extension. It is unique, it rarely changes, and you can see
 from the line what it points at.
@@ -53,13 +53,13 @@ All three have the same file name (`wie-es-funktioniert`) and sit in different f
 that the linking really goes through the title and not through the file name.
 
 > [!warning] Why not aliases everywhere
-> The *Alias redirects* plugin builds a forwarding page for **every** alias. If each of the 127
-> German notes carried its English title as an alias, 127 extra pages would appear, leading from
+> The *Alias redirects* plugin builds a forwarding page for **every** alias. If each of the 133
+> German notes carried its English title as an alias, 133 extra pages would appear, leading from
 > `/emphasis` to the *German* page. That is not a fault, but it would not have been a decision —
 > hence the aliases only stand where they are meant to show something.
 
 > [!note] The translation service did not run here
-> The Obsidian plugin needs an API key for Google Translate or DeepL. It is installed in the vault
+> The Obsidian plugin needs an API key for Google Translate or DeepL. It is installed in the [[en/7-reference/01-glossary#Vault|vault]]
 > and set up for German → English, but the key is missing; the aliases above are entered in exactly
 > the form the plugin would write. Anyone providing a key can have them generated from then on
 > through the *Translate note name* command.
@@ -68,9 +68,9 @@ that the linking really goes through the title and not through the file name.
 
 Two pages whose path without the language part is identical belong together. On this site that
 applies to **exactly one pair**, and to the most visible one at that: the home pages. `index.md`
-falls into the default language, so its base path is `index`; `en/index.md` sits in the language
+falls into the default language, so its [[en/7-reference/01-glossary#Base|base]] path is `index`; `en/index.md` sits in the language
 folder, so its base path is `index` too. The two are linked without a single field in the
-frontmatter.
+[[en/7-reference/01-glossary#Frontmatter|frontmatter]].
 
 For every other page the route does not apply, because the English paths are English —
 `formatierung/text/betonung` becomes `formatting/text/emphasis`, not the same path in a different

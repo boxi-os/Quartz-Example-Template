@@ -11,7 +11,7 @@ translationKey: formatierung/links/aliase
 cover: "[[assets/covers/cover-links.svg]]"
 ---
 
-In the frontmatter:
+In the [[en/7-reference/01-glossary#Frontmatter|frontmatter]]:
 
 ```md
 ---
@@ -27,7 +27,7 @@ This page itself has an alias — it can also be reached under *Second name for 
 
 In **Obsidian**: the alias shows up in the quick switcher, and `[[Second name]]` finds the page.
 
-On the **built site**: the *Alias redirects* plugin creates a small forwarding page for every
+On the **built site**: the *Alias redirects* [[en/7-reference/01-glossary#Plugin|plugin]] creates a small forwarding page for every
 alias. Old links therefore keep working when a note has been renamed or moved.
 
 ## When it pays off

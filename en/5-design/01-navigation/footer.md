@@ -8,7 +8,7 @@ tags:
 translationKey: gestaltung/navigation/fusszeile
 ---
 
-At the very bottom of every page stand two things that come from two different plugins and are
+At the very bottom of every page stand two things that come from two different [[en/7-reference/01-glossary#Plugin|plugins]] and are
 meant to look like one.
 
 ## Out of the box
@@ -33,7 +33,7 @@ whatever the body text gives them.
 ## The second half is a layout box
 
 The line below it — site name, language and the current page's path — does not come from the footer
-plugin. It is one of the five instances of the Layout Box plugin, placed at `position: footer`. It
+plugin. It is one of the five instances of the [[en/7-reference/01-glossary#Layout box|Layout Box]] plugin, placed at `position: footer`. It
 is there as the example for the three placeholders `{{siteTitle}}`, `{{locale}}` and `{{slug}}`; see
 [[en/5-design/05-layout-boxes/the-five-instances|The five instances]].
 
@@ -42,15 +42,15 @@ its own spacing and the layout box brings its own — and left alone, two differ
 between the two lines.
 
 > [!note] Comments would be the third part
-> The *Comments* plugin (giscus) is switched off in this template — it needs a GitHub repository
+> The *Comments* plugin (giscus) is switched off in this template — it needs a GitHub [[en/7-reference/01-glossary#Repository|repository]]
 > that an importing site does not have. The styling travels along anyway — in the lower half of
 > `site-footer.scss` — so
-> that switching it on in the app does not drop an unstyled frame under every page.
+> that switching it on in the app does not drop an unstyled [[en/7-reference/01-glossary#Frame|frame]] under every page.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by `site-footer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 11 variables are read by `site-footer.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -66,5 +66,5 @@ These 11 variables are read by `site-footer.scss`. They can be changed in the ap
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

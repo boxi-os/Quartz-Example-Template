@@ -31,7 +31,7 @@ sonst wird das Markdown darin nicht verarbeitet.
 <summary>Ein aufklappbarer Abschnitt</summary>
 
 Der Inhalt erscheint beim Aufklappen. Zwischen `<summary>` und dem Text muss eine Leerzeile stehen,
-sonst wird das Markdown darin nicht verarbeitet.
+sonst wird das [[7-nachschlagen/01-glossar#Markdown|Markdown]] darin nicht verarbeitet.
 
 </details>
 

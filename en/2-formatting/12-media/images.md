@@ -16,7 +16,7 @@ cover: "[[assets/covers/cover-medien.svg]]"
 ![[beispiel-breit.png]]
 ```
 
-The first is standard Markdown, the second Obsidian's wikilink form. Both work; only the first
+The first is standard [[en/7-reference/01-glossary#Markdown|Markdown]], the second Obsidian's [[en/7-reference/01-glossary#Wikilink|wikilink]] form. Both work; only the first
 knows an alternative text.
 
 ![A card with the word PNG and the note 960 by 540 pixels](assets/beispiel-breit.png)
@@ -35,7 +35,7 @@ name.
 | **PNG** | flat areas, text, sharp edges, transparency | 14 KB for 960 × 540 |
 | **JPEG** | photographs and gradients | 40 KB for 1200 × 800 |
 | **WebP** | the same as JPEG, smaller | 9 KB for 800 × 800 |
-| **GIF** | short moving images without sound | 14 KB, 12 frames |
+| **GIF** | short moving images without sound | 14 KB, 12 [[en/7-reference/01-glossary#Frame\|frames]] |
 | **SVG** | diagrams, logos, everything drawn | 3 KB, scalable at will |
 
 ### JPEG — for photographs
@@ -54,14 +54,14 @@ A GIF plays automatically and endlessly. For anything over a few seconds a video
 knows no compression over time and quickly grows larger than an MP4 of the same content.
 
 > [!warning] Automatic movement is an accessibility question
-> An endlessly looping GIF cannot be stopped. For content running longer than five seconds, WCAG
+> An endlessly looping GIF cannot be stopped. For content running longer than five seconds, [[en/7-reference/01-glossary#WCAG|WCAG]]
 > requires a way to stop it — a video with controls is the right choice for that.
 
 ### SVG — drawn rather than photographed
 
 ![The structure of the editorial frame: header, navigation, content, apparatus](assets/frame-aufbau-en.svg)
 
-An SVG is text. It stays sharp at every size, can be versioned and can take its colours from CSS.
+An SVG is text. It stays sharp at every size, can be versioned and can take its colours from [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 ## Controlling the size — only with the wikilink form
 
@@ -91,7 +91,7 @@ Width × height is possible too, but distorts when the ratio does not match:
 > becomes the alternative text, `|300` included. The wikilink form sets the size but leaves `alt`
 > empty.
 >
-> Anyone needing both writes HTML:
+> Anyone needing both writes [[en/7-reference/01-glossary#HTML|HTML]]:
 > `<img src="assets/image.png" alt="Description" width="300">`
 
 And exactly that, with both:

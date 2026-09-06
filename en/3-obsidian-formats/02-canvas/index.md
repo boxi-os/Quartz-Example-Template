@@ -11,22 +11,22 @@ translationKey: obsidian-formate/canvas/index
 A canvas is a free surface: you put cards on it, connect them with arrows and arrange them spatially
 rather than in a sequence. For connections that are not an outline.
 
-The example in this vault:
-[[en/3-obsidian-formats/02-canvas/Structure of the template.canvas|Structure of the template]] — the four
-areas of this site and how they hang together.
+The example in this [[en/7-reference/01-glossary#Vault|vault]]:
+[[en/3-obsidian-formats/02-canvas/Structure of the template.canvas|Structure of the template]] — the seven
+chapters of this handbook and how they hang together.
 
 How the format is built: [[en/3-obsidian-formats/02-canvas/how-it-works|How it works]].
 
 ## In this template
 
 A canvas page needs the **full width** — a surface in the narrow text column shows nothing. The
-plugin does bring a page grid of its own for that, but this template overrides it: the
+[[en/7-reference/01-glossary#Plugin|plugin]] does bring a page grid of its own for that, but this template overrides it: the
 configuration puts Quartz's built-in `full-width` grid on the `canvas` page type. Measured on the
-built page the result is header, surface and footer — no sidebars, no breadcrumbs.
+built page the result is header, surface and footer — no sidebars, no [[en/7-reference/01-glossary#Breadcrumbs|breadcrumbs]].
 
 > [!bug] Links inside a file node lead nowhere
 > A file node shows a note with all of its content — and the links inside it get the embedded
-> note's folder prefixed **twice**. The reference to `en/design/foundations/frames` in the bases
+> note's folder prefixed **twice**. The reference to `en/design/foundations/frames` in the [[en/7-reference/01-glossary#Base|bases]]
 > overview becomes, on this page,
 > `../../../en/obsidian-formats/bases/../../../../en/obsidian-formats/bases/all-views.base` — a path
 > that leads out of the site. Measured: **six per language**, all in the same file node, and the
@@ -37,12 +37,12 @@ built page the result is header, surface and footer — no sidebars, no breadcru
 
 > [!note] Zooming and panning
 > On the built page the canvas can be zoomed with the mouse wheel and moved with the mouse button
-> held down — it is not a snapshot but the surface itself.
+> held down — it is not a [[en/7-reference/01-glossary#Snapshot|snapshot]] but the surface itself.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 14 variables are read by `page-canvas.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 14 variables are read by `page-canvas.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -61,7 +61,7 @@ These 14 variables are read by `page-canvas.scss`. They can be changed in the ap
 | `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
 
 ## The pages

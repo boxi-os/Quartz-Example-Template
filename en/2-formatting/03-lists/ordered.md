@@ -21,7 +21,7 @@ cover: "[[assets/covers/cover-listen.svg]]"
 
 ## The numbers in the source do not matter
 
-Markdown numbers through on its own. Writing `1.` everywhere still yields 1, 2, 3 — handy when a
+[[en/7-reference/01-glossary#Markdown|Markdown]] numbers through on its own. Writing `1.` everywhere still yields 1, 2, 3 — handy when a
 point is inserted later.
 
 ```md

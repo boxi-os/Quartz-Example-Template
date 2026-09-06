@@ -27,7 +27,7 @@ cover: "[[assets/covers/cover-tabellen.svg]]"
 
 ## The vertical bar
 
-A `|` in a cell ends the column. It has to be escaped as `\|` — **inside a wikilink too**, where
+A `|` in a cell ends the column. It has to be escaped as `\|` — **inside a [[en/7-reference/01-glossary#Wikilink|wikilink]] too**, where
 the bar otherwise separates target from text:
 
 ```md

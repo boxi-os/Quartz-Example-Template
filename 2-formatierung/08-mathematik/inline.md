@@ -37,4 +37,4 @@ Das kostet \$5.
 
 Das kostet \$5.
 
-Gerendert wird mit KaTeX; eingestellt beim Plugin *LaTeX* über `renderEngine`.
+Gerendert wird mit KaTeX; eingestellt beim [[7-nachschlagen/01-glossar#Plugin|Plugin]] *LaTeX* über `renderEngine`.

@@ -23,7 +23,7 @@ Dieser hier ist der zweite.
 
 ## Wie breit ein Absatz wird
 
-Die Breite entscheidet das **Seitenraster**, nicht der Absatz. Der Frame `editorial`, den
+Die Breite entscheidet das **Seitenraster**, nicht der Absatz. Der [[7-nachschlagen/01-glossar#Frame|Frame]] `editorial`, den
 Inhaltsseiten benutzen, gibt dem Text die mittlere von drei Spalten und begrenzt die ganze Seite
 auf 1440 px.
 

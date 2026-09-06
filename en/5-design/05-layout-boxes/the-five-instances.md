@@ -11,7 +11,7 @@ translationKey: gestaltung/layout-boxen/die-fuenf-instanzen
 | Key | Place | Form | What it shows |
 | --- | --- | --- | --- |
 | `layoutBoxMark` | header | inline, SVG light/dark | image switching, `{{root}}`, `{{siteTitle}}` |
-| `layoutBoxNote` | left column | `file:` with `.md`, collapsible | Markdown snippet, `<details>` |
+| `layoutBoxNote` | left column | `file:` with `.md`, collapsible | [[en/7-reference/01-glossary#Markdown\|Markdown]] snippet, `<details>` |
 | `layoutBoxHint` | left column | inline, mobile only | two instances controllable independently |
 | `layoutBoxCta` | after the content | inline, own class | `{{frontmatter.…}}` |
 | `layoutBoxColophon` | footer | inline | `{{locale}}`, `{{slug}}` |
@@ -22,7 +22,7 @@ translationKey: gestaltung/layout-boxen/die-fuenf-instanzen
 files and images stay behind. An instance with `file:` would arrive in the target project with a
 link into nothing.
 
-Inline HTML, by contrast, sits in the configuration entry and travels with the *Plugins* part. That
+Inline [[en/7-reference/01-glossary#HTML|HTML]], by [[en/7-reference/01-glossary#Contrast|contrast]], sits in the configuration entry and travels with the *[[en/7-reference/01-glossary#Plugin|Plugins]]* part. That
 is also why the word mark is an inline SVG and not an image file.
 
 The fifth instance deliberately uses the file route — it shows both: that it works, and that the
@@ -42,7 +42,7 @@ measured and recorded as a finding.
 ## Four of them speak both languages
 
 Four of the five carry text and therefore stand in the configuration twice: once in German as the
-base setting, once in English under `byLang`.
+[[en/7-reference/01-glossary#Base|base]] setting, once in English under `byLang`.
 
 ```yaml
 options:
@@ -54,7 +54,7 @@ options:
       title: About this handbook
 ```
 
-The plugin reads the page's `lang` frontmatter field — the one Quartz writes `<html lang>` from —
+The plugin reads the page's `lang` [[en/7-reference/01-glossary#Frontmatter|frontmatter]] field — the one Quartz writes `<html lang>` from —
 and merges the matching entry over the base setting. It needs no companion for that: whether `lang`
 comes from the multilanguage plugin or was written by hand makes no difference to it.
 
@@ -70,7 +70,7 @@ stays without `byLang`.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 27 variables are read by `plugin-layout-box.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 27 variables are read by `plugin-layout-box.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -102,5 +102,5 @@ These 27 variables are read by `plugin-layout-box.scss`. They can be changed in 
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

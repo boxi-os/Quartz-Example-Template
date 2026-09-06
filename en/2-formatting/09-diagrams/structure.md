@@ -56,8 +56,8 @@ classDiagram
 ```
 
 > [!warning] Annotations with angle brackets do not work here
-> For classes Mermaid knows an annotation of the form `<` `<interface>` `>`. In Quartz it does not
-> survive: the content of a Mermaid block runs through the same HTML processing as the rest of the
+> For classes [[en/7-reference/01-glossary#Mermaid|Mermaid]] knows an annotation of the form `<` `<interface>` `>`. In Quartz it does not
+> survive: the content of a Mermaid block runs through the same [[en/7-reference/01-glossary#HTML|HTML]] processing as the rest of the
 > text, and the double angle brackets are read as a tag and removed. What is left is a single `>` —
 > and the diagram fails with *Syntax error in text*.
 >

@@ -20,7 +20,7 @@ opaque surface, because a translucent preview over body text is unreadable.
 The content is **capped at 20 rem**, and at the cut lies a soft gradient: a truncated preview should
 look cut, not broken.
 
-What is left out inside it is what only gets in the way in a preview: callouts, tags and code
+What is left out inside it is what only gets in the way in a preview: [[en/7-reference/01-glossary#Callout|callouts]], tags and code
 blocks. A preview should answer the question of whether the click is worth it — no more.
 
 ## Only with a pointer
@@ -31,7 +31,7 @@ With `@media (hover: none)` it is switched off entirely. From that follows a rul
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `page-popover.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 13 variables are read by `page-popover.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -49,5 +49,5 @@ These 13 variables are read by `page-popover.scss`. They can be changed in the a
 | `--tpl-text-lg` | `1.15rem` | 6.4 Variables, Search |
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

@@ -268,6 +268,12 @@ QuartzControl heißen sie schlicht *Variablen*. → [[6-anpassen/04-variablen|6.
 Eine Seite mit `unlisted: true`: gebaut und über ihre Adresse erreichbar, aber in keiner Liste. →
 [[4-seiten-steuern/02-entwurf-und-ungelistet|4.2 Entwurf und ungelistet]]
 
+### Variable
+
+Ein benannter Wert, den Stylesheets lesen statt ihn selbst zu enthalten — `--tpl-space-md` etwa.
+So heißen die Tokens in QuartzControl unter *Stile → Variablen*, wo man sie ändert. →
+[[6-anpassen/04-variablen|6.4 Variablen]]
+
 ### Vault
 
 Obsidians Wort für den Ordner, in dem die Notizen liegen. Diese Website hat einen eigenen. →
@@ -284,6 +290,12 @@ QuartzControl unter *Veröffentlichen*. →
 Eine Gestaltung für QuartzControl, verpackt in einer `.qtpl`-Datei, die man in ein Projekt
 importiert. Diese Website ist das Handbuch der Vorlage *Example*. →
 [[1-einstieg/01-was-diese-vorlage-ist|1.1 Was diese Vorlage ist]]
+
+### WCAG
+
+Die *Web Content Accessibility Guidelines*, die Richtlinien für barrierefreie Websites. Stufe AA
+ist die verbreitete Schwelle: Kontrast 4,5:1 für Text, 3:1 für Bedienelemente, mindestens 24 px
+Zielgröße. Diese Vorlage misst gegen AA. → [[6-anpassen/06-barrierefreiheit|6.6 Barrierefreiheit]]
 
 ### Wikilink
 

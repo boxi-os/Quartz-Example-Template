@@ -32,7 +32,7 @@ Rand blieb bei 20 px: Er ist der Abstand zum Fensterrand, nicht der zwischen zwe
 | Frame | Genutzt von | Besonderheit |
 | --- | --- | --- |
 | `editorial` | Inhaltsseiten | alle sieben Bereiche belegt |
-| `index` | Ordner, Tags, Bases | rechte Spalte ohne Inhaltsverzeichnis — dort gibt es keine Überschriften |
+| `index` | Ordner, Tags, [[7-nachschlagen/01-glossar#Base\|Bases]] | rechte Spalte ohne Inhaltsverzeichnis — dort gibt es keine Überschriften |
 | `focus` | Fehlerseite | beide Randspalten leer, kein Apparat |
 
 Dass auch Ordner-, Tag-, Bases- und Fehlerseiten die rechte Spalte behalten, ist Absicht: Der Text
@@ -40,9 +40,9 @@ beginnt dann auf **jeder** Seite an derselben Stelle, und der Sprung von einem A
 Ordner verschiebt die Zeile nicht mehr.
 
 Jeder Frame ist für **drei Breiten** ausgelegt. Die Schwellen liegen bei 1100 und 800 px. Die 800
-sind nicht frei gewählt: Das Explorer-Plugin schaltet in seinem eigenen Stylesheet bei genau
+sind nicht frei gewählt: Das Explorer-Plugin schaltet in seinem eigenen [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]] bei genau
 `max-width: 800px` auf die Schublade um. Vorher stand hier 720, und zwischen 721 und 800 px
-widersprachen sich die beiden — der Explorer war schon ein Hamburger, während der Frame die Seite
+widersprachen sich die beiden — der [[7-nachschlagen/01-glossar#Explorer|Explorer]] war schon ein Hamburger, während der Frame die Seite
 noch als Tablet auslegte.
 
 Am Tablet fällt die rechte **Spalte** weg; ihr Inhalt rutscht unter den Text, statt zu verschwinden.
@@ -54,7 +54,7 @@ aus — dort ist sie leer, das kostet nichts.
 > [!example] Was hier einmal falsch war
 > `index` hat die rechte Spalte unter 1100 px lange ausgeblendet statt sie nach unten zu schieben,
 > in der Annahme, sie sei auf einer Listenseite leer: Eine Liste von Links hat keine Überschriften,
-> also kein Inhaltsverzeichnis. Gemessen an `/formatierung/` ist sie es nicht — Rückverweise und
+> also kein Inhaltsverzeichnis. Gemessen an `/formatierung/` ist sie es nicht — [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] und
 > Graphansicht stehen dort. Auf Tablet und Telefon verschwanden damit beide von jeder Ordner-, Tag-
 > und Bases-Seite. Seit dem 05.09.2026 hat `index` dieselbe Zeile für die rechte Spalte wie
 > `editorial`.
@@ -109,7 +109,7 @@ Textbreite dann eine Folge des Rasters ist und nicht eine zweite Entscheidung da
 ## Zwei Eigenheiten des Editors
 
 - Ein Wert darf **kein Komma** enthalten — also kein `minmax(0, 1fr)`.
-- Längen stehen als Zahl, nicht als Token: Ein Frame muss auch funktionieren, wenn jemand nur den
-  Baustein *Frames* importiert und die Variablen fehlen.
+- Längen stehen als Zahl, nicht als [[7-nachschlagen/01-glossar#Token|Token]]: Ein Frame muss auch funktionieren, wenn jemand nur den
+  [[7-nachschlagen/01-glossar#Baustein|Baustein]] *Frames* importiert und die Variablen fehlen.
 
 Wie eine Zeichnung davon aussieht: [[3-obsidian-formate/03-excalidraw/index|Excalidraw]].

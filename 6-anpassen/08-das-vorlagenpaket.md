@@ -18,18 +18,18 @@ was ein Projekt ausmacht. Beim Import wählt man aus, welche davon man übernimm
 | --- | --- | --- |
 | Farben & Schriften | die neun Farbrollen für hell und dunkel, die drei Schriftrollen, woher Schriften geladen werden | gefüllt — [[6-anpassen/02-farben-und-kontrast\|6.2]], [[6-anpassen/03-schriften\|6.3]] |
 | CSS-Variablen | eigene Werte für Variablen, getrennt nach hell und dunkel | 53 Variablen — [[6-anpassen/04-variablen\|6.4]] |
-| Eigenes CSS | `custom.scss` und alle eigenen Stylesheets samt Ladereihenfolge | 30 Stylesheets — [[5-gestaltung/index\|Kapitel 5]] |
+| Eigenes [[7-nachschlagen/01-glossar#CSS und SCSS\|CSS]] | `custom.scss` und alle eigenen [[7-nachschlagen/01-glossar#Stylesheet\|Stylesheets]] samt Ladereihenfolge | 30 Stylesheets — [[5-gestaltung/index\|Kapitel 5]] |
 | Schriftdateien | mitgebrachte Schriftdateien und ihre `@font-face`-Regeln | vier Dateien, 157 KB — [[6-anpassen/03-schriften\|6.3]] |
 | Layout | welche Komponente wo erscheint, je Seitentyp, und die Umbruchbreiten | gefüllt — [[1-einstieg/04-so-ist-eine-seite-aufgebaut\|1.4]] |
-| Eigene Frames | selbst gebaute Seitenraster; werden im Ziel neu registriert, nicht kopiert | drei — [[6-anpassen/05-seitenraster\|6.5]] |
-| Plugins | alle Plugin-Einträge mit Optionen, Reihenfolge und Position | gefüllt, darunter fünf Layout-Boxen — [[5-gestaltung/05-layout-boxen/index\|5.5]] |
+| Eigene [[7-nachschlagen/01-glossar#Frame\|Frames]] | selbst gebaute Seitenraster; werden im Ziel neu registriert, nicht kopiert | drei — [[6-anpassen/05-seitenraster\|6.5]] |
+| [[7-nachschlagen/01-glossar#Plugin\|Plugins]] | alle Plugin-Einträge mit Optionen, Reihenfolge und Position | gefüllt, darunter fünf [[7-nachschlagen/01-glossar#Layout-Box\|Layout-Boxen]] — [[5-gestaltung/05-layout-boxen/index\|5.5]] |
 | Übersetzungen | Texte, die in Quartz' Sprachdateien geändert wurden | gefüllt, mit einer Einschränkung (unten) |
 | Theme-Presets | gespeicherte Zusammenstellungen von Farben und Schriften | zwei: hell und dunkel |
 | Community-Theme | ein installiertes Theme mit seinen Einstellungen | leer — diese Vorlage ist selbst das Theme |
-| Inhalt | die Notizen selbst | leer — der Inhalt liegt im Vault |
+| Inhalt | die Notizen selbst | leer — der Inhalt liegt im [[7-nachschlagen/01-glossar#Vault\|Vault]] |
 
 Der Import zeigt vorher, welche Bausteine das Paket enthält und was im Projekt dadurch ersetzt
-wird, und legt einen Snapshot an — eine Sicherung, zu der man zurückkehren kann.
+wird, und legt einen [[7-nachschlagen/01-glossar#Snapshot|Snapshot]] an — eine Sicherung, zu der man zurückkehren kann.
 
 ## Was nicht mitreist
 
@@ -42,7 +42,7 @@ Deshalb holen vier der fünf Layout-Boxen dieser Vorlage ihren Inhalt aus der Ko
 Inline-SVG und keine Bilddatei. Die fünfte Box — „Über dieses Handbuch“ — liest bewusst aus einer
 Datei, um beide Wege zu zeigen. Wer sie behalten will, kopiert `sidebar-note.md` und
 `sidebar-note.en.md` von Hand nach `quartz/static/snippets/`. Fehlt die Datei, ist das kein
-Fehler: Das Plugin protokolliert eine Warnung und rendert nichts; im Dev-Server erscheint ein
+Fehler: Das Plugin protokolliert eine Warnung und rendert nichts; im [[7-nachschlagen/01-glossar#Dev-Server|Dev-Server]] erscheint ein
 gestrichelter Platzhalter mit dem erwarteten Pfad.
 
 **Der Inhalt** reist nicht mit — mit Absicht. Eine Vorlage ist eine Gestaltung; die eigenen

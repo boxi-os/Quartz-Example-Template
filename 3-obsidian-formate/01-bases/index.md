@@ -9,9 +9,9 @@ translationKey: obsidian-formate/bases/index
 ---
 
 Eine Base ist eine gespeicherte Abfrage: Sie sammelt Notizen nach Kriterien und zeigt sie in einer
-oder mehreren Ansichten. Die Datei ist YAML und endet auf `.base`.
+oder mehreren Ansichten. Die Datei ist [[7-nachschlagen/01-glossar#YAML|YAML]] und endet auf `.base`.
 
-Drei Beispiele in diesem Vault, alle über die Notizen dieser Website selbst:
+Drei Beispiele in diesem [[7-nachschlagen/01-glossar#Vault|Vault]], alle über die Notizen dieser Website selbst:
 
 - [[3-obsidian-formate/01-bases/Alle-Ansichten.base|Alle Ansichten]] — **alle fünf Darstellungsformen**
   derselben Daten: Tabelle, Kacheln, Liste, Board und Galerie
@@ -37,13 +37,13 @@ Alle fünf sind in dieser Vorlage gestaltet — zu sehen unter
 
 ## In dieser Vorlage
 
-Bases-Seiten nutzen den Frame **`index`**, denselben wie Ordner- und Tag-Seiten. Ein
+Bases-Seiten nutzen den [[7-nachschlagen/01-glossar#Frame|Frame]] **`index`**, denselben wie Ordner- und Tag-Seiten. Ein
 Inhaltsverzeichnis entsteht dort nicht, weil eine Tabelle keine Überschriften hat; die rechte
 Spalte bleibt trotzdem stehen, damit die Tabelle dort beginnt, wo sonst der Text beginnt — am
 Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 
 > [!warning] Der Umschalter findet diese Seiten nicht
-> Eine `.base`-Datei hat kein Frontmatter und kann deshalb keinen `translationKey` tragen. Der
+> Eine `.base`-Datei hat kein [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]] und kann deshalb keinen `translationKey` tragen. Der
 > Sprachumschalter bietet auf so einer Seite die Startseite der anderen Sprache an statt der
 > entsprechenden Base. Siehe [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]].
 
@@ -54,7 +54,7 @@ Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -89,7 +89,7 @@ Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App u
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
 
 ## Die Seiten

@@ -11,7 +11,7 @@ translationKey: obsidian-formate/canvas/index
 Ein Canvas ist eine freie Fläche: Man legt Karten darauf, verbindet sie mit Pfeilen und ordnet sie
 räumlich statt in einer Reihenfolge. Für Zusammenhänge, die keine Gliederung sind.
 
-Das Beispiel in diesem Vault: [[3-obsidian-formate/02-canvas/Aufbau der Vorlage.canvas|Aufbau der Vorlage]] —
+Das Beispiel in diesem [[7-nachschlagen/01-glossar#Vault|Vault]]: [[3-obsidian-formate/02-canvas/Aufbau der Vorlage.canvas|Aufbau der Vorlage]] —
 die sieben Kapitel dieses Handbuchs und wie sie zusammenhängen.
 
 Wie das Format aufgebaut ist: [[3-obsidian-formate/02-canvas/wie-es-funktioniert|Wie es funktioniert]].
@@ -19,10 +19,10 @@ Wie das Format aufgebaut ist: [[3-obsidian-formate/02-canvas/wie-es-funktioniert
 ## In dieser Vorlage
 
 Eine Canvas-Seite braucht die **volle Breite** — eine Fläche in der schmalen Textspalte zeigt
-nichts. Das Plugin bringt dafür zwar ein eigenes Seitenraster mit, diese Vorlage überschreibt es
+nichts. Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] bringt dafür zwar ein eigenes Seitenraster mit, diese Vorlage überschreibt es
 aber: In der Konfiguration steht für den Seitentyp `canvas` das mitgelieferte Quartz-Raster
 `full-width`. Gemessen an der gebauten Seite ist das Ergebnis Kopfbereich, Fläche und Fußzeile —
-keine Seitenleisten, keine Brotkrumen.
+keine Seitenleisten, keine [[7-nachschlagen/01-glossar#Brotkrumen|Brotkrumen]].
 
 > [!bug] Links in einem Dateiknoten führen ins Leere
 > Ein Dateiknoten zeigt eine Notiz mit ihrem ganzen Inhalt — und die Links darin bekommen den
@@ -43,7 +43,7 @@ keine Seitenleisten, keine Brotkrumen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 14 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 14 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -62,7 +62,7 @@ Diese 14 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App 
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
 
 ## Die Seiten

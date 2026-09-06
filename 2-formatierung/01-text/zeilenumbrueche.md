@@ -56,7 +56,7 @@ leicht verloren geht.
 
 ## Der Schalter dahinter
 
-Das Plugin *Hard line breaks* dreht diese Regel um: Mit ihm wird **jeder** Umbruch im Quelltext zu
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Hard line breaks* dreht diese Regel um: Mit ihm wird **jeder** Umbruch im Quelltext zu
 einem Umbruch auf der Seite. Obsidian selbst verhält sich so, weshalb der Schalter naheliegt.
 
 > [!warning] Diese Vorlage lässt ihn aus

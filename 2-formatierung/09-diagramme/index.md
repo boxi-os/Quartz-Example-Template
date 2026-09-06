@@ -13,7 +13,7 @@ Abläufe, Strukturen, Zeiten und Zahlen — alle aus Text erzeugt und alle in de
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 22 Variablen liest `body-mermaid.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 22 Variablen liest `body-mermaid.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ Diese 22 Variablen liest `body-mermaid.scss`. Ändern lassen sie sich in der App
 | `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
 | `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--mm-1` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
+| `--mm-1` | im [[7-nachschlagen/01-glossar#Stylesheet\|Stylesheet]] gesetzt (`body-mermaid.scss`) | nur hier |
 | `--mm-2` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
 | `--mm-3` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
 | `--mm-4` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |

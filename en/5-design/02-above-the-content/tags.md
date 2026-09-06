@@ -22,10 +22,10 @@ tinted surface. A thing that looks different in four places is four things to le
 full of pills is unreadable. To be seen under
 [[en/2-formatting/13-special/arrows-and-emoji|Arrows, tags and emoji]].
 
-The hash sits in the stylesheet as a `::before` and is slightly transparent — it belongs to the
+The hash sits in the [[en/7-reference/01-glossary#Stylesheet|stylesheet]] as a `::before` and is slightly transparent — it belongs to the
 tag, but it is not its name.
 
-On hover the surface changes and the border appears in the accent colour; the pill does not jump
+On [[en/7-reference/01-glossary#Hover|hover]] the surface changes and the border appears in the accent colour; the pill does not jump
 while doing so, because the border was already there, transparent.
 
 > [!note] English tags, English tag pages
@@ -35,7 +35,7 @@ while doing so, because the border was already there, transparent.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by `meta-tag-list.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by `meta-tag-list.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

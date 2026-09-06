@@ -43,13 +43,13 @@ belongs to.
 ````md
 ```yaml title="quartz.config.yaml"
 configuration:
-  pageTitle: Minimal & lesbar
+  pageTitle: Example
 ```
 ````
 
 ```yaml title="quartz.config.yaml"
 configuration:
-  pageTitle: Minimal & lesbar
+  pageTitle: Example
 ```
 
 ## Long lines
@@ -65,9 +65,9 @@ npx quartz build --serve --port 8080 --wsPort 3001 --bundleInfo --verbose --dire
 
 Three differences from the default:
 
-- The **language** sits at the top left of the block, as an `::after` in the stylesheet — so it
+- The **language** sits at the top left of the block, as an `::after` in the [[en/7-reference/01-glossary#Stylesheet|stylesheet]] — so it
   does not end up in a copy.
-- The **copy button** is 44 px across and appears on hover, on focus *and* permanently on devices
+- The **copy button** is 44 px across and appears on [[en/7-reference/01-glossary#Hover|hover]], on focus *and* permanently on devices
   without a pointer. **Out of the box** it is only visible on hover and therefore unreachable on a
   phone.
 - The **background** comes from the template, not from the syntax theme: `keepBackground: false`

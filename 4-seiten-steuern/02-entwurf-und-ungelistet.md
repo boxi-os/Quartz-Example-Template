@@ -9,11 +9,11 @@ translationKey: seiten-steuern/entwurf-und-ungelistet
 
 ## `draft: true` — die Seite wird nicht gebaut
 
-Ein Entwurf bleibt im Vault und in Obsidian, aber Quartz überspringt ihn beim Bauen. Es gibt keine
-Datei dafür in der Ausgabe, keinen Eintrag im Explorer, kein Suchergebnis; ein Link darauf führt
+Ein Entwurf bleibt im [[7-nachschlagen/01-glossar#Vault|Vault]] und in Obsidian, aber Quartz überspringt ihn beim Bauen. Es gibt keine
+Datei dafür in der Ausgabe, keinen Eintrag im [[7-nachschlagen/01-glossar#Explorer|Explorer]], kein Suchergebnis; ein Link darauf führt
 ins Leere. Das ist der Weg für alles, was noch nicht fertig ist.
 
-Dafür sorgt das Plugin *Remove draft*. Ist es abgeschaltet, werden Entwürfe wie alle anderen Seiten
+Dafür sorgt das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Remove draft*. Ist es abgeschaltet, werden Entwürfe wie alle anderen Seiten
 gebaut.
 
 ## `unlisted: true` — gebaut, aber unsichtbar

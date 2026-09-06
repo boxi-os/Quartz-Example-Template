@@ -10,12 +10,12 @@ translationKey: gestaltung/erzeugte-seiten/fehlerseite
 
 ## Von Haus aus
 
-Die 404-Seite nutzt dasselbe Raster wie jede andere Seite — mit Explorer, Graph und Rückverweisen
+Die 404-Seite nutzt dasselbe Raster wie jede andere Seite — mit [[7-nachschlagen/01-glossar#Explorer|Explorer]], [[7-nachschlagen/01-glossar#Graph|Graph]] und [[7-nachschlagen/01-glossar#Rückverweise|Rückverweisen]]
 um eine Fehlermeldung herum.
 
 ## In dieser Vorlage
 
-Sie nutzt den Frame **`focus`**. Der steht auf demselben Zwölf-Spalten-Raster wie alles andere und
+Sie nutzt den [[7-nachschlagen/01-glossar#Frame|Frame]] **`focus`**. Der steht auf demselben Zwölf-Spalten-Raster wie alles andere und
 setzt die Meldung in dieselben sechs Spalten, in denen sonst der Artikel steht — beide Randspalten
 bleiben reserviert und leer. Das ist der Punkt: Eine Fehlerseite, die ihren Text irgendwo anders
 hinsetzt als der Rest der Site, wirkt wie eine fremde Seite und nicht wie eine fehlende.
@@ -26,7 +26,7 @@ Graph, kein Inhaltsverzeichnis. Kopfbereich und Fußzeile bleiben, und mit dem K
 der Werkzeugleiste auch Suche und Farbschema-Umschalter — vorher gab es auf der Fehlerseite beides
 nicht.
 
-Die Luft nach oben setzt das Stylesheet der Seite, nicht der Frame: Der Innenabstand eines Frames
+Die Luft nach oben setzt das [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]] der Seite, nicht der Frame: Der Innenabstand eines Frames
 verschiebt auch den Kopfbereich, und eine Site, deren Wortmarke auf der Fehlerseite sechzig Pixel
 tiefer sitzt, sieht kaputt aus statt ruhig.
 
@@ -43,7 +43,7 @@ Ausprobieren: eine beliebige nicht existierende Adresse aufrufen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 6 Variablen liest `page-404.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 6 Variablen liest `page-404.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

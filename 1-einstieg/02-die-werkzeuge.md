@@ -21,13 +21,13 @@ zeigt, was man darin schreiben kann.
 ## Quartz — hieraus wird eine Website
 
 Quartz ist ein **Static-Site-Generator**: ein Programm, das aus einem Ordner voller
-Markdown-Dateien einen Ordner voller HTML-Seiten macht — HTML ist die Sprache, die ein Browser
-versteht. Diesen Vorgang nennt man **Build** (Bau). Das Ergebnis ist eine fertige Website ohne
+Markdown-Dateien einen Ordner voller HTML-Seiten macht — [[7-nachschlagen/01-glossar#HTML|HTML]] ist die Sprache, die ein Browser
+versteht. Diesen Vorgang nennt man **[[7-nachschlagen/01-glossar#Build|Build]]** (Bau). Das Ergebnis ist eine fertige Website ohne
 Datenbank und ohne Programm dahinter, die man auf jeden Webspace legen kann. Quartz kennt
-Obsidians Schreibweise: Wikilinks, Callouts und eingebettete Bilder werden richtig übersetzt.
+Obsidians Schreibweise: [[7-nachschlagen/01-glossar#Wikilink|Wikilinks]], [[7-nachschlagen/01-glossar#Callout|Callouts]] und eingebettete Bilder werden richtig übersetzt.
 
-Quartz besteht aus **Plugins** — Bausteinen, von denen jeder eine Aufgabe hat: Einer baut den
-Explorer links, einer das Inhaltsverzeichnis rechts, einer die Suche, einer liest das Datum einer
+Quartz besteht aus **Plugins** — [[7-nachschlagen/01-glossar#Baustein|Bausteinen]], von denen jeder eine Aufgabe hat: Einer baut den
+[[7-nachschlagen/01-glossar#Explorer|Explorer]] links, einer das Inhaltsverzeichnis rechts, einer die Suche, einer liest das Datum einer
 Datei. Welche Plugins es gibt und wie sie eingestellt sind, steht in einer Konfigurationsdatei
 namens `quartz.config.yaml` im Projekt.
 
@@ -52,7 +52,7 @@ Zeile, was sich geändert hat. Ein Ordner, dessen Geschichte git führt, heißt 
 
 Man muss git nicht bedienen können, um diese Vorlage zu benutzen. Es kommt trotzdem an drei
 Stellen vor: QuartzControl braucht es für neue Projekte, für Plugins aus einer git-Quelle und für
-seine Snapshots — und nimmt das git des Rechners oder bringt ein eigenes mit. Das Datum einer Seite
+seine [[7-nachschlagen/01-glossar#Snapshot|Snapshots]] — und nimmt das git des Rechners oder bringt ein eigenes mit. Das Datum einer Seite
 kann Quartz aus git lesen (hier nicht; warum, steht unter
 [[4-seiten-steuern/01-titel-beschreibung-datum|4.1 Titel, Beschreibung, Datum]]). Und wer seine
 Website über ein git-Repository veröffentlicht, etwa bei GitHub Pages, schickt sie mit git dorthin.
@@ -65,7 +65,7 @@ Obsidian ─schreibt─▶ Vault ◀─Symlink─ Projekt ─Quartz baut─▶ W
                                          └───── QuartzControl ───┘
 ```
 
-Der Vault ist die Quelle. Das Projekt zeigt mit einem **Symlink** darauf — einer Verknüpfung im
+Der Vault ist die Quelle. Das Projekt zeigt mit einem **[[7-nachschlagen/01-glossar#Symlink|Symlink]]** darauf — einer Verknüpfung im
 Dateisystem, die einen Ordner an einer zweiten Stelle erscheinen lässt, ohne ihn zu kopieren.
 Quartz liest den Inhalt durch diesen Link, baut daraus die Website, und QuartzControl steuert
 beides. Wie das im Einzelnen abläuft:

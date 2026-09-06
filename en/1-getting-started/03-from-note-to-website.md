@@ -12,8 +12,8 @@ each has a place.
 
 ## 1 · Writing — in Obsidian
 
-You open the vault in Obsidian and write. A new file is a new page; a folder a branch in the
-explorer; a `[[wikilink]]` a reference that the graph and the backlinks see. Header lines between
+You open the [[en/7-reference/01-glossary#Vault|vault]] in Obsidian and write. A new file is a new page; a folder a branch in the
+[[en/7-reference/01-glossary#Explorer|explorer]]; a `[[wikilink]]` a reference that the [[en/7-reference/01-glossary#Graph|graph]] and the [[en/7-reference/01-glossary#Backlinks|backlinks]] see. Header lines between
 two `---` at the very top of the file — the **frontmatter** — give the page its title,
 description, date and tags; everything you can control with it stands in
 [[en/4-controlling-a-page/index|4 Controlling a page]].
@@ -30,15 +30,15 @@ browser seconds later.
 ## 3 · Building — the build
 
 The same area can also **build** the site without showing it: Quartz reads all notes, applies the
-plugins — resolving links, generating the table of contents, indexing the search, creating pages
-for folders and tags — and writes finished HTML files into the output folder `public/`. A draft
-(`draft: true` in the frontmatter) is left out; see
+[[en/7-reference/01-glossary#Plugin|plugins]] — resolving links, generating the table of contents, indexing the search, creating pages
+for folders and tags — and writes finished [[en/7-reference/01-glossary#HTML|HTML]] files into the output folder `public/`. A draft
+(`draft: true` in the [[en/7-reference/01-glossary#Frontmatter|frontmatter]]) is left out; see
 [[en/4-controlling-a-page/02-draft-and-unlisted|4.2 Draft and unlisted]].
 
 ## 4 · Publishing
 
-Under *Publish* the app sends the output folder to a target: a folder, a server via rsync, a git
-repository for GitHub Pages for instance, or it triggers a webhook. The credentials for that the
+Under *Publish* the app sends the output folder to a target: a folder, a server via rsync, a [[en/7-reference/01-glossary#git|git]]
+[[en/7-reference/01-glossary#Repository|repository]] for GitHub Pages for instance, or it triggers a webhook. The credentials for that the
 app keeps encrypted. From that moment on the page is public.
 
 ## Where the content lives — and why as a symlink

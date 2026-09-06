@@ -18,7 +18,7 @@ cover: "[[assets/covers/cover-callouts.svg]]"
 ````
 
 > [!info] Außen
-> Text im äußeren Callout.
+> Text im äußeren [[7-nachschlagen/01-glossar#Callout|Callout]].
 >
 > > [!tip] Innen
 > > Der innere verliert seinen Rahmen, behält aber den Farbbalken.

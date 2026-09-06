@@ -19,7 +19,7 @@ Three hyphens on a line of their own. The rule separates sections that do not de
 their own.
 
 > [!warning] Careful at the start of a file
-> Three hyphens at the very top of the file open the **frontmatter**, not a rule. Anyone wanting to
+> Three hyphens at the very top of the file open the **[[en/7-reference/01-glossary#Frontmatter|frontmatter]]**, not a rule. Anyone wanting to
 > begin a page with a rule puts a paragraph in front of it.
 
 ## In this template

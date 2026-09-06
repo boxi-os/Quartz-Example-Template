@@ -37,4 +37,4 @@ That costs \$5.
 
 That costs \$5.
 
-Rendering is done with KaTeX; set on the *LaTeX* plugin through `renderEngine`.
+Rendering is done with KaTeX; set on the *LaTeX* [[en/7-reference/01-glossary#Plugin|plugin]] through `renderEngine`.

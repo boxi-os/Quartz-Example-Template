@@ -1,6 +1,6 @@
 ---
 title: 6.2 Farben und Kontrast
-description: Neun Rollen, zwei davon verkehrt herum benannt — und 83 gemessene Paare.
+description: Neun Rollen, zwei davon verkehrt herum benannt — und 89 gemessene Paare.
 section: Anpassen
 tags:
   - anpassen
@@ -11,7 +11,7 @@ translationKey: anpassen/farben-und-kontrast
 
 Quartz benennt seine Palette nach Rollen. **Zwei davon lesen sich rückwärts:** `light` ist der
 *Hintergrund*, `dark` der *Text* — auch im dunklen Modus, wo `light` fast schwarz ist. Wer das
-übersieht, baut sein erstes dunkles Farbschema falsch herum.
+übersieht, baut sein erstes dunkles [[7-nachschlagen/01-glossar#Farbschema|Farbschema]] falsch herum.
 
 | Rolle | Wofür | hell | dunkel |
 | --- | --- | --- | --- |
@@ -34,7 +34,7 @@ beide messen sich gegen jeden Grund, auf dem sie vorkommen (6,36:1 für Sienna a
 
 ## Was gemessen wird
 
-**87 Paare**, bei jedem Lauf: jede Text-auf-Grund-Kombination in beiden Modi, die Alpha-Farben über
+**89 Paare**, bei jedem Lauf: jede Text-auf-Grund-Kombination in beiden Modi, die Alpha-Farben über
 den Grund gerechnet, alle dreizehn Callout-Farben gegen den Grund *und* gegen ihre eigene getönte
 Fläche, und seit dem 05.09.2026 die fünf korrigierten Farben des Syntax-Themas gegen die Fläche des
 Codeblocks. Der knappste Wert liegt bei 4,68:1 gegen eine Schwelle von 4,5.

@@ -14,7 +14,7 @@ A box with the local surroundings, plus a symbol for opening the global view.
 
 ## In this template
 
-The graph draws itself and takes its colours from the CSS variables at runtime. The template
+The graph draws itself and takes its colours from the [[en/7-reference/01-glossary#CSS and SCSS|CSS]] variables at runtime. The template
 therefore designs **only the box around it**, not the drawing:
 
 - a **square field** (`aspect-ratio: 1`) — the local graph is round, and a wide box wastes the
@@ -24,7 +24,7 @@ therefore designs **only the box around it**, not the drawing:
 - the **global view** gets the same shadow as the search — both really do float
 
 A half-recoloured graph would be worse than one in foreign colours: the drawing resolves its own
-colours, and a stylesheet working against that always catches only half of them.
+colours, and a [[en/7-reference/01-glossary#Stylesheet|stylesheet]] working against that always catches only half of them.
 
 **On narrow screens it is hidden** (`display: desktop-only`) — a net of dots in a column 390 px
 wide shows nothing.

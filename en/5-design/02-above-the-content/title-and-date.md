@@ -27,17 +27,17 @@ still than the text. The values are the content; the punctuation steps back.
 
 ## Where the date comes from
 
-From the frontmatter, otherwise from the file system — in that order, set on the *Created modified
-date* plugin.
+From the [[en/7-reference/01-glossary#Frontmatter|frontmatter]], otherwise from the file system — in that order, set on the *Created modified
+date* [[en/7-reference/01-glossary#Plugin|plugin]].
 
 > [!warning] A symlink takes Quartz's git dates away
-> Out of the box the order is `frontmatter → git → filesystem`, and git would be the better source:
-> a commit date survives a copy, a restore and a fresh checkout, a file's modification time does
-> not. It is missing here all the same. This site's content lives in an Obsidian vault that
-> `content/` points to as a symlink; the plugin follows the symlink and does find the vault's git,
+> Out of the box the order is `frontmatter → git → filesystem`, and [[en/7-reference/01-glossary#git|git]] would be the better source:
+> a [[en/7-reference/01-glossary#Commit|commit]] date survives a copy, a restore and a fresh checkout, a file's modification time does
+> not. It is missing here all the same. This site's content lives in an Obsidian [[en/7-reference/01-glossary#Vault|vault]] that
+> `content/` points to as a [[en/7-reference/01-glossary#Symlink|symlink]]; the plugin follows the symlink and does find the vault's git,
 > but then computes the file's path against the project directory — and so asks for a path that
 > leads back out of the vault. Every lookup fails. That is why **250 of the 254 pages** produced
-> *"isn't yet tracked by git, dates will be inaccurate"* in the build log; the only silent ones were
+> *"isn't yet tracked by git, dates will be inaccurate"* in the [[en/7-reference/01-glossary#Build|build]] log; the only silent ones were
 > the four pages carrying a `lastmod` in their frontmatter, which never ask git in the first place.
 > The date came from the file system the whole time, so `git` in the list was nothing but noise. The
 > bug is reported; once it is fixed, `git` belongs back in front.
@@ -50,7 +50,7 @@ date* plugin.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by `meta-title-and-date.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by `meta-title-and-date.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -62,5 +62,5 @@ These 7 variables are read by `meta-title-and-date.scss`. They can be changed in
 | `--tpl-text-3xl` | `2.25rem` | 6.4 Variables, Error page |
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

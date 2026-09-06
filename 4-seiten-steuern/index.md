@@ -35,9 +35,9 @@ Wie man Frontmatter *schreibt* — die Datentypen, die Anzeige — steht in
 | `draft: true` | Die Seite wird nicht gebaut | [[4-seiten-steuern/02-entwurf-und-ungelistet\|4.2]] |
 | `unlisted: true` | Die Seite wird gebaut, erscheint aber in keiner Liste | [[4-seiten-steuern/02-entwurf-und-ungelistet\|4.2]] |
 | `aliases` | weitere Pfade, unter denen die Seite erreichbar ist | [[4-seiten-steuern/03-aliase\|4.3]] |
-| `tags` | Tag-Liste unter dem Titel, Tag-Seiten, Filter einer Base | [[5-gestaltung/02-ueber-dem-inhalt/tags\|Tags]] |
+| `tags` | Tag-Liste unter dem Titel, Tag-Seiten, Filter einer [[7-nachschlagen/01-glossar#Base\|Base]] | [[5-gestaltung/02-ueber-dem-inhalt/tags\|Tags]] |
 | eigene Felder wie `section` | erscheinen in der Eigenschaften-Tabelle | [[4-seiten-steuern/04-eigene-felder\|4.4]] |
-| `layoutBoxNote`, `layoutBoxCta`, … | eine Layout-Box auf dieser Seite ausblenden oder umfüllen | [[4-seiten-steuern/05-layout-boxen-je-seite\|4.5]] |
+| `layoutBoxNote`, `layoutBoxCta`, … | eine [[7-nachschlagen/01-glossar#Layout-Box\|Layout-Box]] auf dieser Seite ausblenden oder umfüllen | [[4-seiten-steuern/05-layout-boxen-je-seite\|4.5]] |
 | `cover` | ein Titelbild für Galerie und Kacheln | [[4-seiten-steuern/06-titelbild\|4.6]] |
 | `translationKey`, `lang` | die Seite mit ihrer Übersetzung verbinden | [[4-seiten-steuern/07-uebersetzung\|4.7]] |
 

@@ -9,7 +9,7 @@ translationKey: anpassen/zwei-sprachen/verknuepfung
 ---
 
 Damit der Umschalter von einer Seite zu ihrer Übersetzung führen kann, muss jemand sagen, welche
-zwei Seiten zusammengehören. Das Plugin kennt dafür drei Wege und probiert sie in dieser
+zwei Seiten zusammengehören. Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] kennt dafür drei Wege und probiert sie in dieser
 Reihenfolge.
 
 ## 1 · `translationKey` im Frontmatter
@@ -21,17 +21,17 @@ translationKey: formatierung/text/betonung
 ---
 ```
 
-Zwei Seiten mit demselben Schlüssel sind Übersetzungen voneinander. **So arbeiten 122 der 127
+Zwei Seiten mit demselben Schlüssel sind Übersetzungen voneinander. **So arbeiten 128 der 133
 Paare dieser Website** — alles, was eine gewöhnliche Seite ist. Vier davon tragen zusätzlich
-Aliase, damit auch dieser Weg auf der Website zu sehen ist; verknüpft sind auch sie über den
+[[7-nachschlagen/01-glossar#Alias|Aliase]], damit auch dieser Weg auf der Website zu sehen ist; verknüpft sind auch sie über den
 Schlüssel. Von den übrigen fünf gehen drei den Weg darunter und eines den darunter; das letzte,
 die beiden Excalidraw-Zeichnungen, ist gar nicht verknüpft — ihre Seite rendert den Umschalter
-nicht, weil das Plugin ein eigenes Frame mitbringt.
+nicht, weil das Plugin ein eigenes [[7-nachschlagen/01-glossar#Frame|Frame]] mitbringt.
 
 Der Grund ist ein gemessener: Mehrere Seiten hier tragen denselben Titel. „Grundform" gibt es
-dreimal (Callouts, Tabellen, Fußnoten), „Code", „Eigenschaften" und „Callouts" je zweimal. Über
+dreimal ([[7-nachschlagen/01-glossar#Callout|Callouts]], Tabellen, Fußnoten), „Code", „Eigenschaften" und „Callouts" je zweimal. Über
 Titel oder Dateinamen wäre nicht entscheidbar, welche englische Seite gemeint ist; das Plugin
-erkennt das und verknüpft in so einem Fall lieber gar nicht, mit einer Warnung im Build.
+erkennt das und verknüpft in so einem Fall lieber gar nicht, mit einer Warnung im [[7-nachschlagen/01-glossar#Build|Build]].
 
 Als Schlüssel dient der deutsche Pfad ohne Endung. Er ist eindeutig, ändert sich selten, und man
 sieht der Zeile an, worauf sie zeigt.
@@ -55,13 +55,13 @@ ein guter Prüfstein dafür, dass wirklich über den Titel und nicht über den D
 wird.
 
 > [!warning] Warum nicht überall Aliase
-> Das Plugin *Alias redirects* baut für **jeden** Alias eine Weiterleitungsseite. Hätte jede der 127
-> deutschen Notizen ihren englischen Titel als Alias, entstünden 127 zusätzliche Seiten, die von
+> Das Plugin *Alias redirects* baut für **jeden** Alias eine Weiterleitungsseite. Hätte jede der 133
+> deutschen Notizen ihren englischen Titel als Alias, entstünden 133 zusätzliche Seiten, die von
 > `/emphasis` auf die *deutsche* Seite führen. Das ist kein Fehler, aber es war keine Entscheidung —
 > deshalb stehen die Aliase nur dort, wo sie etwas zeigen sollen.
 
 > [!note] Der Übersetzungsdienst ist hier nicht gelaufen
-> Das Obsidian-Plugin braucht einen API-Schlüssel für Google Translate oder DeepL. Es ist im Vault
+> Das Obsidian-Plugin braucht einen API-Schlüssel für Google Translate oder DeepL. Es ist im [[7-nachschlagen/01-glossar#Vault|Vault]]
 > installiert und für Deutsch → Englisch eingerichtet, der Schlüssel fehlt aber; die Aliase oben sind
 > in genau der Form eingetragen, die das Plugin schreiben würde. Wer einen Schlüssel hinterlegt,
 > kann sie ab dann über den Befehl *Translate note name* erzeugen lassen.
@@ -71,7 +71,7 @@ wird.
 Zwei Seiten, deren Pfad ohne Sprachanteil gleich ist, gehören zusammen. Auf dieser Website trifft
 das auf **genau ein Paar** zu, und zwar auf das sichtbarste: die Startseiten.
 `index.md` fällt in die Standardsprache, ihr Basispfad ist damit `index`; `en/index.md` liegt im
-Sprachordner, ihr Basispfad ist ebenfalls `index`. Beide sind ohne ein einziges Feld im Frontmatter
+Sprachordner, ihr Basispfad ist ebenfalls `index`. Beide sind ohne ein einziges Feld im [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]
 verknüpft.
 
 Für alle anderen Seiten greift der Weg nicht, weil die englischen Pfade englisch sind — aus

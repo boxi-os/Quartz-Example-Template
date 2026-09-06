@@ -17,11 +17,11 @@ cover: "[[assets/covers/cover-medien.svg]]"
 
 ![[beispiel-ton.wav]]
 
-The wikilink becomes an `<audio controls>` — with a play button, progress and volume, without
+The [[en/7-reference/01-glossary#Wikilink|wikilink]] becomes an `<audio controls>` — with a play button, progress and volume, without
 anyone doing anything for it. The formats supported are the ones the browser knows: **WAV**,
 **MP3**, **OGG**, **M4A**, **FLAC**, **WebM**.
 
-As HTML too, when attributes are needed:
+As [[en/7-reference/01-glossary#HTML|HTML]] too, when attributes are needed:
 
 ```md
 <audio src="assets/beispiel-ton.wav" controls preload="none"></audio>
@@ -52,7 +52,7 @@ and **OGV**.
 
 ### The poster frame
 
-`poster` decides what can be seen before playing. Without it the browser shows the first frame —
+`poster` decides what can be seen before playing. Without it the browser shows the first [[en/7-reference/01-glossary#Frame|frame]] —
 and with a fade-in that is black.
 
 ### YouTube and other services
@@ -61,7 +61,7 @@ and with a fade-in that is black.
 ![](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ```
 
-The *Obsidian flavored markdown* plugin turns the bare URL into an embed when `enableYouTubeEmbed`
+The *Obsidian flavored [[en/7-reference/01-glossary#Markdown|markdown]]* [[en/7-reference/01-glossary#Plugin|plugin]] turns the bare URL into an embed when `enableYouTubeEmbed`
 is active — in this template it is.
 
 ## In this template

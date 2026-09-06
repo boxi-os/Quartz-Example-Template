@@ -9,7 +9,7 @@ translationKey: formatierung/callouts/faltbar
 cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
-A `-` or `+` after the type makes the callout foldable.
+A `-` or `+` after the type makes the [[en/7-reference/01-glossary#Callout|callout]] foldable.
 
 ````md
 > [!question]- Folded (minus)

@@ -15,7 +15,7 @@ unterscheiden, lesen sich als Fehler.
 
 ## Drei Bauformen
 
-Das Plugin kennt drei Darstellungen. **Alle drei sind in dieser Vorlage gestaltet**, sichtbar ist
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] kennt drei Darstellungen. **Alle drei sind in dieser Vorlage gestaltet**, sichtbar ist
 eine — welche, entscheidet `switcher.style` in der Konfiguration.
 
 | Form | Was sie ist | Wofür sie taugt |
@@ -64,7 +64,7 @@ auf Englisch, unabhängig von der Browsersprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 23 Variablen liest `nav-language-switcher.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 23 Variablen liest `nav-language-switcher.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -74,7 +74,7 @@ Diese 23 Variablen liest `nav-language-switcher.scss`. Ändern lassen sie sich i
 | `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
 | `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 Variablen, Explorer |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 Variablen, [[7-nachschlagen/01-glossar#Explorer\|Explorer]] |
 | `--tpl-leading-snug` | `1.4rem` | 4 weitere Komponenten |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
@@ -92,5 +92,5 @@ Diese 23 Variablen liest `nav-language-switcher.scss`. Ändern lassen sie sich i
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-text-xl` | `1.4rem` | 6.4 Variablen |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

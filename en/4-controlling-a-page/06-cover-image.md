@@ -8,9 +8,9 @@ cover: "[[assets/covers/cover-index.svg]]"
 translationKey: seiten-steuern/titelbild
 ---
 
-A base — Obsidian's saved query over the vault, see
+A [[en/7-reference/01-glossary#Base|base]] — Obsidian's saved query over the [[en/7-reference/01-glossary#Vault|vault]], see
 [[en/3-obsidian-formats/01-bases/index|3.1 Bases]] — can show its entries as a gallery or as
-cards. Both views take an option `image:` that names a **property**; its value may be a wikilink
+cards. Both views take an option `image:` that names a **property**; its value may be a [[en/7-reference/01-glossary#Wikilink|wikilink]]
 to an image, a path or a hex colour. Without it every tile shows the same hatched placeholder.
 
 This site uses the field `cover` for it:
@@ -28,9 +28,9 @@ the chapter page, fourteen images in all. The bases *All views* and *Formatting 
 
 ## Where the images live
 
-In the vault under `assets/covers/`, like all media of this site: there the vault's git versions
+In the vault under `assets/covers/`, like all media of this site: there the vault's [[en/7-reference/01-glossary#git|git]] versions
 them, and there Obsidian finds them while writing. The fourteen images are generated, not drawn —
-a script in QuartzControl's repository writes them.
+a script in QuartzControl's [[en/7-reference/01-glossary#Repository|repository]] writes them.
 
 The colours are deliberately close together: the same band of brightness, little saturation,
 around the navy and the sienna of the palette. Fourteen full colours would be the loudest thing on

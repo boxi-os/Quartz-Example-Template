@@ -39,7 +39,7 @@ Which notes are taken in. Joined with `and`, `or` and `not`. Common expressions:
 | --- | --- |
 | `file.hasTag("x")` | carries this tag |
 | `file.inFolder("x")` | sits in this folder |
-| `file.ext == "md"` | is a Markdown file |
+| `file.ext == "md"` | is a [[en/7-reference/01-glossary#Markdown\|Markdown]] file |
 | `property != null` | field is set |
 
 ## formulas
@@ -49,7 +49,7 @@ together or shortening a path.
 
 ## views
 
-A base can have several views of the same data. The Quartz plugin knows `table`, `list`, `cards`,
+A base can have several views of the same data. The Quartz [[en/7-reference/01-glossary#Plugin|plugin]] knows `table`, `list`, `cards`,
 `board` and `gallery`; the default is `table`.
 
 | Key | Effect |
@@ -63,12 +63,12 @@ A base can have several views of the same data. The Quartz plugin knows `table`,
 
 ## Where this is edited
 
-Obsidian has an interface for it — the YAML file is only the store. Anyone writing it by hand
+Obsidian has an interface for it — the [[en/7-reference/01-glossary#YAML|YAML]] file is only the store. Anyone writing it by hand
 should open it in Obsidian afterwards and check it.
 
 ## Linking to one
 
-A wikilink to such a file needs the **extension**:
+A [[en/7-reference/01-glossary#Wikilink|wikilink]] to such a file needs the **extension**:
 
 ```md
 [[en/3-obsidian-formats/01-bases/Formatting-Pages.base|Formatting pages]]

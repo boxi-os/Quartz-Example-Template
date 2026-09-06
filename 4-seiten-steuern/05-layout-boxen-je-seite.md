@@ -11,13 +11,13 @@ layoutBoxCta:
 translationKey: seiten-steuern/layout-boxen-je-seite
 ---
 
-Eine **Layout-Box** ist ein Kasten mit eigenem Inhalt, den das Plugin *quartz-layout-box* an eine
+Eine **Layout-Box** ist ein Kasten mit eigenem Inhalt, den das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *quartz-layout-box* an eine
 Stelle des Seitenlayouts setzt — die Wortmarke oben, die Box „Über dieses Handbuch“ links, der
 Kasten „Weiterlesen“ unter dem Text. Diese Vorlage hat fünf davon; was jede tut, steht in
 [[5-gestaltung/05-layout-boxen/index|5.5 Layout-Boxen]]. Hier geht es darum, wie eine einzelne
 Seite eine davon anders haben kann.
 
-Diese Seite steuert zwei der fünf Instanzen über ihr eigenes Frontmatter:
+Diese Seite steuert zwei der fünf Instanzen über ihr eigenes [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]:
 
 ```yaml
 ---
@@ -47,7 +47,7 @@ nur umfüllen.
 
 | Schlüssel | Ort | Was die Box ist |
 | --- | --- | --- |
-| `layoutBoxMark` | Kopfbereich | die Wortmarke, ein Bild je Farbschema |
+| `layoutBoxMark` | Kopfbereich | die Wortmarke, ein Bild je [[7-nachschlagen/01-glossar#Farbschema\|Farbschema]] |
 | `layoutBoxNote` | linke Spalte | „Über dieses Handbuch“, aus einer Markdown-Datei, aufklappbar |
 | `layoutBoxHint` | linke Spalte | ein Hinweis, nur auf schmalen Bildschirmen |
 | `layoutBoxCta` | nach dem Inhalt | „Weiterlesen“, mit Platzhaltern |

@@ -9,7 +9,7 @@ translationKey: formatierung/medien/einbettungen
 cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
-Das Plugin *Layout Box* dieser Vorlage schaltet Bilder nach Farbschema um: Ein Element mit der
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Layout Box* dieser Vorlage schaltet Bilder nach [[7-nachschlagen/01-glossar#Farbschema|Farbschema]] um: Ein Element mit der
 Klasse `img-light` erscheint im hellen Modus, `img-dark` im dunklen.
 
 ```html

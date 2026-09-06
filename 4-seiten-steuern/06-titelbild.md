@@ -8,10 +8,10 @@ cover: "[[assets/covers/cover-index.svg]]"
 translationKey: seiten-steuern/titelbild
 ---
 
-Eine Base — Obsidians gespeicherte Abfrage über den Vault, siehe
+Eine [[7-nachschlagen/01-glossar#Base|Base]] — Obsidians gespeicherte Abfrage über den [[7-nachschlagen/01-glossar#Vault|Vault]], siehe
 [[3-obsidian-formate/01-bases/index|3.1 Bases]] — kann ihre Einträge als Galerie oder als Kacheln
 zeigen. Beide Ansichten nehmen eine Option `image:`, die den **Namen einer Eigenschaft** nennt;
-deren Wert darf ein Wikilink auf ein Bild, ein Pfad oder eine Hex-Farbe sein. Ohne sie zeigt jede
+deren Wert darf ein [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] auf ein Bild, ein Pfad oder eine Hex-Farbe sein. Ohne sie zeigt jede
 Kachel denselben schraffierten Platzhalter.
 
 Diese Website nutzt dafür das Feld `cover`:
@@ -29,9 +29,9 @@ mit `image: cover`, dass sie dieses Feld lesen; die Galerie unter
 
 ## Wo die Bilder liegen
 
-Im Vault unter `assets/covers/`, wie alle Medien dieser Website: Dort versioniert sie das git des
+Im Vault unter `assets/covers/`, wie alle Medien dieser Website: Dort versioniert sie das [[7-nachschlagen/01-glossar#git|git]] des
 Vaults, und dort findet Obsidian sie beim Schreiben. Die vierzehn Bilder sind erzeugt, nicht
-gezeichnet — ein Skript im Repository von QuartzControl schreibt sie.
+gezeichnet — ein Skript im [[7-nachschlagen/01-glossar#Repository|Repository]] von QuartzControl schreibt sie.
 
 Die Farben sind absichtlich eng beieinander: gleiches Helligkeitsband, wenig Sättigung, um das Navy
 und das Sienna der Palette herum. Vierzehn volle Farben wären das Lauteste auf einer Website, deren

@@ -17,12 +17,12 @@ A row with the folders of the path, separated by a character.
 - The **last crumb is the current page**: set more heavily and not clickable. A link to the page
   you are standing on is a dead end.
 - The **separator** is muted and cannot be selected — it should not end up in a copy.
-- The row **wraps** rather than overflowing. Four levels deep, the path on a phone is longer than
+- The row **wraps** rather than overflowing. Three folders deep, the path on a phone is longer than
   the screen.
 - Every crumb has **padding above and below**, so that it can be hit on a touchscreen.
 
-A deep example: [[en/7-reference/02-abbreviations|List]] — there the whole path stands
-over five stations.
+A deep example: [[en/2-formatting/05-callouts/basics|Callouts — the basic form]] — there the
+whole path stands over four stations.
 
 > [!note] Not on the home page
 > The component is configured with `condition: not-index`; on a folder home page the last crumb
@@ -35,7 +35,7 @@ over five stations.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -47,5 +47,5 @@ These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in th
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

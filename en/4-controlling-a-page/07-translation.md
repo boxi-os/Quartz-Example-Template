@@ -10,7 +10,7 @@ translationKey: seiten-steuern/uebersetzung
 
 This site exists in German and English. For the switcher at the top right to find its way from a
 page to its translation, both have to say that they belong together. That happens in the
-frontmatter — in three ways, of which you usually need only the first.
+[[en/7-reference/01-glossary#Frontmatter|frontmatter]] — in three ways, of which you usually need only the first.
 
 ## `translationKey` — the normal case
 
@@ -27,8 +27,8 @@ shows what it points to. This is how all regular pages here are connected.
 
 ## `aliases` — the way via the title
 
-An alias that matches the title or file name of the page in the other language connects the two
-as well. The Obsidian plugin *Multilingual* writes such aliases automatically. Three pages of this
+An [[en/7-reference/01-glossary#Alias|alias]] that matches the title or file name of the page in the other language connects the two
+as well. The Obsidian [[en/7-reference/01-glossary#Plugin|plugin]] *Multilingual* writes such aliases automatically. Three pages of this
 site deliberately hang on that alone, to demonstrate the way.
 
 ## Same path

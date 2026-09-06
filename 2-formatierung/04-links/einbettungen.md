@@ -9,7 +9,7 @@ translationKey: formatierung/links/einbettungen
 cover: "[[assets/covers/cover-links.svg]]"
 ---
 
-Ein Ausrufezeichen vor dem Wikilink bettet den Inhalt ein, statt darauf zu verweisen.
+Ein Ausrufezeichen vor dem [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] bettet den Inhalt ein, statt darauf zu verweisen.
 
 ```md
 ![[2-formatierung/02-struktur/trennlinien]]
@@ -46,7 +46,7 @@ Auch eine URL lässt sich einbetten:
 ```
 
 Das lädt bei jedem Seitenaufruf von einem fremden Server. Für eine Website, die auch offline und in
-zehn Jahren noch funktionieren soll, ist die Datei im Vault die bessere Wahl.
+zehn Jahren noch funktionieren soll, ist die Datei im [[7-nachschlagen/01-glossar#Vault|Vault]] die bessere Wahl.
 
 ## In dieser Vorlage
 
@@ -56,4 +56,4 @@ umgebenden Text getrennt.
 
 > [!warning] Vorsicht mit Ketten
 > Bettet die eingebettete Seite ihrerseits etwas ein, wird die Seite schnell unübersichtlich — und
-> ein Kreis (A bettet B ein, B bettet A ein) ist ein Fehler, den erst der Build zeigt.
+> ein Kreis (A bettet B ein, B bettet A ein) ist ein Fehler, den erst der [[7-nachschlagen/01-glossar#Build|Build]] zeigt.

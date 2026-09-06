@@ -21,7 +21,7 @@ cover: "[[assets/covers/cover-listen.svg]]"
 
 ## Die Zahlen im Quelltext sind egal
 
-Markdown nummeriert selbst durch. Wer überall `1.` schreibt, bekommt trotzdem 1, 2, 3 — praktisch,
+[[7-nachschlagen/01-glossar#Markdown|Markdown]] nummeriert selbst durch. Wer überall `1.` schreibt, bekommt trotzdem 1, 2, 3 — praktisch,
 wenn später ein Punkt dazwischenkommt.
 
 ```md

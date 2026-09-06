@@ -8,7 +8,7 @@ translationKey: formatierung/callouts/index
 cover: "[[assets/covers/cover-callouts.svg]]"
 ---
 
-Kästen, die den Lesefluss absichtlich unterbrechen. Ihre Farben sind in dieser Vorlage neu gesetzt, weil Quartz’ eigene den Kontrast nicht halten.
+Kästen, die den Lesefluss absichtlich unterbrechen. Ihre Farben sind in dieser Vorlage neu gesetzt, weil Quartz’ eigene den [[7-nachschlagen/01-glossar#Kontrast|Kontrast]] nicht halten.
 
 ## Die Seiten
 

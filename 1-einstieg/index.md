@@ -15,7 +15,7 @@ gemacht hat, ist hier richtig. Wer Quartz kennt, kann es überfliegen und bei
 
 1. [[1-einstieg/01-was-diese-vorlage-ist|1.1 Was diese Vorlage ist]] — die Idee dahinter und die
    drei Entscheidungen, aus denen alles folgt.
-2. [[1-einstieg/02-die-werkzeuge|1.2 Die Werkzeuge]] — Obsidian, Quartz, QuartzControl und git:
+2. [[1-einstieg/02-die-werkzeuge|1.2 Die Werkzeuge]] — Obsidian, Quartz, QuartzControl und [[7-nachschlagen/01-glossar#git|git]]:
    was jedes davon tut und wie sie zusammenhängen.
 3. [[1-einstieg/03-von-der-notiz-zur-website|1.3 Von der Notiz zur Website]] — der Weg einer
    Änderung vom Tippen bis zur veröffentlichten Seite.
@@ -37,7 +37,7 @@ an der gebauten Website ermittelt. Das ist der Grund, warum das Handbuch so viel
 Sie sind nachprüfbar.
 
 **Kästen mit Bedeutung.** Ein Kasten vom Typ *warning* nennt etwas, das man leicht falsch macht.
-Einer vom Typ *bug* einen Fehler in Quartz oder einem Plugin, den die Vorlage nicht beheben, nur
+Einer vom Typ *bug* einen Fehler in Quartz oder einem [[7-nachschlagen/01-glossar#Plugin|Plugin]], den die Vorlage nicht beheben, nur
 umgehen kann. *note* ist eine Nebenbemerkung, *tip* ein Handgriff. Wie die Kästen aussehen, zeigt
 [[2-formatierung/05-callouts/alle-typen|Alle Typen]].
 

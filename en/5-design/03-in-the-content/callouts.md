@@ -11,10 +11,10 @@ translationKey: gestaltung/im-inhalt/callouts
 
 ## Out of the box
 
-Quartz knows thirteen types and sets twelve colours for them; `note` keeps the base colour. Each
+Quartz knows thirteen types and sets twelve colours for them; `note` keeps the [[en/7-reference/01-glossary#Base|base]] colour. Each
 holds in both colour schemes alike, plus a border and a very pale surface.
 
-Measured against the light ground of this template, **eleven of thirteen** fail the WCAG
+Measured against the light ground of this template, **eleven of thirteen** fail the [[en/7-reference/01-glossary#WCAG|WCAG]]
 threshold:
 
 | Type | Default colour | against the light ground |
@@ -32,18 +32,18 @@ is still recognisable by its colour.
 
 Plus three structural decisions:
 
-- **A bar rather than a full frame.** A callout should stand out without cutting the column in two.
+- **A bar rather than a full [[en/7-reference/01-glossary#Frame|frame]].** A callout should stand out without cutting the column in two.
 - **The title is the control** when the callout is foldable — with a focus ring of its own in the
   type colour.
 - **Nested callouts** give up their frame and keep only the bar.
 
-The check reads the colours **from the stylesheet**, not from a copy in the configuration. A value
+The check reads the colours **from the [[en/7-reference/01-glossary#Stylesheet|stylesheet]]**, not from a copy in the configuration. A value
 changed here is measured here.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 19 variables are read by `body-callouts.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 19 variables are read by `body-callouts.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

@@ -36,13 +36,13 @@ steht, schlägt die ganze Vorlage, ohne dass man ihr etwas wegnehmen muss.
 
 > [!warning] Auch `a11y.scss` steht dann nicht mehr am Ende
 > Diese eine Datei liegt mit Absicht zuletzt: Ihre Regeln müssen Entscheidungen weiter oben
-> gewinnen — eine Bedienhilfe, die nur bei Hover erschiene, ein Zustand, der nur an einer Farbe
+> gewinnen — eine Bedienhilfe, die nur bei [[7-nachschlagen/01-glossar#Hover|Hover]] erschiene, ein Zustand, der nur an einer Farbe
 > hinge. Eine eigene Datei landet dahinter. Wenn nach einer Änderung etwas verschwindet, das mit
-> Tastatur, Kontrast oder Druck zu tun hat, ist das die erste Stelle zum Nachsehen.
+> Tastatur, [[7-nachschlagen/01-glossar#Kontrast|Kontrast]] oder Druck zu tun hat, ist das die erste Stelle zum Nachsehen.
 
 ## Die Ausnahme: Diagramme
 
-Bei Mermaid reicht keiner der drei Wege ohne `!important`. Quartz übergibt dem Diagramm-Renderer
+Bei [[7-nachschlagen/01-glossar#Mermaid|Mermaid]] reicht keiner der drei Wege ohne `!important`. Quartz übergibt dem Diagramm-Renderer
 **neun** seiner rund hundert Theme-Variablen (`primaryColor`, `lineColor`, `secondaryColor` und
 sechs weitere, fest im Quartz-Skript verdrahtet). Alles andere färbt Mermaid selbst — und schreibt
 es als `<style>` mit der Kennung des jeweiligen SVG in die Grafik, also mit einem ID-Selektor, den

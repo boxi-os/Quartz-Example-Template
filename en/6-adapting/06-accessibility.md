@@ -10,7 +10,7 @@ translationKey: anpassen/barrierefreiheit
 
 ## No state hangs on colour alone
 
-The active entry in the explorer has colour, weight **and** a bar. A completed task is muted **and**
+The active entry in the [[en/7-reference/01-glossary#Explorer|explorer]] has colour, weight **and** a bar. A completed task is muted **and**
 struck through. An external link is a different colour **and** carries an arrow. Anyone who cannot
 tell colours apart loses no information by it.
 
@@ -33,13 +33,13 @@ at which nobody has to aim.
 | Setting | Effect |
 | --- | --- |
 | `prefers-reduced-motion` | sets `--tpl-motion` to 0 — one place for every transition |
-| `prefers-reduced-transparency` | replaces the translucent surfaces of search and graph |
+| `prefers-reduced-transparency` | replaces the translucent surfaces of search and [[en/7-reference/01-glossary#Graph\|graph]] |
 | `forced-colors` | draws borders where the template otherwise works with surfaces |
 | Print | removes every bar, writes out link targets, prevents breaks inside blocks |
 
 ## What is missing
 
-Quartz renders **no skip link**, and a stylesheet cannot add one — the element has to be in the
+Quartz renders **no skip link**, and a [[en/7-reference/01-glossary#Stylesheet|stylesheet]] cannot add one — the element has to be in the
 markup to be focusable. On a page with an explorer, reaching the article by keyboard therefore
 costs one tab stop per row of the tree. The design for it is ready; it takes effect as soon as such
 a link exists.
@@ -47,7 +47,7 @@ a link exists.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-This variable is read by `a11y.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+This variable is read by `a11y.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

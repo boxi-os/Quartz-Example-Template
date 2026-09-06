@@ -58,7 +58,7 @@ und `example` ist eines davon (2,81:1). Das Rot von `danger`, `failure` und `bug
 **beiden** Modi, bei 4,20 und 4,16:1.
 
 **In dieser Vorlage** sind alle dreizehn neu gesetzt, je Modus einmal, und werden bei jedem Lauf
-gemessen: gegen den Seitengrund *und* gegen die eigene getönte Fläche des Callouts. Der Farbton
+gemessen: gegen den Seitengrund *und* gegen die eigene getönte Fläche des [[7-nachschlagen/01-glossar#Callout|Callouts]]. Der Farbton
 bleibt erhalten — Blau bleibt Blau —, damit der Typ weiterhin an der Farbe erkennbar ist.
 
 Die Zahlen dazu stehen unter [[6-anpassen/02-farben-und-kontrast|Farben und Kontrast]].

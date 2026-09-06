@@ -55,7 +55,7 @@ GIF kennt keine Kompression über die Zeit und wird schnell größer als ein MP4
 
 > [!warning] Automatische Bewegung ist eine Zugänglichkeitsfrage
 > Ein endlos laufendes GIF lässt sich nicht anhalten. Bei Inhalten, die länger als fünf Sekunden
-> laufen, verlangt WCAG eine Möglichkeit zum Stoppen — dafür ist ein Video mit Bedienelementen die
+> laufen, verlangt [[7-nachschlagen/01-glossar#WCAG|WCAG]] eine Möglichkeit zum Stoppen — dafür ist ein Video mit Bedienelementen die
 > richtige Wahl.
 
 ### SVG — gezeichnet statt fotografiert
@@ -63,7 +63,7 @@ GIF kennt keine Kompression über die Zeit und wird schnell größer als ein MP4
 ![Der Aufbau des editorial-Frames: Kopfbereich, Navigation, Inhalt, Apparat](assets/frame-aufbau.svg)
 
 Ein SVG ist Text. Es bleibt bei jeder Größe scharf, lässt sich versionieren und kann seine Farben
-aus CSS beziehen.
+aus [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]] beziehen.
 
 ## Größe steuern — nur mit der Wikilink-Form
 
@@ -93,7 +93,7 @@ Auch Breite × Höhe ist möglich, verzerrt aber, wenn das Verhältnis nicht sti
 > zum Alternativtext, `|300` eingeschlossen. Die Wikilink-Form setzt die Größe, lässt `alt` aber
 > leer.
 >
-> Wer beides braucht, schreibt HTML:
+> Wer beides braucht, schreibt [[7-nachschlagen/01-glossar#HTML|HTML]]:
 > `<img src="assets/bild.png" alt="Beschreibung" width="300">`
 
 Und genau so, mit beidem:

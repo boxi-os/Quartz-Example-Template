@@ -15,7 +15,7 @@ The properties sit as a collapsible table between the date and the text.
 
 | Option | Effect |
 | --- | --- |
-| `includeAll: true` | shows **every** frontmatter field |
+| `includeAll: true` | shows **every** [[en/7-reference/01-glossary#Frontmatter\|frontmatter]] field |
 | `includedProperties` | shows only these, in this order |
 | `excludedProperties` | hides individual ones |
 | `hidePropertiesView: true` | switches the table off entirely |
@@ -25,7 +25,7 @@ what stands above it anyway.
 
 ## In this template
 
-**Out of the box** the plugin renders a plain table in the text colour.
+**Out of the box** the [[en/7-reference/01-glossary#Plugin|plugin]] renders a plain table in the text colour.
 
 **In this template** it sits on a tinted surface with a border, the key is set muted and narrow,
 the value takes the rest. The header row is small capitals — it is a label, not content.

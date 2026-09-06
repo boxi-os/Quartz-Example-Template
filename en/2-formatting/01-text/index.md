@@ -9,7 +9,7 @@ cover: "[[assets/covers/cover-text.svg]]"
 ---
 
 The markup that concerns single words and lines — and the two of them that do not come from
-Markdown itself but from a plugin.
+[[en/7-reference/01-glossary#Markdown|Markdown]] itself but from a [[en/7-reference/01-glossary#Plugin|plugin]].
 
 ## The pages
 

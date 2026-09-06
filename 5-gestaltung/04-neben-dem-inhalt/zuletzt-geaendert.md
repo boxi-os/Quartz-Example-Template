@@ -38,14 +38,14 @@ Seitdem sind alle Listenregeln auf `.page-listing` eingegrenzt. Die Lehre: **Ein
 nicht der Komponente, in der man ihn zuerst gesehen hat.**
 
 > [!note] Beide Sprachen in einer Liste
-> Die Liste entsteht aus jeder Seite des Builds, eine englische Seite kann also in der Leiste einer
+> Die Liste entsteht aus jeder Seite des [[7-nachschlagen/01-glossar#Build|Builds]], eine englische Seite kann also in der Leiste einer
 > deutschen auftauchen. Wie beim Suchindex trennte das nur ein Build je Sprache — siehe
 > [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]].
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 13 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 13 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -63,5 +63,5 @@ Diese 13 Variablen liest `aside-recent-notes.scss`. Ändern lassen sie sich in d
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

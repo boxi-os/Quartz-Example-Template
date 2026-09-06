@@ -11,7 +11,7 @@ translationKey: seiten-steuern/aliase
 ---
 
 An **alias** is a second name for a page. In Obsidian the quick switcher finds a note under its
-alias too, and a `[[Alias]]` points to it. On the site the plugin *Alias redirects* builds a small
+alias too, and a `[[Alias]]` points to it. On the site the [[en/7-reference/01-glossary#Plugin|plugin]] *Alias redirects* [[en/7-reference/01-glossary#Build|builds]] a small
 redirect page for every alias: whoever opens the old address lands on the new one.
 
 ```yaml
@@ -30,7 +30,7 @@ This page can thereby be reached under three addresses: its own, `/Second name` 
 **A page was renamed or moved.** The old path as an alias keeps old links alive — bookmarks,
 references from other sites, search engine hits.
 
-**A term has two names.** “Backlinks” and “references back” mean the same; an alias lets both be
+**A term has two names.** “[[en/7-reference/01-glossary#Backlinks|Backlinks]]” and “references back” mean the same; an alias lets both be
 found.
 
 **Connecting a translation.** An alias that matches the title of the page in the other language

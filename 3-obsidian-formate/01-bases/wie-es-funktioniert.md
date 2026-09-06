@@ -70,7 +70,7 @@ schreibt, sollte sie danach in Obsidian öffnen und prüfen.
 
 ## Verlinken
 
-Ein Wikilink auf eine solche Datei braucht die **Endung**:
+Ein [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] auf eine solche Datei braucht die **Endung**:
 
 ```md
 [[3-obsidian-formate/01-bases/Formatierungsseiten.base|Formatierungsseiten]]

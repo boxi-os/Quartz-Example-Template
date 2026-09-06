@@ -23,7 +23,7 @@ This one here is the second.
 
 ## How wide a paragraph gets
 
-The width is decided by the **page grid**, not by the paragraph. The `editorial` frame, which
+The width is decided by the **page grid**, not by the paragraph. The `editorial` [[en/7-reference/01-glossary#Frame|frame]], which
 content pages use, gives the text the middle of three columns and caps the whole page at 1440 px.
 
 There is no limit on the individual paragraph in this template — it would be a second place where

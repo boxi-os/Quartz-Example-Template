@@ -7,9 +7,9 @@ tags:
 translationKey: anpassen/variablen
 ---
 
-**Farbe und Maß dieser Vorlage stehen nicht in den Stylesheets, sondern in 53 Variablen.** Das ist
+**Farbe und Maß dieser Vorlage stehen nicht in den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]], sondern in 53 Variablen.** Das ist
 keine Kosmetik: Nach dem Import bleiben sie in der App unter *Stile → Variablen* bearbeitbar, ein
-Wert in SCSS nicht.
+Wert in [[7-nachschlagen/01-glossar#CSS und SCSS|SCSS]] nicht.
 
 ## Die sechs mit der größten Reichweite
 
@@ -17,8 +17,8 @@ Wert in SCSS nicht.
 | --- | --- | --- |
 | `--tpl-space-md` | 1rem | Grundabstand; die ganze Skala hängt daran |
 | `--tpl-target` | 44px | Mindestgröße **aller** Bedienelemente |
-| `--tpl-indent` | 0.85rem | Eine Ebene in Explorer *und* Inhaltsverzeichnis |
-| `--tpl-radius-md` | 8px | Ecken von Karten, Codeblöcken, Callouts |
+| `--tpl-indent` | 0.85rem | Eine Ebene in [[7-nachschlagen/01-glossar#Explorer\|Explorer]] *und* Inhaltsverzeichnis |
+| `--tpl-radius-md` | 8px | Ecken von Karten, Codeblöcken, [[7-nachschlagen/01-glossar#Callout\|Callouts]] |
 | `--tpl-accent-bar` | 3px | Jeder Akzentbalken |
 | `--tpl-motion` | 150ms | Jede Übergangsdauer |
 
@@ -69,7 +69,7 @@ Das ließe sich zu einer gemeinsamen Datei zusammenziehen, und genau das wäre h
 Stylesheets sind nach Komponenten geschnitten, und die Doku hängt daran: Auf jeder Seite dieses
 Bereichs steht die Tabelle der Variablen, die *ihre* Komponente liest. Zöge man die Panel-Überschrift
 nach `base.scss`, verschwände sie aus neun dieser Tabellen und tauchte in einer auf, die niemand
-liest, während man die Rückverweise anpasst.
+liest, während man die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] anpasst.
 
 Was geteilt werden muss, sind die **Werte** — und die sind es: `--tpl-tracking-label` und
 `--tpl-underline-offset` stehen je einmal und gelten überall. Die Form daneben ist sechs Zeilen, die
@@ -77,7 +77,7 @@ lesbar dort stehen, wo sie wirken.
 
 > [!note] Eine gemeinsame Datei ginge hier ohnehin nicht ohne Weiteres
 > Sass löst so etwas über Partials (`_shared.scss`). Die App lässt einen Dateinamen mit führendem
-> Unterstrich nicht zu, und eine Datei ohne ihn stünde in der Liste unter *Stile → Eigenes CSS* als
+> Unterstrich nicht zu, und eine Datei ohne ihn stünde in der Liste unter *Stile → Eigenes [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]]* als
 > Stylesheet, das nichts ausgibt.
 
 ## Was Quartz stattdessen tut
@@ -131,7 +131,7 @@ Diese 40 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *
 | `--tpl-text-lg` | `1.15rem` | Suche, Link-Vorschau |
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-text-xl` | `1.4rem` | Der Sprachumschalter |
-| `--tpl-tracking-caps` | `0.06em` | Code, 3.1 Bases |
+| `--tpl-tracking-caps` | `0.06em` | Code, 3.1 [[7-nachschlagen/01-glossar#Base\|Bases]] |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

@@ -22,7 +22,7 @@ translationKey: gestaltung/layout-boxen/die-fuenf-instanzen
 Snippet-Dateien und Bilder bleiben zurück. Eine Instanz mit `file:` käme im Zielprojekt mit einem
 Verweis ins Leere an.
 
-Inline-HTML steckt dagegen im Konfigurationseintrag und reist mit dem Baustein *Plugins* mit. Auch
+Inline-HTML steckt dagegen im Konfigurationseintrag und reist mit dem [[7-nachschlagen/01-glossar#Baustein|Baustein]] *[[7-nachschlagen/01-glossar#Plugin|Plugins]]* mit. Auch
 die Wortmarke ist deshalb ein Inline-SVG und keine Bilddatei.
 
 Die fünfte Instanz nutzt bewusst den Datei-Weg — sie zeigt beides: dass es geht, und dass die Datei
@@ -55,7 +55,7 @@ options:
       title: About this handbook
 ```
 
-Das Plugin liest das Feld `lang` aus dem Frontmatter der Seite — dasselbe, aus dem Quartz das
+Das Plugin liest das Feld `lang` aus dem [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]] der Seite — dasselbe, aus dem Quartz das
 `<html lang>` schreibt — und legt den passenden Eintrag über die Grundeinstellung. Es braucht dafür
 keinen Partner: Ob `lang` vom Mehrsprachigkeits-Plugin kommt oder von Hand dasteht, ist ihm gleich.
 
@@ -71,7 +71,7 @@ deshalb ohne `byLang`.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 27 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 27 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -103,5 +103,5 @@ Diese 27 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in de
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

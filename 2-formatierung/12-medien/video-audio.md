@@ -17,11 +17,11 @@ cover: "[[assets/covers/cover-medien.svg]]"
 
 ![[beispiel-ton.wav]]
 
-Aus dem Wikilink wird ein `<audio controls>` — mit Abspielknopf, Fortschritt und Lautstärke, ohne
+Aus dem [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] wird ein `<audio controls>` — mit Abspielknopf, Fortschritt und Lautstärke, ohne
 dass man etwas dafür tut. Unterstützt werden die Formate, die der Browser kennt: **WAV**, **MP3**,
 **OGG**, **M4A**, **FLAC**, **WebM**.
 
-Auch als HTML, wenn man Attribute braucht:
+Auch als [[7-nachschlagen/01-glossar#HTML|HTML]], wenn man Attribute braucht:
 
 ```md
 <audio src="assets/beispiel-ton.wav" controls preload="none"></audio>
@@ -61,7 +61,7 @@ Bild — und das ist bei einer Aufblende schwarz.
 ![](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 ```
 
-Das Plugin *Obsidian flavored markdown* wandelt die nackte URL in eine Einbettung, wenn
+Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Obsidian flavored markdown* wandelt die nackte URL in eine Einbettung, wenn
 `enableYouTubeEmbed` aktiv ist — in dieser Vorlage ist es das.
 
 ## In dieser Vorlage

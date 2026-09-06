@@ -7,7 +7,7 @@ tags:
 translationKey: gestaltung/im-inhalt/index
 ---
 
-The design of what comes out of the Markdown file itself.
+The design of what comes out of the [[en/7-reference/01-glossary#Markdown|Markdown]] file itself.
 
 ## The pages
 

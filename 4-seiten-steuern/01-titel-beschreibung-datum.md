@@ -10,7 +10,7 @@ translationKey: seiten-steuern/titel-beschreibung-datum
 
 ## `title`
 
-Der Titel steht als Überschrift über der Seite, im Browser-Tab, im Explorer, in jeder Liste und in
+Der Titel steht als Überschrift über der Seite, im Browser-Tab, im [[7-nachschlagen/01-glossar#Explorer|Explorer]], in jeder Liste und in
 jedem Suchergebnis. Fehlt er, nimmt Quartz den Dateinamen. Diese Website setzt ihn auf jeder Seite,
 weil ein Dateiname wie `ueberschriften` kein Titel ist.
 
@@ -32,16 +32,16 @@ Das Format folgt der Sprache der Seite: Auf einer englischen Seite steht ein eng
 
 ### Woher das Datum kommt, wenn keines dasteht
 
-Quartz fragt der Reihe nach: das Frontmatter, dann git, dann das Dateisystem. Eingestellt wird die
-Reihenfolge beim Plugin *Created modified date*, in QuartzControl unter *Plugins*. Diese Vorlage
+Quartz fragt der Reihe nach: das [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]], dann [[7-nachschlagen/01-glossar#git|git]], dann das Dateisystem. Eingestellt wird die
+Reihenfolge beim [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Created modified date*, in QuartzControl unter *Plugins*. Diese Vorlage
 lässt git aus — `frontmatter → filesystem` — und das hat einen gemessenen Grund.
 
 > [!warning] Ein Symlink nimmt Quartz die git-Daten
 > git — das Programm, das die Geschichte von Dateien aufzeichnet — wäre die bessere Quelle: Ein
 > Commit-Datum überlebt ein Kopieren, ein Wiederherstellen und ein frisches Auschecken, die
 > Änderungszeit einer Datei nicht. Hier fehlt es trotzdem. Der Inhalt liegt in einem
-> Obsidian-Vault, auf den `content/` per Symlink zeigt; das Plugin folgt dem Link und findet auch
-> das git des Vaults, rechnet den Dateipfad danach aber gegen das Projektverzeichnis — und fragt so
+> Obsidian-Vault, auf den `content/` per [[7-nachschlagen/01-glossar#Symlink|Symlink]] zeigt; das Plugin folgt dem Link und findet auch
+> das git des [[7-nachschlagen/01-glossar#Vault|Vaults]], rechnet den Dateipfad danach aber gegen das Projektverzeichnis — und fragt so
 > nach einem Pfad, der aus dem Vault wieder herausführt. Jede Abfrage scheitert. Für **250 der 254
 > Seiten** stand deshalb *„isn't yet tracked by git, dates will be inaccurate“* im Bauprotokoll;
 > stumm blieben nur die vier, die ein `lastmod` tragen und git gar nicht erst fragen. Der Fehler

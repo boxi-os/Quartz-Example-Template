@@ -28,15 +28,15 @@ noch blasser ist als der Text. Die Werte sind der Inhalt, die Zeichensetzung tri
 
 ## Woher das Datum kommt
 
-Aus dem Frontmatter, sonst aus dem Dateisystem — in dieser Reihenfolge, eingestellt beim Plugin
+Aus dem [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]], sonst aus dem Dateisystem — in dieser Reihenfolge, eingestellt beim [[7-nachschlagen/01-glossar#Plugin|Plugin]]
 *Created modified date*.
 
 > [!warning] Ein Symlink nimmt Quartz die git-Daten
-> Von Haus aus steht dort `frontmatter → git → filesystem`, und git wäre die bessere Quelle: Ein
+> Von Haus aus steht dort `frontmatter → git → filesystem`, und [[7-nachschlagen/01-glossar#git|git]] wäre die bessere Quelle: Ein
 > Commit-Datum überlebt ein Kopieren, ein Wiederherstellen und ein frisches Auschecken, die
 > Änderungszeit einer Datei nicht. Hier fehlt es trotzdem. Der Inhalt dieser Website liegt in einem
-> Obsidian-Vault, auf den `content/` per Symlink zeigt; das Plugin folgt dem Symlink und findet auch
-> das git des Vaults, rechnet den Dateipfad danach aber weiter gegen das Projektverzeichnis — und
+> Obsidian-Vault, auf den `content/` per [[7-nachschlagen/01-glossar#Symlink|Symlink]] zeigt; das Plugin folgt dem Symlink und findet auch
+> das git des [[7-nachschlagen/01-glossar#Vault|Vaults]], rechnet den Dateipfad danach aber weiter gegen das Projektverzeichnis — und
 > fragt so nach einem Pfad, der aus dem Vault wieder herausführt. Jede Abfrage scheitert. Für **250
 > der 254 Seiten** stand deshalb *„isn't yet tracked by git, dates will be inaccurate"* im
 > Bauprotokoll; stumm blieben nur die vier Seiten, die ein `lastmod` im Frontmatter tragen und git
@@ -51,7 +51,7 @@ Aus dem Frontmatter, sonst aus dem Dateisystem — in dieser Reihenfolge, einges
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 7 Variablen liest `meta-title-and-date.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 7 Variablen liest `meta-title-and-date.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -63,5 +63,5 @@ Diese 7 Variablen liest `meta-title-and-date.scss`. Ändern lassen sie sich in d
 | `--tpl-text-3xl` | `2.25rem` | 6.4 Variablen, Fehlerseite |
 | `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

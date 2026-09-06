@@ -10,7 +10,7 @@ tags:
 
 ## The Obsidian format: `.excalidraw.md`
 
-An ordinary Markdown file with four parts:
+An ordinary [[en/7-reference/01-glossary#Markdown|Markdown]] file with four parts:
 
 ````md
 ---
@@ -35,7 +35,7 @@ The text elements are there twice: once readable under `## Text Elements`, once 
 is how Obsidian's search finds the text inside a drawing.
 
 The JSON can also be **compressed** (`compressed-json`, LZ-String) — Obsidian sets that in the
-plugin options. Quartz reads both; uncompressed versions better, because git can show the changes.
+[[en/7-reference/01-glossary#Plugin|plugin]] options. Quartz reads both; uncompressed versions better, because [[en/7-reference/01-glossary#git|git]] can show the changes.
 
 ## The second way: `.excalidraw`
 
@@ -44,7 +44,7 @@ a drawing programmatically has an easier time with it.
 
 ## How the drawing here came about
 
-Not by hand: a script builds it from a small specification that only describes content — nodes,
+Not by hand: a script [[en/7-reference/01-glossary#Build|builds]] it from a small specification that only describes content — nodes,
 groups, edges, colours. Layout, geometry and the internal identifiers are calculated by the script.
 
 ```json

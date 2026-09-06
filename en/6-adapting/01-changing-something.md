@@ -15,7 +15,7 @@ more often than you would think.
 **The normal case.** 53 variables carry every colour and every measure of this template; not a line
 of CSS is needed for them. In the app under *Styles → Variables*, separated into light and dark.
 
-Which variable applies where stands at the bottom of every page in this section — including the
+Which variable applies where stands at the bottom of every page in [[en/5-design/index|chapter 5]] — including the
 column that says what else moves with it. Touching `--tpl-space-md` moves the whole site;
 `--tpl-fade` moves two soft edges.
 
@@ -36,13 +36,13 @@ whole template without having to take anything away from it.
 
 > [!warning] `a11y.scss` is then no longer last either
 > That one file sits last on purpose: its rules have to win over decisions made further up — an
-> affordance that would only appear on hover, a state that would hang on a colour alone. A file of
-> your own lands behind it. If something to do with keyboard, contrast or print disappears after a
+> affordance that would only appear on [[en/7-reference/01-glossary#Hover|hover]], a state that would hang on a colour alone. A file of
+> your own lands behind it. If something to do with keyboard, [[en/7-reference/01-glossary#Contrast|contrast]] or print disappears after a
 > change, that is the first place to look.
 
 ## The exception: diagrams
 
-With Mermaid none of the three ways works without `!important`. Quartz hands the diagram renderer
+With [[en/7-reference/01-glossary#Mermaid|Mermaid]] none of the three ways works without `!important`. Quartz hands the diagram renderer
 **nine** of its roughly hundred theme variables (`primaryColor`, `lineColor`, `secondaryColor` and
 six more, hard-wired in Quartz's script). Everything else Mermaid colours itself — and writes as a
 `<style>` carrying that SVG's own id into the graphic, an ID selector no class rule can beat.

@@ -20,12 +20,12 @@ site live in one vault; chapter 2 shows what you can write in it.
 ## Quartz — what turns it into a website
 
 Quartz is a **static site generator**: a program that turns a folder full of Markdown files into a
-folder full of HTML pages — HTML being the language a browser understands. This process is called
-a **build**. The result is a finished website without a database and without a program behind it,
-which can be put on any web space. Quartz knows Obsidian's notation: wikilinks, callouts and
+folder full of [[en/7-reference/01-glossary#HTML|HTML]] pages — HTML being the language a browser understands. This process is called
+a **[[en/7-reference/01-glossary#Build|build]]**. The result is a finished website without a database and without a program behind it,
+which can be put on any web space. Quartz knows Obsidian's notation: [[en/7-reference/01-glossary#Wikilink|wikilinks]], [[en/7-reference/01-glossary#Callout|callouts]] and
 embedded images are translated correctly.
 
-Quartz consists of **plugins** — building blocks with one job each: one builds the explorer on the
+Quartz consists of **plugins** — building blocks with one job each: one builds the [[en/7-reference/01-glossary#Explorer|explorer]] on the
 left, one the table of contents on the right, one the search, one reads a file's date. Which
 plugins there are and how they are set stands in a configuration file called
 `quartz.config.yaml` in the project.
@@ -49,7 +49,7 @@ states. Such a comparison is called a **diff** and shows line by line what chang
 history git keeps is called a **repository**.
 
 You do not have to be able to operate git to use this template. It still appears in three places:
-QuartzControl needs it for new projects, for plugins from a git source and for its snapshots — and
+QuartzControl needs it for new projects, for plugins from a git source and for its [[en/7-reference/01-glossary#Snapshot|snapshots]] — and
 takes the machine's git or brings one of its own. The date of a page can be read from git by Quartz
 (not here; why, stands under
 [[en/4-controlling-a-page/01-title-description-date|4.1 Title, description, date]]). And whoever

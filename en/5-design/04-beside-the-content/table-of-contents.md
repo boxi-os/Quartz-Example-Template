@@ -22,7 +22,7 @@ depths 0 to 4. To be seen under [[en/1-getting-started/04-how-a-page-is-built|A 
 Every step is designed separately:
 
 - **The indent** grows by one `--tpl-indent` per level down to depth 4 — the same measure as in the
-  explorer, so that the two bars line up with one another.
+  [[en/7-reference/01-glossary#Explorer|explorer]], so that the two bars line up with one another.
 - **Size and weight** fall with depth; from depth 3 on the type is set smaller.
 - **From depth 5 on** there is no further indent, only a dot as a marker. Five indents in a bar
   three columns wide leave no room for a word.
@@ -30,7 +30,7 @@ Every step is designed separately:
   bar is what you find.
 - **It shows itself in full.** Quartz caps this component three times over — `flex: 0 0.5 auto`
   with `overflow-y: hidden`, plus `max-height: calc(100% - 2rem)` on the list and another rule in
-  its base stylesheet. Together the three turn a long outline into a short stub with a scrollbar of
+  its [[en/7-reference/01-glossary#Base|base]] [[en/7-reference/01-glossary#Stylesheet|stylesheet]]. Together the three turn a long outline into a short stub with a scrollbar of
   its own, in the middle of a column that was already scrolling. All three are lifted here.
 - **Scrolling happens one level up**, in the right column as a whole — with the same soft edge as
   in the explorer, and with one scrollbar instead of two inside each other. The column's padding is
@@ -60,7 +60,7 @@ with every scroll.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by `aside-toc.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 17 variables are read by `aside-toc.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

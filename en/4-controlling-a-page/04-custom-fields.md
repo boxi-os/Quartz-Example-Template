@@ -20,8 +20,8 @@ empty:
 translationKey: seiten-steuern/eigene-felder
 ---
 
-A frontmatter may contain fields Quartz does not know. They do no harm, and they are useful:
-Obsidian can search and sort by them, a base can filter by them, and the plugin *Note properties*
+A [[en/7-reference/01-glossary#Frontmatter|frontmatter]] may contain fields Quartz does not know. They do no harm, and they are useful:
+Obsidian can search and sort by them, a [[en/7-reference/01-glossary#Base|base]] can filter by them, and the [[en/7-reference/01-glossary#Plugin|plugin]] *Note properties*
 shows them in a table under the title — as at the top of this page.
 
 ## What this page carries
@@ -43,12 +43,12 @@ every page.
 
 Every page here carries `section` with the name of its chapter. Quartz does not know the field. It
 appears in the property table, the base [[en/7-reference/All pages.base|All pages]] groups by it,
-and a layout box could insert it as the placeholder `{{frontmatter.section}}`.
+and a [[en/7-reference/01-glossary#Layout box|layout box]] could insert it as the placeholder `{{frontmatter.section}}`.
 
 ## Showing all fields
 
 Whoever wants to see all fields sets the option `includeAll` to true in QuartzControl under
-*Plugins → Note properties*. Then aliases and translation keys appear as well.
+*Plugins → Note properties*. Then [[en/7-reference/01-glossary#Alias|aliases]] and translation keys appear as well.
 
 How to *write* fields and which data types there are:
 [[en/2-formatting/11-properties/index|2.11 Properties]].

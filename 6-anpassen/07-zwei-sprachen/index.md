@@ -9,7 +9,7 @@ translationKey: anpassen/zwei-sprachen/index
 ---
 
 Quartz kennt **ein** `locale` je Website. Diese Vorlage veröffentlicht trotzdem zwei Sprachen aus
-einem Vault, mit dem Plugin `quartz-multilanguage`.
+einem [[7-nachschlagen/01-glossar#Vault|Vault]], mit dem [[7-nachschlagen/01-glossar#Plugin|Plugin]] `quartz-multilanguage`.
 
 ## Der Aufbau
 
@@ -22,8 +22,8 @@ einem Vault, mit dem Plugin `quartz-multilanguage`.
 | Tags | `formatierung`, `gestaltung`, … | `formatting`, `design`, … |
 
 **Die deutschen Notizen mussten dafür nicht umziehen.** Das ist der Grund für diesen Zuschnitt: Die
-Ordner-Strategie hätte auch `de/` verlangen können, aber dann hätte jede der 127 Notizen einen neuen
-Pfad bekommen und jeder der 143 Wikilinks eine Korrektur. Eine Seite, auf die keine Strategie passt,
+Ordner-Strategie hätte auch `de/` verlangen können, aber dann hätte jede der 133 deutschen Notizen einen
+neuen Pfad bekommen und jeder [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] darauf eine Korrektur. Eine Seite, auf die keine Strategie passt,
 fällt in die Standardsprache — das genügt.
 
 ## Die Teile
@@ -37,7 +37,7 @@ fällt in die Standardsprache — das genügt.
 ## Was das Plugin sonst noch tut
 
 - **`<html lang>` je Seite.** Das Plugin trägt in jede Seite ohne eigenes `lang` das Locale ihrer
-  Sprache ein. Ein Screenreader wechselt damit die Aussprache, und die Stylesheets dieser Vorlage
+  Sprache ein. Ein Screenreader wechselt damit die Aussprache, und die [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] dieser Vorlage
   hängen ihre Explorer-Regel daran.
 - **`hreflang` und `og:locale`.** Jede Seite mit Übersetzung bekommt `<link rel="alternate">` auf
   ihre Geschwister und ein `x-default`. Dafür braucht die Konfiguration `baseUrl`.
@@ -45,11 +45,11 @@ fällt in die Standardsprache — das genügt.
   bekommt oben einen Kasten: „Diese Seite gibt es auch auf Englisch." Der Text wird erst im Browser
   eingesetzt und steht deshalb weder im Suchindex noch in der Beschreibung.
 - **Daten in der Seitensprache.** `localizeDates: true` formatiert jedes `<time>`-Element im
-  Browser nach — das Einzige an der Quartz-Oberfläche, was ohne zweiten Build zweisprachig wird.
+  Browser nach — das Einzige an der Quartz-Oberfläche, was ohne zweiten [[7-nachschlagen/01-glossar#Build|Build]] zweisprachig wird.
 
 ## Ein Build oder zwei
 
-Diese Website ist **ein** Build. Das hält die Suche, den Graphen und die Adressen zusammen, kostet
+Diese Website ist **ein** Build. Das hält die Suche, den [[7-nachschlagen/01-glossar#Graph|Graphen]] und die Adressen zusammen, kostet
 aber die Oberfläche: Alles, was Quartz selbst beschriftet, folgt `configuration.locale` und bleibt
 deutsch. Das Plugin kennt dafür `publishLanguages` — ein Build je Sprache, jeder mit eigenem
 `locale` und eigener `baseUrl`. Was das jeweils bedeutet, steht unter

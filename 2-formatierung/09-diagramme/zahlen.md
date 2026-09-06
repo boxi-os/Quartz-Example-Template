@@ -30,7 +30,7 @@ pie title Zeilen je Bereich
 ```
 
 Die Zahlen sind echt, auf Hunderter gerundet und am 05.09.2026 gemessen: Notizen sind beide
-Sprachen zusammen, Stylesheets die 34 Dateien unter `quartz/styles/custom/`, Skript der
+Sprachen zusammen, [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] die 34 Dateien unter `quartz/styles/custom/`, Skript der
 Vorlagenbau im App-Repo. Sie wachsen, das Diagramm nicht von selbst.
 
 ## Vier-Felder-Tafel

@@ -9,7 +9,7 @@ translationKey: formatierung/text/sonderzeichen
 cover: "[[assets/covers/cover-text.svg]]"
 ---
 
-Markdown converts nothing automatically: what stands here has to be typed this way in the source.
+[[en/7-reference/01-glossary#Markdown|Markdown]] converts nothing automatically: what stands here has to be typed this way in the source.
 The template provides typefaces that draw these characters cleanly.
 
 ## Quotation marks

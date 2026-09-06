@@ -9,7 +9,7 @@ translationKey: formatierung/medien/einbettungen
 cover: "[[assets/covers/cover-medien.svg]]"
 ---
 
-The *Layout Box* plugin of this template switches images by colour scheme: an element with the
+The *[[en/7-reference/01-glossary#Layout box|Layout Box]]* [[en/7-reference/01-glossary#Plugin|plugin]] of this template switches images by [[en/7-reference/01-glossary#Colour scheme|colour scheme]]: an element with the
 class `img-light` appears in light mode, `img-dark` in dark mode.
 
 ```html

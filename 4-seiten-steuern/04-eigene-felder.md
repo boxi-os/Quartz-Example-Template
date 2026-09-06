@@ -20,9 +20,9 @@ leer:
 translationKey: seiten-steuern/eigene-felder
 ---
 
-Ein Frontmatter darf Felder enthalten, die Quartz nicht kennt. Sie stören nicht, und sie sind
-nützlich: Obsidian kann nach ihnen suchen und sortieren, eine Base kann nach ihnen filtern, und das
-Plugin *Note properties* zeigt sie in einer Tabelle unter dem Titel — so wie oben auf dieser Seite.
+Ein [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]] darf Felder enthalten, die Quartz nicht kennt. Sie stören nicht, und sie sind
+nützlich: Obsidian kann nach ihnen suchen und sortieren, eine [[7-nachschlagen/01-glossar#Base|Base]] kann nach ihnen filtern, und das
+[[7-nachschlagen/01-glossar#Plugin|Plugin]] *Note properties* zeigt sie in einer Tabelle unter dem Titel — so wie oben auf dieser Seite.
 
 ## Was diese Seite trägt
 
@@ -43,12 +43,12 @@ jeder Seite.
 
 Jede Seite hier trägt `section` mit dem Namen ihres Kapitels. Quartz kennt das Feld nicht. Es
 erscheint in der Eigenschaften-Tabelle, die Base [[7-nachschlagen/Alle Seiten.base|Alle Seiten]] gruppiert
-danach, und eine Layout-Box könnte es als Platzhalter `{{frontmatter.section}}` einsetzen.
+danach, und eine [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]] könnte es als Platzhalter `{{frontmatter.section}}` einsetzen.
 
 ## Alle Felder zeigen
 
 Wer alle Felder sehen will, stellt in QuartzControl unter *Plugins → Note properties* die Option
-`includeAll` auf wahr. Dann erscheinen auch Aliase und Übersetzungsschlüssel.
+`includeAll` auf wahr. Dann erscheinen auch [[7-nachschlagen/01-glossar#Alias|Aliase]] und Übersetzungsschlüssel.
 
 Wie man Felder *schreibt* und welche Datentypen es gibt:
 [[2-formatierung/11-eigenschaften/index|2.11 Eigenschaften]].

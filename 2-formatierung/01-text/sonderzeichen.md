@@ -9,7 +9,7 @@ translationKey: formatierung/text/sonderzeichen
 cover: "[[assets/covers/cover-text.svg]]"
 ---
 
-Markdown wandelt nichts automatisch um: Was hier steht, muss im Quelltext so eingegeben werden.
+[[7-nachschlagen/01-glossar#Markdown|Markdown]] wandelt nichts automatisch um: Was hier steht, muss im Quelltext so eingegeben werden.
 Die Vorlage stellt dafür Schriften bereit, die diese Zeichen sauber zeichnen.
 
 ## Anführungszeichen

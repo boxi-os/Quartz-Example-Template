@@ -20,7 +20,7 @@ Das Kürzel nach den drei Backticks bestimmt die Hervorhebung. Eine Auswahl:
 
 ```yaml
 configuration:
-  pageTitle: Minimal & lesbar
+  pageTitle: Example
   locale: de-DE
 ```
 
@@ -45,4 +45,4 @@ def gruss(name: str) -> str:
 ## Welches Thema
 
 Diese Vorlage nutzt `github-light` und `github-dark` — zwei Themen, die zusammengehören und deren
-Farben auf beiden Gründen lesbar bleiben. Eingestellt wird das beim Plugin *Syntax highlighting*.
+Farben auf beiden Gründen lesbar bleiben. Eingestellt wird das beim [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Syntax highlighting*.

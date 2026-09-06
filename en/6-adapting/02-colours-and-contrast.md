@@ -1,6 +1,6 @@
 ---
 title: 6.2 Colours and contrast
-description: Nine roles, two of them named the wrong way round — and 78 measured pairs.
+description: Nine roles, two of them named the wrong way round — and 89 measured pairs.
 section: Adapting
 tags:
   - adapting
@@ -10,8 +10,8 @@ translationKey: anpassen/farben-und-kontrast
 ## The nine roles
 
 Quartz names its palette by role. **Two of them read backwards:** `light` is the *background*,
-`dark` the *text* — in dark mode too, where `light` is nearly black. Anyone who misses that builds
-their first dark colour scheme inside out.
+`dark` the *text* — in dark mode too, where `light` is nearly black. Anyone who misses that [[en/7-reference/01-glossary#Build|builds]]
+their first dark [[en/7-reference/01-glossary#Colour scheme|colour scheme]] inside out.
 
 | Role | What for | light | dark |
 | --- | --- | --- | --- |
@@ -21,7 +21,7 @@ their first dark colour scheme inside out.
 | `darkgray` | body text | `#33322E` | `#D5D7DB` |
 | `dark` | headings | `#17171A` | `#F3F4F6` |
 | `secondary` | links, the one accent | `#2A4E6C` | `#8CB8DA` |
-| `tertiary` | link hover, active navigation | `#9C4221` | `#E8A56B` |
+| `tertiary` | link [[en/7-reference/01-glossary#Hover\|hover]], active navigation | `#9C4221` | `#E8A56B` |
 | `highlight` | tinted surface | 10 % accent | 12 % accent |
 | `textHighlight` | `==highlight==` | warm yellow | accent, 30 % |
 
@@ -34,8 +34,8 @@ card).
 
 ## What is measured
 
-**87 pairs**, on every run: every text-on-ground combination in both modes, the alpha colours
-computed over the ground, all thirteen callout colours against the ground *and* against their own
+**89 pairs**, on every run: every text-on-ground combination in both modes, the alpha colours
+computed over the ground, all thirteen [[en/7-reference/01-glossary#Callout|callout]] colours against the ground *and* against their own
 tinted surface, and since 2026-09-05 the five corrected colours of the syntax theme against the code
 block's surface. The tightest value is 4.68:1 against a threshold of 4.5.
 

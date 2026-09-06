@@ -20,7 +20,7 @@ All three are under the SIL Open Font License and are **self-hosted** — four f
 
 **Out of the box** Quartz loads typefaces from Google Fonts — convenient, but every page request
 goes to a third party in the process. This template sets `fontOrigin: 'local'` and switches the
-fonts plugin off; with that, neither of the two Google routes runs.
+fonts [[en/7-reference/01-glossary#Plugin|plugin]] off; with that, neither of the two Google routes runs.
 
 ## The finding behind it
 

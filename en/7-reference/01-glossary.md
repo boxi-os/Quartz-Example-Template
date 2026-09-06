@@ -284,10 +284,22 @@ simply called *variables*. → [[en/6-adapting/04-variables|6.4 Variables]]
 A page with `unlisted: true`: built and reachable through its address, but in no list. →
 [[en/4-controlling-a-page/02-draft-and-unlisted|4.2 Draft and unlisted]]
 
+### Variable
+
+A named value that stylesheets read instead of containing it themselves — `--tpl-space-md`, say.
+That is what the tokens are called in QuartzControl under *Styles → Variables*, where you change
+them. → [[en/6-adapting/04-variables|6.4 Variables]]
+
 ### Vault
 
 Obsidian's word for the folder in which the notes live. This site has one of its own. →
 [[en/1-getting-started/02-the-tools|1.2 The tools]]
+
+### WCAG
+
+The *Web Content Accessibility Guidelines*, the guidelines for accessible websites. Level AA is
+the common threshold: contrast 4.5:1 for text, 3:1 for controls, target size at least 24 px. This
+template measures against AA. → [[en/6-adapting/06-accessibility|6.6 Accessibility]]
 
 ### Wikilink
 

@@ -11,7 +11,7 @@ translationKey: formatierung/links/aliase
 cover: "[[assets/covers/cover-links.svg]]"
 ---
 
-Im Frontmatter:
+Im [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]:
 
 ```md
 ---
@@ -27,7 +27,7 @@ Diese Seite selbst hat einen Alias — sie ist auch unter *Zweitname für Aliase
 
 In **Obsidian**: Der Alias taucht in der Schnellsuche auf, und `[[Zweitname]]` findet die Seite.
 
-Auf der **gebauten Website**: Das Plugin *Alias redirects* legt für jeden Alias eine kleine
+Auf der **gebauten Website**: Das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *Alias redirects* legt für jeden Alias eine kleine
 Weiterleitungsseite an. Alte Links funktionieren also weiter, wenn eine Notiz umbenannt oder
 verschoben wurde.
 

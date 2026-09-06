@@ -20,7 +20,7 @@ Inter sonst zu groß wirkt.
 Die Fläche kommt von der Vorlage, nicht vom Syntax-Thema: `keepBackground: false` sorgt dafür, dass
 shiki nur die Zeichenfarben setzt. Nur so passt der Block in beiden Farbschemata.
 
-Sie ist seit dem 05.09.2026 **heller als die übrige Tönung** und hat dafür einen eigenen Token
+Sie ist seit dem 05.09.2026 **heller als die übrige Tönung** und hat dafür einen eigenen [[7-nachschlagen/01-glossar#Token|Token]]
 (`--tpl-surface-code`, hell `#F1EFE9`, dunkel weiter `lightgray`). Ein Block ist eine große Fläche,
 und die Tönung, die für ein Wort Inline-Code richtig ist, macht aus zwanzig Zeilen eine graue
 Platte. Gemessen, was das bringt:
@@ -40,7 +40,7 @@ seine Füllung war.
 
 Der hellere Grund reichte nicht. Gezählt wurde deshalb über die **ganze gebaute Site**: jeder
 `--shiki-light`- und `--shiki-dark`-Wert auf allen 333 Seiten, mit seiner Häufigkeit und seinem
-Kontrast gegen die Codefläche. Fünf Paare fielen durch:
+[[7-nachschlagen/01-glossar#Kontrast|Kontrast]] gegen die Codefläche. Fünf Paare fielen durch:
 
 | Farbe | wofür | vorher | jetzt |
 | --- | --- | --- | --- |
@@ -55,7 +55,7 @@ sich weiterhin als `github-light`. Es ist dasselbe, was diese Vorlage mit Quartz
 tut.
 
 Geprüft werden sie seitdem bei jedem Lauf: `--check-contrast` liest die fünf Werte aus
-`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten Callout, der seit dem 05.09.2026 nicht mehr übersprungen wird, sind es 87.
+`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten [[7-nachschlagen/01-glossar#Callout|Callout]], der seit dem 05.09.2026 nicht mehr übersprungen wird, sind es 87.
 
 > [!note] Wie das technisch geht
 > shiki schreibt die Farbe **inline an jedes einzelne `<span>`**
@@ -70,7 +70,7 @@ Lange Zeilen brechen nicht um, sondern scrollen im Block.
 
 ## Das Sprachlabel
 
-Oben links steht die Sprache — als `::after` im Stylesheet, nicht als Element. Es landet damit
+Oben links steht die Sprache — als `::after` im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]], nicht als Element. Es landet damit
 nicht in einer Kopie und nicht in der Vorlesereihenfolge.
 
 ## Der Kopierknopf
@@ -78,7 +78,7 @@ nicht in einer Kopie und nicht in der Vorlesereihenfolge.
 **Von Haus aus** erscheint er nur beim Überfahren mit dem Zeiger — auf einem Telefon ist er damit
 unerreichbar.
 
-**In dieser Vorlage** erscheint er bei Hover, **bei Fokus** und **dauerhaft auf Geräten ohne
+**In dieser Vorlage** erscheint er bei [[7-nachschlagen/01-glossar#Hover|Hover]], **bei Fokus** und **dauerhaft auf Geräten ohne
 Zeiger** (`@media (hover: none)`). Er misst 44 px, während das Symbol darin klein bleibt. Versteckt
 wird er über `opacity`, nie über `display` — sonst wäre er für die Tastatur gar nicht da.
 
@@ -107,7 +107,7 @@ Fläche **und** Balken links. Eine Tönung allein ist auf einem ohnehin getönte
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App un
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
-| `--tpl-tracking-caps` | `0.06em` | 6.4 Variablen, 3.1 Bases |
+| `--tpl-tracking-caps` | `0.06em` | 6.4 Variablen, 3.1 [[7-nachschlagen/01-glossar#Base\|Bases]] |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

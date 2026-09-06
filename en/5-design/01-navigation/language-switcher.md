@@ -8,13 +8,13 @@ tags:
 translationKey: gestaltung/navigation/sprachumschalter
 ---
 
-The switcher stands in the **toolbar in the header**, to the right of search, colour scheme switch
+The switcher stands in the **toolbar in the header**, to the right of search, [[en/7-reference/01-glossary#Colour scheme|colour scheme]] switch
 and reader mode. It shares their measurements: 44 px high, the same border, the same corners, the
-same feedback on hover. Four controls in one row that differ in height read as a mistake.
+same feedback on [[en/7-reference/01-glossary#Hover|hover]]. Four controls in one row that differ in height read as a mistake.
 
 ## Three forms
 
-The plugin knows three presentations. **All three are designed in this template**, one is visible —
+The [[en/7-reference/01-glossary#Plugin|plugin]] knows three presentations. **All three are designed in this template**, one is visible —
 which one is decided by `switcher.style` in the configuration.
 
 | Form | What it is | What it is good for |
@@ -62,7 +62,7 @@ then on, regardless of the browser language.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 23 variables are read by `nav-language-switcher.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 23 variables are read by `nav-language-switcher.scss`. They can be changed in the app under *Styles → Variables* — without a line of [[en/7-reference/01-glossary#CSS and SCSS|CSS]].
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ These 23 variables are read by `nav-language-switcher.scss`. They can be changed
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
 | `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The explorer |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The [[en/7-reference/01-glossary#Explorer\|explorer]] |
 | `--tpl-leading-snug` | `1.4rem` | 4 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
@@ -90,5 +90,5 @@ These 23 variables are read by `nav-language-switcher.scss`. They can be changed
 | `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-text-xl` | `1.4rem` | 6.4 Variables |
 
-*This table is generated: it is read out of the stylesheets rather than kept by hand.*
+*This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

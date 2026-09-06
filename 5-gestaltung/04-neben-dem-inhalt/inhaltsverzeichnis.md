@@ -22,7 +22,7 @@ die Tiefen 0 bis 4. Zu sehen ist das unter
 
 Gestaltet ist jede Stufe einzeln:
 
-- **Einzug** steigt bis Tiefe 4 um je ein `--tpl-indent` — dasselbe Maß wie im Explorer, damit die
+- **Einzug** steigt bis Tiefe 4 um je ein `--tpl-indent` — dasselbe Maß wie im [[7-nachschlagen/01-glossar#Explorer|Explorer]], damit die
   beiden Leisten miteinander fluchten.
 - **Größe und Gewicht** sinken mit der Tiefe; ab Tiefe 3 wird kleiner gesetzt.
 - **Ab Tiefe 5** wird nicht weiter eingerückt, sondern mit einem Punkt markiert. Fünf Einzüge in
@@ -62,7 +62,7 @@ oben, statt eine Lücke zu lassen, die bei jedem Scrollen wächst.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest `aside-toc.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest `aside-toc.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -84,5 +84,5 @@ Diese 17 Variablen liest `aside-toc.scss`. Ändern lassen sie sich in der App un
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
-*Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
+*Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

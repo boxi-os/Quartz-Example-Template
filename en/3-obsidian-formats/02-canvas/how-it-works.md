@@ -31,10 +31,10 @@ A `.canvas` file is JSON with exactly two lists:
 
 | `type` | Content | Additional fields |
 | --- | --- | --- |
-| `text` | Markdown directly in the card | `text` |
-| `file` | a note from the vault | `file`, optionally `subpath` |
+| `text` | [[en/7-reference/01-glossary#Markdown\|Markdown]] directly in the card | `text` |
+| `file` | a note from the [[en/7-reference/01-glossary#Vault\|vault]] | `file`, optionally `subpath` |
 | `link` | a web page as an embedded view | `url` |
-| `group` | a labelled frame around other cards | `label` |
+| `group` | a labelled [[en/7-reference/01-glossary#Frame\|frame]] around other cards | `label` |
 
 ## Geometry and colour
 
@@ -56,7 +56,7 @@ cards; the file is kept up to date while you do.
 
 ## Linking to one
 
-A wikilink to such a file needs the **extension**:
+A [[en/7-reference/01-glossary#Wikilink|wikilink]] to such a file needs the **extension**:
 
 ```md
 [[en/3-obsidian-formats/01-bases/Formatting-Pages.base|Formatting pages]]

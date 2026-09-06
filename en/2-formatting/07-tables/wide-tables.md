@@ -11,11 +11,11 @@ cover: "[[assets/covers/cover-tabellen.svg]]"
 
 | Name | Label | Area | Default | Description |
 | ------- | ----------- | ------- | -------- | ------------ |
-| `--tpl-space-md` | Space medium | Space | 1rem | The base gap between blocks |
+| `--tpl-space-md` | Space medium | Space | 1rem | The [[en/7-reference/01-glossary#Base\|base]] gap between blocks |
 | `--tpl-space-lg` | Space large | Space | 1.5rem | Between blocks and around figures |
 | `--tpl-radius-md` | Radius medium | Shape | 8px | Corners of cards and code blocks |
 | `--tpl-focus-color` | Focus colour | State | var(--secondary) | Colour of the focus ring |
-| `--tpl-indent` | Indent | Structure | 0.85rem | One level in explorer and table of contents |
+| `--tpl-indent` | Indent | Structure | 0.85rem | One level in [[en/7-reference/01-glossary#Explorer\|explorer]] and table of contents |
 | `--tpl-target` | Target size | Operation | 44px | Minimum size of every control |
 
 This table is wider than the text column. It **scrolls inside itself** — the page stays put.

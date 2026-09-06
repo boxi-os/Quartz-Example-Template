@@ -23,7 +23,7 @@ Lernen.
 Absatz voller Pillen ist nicht lesbar. Zu sehen unter
 [[2-formatierung/13-besonderes/pfeile-und-emoji|Pfeile, Tags und Emoji]].
 
-Das Rautenzeichen steht als `::before` im Stylesheet und ist leicht transparent — es gehört zum
+Das Rautenzeichen steht als `::before` im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]] und ist leicht transparent — es gehört zum
 Tag, aber es ist nicht sein Name.
 
 Beim Überfahren wechselt die Fläche und der Rand erscheint in der Akzentfarbe; die Pille springt
@@ -36,7 +36,7 @@ dabei nicht, weil der Rand vorher transparent da war.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 12 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]].
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
