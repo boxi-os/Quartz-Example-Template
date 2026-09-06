@@ -31,7 +31,7 @@ Grenzen von QuartzControl, und die sind gemeldet. Die verlinkte Seite hat jeweil
 | --- | --- | --- |
 | [[7-nachschlagen/01-glossar#Base\|Bases]] sprechen Englisch: „Showing 45 of 45 entries“ und englische Spaltenköpfe kommen aus dem Plugin und lassen sich nicht übersetzen | die Zeile ist leise gesetzt statt entfernt | [[3-obsidian-formate/01-bases/index\|3.1 Bases]] |
 | Eine Base kann nicht nach einer Formel gruppieren | nach einem Frontmatter-Feld gruppieren | [[3-obsidian-formate/01-bases/wie-es-funktioniert\|Wie eine Base aufgebaut ist]] |
-| Links in einem Canvas-Dateiknoten bekommen den Ordner doppelt vorangestellt und führen ins Leere — ein Fehler im Plugin | den Knotentitel anklicken und die Notiz dort lesen | [[3-obsidian-formate/02-canvas/index\|3.2 Canvas]] |
+| Links in einem Canvas-Dateiknoten bekommen den Ordner noch einmal vorangestellt und führen je nach Tiefe der Notiz ins Leere — ein Fehler im Plugin | Knoten aus zweiter oder dritter Ebene wählen; sonst den Knotentitel anklicken | [[3-obsidian-formate/02-canvas/index\|3.2 Canvas]] |
 | Eine `.base`- oder `.canvas`-Datei hat kein Frontmatter und kann keine Übersetzung verknüpfen | der Umschalter bietet die Startseite der anderen Sprache | [[6-anpassen/07-zwei-sprachen/grenzen\|Wo die zwei Sprachen aufhören]] |
 | Eine Excalidraw-Seite hat weder Seitenleisten noch Sprachumschalter | — | [[3-obsidian-formate/03-excalidraw/index\|3.3 Excalidraw]] |
 

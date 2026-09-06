@@ -10,6 +10,11 @@ cover: "[[assets/covers/cover-mathematik.svg]]"
 
 Gerendert mit KaTeX. Für alles von einer Variablen im Satz bis zur mehrzeiligen Herleitung.
 
+## Die Seiten
+
+- [[2-formatierung/08-mathematik/bloecke|Formelblöcke]] — Abgesetzte Formeln, mehrzeilig und als Matrix.
+- [[2-formatierung/08-mathematik/inline|Formeln im Text]] — LaTeX mitten im Satz.
+
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
@@ -23,8 +28,3 @@ Diese 3 Variablen liest `body-math.scss`. Ändern lassen sie sich in der App unt
 
 *Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
-
-## Die Seiten
-
-- [[2-formatierung/08-mathematik/bloecke|Formelblöcke]] — Abgesetzte Formeln, mehrzeilig und als Matrix.
-- [[2-formatierung/08-mathematik/inline|Formeln im Text]] — LaTeX mitten im Satz.

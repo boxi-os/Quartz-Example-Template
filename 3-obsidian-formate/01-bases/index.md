@@ -47,9 +47,23 @@ Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 > Sprachumschalter bietet auf so einer Seite die Startseite der anderen Sprache an statt der
 > entsprechenden Base. Siehe [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]].
 
+> [!warning] Bases sprechen Englisch
+> Über jeder Ansicht steht eine Zeile wie *„Showing 45 of 45 entries“*, und die Spaltenköpfe
+> tragen die englischen Feldnamen (`Description`). Beides kommt aus dem kompilierten Plugin
+> `bases-page` und lässt sich weder über die Sprachdatei noch über eine Option ändern. Die Vorlage
+> setzt die Zeile deshalb leise, statt sie zu entfernen — eine falschsprachige Zeile, die
+> zurücktritt, stört weniger als eine, die schreit.
+
 > [!note] Bases sind neu
 > Sie kamen mit Obsidian 1.9 als Kernfunktion dazu. Ältere Vaults haben sie nicht; im
 > Beispiel-Vault ist die Funktion eingeschaltet.
+
+## Die Seiten
+
+- [[3-obsidian-formate/01-bases/Alle-Ansichten.base|Alle Ansichten]] — eine Base
+- [[3-obsidian-formate/01-bases/Formatierungsseiten.base|Formatierungsseiten]] — eine Base
+- [[3-obsidian-formate/01-bases/Gestaltungsseiten.base|Gestaltungsseiten]] — eine Base
+- [[3-obsidian-formate/01-bases/wie-es-funktioniert|Wie eine Base aufgebaut ist]] — Filter, Formeln und Ansichten — das YAML-Format erklärt.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
@@ -91,10 +105,3 @@ Diese 30 Variablen liest `page-bases.scss`. Ändern lassen sie sich in der App u
 
 *Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
-
-## Die Seiten
-
-- [[3-obsidian-formate/01-bases/Alle-Ansichten.base|Alle Ansichten]] — eine Base
-- [[3-obsidian-formate/01-bases/Formatierungsseiten.base|Formatierungsseiten]] — eine Base
-- [[3-obsidian-formate/01-bases/Gestaltungsseiten.base|Gestaltungsseiten]] — eine Base
-- [[3-obsidian-formate/01-bases/wie-es-funktioniert|Wie eine Base aufgebaut ist]] — Filter, Formeln und Ansichten — das YAML-Format erklärt.

@@ -31,7 +31,7 @@ those are reported. The linked page has the details in each case.
 | --- | --- | --- |
 | [[en/7-reference/01-glossary#Base\|Bases]] speak English: “Showing 45 of 45 entries” and the column headings come from the plugin and cannot be translated | the line is set quietly instead of removed | [[en/3-obsidian-formats/01-bases/index\|3.1 Bases]] |
 | A base cannot group by a formula | group by a frontmatter field | [[en/3-obsidian-formats/01-bases/how-it-works\|How a base is built]] |
-| Links in a [[en/7-reference/01-glossary#Canvas\|canvas]] file node get the folder prepended twice and lead nowhere — a bug in the plugin | click the node's title and read the note there | [[en/3-obsidian-formats/02-canvas/index\|3.2 Canvas]] |
+| Links in a [[en/7-reference/01-glossary#Canvas\|canvas]] file node get the folder prepended once more and, depending on the note's depth, lead nowhere — a bug in the plugin | choose nodes from the second or third level; otherwise click the node's title | [[en/3-obsidian-formats/02-canvas/index\|3.2 Canvas]] |
 | A `.base` or `.canvas` file has no frontmatter and cannot link a translation | the switcher offers the other language's home page | [[en/6-adapting/07-two-languages/limits\|Where the two languages stop]] |
 | An [[en/7-reference/01-glossary#Excalidraw\|Excalidraw]] page has neither sidebars nor a language switcher | — | [[en/3-obsidian-formats/03-excalidraw/index\|3.3 Excalidraw]] |
 

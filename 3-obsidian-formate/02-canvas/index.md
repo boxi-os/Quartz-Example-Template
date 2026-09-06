@@ -24,13 +24,16 @@ aber: In der Konfiguration steht für den Seitentyp `canvas` das mitgelieferte Q
 `full-width`. Gemessen an der gebauten Seite ist das Ergebnis Kopfbereich, Fläche und Fußzeile —
 keine Seitenleisten, keine [[7-nachschlagen/01-glossar#Brotkrumen|Brotkrumen]].
 
-> [!bug] Links in einem Dateiknoten führen ins Leere
+> [!bug] Links in einem Dateiknoten können ins Leere führen
 > Ein Dateiknoten zeigt eine Notiz mit ihrem ganzen Inhalt — und die Links darin bekommen den
-> Ordner der eingebetteten Notiz **zweimal** vorangestellt. Aus dem Verweis auf
-> `gestaltung/grundlagen/frames` in der Bases-Übersicht wird auf dieser Seite
-> `../../obsidian-formate/bases/../../../obsidian-formate/bases/alle-ansichten.base` — ein Pfad, der
-> aus der Website herausführt. Gemessen: **sechs je Sprache**, alle in demselben Dateiknoten, und die
-> Zahl wächst mit jedem Link, der in einer eingebetteten Notiz dazukommt.
+> Ordner der eingebetteten Notiz **noch einmal** vorangestellt. Ob das Ziel danach noch stimmt,
+> hängt davon ab, wie tief die Notiz liegt. Gemessen am 06.09.2026: Mit den sieben Kapitelseiten
+> als Knoten (eine Ordnerebene tief) waren **112 Links** je Sprache kaputt — aus dem Verweis auf das
+> Glossar wurde `../../1-einstieg/../../7-nachschlagen/01-glossar`, ein Pfad, der aus der Website
+> herausführt. Mit den jetzigen sieben Knoten, alle zwei oder drei Ebenen tief, ist kein Link
+> kaputt außer dem auf den Entwurf, der es absichtlich ist. Deshalb liegen hier keine Kapitelseiten.
+> Ein Link in einem *Textknoten* wird gar nicht erst aufgelöst — `[[…]]` bleibt dort als Text
+> stehen. Und das Label eines Dateiknotens ist der Dateiname, nicht der Titel.
 >
 > Das ist ein Fehler im Plugin `canvas-page`, nicht in dieser Vorlage — die Links stimmen auf ihren
 > eigenen Seiten. Wer sich darauf verlassen will, klickt den Knotentitel an und liest die Notiz
@@ -39,6 +42,11 @@ keine Seitenleisten, keine [[7-nachschlagen/01-glossar#Brotkrumen|Brotkrumen]].
 > [!note] Zoomen und Verschieben
 > Auf der gebauten Seite lässt sich das Canvas mit dem Mausrad zoomen und mit gedrückter Maustaste
 > verschieben — es ist keine Momentaufnahme, sondern die Fläche selbst.
+
+## Die Seiten
+
+- [[3-obsidian-formate/02-canvas/Aufbau der Vorlage.canvas|Aufbau der Vorlage]] — ein Canvas
+- [[3-obsidian-formate/02-canvas/wie-es-funktioniert|Wie ein Canvas aufgebaut ist]] — JSON mit Knoten und Kanten.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
@@ -64,8 +72,3 @@ Diese 14 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App 
 
 *Diese Tabelle ist erzeugt: Sie wird aus den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]] gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
-
-## Die Seiten
-
-- [[3-obsidian-formate/02-canvas/Aufbau der Vorlage.canvas|Aufbau der Vorlage]] — ein Canvas
-- [[3-obsidian-formate/02-canvas/wie-es-funktioniert|Wie ein Canvas aufgebaut ist]] — JSON mit Knoten und Kanten.

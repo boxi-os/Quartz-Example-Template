@@ -11,6 +11,15 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 Processes, structures, times and numbers — all generated from text and all in the colour palette of
 this template.
 
+## The pages
+
+- [[en/2-formatting/09-diagrams/flow|Flowcharts]] — Mermaid — processes and decisions.
+- [[en/2-formatting/09-diagrams/numbers|Number diagrams]] — Pies, curves, flows and quadrant charts.
+- [[en/2-formatting/09-diagrams/process|Process diagrams]] — States, user journeys and branches.
+- [[en/2-formatting/09-diagrams/sequence|Sequence diagrams]] — Who says what to whom, and in which order.
+- [[en/2-formatting/09-diagrams/structure|Structure diagrams]] — Classes, entities and mind maps.
+- [[en/2-formatting/09-diagrams/time|Time diagrams]] — Gantt plans and timelines.
+
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
@@ -43,12 +52,3 @@ These 22 variables are read by `body-mermaid.scss`. They can be changed in the a
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
-
-## The pages
-
-- [[en/2-formatting/09-diagrams/flow|Flowcharts]] — Mermaid — processes and decisions.
-- [[en/2-formatting/09-diagrams/numbers|Number diagrams]] — Pies, curves, flows and quadrant charts.
-- [[en/2-formatting/09-diagrams/process|Process diagrams]] — States, user journeys and branches.
-- [[en/2-formatting/09-diagrams/sequence|Sequence diagrams]] — Who says what to whom, and in which order.
-- [[en/2-formatting/09-diagrams/structure|Structure diagrams]] — Classes, entities and mind maps.
-- [[en/2-formatting/09-diagrams/time|Time diagrams]] — Gantt plans and timelines.

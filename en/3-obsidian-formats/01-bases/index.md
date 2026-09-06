@@ -42,6 +42,13 @@ contents arises there, because a table has no headings; the right column still s
 begins where the text otherwise begins — beside the content on the desktop, in a row of its own
 below that.
 
+> [!warning] Bases speak English
+> Above every view stands a line such as *“Showing 45 of 45 entries”*, and the column headings
+> carry the English field names (`Description`). Both come from the compiled plugin `bases-page`
+> and cannot be changed through the language file or an option. On a German page that is a line in
+> the wrong language; the template therefore sets it quietly instead of removing it — a line that
+> steps back disturbs less than one that shouts.
+
 > [!note] Bases are new
 > They arrived with Obsidian 1.9 as a core feature. Older vaults do not have them; in the example
 > vault the feature is switched on.
@@ -50,6 +57,13 @@ below that.
 > A `.base` file has no [[en/7-reference/01-glossary#Frontmatter|frontmatter]], so it can carry no `translationKey`. The language switcher on
 > such a page therefore offers the other language's home page instead of the corresponding base.
 > See [[en/6-adapting/07-two-languages/limits|Where the two languages stop]].
+
+## The pages
+
+- [[en/3-obsidian-formats/01-bases/All-Views.base|All Views]] — a base
+- [[en/3-obsidian-formats/01-bases/Design-Pages.base|Design Pages]] — a base
+- [[en/3-obsidian-formats/01-bases/Formatting-Pages.base|Formatting Pages]] — a base
+- [[en/3-obsidian-formats/01-bases/how-it-works|How a base is built]] — Filters, formulas and views — the YAML format explained.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
@@ -91,10 +105,3 @@ These 30 variables are read by `page-bases.scss`. They can be changed in the app
 
 *This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
-
-## The pages
-
-- [[en/3-obsidian-formats/01-bases/All-Views.base|All Views]] — a base
-- [[en/3-obsidian-formats/01-bases/Design-Pages.base|Design Pages]] — a base
-- [[en/3-obsidian-formats/01-bases/Formatting-Pages.base|Formatting Pages]] — a base
-- [[en/3-obsidian-formats/01-bases/how-it-works|How a base is built]] — Filters, formulas and views — the YAML format explained.

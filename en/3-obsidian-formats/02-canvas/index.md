@@ -24,13 +24,16 @@ A canvas page needs the **full width** — a surface in the narrow text column s
 configuration puts Quartz's built-in `full-width` grid on the `canvas` page type. Measured on the
 built page the result is header, surface and footer — no sidebars, no [[en/7-reference/01-glossary#Breadcrumbs|breadcrumbs]].
 
-> [!bug] Links inside a file node lead nowhere
+> [!bug] Links inside a file node can lead nowhere
 > A file node shows a note with all of its content — and the links inside it get the embedded
-> note's folder prefixed **twice**. The reference to `en/design/foundations/frames` in the [[en/7-reference/01-glossary#Base|bases]]
-> overview becomes, on this page,
-> `../../../en/obsidian-formats/bases/../../../../en/obsidian-formats/bases/all-views.base` — a path
-> that leads out of the site. Measured: **six per language**, all in the same file node, and the
-> number grows with every link added to an embedded note.
+> note's folder prefixed **once more**. Whether the target still holds after that depends on how
+> deep the note lies. Measured on 2026-09-06: with the seven chapter pages as nodes (one folder
+> level deep) **113 links** were broken in the English version — the reference to the glossary
+> became `../../../en/1-getting-started/../../../en/7-reference/01-glossary`, a path that leads out
+> of the site. With the present seven nodes, all two or three levels deep, no link is broken except
+> the one to the draft, which is broken on purpose. That is why no chapter pages sit here. A link
+> in a *text node* is not resolved at all — `[[…]]` stays there as text. And a file node's label is
+> the file name, not the title.
 >
 > That is a bug in the `canvas-page` plugin, not in this template — the links are correct on their
 > own pages. Anyone who needs them clicks the node's title and reads the note there.
@@ -38,6 +41,11 @@ built page the result is header, surface and footer — no sidebars, no [[en/7-r
 > [!note] Zooming and panning
 > On the built page the canvas can be zoomed with the mouse wheel and moved with the mouse button
 > held down — it is not a [[en/7-reference/01-glossary#Snapshot|snapshot]] but the surface itself.
+
+## The pages
+
+- [[en/3-obsidian-formats/02-canvas/how-it-works|How a canvas is built]] — JSON with nodes and edges.
+- [[en/3-obsidian-formats/02-canvas/Structure of the template.canvas|Structure of the template]] — a canvas
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
@@ -63,8 +71,3 @@ These 14 variables are read by `page-canvas.scss`. They can be changed in the ap
 
 *This table is generated: it is read out of the [[en/7-reference/01-glossary#Stylesheet|stylesheets]] rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
-
-## The pages
-
-- [[en/3-obsidian-formats/02-canvas/how-it-works|How a canvas is built]] — JSON with nodes and edges.
-- [[en/3-obsidian-formats/02-canvas/Structure of the template.canvas|Structure of the template]] — a canvas

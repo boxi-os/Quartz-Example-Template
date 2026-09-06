@@ -10,6 +10,15 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 
 Abläufe, Strukturen, Zeiten und Zahlen — alle aus Text erzeugt und alle in der Farbpalette dieser Vorlage.
 
+## Die Seiten
+
+- [[2-formatierung/09-diagramme/fluss|Flussdiagramme]] — Mermaid — Abläufe und Entscheidungen.
+- [[2-formatierung/09-diagramme/ablauf|Ablauf-Diagramme]] — Zustände, Nutzerreisen und Versionsstränge.
+- [[2-formatierung/09-diagramme/sequenz|Sequenzdiagramme]] — Wer sagt wem was, in welcher Reihenfolge.
+- [[2-formatierung/09-diagramme/struktur|Struktur-Diagramme]] — Klassen, Entitäten und Mindmaps.
+- [[2-formatierung/09-diagramme/zahlen|Zahlen-Diagramme]] — Torten, Kurven, Flüsse und Vier-Felder-Tafeln.
+- [[2-formatierung/09-diagramme/zeit|Zeit-Diagramme]] — Gantt-Pläne und Zeitleisten.
+
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
@@ -42,12 +51,3 @@ Diese 22 Variablen liest `body-mermaid.scss`. Ändern lassen sie sich in der App
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
-
-## Die Seiten
-
-- [[2-formatierung/09-diagramme/fluss|Flussdiagramme]] — Mermaid — Abläufe und Entscheidungen.
-- [[2-formatierung/09-diagramme/ablauf|Ablauf-Diagramme]] — Zustände, Nutzerreisen und Versionsstränge.
-- [[2-formatierung/09-diagramme/sequenz|Sequenzdiagramme]] — Wer sagt wem was, in welcher Reihenfolge.
-- [[2-formatierung/09-diagramme/struktur|Struktur-Diagramme]] — Klassen, Entitäten und Mindmaps.
-- [[2-formatierung/09-diagramme/zahlen|Zahlen-Diagramme]] — Torten, Kurven, Flüsse und Vier-Felder-Tafeln.
-- [[2-formatierung/09-diagramme/zeit|Zeit-Diagramme]] — Gantt-Pläne und Zeitleisten.
