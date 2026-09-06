@@ -69,19 +69,19 @@ Diese 17 Variablen liest `aside-toc.scss`. Ändern lassen sie sich in der App un
 | `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
 | `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
 | `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
 | `--tpl-indent` | `0.85rem` | Explorer |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 weitere Komponenten |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
+| `--tpl-space-3xs` | `0.125rem` | 6 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
-| `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

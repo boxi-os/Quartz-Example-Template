@@ -1,6 +1,6 @@
 ---
 title: 4.5 Layout boxes per page
-description: The same component, set up differently on this one page.
+description: Hiding, renaming or refilling a layout box on a single page — in the frontmatter, not in the configuration.
 section: Controlling a page
 tags:
   - controlling-a-page
@@ -11,7 +11,13 @@ layoutBoxCta:
 translationKey: seiten-steuern/layout-boxen-je-seite
 ---
 
-This page controls two of the five layout box instances through its own frontmatter:
+A **layout box** is a box with content of its own that the plugin *quartz-layout-box* places at
+one spot of the page layout — the word mark at the top, the box “About this handbook” on the
+left, the box “Read on” below the text. This template has five of them; what each does stands in
+[[en/5-design/05-layout-boxes/index|5.5 Layout boxes]]. Here it is about how a single page can
+have one of them differently.
+
+This page controls two of the five instances through its own frontmatter:
 
 ```yaml
 ---
@@ -21,39 +27,49 @@ layoutBoxCta:
 ---
 ```
 
-**What you should see:** the box "Über dieses Handbuch" in the left column is missing here — on
+**What you should see:** the box “About this handbook” in the left column is missing here — on
 every other page it is there. And the box below this text shows different content than usual.
-
-That works because every instance has its own `frontmatterKey`. Without it, a single
-`layoutBox: false` would switch off all five boxes at once.
 
 ## The three forms
 
 | In the frontmatter | Effect |
-| -------------- | ------- |
+| --- | --- |
 | `layoutBoxNote: false` | hide the box on this page |
 | `layoutBoxNote: other.md` | load a different snippet from the same folder |
 | `layoutBoxNote: {html: "…"}` | set your own content; `{file: "…"}` and `{hidden: true}` work too |
 
-The long form takes six fields: `hidden`, `file`, `html`, `title`, `collapsible` and `collapsed`.
+In the long form the key takes six fields: `hidden`, `file`, `html`, `title`, `collapsible` and
+`collapsed`. A page may therefore also rename its box or fold it away, not just refill it.
 
-## The five instances of this template
+## The five keys of this template
 
-| Key | Place | Form |
-| --------- | --- | ---- |
-| `layoutBoxMark` | header | word mark, one image per colour scheme |
-| `layoutBoxNote` | left column | Markdown file, collapsible |
-| `layoutBoxHint` | left column | narrow screens only |
-| `layoutBoxCta` | after the content | call to action with placeholders |
-| `layoutBoxColophon` | footer | colophon line |
+| Key | Place | What the box is |
+| --- | --- | --- |
+| `layoutBoxMark` | header | the word mark, one image per colour scheme |
+| `layoutBoxNote` | left column | “About this handbook”, from a Markdown file, collapsible |
+| `layoutBoxHint` | left column | a hint, on narrow screens only |
+| `layoutBoxCta` | after the content | “Read on”, with placeholders |
+| `layoutBoxColophon` | footer | the colophon line |
 
-Four of them take their content from the configuration (`html:`) and therefore travel with the
-template package in full. The box in the left column loads from a file and shows the other way —
-that file has to be copied along when the template is passed on.
+## Why every instance has a key of its own
 
-> [!note] For a whole language there is a better place
-> The frontmatter holds for **one** page. What should hold for every page of one language stands in
-> the configuration under `byLang` and needs no line in the notes — see
-> [[en/5-design/05-layout-boxes/the-five-instances|The five instances]]. When both apply, the frontmatter
-> wins: the box below this text shows its own content, but carries the heading of the page's
-> language.
+Without `frontmatterKey` in the configuration a single `layoutBox: false` would switch off **all
+five** boxes at once. The template therefore gives every instance a name of its own — which is
+also the procedure the plugin documents for multiple use.
+
+## When the frontmatter is the right place — and when it is not
+
+What holds for **this one page** belongs here. What holds for **every page of one language**
+belongs in the configuration under `byLang` — otherwise the same exception stands in a hundred
+files. That is exactly what happened here once: the English pages carried their four boxes
+themselves, until the plugin got `byLang`. See
+[[en/5-design/05-layout-boxes/the-five-instances|The five instances]].
+
+When both apply, the frontmatter wins. The order is:
+
+1. this page's frontmatter
+2. `byLang` for this page's language
+3. the entry's base setting
+
+This page is the proof of it: in both languages its box below the text shows its own text from
+the frontmatter, but carries the heading `byLang` sets for that language.

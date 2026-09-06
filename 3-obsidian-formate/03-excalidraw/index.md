@@ -39,3 +39,8 @@ werden — anders als Bases und Canvas, die schon dabei sind.
 > Seitenapparat — und, gemessen am gebauten Markup, auch **keinen Sprachumschalter**: Die beiden
 > Zeichnungen sind das einzige Seitenpaar dieser Website, das gar nicht verknüpft ist. Siehe
 > [[6-anpassen/07-zwei-sprachen/verknuepfung|Wie die Sprachen sich finden]].
+
+## Die Seiten
+
+- [[3-obsidian-formate/03-excalidraw/Aufbau des editorial-Frames.excalidraw|Aufbau des editorial-Frames.excalidraw]]
+- [[3-obsidian-formate/03-excalidraw/wie-es-funktioniert|Wie eine Excalidraw-Datei aufgebaut ist]] — Markdown außen, Zeichendaten innen — und der zweite, einfachere Weg.

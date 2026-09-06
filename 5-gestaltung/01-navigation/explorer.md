@@ -46,8 +46,8 @@ Struktur nicht.
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.
 
-Zu sehen ist das am besten unter [[7-nachschlagen/02-abkuerzungen|Liste]] — vier
-Ordner tief.
+Zu sehen ist das am besten unter [[2-formatierung/05-callouts/grundform|Callouts — Grundform]] —
+drei Ordner tief, und im Explorer ein voll aufgeklappter Ast.
 
 ## Zwei Sprachen, ein Baum
 
@@ -114,29 +114,30 @@ Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 31 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 32 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
 | `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
 | `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
 | `--icon-close` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-file` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-folder` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-folder-open` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
 | `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | nur hier |
 | `--tpl-icon` | `1.1rem` | Farbschema-Umschalter, Lesemodus |
-| `--tpl-icon-sm` | `0.95rem` | Tokens, Der Sprachumschalter |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 Variablen, Der Sprachumschalter |
 | `--tpl-indent` | `0.85rem` | Inhaltsverzeichnis |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
+| `--tpl-radius-lg` | `14px` | 3 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 weitere Komponenten |
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
@@ -146,8 +147,8 @@ Diese 31 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App
 | `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
-| `--tpl-text-xs` | `0.78rem` | 8 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

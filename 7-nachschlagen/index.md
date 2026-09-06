@@ -1,18 +1,20 @@
 ---
 title: 7 Nachschlagen
-description: Vier Ordnerebenen, damit Explorer, Brotkrumen und Ordnerseiten etwas zu zeigen haben.
+description: Glossar, Abkürzungen, die wiederkehrenden Muster, die bekannten Grenzen — und eine Liste aller Seiten.
 section: Nachschlagen
 tags:
   - nachschlagen
 translationKey: nachschlagen/index
 ---
 
-Dieser Bereich ist absichtlich tief verschachtelt. Er beantwortet eine Frage, die man einer
-Gestaltung sonst nicht stellen kann: **wie sieht die vierte Ebene aus?**
+Was man nicht liest, sondern aufschlägt.
 
-- [[7-nachschlagen/index|Grundlagen]] — und darunter noch zwei Ebenen
-- [[7-nachschlagen/03-muster|Vertiefung]]
-
-Im Explorer links kann man die Struktur aufklappen. Jede Ebene rückt um dasselbe Maß ein und
-behält eine Führungslinie zu ihrem Elternordner — ohne die weiß man auf Ebene vier nicht mehr,
-wozu eine Datei gehört.
+- [[7-nachschlagen/01-glossar|7.1 Glossar]] — jeder Begriff dieses Handbuchs in zwei, drei Sätzen,
+  mit dem Verweis auf die Seite, die ihn ausführt.
+- [[7-nachschlagen/02-abkuerzungen|7.2 Abkürzungen]] — von AA bis YAML.
+- [[7-nachschlagen/03-muster|7.3 Muster]] — die Entscheidungen, die sich durch jede Komponente
+  ziehen.
+- [[7-nachschlagen/04-bekannte-grenzen|7.4 Bekannte Grenzen]] — was nicht geht, warum, und was
+  die Vorlage stattdessen tut.
+- [[7-nachschlagen/Alle Seiten.base|Alle Seiten]] — jede Notiz dieser Website, nach Kapitel
+  gruppiert. Das ist eine Base; was das ist, steht in [[3-obsidian-formate/01-bases/index|3.1 Bases]].

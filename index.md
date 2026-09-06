@@ -1,45 +1,55 @@
 ---
-title: Minimal & lesbar
-description: Die Beispielvorlage für QuartzControl — alle zehn Bausteine, jede Komponente gestaltet, jeder Kontrast gemessen.
+title: Example
+description: Das Handbuch der Vorlage Example für QuartzControl — zum Lesen, zum Nachschlagen und zum Vergleichen mit der eigenen Website.
 section: Start
 tags:
-  - vorlage
   - start
 ---
 
-Diese Website ist der Beispielinhalt zur Vorlage **Minimal & lesbar**. Sie existiert, damit man die
-Gestaltung sehen kann: Ein Explorer braucht Ordner, ein Inhaltsverzeichnis braucht Überschriften,
-ein Graph braucht Verweise.
+Diese Website ist das Handbuch der Vorlage **Example** für QuartzControl. Sie erklärt, was die
+Vorlage tut und wie man sie anpasst — und sie ist zugleich der Beleg: Jede Seite hier ist mit genau
+dieser Vorlage gebaut. Wer an seiner eigenen Website etwas ändert, kann es hier mit dem Original
+vergleichen.
 
-> [!tip] Fünf Wege hinein
-> Jeder Bereich zeigt etwas anderes an derselben Gestaltung.
+> [!tip] Drei Türen
+> **Neu hier?** Kapitel [[1-einstieg/index|1 Einstieg]] erklärt auf vier kurzen Seiten, was
+> Obsidian, Quartz und QuartzControl miteinander zu tun haben und wie aus einer Notiz eine Website
+> wird.
+>
+> **Schreiben?** Kapitel [[2-formatierung/index|2 Formatierung]] zeigt jedes Element, das man in
+> Obsidian schreiben kann — als Quelltext und als Ergebnis.
+>
+> **Etwas ändern?** Kapitel [[6-anpassen/index|6 Anpassen]] sagt, wo eine Farbe, eine Schrift oder
+> ein Abstand herkommt und wie man ihn ändert, meist ohne eine Zeile Code.
 
-| Bereich | Was darin steht |
+## Die sieben Kapitel
+
+| Kapitel | Die Frage, die es beantwortet |
 | --- | --- |
-| [[2-formatierung/index\|Formatierung]] | Jedes Obsidian-Element als Quelltext und gerendertes Ergebnis — 62 kurze Seiten |
-| [[3-obsidian-formate/index\|Obsidian-Formate]] | Bases, Canvas und Excalidraw: drei Dateitypen, die keine Notizen sind |
-| [[5-gestaltung/index\|Gestaltung]] | Je Komponente: was Quartz von Haus aus tut, und was diese Vorlage ändert |
-| [[7-nachschlagen/index\|Handbuch]] | Vier Ordnerebenen tief — damit Explorer und Brotkrumen etwas zu zeigen haben |
-| [[4-seiten-steuern/index\|Beispiele]] | Sonderfälle: Entwurf, ungelistet, Alias, volles Frontmatter |
+| [[1-einstieg/index\|1 Einstieg]] | Was ist das hier, und wie hängt es zusammen? |
+| [[2-formatierung/index\|2 Formatierung]] | Wie schreibe ich fett, eine Tabelle, ein Diagramm — und wie sieht es dann aus? |
+| [[3-obsidian-formate/index\|3 Obsidian-Formate]] | Was wird aus einer Base, einem Canvas, einer Zeichnung? |
+| [[4-seiten-steuern/index\|4 Eine Seite steuern]] | Wie verstecke ich eine Seite, gebe ihr ein Datum, einen zweiten Namen, ein Titelbild? |
+| [[5-gestaltung/index\|5 Die Gestaltung]] | Was macht die Vorlage an jedem Teil der Seite anders als Quartz — und warum? |
+| [[6-anpassen/index\|6 Anpassen]] | Wie ändere ich Farben, Schriften, Abstände, das Seitenraster, die Sprachen? |
+| [[7-nachschlagen/index\|7 Nachschlagen]] | Was heißt dieses Wort? Was geht nicht, und warum? |
 
-## Die drei Entscheidungen, die alles tragen
+## Was die Vorlage ausmacht
 
-1. **Die Breite entscheidet das Raster.** Der Frame gibt dem Text seine Spalte; es gibt keine
-   zweite Begrenzung am einzelnen Absatz, die damit in Streit geraten könnte.
-2. **Farben sind gemessen.** 87 Paare erfüllen WCAG AA in hell und dunkel, die dreizehn neu gesetzten
-   Callout-Farben eingeschlossen. Quartz' eigene tun das nicht — elf von zwölf scheitern.
-3. **Kein Stylesheet setzt eine Farbe oder ein Maß der Gestaltung selbst.** Beides kommt aus
-   Variablen, die nach dem Import in der App bearbeitbar bleiben. Was literal dasteht, ist benannt
-   und begründet: die Callout- und Syntaxfarben, weil sie Status bedeuten und keine Palette sind,
-   die Haarlinien, und die Breakpoints — eine Media-Query kann keine Variable lesen.
+Drei Entscheidungen tragen alles andere; ausführlich stehen sie unter
+[[1-einstieg/01-was-diese-vorlage-ist|1.1 Was diese Vorlage ist]].
 
-## Wo der Inhalt gepflegt wird
+1. **Die Breite entscheidet das Raster.** Das Seitenraster gibt dem Text seine Spalte; es gibt
+   keine zweite Begrenzung am einzelnen Absatz, die damit in Streit geraten könnte.
+2. **Farben sind gemessen.** 89 Farbpaare erfüllen die Kontrastschwelle der Richtlinie WCAG in hell
+   und dunkel, die dreizehn neu gesetzten Callout-Farben eingeschlossen. Quartz' eigene tun das
+   nicht — elf von zwölf scheitern.
+3. **Kein Stylesheet setzt eine Farbe oder ein Maß selbst.** Beides kommt aus Variablen, die nach
+   dem Import in der App bearbeitbar bleiben.
 
-In einem eigenen **Obsidian-Vault**. Das Projekt zeigt mit einem Symlink darauf, statt eine Kopie
-zu halten. Wer hier etwas ändert, ändert es an der Quelle.
+## Zwei Sprachen, ein Vault
 
-Dieselben Seiten gibt es auf **Englisch**, umgeschaltet wird oben rechts. Wie das gebaut ist,
-steht unter [[6-anpassen/07-zwei-sprachen/index|Zwei Sprachen]].
-
-Ein Blick auf eine lange Seite lohnt sich: [[1-einstieg/04-so-ist-eine-seite-aufgebaut|Ein langer Artikel]] —
-Überschriften bis zur sechsten Ebene, damit das Inhaltsverzeichnis vollständig ist.
+Dieselben Seiten gibt es auf Englisch; umgeschaltet wird oben rechts. Der Inhalt liegt in einem
+eigenen Obsidian-Vault, auf den das Projekt per Symlink zeigt — wer hier etwas ändert, ändert es an
+der Quelle. Wie beides gebaut ist: [[6-anpassen/07-zwei-sprachen/index|6.7 Zwei Sprachen]] und
+[[1-einstieg/03-von-der-notiz-zur-website|1.3 Von der Notiz zur Website]].

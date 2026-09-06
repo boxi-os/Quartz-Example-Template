@@ -1,0 +1,27 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("en")
+views:
+  - type: list
+    name: By chapter
+    groupBy:
+      property: section
+      direction: ASC
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: As a table
+    order:
+      - title
+      - section
+      - description
+    sort:
+      - property: section
+        direction: ASC
+      - property: title
+        direction: ASC

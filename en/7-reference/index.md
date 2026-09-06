@@ -1,18 +1,19 @@
 ---
 title: 7 Reference
-description: Four folder levels, so that the explorer, the breadcrumbs and the folder pages have something to show.
+description: Glossary, abbreviations, the recurring patterns, the known limits — and a list of all pages.
 section: Reference
 tags:
   - reference
 translationKey: nachschlagen/index
 ---
 
-This area is deliberately deeply nested. It answers a question you cannot otherwise ask of a
-design: **what does the fourth level look like?**
+What you do not read but look up.
 
-- [[en/7-reference/index|Basics]] — and two more levels below it
-- [[en/7-reference/03-patterns|In depth]]
-
-In the explorer on the left the structure can be unfolded. Every level indents by the same amount
-and keeps a guide line to its parent folder — without it you no longer know at level four which
-file belongs where.
+- [[en/7-reference/01-glossary|7.1 Glossary]] — every term of this handbook in two or three
+  sentences, with a link to the page that goes into it.
+- [[en/7-reference/02-abbreviations|7.2 Abbreviations]] — from AA to YAML.
+- [[en/7-reference/03-patterns|7.3 Patterns]] — the decisions that run through every component.
+- [[en/7-reference/04-known-limits|7.4 Known limits]] — what does not work, why, and what the
+  template does instead.
+- [[en/7-reference/All pages.base|All pages]] — every note of this site, grouped by chapter. That
+  is a base; what that is stands in [[en/3-obsidian-formats/01-bases/index|3.1 Bases]].

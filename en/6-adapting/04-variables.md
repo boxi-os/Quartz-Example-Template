@@ -89,7 +89,7 @@ change the base gap has to look for it in many places.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 39 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 40 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -97,27 +97,28 @@ These 39 variables are read by `base.scss`. They can be changed in the app under
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
 | `--icon-chevron` | set in the stylesheet (`base.scss`) | Callout colours |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--tpl-fade` | `20px` | only here |
+| `--tpl-fade` | `14px` | only here |
 | `--tpl-fade-mask` | set in the stylesheet (`base.scss`) | only here |
+| `--tpl-fade-mask-end` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-focus-color` | `var(--secondary)` = `#2A4E6C` | only here |
 | `--tpl-focus-offset` | `2px` | Callout colours |
 | `--tpl-focus-width` | `2px` | Callout colours |
 | `--tpl-header-h` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-header-pad` | set in the stylesheet (`base.scss`) | The header |
 | `--tpl-icon-sm` | `0.95rem` | The explorer, The language switcher |
-| `--tpl-leading-normal` | `1.65` | only here |
-| `--tpl-leading-snug` | `1.45` | 3 other components |
+| `--tpl-leading-normal` | `1.6` | only here |
+| `--tpl-leading-snug` | `1.4rem` | 4 other components |
 | `--tpl-leading-tight` | `1.25` | only here |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xl` | `4rem` | Error page |
-| `--tpl-space-3xs` | `0.125rem` | 7 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
@@ -128,9 +129,9 @@ These 39 variables are read by `base.scss`. They can be changed in the app under
 | `--tpl-text-3xl` | `2.25rem` | Title and date, Error page |
 | `--tpl-text-base` | `1rem` | 4 other components |
 | `--tpl-text-lg` | `1.15rem` | Search, Link preview |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-text-xl` | `1.4rem` | The language switcher |
-| `--tpl-tracking-caps` | `0.06em` | Code styling, Bases |
+| `--tpl-tracking-caps` | `0.06em` | Code styling, 3.1 Bases |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

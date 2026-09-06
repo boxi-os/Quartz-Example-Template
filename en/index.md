@@ -1,42 +1,55 @@
 ---
-title: Minimal and readable
-description: The example template for QuartzControl — all ten parts, every component designed, every contrast measured.
+title: Example
+description: The handbook of the Example template for QuartzControl — to read, to look things up, and to compare against your own site.
 section: Start
 tags:
-  - template
   - start
 ---
 
-This site is the example content for the template **Minimal and readable**. It exists so that the
-design can be seen: an explorer needs folders, a table of contents needs headings, a graph needs
-links.
+This site is the handbook of the template **Example** for QuartzControl. It explains what the
+template does and how to adapt it — and it is the evidence at the same time: every page here is
+built with exactly this template. Whoever changes something on their own site can compare it with
+the original here.
 
-> [!tip] Five ways in
-> Each area shows something different about the same design.
+> [!tip] Three doors
+> **New here?** Chapter [[en/1-getting-started/index|1 Getting started]] explains on four short
+> pages what Obsidian, Quartz and QuartzControl have to do with each other, and how a note becomes
+> a website.
+>
+> **Writing?** Chapter [[en/2-formatting/index|2 Formatting]] shows every element you can write
+> in Obsidian — as source and as result.
+>
+> **Changing something?** Chapter [[en/6-adapting/index|6 Adapting]] says where a colour, a
+> typeface or a spacing comes from and how to change it, mostly without a line of code.
 
-| Area | What is in it |
+## The seven chapters
+
+| Chapter | The question it answers |
 | --- | --- |
-| [[en/2-formatting/index\|Formatting]] | Every Obsidian element as source and rendered result — 62 short pages |
-| [[en/3-obsidian-formats/index\|Obsidian formats]] | Bases, Canvas and Excalidraw: three file types that are not notes |
-| [[en/5-design/index\|Design]] | Per component: what Quartz does out of the box, and what this template changes |
-| [[en/7-reference/index\|Handbook]] | Four folder levels deep — so that the explorer and the breadcrumbs have something to show |
-| [[en/4-controlling-a-page/index\|Examples]] | Special cases: draft, unlisted, alias, a full frontmatter |
+| [[en/1-getting-started/index\|1 Getting started]] | What is this, and how does it fit together? |
+| [[en/2-formatting/index\|2 Formatting]] | How do I write bold, a table, a diagram — and what does it look like then? |
+| [[en/3-obsidian-formats/index\|3 Obsidian formats]] | What becomes of a base, a canvas, a drawing? |
+| [[en/4-controlling-a-page/index\|4 Controlling a page]] | How do I hide a page, give it a date, a second name, a cover image? |
+| [[en/5-design/index\|5 The design]] | What does the template do differently from Quartz on every part of the page — and why? |
+| [[en/6-adapting/index\|6 Adapting]] | How do I change colours, typefaces, spacing, the page grid, the languages? |
+| [[en/7-reference/index\|7 Reference]] | What does this word mean? What does not work, and why? |
 
-## The three decisions everything rests on
+## What makes the template
 
-1. **The width decides the grid.** The frame gives the text its column; there is no second limit on
-   the individual paragraph that could fall out with it.
-2. **Colours are measured.** 87 pairs meet WCAG AA in light and dark, the thirteen restated callout
-   colours included. Quartz's own do not — eleven of twelve fail.
-3. **No stylesheet sets a colour or a measure of the design itself.** Both come from variables that
-   stay editable in the app after the import. What does stand there literally is named and
-   accounted for: the callout and syntax colours, because they mean status rather than palette; the
-   hairlines; and the breakpoints — a media query cannot read a variable.
+Three decisions carry everything else; in full they stand under
+[[en/1-getting-started/01-what-this-template-is|1.1 What this template is]].
 
-## Where the content is kept
+1. **The width decides the grid.** The page grid gives the text its column; there is no second
+   limit on the individual paragraph that could fall out with it.
+2. **Colours are measured.** 89 colour pairs meet the contrast threshold of the WCAG guideline in
+   light and dark, the thirteen restated callout colours included. Quartz's own do not — eleven of
+   twelve fail.
+3. **No stylesheet sets a colour or a measure itself.** Both come from variables that stay
+   editable in the app after the import.
 
-In an **Obsidian vault** of its own. The project points at it with a symlink instead of holding a
-copy. Change something here and you change it at the source.
+## Two languages, one vault
 
-One long page is worth a look: [[en/1-getting-started/04-how-a-page-is-built|A long article]] — headings down to the
-sixth level, so the table of contents is complete.
+The same pages exist in German; the switch is at the top right. The content lives in an Obsidian
+vault of its own, which the project points to through a symlink — whoever changes something here
+changes it at the source. How both are built: [[en/6-adapting/07-two-languages/index|6.7 Two
+languages]] and [[en/1-getting-started/03-from-note-to-website|1.3 From note to website]].

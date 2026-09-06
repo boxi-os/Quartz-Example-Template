@@ -35,20 +35,21 @@ while doing so, because the border was already there, transparent.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by `meta-tag-list.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by `meta-tag-list.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--icon-tag` | set in the stylesheet (`base.scss`) | only here |
 | `--tag-background` | — | only here |
 | `--tag-background-hover` | — | only here |
 | `--tag-color` | — | only here |
 | `--tpl-motion` | `150ms ease` | 12 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

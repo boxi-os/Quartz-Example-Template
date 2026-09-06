@@ -71,24 +71,24 @@ These 23 variables are read by `nav-language-switcher.scss`. They can be changed
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
-| `--tpl-icon-sm` | `0.95rem` | Tokens, The explorer |
-| `--tpl-leading-snug` | `1.45` | 3 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The explorer |
+| `--tpl-leading-snug` | `1.4rem` | 4 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
-| `--tpl-space-3xs` | `0.125rem` | 7 other components |
+| `--tpl-space-3xs` | `0.125rem` | 6 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xl` | `1.4rem` | Tokens |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-xl` | `1.4rem` | 6.4 Variables |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

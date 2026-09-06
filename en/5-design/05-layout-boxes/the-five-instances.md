@@ -77,18 +77,18 @@ These 27 variables are read by `plugin-layout-box.scss`. They can be changed in 
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
-| `--tertiary` | `#9C4221` · dark `#E8A56B` | Body text, Diagrams |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--tertiary` | `#9C4221` · dark `#E8A56B` | Body text, 2.9 Diagrams |
 | `--tpl-accent-bar` | `3px` | 5 other components |
-| `--tpl-leading-snug` | `1.45` | 3 other components |
+| `--tpl-leading-snug` | `1.4rem` | 4 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
-| `--tpl-space-3xs` | `0.125rem` | 7 other components |
+| `--tpl-space-3xs` | `0.125rem` | 6 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
@@ -97,8 +97,8 @@ These 27 variables are read by `plugin-layout-box.scss`. They can be changed in 
 | `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 

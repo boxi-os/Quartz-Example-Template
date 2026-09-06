@@ -55,15 +55,15 @@ These 11 variables are read by `site-footer.scss`. They can be changed in the ap
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-xl` | `2.5rem` | 4 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

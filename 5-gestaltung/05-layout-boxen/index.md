@@ -48,3 +48,7 @@ Diese Vorlage gestaltet jede Klasse: `.layout-box`, `.layout-box-title`, `.layou
 
 Weiter: [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]] ·
 [[4-seiten-steuern/05-layout-boxen-je-seite|Je Seite steuern]]
+
+## Die Seiten
+
+- [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]] — Dasselbe Plugin, fünfmal, für jeweils etwas anderes.

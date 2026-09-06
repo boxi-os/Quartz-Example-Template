@@ -37,8 +37,8 @@ These 13 variables are read by `page-popover.scss`. They can be changed in the a
 | --- | --- | --- |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--tpl-radius-lg` | `14px` | The graph, Search |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-radius-lg` | `14px` | 3 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
@@ -46,8 +46,8 @@ These 13 variables are read by `page-popover.scss`. They can be changed in the a
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-text-lg` | `1.15rem` | Tokens, Search |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-lg` | `1.15rem` | 6.4 Variables, Search |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

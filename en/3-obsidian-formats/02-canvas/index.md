@@ -42,23 +42,29 @@ built page the result is header, surface and footer — no sidebars, no breadcru
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `page-canvas.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 14 variables are read by `page-canvas.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
+
+## The pages
+
+- [[en/3-obsidian-formats/02-canvas/how-it-works|How a canvas is built]] — JSON with nodes and edges.
+- [[en/3-obsidian-formats/02-canvas/Structure of the template.canvas|Structure of the template]] — a canvas

@@ -34,19 +34,19 @@ These 17 variables are read by `page-search-results.scss`. They can be changed i
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--textHighlight` | `rgba(226, 189, 92, 0.45)` · dark `rgba(140, 184, 218, 0.30)` | Body text |
 | `--tpl-accent-bar` | `3px` | 5 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-3xs` | `0.125rem` | 7 other components |
+| `--tpl-space-3xs` | `0.125rem` | 6 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-xs` | `0.78rem` | 9 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

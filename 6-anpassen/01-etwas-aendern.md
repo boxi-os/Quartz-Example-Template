@@ -15,7 +15,7 @@ denkt.
 **Der Normalfall.** 53 Variablen tragen jede Farbe und jedes Maß dieser Vorlage; keine Zeile CSS ist
 dafür nötig. In der App unter *Stile → Variablen*, getrennt nach hell und dunkel.
 
-Welche Variable wo greift, steht auf jeder Seite dieses Bereichs ganz unten — samt der Spalte, die
+Welche Variable wo greift, steht auf jeder Seite in [[5-gestaltung/index|Kapitel 5]] ganz unten — samt der Spalte, die
 sagt, was sich noch mit ändert. `--tpl-space-md` anzufassen bewegt die ganze Website; `--tpl-fade`
 bewegt zwei weiche Kanten.
 

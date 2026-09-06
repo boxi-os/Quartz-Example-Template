@@ -1,6 +1,6 @@
 ---
 title: 4.5 Layout-Boxen je Seite
-description: Dieselbe Komponente, auf dieser Seite anders eingestellt.
+description: Eine Layout-Box auf einer einzelnen Seite ausblenden, umbenennen oder anders füllen — im Frontmatter, nicht in der Konfiguration.
 section: Seiten steuern
 tags:
   - seiten-steuern
@@ -11,7 +11,13 @@ layoutBoxCta:
 translationKey: seiten-steuern/layout-boxen-je-seite
 ---
 
-Diese Seite steuert zwei der fünf Layout-Box-Instanzen über ihr eigenes Frontmatter:
+Eine **Layout-Box** ist ein Kasten mit eigenem Inhalt, den das Plugin *quartz-layout-box* an eine
+Stelle des Seitenlayouts setzt — die Wortmarke oben, die Box „Über dieses Handbuch“ links, der
+Kasten „Weiterlesen“ unter dem Text. Diese Vorlage hat fünf davon; was jede tut, steht in
+[[5-gestaltung/05-layout-boxen/index|5.5 Layout-Boxen]]. Hier geht es darum, wie eine einzelne
+Seite eine davon anders haben kann.
+
+Diese Seite steuert zwei der fünf Instanzen über ihr eigenes Frontmatter:
 
 ```yaml
 ---
@@ -25,37 +31,47 @@ layoutBoxCta:
 allen anderen Seiten ist sie da. Und der Kasten unter diesem Text zeigt einen anderen Inhalt als
 sonst.
 
-Möglich ist das, weil jede Instanz einen eigenen `frontmatterKey` hat. Ohne das würde ein
-`layoutBox: false` alle fünf Boxen gleichzeitig ausschalten.
-
 ## Die drei Formen
 
 | Im Frontmatter | Wirkung |
-| -------------- | ------- |
+| --- | --- |
 | `layoutBoxNote: false` | Box auf dieser Seite ausblenden |
-| `layoutBoxNote: andere.md` | anderes Snippet aus demselben Ordner laden |
+| `layoutBoxNote: andere.md` | anderen Schnipsel aus demselben Ordner laden |
 | `layoutBoxNote: {html: "…"}` | eigenen Inhalt setzen; auch `{file: "…"}` und `{hidden: true}` |
 
-Die ausführliche Form nimmt sechs Felder: `hidden`, `file`, `html`, `title`, `collapsible` und
-`collapsed`.
+In der ausführlichen Form nimmt der Schlüssel sechs Felder: `hidden`, `file`, `html`, `title`,
+`collapsible` und `collapsed`. Eine Seite darf ihre Box also auch umbenennen oder zuklappen, nicht
+nur umfüllen.
 
-## Die fünf Instanzen dieser Vorlage
+## Die fünf Schlüssel dieser Vorlage
 
-| Schlüssel | Ort | Form |
-| --------- | --- | ---- |
-| `layoutBoxMark` | Kopfbereich | Wortmarke, Bild je Farbschema |
-| `layoutBoxNote` | linke Spalte | Markdown-Datei, aufklappbar |
-| `layoutBoxHint` | linke Spalte | nur auf schmalen Bildschirmen |
-| `layoutBoxCta` | nach dem Inhalt | Aufruf mit Platzhaltern |
-| `layoutBoxColophon` | Fußzeile | Impressumszeile |
+| Schlüssel | Ort | Was die Box ist |
+| --- | --- | --- |
+| `layoutBoxMark` | Kopfbereich | die Wortmarke, ein Bild je Farbschema |
+| `layoutBoxNote` | linke Spalte | „Über dieses Handbuch“, aus einer Markdown-Datei, aufklappbar |
+| `layoutBoxHint` | linke Spalte | ein Hinweis, nur auf schmalen Bildschirmen |
+| `layoutBoxCta` | nach dem Inhalt | „Weiterlesen“, mit Platzhaltern |
+| `layoutBoxColophon` | Fußzeile | die Impressumszeile |
 
-Vier davon holen ihren Inhalt aus der Konfiguration (`html:`) und reisen deshalb vollständig mit
-dem Vorlagen-Paket. Die Box in der linken Spalte lädt aus einer Datei und zeigt damit den anderen
-Weg — die Datei muss beim Weitergeben mitkopiert werden.
+## Warum jede Instanz einen eigenen Schlüssel hat
 
-> [!note] Für eine ganze Sprache gibt es einen besseren Ort
-> Das Frontmatter gilt für **eine** Seite. Was für alle Seiten einer Sprache gelten soll, steht in
-> der Konfiguration unter `byLang` und braucht keine Zeile in den Notizen — siehe
-> [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]]. Treffen beide zu, gewinnt das
-> Frontmatter: Der Kasten unter diesem Text zeigt seinen eigenen Inhalt, trägt aber die
-> Überschrift der Seitensprache.
+Ohne `frontmatterKey` in der Konfiguration würde ein `layoutBox: false` **alle fünf** Boxen
+gleichzeitig ausschalten. Die Vorlage vergibt deshalb je Instanz einen eigenen Namen — das ist auch
+die im Plugin dokumentierte Vorgehensweise für Mehrfachverwendung.
+
+## Wann das Frontmatter der richtige Ort ist — und wann nicht
+
+Was für **diese eine Seite** gilt, gehört hierher. Was für **alle Seiten einer Sprache** gilt,
+gehört in die Konfiguration unter `byLang` — sonst steht dieselbe Ausnahme in hundert Dateien.
+Genau das war hier einmal der Fall: Die englischen Seiten trugen ihre vier Boxen selbst, bis das
+Plugin `byLang` bekam. Siehe [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf
+Instanzen]].
+
+Wenn beides zutrifft, gewinnt das Frontmatter. Die Rangfolge ist:
+
+1. das Frontmatter dieser Seite
+2. `byLang` für die Sprache dieser Seite
+3. die Grundeinstellung des Eintrags
+
+Diese Seite ist die Probe darauf: Ihr Kasten unter dem Text zeigt in beiden Sprachen den eigenen
+Text aus dem Frontmatter, trägt aber die Überschrift, die `byLang` für die jeweilige Sprache setzt.

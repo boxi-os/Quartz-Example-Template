@@ -24,3 +24,8 @@ These 3 variables are read by `body-math.scss`. They can be changed in the app u
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->
+
+## The pages
+
+- [[en/2-formatting/08-math/blocks|Formula blocks]] — Displayed formulas, over several lines and as a matrix.
+- [[en/2-formatting/08-math/inline|Formulas in a sentence]] — LaTeX in the middle of a sentence.

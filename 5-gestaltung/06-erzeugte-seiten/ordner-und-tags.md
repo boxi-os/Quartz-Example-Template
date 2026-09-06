@@ -57,15 +57,15 @@ Diese 12 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
 | `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 21 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 weitere Komponenten |
+| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-3xs` | `0.125rem` | 7 weitere Komponenten |
+| `--tpl-space-3xs` | `0.125rem` | 6 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

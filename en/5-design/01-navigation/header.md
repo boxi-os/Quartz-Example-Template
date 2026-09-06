@@ -73,17 +73,19 @@ explicitly.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 15 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
-| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | Tokens |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--titleFont` | `"Instrument Sans", ui-sans-serif, system-…` | only here |
+| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | 6.4 Variables |
 | `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
+| `--tpl-page-fade` | `24px` | only here |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |

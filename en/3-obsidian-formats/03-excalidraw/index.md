@@ -38,3 +38,8 @@ unlike Bases and Canvas, which are already there.
 > built markup, **no language switcher** either: the two drawings are the one page pair on this
 > site that is not linked at all. See
 > [[en/6-adapting/07-two-languages/linking|How the two languages find each other]].
+
+## The pages
+
+- [[en/3-obsidian-formats/03-excalidraw/how-it-works|How an Excalidraw file is built]] — Markdown outside, drawing data inside — and the second, simpler way.
+- [[en/3-obsidian-formats/03-excalidraw/Structure of the editorial frame.excalidraw|Structure of the editorial frame.excalidraw]]

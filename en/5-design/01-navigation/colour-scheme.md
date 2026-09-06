@@ -39,11 +39,11 @@ These 10 variables are read by `nav-darkmode.scss`. They can be changed in the a
 | --- | --- | --- |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-icon` | `1.1rem` | The explorer, Reader mode |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 11 other components |

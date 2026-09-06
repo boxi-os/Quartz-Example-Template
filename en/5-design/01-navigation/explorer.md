@@ -113,29 +113,30 @@ does it start closed, since otherwise half the navigation would stand in front o
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 31 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 32 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
 | `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
 | `--icon-close` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-file` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-folder` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-folder-open` | set in the stylesheet (`base.scss`) | only here |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-accent-bar` | `3px` | 5 other components |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | only here |
 | `--tpl-icon` | `1.1rem` | Colour scheme switch, Reader mode |
-| `--tpl-icon-sm` | `0.95rem` | Tokens, The language switcher |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The language switcher |
 | `--tpl-indent` | `0.85rem` | Table of contents |
 | `--tpl-motion` | `150ms ease` | 12 other components |
+| `--tpl-radius-lg` | `14px` | 3 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 16 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
 | `--tpl-space-2xs` | `0.25rem` | 14 other components |
@@ -145,8 +146,8 @@ These 31 variables are read by `nav-explorer.scss`. They can be changed in the a
 | `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
 | `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 8 other components |
+| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

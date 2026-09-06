@@ -1,18 +1,41 @@
 ---
 title: 1.4 How a page is built
-description: Headings down to the sixth level, so that the table of contents is complete.
+description: The parts of a page with their names — and a deliberately long, deeply structured page on which all of them can be seen.
 section: Getting started
-date: 2026-08-14
-lastmod: 2026-09-02
 tags:
   - getting-started
   - typography
+date: 2026-08-14
+lastmod: 2026-09-06
 translationKey: einstieg/so-ist-eine-seite-aufgebaut
 ---
 
-This page is deliberately long and deeply structured. It answers two questions a short page cannot:
-what does the table of contents look like when it contains all six levels? And how does the sidebar
-behave when it grows longer than the window?
+This page has two jobs. It names the parts every page of this site is made of — so that chapters 5
+and 6 can call them by name. And it is deliberately long and deeply structured, so that it shows
+what a short page cannot: a table of contents with all six levels, and a sidebar that grows longer
+than the window.
+
+## The parts of a page
+
+On the desktop a page has three columns, on a tablet two, on a phone one. The names in the table
+are the ones QuartzControl uses in the layout editor as well.
+
+| Part | Where | What stands in it |
+| --- | --- | --- |
+| **Header** | at the top, across all columns | the word mark, the site name, the search, the light/dark switch, reader mode, the language switcher |
+| **Left column** (left) | on the left | the explorer — the folder tree of all pages —, the box “About this handbook”, the recently changed pages |
+| **Above the content** (beforeBody) | above the text | the breadcrumbs (the path from the home page to here), the title, date and reading time, the property table, the tags |
+| **Content** (body) | centre | the note itself |
+| **After the content** (afterBody) | below the text | the box “Read on” |
+| **Right column** (right) | on the right | the table of contents, the backlinks (which pages link here), the graph |
+| **Footer** | at the bottom | the colophon line |
+
+Which part lies where is decided by the page grid, called a **frame** in Quartz — more on that in a
+moment. What stands in each part is decided by the layout, in QuartzControl under *Layout*. What
+each part looks like and why is chapter [[en/5-design/index|5 The design]].
+
+A drawing of it:
+[[en/3-obsidian-formats/03-excalidraw/Structure of the editorial frame.excalidraw|Structure of the editorial frame]].
 
 ## How wide the text gets
 
@@ -33,7 +56,7 @@ If space is left over, it goes to the columns beside the text, not to the line l
 
 ##### At which width it breaks
 
-This template breaks to two columns at 1100 pixels and to one at 720. Those are the project's own
+This template breaks to two columns at 1100 pixels and to one at 800. Those are the project's own
 thresholds, not Quartz's — they sit a little tighter because the left column is narrower here.
 
 ###### The deepest level

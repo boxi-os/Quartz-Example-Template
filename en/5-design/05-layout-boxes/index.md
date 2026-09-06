@@ -48,3 +48,7 @@ This template designs every class: `.layout-box`, `.layout-box-title`, `.layout-
 
 Further: [[en/5-design/05-layout-boxes/the-five-instances|The five instances]] ·
 [[en/4-controlling-a-page/05-layout-boxes-per-page|Controlling it per page]]
+
+## The pages
+
+- [[en/5-design/05-layout-boxes/the-five-instances|The five instances]] — The same plugin, five times, for something different each time.

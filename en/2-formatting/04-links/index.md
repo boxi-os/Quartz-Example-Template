@@ -10,3 +10,11 @@ cover: "[[assets/covers/cover-links.svg]]"
 
 The part of Obsidian that turns notes into a network. What stands here also decides what the graph
 and the backlinks show.
+
+## The pages
+
+- [[en/2-formatting/04-links/wikilinks|Wikilinks]] — The Obsidian notation for internal links.
+- [[en/2-formatting/04-links/aliases|Aliases]] — Making a page reachable under several names.
+- [[en/2-formatting/04-links/embeds|Embedding a page]] — Showing another page in the middle of this one.
+- [[en/2-formatting/04-links/external|External links]] — Links to the outside — and how you recognise them.
+- [[en/2-formatting/04-links/targets|Jump targets]] — Linking to a heading or to a single block.

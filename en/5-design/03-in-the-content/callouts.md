@@ -52,13 +52,13 @@ These 19 variables are read by `body-callouts.scss`. They can be changed in the 
 | `--callout-tint` | set in the stylesheet (`body-callouts.scss`) | only here |
 | `--color` | — | only here |
 | `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--icon-chevron` | set in the stylesheet (`base.scss`) | Tokens |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
+| `--icon-chevron` | set in the stylesheet (`base.scss`) | 6.4 Variables |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 21 other components |
+| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
 | `--tpl-accent-bar` | `3px` | 5 other components |
-| `--tpl-focus-offset` | `2px` | Tokens |
-| `--tpl-focus-width` | `2px` | Tokens |
+| `--tpl-focus-offset` | `2px` | 6.4 Variables |
+| `--tpl-focus-width` | `2px` | 6.4 Variables |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |

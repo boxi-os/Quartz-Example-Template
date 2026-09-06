@@ -54,3 +54,8 @@ aber die Oberfläche: Alles, was Quartz selbst beschriftet, folgt `configuration
 deutsch. Das Plugin kennt dafür `publishLanguages` — ein Build je Sprache, jeder mit eigenem
 `locale` und eigener `baseUrl`. Was das jeweils bedeutet, steht unter
 [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]].
+
+## Die Seiten
+
+- [[6-anpassen/07-zwei-sprachen/verknuepfung|Wie die Sprachen sich finden]] — Drei Strategien, drei Belege — und was das Obsidian-Plugin damit zu tun hat.
+- [[6-anpassen/07-zwei-sprachen/grenzen|Wo die zwei Sprachen aufhören]] — Was in einem Build einsprachig bleibt — gemessen, nicht vermutet.

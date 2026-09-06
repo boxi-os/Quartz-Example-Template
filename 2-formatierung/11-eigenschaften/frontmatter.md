@@ -28,6 +28,9 @@ draft: false
 
 ## Was Quartz auswertet
 
+Die Kurzfassung; was jedes Feld im Einzelnen tut, steht in
+[[4-seiten-steuern/index|4 Eine Seite steuern]].
+
 | Feld | Wirkung |
 | ---- | ------- |
 | `title` | Seitentitel, Browsertitel, Beschriftung in Listen und Suche |
@@ -48,4 +51,4 @@ unter [[5-gestaltung/02-ueber-dem-inhalt/titel-und-datum|Titel und Datum]].
 
 > [!tip] Eigene Felder sind erlaubt
 > Ein Feld, das Quartz nicht kennt, stört nicht. Diese Vorlage nutzt zum Beispiel `section` — für
-> die Anzeige in den Eigenschaften und für einen Platzhalter in der Layout-Box.
+> die Anzeige in den Eigenschaften, siehe [[4-seiten-steuern/04-eigene-felder|4.4 Eigene Felder]].

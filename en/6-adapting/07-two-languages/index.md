@@ -54,3 +54,8 @@ costs the interface: everything Quartz labels itself follows `configuration.loca
 German. For that the plugin knows `publishLanguages` — one build per language, each with its own
 `locale` and its own `baseUrl`. What that means in each case is under
 [[en/6-adapting/07-two-languages/limits|Where the two languages stop]].
+
+## The pages
+
+- [[en/6-adapting/07-two-languages/linking|How the two languages find each other]] — Three strategies, three proofs — and what the Obsidian plugin has to do with it.
+- [[en/6-adapting/07-two-languages/limits|Where the two languages stop]] — What stays monolingual in one build — measured, not assumed.

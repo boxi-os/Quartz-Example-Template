@@ -1,18 +1,41 @@
 ---
 title: 1.4 So ist eine Seite aufgebaut
-description: Überschriften bis zur sechsten Ebene, damit das Inhaltsverzeichnis vollständig ist.
+description: Die Teile einer Seite mit ihren Namen — und eine absichtlich lange, tief gegliederte Seite, an der man sie alle sieht.
 section: Einstieg
-date: 2026-08-14
-lastmod: 2026-09-02
 tags:
   - einstieg
   - typografie
+date: 2026-08-14
+lastmod: 2026-09-06
 translationKey: einstieg/so-ist-eine-seite-aufgebaut
 ---
 
-Diese Seite ist absichtlich lang und tief gegliedert. Sie beantwortet zwei Fragen, die eine kurze
-Seite nicht beantworten kann: Wie sieht das Inhaltsverzeichnis aus, wenn es alle sechs Ebenen
-enthält? Und wie verhält sich die Seitenleiste, wenn sie länger wird als das Fenster?
+Diese Seite hat zwei Aufgaben. Sie nennt die Teile, aus denen jede Seite dieser Website besteht —
+damit die Kapitel 5 und 6 sie beim Namen nennen können. Und sie ist absichtlich lang und tief
+gegliedert, damit man an ihr sieht, was eine kurze Seite nicht zeigen kann: ein Inhaltsverzeichnis
+mit allen sechs Ebenen und eine Seitenleiste, die länger wird als das Fenster.
+
+## Die Teile einer Seite
+
+Am Desktop hat eine Seite drei Spalten, auf dem Tablet zwei, am Telefon eine. Die Namen in der
+Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
+
+| Teil | Wo | Was darin steht |
+| --- | --- | --- |
+| **Kopfbereich** (header) | oben, über alle Spalten | die Wortmarke, der Seitenname, die Suche, der Schalter für hell und dunkel, der Lesemodus, der Sprachumschalter |
+| **Linke Spalte** (left) | links | der Explorer — der Ordnerbaum aller Seiten —, die Box „Über dieses Handbuch“, die zuletzt geänderten Seiten |
+| **Über dem Inhalt** (beforeBody) | über dem Text | die Brotkrumen (der Pfad von der Startseite hierher), der Titel, Datum und Lesezeit, die Eigenschaften-Tabelle, die Tags |
+| **Inhalt** (body) | Mitte | die Notiz selbst |
+| **Nach dem Inhalt** (afterBody) | unter dem Text | die Box „Weiterlesen“ |
+| **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis, die Rückverweise (welche Seiten hierher verlinken), der Graph |
+| **Fußzeile** (footer) | unten | die Impressumszeile |
+
+Welcher Teil wo liegt, entscheidet das Seitenraster, in Quartz **Frame** genannt — dazu gleich
+mehr. Was in jedem Teil steht, entscheidet das Layout, in QuartzControl unter *Layout*. Wie jeder
+Teil aussieht und warum, ist Kapitel [[5-gestaltung/index|5 Die Gestaltung]].
+
+Eine Zeichnung davon:
+[[3-obsidian-formate/03-excalidraw/Aufbau des editorial-Frames.excalidraw|Aufbau des editorial-Frames]].
 
 ## Wie breit der Text wird
 
@@ -33,7 +56,7 @@ Bleibt Platz übrig, geht er an die Spalten daneben, nicht an die Zeilenlänge.
 
 ##### Ab welcher Breite umgebrochen wird
 
-Diese Vorlage bricht bei 1100 Pixeln auf zwei Spalten und bei 720 auf eine. Das sind die
+Diese Vorlage bricht bei 1100 Pixeln auf zwei Spalten und bei 800 auf eine. Das sind die
 projekteigenen Schwellen, nicht die von Quartz — sie liegen etwas enger, weil die linke Spalte hier
 schmaler ist.
 

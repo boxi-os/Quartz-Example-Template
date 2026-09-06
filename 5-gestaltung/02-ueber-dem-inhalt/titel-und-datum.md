@@ -56,12 +56,12 @@ Diese 7 Variablen liest `meta-title-and-date.scss`. Ändern lassen sie sich in d
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 16 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 weitere Komponenten |
 | `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
-| `--tpl-text-2xl` | `1.75rem` | Tokens |
-| `--tpl-text-3xl` | `2.25rem` | Tokens, Fehlerseite |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-2xl` | `1.75rem` | 6.4 Variablen |
+| `--tpl-text-3xl` | `2.25rem` | 6.4 Variablen, Fehlerseite |
+| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->
