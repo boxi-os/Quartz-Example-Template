@@ -14,7 +14,7 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 sequenceDiagram
     User->>App: choose template
     App->>Package: preview (dry run)
-    Package-->>App: ten parts
+    Package-->>App: twelve parts
     App->>Project: create snapshot
     App->>Project: apply
     Project-->>User: done, no warnings
@@ -25,7 +25,7 @@ sequenceDiagram
 sequenceDiagram
     User->>App: choose template
     App->>Package: preview (dry run)
-    Package-->>App: ten parts
+    Package-->>App: twelve parts
     App->>Project: create snapshot
     App->>Project: apply
     Project-->>User: done, no warnings

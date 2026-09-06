@@ -16,7 +16,7 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 stateDiagram-v2
     [*] --> Draft
     Draft --> Checked: contrast measured
-    Checked --> Exported: all ten parts
+    Checked --> Exported: all twelve parts
     Exported --> Imported: into another project
     Imported --> [*]
     Checked --> Draft: measurement fails
@@ -27,7 +27,7 @@ stateDiagram-v2
 stateDiagram-v2
     [*] --> Draft
     Draft --> Checked: contrast measured
-    Checked --> Exported: all ten parts
+    Checked --> Exported: all twelve parts
     Exported --> Imported: into another project
     Imported --> [*]
     Checked --> Draft: measurement fails

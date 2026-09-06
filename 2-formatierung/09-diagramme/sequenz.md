@@ -14,7 +14,7 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 sequenceDiagram
     Nutzer->>App: Vorlage wählen
     App->>Paket: Vorschau (Dry-Run)
-    Paket-->>App: zehn Bausteine
+    Paket-->>App: zwölf Bausteine
     App->>Projekt: Snapshot anlegen
     App->>Projekt: anwenden
     Projekt-->>Nutzer: fertig, ohne Warnungen
@@ -25,7 +25,7 @@ sequenceDiagram
 sequenceDiagram
     Nutzer->>App: Vorlage wählen
     App->>Paket: Vorschau (Dry-Run)
-    Paket-->>App: zehn Bausteine
+    Paket-->>App: zwölf Bausteine
     App->>Projekt: Snapshot anlegen
     App->>Projekt: anwenden
     Projekt-->>Nutzer: fertig, ohne Warnungen

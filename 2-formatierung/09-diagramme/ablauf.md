@@ -16,7 +16,7 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 stateDiagram-v2
     [*] --> Entwurf
     Entwurf --> Geprueft: Kontrast gemessen
-    Geprueft --> Exportiert: alle zehn Bausteine
+    Geprueft --> Exportiert: alle zwölf Bausteine
     Exportiert --> Importiert: in anderes Projekt
     Importiert --> [*]
     Geprueft --> Entwurf: Messung reisst
@@ -27,7 +27,7 @@ stateDiagram-v2
 stateDiagram-v2
     [*] --> Entwurf
     Entwurf --> Geprueft: Kontrast gemessen
-    Geprueft --> Exportiert: alle zehn Bausteine
+    Geprueft --> Exportiert: alle zwölf Bausteine
     Exportiert --> Importiert: in anderes Projekt
     Importiert --> [*]
     Geprueft --> Entwurf: Messung reisst

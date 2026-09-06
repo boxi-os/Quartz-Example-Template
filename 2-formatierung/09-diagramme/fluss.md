@@ -12,7 +12,7 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 ````md
 ```mermaid
 flowchart TD
-    A[Vorlage exportieren] --> B{Alle zehn Bausteine?}
+    A[Vorlage exportieren] --> B{Alle zwölf Bausteine?}
     B -->|ja| C[.qtpl schreiben]
     B -->|nein| D[Fehlende ergänzen]
     D --> B
@@ -22,7 +22,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Vorlage exportieren] --> B{Alle zehn Bausteine?}
+    A[Vorlage exportieren] --> B{Alle zwölf Bausteine?}
     B -->|ja| C[.qtpl schreiben]
     B -->|nein| D[Fehlende ergänzen]
     D --> B

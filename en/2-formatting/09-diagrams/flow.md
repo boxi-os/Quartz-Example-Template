@@ -12,7 +12,7 @@ cover: "[[assets/covers/cover-diagramme.svg]]"
 ````md
 ```mermaid
 flowchart TD
-    A[Export template] --> B{All ten parts?}
+    A[Export template] --> B{All twelve parts?}
     B -->|yes| C[Write .qtpl]
     B -->|no| D[Add the missing ones]
     D --> B
@@ -22,7 +22,7 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Export template] --> B{All ten parts?}
+    A[Export template] --> B{All twelve parts?}
     B -->|yes| C[Write .qtpl]
     B -->|no| D[Add the missing ones]
     D --> B
