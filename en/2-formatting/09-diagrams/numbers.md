@@ -1,7 +1,7 @@
 ---
 title: Number diagrams
 description: Pies, curves, flows and quadrant charts.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - diagrams

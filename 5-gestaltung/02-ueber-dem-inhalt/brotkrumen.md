@@ -1,7 +1,7 @@
 ---
 title: Brotkrumen
 description: Der Weg von der Startseite bis hierher.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt

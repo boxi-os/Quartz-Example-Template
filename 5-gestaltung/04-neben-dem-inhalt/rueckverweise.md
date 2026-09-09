@@ -1,7 +1,7 @@
 ---
 title: Rückverweise
 description: Was auf diese Seite zeigt.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - seitenapparat

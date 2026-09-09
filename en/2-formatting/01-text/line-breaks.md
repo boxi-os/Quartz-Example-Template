@@ -1,7 +1,7 @@
 ---
 title: Line breaks
 description: Why a break in the source is not one on the page here — and how to force one.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - text

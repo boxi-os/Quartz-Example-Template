@@ -1,7 +1,7 @@
 ---
 title: Trennlinien
 description: Der Gedankenstrich zwischen Abschnitten.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - struktur

@@ -1,7 +1,7 @@
 ---
-title: 3 Obsidian formats
+title: 3 – Obsidian formats
 description: Three file types that are not Markdown pages — Bases, Canvas and Excalidraw.
-section: 3 Obsidian formats
+section: 3 – Obsidian formats
 tags:
   - obsidian-formats
 translationKey: obsidian-formate/index
@@ -12,9 +12,9 @@ all three into pages — each through a [[en/7-reference/01-glossary#Plugin|plug
 
 | Type | Extension | What it is | Quartz plugin |
 | --- | --- | --- | --- |
-| [[en/3-obsidian-formats/01-bases/index\|3.1 Bases]] | `.base` | a query over the vault, as a table, cards or a list | `bases-page` |
-| [[en/3-obsidian-formats/02-canvas/index\|3.2 Canvas]] | `.canvas` | an infinite surface with cards and connections | `canvas-page` |
-| [[en/3-obsidian-formats/03-excalidraw/index\|3.3 Excalidraw]] | `.excalidraw.md` | a drawing | `obsidian-plugin-excalidraw` |
+| [[en/3-obsidian-formats/01-bases/index\|3.1 – Bases]] | `.base` | a query over the vault, as a table, cards or a list | `bases-page` |
+| [[en/3-obsidian-formats/02-canvas/index\|3.2 – Canvas]] | `.canvas` | an infinite surface with cards and connections | `canvas-page` |
+| [[en/3-obsidian-formats/03-excalidraw/index\|3.3 – Excalidraw]] | `.excalidraw.md` | a drawing | `obsidian-plugin-excalidraw` |
 
 ## What they have in common
 

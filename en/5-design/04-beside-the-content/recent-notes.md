@@ -1,7 +1,7 @@
 ---
 title: Recently changed
 description: The most recent notes in the sidebar.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - page-apparatus

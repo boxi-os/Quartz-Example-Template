@@ -1,7 +1,7 @@
 ---
 title: Video and audio
 description: Embedding sound and moving images — with what Quartz makes of them on its own.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - media

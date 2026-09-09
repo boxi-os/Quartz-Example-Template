@@ -1,7 +1,7 @@
 ---
 title: Geordnete Listen
 description: Nummerierte Aufzählungen und was die Zahlen wirklich tun.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - listen

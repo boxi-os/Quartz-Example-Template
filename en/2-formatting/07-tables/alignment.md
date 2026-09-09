@@ -1,7 +1,7 @@
 ---
 title: Alignment
 description: Colons in the separator row control the column alignment.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - tables

@@ -1,7 +1,7 @@
 ---
 title: Data types
 description: Text, number, boolean, list — and how they are displayed.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - frontmatter

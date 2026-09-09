@@ -1,7 +1,7 @@
 ---
-title: 2.8 Mathematics
+title: 2.8 – Mathematics
 description: LaTeX in the text and as a block.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/mathematik/index

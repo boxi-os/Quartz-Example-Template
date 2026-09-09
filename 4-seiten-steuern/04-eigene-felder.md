@@ -1,7 +1,7 @@
 ---
-title: 4.4 Eigene Felder
+title: 4.4 – Eigene Felder
 description: Frontmatter-Felder, die Quartz nicht kennt — und wie die Eigenschaften-Tabelle sie zeigt.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 date: 2026-07-02
 lastmod: 2026-09-01
 tags:
@@ -51,4 +51,4 @@ Wer alle Felder sehen will, stellt in QuartzControl unter *Plugins → Note prop
 `includeAll` auf wahr. Dann erscheinen auch [[7-nachschlagen/01-glossar#Alias|Aliase]] und Übersetzungsschlüssel.
 
 Wie man Felder *schreibt* und welche Datentypen es gibt:
-[[2-formatierung/11-eigenschaften/index|2.11 Eigenschaften]].
+[[2-formatierung/11-eigenschaften/index|2.11 – Eigenschaften]].

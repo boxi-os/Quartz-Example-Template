@@ -1,7 +1,7 @@
 ---
-title: 2.2 Structure
+title: 2.2 – Structure
 description: Headings, paragraphs, horizontal rules.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/struktur/index

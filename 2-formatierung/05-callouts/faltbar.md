@@ -1,7 +1,7 @@
 ---
 title: Faltbare Callouts
 description: Ein Callout, das sich zuklappen lässt.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - callouts

@@ -1,7 +1,7 @@
 ---
-title: 2.7 Tables
+title: 2.7 – Tables
 description: The basic form, alignment, contents, wide tables.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/tabellen/index

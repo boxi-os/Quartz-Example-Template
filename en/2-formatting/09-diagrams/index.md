@@ -1,7 +1,7 @@
 ---
-title: 2.9 Diagrams
+title: 2.9 – Diagrams
 description: Fourteen kinds of Mermaid diagram.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/diagramme/index

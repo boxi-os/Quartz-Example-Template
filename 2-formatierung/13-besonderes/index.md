@@ -1,7 +1,7 @@
 ---
-title: 2.13 Besonderes
+title: 2.13 – Besonderes
 description: HTML, Escapes, Pfeile, Tags, Emoji.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
 translationKey: formatierung/besonderes/index

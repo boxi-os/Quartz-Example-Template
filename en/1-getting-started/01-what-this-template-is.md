@@ -1,7 +1,7 @@
 ---
-title: 1.1 What this template is
+title: 1.1 – What this template is
 description: A design for Quartz sites that you import into QuartzControl — and the three decisions it is made of.
-section: 1 Getting started
+section: 1 – Getting started
 tags:
   - getting-started
 translationKey: einstieg/was-diese-vorlage-ist
@@ -34,7 +34,7 @@ Everything else follows from these three.
 The page grid — called a *[[en/7-reference/01-glossary#Frame|frame]]* in Quartz — divides the page into twelve equally wide columns and
 gives the text six of them. How wide a line of text gets is thereby decided, in exactly one place.
 There is no second limit on the paragraph that could fall out with the first. What that means for
-tablet and phone stands under [[en/6-adapting/05-page-grids|6.5 Page grids]].
+tablet and phone stands under [[en/6-adapting/05-page-grids|6.5 – Page grids]].
 
 ### 2. Colours are measured
 
@@ -43,7 +43,7 @@ websites, [[en/7-reference/01-glossary#WCAG|WCAG]], demands at least 4.5:1 for n
 light and dark on every run — every text-on-ground combination, the thirteen [[en/7-reference/01-glossary#Callout|callout]] colours, the
 colours of the code syntax theme — and stops if one of them falls below. Quartz's own colours do
 not pass this check: eleven of the twelve callout colours fail in light mode. That is why they are
-restated here. More under [[en/6-adapting/02-colours-and-contrast|6.2 Colours and contrast]].
+restated here. More under [[en/6-adapting/02-colours-and-contrast|6.2 – Colours and contrast]].
 
 ### 3. No stylesheet sets a colour or a measure itself
 
@@ -52,7 +52,7 @@ the import, variables stay editable in the app under *Styles → Variables*; a v
 a stylesheet file does not. What does stand as a number in a file is named and justified — the
 callout and syntax colours, because they mean a status and are not a palette; the hairlines; and
 the [[en/7-reference/01-glossary#Breakpoint|breakpoints]], because a [[en/7-reference/01-glossary#Media query|media query]] cannot read a variable. More under
-[[en/6-adapting/04-variables|6.4 Variables]].
+[[en/6-adapting/04-variables|6.4 – Variables]].
 
 ## What the template does not contain
 
@@ -62,4 +62,4 @@ it.
 
 **No images and no snippet files.** A template package carries stylesheets and font files, no
 other files. What that means for the one [[en/7-reference/01-glossary#Layout box|layout box]] that reads from a file stands under
-[[en/6-adapting/08-the-template-package|6.8 The template package]].
+[[en/6-adapting/08-the-template-package|6.8 – The template package]].

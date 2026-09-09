@@ -1,7 +1,7 @@
 ---
 title: Documents
 description: Embedding PDFs, linking to them and jumping to a particular page.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - media

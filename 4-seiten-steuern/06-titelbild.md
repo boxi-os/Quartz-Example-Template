@@ -1,7 +1,7 @@
 ---
-title: 4.6 Titelbild
+title: 4.6 – Titelbild
 description: Das Feld cover — ein Bild je Seite für die Galerie und die Kacheln einer Base.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 tags:
   - seiten-steuern
 cover: "[[assets/covers/cover-index.svg]]"
@@ -9,7 +9,7 @@ translationKey: seiten-steuern/titelbild
 ---
 
 Eine [[7-nachschlagen/01-glossar#Base|Base]] — Obsidians gespeicherte Abfrage über den [[7-nachschlagen/01-glossar#Vault|Vault]], siehe
-[[3-obsidian-formate/01-bases/index|3.1 Bases]] — kann ihre Einträge als Galerie oder als Kacheln
+[[3-obsidian-formate/01-bases/index|3.1 – Bases]] — kann ihre Einträge als Galerie oder als Kacheln
 zeigen. Beide Ansichten nehmen eine Option `image:`, die den **Namen einer Eigenschaft** nennt;
 deren Wert darf ein [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] auf ein Bild, ein Pfad oder eine Hex-Farbe sein. Ohne sie zeigt jede
 Kachel denselben schraffierten Platzhalter.

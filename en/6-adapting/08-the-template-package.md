@@ -1,7 +1,7 @@
 ---
-title: 6.8 The template package
+title: 6.8 – The template package
 description: What is inside a .qtpl file, what arrives in the project on import — and what deliberately does not travel.
-section: 6 Adapting
+section: 6 – Adapting
 tags:
   - adapting
 translationKey: anpassen/das-vorlagenpaket

@@ -1,7 +1,7 @@
 ---
-title: 1.4 How a page is built
+title: 1.4 – How a page is built
 description: The parts of a page with their names — and a deliberately long, deeply structured page on which all of them can be seen.
-section: 1 Getting started
+section: 1 – Getting started
 tags:
   - getting-started
   - typography
@@ -32,7 +32,7 @@ are the ones QuartzControl uses in the layout editor as well.
 
 Which part lies where is decided by the page grid, called a **[[en/7-reference/01-glossary#Frame|frame]]** in Quartz — more on that in a
 moment. What stands in each part is decided by the layout, in QuartzControl under *Layout*. What
-each part looks like and why is chapter [[en/5-design/index|5 The design]].
+each part looks like and why is chapter [[en/5-design/index|5 – The design]].
 
 A drawing of it:
 [[en/3-obsidian-formats/03-excalidraw/Structure of the editorial frame.excalidraw|Structure of the editorial frame]].

@@ -1,7 +1,7 @@
 ---
 title: Aliases
 description: Making a page reachable under several names.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - links
@@ -41,5 +41,4 @@ An example with several aliases: [[en/4-controlling-a-page/03-aliases|A page wit
 > [!note] Aliases carry the translation too
 > The Obsidian plugin *Multilingual* writes the translated note name into exactly this field, and
 > `quartz-multilanguage` can link the two languages by it. Three pages of this site are linked that
-> way and nothing else — see [[en/6-adapting/07-two-languages/linking|How the two languages find each
-> other]].
+> way and nothing else — see [[en/6-adapting/07-two-languages/linking|How the two languages find each > other]].

@@ -1,7 +1,7 @@
 ---
 title: Wie eine Base aufgebaut ist
 description: Filter, Formeln und Ansichten — das YAML-Format erklärt.
-section: 3 Obsidian-Formate
+section: 3 – Obsidian-Formate
 tags:
   - obsidian-formate
   - bases

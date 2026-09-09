@@ -1,7 +1,7 @@
 ---
-title: 4 Eine Seite steuern
+title: 4 – Eine Seite steuern
 description: Was das Frontmatter einer Seite bewirkt — Titel, Datum, Entwurf, Alias, eigene Felder, Layout-Boxen, Titelbild, Übersetzung.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 tags:
   - seiten-steuern
 translationKey: seiten-steuern/index
@@ -24,7 +24,7 @@ draft: false
 ```
 
 Wie man Frontmatter *schreibt* — die Datentypen, die Anzeige — steht in
-[[2-formatierung/11-eigenschaften/index|2.11 Eigenschaften]]. Hier steht, was jedes Feld *tut*.
+[[2-formatierung/11-eigenschaften/index|2.11 – Eigenschaften]]. Hier steht, was jedes Feld *tut*.
 
 ## Die Felder im Überblick
 

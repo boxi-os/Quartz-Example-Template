@@ -1,7 +1,7 @@
 ---
-title: 3.2 Canvas
+title: 3.2 – Canvas
 description: An infinite surface with cards and connections.
-section: 3 Obsidian formats
+section: 3 – Obsidian formats
 tags:
   - obsidian-formats
   - canvas

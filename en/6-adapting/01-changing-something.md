@@ -1,7 +1,7 @@
 ---
-title: 6.1 Changing something
+title: 6.1 – Changing something
 description: Three levels, cheapest first — and where your own rule belongs so that it wins.
-section: 6 Adapting
+section: 6 – Adapting
 tags:
   - adapting
 translationKey: anpassen/etwas-aendern

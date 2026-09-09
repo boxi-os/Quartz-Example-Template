@@ -1,7 +1,7 @@
 ---
 title: Footer
 description: What stands under every page — and which two parts it is made of.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - navigation

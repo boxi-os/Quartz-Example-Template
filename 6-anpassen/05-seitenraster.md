@@ -1,7 +1,7 @@
 ---
-title: 6.5 Seitenraster
+title: 6.5 – Seitenraster
 description: Drei eigene Seitenraster statt der drei mitgelieferten.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
 translationKey: anpassen/seitenraster

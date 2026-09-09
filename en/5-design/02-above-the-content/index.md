@@ -1,7 +1,7 @@
 ---
-title: 5.2 Above the content
+title: 5.2 – Above the content
 description: Breadcrumbs, title, date, properties, tags.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
 translationKey: gestaltung/ueber-dem-inhalt/index

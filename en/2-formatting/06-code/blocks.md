@@ -1,7 +1,7 @@
 ---
 title: Code blocks
 description: Code over several lines, with a language and a copy button.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - code

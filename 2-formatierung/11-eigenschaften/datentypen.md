@@ -1,7 +1,7 @@
 ---
 title: Datentypen
 description: Text, Zahl, Wahrheitswert, Liste — und wie sie angezeigt werden.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - frontmatter

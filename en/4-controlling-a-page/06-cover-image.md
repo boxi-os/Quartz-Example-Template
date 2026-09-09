@@ -1,7 +1,7 @@
 ---
-title: 4.6 Cover image
+title: 4.6 – Cover image
 description: The field cover — one image per page for the gallery and the cards of a base.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 tags:
   - controlling-a-page
 cover: "[[assets/covers/cover-index.svg]]"
@@ -9,7 +9,7 @@ translationKey: seiten-steuern/titelbild
 ---
 
 A [[en/7-reference/01-glossary#Base|base]] — Obsidian's saved query over the [[en/7-reference/01-glossary#Vault|vault]], see
-[[en/3-obsidian-formats/01-bases/index|3.1 Bases]] — can show its entries as a gallery or as
+[[en/3-obsidian-formats/01-bases/index|3.1 – Bases]] — can show its entries as a gallery or as
 cards. Both views take an option `image:` that names a **property**; its value may be a [[en/7-reference/01-glossary#Wikilink|wikilink]]
 to an image, a path or a hex colour. Without it every tile shows the same hatched placeholder.
 

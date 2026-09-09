@@ -1,7 +1,7 @@
 ---
 title: Titel und Datum
 description: Die Überschrift der Seite und die Zeile darunter.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt

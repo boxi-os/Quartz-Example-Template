@@ -1,7 +1,7 @@
 ---
 title: The header
 description: Word mark, page title and the four controls in one row.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - navigation
@@ -35,34 +35,42 @@ A few details:
   width and takes the [[en/7-reference/01-glossary#Explorer|explorer]]'s drawer button with it. The search gives up its word there and
   becomes a square like the others; it keeps its 44 px.
 
-## It stays and it shrinks
+## It stays, the title goes
 
-Since 2026-09-05 the header sticks to the top of the window at every width, not only on a phone:
-the four controls and the way back to the home page are what a reader reaches for in the middle of
-a long article, and several pages here are three screens tall.
+Since 05.09.2026 the header sticks to the top of the window at every width, not just on the phone:
+the four controls and the way back to the start page are what one reaches for in the middle of a
+long article, and several pages here are three screens tall.
 
-It shrinks while scrolling. What gets smaller is the **padding** and the site title — not the
-controls: a target that changes size while you reach for it is worse than a tall bar. Measured:
-61 px at rest, 49 px from 4 rem of scrolling on.
+Its height does not change while it does. What changes is the page around it: the header is one of
+**two layers**, and the other one scrolls away. Above the text sits the `beforeBody` area with the
+breadcrumb, the tags, the heading and the date — the page's own title block, and it leaves with the
+text. The bar stays. That is the change while scrolling, and it needs no effect: it follows from
+where things are.
 
-Two registered lengths carry it (`--tpl-header-pad`, `--tpl-header-title`), bound to
-`scroll(root block)`. Nothing here moves on its own — the height is a function of the scroll
-position, not of time — so with `prefers-reduced-motion` there is nothing to suppress.
+So that the bar still says something in that state, it carries **two names side by side** — the
+site's and the chapter's (`{{frontmatter.section}}`, from every note's frontmatter). The chapter
+does not repeat the heading, so both may stand there permanently; a reader who has scrolled past
+the heading still knows where they are.
 
-> [!note] The shrinking needs scroll-driven animations
-> Where there are none — measured on Firefox 155 — the header sticks as well but stays at its
-> resting 61 px. Both are behind `@supports (animation-timeline: scroll())` — without that
-> bracket the `animation` shorthand runs there as an animation with **zero duration**, and
-> `fill: both` jumps straight to the end keyframe: in Firefox the header sat permanently in its
-> *small* form.
+> [!note] There was an effect here, and it ran in two browsers out of three
+> Until 09.09.2026 the header shrank by 8px while scrolling, traded the site name for the page name
+> and carried a progress line. All three hung on `animation-timeline` — CSS bound to the scroll
+> position rather than to the clock. Chromium and WebKit do that, **Firefox does not**: measured on
+> the installed 155.0.1, all five queries negative, and it has not been in sight for years. The
+> effects sat behind `@supports` and therefore simply did not happen there — the most visible
+> element of the site was one thing in two engines and another in the third.
+>
+> The progress line is gone without replacement, and that is no loss: the
+> [[en/5-design/04-beside-the-content/table-of-contents|table of contents]] already marks how far
+> the page has been read, and it does so with a script from the plugin — so in every browser.
 
-Two things hang on it and are therefore in the same calculation:
+Two things depend on the header's height and are therefore part of the same calculation:
 
-- The **right column** sticks below the header rather than behind it: its `top` reads
-  `--tpl-header-h` and travels up as the header shrinks.
-- **Jump targets** keep the small bar's height free above themselves
-  (`scroll-margin-block-start`), otherwise every heading from the table of contents would land
-  behind the header.
+- The **right column** sticks below the header rather than hidden under it: its `top` reads
+  `--tpl-header-h`, the same calculation the header takes its own height from.
+- **Jump targets** keep the height of the bar free above themselves, plus the 24px of the fade below
+  it (`scroll-margin-block-start`) — otherwise every heading jumped to lands behind the header or
+  inside the gradient that closes it off.
 
 ## A finding while building
 

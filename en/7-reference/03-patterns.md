@@ -1,7 +1,7 @@
 ---
-title: 7.3 Patterns
+title: 7.3 – Patterns
 description: The decisions that run through every component — said once, instead of repeated on thirty pages.
-section: 7 Reference
+section: 7 – Reference
 tags:
   - reference
   - terms
@@ -9,7 +9,7 @@ translationKey: nachschlagen/muster
 ---
 
 Three decisions carry the whole template; they stand in
-[[en/1-getting-started/01-what-this-template-is|1.1 What this template is]]. Below them, smaller
+[[en/1-getting-started/01-what-this-template-is|1.1 – What this template is]]. Below them, smaller
 patterns repeat in every component. Whoever changes a component or designs a new one keeps to
 these, so that it fits the rest.
 
@@ -45,4 +45,4 @@ The nine panel headings and the seven [[en/7-reference/01-glossary#Hover|hover]]
 be wrong here: the stylesheets are cut by component, and the documentation hangs on that — every
 page in chapter 5 shows the variables *its* component reads. What is shared are the **values**, and
 they are: `--tpl-tracking-label` and `--tpl-underline-offset` stand once each. In full in
-[[en/6-adapting/04-variables|6.4 Variables]].
+[[en/6-adapting/04-variables|6.4 – Variables]].

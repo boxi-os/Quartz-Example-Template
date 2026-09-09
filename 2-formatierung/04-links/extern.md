@@ -1,7 +1,7 @@
 ---
 title: Externe Links
 description: Verweise nach draußen — und woran man sie erkennt.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - links

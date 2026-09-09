@@ -1,7 +1,7 @@
 ---
 title: Task lists
 description: Boxes to tick — and why what is done is marked twice here.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - lists

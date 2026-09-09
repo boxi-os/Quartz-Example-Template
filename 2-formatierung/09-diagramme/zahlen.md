@@ -1,7 +1,7 @@
 ---
 title: Zahlen-Diagramme
 description: Torten, Kurven, Flüsse und Vier-Felder-Tafeln.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - diagramme

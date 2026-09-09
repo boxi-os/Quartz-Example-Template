@@ -1,7 +1,7 @@
 ---
-title: 4.7 Übersetzung
+title: 4.7 – Übersetzung
 description: Die Felder, die eine Seite mit ihrer Übersetzung verbinden — translationKey, aliases, lang — und wann man sie braucht.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 tags:
   - seiten-steuern
   - mehrsprachigkeit
@@ -43,4 +43,4 @@ in die Standardsprache Deutsch. Ein Feld `lang` braucht man nur, wenn eine Seite
 sie spricht.
 
 Wie das im Einzelnen funktioniert, mit den gemessenen Zahlen und den Grenzen:
-[[6-anpassen/07-zwei-sprachen/index|6.7 Zwei Sprachen]].
+[[6-anpassen/07-zwei-sprachen/index|6.7 – Zwei Sprachen]].

@@ -1,7 +1,7 @@
 ---
-title: 1.1 Was diese Vorlage ist
+title: 1.1 – Was diese Vorlage ist
 description: Eine Gestaltung für Quartz-Websites, die man in QuartzControl importiert — und die drei Entscheidungen, aus denen sie besteht.
-section: 1 Einstieg
+section: 1 – Einstieg
 tags:
   - einstieg
 translationKey: einstieg/was-diese-vorlage-ist
@@ -35,8 +35,7 @@ Alles Weitere folgt aus diesen dreien.
 Das Seitenraster — in Quartz *[[7-nachschlagen/01-glossar#Frame|Frame]]* genannt — teilt die Seite in zwölf gleich breite Spalten und
 gibt dem Text sechs davon. Wie breit eine Textzeile wird, ist damit entschieden, und zwar an genau
 einer Stelle. Es gibt keine zweite Begrenzung am Absatz, die mit der ersten in Streit geraten
-könnte. Was das für Tablet und Telefon heißt, steht unter [[6-anpassen/05-seitenraster|6.5
-Seitenraster]].
+könnte. Was das für Tablet und Telefon heißt, steht unter [[6-anpassen/05-seitenraster|6.5 Seitenraster]].
 
 ### 2. Farben sind gemessen
 
@@ -45,7 +44,7 @@ Websites, [[7-nachschlagen/01-glossar#WCAG|WCAG]], verlangt für normalen Text m
 89 Farbpaare in hell und dunkel — jede Text-auf-Grund-Kombination, die dreizehn Callout-Farben,
 die Farben des Code-Syntaxthemas — und bricht ab, wenn eines darunter liegt. Quartz' eigene Farben
 bestehen diese Prüfung nicht: elf der zwölf Callout-Farben scheitern im hellen Modus. Deshalb sind
-sie hier neu gesetzt. Mehr unter [[6-anpassen/02-farben-und-kontrast|6.2 Farben und Kontrast]].
+sie hier neu gesetzt. Mehr unter [[6-anpassen/02-farben-und-kontrast|6.2 – Farben und Kontrast]].
 
 ### 3. Kein Stylesheet setzt eine Farbe oder ein Maß selbst
 
@@ -54,7 +53,7 @@ Import bleiben Variablen in der App unter *Stile → Variablen* bearbeitbar; ein
 Stylesheet-Datei steht, nicht. Was trotzdem als Zahl in einer Datei steht, ist benannt und
 begründet — die Callout- und Syntaxfarben, weil sie einen Status bedeuten und keine Palette sind;
 die Haarlinien; und die Umbruchbreiten, weil eine [[7-nachschlagen/01-glossar#Media-Query|Media-Query]] keine Variable lesen kann. Mehr unter
-[[6-anpassen/04-variablen|6.4 Variablen]].
+[[6-anpassen/04-variablen|6.4 – Variablen]].
 
 ## Was die Vorlage nicht enthält
 
@@ -64,4 +63,4 @@ eigenen Seiten hinein.
 
 **Keine Bilder und keine Schnipsel-Dateien.** Ein Vorlagenpaket trägt Stylesheets und
 Schriftdateien, sonst keine Dateien. Was das für die eine [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]] bedeutet, die aus einer Datei
-liest, steht unter [[6-anpassen/08-das-vorlagenpaket|6.8 Das Vorlagenpaket]].
+liest, steht unter [[6-anpassen/08-das-vorlagenpaket|6.8 – Das Vorlagenpaket]].

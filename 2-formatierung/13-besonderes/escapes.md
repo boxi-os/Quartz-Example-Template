@@ -1,7 +1,7 @@
 ---
 title: Zeichen schützen
 description: Wenn Markdown etwas als Auszeichnung liest, das Text sein soll.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - besonderes

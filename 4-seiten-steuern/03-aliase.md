@@ -1,7 +1,7 @@
 ---
-title: 4.3 Aliase
+title: 4.3 – Aliase
 description: Eine Seite unter mehreren Pfaden erreichbar machen — das Plugin Alias redirects legt Weiterleitungen an.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 tags:
   - seiten-steuern
 aliases:
@@ -36,7 +36,7 @@ beide finden.
 
 **Eine Übersetzung verbinden.** Ein Alias, der dem Titel der Seite in der anderen Sprache
 entspricht, verbindet die beiden für den Sprachumschalter — siehe
-[[4-seiten-steuern/07-uebersetzung|4.7 Übersetzung]].
+[[4-seiten-steuern/07-uebersetzung|4.7 – Übersetzung]].
 
 > [!warning] Jeder Alias ist eine Seite
 > Das Plugin baut für jeden Alias eine eigene Weiterleitungsdatei. Hundert Aliase sind hundert

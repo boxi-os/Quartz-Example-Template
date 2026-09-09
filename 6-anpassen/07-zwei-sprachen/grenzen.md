@@ -1,7 +1,7 @@
 ---
 title: Wo die zwei Sprachen aufhören
 description: Was in einem Build einsprachig bleibt — gemessen, nicht vermutet.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
   - mehrsprachigkeit

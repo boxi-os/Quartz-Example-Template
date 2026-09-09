@@ -1,7 +1,7 @@
 ---
 title: A draft
 description: This page is not built.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 draft: true
 tags:
   - controlling-a-page

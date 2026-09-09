@@ -1,7 +1,7 @@
 ---
 title: Explorer
 description: Der Ordnerbaum links — bis zur vierten Ebene gestaltet.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - navigation

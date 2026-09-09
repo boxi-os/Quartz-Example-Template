@@ -1,7 +1,7 @@
 ---
 title: Frontmatter
 description: Die Felder ganz oben in der Datei und was Quartz damit macht.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - frontmatter
@@ -29,7 +29,7 @@ draft: false
 ## Was Quartz auswertet
 
 Die Kurzfassung; was jedes Feld im Einzelnen tut, steht in
-[[4-seiten-steuern/index|4 Eine Seite steuern]].
+[[4-seiten-steuern/index|4 – Eine Seite steuern]].
 
 | Feld | Wirkung |
 | ---- | ------- |
@@ -51,4 +51,4 @@ unter [[5-gestaltung/02-ueber-dem-inhalt/titel-und-datum|Titel und Datum]].
 
 > [!tip] Eigene Felder sind erlaubt
 > Ein Feld, das Quartz nicht kennt, stört nicht. Diese Vorlage nutzt zum Beispiel `section` — für
-> die Anzeige in den Eigenschaften, siehe [[4-seiten-steuern/04-eigene-felder|4.4 Eigene Felder]].
+> die Anzeige in den Eigenschaften, siehe [[4-seiten-steuern/04-eigene-felder|4.4 – Eigene Felder]].

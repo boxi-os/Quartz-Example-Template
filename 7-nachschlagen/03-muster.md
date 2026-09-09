@@ -1,7 +1,7 @@
 ---
-title: 7.3 Muster
+title: 7.3 – Muster
 description: Die Entscheidungen, die sich durch jede Komponente ziehen — einmal gesagt, statt auf dreißig Seiten wiederholt.
-section: 7 Nachschlagen
+section: 7 – Nachschlagen
 tags:
   - nachschlagen
   - referenz
@@ -9,7 +9,7 @@ translationKey: nachschlagen/muster
 ---
 
 Drei Entscheidungen tragen die ganze Vorlage; sie stehen in
-[[1-einstieg/01-was-diese-vorlage-ist|1.1 Was diese Vorlage ist]]. Darunter wiederholen sich
+[[1-einstieg/01-was-diese-vorlage-ist|1.1 – Was diese Vorlage ist]]. Darunter wiederholen sich
 kleinere Muster in jeder Komponente. Wer eine Komponente ändert oder eine neue gestaltet, hält sich
 an diese, damit sie zum Rest passt.
 
@@ -47,4 +47,4 @@ Die neun Panel-Überschriften und die sieben Hover-Regeln ließen sich in eine g
 ziehen. Das wäre hier falsch: Die Stylesheets sind nach Komponenten geschnitten, und die
 Dokumentation hängt daran — jede Seite in Kapitel 5 zeigt die Variablen, die *ihre* Komponente
 liest. Geteilt werden die **Werte**, und die sind es: `--tpl-tracking-label` und
-`--tpl-underline-offset` stehen je einmal. Ausführlich in [[6-anpassen/04-variablen|6.4 Variablen]].
+`--tpl-underline-offset` stehen je einmal. Ausführlich in [[6-anpassen/04-variablen|6.4 – Variablen]].

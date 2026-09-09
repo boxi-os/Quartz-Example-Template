@@ -1,7 +1,7 @@
 ---
-title: 6.6 Accessibility
+title: 6.6 – Accessibility
 description: What this template does for it — and why it is usually only one line more.
-section: 6 Adapting
+section: 6 – Adapting
 tags:
   - adapting
   - accessibility

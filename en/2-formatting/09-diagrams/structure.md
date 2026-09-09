@@ -1,7 +1,7 @@
 ---
 title: Structure diagrams
 description: Classes, entities and mind maps.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - diagrams

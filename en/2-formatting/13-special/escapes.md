@@ -1,7 +1,7 @@
 ---
 title: Escaping characters
 description: When Markdown reads something as markup that is meant to be text.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - special

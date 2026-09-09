@@ -1,7 +1,7 @@
 ---
-title: 1.3 From note to website
+title: 1.3 – From note to website
 description: The way a change travels — write, look, build, publish — and what happens where.
-section: 1 Getting started
+section: 1 – Getting started
 tags:
   - getting-started
 translationKey: einstieg/von-der-notiz-zur-website
@@ -16,7 +16,7 @@ You open the [[en/7-reference/01-glossary#Vault|vault]] in Obsidian and write. A
 [[en/7-reference/01-glossary#Explorer|explorer]]; a `[[wikilink]]` a reference that the [[en/7-reference/01-glossary#Graph|graph]] and the [[en/7-reference/01-glossary#Backlinks|backlinks]] see. Header lines between
 two `---` at the very top of the file — the **frontmatter** — give the page its title,
 description, date and tags; everything you can control with it stands in
-[[en/4-controlling-a-page/index|4 Controlling a page]].
+[[en/4-controlling-a-page/index|4 – Controlling a page]].
 
 None of this needs the website yet. You can write for days without building.
 
@@ -33,7 +33,7 @@ The same area can also **build** the site without showing it: Quartz reads all n
 [[en/7-reference/01-glossary#Plugin|plugins]] — resolving links, generating the table of contents, indexing the search, creating pages
 for folders and tags — and writes finished [[en/7-reference/01-glossary#HTML|HTML]] files into the output folder `public/`. A draft
 (`draft: true` in the [[en/7-reference/01-glossary#Frontmatter|frontmatter]]) is left out; see
-[[en/4-controlling-a-page/02-draft-and-unlisted|4.2 Draft and unlisted]].
+[[en/4-controlling-a-page/02-draft-and-unlisted|4.2 – Draft and unlisted]].
 
 ## 4 · Publishing
 
@@ -56,7 +56,7 @@ content to an existing folder instead of *copying* it. Both can be changed later
 > larger intervention — leave the content out as soon as `content/` is a link; the vault has to be
 > backed up itself, here through its own git. And the plugin that reads a page's date from git
 > miscalculates at the link and falls back to the file system — see
-> [[en/4-controlling-a-page/01-title-description-date|4.1 Title, description, date]].
+> [[en/4-controlling-a-page/01-title-description-date|4.1 – Title, description, date]].
 
 ## Getting the template into a project of your own
 
@@ -64,4 +64,4 @@ Whoever wants not this site but one of their own with this design goes the other
 create a new project in QuartzControl, link your own vault, then import the template under
 *Templates*. The app shows beforehand which parts the package contains and what in the project is
 replaced by them, and takes a snapshot. What comes along and what does not:
-[[en/6-adapting/08-the-template-package|6.8 The template package]].
+[[en/6-adapting/08-the-template-package|6.8 – The template package]].

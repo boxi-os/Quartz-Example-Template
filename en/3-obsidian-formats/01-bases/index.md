@@ -1,7 +1,7 @@
 ---
-title: 3.1 Bases
+title: 3.1 – Bases
 description: Queries over the vault, as a table, cards or a list.
-section: 3 Obsidian formats
+section: 3 – Obsidian formats
 tags:
   - obsidian-formats
   - bases

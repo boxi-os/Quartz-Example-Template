@@ -1,7 +1,7 @@
 ---
-title: 3.2 Canvas
+title: 3.2 – Canvas
 description: Eine unendliche Fläche mit Karten und Verbindungen.
-section: 3 Obsidian-Formate
+section: 3 – Obsidian-Formate
 tags:
   - obsidian-formate
   - canvas

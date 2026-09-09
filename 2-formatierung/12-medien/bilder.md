@@ -1,7 +1,7 @@
 ---
 title: Bilder
 description: Fünf Formate, zwei Schreibweisen, Größenangaben — und wofür welches Format taugt.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - medien

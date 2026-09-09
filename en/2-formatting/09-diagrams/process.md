@@ -1,7 +1,7 @@
 ---
 title: Process diagrams
 description: States, user journeys and branches.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - diagrams

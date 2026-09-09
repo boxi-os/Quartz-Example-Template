@@ -1,7 +1,7 @@
 ---
 title: Suche
 description: Das Feld in der Leiste und die Überlagerung dahinter.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - navigation

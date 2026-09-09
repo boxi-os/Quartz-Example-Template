@@ -1,7 +1,7 @@
 ---
 title: Highlighting lines
 description: Emphasising single lines in a block.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - code

@@ -1,7 +1,7 @@
 ---
-title: 1.2 Die Werkzeuge
+title: 1.2 – Die Werkzeuge
 description: Obsidian, Quartz, QuartzControl und git — vier Programme, jedes mit einer Aufgabe, und wie sie zusammenhängen.
-section: 1 Einstieg
+section: 1 – Einstieg
 tags:
   - einstieg
 translationKey: einstieg/die-werkzeuge
@@ -54,7 +54,7 @@ Man muss git nicht bedienen können, um diese Vorlage zu benutzen. Es kommt trot
 Stellen vor: QuartzControl braucht es für neue Projekte, für Plugins aus einer git-Quelle und für
 seine [[7-nachschlagen/01-glossar#Snapshot|Snapshots]] — und nimmt das git des Rechners oder bringt ein eigenes mit. Das Datum einer Seite
 kann Quartz aus git lesen (hier nicht; warum, steht unter
-[[4-seiten-steuern/01-titel-beschreibung-datum|4.1 Titel, Beschreibung, Datum]]). Und wer seine
+[[4-seiten-steuern/01-titel-beschreibung-datum|4.1 – Titel, Beschreibung, Datum]]). Und wer seine
 Website über ein git-Repository veröffentlicht, etwa bei GitHub Pages, schickt sie mit git dorthin.
 
 ## Wie sie zusammenhängen
@@ -69,4 +69,4 @@ Der Vault ist die Quelle. Das Projekt zeigt mit einem **[[7-nachschlagen/01-glos
 Dateisystem, die einen Ordner an einer zweiten Stelle erscheinen lässt, ohne ihn zu kopieren.
 Quartz liest den Inhalt durch diesen Link, baut daraus die Website, und QuartzControl steuert
 beides. Wie das im Einzelnen abläuft:
-[[1-einstieg/03-von-der-notiz-zur-website|1.3 Von der Notiz zur Website]].
+[[1-einstieg/03-von-der-notiz-zur-website|1.3 – Von der Notiz zur Website]].

@@ -1,7 +1,7 @@
 ---
 title: Named and repeated footnotes
 description: Names instead of numbers, several references, footnotes inline.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - footnotes

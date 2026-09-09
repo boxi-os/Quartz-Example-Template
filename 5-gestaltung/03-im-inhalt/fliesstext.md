@@ -1,7 +1,7 @@
 ---
 title: Fließtext
 description: Die Breite des Textes, die Überschriftenskala und die Links darin.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - im-inhalt

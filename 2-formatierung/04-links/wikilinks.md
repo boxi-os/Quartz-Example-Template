@@ -1,7 +1,7 @@
 ---
 title: Wikilinks
 description: Die Obsidian-Schreibweise für interne Verweise.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - links

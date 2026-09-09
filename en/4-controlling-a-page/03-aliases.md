@@ -1,7 +1,7 @@
 ---
-title: 4.3 Aliases
+title: 4.3 – Aliases
 description: Making a page reachable under several paths — the plugin Alias redirects creates the redirects.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 tags:
   - controlling-a-page
 aliases:
@@ -35,7 +35,7 @@ found.
 
 **Connecting a translation.** An alias that matches the title of the page in the other language
 connects the two for the language switcher — see
-[[en/4-controlling-a-page/07-translation|4.7 Translation]].
+[[en/4-controlling-a-page/07-translation|4.7 – Translation]].
 
 > [!warning] Every alias is a page
 > The plugin builds a redirect file of its own for every alias. A hundred aliases are a hundred

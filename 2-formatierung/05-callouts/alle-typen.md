@@ -1,7 +1,7 @@
 ---
 title: Alle Callout-Typen
 description: Dreizehn Typen mit ihren Zweitnamen — und warum ihre Farben hier neu gesetzt sind.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - callouts

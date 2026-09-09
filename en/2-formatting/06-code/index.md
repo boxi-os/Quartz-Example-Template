@@ -1,7 +1,7 @@
 ---
-title: 2.6 Code
+title: 2.6 – Code
 description: Inline, blocks, languages, titles, highlighting.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/code/index

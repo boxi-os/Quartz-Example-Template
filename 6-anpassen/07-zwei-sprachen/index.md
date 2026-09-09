@@ -1,7 +1,7 @@
 ---
-title: 6.7 Zwei Sprachen
+title: 6.7 – Zwei Sprachen
 description: Wie dieselbe Website auf Deutsch und Englisch entsteht — aus einem Vault und einem Build.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
   - mehrsprachigkeit

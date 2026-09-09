@@ -1,7 +1,7 @@
 ---
 title: Horizontal rules
 description: The dash between sections.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - structure

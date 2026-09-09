@@ -1,7 +1,7 @@
 ---
 title: The language switcher
 description: Three forms, one of them visible — and where it sits.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - multilingual

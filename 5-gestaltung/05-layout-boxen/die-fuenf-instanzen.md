@@ -1,7 +1,7 @@
 ---
 title: Die fünf Instanzen
 description: Dasselbe Plugin, fünfmal, für jeweils etwas anderes.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - layout-box
@@ -11,8 +11,8 @@ translationKey: gestaltung/layout-boxen/die-fuenf-instanzen
 | Schlüssel | Ort | Form | Was daran zu sehen ist |
 | --- | --- | --- | --- |
 | `layoutBoxMark` | Kopfbereich | inline, SVG hell/dunkel | Bildumschaltung, `{{root}}`, `{{siteTitle}}` |
-| `layoutBoxNote` | linke Spalte | `file:` mit `.md`, aufklappbar | Markdown-Schnipsel, `<details>` |
-| `layoutBoxHint` | linke Spalte | inline, nur mobil | zwei Instanzen unabhängig steuerbar |
+| `layoutBoxNote` | linke Spalte | `file:` mit `.md`, eingeklappt | Markdown-Schnipsel, `<details>` |
+| `layoutBoxHint` | nach dem Inhalt | inline, nur mobil | `display: mobile-only` an einer Instanz |
 | `layoutBoxCta` | nach dem Inhalt | inline, eigene Klasse | `{{frontmatter.…}}` |
 | `layoutBoxColophon` | Fußzeile | inline | `{{locale}}`, `{{slug}}` |
 

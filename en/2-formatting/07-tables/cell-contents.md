@@ -1,7 +1,7 @@
 ---
 title: Contents of a cell
 description: What may stand in a cell and what has to be escaped.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - tables

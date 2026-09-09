@@ -1,7 +1,7 @@
 ---
-title: 2.11 Properties
+title: 2.11 – Properties
 description: Frontmatter, data types, display.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/eigenschaften/index

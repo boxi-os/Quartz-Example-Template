@@ -1,7 +1,7 @@
 ---
 title: How a base is built
 description: Filters, formulas and views — the YAML format explained.
-section: 3 Obsidian formats
+section: 3 – Obsidian formats
 tags:
   - obsidian-formats
   - bases

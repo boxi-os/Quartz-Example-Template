@@ -1,7 +1,7 @@
 ---
 title: Nested callouts
 description: A callout inside a callout — and where the limit is.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - callouts

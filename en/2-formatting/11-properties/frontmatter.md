@@ -1,7 +1,7 @@
 ---
 title: Frontmatter
 description: The fields at the very top of the file and what Quartz does with them.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - frontmatter
@@ -29,7 +29,7 @@ draft: false
 ## What Quartz evaluates
 
 The short version; what every field does in detail stands in
-[[en/4-controlling-a-page/index|4 Controlling a page]].
+[[en/4-controlling-a-page/index|4 – Controlling a page]].
 
 | Field | Effect |
 | ---- | ------- |
@@ -51,4 +51,4 @@ system. The order is set on the *Created modified date* [[en/7-reference/01-glos
 
 > [!tip] Fields of your own are allowed
 > A field Quartz does not know does no harm. This template uses `section`, for instance — for the
-> display in the property table, see [[en/4-controlling-a-page/04-custom-fields|4.4 Custom fields]].
+> display in the property table, see [[en/4-controlling-a-page/04-custom-fields|4.4 – Custom fields]].

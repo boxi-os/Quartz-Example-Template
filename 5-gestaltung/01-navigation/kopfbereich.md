@@ -1,7 +1,7 @@
 ---
 title: Kopfbereich
 description: Wortmarke, Seitentitel und die vier Bedienelemente in einer Zeile.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - navigation
@@ -35,34 +35,43 @@ Zwei Feinheiten:
   volle Breite und nimmt den Schubladen-Knopf des [[7-nachschlagen/01-glossar#Explorer|Explorers]] mit auf. Die Suche gibt dort ihr Wort
   auf und wird ein Quadrat wie die beiden anderen; ihre 44 px behält sie.
 
-## Er bleibt stehen und wird kleiner
+## Er bleibt stehen, der Titel geht
 
 Seit dem 05.09.2026 klebt der Kopf auf jeder Breite oben am Fenster, nicht mehr nur am Telefon: Die
 vier Bedienelemente und der Weg zurück zur Startseite sind das, wonach man mitten in einem langen
 Artikel greift, und mehrere Seiten hier sind drei Bildschirme hoch.
 
-Beim Scrollen schrumpft er. Was dabei kleiner wird, ist der **Innenabstand** und der Seitentitel —
-nicht die Bedienelemente: Ein Ziel, das seine Größe ändert, während man danach greift, ist
-schlimmer als eine hohe Leiste. Gemessen: 61 px in Ruhe, 49 px ab 4 rem Scrollweg.
+Seine Höhe ändert sich dabei nicht. Was sich ändert, ist die Seite darum: Der Kopf ist die eine von
+**zwei Ebenen**, und die andere scrollt weg. Über dem Text steht der Bereich `beforeBody` mit
+Brotkrumen, Tags, Überschrift und Datum — der Titelblock der Seite, und der geht mit dem Text. Die
+Leiste bleibt. Genau das ist die Veränderung beim Scrollen, und sie braucht keinen Effekt: Sie
+folgt daraus, wo die Dinge stehen.
 
-Getragen wird das von zwei registrierten Längen (`--tpl-header-pad`, `--tpl-header-title`), die an
-`scroll(root block)` hängen. Nichts davon bewegt sich von selbst — die Höhe ist eine Funktion der
-Scrollposition, nicht der Zeit —, deshalb gibt es bei `prefers-reduced-motion` auch nichts zu
-unterdrücken.
+Damit die Leiste in diesem Zustand noch etwas sagt, trägt sie **zwei Namen nebeneinander** — den
+der Website und den des Kapitels (`{{frontmatter.section}}`, aus dem Frontmatter jeder Notiz). Das
+Kapitel wiederholt die Überschrift nicht, also dürfen beide dauerhaft dastehen; wer über die
+Überschrift hinausgescrollt ist, weiß weiter, wo er ist.
 
-> [!note] Das Schrumpfen braucht scroll-getriebene Animationen
-> Wo es sie nicht gibt — nachgemessen an Firefox 155 —, klebt der Kopf ebenfalls, bleibt aber immer
-> in seiner Ruhegröße von 61 px. Beides steht hinter
-> `@supports (animation-timeline: scroll())` — ohne diese Klammer läuft der `animation`-Kurzbefehl
-> dort als Animation mit **null Sekunden Dauer**, und `fill: both` springt sofort auf das
-> Endbild: Der Kopf saß in Firefox dauerhaft in seiner *kleinen* Form.
+> [!note] Vorher stand hier ein Effekt, und er lief nur in zwei von drei Browsern
+> Bis zum 09.09.2026 schrumpfte der Kopf beim Scrollen um 8 px, tauschte den Sitenamen gegen den
+> Seitennamen und trug eine Fortschrittslinie. Alle drei hingen an `animation-timeline` —
+> CSS, das an die Scrollposition gebunden ist statt an die Uhr. Chromium und WebKit können das,
+> **Firefox nicht**: an der installierten Fassung 155.0.1 nachgemessen, alle fünf Abfragen negativ,
+> und es ist seit Jahren nicht in Sicht. Die Effekte standen hinter `@supports` und passierten dort
+> also einfach nicht — das sichtbarste Element der Website war in zwei Engines das eine und im
+> dritten ein anderes.
+>
+> Die Fortschrittslinie fehlt seitdem ersatzlos, und das ist kein Verlust: Das
+> [[5-gestaltung/04-neben-dem-inhalt/inhaltsverzeichnis|Inhaltsverzeichnis]] markiert längst, wie
+> weit gelesen ist, und tut das mit einem Skript des Plugins — also in jedem Browser.
 
-Zwei Dinge hängen daran und stehen deshalb in derselben Rechnung:
+Zwei Dinge hängen an der Höhe des Kopfes und stehen deshalb in derselben Rechnung:
 
 - Die **rechte Spalte** klebt unter dem Kopf, nicht darunter verborgen: Ihr `top` liest
-  `--tpl-header-h` und wandert mit nach oben, während der Kopf schrumpft.
-- **Sprungziele** halten die Höhe der kleinen Leiste über sich frei (`scroll-margin-block-start`),
-  sonst landete jede Überschrift aus dem Inhaltsverzeichnis hinter dem Kopf.
+  `--tpl-header-h`, dieselbe Rechnung, aus der der Kopf selbst seine Höhe bezieht.
+- **Sprungziele** halten die Höhe der Leiste über sich frei, dazu die 24 px der Ausblendung darunter
+  (`scroll-margin-block-start`) — sonst landet jede angesprungene Überschrift hinter dem Kopf oder
+  im Verlauf, der ihn nach unten abschließt.
 
 ## Ein Fund beim Bauen
 

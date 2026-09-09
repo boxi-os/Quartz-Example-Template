@@ -1,7 +1,7 @@
 ---
 title: Formula blocks
 description: Displayed formulas, over several lines and as a matrix.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - math

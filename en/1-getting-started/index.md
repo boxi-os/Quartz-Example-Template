@@ -1,7 +1,7 @@
 ---
-title: 1 Getting started
+title: 1 – Getting started
 description: Who this handbook is for, how it is written, and what you need to know beforehand — which is almost nothing.
-section: 1 Getting started
+section: 1 – Getting started
 tags:
   - getting-started
 translationKey: einstieg/index
@@ -9,17 +9,17 @@ translationKey: einstieg/index
 
 This chapter assumes nothing. If you already use Obsidian but have never made a website out of it,
 you are in the right place. If you know Quartz, skim it and carry on at
-[[en/6-adapting/index|6 Adapting]].
+[[en/6-adapting/index|6 – Adapting]].
 
 ## The four pages
 
-1. [[en/1-getting-started/01-what-this-template-is|1.1 What this template is]] — the idea behind
+1. [[en/1-getting-started/01-what-this-template-is|1.1 – What this template is]] — the idea behind
    it and the three decisions everything follows from.
-2. [[en/1-getting-started/02-the-tools|1.2 The tools]] — Obsidian, Quartz, QuartzControl and [[en/7-reference/01-glossary#git|git]]:
+2. [[en/1-getting-started/02-the-tools|1.2 – The tools]] — Obsidian, Quartz, QuartzControl and [[en/7-reference/01-glossary#git|git]]:
    what each of them does and how they fit together.
-3. [[en/1-getting-started/03-from-note-to-website|1.3 From note to website]] — the way a change
+3. [[en/1-getting-started/03-from-note-to-website|1.3 – From note to website]] — the way a change
    travels from typing to the published page.
-4. [[en/1-getting-started/04-how-a-page-is-built|1.4 How a page is built]] — the parts of a page,
+4. [[en/1-getting-started/04-how-a-page-is-built|1.4 – How a page is built]] — the parts of a page,
    with their names, so that the later chapters can call them by name.
 
 ## How this handbook is written

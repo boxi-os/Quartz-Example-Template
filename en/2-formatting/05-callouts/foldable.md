@@ -1,7 +1,7 @@
 ---
 title: Foldable callouts
 description: A callout that can be folded away.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - callouts

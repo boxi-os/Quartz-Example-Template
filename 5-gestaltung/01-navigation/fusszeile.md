@@ -1,7 +1,7 @@
 ---
 title: Fußzeile
 description: Was unter jeder Seite steht — und aus welchen zwei Bausteinen es besteht.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - navigation

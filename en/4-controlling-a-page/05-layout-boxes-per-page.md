@@ -1,7 +1,7 @@
 ---
-title: 4.5 Layout boxes per page
+title: 4.5 – Layout boxes per page
 description: Hiding, renaming or refilling a layout box on a single page — in the frontmatter, not in the configuration.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 tags:
   - controlling-a-page
   - layout-box
@@ -14,7 +14,7 @@ translationKey: seiten-steuern/layout-boxen-je-seite
 A **layout box** is a box with content of its own that the [[en/7-reference/01-glossary#Plugin|plugin]] *quartz-layout-box* places at
 one spot of the page layout — the word mark at the top, the box “About this handbook” on the
 left, the box “Read on” below the text. This template has five of them; what each does stands in
-[[en/5-design/05-layout-boxes/index|5.5 Layout boxes]]. Here it is about how a single page can
+[[en/5-design/05-layout-boxes/index|5.5 – Layout boxes]]. Here it is about how a single page can
 have one of them differently.
 
 This page controls two of the five instances through its own [[en/7-reference/01-glossary#Frontmatter|frontmatter]]:

@@ -1,7 +1,7 @@
 ---
 title: External links
 description: Links to the outside — and how you recognise them.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - links

@@ -1,7 +1,7 @@
 ---
 title: Anzeige der Eigenschaften
 description: Wo die Tabelle steht, was sie zeigt und wie man das ändert.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - frontmatter

@@ -1,7 +1,7 @@
 ---
-title: 6.1 Etwas ändern
+title: 6.1 – Etwas ändern
 description: Drei Ebenen, von der billigsten zur teuersten — und wo die eigene Regel hingehört, damit sie gewinnt.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
 translationKey: anpassen/etwas-aendern

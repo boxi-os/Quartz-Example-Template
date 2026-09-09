@@ -1,7 +1,7 @@
 ---
-title: 1.2 The tools
+title: 1.2 – The tools
 description: Obsidian, Quartz, QuartzControl and git — four programs, each with one job, and how they fit together.
-section: 1 Getting started
+section: 1 – Getting started
 tags:
   - getting-started
 translationKey: einstieg/die-werkzeuge
@@ -52,7 +52,7 @@ You do not have to be able to operate git to use this template. It still appears
 QuartzControl needs it for new projects, for plugins from a git source and for its [[en/7-reference/01-glossary#Snapshot|snapshots]] — and
 takes the machine's git or brings one of its own. The date of a page can be read from git by Quartz
 (not here; why, stands under
-[[en/4-controlling-a-page/01-title-description-date|4.1 Title, description, date]]). And whoever
+[[en/4-controlling-a-page/01-title-description-date|4.1 – Title, description, date]]). And whoever
 publishes their site through a git repository, on GitHub Pages for instance, sends it there with
 git.
 
@@ -67,4 +67,4 @@ Obsidian ─writes─▶ Vault ◀─symlink─ Project ─Quartz builds─▶ W
 The vault is the source. The project points to it with a **symlink** — a link in the file system
 that makes a folder appear in a second place without copying it. Quartz reads the content through
 this link, builds the site from it, and QuartzControl controls both. How that goes in detail:
-[[en/1-getting-started/03-from-note-to-website|1.3 From note to website]].
+[[en/1-getting-started/03-from-note-to-website|1.3 – From note to website]].

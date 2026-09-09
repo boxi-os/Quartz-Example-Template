@@ -1,7 +1,7 @@
 ---
-title: 7.2 Abkürzungen
+title: 7.2 – Abkürzungen
 description: Die Kürzel, die in diesem Handbuch vorkommen.
-section: 7 Nachschlagen
+section: 7 – Nachschlagen
 tags:
   - nachschlagen
   - referenz

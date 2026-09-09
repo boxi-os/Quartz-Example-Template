@@ -1,7 +1,7 @@
 ---
 title: Unordered lists
 description: Bullet lists and their nesting.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - lists

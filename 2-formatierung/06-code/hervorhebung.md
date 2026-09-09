@@ -1,7 +1,7 @@
 ---
 title: Zeilen hervorheben
 description: Einzelne Zeilen in einem Block betonen.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - code

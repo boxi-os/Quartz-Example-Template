@@ -1,7 +1,7 @@
 ---
-title: 6 Adapting
+title: 6 – Adapting
 description: Where a colour, a typeface, a spacing, the page grid or the languages come from — and how to change them, mostly without code.
-section: 6 Adapting
+section: 6 – Adapting
 tags:
   - adapting
 translationKey: anpassen/index
@@ -17,31 +17,31 @@ for that there is a way that leaves the template itself untouched.
 
 | I want to … | Then |
 | --- | --- |
-| … change a colour — the accent, the ground, the [[en/7-reference/01-glossary#Callout\|callouts]] | [[en/6-adapting/02-colours-and-contrast\|6.2 Colours and contrast]] |
-| … use a different typeface | [[en/6-adapting/03-typefaces\|6.3 Typefaces]] |
-| … have more or less spacing, larger corners, other text sizes | [[en/6-adapting/04-variables\|6.4 Variables]] |
-| … make the text wider, the sidebars narrower, break at other widths | [[en/6-adapting/05-page-grids\|6.5 Page grids]] |
-| … know what the template does for keyboard, screen reader and print | [[en/6-adapting/06-accessibility\|6.6 Accessibility]] |
-| … have a second language, or only one | [[en/6-adapting/07-two-languages/index\|6.7 Two languages]] |
-| … bring the template into another project or pass it on | [[en/6-adapting/08-the-template-package\|6.8 The template package]] |
-| … have a component *shaped* differently, not just coloured differently | [[en/6-adapting/01-changing-something\|6.1 Changing something]], ways 2 and 3 |
+| … change a colour — the accent, the ground, the [[en/7-reference/01-glossary#Callout\|callouts]] | [[en/6-adapting/02-colours-and-contrast\|6.2 – Colours and contrast]] |
+| … use a different typeface | [[en/6-adapting/03-typefaces\|6.3 – Typefaces]] |
+| … have more or less spacing, larger corners, other text sizes | [[en/6-adapting/04-variables\|6.4 – Variables]] |
+| … make the text wider, the sidebars narrower, break at other widths | [[en/6-adapting/05-page-grids\|6.5 – Page grids]] |
+| … know what the template does for keyboard, screen reader and print | [[en/6-adapting/06-accessibility\|6.6 – Accessibility]] |
+| … have a second language, or only one | [[en/6-adapting/07-two-languages/index\|6.7 – Two languages]] |
+| … bring the template into another project or pass it on | [[en/6-adapting/08-the-template-package\|6.8 – The template package]] |
+| … have a component *shaped* differently, not just coloured differently | [[en/6-adapting/01-changing-something\|6.1 – Changing something]], ways 2 and 3 |
 
 ## The pages
 
-1. [[en/6-adapting/01-changing-something|6.1 Changing something]] — the three levels, cheapest
+1. [[en/6-adapting/01-changing-something|6.1 – Changing something]] — the three levels, cheapest
    first, and where your own rule belongs so that it wins.
-2. [[en/6-adapting/02-colours-and-contrast|6.2 Colours and contrast]] — the nine colour roles, two
+2. [[en/6-adapting/02-colours-and-contrast|6.2 – Colours and contrast]] — the nine colour roles, two
    of them named the wrong way round, and the 89 measured pairs.
-3. [[en/6-adapting/03-typefaces|6.3 Typefaces]] — three families, self-hosted, and why their
+3. [[en/6-adapting/03-typefaces|6.3 – Typefaces]] — three families, self-hosted, and why their
    `@font-face` rules are corrected.
-4. [[en/6-adapting/04-variables|6.4 Variables]] — the 53 values the design is made of, and what
+4. [[en/6-adapting/04-variables|6.4 – Variables]] — the 53 values the design is made of, and what
    does stand as a number in a file after all.
-5. [[en/6-adapting/05-page-grids|6.5 Page grids]] — three [[en/7-reference/01-glossary#Frame|frames]], twelve columns, three widths.
-6. [[en/6-adapting/06-accessibility|6.6 Accessibility]] — [[en/7-reference/01-glossary#Contrast|contrast]], keyboard, target sizes, system
+5. [[en/6-adapting/05-page-grids|6.5 – Page grids]] — three [[en/7-reference/01-glossary#Frame|frames]], twelve columns, three widths.
+6. [[en/6-adapting/06-accessibility|6.6 – Accessibility]] — [[en/7-reference/01-glossary#Contrast|contrast]], keyboard, target sizes, system
    settings, print.
-7. [[en/6-adapting/07-two-languages/index|6.7 Two languages]] — how the same site comes about in
+7. [[en/6-adapting/07-two-languages/index|6.7 – Two languages]] — how the same site comes about in
    two languages and where that stops.
-8. [[en/6-adapting/08-the-template-package|6.8 The template package]] — the parts, what travels
+8. [[en/6-adapting/08-the-template-package|6.8 – The template package]] — the parts, what travels
    and what does not.
 
 > [!warning] Two things first

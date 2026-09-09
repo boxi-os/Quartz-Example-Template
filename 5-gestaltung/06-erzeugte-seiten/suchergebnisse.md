@@ -1,7 +1,7 @@
 ---
 title: Suchergebnisse
 description: Die Liste in der Suchüberlagerung.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - seitentypen

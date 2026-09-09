@@ -1,7 +1,7 @@
 ---
-title: 1 Einstieg
+title: 1 – Einstieg
 description: Für wen dieses Handbuch ist, wie es geschrieben ist und was man vorher wissen muss — nämlich fast nichts.
-section: 1 Einstieg
+section: 1 – Einstieg
 tags:
   - einstieg
 translationKey: einstieg/index
@@ -9,17 +9,17 @@ translationKey: einstieg/index
 
 Dieses Kapitel setzt nichts voraus. Wer Obsidian schon benutzt, aber noch nie eine Website daraus
 gemacht hat, ist hier richtig. Wer Quartz kennt, kann es überfliegen und bei
-[[6-anpassen/index|6 Anpassen]] weiterlesen.
+[[6-anpassen/index|6 – Anpassen]] weiterlesen.
 
 ## Die vier Seiten
 
-1. [[1-einstieg/01-was-diese-vorlage-ist|1.1 Was diese Vorlage ist]] — die Idee dahinter und die
+1. [[1-einstieg/01-was-diese-vorlage-ist|1.1 – Was diese Vorlage ist]] — die Idee dahinter und die
    drei Entscheidungen, aus denen alles folgt.
-2. [[1-einstieg/02-die-werkzeuge|1.2 Die Werkzeuge]] — Obsidian, Quartz, QuartzControl und [[7-nachschlagen/01-glossar#git|git]]:
+2. [[1-einstieg/02-die-werkzeuge|1.2 – Die Werkzeuge]] — Obsidian, Quartz, QuartzControl und [[7-nachschlagen/01-glossar#git|git]]:
    was jedes davon tut und wie sie zusammenhängen.
-3. [[1-einstieg/03-von-der-notiz-zur-website|1.3 Von der Notiz zur Website]] — der Weg einer
+3. [[1-einstieg/03-von-der-notiz-zur-website|1.3 – Von der Notiz zur Website]] — der Weg einer
    Änderung vom Tippen bis zur veröffentlichten Seite.
-4. [[1-einstieg/04-so-ist-eine-seite-aufgebaut|1.4 So ist eine Seite aufgebaut]] — die Teile einer
+4. [[1-einstieg/04-so-ist-eine-seite-aufgebaut|1.4 – So ist eine Seite aufgebaut]] — die Teile einer
    Seite, mit Namen, damit die späteren Kapitel sie nennen können.
 
 ## Wie dieses Handbuch geschrieben ist

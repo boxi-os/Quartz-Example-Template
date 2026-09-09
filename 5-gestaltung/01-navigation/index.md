@@ -1,7 +1,7 @@
 ---
-title: 5.1 Navigation
+title: 5.1 – Navigation
 description: Explorer, Suche, Farbschema, Lesemodus, Kopfbereich, Fußzeile.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
 translationKey: gestaltung/navigation/index

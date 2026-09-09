@@ -1,7 +1,7 @@
 ---
-title: 1.4 So ist eine Seite aufgebaut
+title: 1.4 – So ist eine Seite aufgebaut
 description: Die Teile einer Seite mit ihren Namen — und eine absichtlich lange, tief gegliederte Seite, an der man sie alle sieht.
-section: 1 Einstieg
+section: 1 – Einstieg
 tags:
   - einstieg
   - typografie
@@ -32,7 +32,7 @@ Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
 
 Welcher Teil wo liegt, entscheidet das Seitenraster, in Quartz **[[7-nachschlagen/01-glossar#Frame|Frame]]** genannt — dazu gleich
 mehr. Was in jedem Teil steht, entscheidet das Layout, in QuartzControl unter *Layout*. Wie jeder
-Teil aussieht und warum, ist Kapitel [[5-gestaltung/index|5 Die Gestaltung]].
+Teil aussieht und warum, ist Kapitel [[5-gestaltung/index|5 – Die Gestaltung]].
 
 Eine Zeichnung davon:
 [[3-obsidian-formate/03-excalidraw/Aufbau des editorial-Frames.excalidraw|Aufbau des editorial-Frames]].

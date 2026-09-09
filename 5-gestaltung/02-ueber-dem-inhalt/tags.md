@@ -1,7 +1,7 @@
 ---
 title: Tags
 description: Marken unter dem Titel und im Fließtext.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt

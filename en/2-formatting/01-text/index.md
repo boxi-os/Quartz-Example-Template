@@ -1,7 +1,7 @@
 ---
-title: 2.1 Text
+title: 2.1 – Text
 description: Emphasis, special characters and line breaks.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/text/index

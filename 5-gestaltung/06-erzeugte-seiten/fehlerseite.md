@@ -1,7 +1,7 @@
 ---
 title: Fehlerseite
 description: Was bei einer nicht vorhandenen Adresse erscheint.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - seitentypen

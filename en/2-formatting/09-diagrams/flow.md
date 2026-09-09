@@ -1,7 +1,7 @@
 ---
 title: Flowcharts
 description: Mermaid — processes and decisions.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - diagrams

@@ -1,7 +1,7 @@
 ---
 title: HTML im Markdown
 description: Was durchgelassen wird und wo die Grenze liegt.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - besonderes

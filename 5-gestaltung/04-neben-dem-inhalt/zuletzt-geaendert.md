@@ -1,7 +1,7 @@
 ---
 title: Zuletzt geändert
 description: Die jüngsten Notizen in der Seitenleiste.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - seitenapparat

@@ -1,7 +1,7 @@
 ---
-title: 2.5 Callouts
+title: 2.5 – Callouts
 description: Thirteen types, foldable and nested.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
 translationKey: formatierung/callouts/index

@@ -1,7 +1,7 @@
 ---
 title: An unlisted page
 description: Built, but appears in no listing.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 unlisted: true
 tags:
   - controlling-a-page

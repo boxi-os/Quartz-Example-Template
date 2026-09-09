@@ -1,7 +1,7 @@
 ---
 title: The graph
 description: The surroundings of a note as a network.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - page-apparatus

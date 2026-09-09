@@ -1,7 +1,7 @@
 ---
-title: 4.5 Layout-Boxen je Seite
+title: 4.5 – Layout-Boxen je Seite
 description: Eine Layout-Box auf einer einzelnen Seite ausblenden, umbenennen oder anders füllen — im Frontmatter, nicht in der Konfiguration.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 tags:
   - seiten-steuern
   - layout-box
@@ -14,7 +14,7 @@ translationKey: seiten-steuern/layout-boxen-je-seite
 Eine **Layout-Box** ist ein Kasten mit eigenem Inhalt, den das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *quartz-layout-box* an eine
 Stelle des Seitenlayouts setzt — die Wortmarke oben, die Box „Über dieses Handbuch“ links, der
 Kasten „Weiterlesen“ unter dem Text. Diese Vorlage hat fünf davon; was jede tut, steht in
-[[5-gestaltung/05-layout-boxen/index|5.5 Layout-Boxen]]. Hier geht es darum, wie eine einzelne
+[[5-gestaltung/05-layout-boxen/index|5.5 – Layout-Boxen]]. Hier geht es darum, wie eine einzelne
 Seite eine davon anders haben kann.
 
 Diese Seite steuert zwei der fünf Instanzen über ihr eigenes [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]:
@@ -64,8 +64,7 @@ die im Plugin dokumentierte Vorgehensweise für Mehrfachverwendung.
 Was für **diese eine Seite** gilt, gehört hierher. Was für **alle Seiten einer Sprache** gilt,
 gehört in die Konfiguration unter `byLang` — sonst steht dieselbe Ausnahme in hundert Dateien.
 Genau das war hier einmal der Fall: Die englischen Seiten trugen ihre vier Boxen selbst, bis das
-Plugin `byLang` bekam. Siehe [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf
-Instanzen]].
+Plugin `byLang` bekam. Siehe [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]].
 
 Wenn beides zutrifft, gewinnt das Frontmatter. Die Rangfolge ist:
 

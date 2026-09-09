@@ -1,7 +1,7 @@
 ---
 title: How the two languages find each other
 description: Three strategies, three proofs — and what the Obsidian plugin has to do with it.
-section: 6 Adapting
+section: 6 – Adapting
 tags:
   - adapting
   - multilingual

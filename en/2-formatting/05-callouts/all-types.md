@@ -1,7 +1,7 @@
 ---
 title: All callout types
 description: Thirteen types with their aliases — and why their colours are set anew here.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - callouts

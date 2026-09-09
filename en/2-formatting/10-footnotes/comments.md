@@ -1,7 +1,7 @@
 ---
 title: Comments
 description: Text that only exists in the source.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - footnotes

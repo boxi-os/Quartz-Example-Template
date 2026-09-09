@@ -1,7 +1,7 @@
 ---
-title: 6.6 Barrierefreiheit
+title: 6.6 – Barrierefreiheit
 description: Was diese Vorlage dafür tut — und warum es meist nur eine Zeile mehr ist.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
   - barrierefreiheit

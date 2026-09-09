@@ -1,7 +1,7 @@
 ---
-title: 6.4 Variables
+title: 6.4 – Variables
 description: 53 variables the whole design is made of.
-section: 6 Adapting
+section: 6 – Adapting
 tags:
   - adapting
 translationKey: anpassen/variablen

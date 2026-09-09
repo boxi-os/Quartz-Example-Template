@@ -1,7 +1,7 @@
 ---
 title: The five instances
 description: The same plugin, five times, for something different each time.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - layout-box
@@ -11,8 +11,8 @@ translationKey: gestaltung/layout-boxen/die-fuenf-instanzen
 | Key | Place | Form | What it shows |
 | --- | --- | --- | --- |
 | `layoutBoxMark` | header | inline, SVG light/dark | image switching, `{{root}}`, `{{siteTitle}}` |
-| `layoutBoxNote` | left column | `file:` with `.md`, collapsible | [[en/7-reference/01-glossary#Markdown\|Markdown]] snippet, `<details>` |
-| `layoutBoxHint` | left column | inline, mobile only | two instances controllable independently |
+| `layoutBoxNote` | left column | `file:` with `.md`, collapsed | [[en/7-reference/01-glossary#Markdown\|Markdown]] snippet, `<details>` |
+| `layoutBoxHint` | after the content | inline, mobile only | `display: mobile-only` on one instance |
 | `layoutBoxCta` | after the content | inline, own class | `{{frontmatter.…}}` |
 | `layoutBoxColophon` | footer | inline | `{{locale}}`, `{{slug}}` |
 

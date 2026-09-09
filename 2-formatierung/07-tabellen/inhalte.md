@@ -1,7 +1,7 @@
 ---
 title: Inhalte in Zellen
 description: Was in einer Zelle stehen darf und was geschützt werden muss.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - tabellen

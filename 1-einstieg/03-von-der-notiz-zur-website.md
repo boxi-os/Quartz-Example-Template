@@ -1,7 +1,7 @@
 ---
-title: 1.3 Von der Notiz zur Website
+title: 1.3 – Von der Notiz zur Website
 description: Der Weg einer Änderung — schreiben, ansehen, bauen, veröffentlichen — und was dabei wo passiert.
-section: 1 Einstieg
+section: 1 – Einstieg
 tags:
   - einstieg
 translationKey: einstieg/von-der-notiz-zur-website
@@ -16,7 +16,7 @@ Man öffnet den [[7-nachschlagen/01-glossar#Vault|Vault]] in Obsidian und schrei
 Ast im [[7-nachschlagen/01-glossar#Explorer|Explorer]]; ein `[[Wikilink]]` ein Verweis, den der [[7-nachschlagen/01-glossar#Graph|Graph]] und die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] sehen.
 Kopfzeilen zwischen zwei `---` ganz oben in der Datei — das **Frontmatter** — geben der Seite
 Titel, Beschreibung, Datum und Tags; was man damit alles steuern kann, steht in
-[[4-seiten-steuern/index|4 Eine Seite steuern]].
+[[4-seiten-steuern/index|4 – Eine Seite steuern]].
 
 Nichts davon braucht die Website schon. Man kann tagelang schreiben, ohne zu bauen.
 
@@ -33,7 +33,7 @@ Derselbe Bereich kann die Website auch **bauen**, ohne sie zu zeigen: Quartz lie
 wendet die [[7-nachschlagen/01-glossar#Plugin|Plugins]] an — Links auflösen, Inhaltsverzeichnis erzeugen, Suche indexieren, Seiten für
 Ordner und Tags anlegen — und schreibt fertige HTML-Dateien in den Ausgabeordner `public/`. Ein
 Entwurf (`draft: true` im [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]) wird dabei ausgelassen; siehe
-[[4-seiten-steuern/02-entwurf-und-ungelistet|4.2 Entwurf und ungelistet]].
+[[4-seiten-steuern/02-entwurf-und-ungelistet|4.2 – Entwurf und ungelistet]].
 
 ## 4 · Veröffentlichen
 
@@ -56,7 +56,7 @@ mit einem bestehenden Ordner *verknüpft* statt ihn zu *kopieren*. Beides lässt
 > größeren Eingriff anlegt — lassen den Inhalt aus, sobald `content/` ein Link ist; der Vault muss
 > selbst gesichert sein, hier über sein eigenes [[7-nachschlagen/01-glossar#git|git]]. Und das Plugin, das das Datum einer Seite aus
 > git liest, verrechnet sich am Link und fällt auf das Dateisystem zurück — siehe
-> [[4-seiten-steuern/01-titel-beschreibung-datum|4.1 Titel, Beschreibung, Datum]].
+> [[4-seiten-steuern/01-titel-beschreibung-datum|4.1 – Titel, Beschreibung, Datum]].
 
 ## Die Vorlage in ein eigenes Projekt holen
 
@@ -64,4 +64,4 @@ Wer nicht diese Website, sondern eine eigene mit dieser Gestaltung will, geht de
 ein neues Projekt in QuartzControl anlegen, den eigenen Vault verknüpfen, dann unter *Vorlagen*
 die Vorlage importieren. Die App zeigt vorher, welche [[7-nachschlagen/01-glossar#Baustein|Bausteine]] das Paket enthält und was im
 Projekt dadurch ersetzt wird, und legt einen Snapshot an. Was mitkommt und was nicht:
-[[6-anpassen/08-das-vorlagenpaket|6.8 Das Vorlagenpaket]].
+[[6-anpassen/08-das-vorlagenpaket|6.8 – Das Vorlagenpaket]].

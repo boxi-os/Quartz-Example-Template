@@ -1,7 +1,7 @@
 ---
-title: 5.3 Im Inhalt
+title: 5.3 – Im Inhalt
 description: Fließtext, Callouts, Code, Tabellen und Medien.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
 translationKey: gestaltung/im-inhalt/index

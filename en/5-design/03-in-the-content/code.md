@@ -1,7 +1,7 @@
 ---
 title: Code styling
 description: Inline, blocks, the language label and the copy button.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - in-the-content

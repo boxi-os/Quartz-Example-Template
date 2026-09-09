@@ -1,7 +1,7 @@
 ---
 title: Time diagrams
 description: Gantt plans and timelines.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - diagrams

@@ -1,7 +1,7 @@
 ---
 title: Ein Entwurf
 description: Diese Seite wird nicht gebaut.
-section: 4 Eine Seite steuern
+section: 4 – Eine Seite steuern
 draft: true
 tags:
   - seiten-steuern

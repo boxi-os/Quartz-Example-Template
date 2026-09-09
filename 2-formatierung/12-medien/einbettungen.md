@@ -1,7 +1,7 @@
 ---
 title: Bilder je Farbschema
 description: Zwei Bilder, von denen immer nur eines sichtbar ist.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - medien

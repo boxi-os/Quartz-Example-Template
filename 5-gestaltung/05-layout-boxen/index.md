@@ -1,7 +1,7 @@
 ---
-title: 5.5 Layout-Boxen
+title: 5.5 – Layout-Boxen
 description: Ein Plugin, das beliebiges Markup an jede Stelle des Layouts setzt.
-section: 5 Die Gestaltung
+section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - layout-box

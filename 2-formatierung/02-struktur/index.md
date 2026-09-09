@@ -1,7 +1,7 @@
 ---
-title: 2.2 Struktur
+title: 2.2 – Struktur
 description: Überschriften, Absätze, Trennlinien.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
 translationKey: formatierung/struktur/index

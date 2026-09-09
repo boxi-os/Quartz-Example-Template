@@ -1,7 +1,7 @@
 ---
-title: 5.5 Layout boxes
+title: 5.5 – Layout boxes
 description: A plugin that puts arbitrary markup at any place in the layout.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - layout-box

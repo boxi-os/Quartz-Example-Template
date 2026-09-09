@@ -1,7 +1,7 @@
 ---
 title: Aufgabenlisten
 description: Kästchen zum Abhaken — und warum Erledigtes hier zweifach markiert ist.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - listen

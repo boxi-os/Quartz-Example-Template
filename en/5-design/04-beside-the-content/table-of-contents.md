@@ -1,7 +1,7 @@
 ---
 title: Table of contents
 description: The outline on the right — every level, not just three.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
   - page-apparatus

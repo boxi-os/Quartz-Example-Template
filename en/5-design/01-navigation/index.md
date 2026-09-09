@@ -1,7 +1,7 @@
 ---
-title: 5.1 Navigation
+title: 5.1 – Navigation
 description: Explorer, search, colour scheme, reader mode, header, footer.
-section: 5 The design
+section: 5 – The design
 tags:
   - design
 translationKey: gestaltung/navigation/index

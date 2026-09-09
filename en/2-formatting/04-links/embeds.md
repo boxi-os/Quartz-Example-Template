@@ -1,7 +1,7 @@
 ---
 title: Embedding a page
 description: Showing another page in the middle of this one.
-section: 2 Formatting
+section: 2 – Formatting
 tags:
   - formatting
   - links

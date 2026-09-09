@@ -1,7 +1,7 @@
 ---
-title: 4.7 Translation
+title: 4.7 – Translation
 description: The fields that connect a page with its translation — translationKey, aliases, lang — and when you need them.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 tags:
   - controlling-a-page
   - multilingual
@@ -43,4 +43,4 @@ else falls into the default language, German. A field `lang` is only needed when
 somewhere other than where it speaks.
 
 How all of this works in detail, with the measured numbers and the limits:
-[[en/6-adapting/07-two-languages/index|6.7 Two languages]].
+[[en/6-adapting/07-two-languages/index|6.7 – Two languages]].

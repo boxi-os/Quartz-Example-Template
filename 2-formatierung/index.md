@@ -1,7 +1,7 @@
 ---
-title: 2 Formatierung
+title: 2 – Formatierung
 description: Jedes Element, das Obsidian schreibt und Quartz rendert — Quelltext und Ergebnis nebeneinander, 62 kurze Seiten in dreizehn Abschnitten.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
 translationKey: formatierung/index
@@ -22,23 +22,23 @@ die Website daraus macht.
 
 | Abschnitt | Was darin steht |
 | --- | --- |
-| [[2-formatierung/01-text/index\|2.1 Text]] | fett, kursiv, durchgestrichen, hervorgehoben, Sonderzeichen, Zeilenumbrüche |
-| [[2-formatierung/02-struktur/index\|2.2 Struktur]] | Überschriften, Absätze, Trennlinien |
-| [[2-formatierung/03-listen/index\|2.3 Listen]] | ungeordnet, geordnet, Aufgaben, Verschachtelung |
-| [[2-formatierung/04-links/index\|2.4 Links]] | [[7-nachschlagen/01-glossar#Wikilink\|Wikilinks]], Sprungziele, externe Links, [[7-nachschlagen/01-glossar#Alias\|Aliase]], Einbettungen |
-| [[2-formatierung/05-callouts/index\|2.5 Callouts]] | alle dreizehn Typen, faltbar, verschachtelt |
-| [[2-formatierung/06-code/index\|2.6 Code]] | inline, Blöcke, Sprachen, Zeilenhervorhebung |
-| [[2-formatierung/07-tabellen/index\|2.7 Tabellen]] | Grundform, Ausrichtung, Inhalte, breite Tabellen |
-| [[2-formatierung/08-mathematik/index\|2.8 Mathematik]] | Formeln inline und als Block |
-| [[2-formatierung/09-diagramme/index\|2.9 Diagramme]] | [[7-nachschlagen/01-glossar#Mermaid\|Mermaid]]: vierzehn Diagrammarten auf sechs Seiten |
-| [[2-formatierung/10-fussnoten/index\|2.10 Fußnoten]] | Fußnoten, Varianten, Kommentare |
-| [[2-formatierung/11-eigenschaften/index\|2.11 Eigenschaften]] | [[7-nachschlagen/01-glossar#Frontmatter\|Frontmatter]], Datentypen, Anzeige |
-| [[2-formatierung/12-medien/index\|2.12 Medien]] | Bilder, Größen, Video, Audio, Dokumente, Einbettungen |
-| [[2-formatierung/13-besonderes/index\|2.13 Besonderes]] | [[7-nachschlagen/01-glossar#HTML\|HTML]], Escapes, Pfeile, Emoji |
+| [[2-formatierung/01-text/index\|2.1 – Text]] | fett, kursiv, durchgestrichen, hervorgehoben, Sonderzeichen, Zeilenumbrüche |
+| [[2-formatierung/02-struktur/index\|2.2 – Struktur]] | Überschriften, Absätze, Trennlinien |
+| [[2-formatierung/03-listen/index\|2.3 – Listen]] | ungeordnet, geordnet, Aufgaben, Verschachtelung |
+| [[2-formatierung/04-links/index\|2.4 – Links]] | [[7-nachschlagen/01-glossar#Wikilink\|Wikilinks]], Sprungziele, externe Links, [[7-nachschlagen/01-glossar#Alias\|Aliase]], Einbettungen |
+| [[2-formatierung/05-callouts/index\|2.5 – Callouts]] | alle dreizehn Typen, faltbar, verschachtelt |
+| [[2-formatierung/06-code/index\|2.6 – Code]] | inline, Blöcke, Sprachen, Zeilenhervorhebung |
+| [[2-formatierung/07-tabellen/index\|2.7 – Tabellen]] | Grundform, Ausrichtung, Inhalte, breite Tabellen |
+| [[2-formatierung/08-mathematik/index\|2.8 – Mathematik]] | Formeln inline und als Block |
+| [[2-formatierung/09-diagramme/index\|2.9 – Diagramme]] | [[7-nachschlagen/01-glossar#Mermaid\|Mermaid]]: vierzehn Diagrammarten auf sechs Seiten |
+| [[2-formatierung/10-fussnoten/index\|2.10 – Fußnoten]] | Fußnoten, Varianten, Kommentare |
+| [[2-formatierung/11-eigenschaften/index\|2.11 – Eigenschaften]] | [[7-nachschlagen/01-glossar#Frontmatter\|Frontmatter]], Datentypen, Anzeige |
+| [[2-formatierung/12-medien/index\|2.12 – Medien]] | Bilder, Größen, Video, Audio, Dokumente, Einbettungen |
+| [[2-formatierung/13-besonderes/index\|2.13 – Besonderes]] | [[7-nachschlagen/01-glossar#HTML\|HTML]], Escapes, Pfeile, Emoji |
 
 Was **keine** Markdown-Seite ist — [[7-nachschlagen/01-glossar#Base|Bases]], [[7-nachschlagen/01-glossar#Canvas|Canvas]] und [[7-nachschlagen/01-glossar#Excalidraw|Excalidraw]] — steht in
-[[3-obsidian-formate/index|3 Obsidian-Formate]]. Was das Frontmatter einer Seite *bewirkt* —
-Entwurf, Datum, Alias, Titelbild —, steht in [[4-seiten-steuern/index|4 Eine Seite steuern]].
+[[3-obsidian-formate/index|3 – Obsidian-Formate]]. Was das Frontmatter einer Seite *bewirkt* —
+Entwurf, Datum, Alias, Titelbild —, steht in [[4-seiten-steuern/index|4 – Eine Seite steuern]].
 
 ## Was Obsidian kann und Quartz nicht
 
@@ -56,5 +56,5 @@ gebauten Website gemessen; die verlinkte Seite zeigt jeweils, was stattdessen ge
 | Definitionslisten | gibt es in beiden nicht, HTML hilft aus | [[2-formatierung/13-besonderes/html\|HTML]] |
 
 Dazu kommt, was auf dieser Website absichtlich anders aussieht als in Quartz von Haus aus — die
-Callout-Farben etwa. Das steht nicht hier, sondern in [[5-gestaltung/index|5 Die Gestaltung]] bei
+Callout-Farben etwa. Das steht nicht hier, sondern in [[5-gestaltung/index|5 – Die Gestaltung]] bei
 der jeweiligen Komponente.

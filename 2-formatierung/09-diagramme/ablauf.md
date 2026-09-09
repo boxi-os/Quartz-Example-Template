@@ -1,7 +1,7 @@
 ---
 title: Ablauf-Diagramme
 description: Zustände, Nutzerreisen und Versionsstränge.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - diagramme

@@ -1,7 +1,7 @@
 ---
 title: Breite Tabellen
 description: Was passiert, wenn eine Tabelle nicht in die Spalte passt.
-section: 2 Formatierung
+section: 2 – Formatierung
 tags:
   - formatierung
   - tabellen

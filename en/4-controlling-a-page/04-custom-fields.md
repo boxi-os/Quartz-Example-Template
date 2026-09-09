@@ -1,7 +1,7 @@
 ---
-title: 4.4 Custom fields
+title: 4.4 – Custom fields
 description: Frontmatter fields Quartz does not know — and how the property table shows them.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 date: 2026-07-02
 lastmod: 2026-09-01
 tags:
@@ -51,4 +51,4 @@ Whoever wants to see all fields sets the option `includeAll` to true in QuartzCo
 *Plugins → Note properties*. Then [[en/7-reference/01-glossary#Alias|aliases]] and translation keys appear as well.
 
 How to *write* fields and which data types there are:
-[[en/2-formatting/11-properties/index|2.11 Properties]].
+[[en/2-formatting/11-properties/index|2.11 – Properties]].

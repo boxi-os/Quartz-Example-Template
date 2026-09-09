@@ -1,7 +1,7 @@
 ---
 title: Wie die Sprachen sich finden
 description: Drei Strategien, drei Belege — und was das Obsidian-Plugin damit zu tun hat.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
   - mehrsprachigkeit

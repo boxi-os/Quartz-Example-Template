@@ -1,7 +1,7 @@
 ---
-title: 6.8 Das Vorlagenpaket
+title: 6.8 – Das Vorlagenpaket
 description: Was in einer .qtpl-Datei steckt, was beim Import im Projekt ankommt — und was bewusst nicht mitreist.
-section: 6 Anpassen
+section: 6 – Anpassen
 tags:
   - anpassen
 translationKey: anpassen/das-vorlagenpaket

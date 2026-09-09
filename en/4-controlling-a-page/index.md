@@ -1,7 +1,7 @@
 ---
-title: 4 Controlling a page
+title: 4 – Controlling a page
 description: What a page's frontmatter does — title, date, draft, alias, custom fields, layout boxes, cover image, translation.
-section: 4 Controlling a page
+section: 4 – Controlling a page
 tags:
   - controlling-a-page
 translationKey: seiten-steuern/index
@@ -24,7 +24,7 @@ draft: false
 ```
 
 How to *write* frontmatter — the data types, the display — stands in
-[[en/2-formatting/11-properties/index|2.11 Properties]]. Here stands what every field *does*.
+[[en/2-formatting/11-properties/index|2.11 – Properties]]. Here stands what every field *does*.
 
 ## The fields at a glance
 
