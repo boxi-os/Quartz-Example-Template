@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+      <title>Example</title>
+      <link>https://boxi-os.github.io/Quartz-Example-Template</link>
+      <description>Last 10 notes on Example</description>
+      <generator>Quartz -- quartz.jzhao.xyz</generator>
+      <item>
+    <title>Aufbau des editorial-Frames</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/03-excalidraw/aufbau-des-editorial-frames.excalidraw</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/03-excalidraw/aufbau-des-editorial-frames.excalidraw</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Structure of the editorial frame</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/en/3-obsidian-formats/03-excalidraw/structure-of-the-editorial-frame.excalidraw</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/en/3-obsidian-formats/03-excalidraw/structure-of-the-editorial-frame.excalidraw</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Aufbau der Vorlage</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/02-canvas/aufbau-der-vorlage.canvas</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/02-canvas/aufbau-der-vorlage.canvas</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Structure of the template</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/en/3-obsidian-formats/02-canvas/structure-of-the-template.canvas</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/en/3-obsidian-formats/02-canvas/structure-of-the-template.canvas</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Alle Seiten</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/7-nachschlagen/alle-seiten.base</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/7-nachschlagen/alle-seiten.base</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Alle-Ansichten</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/01-bases/alle-ansichten.base</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/01-bases/alle-ansichten.base</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Formatierungsseiten</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/01-bases/formatierungsseiten.base</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/01-bases/formatierungsseiten.base</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>Gestaltungsseiten</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/01-bases/gestaltungsseiten.base</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/3-obsidian-formate/01-bases/gestaltungsseiten.base</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>All pages</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/en/7-reference/all-pages.base</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/en/7-reference/all-pages.base</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item><item>
+    <title>All-Views</title>
+    <link>https://boxi-os.github.io/Quartz-Example-Template/en/3-obsidian-formats/01-bases/all-views.base</link>
+    <guid>https://boxi-os.github.io/Quartz-Example-Template/en/3-obsidian-formats/01-bases/all-views.base</guid>
+    <description><![CDATA[  ]]></description>
+    <pubDate>Thu, 10 Sep 2026 13:53:44 GMT</pubDate>
+  </item>
+    </channel>
+  </rss>
