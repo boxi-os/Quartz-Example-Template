@@ -16,7 +16,6 @@ those are reported. The linked page has the details in each case.
 
 | Limit | Instead | Where |
 | --- | --- | --- |
-| Tasks on the site know only open and done; `[/]`, `[-]`, `[?]` become empty boxes | write the state into the text | [[en/2-formatting/03-lists/tasks\|Task lists]] |
 | Inline footnotes `^[…]` stay raw text | write the footnote with `[^1]` | [[en/2-formatting/10-footnotes/variants\|Named and repeated footnotes]] |
 | Arrows like `-->` do not become → | write the character → directly | [[en/2-formatting/13-special/arrows-and-emoji\|Arrows, tags and emoji]] |
 | A tag in running text has a broken link — a bug in Quartz | tags in the [[en/7-reference/01-glossary#Frontmatter\|frontmatter]] | [[en/2-formatting/13-special/arrows-and-emoji\|Arrows, tags and emoji]] |
@@ -51,10 +50,8 @@ those are reported. The linked page has the details in each case.
 
 | Limit | Instead | Where |
 | --- | --- | --- |
-| Only one of the five layout boxes survives the import of a template | create the other four anew | [[en/6-adapting/08-the-template-package\|6.8 – The template package]] |
-| A template package carries no images and no snippet files | inline HTML and inline SVG; copy one file by hand | [[en/6-adapting/08-the-template-package\|6.8 – The template package]] |
 | The part Translations does not reach the components' headings | — | [[en/6-adapting/08-the-template-package\|6.8 – The template package]] |
 | [[en/7-reference/01-glossary#Snapshot\|Snapshots]] do not contain the content when `content/` is a symlink | the [[en/7-reference/01-glossary#Vault\|vault]] backs itself up through its own git | [[en/1-getting-started/03-from-note-to-website\|1.3 – From note to website]] |
-| The app writes `@font-face` rules without weight and style | the rules are corrected by hand | [[en/6-adapting/03-typefaces\|6.3 – Typefaces]] |
+| The app writes `@font-face` rules without a `unicode-range` | the template replaces the generated block | [[en/6-adapting/03-typefaces\|6.3 – Typefaces]] |
 | In the [[en/7-reference/01-glossary#Frame\|frame]] editor a value may not contain a comma, and lengths stand as numbers, not as variables | `calc()` without a comma; numbers | [[en/6-adapting/05-page-grids\|6.5 – Page grids]] |
 | Three blocks in `custom.scss` are rewritten by the app on every save | your own rules outside the markers or in a file of your own | [[en/6-adapting/01-changing-something\|6.1 – Changing something]] |

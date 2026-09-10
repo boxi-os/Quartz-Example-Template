@@ -41,9 +41,9 @@ Three decisions carry everything else; in full they stand under
 
 1. **The width decides the grid.** The page grid gives the text its column; there is no second
    limit on the individual paragraph that could fall out with it.
-2. **Colours are measured.** 89 colour pairs meet the [[en/7-reference/01-glossary#Contrast|contrast]] threshold of the [[en/7-reference/01-glossary#WCAG|WCAG]] guideline in
+2. **Colours are measured.** 93 colour pairs meet the [[en/7-reference/01-glossary#Contrast|contrast]] threshold of the [[en/7-reference/01-glossary#WCAG|WCAG]] guideline in
    light and dark, the thirteen restated [[en/7-reference/01-glossary#Callout|callout]] colours included. Quartz's own do not — eleven of
-   twelve fail.
+   their thirteen types fail.
 3. **No [[en/7-reference/01-glossary#Stylesheet|stylesheet]] sets a colour or a measure itself.** Both come from variables that stay
    editable in the app after the import.
 

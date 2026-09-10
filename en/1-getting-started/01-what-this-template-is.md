@@ -39,15 +39,15 @@ tablet and phone stands under [[en/6-adapting/05-page-grids|6.5 – Page grids]]
 ### 2. Colours are measured
 
 [[en/7-reference/01-glossary#Contrast|Contrast]] is the ratio of brightness between text and ground. The guideline for accessible
-websites, [[en/7-reference/01-glossary#WCAG|WCAG]], demands at least 4.5:1 for normal text. This template measures 89 colour pairs in
+websites, [[en/7-reference/01-glossary#WCAG|WCAG]], demands at least 4.5:1 for normal text. This template measures 93 colour pairs in
 light and dark on every run — every text-on-ground combination, the thirteen [[en/7-reference/01-glossary#Callout|callout]] colours, the
 colours of the code syntax theme — and stops if one of them falls below. Quartz's own colours do
-not pass this check: eleven of the twelve callout colours fail in light mode. That is why they are
+not pass this check: of its thirteen callout types, eleven fail in light mode. That is why they are
 restated here. More under [[en/6-adapting/02-colours-and-contrast|6.2 – Colours and contrast]].
 
 ### 3. No stylesheet sets a colour or a measure itself
 
-Colours and measures stand in 53 variables, not in the stylesheets. That is not cosmetics: after
+Colours and measures stand in 50 variables, not in the stylesheets. That is not cosmetics: after
 the import, variables stay editable in the app under *Styles → Variables*; a value that stands in
 a stylesheet file does not. What does stand as a number in a file is named and justified — the
 callout and syntax colours, because they mean a status and are not a palette; the hairlines; and
@@ -60,6 +60,7 @@ the [[en/7-reference/01-glossary#Breakpoint|breakpoints]], because a [[en/7-refe
 [[en/7-reference/01-glossary#Vault|vault]] of their own. Whoever imports the template gets the design and writes their own pages into
 it.
 
-**No images and no snippet files.** A template package carries stylesheets and font files, no
-other files. What that means for the one [[en/7-reference/01-glossary#Layout box|layout box]] that reads from a file stands under
+**No configuration of somebody else's.** A template package carries the design — stylesheets,
+typefaces, images, snippets, plugin entries — and leaves standing everything a project has decided
+for itself. Which [[en/7-reference/01-glossary#Part|part]] carries what stands under
 [[en/6-adapting/08-the-template-package|6.8 – The template package]].

@@ -40,10 +40,10 @@ Diese 7 Variablen liest `meta-breadcrumbs.scss`. Ändern lassen sie sich in der 
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 weitere Komponenten |
 | `--tpl-space-3xs` | `0.125rem` | 6 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |

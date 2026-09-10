@@ -13,11 +13,11 @@ translationKey: seiten-steuern/layout-boxen-je-seite
 
 Eine **Layout-Box** ist ein Kasten mit eigenem Inhalt, den das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *quartz-layout-box* an eine
 Stelle des Seitenlayouts setzt — die Wortmarke oben, die Box „Über dieses Handbuch“ links, der
-Kasten „Weiterlesen“ unter dem Text. Diese Vorlage hat fünf davon; was jede tut, steht in
+Kasten „Weiterlesen“ unter dem Text. Diese Vorlage hat sieben davon; was jede tut, steht in
 [[5-gestaltung/05-layout-boxen/index|5.5 – Layout-Boxen]]. Hier geht es darum, wie eine einzelne
 Seite eine davon anders haben kann.
 
-Diese Seite steuert zwei der fünf Instanzen über ihr eigenes [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]:
+Diese Seite steuert zwei davon über ihr eigenes [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]]:
 
 ```yaml
 ---
@@ -43,19 +43,23 @@ In der ausführlichen Form nimmt der Schlüssel sechs Felder: `hidden`, `file`, 
 `collapsible` und `collapsed`. Eine Seite darf ihre Box also auch umbenennen oder zuklappen, nicht
 nur umfüllen.
 
-## Die fünf Schlüssel dieser Vorlage
+## Die sechs Schlüssel dieser Vorlage
 
 | Schlüssel | Ort | Was die Box ist |
 | --- | --- | --- |
 | `layoutBoxMark` | Kopfbereich | die Wortmarke, ein Bild je [[7-nachschlagen/01-glossar#Farbschema\|Farbschema]] |
+| `layoutBoxPageName` | Kopfbereich | der Kapitelname neben dem Websitenamen |
 | `layoutBoxNote` | linke Spalte | „Über dieses Handbuch“, aus einer Markdown-Datei, aufklappbar |
-| `layoutBoxHint` | linke Spalte | ein Hinweis, nur auf schmalen Bildschirmen |
 | `layoutBoxCta` | nach dem Inhalt | „Weiterlesen“, mit Platzhaltern |
+| `layoutBoxHint` | nach dem Inhalt | ein Hinweis, nur auf schmalen Bildschirmen |
 | `layoutBoxColophon` | Fußzeile | die Impressumszeile |
+
+Die siebte Instanz hat keinen Schlüssel: Sie gibt nur ein `<style>` aus, das den Ordner markiert, in
+dem man gerade steht, und es gibt nichts daran, was eine einzelne Seite anders haben wollte.
 
 ## Warum jede Instanz einen eigenen Schlüssel hat
 
-Ohne `frontmatterKey` in der Konfiguration würde ein `layoutBox: false` **alle fünf** Boxen
+Ohne `frontmatterKey` in der Konfiguration würde ein `layoutBox: false` **alle** Boxen
 gleichzeitig ausschalten. Die Vorlage vergibt deshalb je Instanz einen eigenen Namen — das ist auch
 die im Plugin dokumentierte Vorgehensweise für Mehrfachverwendung.
 
@@ -64,7 +68,7 @@ die im Plugin dokumentierte Vorgehensweise für Mehrfachverwendung.
 Was für **diese eine Seite** gilt, gehört hierher. Was für **alle Seiten einer Sprache** gilt,
 gehört in die Konfiguration unter `byLang` — sonst steht dieselbe Ausnahme in hundert Dateien.
 Genau das war hier einmal der Fall: Die englischen Seiten trugen ihre vier Boxen selbst, bis das
-Plugin `byLang` bekam. Siehe [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]].
+Plugin `byLang` bekam. Siehe [[5-gestaltung/05-layout-boxen/die-instanzen|Die Instanzen]].
 
 Wenn beides zutrifft, gewinnt das Frontmatter. Die Rangfolge ist:
 

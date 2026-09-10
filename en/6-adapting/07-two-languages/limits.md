@@ -25,10 +25,10 @@ in the language of the page. That is the only thing the plugin can move at this 
 
 ## The layout boxes are the exception
 
-Four of the five boxes speak both languages — content and heading. That makes them the only control
+Four of the seven boxes speak both languages — content and heading. That makes them the only control
 on this site that reads the language of the *page* rather than the language of the site. It costs
 four `byLang` entries in the configuration and not a line in the notes; what it looks like is in
-[[en/5-design/05-layout-boxes/the-five-instances|The five instances]].
+[[en/5-design/05-layout-boxes/the-instances|The instances]].
 
 It is at the same time the proof of what the others fail on: the plugin can do this only because it
 sees `fileData.frontmatter.lang`. Quartz's built-in components are handed `cfg.locale` at that

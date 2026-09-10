@@ -8,7 +8,8 @@ tags:
 translationKey: gestaltung/neben-dem-inhalt/rueckverweise
 ---
 
-Unter dem Inhaltsverzeichnis steht, welche anderen Notizen auf die aktuelle verweisen.
+Direkt unter dem Text steht, welche anderen Notizen auf die aktuelle verweisen — als Kasten neben
+dem der [[5-gestaltung/04-neben-dem-inhalt/zuletzt-geaendert|zuletzt geänderten Seiten]].
 
 ## Von Haus aus
 
@@ -22,6 +23,17 @@ Eine Liste von Titeln. Der Leerzustand lautet „Keine Backlinks gefunden".
   ist eine Wand.
 - Der **Leerzustand** ist kursiv und gedämpft gesetzt: Er soll wie eine Antwort aussehen, nicht wie
   ein Fehler.
+
+## Wo er steht
+
+Bis zum 10.09.2026 stand dieser Kasten in der rechten Spalte, unter dem Inhaltsverzeichnis. Er steht
+jetzt unter dem Text, weil er dorthin gehört: Was auf eine Seite zeigt, ist eine Frage, die man
+*nach* dem Lesen stellt, nicht daneben — und in der rechten Spalte teilte er sich den Platz mit
+einer Gliederung, die beim Lesen gebraucht wird.
+
+Er teilt seine Zeile mit dem Kasten „Zuletzt bearbeitete Seiten“ und ist dabei der rechte von
+beiden. Die zwei stehen oberhalb der Telefonbreite immer nebeneinander, auch wenn einer von ihnen
+leer bleibt — dann nimmt der andere die ganze Breite.
 
 ## Zur Formulierung
 
@@ -42,18 +54,20 @@ Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 9 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--icon-arrow-up-right` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

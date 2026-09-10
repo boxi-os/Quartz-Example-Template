@@ -1,13 +1,13 @@
 ---
 title: 6.4 – Variables
-description: 53 variables the whole design is made of.
+description: 50 variables the whole design is made of.
 section: 6 – Adapting
 tags:
   - adapting
 translationKey: anpassen/variablen
 ---
 
-**Neither this template's colours nor its measures live in the [[en/7-reference/01-glossary#Stylesheet|stylesheets]]; both come from 53
+**Neither this template's colours nor its measures live in the [[en/7-reference/01-glossary#Stylesheet|stylesheets]]; both come from 50
 variables.** That is not cosmetics: after the import they stay editable in the app under *Styles →
 Variables*, a value in [[en/7-reference/01-glossary#CSS and SCSS|SCSS]] does not.
 
@@ -42,19 +42,19 @@ once, instead of every component inside them repeating it.
 
 ## What does stand literally
 
-Measured across the 30 stylesheets, comments excluded: **41 colour values** and **91 lengths**. All
+Measured across the 30 stylesheets, comments excluded: **41 colour values** and **112 lengths**. All
 for the same reason — a variable *cannot* stand in that place.
 
 | Where | What | Why |
 | --- | --- | --- |
 | `body-callouts` | 24 colours | Thirteen callout hues in two modes, less the quote callout, which reads the accent colour. They mean **status**, not palette: a `warning` that follows the accent colour is no longer a `warning`. |
 | `body-code` | 10 colours | The five syntax corrections — the replaced and the replacing value each. |
-| `body-mermaid` | 2 reds | [[en/7-reference/01-glossary#Mermaid\|Mermaid]]'s error state, which it colours itself. |
+| `body-mermaid` | 4 colours | [[en/7-reference/01-glossary#Mermaid\|Mermaid]]'s error state and its two footnote colours, which it colours itself. |
 | `a11y` | 2 greys | Inside `@media print`. On paper neither the light nor the dark palette applies. |
 | `nav-explorer` | 1 black | The scrim behind the drawer on a phone — not a colour, a dimming. |
 | everywhere | 20× `1px`/`2px` | Hairlines and focus rings. A line is one pixel wide, not one step of a grid. |
-| everywhere | 27× `0.1em`, `1em` and others | Measures that relate to the type size rather than to the spacing scale — the padding of an inline-code pill, the size of an icon in line height. The three recurring letter-spacings became tokens on 2026-09-05. |
-| 13 rules | `720px`, `800px`, `801px` | A media query cannot read a variable. |
+| everywhere | 38× `0.1em`, `1em` and others | Measures that relate to the type size rather than to the spacing scale — the padding of an inline-code pill, the size of an icon in line height. The three recurring letter-spacings became tokens on 2026-09-05. |
+| 19 media queries | `480px`, `720px`, `900px`, `901px`, `1200px`, `1201px` | A media query cannot read a variable. |
 
 ## What repeats, and why it may
 
@@ -63,7 +63,7 @@ Two shapes stand in several stylesheets nearly word for word:
 | Shape | in how many files |
 | --- | ---: |
 | The panel heading — heading face, uppercase, semibold, muted, `--tpl-tracking-label` | 9 |
-| The hovered link — accent colour, underlined, `--tpl-underline-offset` | 7 |
+| The hovered link — accent colour, underlined, `--tpl-underline-offset` | 8 |
 
 That could be pulled into one shared file, and here that would be the wrong move. The stylesheets
 are cut by component, and the documentation hangs off that: every page in this section carries the
@@ -89,49 +89,51 @@ change the base gap has to look for it in many places.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 40 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 42 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
-| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
-| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
+| `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
+| `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--icon-chevron` | set in the stylesheet (`base.scss`) | Callout colours |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
 | `--tpl-fade` | `14px` | only here |
 | `--tpl-fade-mask` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-fade-mask-end` | set in the stylesheet (`base.scss`) | only here |
-| `--tpl-focus-color` | `var(--secondary)` = `#2A4E6C` | only here |
+| `--tpl-focus-color` | `var(--secondary)` = `#1463A3` | only here |
 | `--tpl-focus-offset` | `2px` | Callout colours |
 | `--tpl-focus-width` | `2px` | Callout colours |
-| `--tpl-header-h` | set in the stylesheet (`base.scss`) | only here |
+| `--tpl-header-h` | set in the stylesheet (`base.scss`) | The explorer |
 | `--tpl-header-pad` | set in the stylesheet (`base.scss`) | The header |
 | `--tpl-icon-sm` | `0.95rem` | The explorer, The language switcher |
 | `--tpl-leading-normal` | `1.6` | only here |
 | `--tpl-leading-snug` | `1.4rem` | 4 other components |
 | `--tpl-leading-tight` | `1.25` | only here |
 | `--tpl-motion` | `150ms ease` | 12 other components |
+| `--tpl-page-fade` | `24px` | The header |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xl` | `4rem` | Error page |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xl` | `2.5rem` | 4 other components |
+| `--tpl-space-xl` | `2.5rem` | 5 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
 | `--tpl-target` | `44px` | 11 other components |
 | `--tpl-text-2xl` | `1.75rem` | Title and date |
 | `--tpl-text-3xl` | `2.25rem` | Title and date, Error page |
 | `--tpl-text-base` | `1rem` | 4 other components |
 | `--tpl-text-lg` | `1.15rem` | Search, Link preview |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xl` | `1.4rem` | The language switcher |
-| `--tpl-tracking-caps` | `0.06em` | Code styling, 3.1 Bases |
+| `--tpl-tracking-caps` | `0.06em` | Code styling, 3.1 – Bases |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

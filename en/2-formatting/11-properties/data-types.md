@@ -17,7 +17,7 @@ translationKey: formatierung/eigenschaften/datentypen
 cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
-This page carries five example fields itself. The property table above this text shows them.
+This page carries five example fields itself. The property table at the foot of the page shows them.
 
 ````md
 ---

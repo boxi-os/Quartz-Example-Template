@@ -1,6 +1,6 @@
 ---
 title: Callouts
-description: Zwölf Farben, alle neu gesetzt und gemessen.
+description: Dreizehn Typen, alle neu gesetzt und gemessen.
 section: 5 – Die Gestaltung
 tags:
   - gestaltung
@@ -11,8 +11,9 @@ translationKey: gestaltung/im-inhalt/callouts
 
 ## Von Haus aus
 
-Quartz kennt dreizehn Typen und setzt zwölf Farben dafür; `note` behält die Grundfarbe. Jede gilt
-in beiden Farbschemata gleich, dazu kommen ein Rahmen und eine sehr blasse Fläche.
+Quartz kennt dreizehn Typen und verteilt zehn Farbwerte darauf — drei Gruppen teilen sich je einen,
+und `quote` liest die Akzentfarbe. Jeder Wert gilt in beiden Farbschemata gleich, dazu kommen ein
+Rahmen und eine sehr blasse Fläche.
 
 Gemessen gegen den hellen Grund dieser Vorlage scheitern **elf von dreizehn** an der WCAG-Schwelle:
 
@@ -50,14 +51,14 @@ Diese 19 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der Ap
 | `--border` | im Stylesheet gesetzt (`body-callouts.scss`) | nur hier |
 | `--callout-tint` | im Stylesheet gesetzt (`body-callouts.scss`) | nur hier |
 | `--color` | — | nur hier |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
-| `--icon-chevron` | im Stylesheet gesetzt (`base.scss`) | 6.4 Variablen |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--icon-chevron` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
 | `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
-| `--tpl-focus-offset` | `2px` | 6.4 Variablen |
-| `--tpl-focus-width` | `2px` | 6.4 Variablen |
+| `--tpl-focus-offset` | `2px` | 6.4 – Variablen |
+| `--tpl-focus-width` | `2px` | 6.4 – Variablen |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |

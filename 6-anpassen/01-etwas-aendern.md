@@ -12,7 +12,7 @@ denkt.
 
 ## 1 · Eine Variable
 
-**Der Normalfall.** 53 Variablen tragen jede Farbe und jedes Maß dieser Vorlage; keine Zeile CSS ist
+**Der Normalfall.** 50 Variablen tragen jede Farbe und jedes Maß dieser Vorlage; keine Zeile CSS ist
 dafür nötig. In der App unter *Stile → Variablen*, getrennt nach hell und dunkel.
 
 Welche Variable wo greift, steht auf jeder Seite in [[5-gestaltung/index|Kapitel 5]] ganz unten — samt der Spalte, die
@@ -48,8 +48,8 @@ sechs weitere, fest im Quartz-Skript verdrahtet). Alles andere färbt Mermaid se
 es als `<style>` mit der Kennung des jeweiligen SVG in die Grafik, also mit einem ID-Selektor, den
 keine Klassenregel schlägt.
 
-Deshalb stehen in `body-mermaid.scss` 122 `!important` — und deshalb braucht auch deine eigene Regel
-eins. Zum Vergleich: In den 29 anderen Stylesheets zusammen sind es zwanzig, jedes mit einer
+Deshalb stehen in `body-mermaid.scss` 129 `!important` — und deshalb braucht auch deine eigene Regel
+eins. Zum Vergleich: In den 29 anderen Stylesheets zusammen sind es 21, jedes mit einer
 Begründung daneben.
 
 ## Was du nicht anfassen solltest

@@ -31,4 +31,4 @@ ehrlichere Lösung.
 Ein Inline-SVG, dessen Flächen `fill="currentColor"` tragen, folgt automatisch der Textfarbe und
 braucht keine zweite Fassung. Das ist der einfachere Weg, sobald das Bild einfarbig ist.
 
-Mehr zu den Instanzen: [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]].
+Mehr zu den Instanzen: [[5-gestaltung/05-layout-boxen/die-instanzen|Die Instanzen]].

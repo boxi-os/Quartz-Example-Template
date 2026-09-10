@@ -9,8 +9,8 @@ translationKey: gestaltung/layout-boxen/index
 ---
 
 `quartz-layout-box` renders an [[en/7-reference/01-glossary#HTML|HTML]] or [[en/7-reference/01-glossary#Markdown|Markdown]] snippet at any place in the page layout: header,
-sidebars, before or after the content, footer. This template uses it **five times**, each time for
-something different.
+sidebars, before or after the content, footer. This template uses it **seven times**, each time for
+something different — twice of those without a box coming out of it at all.
 
 ## What the plugin can do
 
@@ -44,11 +44,11 @@ for missing files. That is the right decision for a component plugin — it leav
 the site.
 
 This template designs every class: `.layout-box`, `.layout-box-title`, `.layout-box-content`,
-`.layout-box-missing`, plus five variants of its own.
+`.layout-box-missing`, plus seven variants of its own.
 
-Further: [[en/5-design/05-layout-boxes/the-five-instances|The five instances]] ·
+Further: [[en/5-design/05-layout-boxes/the-instances|The instances]] ·
 [[en/4-controlling-a-page/05-layout-boxes-per-page|Controlling it per page]]
 
 ## The pages
 
-- [[en/5-design/05-layout-boxes/the-five-instances|The five instances]] — The same plugin, five times, for something different each time.
+- [[en/5-design/05-layout-boxes/the-instances|The instances]] — The same plugin, seven times, for something different each time.

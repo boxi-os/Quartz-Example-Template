@@ -16,7 +16,6 @@ Grenzen von QuartzControl, und die sind gemeldet. Die verlinkte Seite hat jeweil
 
 | Grenze | Was stattdessen | Wo |
 | --- | --- | --- |
-| Aufgaben kennen auf der Website nur offen und erledigt; `[/]`, `[-]`, `[?]` werden leere Kästchen | den Zustand in den Text schreiben | [[2-formatierung/03-listen/aufgaben\|Aufgaben]] |
 | Inline-Fußnoten `^[…]` bleiben Rohtext | die Fußnote mit `[^1]` schreiben | [[2-formatierung/10-fussnoten/varianten\|Varianten]] |
 | Pfeile wie `-->` werden nicht zu → | das Zeichen → direkt schreiben | [[2-formatierung/13-besonderes/pfeile-und-emoji\|Pfeile und Emoji]] |
 | Ein Tag im Fließtext hat einen kaputten Link — ein Fehler in Quartz | Tags ins [[7-nachschlagen/01-glossar#Frontmatter\|Frontmatter]] | [[2-formatierung/13-besonderes/pfeile-und-emoji\|Pfeile und Emoji]] |
@@ -51,10 +50,8 @@ Grenzen von QuartzControl, und die sind gemeldet. Die verlinkte Seite hat jeweil
 
 | Grenze | Was stattdessen | Wo |
 | --- | --- | --- |
-| Nur eine der fünf Layout-Boxen überlebt den Import einer Vorlage | die anderen vier neu anlegen | [[6-anpassen/08-das-vorlagenpaket\|6.8 – Das Vorlagenpaket]] |
-| Ein Vorlagenpaket trägt keine Bilder und keine Schnipsel-Dateien | Inline-HTML und Inline-SVG; eine Datei von Hand kopieren | [[6-anpassen/08-das-vorlagenpaket\|6.8 – Das Vorlagenpaket]] |
 | Der [[7-nachschlagen/01-glossar#Baustein\|Baustein]] Übersetzungen erreicht die Überschriften der Komponenten nicht | — | [[6-anpassen/08-das-vorlagenpaket\|6.8 – Das Vorlagenpaket]] |
 | [[7-nachschlagen/01-glossar#Snapshot\|Snapshots]] enthalten den Inhalt nicht, wenn `content/` ein Symlink ist | der [[7-nachschlagen/01-glossar#Vault\|Vault]] sichert sich über sein eigenes git | [[1-einstieg/03-von-der-notiz-zur-website\|1.3 – Von der Notiz zur Website]] |
-| Die App schreibt `@font-face`-Regeln ohne Gewicht und Stil | die Regeln sind von Hand korrigiert | [[6-anpassen/03-schriften\|6.3 – Schriften]] |
+| Die App schreibt `@font-face`-Regeln ohne `unicode-range` | die Vorlage ersetzt den erzeugten Block | [[6-anpassen/03-schriften\|6.3 – Schriften]] |
 | Im Frame-Editor darf ein Wert kein Komma enthalten, und Längen stehen als Zahl, nicht als Variable | `calc()` ohne Komma; Zahlen | [[6-anpassen/05-seitenraster\|6.5 – Seitenraster]] |
 | Drei Blöcke in `custom.scss` schreibt die App bei jedem Speichern neu | eigene Regeln außerhalb der Markierungen oder in eine eigene Datei | [[6-anpassen/01-etwas-aendern\|6.1 – Etwas ändern]] |

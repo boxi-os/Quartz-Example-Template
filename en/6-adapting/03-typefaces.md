@@ -1,6 +1,6 @@
 ---
 title: 6.3 – Typefaces
-description: Three families, self-hosted — and why the @font-face rules are corrected by hand.
+description: Three families, self-hosted — and why the @font-face rules are replaced.
 section: 6 – Adapting
 tags:
   - adapting
@@ -24,13 +24,19 @@ fonts [[en/7-reference/01-glossary#Plugin|plugin]] off; with that, neither of th
 
 ## The finding behind it
 
-When a font file is imported, the app creates a `@font-face` rule — **without `font-weight` and
-without `font-style`**. With a variable font that means: the browser treats it as weight 400 and
-distorts every bold cut itself instead of using the axis that ships with it. With two cuts of the
-same family, the second displaces the first.
+Until 2026-09-06, when a font file was imported the app created a `@font-face` rule **without
+`font-weight` and without `font-style`**. With a variable font that meant: the browser treats it as
+weight 400 and distorts every bold cut itself instead of using the axis that ships with it. With two
+cuts of the same family the second displaced the first — exactly the case of this template's upright
+and italic Inter.
 
-This template therefore corrects the generated block: with `font-weight: 400 700`, `font-style` and
-`unicode-range`. On the page the difference can be seen on every bold word.
+**That is fixed.** The app now reads the weight axis and the italic bit out of the file itself and
+writes both. One value is still missing: the `unicode-range`. Without it the browser loads the file
+for characters the Latin subset does not contain at all, and then sets them from a typeface that has
+no glyph for them instead of falling back to the stack.
+
+This template therefore still replaces the generated block — with the same weights and styles the
+app would write itself today, plus the range.
 
 ## Fallback
 

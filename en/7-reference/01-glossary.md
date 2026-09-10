@@ -25,7 +25,7 @@ under it too; on the site a plugin builds a redirect for every alias. →
 
 ### Backlinks
 
-The list of pages that link to the current page, in the right column. →
+The list of pages that link to the current page, as a box below the text. →
 [[en/5-design/04-beside-the-content/backlinks|Backlinks]]
 
 ### Base
@@ -42,8 +42,8 @@ The line above the title that shows the way from the home page to the current on
 
 ### Breakpoint
 
-The window width at which a page breaks differently. This template has two: 1100 px (desktop to
-tablet) and 800 px (tablet to phone). → [[en/6-adapting/05-page-grids|6.5 – Page grids]]
+The window width at which a page breaks differently. This template has two: 1200 px (desktop to
+tablet) and 900 px (tablet to phone). → [[en/6-adapting/05-page-grids|6.5 – Page grids]]
 
 ### Build
 
@@ -157,7 +157,7 @@ You can also write HTML directly into a note. →
 ### Contrast
 
 The ratio of brightness between text and ground, written as 4.5:1. WCAG demands at least 4.5:1
-for normal text, 3:1 for large type. This template measures 89 pairs on every run. →
+for normal text, 3:1 for large type. This template measures 93 pairs on every run. →
 [[en/6-adapting/02-colours-and-contrast|6.2 – Colours and contrast]]
 
 ### Layout
@@ -169,7 +169,8 @@ after the content, footer —, per page type. In QuartzControl under *Layout*. �
 ### Layout box
 
 A plugin that places a box of your own with HTML or Markdown at a spot of the layout. This
-template uses it five times: word mark, sidebar box, mobile hint, “Read on”, colophon. →
+template uses it seven times: word mark, chapter name in the bar, sidebar box, “Read on”, mobile
+hint, colophon — and once without a box coming out of it at all. →
 [[en/5-design/05-layout-boxes/index|5.5 – Layout boxes]]
 
 ### Markdown

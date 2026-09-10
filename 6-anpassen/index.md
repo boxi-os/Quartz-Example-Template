@@ -31,12 +31,12 @@ es einen Weg, der die Vorlage selbst nicht anfasst.
 1. [[6-anpassen/01-etwas-aendern|6.1 – Etwas ändern]] — die drei Ebenen, von der billigsten zur
    teuersten, und wo eine eigene Regel hingehört, damit sie gewinnt.
 2. [[6-anpassen/02-farben-und-kontrast|6.2 – Farben und Kontrast]] — die neun Farbrollen, zwei davon
-   verkehrt herum benannt, und die 89 gemessenen Paare.
+   verkehrt herum benannt, und die 93 gemessenen Paare.
 3. [[6-anpassen/03-schriften|6.3 – Schriften]] — drei Familien, selbst gehostet, und warum ihre
-   `@font-face`-Regeln korrigiert sind.
-4. [[6-anpassen/04-variablen|6.4 – Variablen]] — die 53 Werte, aus denen die Gestaltung besteht, und
+   `@font-face`-Regeln ersetzt werden.
+4. [[6-anpassen/04-variablen|6.4 – Variablen]] — die 50 Werte, aus denen die Gestaltung besteht, und
    was doch als Zahl in einer Datei steht.
-5. [[6-anpassen/05-seitenraster|6.5 – Seitenraster]] — drei [[7-nachschlagen/01-glossar#Frame|Frames]], zwölf Spalten, drei Breiten.
+5. [[6-anpassen/05-seitenraster|6.5 – Seitenraster]] — vier [[7-nachschlagen/01-glossar#Frame|Frames]], zwölf Spalten, drei Breiten.
 6. [[6-anpassen/06-barrierefreiheit|6.6 – Barrierefreiheit]] — [[7-nachschlagen/01-glossar#Kontrast|Kontrast]], Tastatur, Zielgrößen,
    Systemeinstellungen, Druck.
 7. [[6-anpassen/07-zwei-sprachen/index|6.7 – Zwei Sprachen]] — wie dieselbe Website in zwei Sprachen

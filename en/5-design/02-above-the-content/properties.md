@@ -8,6 +8,16 @@ tags:
 translationKey: gestaltung/ueber-dem-inhalt/eigenschaften
 ---
 
+## Where it stands
+
+It once stood between the date and the text and today stands **below the article**, after the box
+“Read on”. The reason is what it is for: whoever opens a page wants to read what is on it — not a
+table of its metadata first. The two entries that genuinely help on arrival still stand at the top:
+date and tags.
+
+This page nonetheless sits in *Above the content*, because it belongs to the title block it
+describes.
+
 ## Out of the box
 
 A plain table in the text colour, collapsible.
@@ -42,19 +52,19 @@ These 16 variables are read by `meta-note-properties.scss`. They can be changed 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
-| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
+| `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--tpl-positive` | `#136B34` · dark `#6DD68F` | only here |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 14 other components |
+| `--tpl-space-2xs` | `0.25rem` | 15 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 

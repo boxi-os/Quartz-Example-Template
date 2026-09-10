@@ -33,19 +33,24 @@ Ein Knopf mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgra
 
 Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine deckende ersetzt.
 
-> [!example] Warum die Breite in der Konfiguration steht und nicht im Stylesheet
-> Sie stand einmal dort, als `flex: 0 1 15rem` an `.search` — und wirkte nicht: Gemessen waren es
+> [!example] Die Breite ist zweimal umgezogen
+> Sie stand zuerst als `flex: 0 1 15rem` an `.search` — und wirkte nicht: Gemessen waren es
 > **110 px**, bei 1728, 1440, 1100 und 900 px gleichermaßen, obwohl die Werkzeugleiste dort nur 322
 > von 1400 px belegte. Quartz legt um jede Komponente einer Gruppe einen eigenen `div` ohne Klasse
 > und schreibt dessen Flex-Werte als **Inline-Stil** aus der Konfiguration. Das Flex-Element ist
 > also der Wrapper, nicht `.search`, und ein Inline-Stil schlägt jedes [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]].
 >
-> Die 15 rem stehen deshalb seit dem 05.09.2026 in `layout.groupOptions.basis` der Suche, zusammen
-> mit `shrink: false`. Das zweite gehört dazu: Ein schrumpfbares Element steuert nur seine
-> Inhaltsbreite zur Größe der Gruppe bei, die Gruppe blieb bei 322 px, während ihre Kinder 452
-> wollten — und die Leiste brach auf zwei Zeilen um, der Kopf wuchs von 61 auf 101 px. Am Telefon
-> nimmt `nav-header.scss` die Breite wieder weg, mit `!important`, weil nur das gegen einen
-> Inline-Stil ankommt.
+> Also zog sie am 05.09.2026 in die Konfiguration, als `layout.groupOptions.basis`. Das war in
+> Chromium richtig und in den zwei anderen Engines falsch: Gecko und WebKit rechnen eine
+> `flex-basis` **nicht** in die Maximalbreite der Gruppe ein, sondern nehmen dafür die
+> Inhaltsbreite des Elements — 110 px statt 240. Die Gruppe kam damit auf 322 px statt 452, und ihre
+> eigenen Kinder hingen in Firefox und Safari 130 px aus dem Fenster.
+>
+> Seit dem 06.09.2026 ist es wieder eine `width: 15rem` an `.search` in `nav-header.scss`, und dabei
+> bleibt es: Eine Breite am Element selbst macht dessen Inhaltsbreite zu 240 px, und darüber sind
+> sich alle drei Engines einig. In der Konfiguration blieb `shrink: false` — ohne das gibt das Feld
+> seine Breite an die zwei Icon-Knöpfe ab, lange bevor die Leiste voll ist. Am Telefon nimmt
+> dasselbe Stylesheet die Breite wieder weg.
 
 > [!note] Der Index umfasst beide Sprachen
 > Es gibt einen Suchindex für die ganze Website, eine englische Seite kann also in einem deutschen
@@ -59,24 +64,24 @@ Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App u
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
+| `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-lg` | `14px` | 3 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-lg` | `1.15rem` | 6.4 Variablen, Link-Vorschau |
-| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-lg` | `1.15rem` | 6.4 – Variablen, Link-Vorschau |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

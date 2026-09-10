@@ -9,8 +9,8 @@ translationKey: gestaltung/layout-boxen/index
 ---
 
 `quartz-layout-box` rendert einen HTML- oder Markdown-Schnipsel an jeder Stelle des Seitenlayouts:
-Kopfbereich, Seitenleisten, vor oder nach dem Inhalt, Fußzeile. Diese Vorlage nutzt es **fünfmal**,
-jedes Mal für etwas anderes.
+Kopfbereich, Seitenleisten, vor oder nach dem Inhalt, Fußzeile. Diese Vorlage nutzt es **siebenmal**,
+jedes Mal für etwas anderes — zweimal davon, ohne dass ein Kasten dabei herauskäme.
 
 ## Was das Plugin kann
 
@@ -44,11 +44,11 @@ Platzhalter für fehlende Dateien. Das ist die richtige Entscheidung für ein Ko
 überlässt das Aussehen der Website.
 
 Diese Vorlage gestaltet jede Klasse: `.layout-box`, `.layout-box-title`, `.layout-box-content`,
-`.layout-box-missing`, dazu fünf eigene Varianten.
+`.layout-box-missing`, dazu sieben eigene Varianten.
 
-Weiter: [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]] ·
+Weiter: [[5-gestaltung/05-layout-boxen/die-instanzen|Die Instanzen]] ·
 [[4-seiten-steuern/05-layout-boxen-je-seite|Je Seite steuern]]
 
 ## Die Seiten
 
-- [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]] — Dasselbe Plugin, fünfmal, für jeweils etwas anderes.
+- [[5-gestaltung/05-layout-boxen/die-instanzen|Die Instanzen]] — Dasselbe Plugin, siebenmal, für jeweils etwas anderes.

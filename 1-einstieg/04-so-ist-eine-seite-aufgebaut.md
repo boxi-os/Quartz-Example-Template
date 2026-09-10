@@ -22,13 +22,19 @@ Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
 
 | Teil | Wo | Was darin steht |
 | --- | --- | --- |
-| **Kopfbereich** (header) | oben, über alle Spalten | die Wortmarke, der Seitenname, die Suche, der Schalter für hell und dunkel, der Lesemodus, der Sprachumschalter |
-| **Linke Spalte** (left) | links | der [[7-nachschlagen/01-glossar#Explorer\|Explorer]] — der Ordnerbaum aller Seiten —, die Box „Über dieses Handbuch“, die zuletzt geänderten Seiten |
-| **Über dem Inhalt** (beforeBody) | über dem Text | die [[7-nachschlagen/01-glossar#Brotkrumen\|Brotkrumen]] (der Pfad von der Startseite hierher), der Titel, Datum und Lesezeit, die Eigenschaften-Tabelle, die Tags |
+| **Kopfbereich** (header) | oben, über alle Spalten | die Wortmarke, der Websitename, das Kapitel, die Suche, der Schalter für hell und dunkel, der Lesemodus, der Sprachumschalter |
+| **Linke Spalte** (left) | links | der [[7-nachschlagen/01-glossar#Explorer\|Explorer]] — der Ordnerbaum aller Seiten — und die Box „Über dieses Handbuch“ |
+| **Über dem Inhalt** (beforeBody) | über dem Text | die [[7-nachschlagen/01-glossar#Brotkrumen\|Brotkrumen]] (der Pfad von der Startseite hierher), die Tags, der Titel, Datum und Lesezeit |
 | **Inhalt** (body) | Mitte | die Notiz selbst |
-| **Nach dem Inhalt** (afterBody) | unter dem Text | die Box „Weiterlesen“ |
-| **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis, die [[7-nachschlagen/01-glossar#Rückverweise\|Rückverweise]] (welche Seiten hierher verlinken), der [[7-nachschlagen/01-glossar#Graph\|Graph]] |
+| **Der freie Bereich** (custom-8) | direkt unter dem Text | zwei Kästen nebeneinander: die zuletzt geänderten Seiten und die [[7-nachschlagen/01-glossar#Rückverweise\|Rückverweise]] (welche Seiten hierher verlinken) |
+| **Nach dem Inhalt** (afterBody) | darunter | die Box „Weiterlesen“, die Eigenschaften-Tabelle, am Telefon der Hinweis auf die eingeklappte Navigation |
+| **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis und der [[7-nachschlagen/01-glossar#Graph\|Graph]] |
 | **Fußzeile** (footer) | unten | die Impressumszeile |
+
+Sieben davon sind Quartz' eigene Orte. **Der freie Bereich ist es nicht** — er ist ein achter, den
+diese Vorlage im Seitenraster dazugebaut hat, weil zwei Kästen nebeneinander sonst nicht
+auszudrücken sind: Quartz kennt unter dem Text genau eine Stelle, und alles, was dort steht, steht
+untereinander.
 
 Welcher Teil wo liegt, entscheidet das Seitenraster, in Quartz **[[7-nachschlagen/01-glossar#Frame|Frame]]** genannt — dazu gleich
 mehr. Was in jedem Teil steht, entscheidet das Layout, in QuartzControl unter *Layout*. Wie jeder
@@ -40,9 +46,9 @@ Eine Zeichnung davon:
 ## Wie breit der Text wird
 
 Die Breite entscheidet das Seitenraster. Der Frame `editorial`, den Inhaltsseiten benutzen, teilt
-die Seite in zwölf gleiche Spalten und gibt dem Text sechs davon — links drei für die Navigation,
-rechts drei für Inhaltsverzeichnis und Rückverweise. Die Seite selbst ist auf 1440 Pixel begrenzt,
-der Text landet damit bei 684 Pixeln, also rund 71 Zeichen.
+die Seite in zwölf Spalten und gibt dem Text die mittleren sechs — links drei für die Navigation,
+rechts drei für Inhaltsverzeichnis und Graph. Die Seite selbst ist auf 1440 Pixel begrenzt, der Text
+landet damit bei 672 Pixeln, also rund 70 Zeichen.
 
 ### Warum nicht zusätzlich am Absatz
 
@@ -56,9 +62,11 @@ Bleibt Platz übrig, geht er an die Spalten daneben, nicht an die Zeilenlänge.
 
 ##### Ab welcher Breite umgebrochen wird
 
-Diese Vorlage bricht bei 1100 Pixeln auf zwei Spalten und bei 800 auf eine. Das sind die
-projekteigenen Schwellen, nicht die von Quartz — sie liegen etwas enger, weil die linke Spalte hier
-schmaler ist.
+Diese Vorlage bricht bei 1200 Pixeln auf zwei Spalten und bei 900 auf eine. Das sind die
+projekteigenen Schwellen, nicht die von Quartz. Bis zum 09.09.2026 stand die untere bei 800, und
+zwar nicht aus Gestaltungsgründen: Das Explorer-Plugin schaltet in seinem eigenen Stylesheet bei
+genau `max-width: 800px` auf die Schublade um. Seit die Vorlage die Regeln der Plugins auf ihre
+eigenen Schwellen umschreibt, sind die zwei Zahlen wieder eine Entscheidung.
 
 ###### Die tiefste Ebene
 
@@ -111,9 +119,9 @@ Dazu eine ==Hervorhebung== und eine Fußnote[^lang].
 
 | Breite | Raster | Blöcke nebeneinander |
 | ------ | ------ | -------------------- |
-| über 1100 px | 12 Spalten | drei: 3 / 6 / 3 |
-| 801 bis 1100 px | 12 Spalten | zwei: 3 / 9, Apparat unter dem Text |
-| bis 800 px | 1 Spalte | einer |
+| ab 1201 px | 12 Spalten | drei: 3 / 6 / 3 |
+| 901 bis 1200 px | 12 Spalten | zwei: 3 / 9, Apparat unter dem Text |
+| bis 900 px | 1 Spalte | einer |
 
 ### Ein Codeblock
 
@@ -126,6 +134,7 @@ export function measure(text: string): number {
 
 ## Zum Schluss
 
-Wer bis hierher gescrollt hat, sieht rechts im Inhaltsverzeichnis den aktuellen Abschnitt
-hervorgehoben — Farbe, Schriftschnitt und ein Balken an der Linie. Drei Signale, weil eines davon
-für einen Teil der Leser ausfällt.
+Wer bis hierher gescrollt hat, sieht rechts im Inhaltsverzeichnis zweierlei: eine Linie, die bis
+zur eben gelesenen Stelle im Akzent steht und darunter grau bleibt — eine Fortschrittsanzeige, aus
+den Einträgen selbst gebaut —, und den aktuellen Abschnitt im Akzent gesetzt. Wo die Linie endet,
+steht man; welche Überschrift das ist, sagt das eine farbige Wort daneben.

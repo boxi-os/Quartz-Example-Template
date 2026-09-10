@@ -1,6 +1,6 @@
 ---
 title: Callout colours
-description: Twelve colours, all of them set anew and measured.
+description: Thirteen types, all of them set anew and measured.
 section: 5 – The design
 tags:
   - design
@@ -11,8 +11,9 @@ translationKey: gestaltung/im-inhalt/callouts
 
 ## Out of the box
 
-Quartz knows thirteen types and sets twelve colours for them; `note` keeps the [[en/7-reference/01-glossary#Base|base]] colour. Each
-holds in both colour schemes alike, plus a border and a very pale surface.
+Quartz knows thirteen types and spreads ten colour values over them — three groups share one each,
+and `quote` reads the accent colour. Each value holds in both colour schemes alike, plus a border
+and a very pale surface.
 
 Measured against the light ground of this template, **eleven of thirteen** fail the [[en/7-reference/01-glossary#WCAG|WCAG]]
 threshold:
@@ -51,14 +52,14 @@ These 19 variables are read by `body-callouts.scss`. They can be changed in the 
 | `--border` | set in the stylesheet (`body-callouts.scss`) | only here |
 | `--callout-tint` | set in the stylesheet (`body-callouts.scss`) | only here |
 | `--color` | — | only here |
-| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
-| `--icon-chevron` | set in the stylesheet (`base.scss`) | 6.4 Variables |
+| `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--icon-chevron` | set in the stylesheet (`base.scss`) | 6.4 – Variables |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
 | `--tpl-accent-bar` | `3px` | 5 other components |
-| `--tpl-focus-offset` | `2px` | 6.4 Variables |
-| `--tpl-focus-width` | `2px` | 6.4 Variables |
+| `--tpl-focus-offset` | `2px` | 6.4 – Variables |
+| `--tpl-focus-width` | `2px` | 6.4 – Variables |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |

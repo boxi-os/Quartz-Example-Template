@@ -20,7 +20,11 @@ Struktur nicht.
 ## In dieser Vorlage
 
 - **Führungslinie je Ebene.** Jede verschachtelte Liste bekommt eine Haarlinie zum Elternordner.
-  Bei vier Ebenen sind das vier Linien, an denen das Auge zurückfindet.
+  Bei vier Ebenen sind das vier Linien, an denen das Auge zurückfindet. Sie steht unter der Spitze
+  des Pfeils, der die Ebene aufgeklappt hat, nicht daneben — und Dateien beginnen auf derselben
+  Kante wie die Ordner ihrer Ebene, nicht davor. Beides war eine Zeit lang um ein paar Pixel
+  daneben, aus drei verschiedenen Gründen, und drei kleine Fehler in derselben Richtung sehen aus
+  wie Absicht.
 - **Gewicht sinkt mit der Tiefe.** Ebene 1 ist fett, Ebene 2 halbfett, ab Ebene 3 normal und
   kleiner. Der Kopf einer Verzweigung ist damit auffindbar.
 - **Ab Ebene fünf wird nicht weiter eingerückt**, nur noch die Linie geführt — fünf Einzüge lassen
@@ -28,7 +32,16 @@ Struktur nicht.
 - **Ein Symbol vor jeder Zeile.** Ordner tragen ein Ordner-Icon, das offen und geschlossen
   verschieden aussieht, Dateien ein Datei-Icon — beide aus dem Lucide-Satz. Die Zeile sagt damit,
   *was* sie ist, bevor sie sagt, wie sie heißt.
-- **Der aktive Eintrag** bekommt Farbe, Halbfett *und* einen Balken links.
+- **Der aktive Eintrag** bekommt Farbe, Halbfett *und* einen Balken links — auch dann, wenn er
+  eine Ordnerseite ist. Das Plugin selbst kann das nicht: Es setzt seine Klasse nur auf Datei-
+  Zeilen, eine Ordnerzeile trägt bloß ein `data-folderpath`, und die aktuelle Seite steht in
+  `<body data-slug>`. Zwei Attribute miteinander vergleichen kann kein Selektor — also wird die
+  Regel gebaut statt gesucht, von einer [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]], die nichts ausgibt als ein `<style>` mit dem
+  Pfad dieser einen Seite darin.
+- **Die ganze Zeile ist anklickbar**, bei Dateien wie bei Ordnern. Bei Ordnern war lange nur der
+  Name der Link, während die Hinterlegung beim Überfahren über die volle Breite lief — sie
+  versprach ein Ziel auf ganzer Zeile und antwortete auf einem Drittel. Der Pfeil bleibt daneben
+  das, was auf- und zuklappt.
 - **Der ganze Weg dorthin ist markiert.** Jeder Ordner, unter dem die offene Seite liegt, färbt
   seinen Namen und sein Symbol im Akzent ein, und die Führungslinie des direkten Elternordners
   färbt mit. Vorher sah ein aufgeklappter Ordner genauso aus wie einer, den jemand vor zehn Minuten
@@ -114,40 +127,41 @@ Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 32 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 33 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
+| `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
 | `--icon-close` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-file` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-folder` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-folder-open` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
 | `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | nur hier |
+| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen |
 | `--tpl-icon` | `1.1rem` | Farbschema-Umschalter, Lesemodus |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 Variablen, Der Sprachumschalter |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 – Variablen, Der Sprachumschalter |
 | `--tpl-indent` | `0.85rem` | Inhaltsverzeichnis |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-lg` | `14px` | 3 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
 | `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
-| `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 weitere Komponenten |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
+| `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 weitere Komponenten |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 

@@ -73,33 +73,33 @@ These 30 variables are read by `page-bases.scss`. They can be changed in the app
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
-| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
+| `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--ink` | — | only here |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
 | `--tpl-leading-snug` | `1.4rem` | 4 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 14 other components |
+| `--tpl-space-2xs` | `0.25rem` | 15 other components |
 | `--tpl-space-3xs` | `0.125rem` | 6 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 other components |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
+| `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
 | `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-caps` | `0.06em` | 6.4 Variables, Code styling |
+| `--tpl-tracking-caps` | `0.06em` | 6.4 – Variables, Code styling |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 

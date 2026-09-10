@@ -1,6 +1,6 @@
 ---
 title: 6.3 – Schriften
-description: Drei Familien, selbst gehostet — und warum die @font-face-Regeln von Hand korrigiert sind.
+description: Drei Familien, selbst gehostet — und warum die @font-face-Regeln ersetzt werden.
 section: 6 – Anpassen
 tags:
   - anpassen
@@ -24,13 +24,19 @@ Schriften-Plugin ab; damit läuft keiner der beiden Google-Wege.
 
 ## Der Fund dahinter
 
-Die App legt beim Import einer Schriftdatei eine `@font-face`-Regel an — **ohne `font-weight` und
-ohne `font-style`**. Bei einer Variable Font heißt das: Der Browser behandelt sie als Gewicht 400
-und verzerrt jeden fetten Schnitt selbst, statt die mitgelieferte Achse zu nutzen. Bei zwei
-Schnitten derselben Familie verdrängt der zweite den ersten.
+Bis zum 06.09.2026 legte die App beim Import einer Schriftdatei eine `@font-face`-Regel **ohne
+`font-weight` und ohne `font-style`** an. Bei einer Variable Font hieß das: Der Browser behandelt
+sie als Gewicht 400 und verzerrt jeden fetten Schnitt selbst, statt die mitgelieferte Achse zu
+nutzen. Bei zwei Schnitten derselben Familie verdrängte der zweite den ersten — genau der Fall des
+aufrechten und des kursiven Inter dieser Vorlage.
 
-Diese Vorlage korrigiert den erzeugten Block deshalb: mit `font-weight: 400 700`, `font-style` und
-`unicode-range`. Auf der Seite sieht man den Unterschied an jedem fetten Wort.
+**Das ist behoben.** Die App liest jetzt die Gewichtsachse und das Kursiv-Bit aus der Datei selbst
+und schreibt beides. Ein Wert fehlt weiterhin: die `unicode-range`. Ohne sie lädt der Browser die
+Datei auch für Zeichen, die im Latin-Ausschnitt gar nicht enthalten sind, und setzt sie dann aus
+einer Schrift, die keine Glyphe dafür hat, statt auf den Stapel zurückzufallen.
+
+Diese Vorlage ersetzt den erzeugten Block deshalb weiterhin — mit denselben Gewichten und Stilen,
+die die App heute selbst schreiben würde, plus dem Bereich.
 
 ## Fallback
 

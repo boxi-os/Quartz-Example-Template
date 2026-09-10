@@ -1,12 +1,21 @@
 ---
 title: Eigenschaften
-description: Die Frontmatter-Tabelle unter dem Titel.
+description: Die Frontmatter-Tabelle am Fuß der Seite.
 section: 5 – Die Gestaltung
 tags:
   - gestaltung
   - ueber-dem-inhalt
 translationKey: gestaltung/ueber-dem-inhalt/eigenschaften
 ---
+
+## Wo sie steht
+
+Sie stand einmal zwischen Datum und Text und steht heute **unter dem Artikel**, hinter dem Kasten
+„Weiterlesen“. Der Grund ist, wofür sie da ist: Wer eine Seite aufschlägt, will lesen, was auf ihr
+steht — nicht zuerst eine Tabelle mit ihren Metadaten. Die zwei Angaben, die beim Einstieg wirklich
+helfen, stehen weiterhin oben: Datum und Tags.
+
+Diese Seite steht trotzdem in *Über dem Inhalt*, weil sie zum Titelblock gehört, den sie beschreibt.
 
 ## Von Haus aus
 
@@ -42,19 +51,19 @@ Diese 16 Variablen liest `meta-note-properties.scss`. Ändern lassen sie sich in
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
 | `--tpl-positive` | `#136B34` · dunkel `#6DD68F` | nur hier |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
 

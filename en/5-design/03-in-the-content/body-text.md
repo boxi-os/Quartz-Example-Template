@@ -11,8 +11,8 @@ translationKey: gestaltung/im-inhalt/fliesstext
 ## The width of the text
 
 **In this template** the page grid decides how wide the text gets — not a rule on the paragraph.
-The [[en/7-reference/01-glossary#Frame|frame]] gives the content six of twelve columns, which is 684 px on a page capped at 1440 px — at
-a font size of 1 rem, about 72 characters.
+The [[en/7-reference/01-glossary#Frame|frame]] gives the content six of twelve columns, which is 672 px on a page capped at 1440 px — at
+a font size of 1 rem, about 70 characters.
 
 **Out of the box** Quartz does the same, only with different numbers: it caps the page through
 `.page { max-width }`.
@@ -47,32 +47,38 @@ dark mode. Both are measured against the text colour.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 23 variables are read by `body-content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 29 variables are read by `body-content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
-| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
-| `--tertiary` | `#9C4221` · dark `#E8A56B` | 2.9 Diagrams, The five instances |
-| `--textHighlight` | `rgba(226, 189, 92, 0.45)` · dark `rgba(140, 184, 218, 0.30)` | Search results |
+| `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
+| `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--icon-task-cancelled` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-task-doing` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-task-done` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-task-forwarded` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-task-open` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-task-question` | set in the stylesheet (`base.scss`) | only here |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--tertiary` | `#196B6B` · dark `#2CAFAD` | 2.9 – Diagrams, The instances |
+| `--textHighlight` | `rgba(226, 189, 92, 0.55)` · dark `rgba(140, 184, 218, 0.30)` | Search results |
 | `--tpl-accent-bar` | `3px` | 5 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
-| `--tpl-rule-strong` | `var(--gray)` = `#5F5D57` | 8 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 14 other components |
+| `--tpl-space-2xs` | `0.25rem` | 15 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xl` | `2.5rem` | 4 other components |
+| `--tpl-space-xl` | `2.5rem` | 5 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

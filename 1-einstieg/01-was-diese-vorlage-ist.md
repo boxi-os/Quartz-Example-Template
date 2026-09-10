@@ -41,14 +41,14 @@ könnte. Was das für Tablet und Telefon heißt, steht unter [[6-anpassen/05-sei
 
 [[7-nachschlagen/01-glossar#Kontrast|Kontrast]] ist das Helligkeitsverhältnis zwischen Text und Grund. Die Richtlinie für barrierefreie
 Websites, [[7-nachschlagen/01-glossar#WCAG|WCAG]], verlangt für normalen Text mindestens 4,5:1. Diese Vorlage misst bei jedem Lauf
-89 Farbpaare in hell und dunkel — jede Text-auf-Grund-Kombination, die dreizehn Callout-Farben,
+93 Farbpaare in hell und dunkel — jede Text-auf-Grund-Kombination, die dreizehn Callout-Farben,
 die Farben des Code-Syntaxthemas — und bricht ab, wenn eines darunter liegt. Quartz' eigene Farben
-bestehen diese Prüfung nicht: elf der zwölf Callout-Farben scheitern im hellen Modus. Deshalb sind
-sie hier neu gesetzt. Mehr unter [[6-anpassen/02-farben-und-kontrast|6.2 – Farben und Kontrast]].
+bestehen diese Prüfung nicht: von seinen dreizehn Callout-Typen scheitern elf im hellen Modus.
+Deshalb sind sie hier neu gesetzt. Mehr unter [[6-anpassen/02-farben-und-kontrast|6.2 – Farben und Kontrast]].
 
 ### 3. Kein Stylesheet setzt eine Farbe oder ein Maß selbst
 
-Farben und Maße stehen in 53 Variablen, nicht in den Stylesheets. Das ist keine Kosmetik: Nach dem
+Farben und Maße stehen in 50 Variablen, nicht in den Stylesheets. Das ist keine Kosmetik: Nach dem
 Import bleiben Variablen in der App unter *Stile → Variablen* bearbeitbar; ein Wert, der in einer
 Stylesheet-Datei steht, nicht. Was trotzdem als Zahl in einer Datei steht, ist benannt und
 begründet — die Callout- und Syntaxfarben, weil sie einen Status bedeuten und keine Palette sind;
@@ -61,6 +61,6 @@ die Haarlinien; und die Umbruchbreiten, weil eine [[7-nachschlagen/01-glossar#Me
 eigenen Obsidian-Vault. Wer die Vorlage importiert, bekommt die Gestaltung und schreibt seine
 eigenen Seiten hinein.
 
-**Keine Bilder und keine Schnipsel-Dateien.** Ein Vorlagenpaket trägt Stylesheets und
-Schriftdateien, sonst keine Dateien. Was das für die eine [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]] bedeutet, die aus einer Datei
-liest, steht unter [[6-anpassen/08-das-vorlagenpaket|6.8 – Das Vorlagenpaket]].
+**Keine fremde Konfiguration.** Ein Vorlagenpaket trägt die Gestaltung — Stylesheets, Schriften,
+Bilder, Schnipsel, Plugin-Einträge — und lässt alles stehen, was ein Projekt für sich entschieden
+hat. Welcher [[7-nachschlagen/01-glossar#Baustein|Baustein]] was mitnimmt, steht unter [[6-anpassen/08-das-vorlagenpaket|6.8 – Das Vorlagenpaket]].

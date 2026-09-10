@@ -39,10 +39,10 @@ These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in th
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
+| `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
 | `--tpl-space-3xs` | `0.125rem` | 6 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |

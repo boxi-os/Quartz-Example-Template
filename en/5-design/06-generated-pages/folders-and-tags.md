@@ -22,13 +22,19 @@ another in figure width.
 
 Below 720 px it collapses into one column; the date is the part that moves.
 
-On the desktop, folder and tag pages keep the **right column**, even when only [[en/7-reference/01-glossary#Backlinks|backlinks]] stand in
+On the desktop, folder and tag pages keep the **right column**, even when only the [[en/7-reference/01-glossary#Graph|graph]] stands in
 it. The listing therefore begins exactly where the text begins on a content page — jumping from an
 article to its folder no longer shifts the line.
 
 Both page types use the **`index`** [[en/7-reference/01-glossary#Frame|frame]], which is geometrically the same as `editorial`. There
-is still no table of contents here — a list of links has no headings. Backlinks and the [[en/7-reference/01-glossary#Graph|graph]] there
-are, and they stand on the right as everywhere else.
+is still no table of contents here — a list of links has no headings. The graph there is, and it
+stands on the right as everywhere else; the [[en/7-reference/01-glossary#Backlinks|backlinks]] stand below the listing, as on every
+other page.
+
+> [!bug] On a folder page the graph shows a single dot
+> Even when the page is linked to. That is a bug in the plugin and cannot be fixed from a template —
+> the details stand under [[en/5-design/04-beside-the-content/graph|The graph]]. What does show the
+> connections all the same are the backlinks below the listing.
 
 ## Two findings while building
 
@@ -51,21 +57,23 @@ so that it does not end up in the reading order.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by `page-listing.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 14 variables are read by `page-listing.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--icon-tag` | set in the stylesheet (`base.scss`) | Tags |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-space-3xs` | `0.125rem` | 6 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
+| `--tpl-space-xl` | `2.5rem` | 5 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

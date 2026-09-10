@@ -20,7 +20,10 @@ structure.
 ## In this template
 
 - **A guide line per level.** Every nested list gets a hairline to its parent folder. At four
-  levels that is four lines for the eye to find its way back along.
+  levels that is four lines for the eye to find its way back along. It stands under the tip of the
+  arrow that opened the level, not beside it — and files begin on the same edge as the folders of
+  their level, not in front of them. Both were a few pixels off for a while, for three different
+  reasons, and three small errors in the same direction look like intent.
 - **Weight falls with depth.** Level 1 is bold, level 2 semibold, from level 3 on normal and
   smaller. The head of a branch can therefore be found.
 - **From level five on there is no further indent**, only the line — five indents leave no room for
@@ -28,7 +31,14 @@ structure.
 - **A symbol in front of every row.** Folders carry a folder icon that looks different open and
   closed, files a file icon — both from the Lucide set. The row says *what* it is before it says
   what it is called.
-- **The active entry** gets colour, semibold *and* a bar on the left.
+- **The active entry** gets colour, semibold *and* a bar on the left — including when it is a
+  folder page. The plugin itself cannot do that: it sets its class on file rows only, a folder row
+  carries nothing but a `data-folderpath`, and the current page stands in `<body data-slug>`. No
+  selector can compare two attributes with each other — so the rule is built rather than looked for,
+  by a [[en/7-reference/01-glossary#Layout box|layout box]] that outputs nothing but a `<style>` with this one page's path in it.
+- **The whole row is clickable**, for files as for folders. On folders only the name was the link
+  for a long time, while the hover surface ran the full width — it promised a target across the
+  whole row and answered on a third of it. The arrow beside it still does the folding.
 - **The whole path to it is marked.** Every folder the open page sits under colours its name and
   its symbol in the accent, and the guide line of the direct parent colours with it. Before, an
   unfolded folder looked exactly like one somebody had unfolded by hand ten minutes earlier — the
@@ -113,40 +123,41 @@ does it start closed, since otherwise half the navigation would stand in front o
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 32 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 33 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
-| `--darkgray` | `#33322E` · dark `#D5D7DB` | 18 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 other components |
+| `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
+| `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
 | `--icon-close` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-file` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-folder` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-folder-open` | set in the stylesheet (`base.scss`) | only here |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
 | `--tpl-accent-bar` | `3px` | 5 other components |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | only here |
+| `--tpl-header-h` | set in the stylesheet (`base.scss`) | 6.4 – Variables |
 | `--tpl-icon` | `1.1rem` | Colour scheme switch, Reader mode |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 Variables, The language switcher |
+| `--tpl-icon-sm` | `0.95rem` | 6.4 – Variables, The language switcher |
 | `--tpl-indent` | `0.85rem` | Table of contents |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-lg` | `14px` | 3 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
 | `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
-| `--tpl-space-2xs` | `0.25rem` | 14 other components |
+| `--tpl-space-2xs` | `0.25rem` | 15 other components |
 | `--tpl-space-lg` | `1.5rem` | 11 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 other components |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 other components |
+| `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 other components |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
 | `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 | `--tpl-text-xs` | `0.78rem` | 9 other components |
 | `--tpl-tracking-label` | `0.08em` | 8 other components |
 

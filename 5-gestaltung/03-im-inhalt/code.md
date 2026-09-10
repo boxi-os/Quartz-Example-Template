@@ -55,7 +55,7 @@ sich weiterhin als `github-light`. Es ist dasselbe, was diese Vorlage mit Quartz
 tut.
 
 Geprüft werden sie seitdem bei jedem Lauf: `--check-contrast` liest die fünf Werte aus
-`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten [[7-nachschlagen/01-glossar#Callout|Callout]], der seit dem 05.09.2026 nicht mehr übersprungen wird, sind es 87.
+`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten [[7-nachschlagen/01-glossar#Callout|Callout]], der seit dem 05.09.2026 nicht mehr übersprungen wird, und zwei Rändern von Bedienelementen sind es heute 93.
 
 > [!note] Wie das technisch geht
 > shiki schreibt die Farbe **inline an jedes einzelne `<span>`**
@@ -112,27 +112,27 @@ Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App un
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
-| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 13 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
+| `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
 | `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
 | `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
-| `--tpl-surface` | `var(--lightgray)` = `#DEDCD5` | 6 weitere Komponenten |
+| `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 weitere Komponenten |
 | `--tpl-surface-code` | `color-mix(in srgb, var(--lightgray) 40%, …` · dunkel `var(--lightgray)` | nur hier |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
 | `--tpl-target` | `44px` | 11 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
-| `--tpl-tracking-caps` | `0.06em` | 6.4 Variablen, 3.1 Bases |
+| `--tpl-tracking-caps` | `0.06em` | 6.4 – Variablen, 3.1 – Bases |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

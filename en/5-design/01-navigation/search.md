@@ -33,18 +33,24 @@ A button with a magnifying glass that opens an overlay. The border comes from `l
 
 With `prefers-reduced-transparency` the translucent surface is replaced by an opaque one.
 
-> [!example] Why the width lives in the configuration and not in the stylesheet
-> It lived there once, as `flex: 0 1 15rem` on `.search` — and had no effect: measured it was
-> **110 px**, equally at 1728, 1440, 1100 and 900 px, even though the toolbar occupied only 322 of
-> 1400 px. Quartz wraps every component of a group in a class-less `div` of its own and writes that
-> div's flex values as an **inline style** from the configuration. The flex item is therefore the
-> wrapper, not `.search`, and an inline style beats every [[en/7-reference/01-glossary#Stylesheet|stylesheet]].
+> [!example] The width moved house twice
+> It stood first as `flex: 0 1 15rem` on `.search` — and had no effect: measured it was **110 px**,
+> equally at 1728, 1440, 1100 and 900 px, even though the toolbar occupied only 322 of 1400 px.
+> Quartz wraps every component of a group in a class-less `div` of its own and writes that div's
+> flex values as an **inline style** from the configuration. The flex item is therefore the wrapper,
+> not `.search`, and an inline style beats every [[en/7-reference/01-glossary#Stylesheet|stylesheet]].
 >
-> Since 2026-09-05 the 15 rem live in the search [[en/7-reference/01-glossary#Plugin|plugin]]'s `layout.groupOptions.basis`, together
-> with `shrink: false`. The second belongs with it: a shrinkable item contributes only its content
-> width to the group's size, so the group stayed at 322 px while its children wanted 452 — and the
-> bar wrapped onto two rows, the header growing from 61 to 101 px. On a phone `nav-header.scss`
-> takes the width back off, with `!important`, because nothing else beats an inline style.
+> So on 2026-09-05 it moved into the configuration, as `layout.groupOptions.basis`. That was right
+> in Chromium and wrong in the two other engines: Gecko and WebKit do **not** count a `flex-basis`
+> towards the group's maximum width and use the item's content width instead — 110 px rather than
+> 240. The group came out at 322 px instead of 452, and its own children hung 130 px out of the
+> window in Firefox and Safari.
+>
+> Since 2026-09-06 it is a `width: 15rem` on `.search` in `nav-header.scss` again, and it stays
+> there: a width on the element itself makes its content width 240 px, and all three engines agree
+> on that. `shrink: false` stayed in the configuration — without it the field gives its width up to
+> the two icon buttons long before the bar is full. On a phone the same stylesheet takes the width
+> back off.
 
 > [!note] The index spans both languages
 > There is one search index for the whole site, so a German page can turn up in an English search
@@ -58,24 +64,24 @@ These 18 variables are read by `nav-search.scss`. They can be changed in the app
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dark `#F3F4F6` | 13 other components |
+| `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
 | `--tpl-motion` | `150ms ease` | 12 other components |
 | `--tpl-radius-lg` | `14px` | 3 other components |
 | `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
 | `--tpl-rule-width` | `1px` | 24 other components |
 | `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
 | `--tpl-space-md` | `1rem` | 17 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-space-xs` | `0.5rem` | 19 other components |
 | `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-lg` | `1.15rem` | 6.4 Variables, Link preview |
-| `--tpl-text-sm` | `0.875rem` | 18 other components |
+| `--tpl-text-lg` | `1.15rem` | 6.4 – Variables, Link preview |
+| `--tpl-text-sm` | `0.875rem` | 19 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

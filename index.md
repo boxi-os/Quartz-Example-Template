@@ -41,9 +41,9 @@ Drei Entscheidungen tragen alles andere; ausführlich stehen sie unter
 
 1. **Die Breite entscheidet das Raster.** Das Seitenraster gibt dem Text seine Spalte; es gibt
    keine zweite Begrenzung am einzelnen Absatz, die damit in Streit geraten könnte.
-2. **Farben sind gemessen.** 89 Farbpaare erfüllen die Kontrastschwelle der Richtlinie [[7-nachschlagen/01-glossar#WCAG|WCAG]] in hell
+2. **Farben sind gemessen.** 93 Farbpaare erfüllen die Kontrastschwelle der Richtlinie [[7-nachschlagen/01-glossar#WCAG|WCAG]] in hell
    und dunkel, die dreizehn neu gesetzten Callout-Farben eingeschlossen. Quartz' eigene tun das
-   nicht — elf von zwölf scheitern.
+   nicht — elf ihrer dreizehn Typen scheitern.
 3. **Kein [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]] setzt eine Farbe oder ein Maß selbst.** Beides kommt aus Variablen, die nach
    dem Import in der App bearbeitbar bleiben.
 

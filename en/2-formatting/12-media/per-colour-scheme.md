@@ -30,4 +30,4 @@ turns a green logo magenta. Two versions are the more honest solution.
 An inline SVG whose areas carry `fill="currentColor"` follows the text colour automatically and
 needs no second version. That is the simpler way as soon as the image is one colour.
 
-More on the instances: [[en/5-design/05-layout-boxes/the-five-instances|The five instances]].
+More on the instances: [[en/5-design/05-layout-boxes/the-instances|The instances]].

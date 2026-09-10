@@ -22,13 +22,19 @@ Ziffernbreite untereinander.
 
 Unter 720 px fällt das auf eine Spalte zusammen; das Datum ist der Teil, der wandert.
 
-Am Desktop behalten Ordner- und Tag-Seiten die **rechte Spalte**, auch wenn nur [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] darin
-stehen. Damit beginnt die Liste genau dort, wo auf einer Inhaltsseite der Text beginnt — der Sprung
-von einem Artikel zu seinem Ordner verschiebt die Zeile nicht mehr.
+Am Desktop behalten Ordner- und Tag-Seiten die **rechte Spalte**, auch wenn nur die [[7-nachschlagen/01-glossar#Graph|Graphansicht]]
+darin steht. Damit beginnt die Liste genau dort, wo auf einer Inhaltsseite der Text beginnt — der
+Sprung von einem Artikel zu seinem Ordner verschiebt die Zeile nicht mehr.
 
 Beide Seitentypen nutzen den [[7-nachschlagen/01-glossar#Frame|Frame]] **`index`**, der geometrisch derselbe ist wie `editorial`. Ein
-Inhaltsverzeichnis entsteht hier trotzdem nicht — eine Liste von Links hat keine Überschriften.
-Rückverweise und Graphansicht schon, und die stehen rechts wie überall sonst.
+Inhaltsverzeichnis entsteht hier trotzdem nicht — eine Liste von Links hat keine Überschriften. Die
+Graphansicht schon, und die steht rechts wie überall sonst; die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] stehen wie auf jeder
+anderen Seite unter der Liste.
+
+> [!bug] Auf einer Ordnerseite zeigt der Graph nur einen Punkt
+> Auch dann, wenn die Seite verlinkt ist. Das ist ein Fehler im Plugin und von einer Vorlage aus
+> nicht zu beheben — die Einzelheiten stehen unter [[5-gestaltung/04-neben-dem-inhalt/graph|Graph]].
+> Was die Verbindungen trotzdem zeigt, sind die Rückverweise unter der Liste.
 
 ## Zwei Funde beim Bauen
 
@@ -51,21 +57,23 @@ Der Titel ist der Tag-Name als reiner Text. Diese Vorlage stellt ihm ein Rautenz
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 14 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--icon-tag` | im Stylesheet gesetzt (`base.scss`) | Tags |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-space-3xs` | `0.125rem` | 6 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
+| `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

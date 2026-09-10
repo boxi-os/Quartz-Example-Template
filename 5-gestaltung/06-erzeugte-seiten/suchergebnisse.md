@@ -32,21 +32,21 @@ Diese 17 Variablen liest `page-search-results.scss`. Ändern lassen sie sich in 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
-| `--dark` | `#17171A` · dunkel `#F3F4F6` | 13 weitere Komponenten |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--gray` | `#5F5D57` · dunkel `#A1A3A8` | 20 weitere Komponenten |
-| `--secondary` | `#2A4E6C` · dunkel `#8CB8DA` | 20 weitere Komponenten |
-| `--textHighlight` | `rgba(226, 189, 92, 0.45)` · dunkel `rgba(140, 184, 218, 0.30)` | Fließtext |
+| `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
+| `--textHighlight` | `rgba(226, 189, 92, 0.55)` · dunkel `rgba(140, 184, 218, 0.30)` | Fließtext |
 | `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DEDCD5` | 17 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
 | `--tpl-space-3xs` | `0.125rem` | 6 weitere Komponenten |
 | `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
-| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 13 weitere Komponenten |
+| `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
 | `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 18 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

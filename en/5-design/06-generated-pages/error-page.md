@@ -46,12 +46,12 @@ These 6 variables are read by `page-404.scss`. They can be changed in the app un
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--gray` | `#5F5D57` · dark `#A1A3A8` | 20 other components |
-| `--secondary` | `#2A4E6C` · dark `#8CB8DA` | 20 other components |
-| `--tpl-space-2xl` | `4rem` | 6.4 Variables |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--tpl-space-2xl` | `4rem` | only here |
 | `--tpl-space-md` | `1rem` | 17 other components |
-| `--tpl-space-xl` | `2.5rem` | 4 other components |
-| `--tpl-text-3xl` | `2.25rem` | 6.4 Variables, Title and date |
+| `--tpl-space-xl` | `2.5rem` | 5 other components |
+| `--tpl-text-3xl` | `2.25rem` | 6.4 – Variables, Title and date |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

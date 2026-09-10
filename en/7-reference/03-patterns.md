@@ -29,7 +29,7 @@ these, so that it fits the rest.
 5. **Two line heights, not one.** 1.65 for body text, 1.45 for everything in small type — the
    sidebars and the footer. The same spacing at a smaller size tears a paragraph into single lines.
 6. **A hovered link** turns accent-coloured and underlined, with the underline set lower. The same
-   gesture in seven stylesheets, the same value from one variable.
+   gesture in eight stylesheets, the same value from one variable.
 7. **All fold-out chevrons are the same chevron** from the Lucide set — in the explorer, in the
    table of contents, in the collapsible [[en/7-reference/01-glossary#Layout box|layout box]].
 8. **What overflows scrolls within itself** and fades out softly at the edge instead of making the
@@ -41,7 +41,7 @@ these, so that it fits the rest.
 
 ## What deliberately is not unified
 
-The nine panel headings and the seven [[en/7-reference/01-glossary#Hover|hover]] rules could be pulled into one shared file. That would
+The nine panel headings and the eight [[en/7-reference/01-glossary#Hover|hover]] rules could be pulled into one shared file. That would
 be wrong here: the stylesheets are cut by component, and the documentation hangs on that — every
 page in chapter 5 shows the variables *its* component reads. What is shared are the **values**, and
 they are: `--tpl-tracking-label` and `--tpl-underline-offset` stand once each. In full in

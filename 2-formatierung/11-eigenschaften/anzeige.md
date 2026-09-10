@@ -9,7 +9,7 @@ translationKey: formatierung/eigenschaften/anzeige
 cover: "[[assets/covers/cover-eigenschaften.svg]]"
 ---
 
-Die Eigenschaften stehen als klappbare Tabelle zwischen Datum und Text.
+Die Eigenschaften stehen als klappbare Tabelle unter dem Artikel.
 
 ## Die Stellschrauben
 

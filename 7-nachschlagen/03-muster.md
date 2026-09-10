@@ -30,7 +30,7 @@ an diese, damit sie zum Rest passt.
    die Seitenleisten und die Fußzeile. Derselbe Abstand bei kleinerer Schrift zerreißt einen
    Absatz in Einzelzeilen.
 6. **Ein überfahrener Link** wird akzentfarbig und unterstrichen, mit tiefer gesetzter
-   Unterstreichung. Dieselbe Geste in sieben Stylesheets, derselbe Wert aus einer Variable.
+   Unterstreichung. Dieselbe Geste in acht Stylesheets, derselbe Wert aus einer Variable.
 7. **Alle Ausklapp-Pfeile sind dieselbe Chevron** aus dem Lucide-Satz — im Explorer, im
    Inhaltsverzeichnis, in der aufklappbaren [[7-nachschlagen/01-glossar#Layout-Box|Layout-Box]].
 8. **Was über den Rand läuft, scrollt in sich selbst** und blendet dabei weich aus, statt die
@@ -43,7 +43,7 @@ an diese, damit sie zum Rest passt.
 
 ## Was bewusst nicht vereinheitlicht ist
 
-Die neun Panel-Überschriften und die sieben Hover-Regeln ließen sich in eine gemeinsame Datei
+Die neun Panel-Überschriften und die acht Hover-Regeln ließen sich in eine gemeinsame Datei
 ziehen. Das wäre hier falsch: Die Stylesheets sind nach Komponenten geschnitten, und die
 Dokumentation hängt daran — jede Seite in Kapitel 5 zeigt die Variablen, die *ihre* Komponente
 liest. Geteilt werden die **Werte**, und die sind es: `--tpl-tracking-label` und

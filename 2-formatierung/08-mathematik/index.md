@@ -22,8 +22,8 @@ Diese 3 Variablen liest `body-math.scss`. Ändern lassen sie sich in der App unt
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--darkgray` | `#33322E` · dunkel `#D5D7DB` | 18 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
 | `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

@@ -12,7 +12,7 @@ more often than you would think.
 
 ## 1 · A variable
 
-**The normal case.** 53 variables carry every colour and every measure of this template; not a line
+**The normal case.** 50 variables carry every colour and every measure of this template; not a line
 of CSS is needed for them. In the app under *Styles → Variables*, separated into light and dark.
 
 Which variable applies where stands at the bottom of every page in [[en/5-design/index|chapter 5]] — including the
@@ -47,8 +47,8 @@ With [[en/7-reference/01-glossary#Mermaid|Mermaid]] none of the three ways works
 six more, hard-wired in Quartz's script). Everything else Mermaid colours itself — and writes as a
 `<style>` carrying that SVG's own id into the graphic, an ID selector no class rule can beat.
 
-That is why `body-mermaid.scss` holds 122 `!important` — and why your own rule needs one too. For
-comparison: the other 29 stylesheets together hold twenty, each with its reason beside it.
+That is why `body-mermaid.scss` holds 129 `!important` — and why your own rule needs one too. For
+comparison: the other 29 stylesheets together hold 21, each with its reason beside it.
 
 ## What not to touch
 

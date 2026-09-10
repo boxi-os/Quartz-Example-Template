@@ -26,10 +26,10 @@ Seitensprache. Das ist das Einzige, was das Plugin an dieser Grenze verschieben 
 
 ## Die Layout-Boxen sind die Ausnahme
 
-Vier der fünf Boxen sprechen beide Sprachen — Inhalt und Überschrift. Sie sind damit das einzige
+Vier der sieben Boxen sprechen beide Sprachen — Inhalt und Überschrift. Sie sind damit das einzige
 Bedienelement dieser Website, das die Sprache der *Seite* liest statt die der Website. Das kostet
 vier Einträge `byLang` in der Konfiguration und keine Zeile in den Notizen; wie es aussieht, steht
-in [[5-gestaltung/05-layout-boxen/die-fuenf-instanzen|Die fünf Instanzen]].
+in [[5-gestaltung/05-layout-boxen/die-instanzen|Die Instanzen]].
 
 Es ist zugleich der Beleg dafür, woran die anderen scheitern: Das Plugin kann das nur, weil es
 `fileData.frontmatter.lang` sieht. Quartz' eingebaute Komponenten bekommen an dieser Stelle

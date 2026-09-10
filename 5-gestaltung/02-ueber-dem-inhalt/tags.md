@@ -41,14 +41,14 @@ Diese 12 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der Ap
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
-| `--icon-tag` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--icon-tag` | im Stylesheet gesetzt (`base.scss`) | Ordner- und Tag-Seiten |
 | `--tag-background` | — | nur hier |
 | `--tag-background-hover` | — | nur hier |
 | `--tag-color` | — | nur hier |
 | `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 weitere Komponenten |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 14 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
 | `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |

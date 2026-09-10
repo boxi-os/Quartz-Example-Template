@@ -38,7 +38,7 @@ when a variable is enough stands in [[en/6-adapting/01-changing-something|6.1 �
 | [[en/5-design/02-above-the-content/index\|5.2 – Above the content]] | breadcrumbs, title and date, properties, tags |
 | [[en/5-design/03-in-the-content/index\|5.3 – In the content]] | body text, [[en/7-reference/01-glossary#Callout\|callouts]], code, tables and media |
 | [[en/5-design/04-beside-the-content/index\|5.4 – Beside the content]] | table of contents, [[en/7-reference/01-glossary#Backlinks\|backlinks]], [[en/7-reference/01-glossary#Graph\|graph]], recently changed |
-| [[en/5-design/05-layout-boxes/index\|5.5 – Layout boxes]] | one plugin, used five times |
+| [[en/5-design/05-layout-boxes/index\|5.5 – Layout boxes]] | one plugin, used seven times |
 | [[en/5-design/06-generated-pages/index\|5.6 – Generated pages]] | folder and tag pages, search results, link preview, error page |
 
 Two components stand elsewhere, because their stylesheet belongs to a section in chapter 2: the
@@ -49,6 +49,6 @@ typefaces, variables, page grids, [[en/7-reference/01-glossary#Accessibility|acc
 ## The three decisions everything else rests on
 
 1. **The width decides the grid** — the [[en/7-reference/01-glossary#Frame|frame]], in one place, not the paragraph on top of it.
-2. **Colours are measured.** 89 pairs, all above the [[en/7-reference/01-glossary#WCAG|WCAG]] threshold, in both modes.
-3. **Colour and measure do not stand in the stylesheets** but in 53 variables that stay editable
+2. **Colours are measured.** 93 pairs, all above the [[en/7-reference/01-glossary#WCAG|WCAG]] threshold, in both modes.
+3. **Colour and measure do not stand in the stylesheets** but in 50 variables that stay editable
    in the app. What does stand there literally is named and justified.
