@@ -29,6 +29,25 @@ colours, and a [[en/7-reference/01-glossary#Stylesheet|stylesheet]] working agai
 **On narrow screens it is hidden** (`display: desktop-only`) — a net of dots in a column 390 px
 wide shows nothing.
 
+## What is missing on folder pages
+
+On a **folder or chapter page** the box holds a single dot, even when the page has links. That is a
+bug in the plugin and cannot be fixed from a template.
+
+The script normalises addresses in two places and differently in each. It keys its data set with
+`simplifySlug`, which strips a trailing `index` and keeps the slash before it, turning
+`2-formatting/01-text/index` into `2-formatting/01-text/`. The centre of the graph it takes from the
+address bar instead, and there it strips that slash. For every page whose address ends in a slash —
+which is exactly the folder pages — it therefore looks for a node it never created: no edges, one
+dot.
+
+The same page reached as `…/01-text/index` shows nine nodes and eight edges. One character of
+difference.
+
+Hiding the box there is not possible either: Quartz' `not-index` condition means the home page
+alone, and anything finer needs code rather than configuration. What does show a folder page's
+connections are the [[en/7-reference/01-glossary#Backlinks|backlinks]] and the list in the text above.
+
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
