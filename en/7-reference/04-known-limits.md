@@ -21,6 +21,7 @@ those are reported. The linked page has the details in each case.
 | A tag in running text has a broken link — a bug in Quartz | tags in the [[en/7-reference/01-glossary#Frontmatter\|frontmatter]] | [[en/2-formatting/13-special/arrows-and-emoji\|Arrows, tags and emoji]] |
 | An image has either a size or an alt text, not both | set the size via [[en/7-reference/01-glossary#HTML\|HTML]] when both are needed | [[en/2-formatting/12-media/images\|Images]] |
 | An embedded PDF always starts on page 1 | use the page anchor in a link only | [[en/2-formatting/12-media/documents\|Documents]] |
+| An embedded page brings its heading ids along; if a heading is called the same as one of the embedding page, the link in the table of contents jumps to the wrong one and the progress bar gets a hole | rename one of the two headings | [[en/2-formatting/04-links/embeds\|Embeds]] |
 | Definition lists do not exist | an HTML list `<dl>` | [[en/2-formatting/13-special/html\|HTML in Markdown]] |
 | [[en/7-reference/01-glossary#Mermaid\|Mermaid]] ignores almost all of the template's colours; every rule of your own needs `!important` | the bundled [[en/7-reference/01-glossary#Stylesheet\|stylesheet]], which does exactly that | [[en/6-adapting/01-changing-something\|6.1 – Changing something]] |
 

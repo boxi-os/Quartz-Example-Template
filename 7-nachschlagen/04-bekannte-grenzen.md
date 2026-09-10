@@ -21,6 +21,7 @@ Grenzen von QuartzControl, und die sind gemeldet. Die verlinkte Seite hat jeweil
 | Ein Tag im Fließtext hat einen kaputten Link — ein Fehler in Quartz | Tags ins [[7-nachschlagen/01-glossar#Frontmatter\|Frontmatter]] | [[2-formatierung/13-besonderes/pfeile-und-emoji\|Pfeile und Emoji]] |
 | Ein Bild hat entweder eine Größe oder einen Alternativtext, nicht beides | Größe über [[7-nachschlagen/01-glossar#HTML\|HTML]] setzen, wenn beides nötig ist | [[2-formatierung/12-medien/bilder\|Bilder]] |
 | Ein eingebettetes PDF beginnt immer auf Seite 1 | den Seitenanker nur im Link nutzen | [[2-formatierung/12-medien/dokumente\|Dokumente]] |
+| Eine eingebettete Seite bringt ihre Überschriften-Kennungen mit; heißt eine Überschrift wie eine der einbettenden Seite, springt der Verweis im Inhaltsverzeichnis auf die falsche und die Fortschrittslinie bekommt ein Loch | eine der beiden Überschriften umbenennen | [[2-formatierung/04-links/einbettungen\|Einbettungen]] |
 | Definitionslisten gibt es nicht | eine HTML-Liste `<dl>` | [[2-formatierung/13-besonderes/html\|HTML]] |
 | [[7-nachschlagen/01-glossar#Mermaid\|Mermaid]] ignoriert fast alle Farben der Vorlage; jede eigene Regel braucht `!important` | das mitgelieferte [[7-nachschlagen/01-glossar#Stylesheet\|Stylesheet]], das genau das tut | [[6-anpassen/01-etwas-aendern\|6.1 – Etwas ändern]] |
 
