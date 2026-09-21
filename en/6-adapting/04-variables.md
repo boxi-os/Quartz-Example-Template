@@ -145,8 +145,8 @@ These 48 variables are read by `base.scss`. They can be changed in the app under
 | `--tpl-fade` | `14px` | only here |
 | `--tpl-fade-mask` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-focus-color` | `var(--secondary)` = `#1463A3` | only here |
-| `--tpl-focus-offset` | `2px` | Callout colours |
-| `--tpl-focus-width` | `2px` | Callout colours |
+| `--tpl-focus-offset` | `2px` | Callout colours, The explorer |
+| `--tpl-focus-width` | `2px` | Callout colours, The explorer |
 | `--tpl-header-h` | set in the stylesheet (`base.scss`) | The explorer, The navigation |
 | `--tpl-header-pad` | set in the stylesheet (`base.scss`) | The header |
 | `--tpl-icon-sm` | `0.95rem` | 3 other components |

@@ -132,12 +132,13 @@ Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 35 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 38 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
+| `--explorer-ring-reach` | im Stylesheet gesetzt (`nav-explorer.scss`) | nur hier |
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
 | `--icon-close` | im Stylesheet gesetzt (`base.scss`) | nur hier |
@@ -150,6 +151,8 @@ Diese 35 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App
 | `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | Die Navigation |
 | `--tpl-backdrop-blur` | `4px` | Die Navigation |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | Die Navigation |
+| `--tpl-focus-offset` | `2px` | 6.4 – Variablen, Callouts |
+| `--tpl-focus-width` | `2px` | 6.4 – Variablen, Callouts |
 | `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen, Die Navigation |
 | `--tpl-icon` | `1.1rem` | 3 weitere Komponenten |
 | `--tpl-icon-sm` | `0.95rem` | 3 weitere Komponenten |

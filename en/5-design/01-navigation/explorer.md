@@ -128,12 +128,13 @@ does it start closed, since otherwise half the navigation would stand in front o
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 35 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 38 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
+| `--explorer-ring-reach` | set in the stylesheet (`nav-explorer.scss`) | only here |
 | `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
 | `--icon-close` | set in the stylesheet (`base.scss`) | only here |
@@ -146,6 +147,8 @@ These 35 variables are read by `nav-explorer.scss`. They can be changed in the a
 | `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | The navigation |
 | `--tpl-backdrop-blur` | `4px` | The navigation |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | The navigation |
+| `--tpl-focus-offset` | `2px` | 6.4 – Variables, Callout colours |
+| `--tpl-focus-width` | `2px` | 6.4 – Variables, Callout colours |
 | `--tpl-header-h` | set in the stylesheet (`base.scss`) | 6.4 – Variables, The navigation |
 | `--tpl-icon` | `1.1rem` | 3 other components |
 | `--tpl-icon-sm` | `0.95rem` | 3 other components |

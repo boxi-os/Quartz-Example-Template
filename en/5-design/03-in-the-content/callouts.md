@@ -70,8 +70,8 @@ These 31 variables are read by `body-callouts.scss`. They can be changed in the 
 | `--tpl-callout-tip` | `#0F766E` · dark `#5AD3BC` | only here |
 | `--tpl-callout-todo` | `#0E7490` · dark `#5AC8DE` | only here |
 | `--tpl-callout-warning` | `#9A4B06` · dark `#F0A868` | only here |
-| `--tpl-focus-offset` | `2px` | 6.4 – Variables |
-| `--tpl-focus-width` | `2px` | 6.4 – Variables |
+| `--tpl-focus-offset` | `2px` | 6.4 – Variables, The explorer |
+| `--tpl-focus-width` | `2px` | 6.4 – Variables, The explorer |
 | `--tpl-motion` | `150ms ease` | 13 other components |
 | `--tpl-radius-md` | `8px` | 17 other components |
 | `--tpl-radius-sm` | `4px` | 10 other components |

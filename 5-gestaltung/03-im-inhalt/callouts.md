@@ -69,8 +69,8 @@ Diese 31 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der Ap
 | `--tpl-callout-tip` | `#0F766E` · dunkel `#5AD3BC` | nur hier |
 | `--tpl-callout-todo` | `#0E7490` · dunkel `#5AC8DE` | nur hier |
 | `--tpl-callout-warning` | `#9A4B06` · dunkel `#F0A868` | nur hier |
-| `--tpl-focus-offset` | `2px` | 6.4 – Variablen |
-| `--tpl-focus-width` | `2px` | 6.4 – Variablen |
+| `--tpl-focus-offset` | `2px` | 6.4 – Variablen, Explorer |
+| `--tpl-focus-width` | `2px` | 6.4 – Variablen, Explorer |
 | `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 10 weitere Komponenten |
