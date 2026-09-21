@@ -10,12 +10,15 @@ translationKey: seiten-steuern/titel-beschreibung-datum
 
 ## `title`
 
-The title stands as the heading above the page, in the browser tab, in the [[en/7-reference/01-glossary#Explorer|explorer]], in every list
+The title stands as the heading above the page, in the browser tab, in the [[en/5-design/01-navigation/navigation|navigation]], in every list
 and in every search result. If it is missing, Quartz takes the file name. This site sets it on
 every page, because a file name like `headings` is not a title.
 
-The explorer sorts by title, not by file name — which is why the chapters and sections of this
-handbook carry their number in the title. See [[en/5-design/01-navigation/explorer|The explorer]].
+This site's navigation sorts first by the number in front of the file name and only then by the
+title; the [[en/5-design/01-navigation/explorer|explorer]], switched off in this template, sorts by
+title alone. The chapters and sections of this handbook therefore carry their number in both
+places — in the file name for the order, in the title for the reader. See
+[[en/5-design/01-navigation/navigation|The navigation]].
 
 ## `description`
 

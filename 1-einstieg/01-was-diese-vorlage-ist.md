@@ -48,7 +48,7 @@ Deshalb sind sie hier neu gesetzt. Mehr unter [[6-anpassen/02-farben-und-kontras
 
 ### 3. Kein Stylesheet setzt eine Farbe oder ein Maß selbst
 
-Farben und Maße stehen in 50 Variablen, nicht in den Stylesheets. Das ist keine Kosmetik: Nach dem
+Farben und Maße stehen in 66 Variablen, nicht in den Stylesheets. Das ist keine Kosmetik: Nach dem
 Import bleiben Variablen in der App unter *Stile → Variablen* bearbeitbar; ein Wert, der in einer
 Stylesheet-Datei steht, nicht. Was trotzdem als Zahl in einer Datei steht, ist benannt und
 begründet — die Callout- und Syntaxfarben, weil sie einen Status bedeuten und keine Palette sind;

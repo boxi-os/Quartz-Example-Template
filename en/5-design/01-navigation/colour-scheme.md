@@ -38,15 +38,15 @@ These 10 variables are read by `nav-darkmode.scss`. They can be changed in the a
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-icon` | `1.1rem` | The explorer, Reader mode |
-| `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-icon` | `1.1rem` | 3 other components |
+| `--tpl-motion` | `150ms ease` | 13 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
-| `--tpl-target` | `44px` | 11 other components |
+| `--tpl-target` | `44px` | 12 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

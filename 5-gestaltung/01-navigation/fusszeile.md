@@ -62,16 +62,16 @@ Diese 11 Variablen liest `site-footer.scss`. Ändern lassen sie sich in der App 
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

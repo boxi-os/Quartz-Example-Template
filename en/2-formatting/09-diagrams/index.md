@@ -27,26 +27,26 @@ These 22 variables are read by `body-mermaid.scss`. They can be changed in the a
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
+| `--bodyFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 other components |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
 | `--mm-1` | set in the stylesheet (`body-mermaid.scss`) | only here |
 | `--mm-2` | set in the stylesheet (`body-mermaid.scss`) | only here |
 | `--mm-3` | set in the stylesheet (`body-mermaid.scss`) | only here |
 | `--mm-4` | set in the stylesheet (`body-mermaid.scss`) | only here |
 | `--mm-edge` | set in the stylesheet (`body-mermaid.scss`) | only here |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tertiary` | `#196B6B` · dark `#2CAFAD` | Body text, The instances |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-radius-sm` | `4px` | 10 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-lg` | `1.5rem` | 12 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
 

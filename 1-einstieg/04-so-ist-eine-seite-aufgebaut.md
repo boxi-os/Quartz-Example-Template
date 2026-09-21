@@ -23,11 +23,11 @@ Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
 | Teil | Wo | Was darin steht |
 | --- | --- | --- |
 | **Kopfbereich** (header) | oben, über alle Spalten | die Wortmarke, der Websitename, das Kapitel, die Suche, der Schalter für hell und dunkel, der Lesemodus, der Sprachumschalter |
-| **Linke Spalte** (left) | links | der [[7-nachschlagen/01-glossar#Explorer\|Explorer]] — der Ordnerbaum aller Seiten — und die Box „Über dieses Handbuch“ |
+| **Linke Spalte** (left) | links | die [[5-gestaltung/01-navigation/navigation\|Navigation]] — ein Menü über alle Kapitel, von dem immer eines aufgeklappt ist — und die Box „Über dieses Handbuch“ |
 | **Über dem Inhalt** (beforeBody) | über dem Text | die [[7-nachschlagen/01-glossar#Brotkrumen\|Brotkrumen]] (der Pfad von der Startseite hierher), die Tags, der Titel, Datum und Lesezeit |
 | **Inhalt** (body) | Mitte | die Notiz selbst |
 | **Der freie Bereich** (custom-8) | direkt unter dem Text | zwei Kästen nebeneinander: die zuletzt geänderten Seiten und die [[7-nachschlagen/01-glossar#Rückverweise\|Rückverweise]] (welche Seiten hierher verlinken) |
-| **Nach dem Inhalt** (afterBody) | darunter | die Box „Weiterlesen“, die Eigenschaften-Tabelle, am Telefon der Hinweis auf die eingeklappte Navigation |
+| **Nach dem Inhalt** (afterBody) | darunter | die Box „Weiterlesen“, die Eigenschaften-Tabelle, am Telefon der Hinweis auf die eingeklappte Navigation, ganz unten „Zurück“ und „Weiter“ |
 | **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis und der [[7-nachschlagen/01-glossar#Graph\|Graph]] |
 | **Fußzeile** (footer) | unten | die Impressumszeile |
 

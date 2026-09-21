@@ -60,16 +60,16 @@ These 11 variables are read by `site-footer.scss`. They can be changed in the ap
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-space-xl` | `2.5rem` | 5 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

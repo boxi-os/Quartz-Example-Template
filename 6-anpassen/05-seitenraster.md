@@ -124,8 +124,8 @@ wer zahlt.
 
 > [!warning] Den Unterschied zahlt allein der Text
 > Bei 1201 px — knapp über dem Tablet-Umbruch — bleiben der Textspalte 433 px statt 549, also gut
-> 45 Zeichen je Zeile statt 57. Dafür steht der [[7-nachschlagen/01-glossar#Explorer|Explorer]] auf jeder Desktop-Breite gleich breit da,
-> und ein Ordnerbaum, der bei 1300 px anfängt, seine Namen abzuschneiden, ist schlechter zu
+> 45 Zeichen je Zeile statt 57. Dafür steht die [[5-gestaltung/01-navigation/navigation|Navigation]] links auf jeder Desktop-Breite gleich breit da,
+> und eine Navigation, die bei 1300 px anfängt, ihre Namen abzuschneiden, ist schlechter zu
 > gebrauchen als eine etwas kürzere Textzeile. Die festen Werte gehören deshalb auf Desktop und
 > Tablet und nicht auf Mobil, wo die Randspalte ohnehin über die ganze Breite geht.
 

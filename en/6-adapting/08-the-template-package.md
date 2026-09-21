@@ -17,7 +17,7 @@ choose which of them to take over.
 | Part | What it carries | In this template |
 | --- | --- | --- |
 | Colours & fonts | the nine colour roles for light and dark, the three font roles, where fonts are loaded from | filled — [[en/6-adapting/02-colours-and-contrast\|6.2]], [[en/6-adapting/03-typefaces\|6.3]] |
-| [[en/7-reference/01-glossary#CSS and SCSS\|CSS]] variables | your own values for variables, separately for light and dark | 50 variables — [[en/6-adapting/04-variables\|6.4]] |
+| [[en/7-reference/01-glossary#CSS and SCSS\|CSS]] variables | your own values for variables, separately for light and dark | 66 variables — [[en/6-adapting/04-variables\|6.4]] |
 | Custom CSS | `custom.scss` and all your own [[en/7-reference/01-glossary#Stylesheet\|stylesheets]] with their load order | 30 stylesheets — [[en/5-design/index\|chapter 5]] |
 | Font files | the font files you brought along and their `@font-face` rules | four files, 157 KB — [[en/6-adapting/03-typefaces\|6.3]] |
 | Static files | everything under `quartz/static/` except the fonts: logos, images, text snippets | two snippets — [[en/5-design/05-layout-boxes/the-instances\|The instances]] |

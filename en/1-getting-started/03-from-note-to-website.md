@@ -13,7 +13,7 @@ each has a place.
 ## 1 · Writing — in Obsidian
 
 You open the [[en/7-reference/01-glossary#Vault|vault]] in Obsidian and write. A new file is a new page; a folder a branch in the
-[[en/7-reference/01-glossary#Explorer|explorer]]; a `[[wikilink]]` a reference that the [[en/7-reference/01-glossary#Graph|graph]] and the [[en/7-reference/01-glossary#Backlinks|backlinks]] see. Header lines between
+[[en/5-design/01-navigation/navigation|navigation]]; a `[[wikilink]]` a reference that the [[en/7-reference/01-glossary#Graph|graph]] and the [[en/7-reference/01-glossary#Backlinks|backlinks]] see. Header lines between
 two `---` at the very top of the file — the **frontmatter** — give the page its title,
 description, date and tags; everything you can control with it stands in
 [[en/4-controlling-a-page/index|4 – Controlling a page]].

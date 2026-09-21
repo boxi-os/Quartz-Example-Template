@@ -35,7 +35,7 @@ und wann eine Variable reicht, steht in [[6-anpassen/01-etwas-aendern|6.1 – Et
 
 | Abschnitt | Komponenten |
 | --- | --- |
-| [[5-gestaltung/01-navigation/index\|5.1 – Navigation]] | Explorer, Suche, [[7-nachschlagen/01-glossar#Farbschema\|Farbschema]], Lesemodus, Kopfbereich, Fußzeile, Sprachumschalter |
+| [[5-gestaltung/01-navigation/index\|5.1 – Navigation]] | Navigation, Explorer, Suche, [[7-nachschlagen/01-glossar#Farbschema\|Farbschema]], Lesemodus, Kopfbereich, Fußzeile, Sprachumschalter |
 | [[5-gestaltung/02-ueber-dem-inhalt/index\|5.2 – Über dem Inhalt]] | Brotkrumen, Titel und Datum, Eigenschaften, Tags |
 | [[5-gestaltung/03-im-inhalt/index\|5.3 – Im Inhalt]] | Fließtext, [[7-nachschlagen/01-glossar#Callout\|Callouts]], Code, Tabellen und Medien |
 | [[5-gestaltung/04-neben-dem-inhalt/index\|5.4 – Neben dem Inhalt]] | Inhaltsverzeichnis, [[7-nachschlagen/01-glossar#Rückverweise\|Rückverweise]], [[7-nachschlagen/01-glossar#Graph\|Graph]], Zuletzt geändert |
@@ -51,5 +51,5 @@ Schriften, Variablen, Seitenraster, [[7-nachschlagen/01-glossar#Barrierefreiheit
 
 1. **Die Breite entscheidet das Raster** — der [[7-nachschlagen/01-glossar#Frame|Frame]], an einer Stelle, nicht zusätzlich der Absatz.
 2. **Farben sind gemessen.** 93 Paare, alle über der WCAG-Schwelle, in beiden Modi.
-3. **Farbe und Maß stehen nicht in den Stylesheets**, sondern in 50 Variablen, die in der App
+3. **Farbe und Maß stehen nicht in den Stylesheets**, sondern in 66 Variablen, die in der App
    bearbeitbar bleiben. Was doch literal dasteht, ist benannt und begründet.

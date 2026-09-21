@@ -53,32 +53,32 @@ These 29 variables are read by `body-content.scss`. They can be changed in the a
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
 | `--icon-task-cancelled` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-task-doing` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-task-done` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-task-forwarded` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-task-open` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-task-question` | set in the stylesheet (`base.scss`) | only here |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tertiary` | `#196B6B` · dark `#2CAFAD` | 2.9 – Diagrams, The instances |
 | `--textHighlight` | `rgba(226, 189, 92, 0.55)` · dark `rgba(140, 184, 218, 0.30)` | Search results |
-| `--tpl-accent-bar` | `3px` | 5 other components |
-| `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-accent-bar` | `3px` | 6 other components |
+| `--tpl-motion` | `150ms ease` | 13 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-radius-sm` | `4px` | 10 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-lg` | `1.5rem` | 12 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-space-xl` | `2.5rem` | 5 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

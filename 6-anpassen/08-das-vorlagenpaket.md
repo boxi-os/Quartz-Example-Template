@@ -17,7 +17,7 @@ was ein Projekt ausmacht. Beim Import wählt man aus, welche davon man übernimm
 | Baustein | Was er trägt | In dieser Vorlage |
 | --- | --- | --- |
 | Farben & Schriften | die neun Farbrollen für hell und dunkel, die drei Schriftrollen, woher Schriften geladen werden | gefüllt — [[6-anpassen/02-farben-und-kontrast\|6.2]], [[6-anpassen/03-schriften\|6.3]] |
-| CSS-Variablen | eigene Werte für Variablen, getrennt nach hell und dunkel | 50 Variablen — [[6-anpassen/04-variablen\|6.4]] |
+| CSS-Variablen | eigene Werte für Variablen, getrennt nach hell und dunkel | 66 Variablen — [[6-anpassen/04-variablen\|6.4]] |
 | Eigenes [[7-nachschlagen/01-glossar#CSS und SCSS\|CSS]] | `custom.scss` und alle eigenen [[7-nachschlagen/01-glossar#Stylesheet\|Stylesheets]] samt Ladereihenfolge | 30 Stylesheets — [[5-gestaltung/index\|Kapitel 5]] |
 | Schriftdateien | mitgebrachte Schriftdateien und ihre `@font-face`-Regeln | vier Dateien, 157 KB — [[6-anpassen/03-schriften\|6.3]] |
 | Statische Dateien | alles unter `quartz/static/` außer den Schriften: Logos, Bilder, Textschnipsel | zwei Schnipsel — [[5-gestaltung/05-layout-boxen/die-instanzen\|Die Instanzen]] |

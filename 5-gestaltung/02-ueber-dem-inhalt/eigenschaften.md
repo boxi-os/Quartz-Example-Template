@@ -50,22 +50,22 @@ Diese 16 Variablen liest `meta-note-properties.scss`. Ändern lassen sie sich in
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
+| `--codeFont` | `"Noto Sans Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
 | `--tpl-positive` | `#136B34` · dunkel `#6DD68F` | nur hier |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
-| `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
-| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 10 weitere Komponenten |
+| `--tpl-tracking-label` | `0.08em` | 9 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

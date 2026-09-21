@@ -51,22 +51,22 @@ These 16 variables are read by `meta-note-properties.scss`. They can be changed 
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
+| `--codeFont` | `"Noto Sans Mono", ui-monospace, SFMono-Re…` | 4 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
 | `--tpl-positive` | `#136B34` · dark `#6DD68F` | only here |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-label` | `0.08em` | 8 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
+| `--tpl-text-xs` | `0.78rem` | 10 other components |
+| `--tpl-tracking-label` | `0.08em` | 9 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

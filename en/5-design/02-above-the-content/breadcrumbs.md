@@ -40,11 +40,11 @@ These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in th
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
 | `--tpl-space-3xs` | `0.125rem` | 6 other components |
-| `--tpl-text-xs` | `0.78rem` | 9 other components |
+| `--tpl-text-xs` | `0.78rem` | 10 other components |
 | `--tpl-underline-offset` | `0.18em` | 6 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

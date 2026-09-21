@@ -51,7 +51,7 @@ This variable is read by `a11y.scss`. They can be changed in the app under *Styl
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

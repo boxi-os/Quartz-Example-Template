@@ -12,7 +12,7 @@ more often than you would think.
 
 ## 1 · A variable
 
-**The normal case.** 50 variables carry every colour and every measure of this template; not a line
+**The normal case.** 66 variables carry every colour and every measure of this template; not a line
 of CSS is needed for them. In the app under *Styles → Variables*, separated into light and dark.
 
 Which variable applies where stands at the bottom of every page in [[en/5-design/index|chapter 5]] — including the

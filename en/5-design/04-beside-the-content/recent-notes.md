@@ -75,19 +75,19 @@ These 13 variables are read by `aside-recent-notes.scss`. They can be changed in
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
+| `--bodyFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tpl-leading-snug` | `1.4rem` | 4 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-label` | `0.08em` | 8 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
+| `--tpl-text-xs` | `0.78rem` | 10 other components |
+| `--tpl-tracking-label` | `0.08em` | 9 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

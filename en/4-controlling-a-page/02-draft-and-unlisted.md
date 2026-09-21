@@ -10,7 +10,7 @@ translationKey: seiten-steuern/entwurf-und-ungelistet
 ## `draft: true` — the page is not built
 
 A draft stays in the [[en/7-reference/01-glossary#Vault|vault]] and in Obsidian, but Quartz skips it when building. There is no file
-for it in the output, no entry in the [[en/7-reference/01-glossary#Explorer|explorer]], no search result; a link to it leads nowhere. That
+for it in the output, no entry in the [[en/5-design/01-navigation/navigation|navigation]], no search result; a link to it leads nowhere. That
 is the way for everything not finished yet.
 
 The [[en/7-reference/01-glossary#Plugin|plugin]] *Remove draft* takes care of it. If it is switched off, drafts are built like every

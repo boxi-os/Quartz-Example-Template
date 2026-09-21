@@ -32,7 +32,7 @@ Zwei Feinheiten:
 - Sie bilden eine **Gruppe** (`toolbar`) mit `wrap`, damit vier Bedienelemente und der Seitenname
   auch auf einem 360 px breiten Telefon nebeneinander passen.
 - Am Telefon wird der Kopf zur **App-Leiste**: Er bleibt beim Scrollen oben stehen, läuft über die
-  volle Breite und nimmt den Schubladen-Knopf des [[7-nachschlagen/01-glossar#Explorer|Explorers]] mit auf. Die Suche gibt dort ihr Wort
+  volle Breite und nimmt den Schubladen-Knopf der [[5-gestaltung/01-navigation/navigation|Navigation]] mit auf. Die Suche gibt dort ihr Wort
   auf und wird ein Quadrat wie die beiden anderen; ihre 44 px behält sie.
 
 ## Er bleibt stehen, der Titel geht
@@ -87,22 +87,22 @@ Diese 17 Variablen liest `nav-header.scss`. Ändern lassen sie sich in der App u
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
-| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
-| `--titleFont` | `"Instrument Sans", ui-sans-serif, system-…` | nur hier |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
+| `--titleFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | nur hier |
 | `--tpl-header-pad` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen |
 | `--tpl-header-title` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--tpl-page-fade` | `24px` | 6.4 – Variablen |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
-| `--tpl-target` | `44px` | 11 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
 | `--tpl-text-base` | `1rem` | 4 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

@@ -55,32 +55,32 @@ Diese 29 Variablen liest `body-content.scss`. Ändern lassen sie sich in der App
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
 | `--icon-task-cancelled` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-task-doing` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-task-done` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-task-forwarded` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-task-open` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-task-question` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tertiary` | `#196B6B` · dunkel `#2CAFAD` | 2.9 – Diagramme, Die Instanzen |
 | `--textHighlight` | `rgba(226, 189, 92, 0.55)` · dunkel `rgba(140, 184, 218, 0.30)` | Suchergebnisse |
-| `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
-| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
+| `--tpl-accent-bar` | `3px` | 6 weitere Komponenten |
+| `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-radius-sm` | `4px` | 10 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
-| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 12 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
 | `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
 | `--tpl-underline-offset` | `0.18em` | 6 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

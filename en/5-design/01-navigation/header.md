@@ -32,7 +32,7 @@ A few details:
 - They form one **group** (`toolbar`) with `wrap`, so that four controls plus the site name still
   fit on a 360 px phone.
 - On a phone the header becomes an **app bar**: it stays at the top while scrolling, runs the full
-  width and takes the [[en/7-reference/01-glossary#Explorer|explorer]]'s drawer button with it. The search gives up its word there and
+  width and takes the [[en/5-design/01-navigation/navigation|navigation]]'s drawer button with it. The search gives up its word there and
   becomes a square like the others; it keeps its 44 px.
 
 ## It stays, the title goes
@@ -86,22 +86,22 @@ These 17 variables are read by `nav-header.scss`. They can be changed in the app
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--titleFont` | `"Instrument Sans", ui-sans-serif, system-…` | only here |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--titleFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | only here |
 | `--tpl-header-pad` | set in the stylesheet (`base.scss`) | 6.4 – Variables |
 | `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
 | `--tpl-page-fade` | `24px` | 6.4 – Variables |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-target` | `44px` | 11 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-target` | `44px` | 12 other components |
 | `--tpl-text-base` | `1rem` | 4 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

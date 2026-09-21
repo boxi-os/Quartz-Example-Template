@@ -24,8 +24,8 @@ These 3 variables are read by `body-math.scss`. They can be changed in the app u
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-lg` | `1.5rem` | 11 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-lg` | `1.5rem` | 12 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

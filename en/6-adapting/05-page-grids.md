@@ -121,8 +121,8 @@ The difference appears below that, and it is a decision about who pays.
 
 > [!warning] The text alone pays the difference
 > At 1201 px — just above the tablet break — the text column is left with 433 px instead of 549, a
-> good 45 characters per line instead of 57. In exchange the [[en/7-reference/01-glossary#Explorer|explorer]] stands equally wide at every
-> desktop width, and a folder tree that starts truncating its names at 1300 px is harder to use than
+> good 45 characters per line instead of 57. In exchange the [[en/5-design/01-navigation/navigation|navigation]] on the left stands equally wide at every
+> desktop width, and a navigation that starts truncating its names at 1300 px is harder to use than
 > a slightly shorter text line. The fixed values therefore belong on desktop and tablet and not on
 > mobile, where the outer column spans the full width anyway.
 

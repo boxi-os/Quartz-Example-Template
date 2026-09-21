@@ -23,11 +23,11 @@ are the ones QuartzControl uses in the layout editor as well.
 | Part | Where | What stands in it |
 | --- | --- | --- |
 | **Header** | at the top, across all columns | the word mark, the site name, the chapter, the search, the light/dark switch, reader mode, the language switcher |
-| **Left column** (left) | on the left | the [[en/7-reference/01-glossary#Explorer\|explorer]] — the folder tree of all pages — and the box “About this handbook” |
+| **Left column** (left) | on the left | the [[en/5-design/01-navigation/navigation\|navigation]] — a menu over all chapters, one of which is always unfolded — and the box “About this handbook” |
 | **Above the content** (beforeBody) | above the text | the [[en/7-reference/01-glossary#Breadcrumbs\|breadcrumbs]] (the path from the home page to here), the tags, the title, date and reading time |
 | **Content** (body) | centre | the note itself |
 | **The free area** (custom-8) | directly below the text | two boxes side by side: the recently changed pages and the [[en/7-reference/01-glossary#Backlinks\|backlinks]] (which pages link here) |
-| **After the content** (afterBody) | below that | the box “Read on”, the property table, and on a phone the hint about the collapsed navigation |
+| **After the content** (afterBody) | below that | the box “Read on”, the property table, on a phone the hint about the collapsed navigation, and at the very bottom “Previous” and “Next” |
 | **Right column** (right) | on the right | the table of contents and the [[en/7-reference/01-glossary#Graph\|graph]] |
 | **Footer** | at the bottom | the colophon line |
 

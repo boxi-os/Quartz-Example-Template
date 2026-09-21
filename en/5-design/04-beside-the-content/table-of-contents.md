@@ -81,21 +81,21 @@ These 17 variables are read by `aside-toc.scss`. They can be changed in the app 
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-indent` | `0.85rem` | The explorer |
-| `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-indent` | `0.85rem` | The explorer, The navigation |
+| `--tpl-motion` | `150ms ease` | 13 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
 | `--tpl-rule-strong` | `var(--gray)` = `#5F5F5F` | 8 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
 | `--tpl-space-3xs` | `0.125rem` | 6 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-label` | `0.08em` | 8 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
+| `--tpl-text-xs` | `0.78rem` | 10 other components |
+| `--tpl-tracking-label` | `0.08em` | 9 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

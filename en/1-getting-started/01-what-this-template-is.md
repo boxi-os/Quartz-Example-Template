@@ -47,7 +47,7 @@ restated here. More under [[en/6-adapting/02-colours-and-contrast|6.2 – Colour
 
 ### 3. No stylesheet sets a colour or a measure itself
 
-Colours and measures stand in 50 variables, not in the stylesheets. That is not cosmetics: after
+Colours and measures stand in 66 variables, not in the stylesheets. That is not cosmetics: after
 the import, variables stay editable in the app under *Styles → Variables*; a value that stands in
 a stylesheet file does not. What does stand as a number in a file is named and justified — the
 callout and syntax colours, because they mean a status and are not a palette; the hairlines; and

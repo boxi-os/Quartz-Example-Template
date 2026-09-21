@@ -23,8 +23,8 @@ Diese 3 Variablen liest `body-math.scss`. Ändern lassen sie sich in der App unt
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
-| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 12 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

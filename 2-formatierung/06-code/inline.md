@@ -30,6 +30,6 @@ Ein `` ` `` mitten im Text.
 **Von Haus aus** bekommt Inline-Code einen deutlichen Kasten mit Rahmen.
 
 **In dieser Vorlage** ist es eine Tönung ohne Rahmen — genug, um ihn vom Fließtext zu trennen, zu
-wenig, um den Satz zu unterbrechen. Die Schrift ist etwas kleiner gesetzt (0.9em), weil JetBrains
-Mono neben Inter sonst zu groß wirkt. Lange Bezeichner dürfen umbrechen (`overflow-wrap: anywhere`)
+wenig, um den Satz zu unterbrechen. Die Schrift ist etwas kleiner gesetzt (0.9em), weil die Mono
+neben der Textschrift sonst zu groß wirkt. Lange Bezeichner dürfen umbrechen (`overflow-wrap: anywhere`)
 statt die Spalte zu sprengen.

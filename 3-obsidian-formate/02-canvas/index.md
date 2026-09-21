@@ -55,20 +55,20 @@ Diese 14 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App 
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--bodyFont` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
+| `--bodyFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 weitere Komponenten |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
-| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
-| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
+| `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
-| `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

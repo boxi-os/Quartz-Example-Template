@@ -10,13 +10,15 @@ translationKey: seiten-steuern/titel-beschreibung-datum
 
 ## `title`
 
-Der Titel steht als Überschrift über der Seite, im Browser-Tab, im [[7-nachschlagen/01-glossar#Explorer|Explorer]], in jeder Liste und in
+Der Titel steht als Überschrift über der Seite, im Browser-Tab, in der [[5-gestaltung/01-navigation/navigation|Navigation]], in jeder Liste und in
 jedem Suchergebnis. Fehlt er, nimmt Quartz den Dateinamen. Diese Website setzt ihn auf jeder Seite,
 weil ein Dateiname wie `ueberschriften` kein Titel ist.
 
-Der Explorer sortiert nach dem Titel, nicht nach dem Dateinamen — deshalb tragen die Kapitel und
-Abschnitte dieses Handbuchs ihre Nummer im Titel. Siehe
-[[5-gestaltung/01-navigation/explorer|Explorer]].
+Die Navigation dieser Website sortiert zuerst nach der Nummer vor dem Dateinamen und erst dann nach
+dem Titel; der [[5-gestaltung/01-navigation/explorer|Explorer]], in dieser Vorlage abgeschaltet,
+sortiert nur nach dem Titel. Die Kapitel und Abschnitte dieses Handbuchs tragen ihre Nummer deshalb
+an beiden Stellen — im Dateinamen für die Reihenfolge, im Titel für den Leser. Siehe
+[[5-gestaltung/01-navigation/navigation|Die Navigation]].
 
 ## `description`
 

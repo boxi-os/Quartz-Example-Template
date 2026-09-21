@@ -12,8 +12,8 @@ translationKey: gestaltung/im-inhalt/code
 ## Inline
 
 **Out of the box** a box with a border. **In this template** a tint without a border — enough to
-separate, too little to interrupt. Set slightly smaller (0.9em), because JetBrains Mono next to
-Inter otherwise looks too big.
+separate, too little to interrupt. Set slightly smaller (0.9em), because the mono next to
+the text face otherwise looks too big.
 
 ## Blocks
 
@@ -112,27 +112,27 @@ These 22 variables are read by `body-code.scss`. They can be changed in the app 
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
-| `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 other components |
+| `--codeFont` | `"Noto Sans Mono", ui-monospace, SFMono-Re…` | 4 other components |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-accent-bar` | `3px` | 5 other components |
-| `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-accent-bar` | `3px` | 6 other components |
+| `--tpl-motion` | `150ms ease` | 13 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-radius-sm` | `4px` | 10 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-lg` | `1.5rem` | 12 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
 | `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 other components |
 | `--tpl-surface-code` | `color-mix(in srgb, var(--lightgray) 40%, …` · dark `var(--lightgray)` | only here |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
-| `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-xs` | `0.78rem` | 9 other components |
+| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-text-xs` | `0.78rem` | 10 other components |
 | `--tpl-tracking-caps` | `0.06em` | 6.4 – Variables, 3.1 – Bases |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

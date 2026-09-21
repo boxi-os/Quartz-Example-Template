@@ -65,23 +65,23 @@ These 18 variables are read by `nav-search.scss`. They can be changed in the app
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
-| `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-motion` | `150ms ease` | 12 other components |
+| `--font-interface` | `var(--bodyFont)` = `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-motion` | `150ms ease` | 13 other components |
 | `--tpl-radius-lg` | `14px` | 3 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 5 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
-| `--tpl-target` | `44px` | 11 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
+| `--tpl-target` | `44px` | 12 other components |
 | `--tpl-text-lg` | `1.15rem` | 6.4 – Variables, Link preview |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

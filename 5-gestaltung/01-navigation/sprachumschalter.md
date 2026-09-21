@@ -70,26 +70,26 @@ Diese 23 Variablen liest `nav-language-switcher.scss`. Ändern lassen sie sich i
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--font-interface` | `"Inter", ui-sans-serif, system-ui, -apple…` | 3 weitere Komponenten |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 – Variablen, Explorer |
+| `--font-interface` | `var(--bodyFont)` = `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
+| `--tpl-icon-sm` | `0.95rem` | 3 weitere Komponenten |
 | `--tpl-leading-snug` | `1.4rem` | 4 weitere Komponenten |
-| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 10 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
+| `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-rule-control` | `color-mix(in srgb, var(--gray) 70%, var(-…` | 11 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 5 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
 | `--tpl-space-3xs` | `0.125rem` | 6 weitere Komponenten |
-| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 12 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
-| `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
 | `--tpl-text-xl` | `1.4rem` | 6.4 – Variablen |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

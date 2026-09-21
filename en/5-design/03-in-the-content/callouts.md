@@ -44,7 +44,7 @@ changed here is measured here.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 19 variables are read by `body-callouts.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 31 variables are read by `body-callouts.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -53,20 +53,32 @@ These 19 variables are read by `body-callouts.scss`. They can be changed in the 
 | `--callout-tint` | set in the stylesheet (`body-callouts.scss`) | only here |
 | `--color` | — | only here |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
 | `--icon-chevron` | set in the stylesheet (`base.scss`) | 6.4 – Variables |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-accent-bar` | `3px` | 5 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
+| `--tpl-accent-bar` | `3px` | 6 other components |
+| `--tpl-callout-abstract` | `#0369A1` · dark `#67C7EF` | only here |
+| `--tpl-callout-bug` | `#A21D62` · dark `#FF9BC8` | only here |
+| `--tpl-callout-danger` | `#B02020` · dark `#FF9C93` | only here |
+| `--tpl-callout-example` | `#6D28D9` · dark `#C3A6F7` | only here |
+| `--tpl-callout-failure` | `#B02020` · dark `#FF9C93` | only here |
+| `--tpl-callout-info` | `#0E7490` · dark `#5AC8DE` | only here |
+| `--tpl-callout-note` | `#1D4ED8` · dark `#93B8FF` | only here |
+| `--tpl-callout-question` | `#8A5A00` · dark `#E8C25E` | only here |
+| `--tpl-callout-quote` | `var(--secondary)` = `#1463A3` | only here |
+| `--tpl-callout-success` | `#136B34` · dark `#6DD68F` | only here |
+| `--tpl-callout-tip` | `#0F766E` · dark `#5AD3BC` | only here |
+| `--tpl-callout-todo` | `#0E7490` · dark `#5AC8DE` | only here |
+| `--tpl-callout-warning` | `#9A4B06` · dark `#F0A868` | only here |
 | `--tpl-focus-offset` | `2px` | 6.4 – Variables |
 | `--tpl-focus-width` | `2px` | 6.4 – Variables |
-| `--tpl-motion` | `150ms ease` | 12 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-motion` | `150ms ease` | 13 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-radius-sm` | `4px` | 10 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-space-lg` | `1.5rem` | 12 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

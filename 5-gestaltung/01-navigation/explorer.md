@@ -1,6 +1,6 @@
 ---
 title: Explorer
-description: Der Ordnerbaum links — bis zur vierten Ebene gestaltet.
+description: Der Ordnerbaum — in dieser Vorlage abgeschaltet und trotzdem bis zur vierten Ebene gestaltet.
 section: 5 – Die Gestaltung
 tags:
   - gestaltung
@@ -8,8 +8,13 @@ tags:
 translationKey: gestaltung/navigation/explorer
 ---
 
-Links im Fenster steht der Baum über alle Notizen. Er ist die Komponente mit dem größten
-Gestaltungsaufwand in dieser Vorlage, weil die Tiefe das eigentliche Problem ist.
+> [!note] In dieser Vorlage abgeschaltet
+> Seit dem 20.09.2026 führt die [[5-gestaltung/01-navigation/navigation|Navigation]] durch dieses
+> Handbuch, nicht mehr der Explorer. Gestaltet ist er weiter, und sein Stylesheet reist im Paket
+> mit: Wer ihn unter *Plugins* einschaltet, findet ihn so vor, wie diese Seite ihn beschreibt.
+
+Eingeschaltet steht links im Fenster der Baum über alle Notizen. Er ist die Komponente mit dem
+größten Gestaltungsaufwand in dieser Vorlage, weil die Tiefe das eigentliche Problem ist.
 
 ## Von Haus aus
 
@@ -59,7 +64,7 @@ Struktur nicht.
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.
 
-Zu sehen ist das am besten unter [[2-formatierung/05-callouts/grundform|Callouts — Grundform]] —
+Zu sehen war das am besten unter [[2-formatierung/05-callouts/grundform|Callouts — Grundform]] —
 drei Ordner tief, und im Explorer ein voll aufgeklappter Ast.
 
 ## Zwei Sprachen, ein Baum
@@ -127,43 +132,45 @@ Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 33 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 35 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
 | `--icon-close` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-file` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-folder` | im Stylesheet gesetzt (`base.scss`) | nur hier |
 | `--icon-folder-open` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--light` | `#FCFCFA` · dunkel `#16171A` | 13 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
-| `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
-| `--tpl-drawer-width` | `min(86vw, 340px)` | nur hier |
-| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen |
-| `--tpl-icon` | `1.1rem` | Farbschema-Umschalter, Lesemodus |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 – Variablen, Der Sprachumschalter |
-| `--tpl-indent` | `0.85rem` | Inhaltsverzeichnis |
-| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
+| `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
+| `--tpl-accent-bar` | `3px` | 6 weitere Komponenten |
+| `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | Die Navigation |
+| `--tpl-backdrop-blur` | `4px` | Die Navigation |
+| `--tpl-drawer-width` | `min(86vw, 340px)` | Die Navigation |
+| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen, Die Navigation |
+| `--tpl-icon` | `1.1rem` | 3 weitere Komponenten |
+| `--tpl-icon-sm` | `0.95rem` | 3 weitere Komponenten |
+| `--tpl-indent` | `0.85rem` | Inhaltsverzeichnis, Die Navigation |
+| `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
 | `--tpl-radius-lg` | `14px` | 3 weitere Komponenten |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
-| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-radius-sm` | `4px` | 10 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dunkel `0 6px 24px rgba(0, 0, 0, 0.55)` | 5 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 12 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
 | `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 weitere Komponenten |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
-| `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-sm` | `0.875rem` | 19 weitere Komponenten |
-| `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
-| `--tpl-tracking-label` | `0.08em` | 8 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 10 weitere Komponenten |
+| `--tpl-tracking-label` | `0.08em` | 9 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

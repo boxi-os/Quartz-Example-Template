@@ -1,6 +1,6 @@
 ---
 title: The explorer
-description: The folder tree on the left — designed down to the fourth level.
+description: The folder tree — switched off in this template and still designed down to the fourth level.
 section: 5 – The design
 tags:
   - design
@@ -8,8 +8,13 @@ tags:
 translationKey: gestaltung/navigation/explorer
 ---
 
-On the left of the window stands the tree over all the notes. It is the component that took the
-most design work in this template, because depth is the actual problem.
+> [!note] Switched off in this template
+> Since 2026-09-20 the [[en/5-design/01-navigation/navigation|navigation]] leads through this
+> handbook, no longer the explorer. It is still designed, and its stylesheet travels in the
+> package: whoever switches it on under *Plugins* finds it as this page describes it.
+
+Switched on, the tree over all the notes stands on the left of the window. It is the component that
+took the most design work in this template, because depth is the actual problem.
 
 ## Out of the box
 
@@ -56,7 +61,7 @@ structure.
   drawer travels in from the left over a darkened page, and the page itself does not scroll along
   meanwhile.
 
-It is best seen under [[en/2-formatting/05-callouts/basics|Callouts — the basic form]] — three
+It was best seen under [[en/2-formatting/05-callouts/basics|Callouts — the basic form]] — three
 folders deep, and a fully unfolded branch in the explorer.
 
 ## Two languages, one tree
@@ -123,43 +128,45 @@ does it start closed, since otherwise half the navigation would stand in front o
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 33 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 35 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 21 other components |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 other components |
+| `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
 | `--icon-close` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-file` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-folder` | set in the stylesheet (`base.scss`) | only here |
 | `--icon-folder-open` | set in the stylesheet (`base.scss`) | only here |
-| `--light` | `#FCFCFA` · dark `#16171A` | 13 other components |
-| `--secondary` | `#1463A3` · dark `#699DC3` | 20 other components |
-| `--tpl-accent-bar` | `3px` | 5 other components |
-| `--tpl-drawer-width` | `min(86vw, 340px)` | only here |
-| `--tpl-header-h` | set in the stylesheet (`base.scss`) | 6.4 – Variables |
-| `--tpl-icon` | `1.1rem` | Colour scheme switch, Reader mode |
-| `--tpl-icon-sm` | `0.95rem` | 6.4 – Variables, The language switcher |
-| `--tpl-indent` | `0.85rem` | Table of contents |
-| `--tpl-motion` | `150ms ease` | 12 other components |
+| `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
+| `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
+| `--tpl-accent-bar` | `3px` | 6 other components |
+| `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | The navigation |
+| `--tpl-backdrop-blur` | `4px` | The navigation |
+| `--tpl-drawer-width` | `min(86vw, 340px)` | The navigation |
+| `--tpl-header-h` | set in the stylesheet (`base.scss`) | 6.4 – Variables, The navigation |
+| `--tpl-icon` | `1.1rem` | 3 other components |
+| `--tpl-icon-sm` | `0.95rem` | 3 other components |
+| `--tpl-indent` | `0.85rem` | Table of contents, The navigation |
+| `--tpl-motion` | `150ms ease` | 13 other components |
 | `--tpl-radius-lg` | `14px` | 3 other components |
-| `--tpl-radius-md` | `8px` | 16 other components |
-| `--tpl-radius-sm` | `4px` | 9 other components |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 other components |
-| `--tpl-rule-width` | `1px` | 24 other components |
-| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 4 other components |
-| `--tpl-space-2xs` | `0.25rem` | 15 other components |
-| `--tpl-space-lg` | `1.5rem` | 11 other components |
-| `--tpl-space-md` | `1rem` | 17 other components |
-| `--tpl-space-xs` | `0.5rem` | 19 other components |
+| `--tpl-radius-md` | `8px` | 17 other components |
+| `--tpl-radius-sm` | `4px` | 10 other components |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
+| `--tpl-rule-width` | `1px` | 25 other components |
+| `--tpl-shadow` | `0 6px 24px rgba(23, 23, 26, 0.10)` · dark `0 6px 24px rgba(0, 0, 0, 0.55)` | 5 other components |
+| `--tpl-space-2xs` | `0.25rem` | 16 other components |
+| `--tpl-space-lg` | `1.5rem` | 12 other components |
+| `--tpl-space-md` | `1rem` | 18 other components |
+| `--tpl-space-xs` | `0.5rem` | 20 other components |
 | `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 other components |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 other components |
-| `--tpl-target` | `44px` | 11 other components |
-| `--tpl-text-sm` | `0.875rem` | 19 other components |
-| `--tpl-text-xs` | `0.78rem` | 9 other components |
-| `--tpl-tracking-label` | `0.08em` | 8 other components |
+| `--tpl-target` | `44px` | 12 other components |
+| `--tpl-text-sm` | `0.875rem` | 20 other components |
+| `--tpl-text-xs` | `0.78rem` | 10 other components |
+| `--tpl-tracking-label` | `0.08em` | 9 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

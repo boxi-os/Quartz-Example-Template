@@ -47,10 +47,10 @@ Diese 6 Variablen liest `page-404.scss`. Ändern lassen sie sich in der App unte
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tpl-space-2xl` | `4rem` | nur hier |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
 | `--tpl-text-3xl` | `2.25rem` | 6.4 – Variablen, Titel und Datum |
 

@@ -12,8 +12,8 @@ translationKey: gestaltung/im-inhalt/code
 ## Inline
 
 **Von Haus aus** ein Kasten mit Rahmen. **In dieser Vorlage** eine Tönung ohne Rahmen — genug zur
-Trennung, zu wenig zur Unterbrechung. Etwas kleiner gesetzt (0.9em), weil JetBrains Mono neben
-Inter sonst zu groß wirkt.
+Trennung, zu wenig zur Unterbrechung. Etwas kleiner gesetzt (0.9em), weil die Mono neben
+der Textschrift sonst zu groß wirkt.
 
 ## Blöcke
 
@@ -111,27 +111,27 @@ Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App un
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--codeFont` | `"JetBrains Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
+| `--codeFont` | `"Noto Sans Mono", ui-monospace, SFMono-Re…` | 4 weitere Komponenten |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 21 weitere Komponenten |
-| `--headerFont` | `"Instrument Sans", ui-sans-serif, system-…` | 14 weitere Komponenten |
-| `--secondary` | `#1463A3` · dunkel `#699DC3` | 20 weitere Komponenten |
-| `--tpl-accent-bar` | `3px` | 5 weitere Komponenten |
-| `--tpl-motion` | `150ms ease` | 12 weitere Komponenten |
-| `--tpl-radius-md` | `8px` | 16 weitere Komponenten |
-| `--tpl-radius-sm` | `4px` | 9 weitere Komponenten |
-| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 18 weitere Komponenten |
-| `--tpl-rule-width` | `1px` | 24 weitere Komponenten |
-| `--tpl-space-2xs` | `0.25rem` | 15 weitere Komponenten |
-| `--tpl-space-lg` | `1.5rem` | 11 weitere Komponenten |
-| `--tpl-space-md` | `1rem` | 17 weitere Komponenten |
-| `--tpl-space-xs` | `0.5rem` | 19 weitere Komponenten |
+| `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
+| `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
+| `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
+| `--tpl-accent-bar` | `3px` | 6 weitere Komponenten |
+| `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
+| `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
+| `--tpl-radius-sm` | `4px` | 10 weitere Komponenten |
+| `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
+| `--tpl-rule-width` | `1px` | 25 weitere Komponenten |
+| `--tpl-space-2xs` | `0.25rem` | 16 weitere Komponenten |
+| `--tpl-space-lg` | `1.5rem` | 12 weitere Komponenten |
+| `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
+| `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
 | `--tpl-surface` | `var(--lightgray)` = `#DDDDDD` | 6 weitere Komponenten |
 | `--tpl-surface-code` | `color-mix(in srgb, var(--lightgray) 40%, …` · dunkel `var(--lightgray)` | nur hier |
 | `--tpl-surface-tint` | `var(--highlight)` = `rgba(42, 78, 108, 0.10)` | 14 weitere Komponenten |
-| `--tpl-target` | `44px` | 11 weitere Komponenten |
-| `--tpl-text-xs` | `0.78rem` | 9 weitere Komponenten |
+| `--tpl-target` | `44px` | 12 weitere Komponenten |
+| `--tpl-text-xs` | `0.78rem` | 10 weitere Komponenten |
 | `--tpl-tracking-caps` | `0.06em` | 6.4 – Variablen, 3.1 – Bases |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

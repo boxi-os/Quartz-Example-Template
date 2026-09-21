@@ -12,7 +12,7 @@ denkt.
 
 ## 1 · Eine Variable
 
-**Der Normalfall.** 50 Variablen tragen jede Farbe und jedes Maß dieser Vorlage; keine Zeile CSS ist
+**Der Normalfall.** 66 Variablen tragen jede Farbe und jedes Maß dieser Vorlage; keine Zeile CSS ist
 dafür nötig. In der App unter *Stile → Variablen*, getrennt nach hell und dunkel.
 
 Welche Variable wo greift, steht auf jeder Seite in [[5-gestaltung/index|Kapitel 5]] ganz unten — samt der Spalte, die

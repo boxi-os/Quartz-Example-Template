@@ -13,7 +13,7 @@ liegen vier Schritte, und jeder hat einen Ort.
 ## 1 · Schreiben — in Obsidian
 
 Man öffnet den [[7-nachschlagen/01-glossar#Vault|Vault]] in Obsidian und schreibt. Eine neue Datei ist eine neue Seite; ein Ordner ein
-Ast im [[7-nachschlagen/01-glossar#Explorer|Explorer]]; ein `[[Wikilink]]` ein Verweis, den der [[7-nachschlagen/01-glossar#Graph|Graph]] und die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] sehen.
+Ast in der [[5-gestaltung/01-navigation/navigation|Navigation]]; ein `[[Wikilink]]` ein Verweis, den der [[7-nachschlagen/01-glossar#Graph|Graph]] und die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] sehen.
 Kopfzeilen zwischen zwei `---` ganz oben in der Datei — das **Frontmatter** — geben der Seite
 Titel, Beschreibung, Datum und Tags; was man damit alles steuern kann, steht in
 [[4-seiten-steuern/index|4 – Eine Seite steuern]].
