@@ -254,8 +254,9 @@ without a database and without a running program. Quartz is one. →
 
 ### Stylesheet
 
-A file with CSS or SCSS that describes the look. This template has 30, one per component, under
-*Styles → Custom CSS*. → [[en/5-design/index|5 – The design]]
+A file with CSS or SCSS that describes the look. This template has twelve, under
+*Styles → Custom CSS*: one for the layout, one for the content, one for the callouts, one per kind
+of component and one per plugin of its own. → [[en/5-design/index|5 – The design]]
 
 ### Symlink
 

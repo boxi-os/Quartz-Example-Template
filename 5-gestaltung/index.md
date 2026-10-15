@@ -27,8 +27,8 @@ Diese Tabellen sind erzeugt, nicht von Hand gepflegt; sie können den Stylesheet
 widersprechen.
 
 Ein **Stylesheet** ist die Datei, in der das Aussehen beschrieben ist — in der Sprache [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]], hier in
-ihrer Erweiterung [[7-nachschlagen/01-glossar#CSS und SCSS|SCSS]]. Diese Vorlage hat 30 davon, eins je Komponente, und jede Seite hier nennt
-das ihre. Ändern lassen sie sich in QuartzControl unter *Stile → Eigenes CSS*; wann das nötig ist
+ihrer Erweiterung [[7-nachschlagen/01-glossar#CSS und SCSS|SCSS]]. Diese Vorlage hat zwölf davon — eins fürs Layout, eins für den Inhalt, eins für die Callouts, eins je Art von Komponente und eins je eigenem Plugin —, und jede Seite hier nennt
+den Abschnitt, in dem ihre Komponente steht. Ändern lassen sie sich in QuartzControl unter *Stile → Eigenes CSS*; wann das nötig ist
 und wann eine Variable reicht, steht in [[6-anpassen/01-etwas-aendern|6.1 – Etwas ändern]].
 
 ## Die Abschnitte

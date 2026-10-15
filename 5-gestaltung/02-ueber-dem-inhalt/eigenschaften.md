@@ -46,7 +46,7 @@ alles, was übrig ist, und lässt dem Schlüssel seine Inhaltsbreite.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 16 Variablen liest `meta-note-properties.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 16 Variablen liest der Abschnitt `meta-note-properties` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

@@ -68,7 +68,7 @@ below that.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 30 variables are read by `page-bases.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 30 variables are read by the section `page-bases` in `pages.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

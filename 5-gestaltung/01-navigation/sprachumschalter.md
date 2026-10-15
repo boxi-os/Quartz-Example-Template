@@ -25,17 +25,17 @@ eine — welche, entscheidet `switcher.style` in der Konfiguration.
 | `flags` | Flaggen-Emoji statt Namen | sehr eng, wenn die Sprachen bekannt sind |
 
 Gewählt ist `dropdown`, weil er als **ein** Kasten neben dem Suchfeld steht und nicht breiter wird,
-wenn eine dritte Sprache dazukommt. Die Liste öffnet sich nach unten, rechtsbündig unter dem Knopf,
+wenn eine dritte Sprache dazukommt. Die Liste öffnet sich nach unten, rechtsbündig unter dem Button,
 mit demselben Schatten wie Suche und Vorschau — den einzigen beiden anderen Stellen dieser Vorlage,
 die wirklich über der Seite schweben.
 
 Die beiden anderen Formen sind trotzdem vollständig gestaltet: Wer in der App auf `links` oder
 `flags` umstellt, bekommt keine ungestaltete Komponente, sondern eine, die in dieselbe Leiste passt.
-Bei `flags` wächst das Emoji auf Lesegröße und der Knopf bleibt quadratisch.
+Bei `flags` wächst das Emoji auf Lesegröße und der Button bleibt quadratisch.
 
 ## Was der Umschalter zeigt
 
-- Die **aktuelle Sprache** steht als Knopfbeschriftung und in der Liste als hervorgehobener,
+- Die **aktuelle Sprache** steht als Button-Beschriftung und in der Liste als hervorgehobener,
   nicht anklickbarer Eintrag mit `aria-current`.
 - Die Beschriftung ist der **Name in der jeweiligen Sprache** (`switcher.label: native`) — „Deutsch"
   und „English", nicht „German". Ein Sprachname, den man nicht liest, weil man die Sprache nicht
@@ -49,7 +49,7 @@ Bei `flags` wächst das Emoji auf Lesegröße und der Knopf bleibt quadratisch.
 
 ## Am Telefon
 
-Die Werkzeugleiste ist eine Flex-Zeile mit `wrap`. Auf 390 px teilen sich Schubladen-Knopf,
+Die Werkzeugleiste ist eine Flex-Zeile mit `wrap`. Auf 390 px teilen sich Schubladen-Button,
 Seitenname und vier Bedienelemente den Platz; die Suche gibt ihr Wort auf und wird ein Quadrat, der
 Umschalter behält seinen Namen, weil zwei Buchstaben („DE") weniger sagen als „Deutsch" und der
 Platz dafür reicht.
@@ -64,7 +64,7 @@ auf Englisch, unabhängig von der Browsersprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 23 Variablen liest `nav-language-switcher.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 23 Variablen liest der Abschnitt `nav-language-switcher` in `plugin-multilanguage.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

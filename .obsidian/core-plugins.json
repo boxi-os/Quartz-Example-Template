@@ -14,5 +14,20 @@
   "canvas": true,
   "footnotes": true,
   "templates": false,
-  "daily-notes": false
+  "daily-notes": false,
+  "page-preview": true,
+  "note-composer": true,
+  "command-palette": true,
+  "slash-command": false,
+  "editor-status": true,
+  "bookmarks": true,
+  "markdown-importer": false,
+  "zk-prefixer": false,
+  "random-note": false,
+  "slides": false,
+  "audio-recorder": false,
+  "workspaces": false,
+  "publish": false,
+  "sync": true,
+  "webviewer": false
 }

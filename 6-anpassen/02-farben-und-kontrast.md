@@ -46,7 +46,7 @@ Codeblocks. Der knappste Wert liegt bei 4,61:1 gegen eine Schwelle von 4,5 — d
 auf einer Karte, und genau dafür wurde `tertiary` am 09.09.2026 noch einmal abgedunkelt.
 
 Die drei Prüfungen lesen ihre Werte aus verschiedenen Dateien, aber nach demselben Prinzip: aus
-`palette.mjs`, aus `body-callouts.scss` und aus `body-code.scss` — immer aus dem, was ausgeliefert
+`palette.mjs`, aus `callouts.scss` und aus `content.scss` — immer aus dem, was ausgeliefert
 wird, nie aus einer zweiten Liste, die man vergessen kann.
 
 ## Die eine Ausnahme, und wohin sie führt

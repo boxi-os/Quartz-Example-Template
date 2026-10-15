@@ -46,7 +46,7 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 > 240. The group came out at 322 px instead of 452, and its own children hung 130 px out of the
 > window in Firefox and Safari.
 >
-> Since 2026-09-06 it is a `width: 15rem` on `.search` in `nav-header.scss` again, and it stays
+> Since 2026-09-06 it is a `width: 15rem` on `.search` in `components-header.scss` again, and it stays
 > there: a width on the element itself makes its content width 240 px, and all three engines agree
 > on that. `shrink: false` stayed in the configuration — without it the field gives its width up to
 > the two icon buttons long before the bar is full. On a phone the same stylesheet takes the width
@@ -60,7 +60,7 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 18 variables are read by `nav-search.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 18 variables are read by the section `nav-search` in `components-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

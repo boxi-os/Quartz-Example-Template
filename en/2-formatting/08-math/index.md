@@ -19,7 +19,7 @@ lines.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 3 variables are read by `body-math.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 3 variables are read by the section `body-math` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

@@ -57,7 +57,8 @@ Three groups among them are younger than the rest and deserve a sentence each:
 Whether a side column stays put while the page scrolls is decided by **three variables per
 column**, and they belong together: a column that stays put needs a height cap (otherwise it runs
 out of the window and does not stay put at all) and a soft lower edge (otherwise the cap cuts a
-line in half). Whoever switches one switches all three.
+line in half). Whoever switches the right column switches all three; on the left, the position
+is enough (see below).
 
 | Variable | stays put | scrolls along |
 | --- | --- | --- |
@@ -68,6 +69,15 @@ line in half). Whoever switches one switches all three.
 `…` stands for `left` or `right`. **The default:** the right one stays put, the left one scrolls
 along. A half state is possible and looks like a bug — `static` with a height cap is a column that
 stops in the middle of the text and scrolls inside itself.
+
+**On the left, the position is enough.** When `--tpl-col-left-position` is `sticky` and height and
+mask are still `none`, the template fills in the two values from the table itself. Anyone who enters
+a height of their own keeps it. This holds in every current browser; an older one without this
+ability still needs all three lines.
+
+A column that scrolls inside itself hands the mouse wheel on to the page at its end. And one that
+has nothing to scroll does not hold on to it in the first place — the page scrolls even with the
+pointer over the navigation.
 
 Switching the left one is a decision with consequences: this handbook's navigation is about
 1640 px tall with a chapter open, about 2560 px on the home page, at a window height of 900 px.
@@ -93,16 +103,16 @@ place.
 
 ## What repeats, and why it may
 
-Two shapes stand in several stylesheets nearly word for word:
+Two shapes stand in several sections of the stylesheets nearly word for word:
 
-| Shape | in how many files |
+| Shape | in how many sections |
 | --- | ---: |
 | The panel heading — heading face, uppercase, semibold, muted, `--tpl-tracking-label` | 9 |
 | The hovered link — accent colour, underlined, `--tpl-underline-offset` | 8 |
 
-That could be pulled into one shared file, and here that would be the wrong move. The stylesheets
-are cut by component, and the documentation hangs off that: every page in this section carries the
-table of the variables *its* component reads. Move the panel heading into `base.scss` and it
+That could be pulled into one shared rule, and here that would be the wrong move. The sections of
+the stylesheets are cut by component, and the documentation hangs off that: every page in this section carries the
+table of the variables *its* component reads. Move the panel heading into the `base` section and it
 disappears from nine of those tables and turns up in one that nobody reads while adjusting the
 [[en/7-reference/01-glossary#Backlinks|backlinks]].
 
@@ -124,17 +134,17 @@ change the base gap has to look for it in many places.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 48 variables are read by `base.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 49 variables are read by the section `base` in `foundation.scss`, `layout.scss` and `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--bodyFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 other components |
-| `--col-ring-reach` | set in the stylesheet (`base.scss`) | only here |
+| `--col-ring-reach` | set in the stylesheet (`layout.scss`) | only here |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
 | `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
-| `--icon-chevron` | set in the stylesheet (`base.scss`) | Callout colours |
+| `--icon-chevron` | set in the stylesheet (`foundation.scss`) | Callout colours |
 | `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
 | `--tpl-col-left-height` | `none` | only here |
 | `--tpl-col-left-mask` | `none` | only here |
@@ -143,12 +153,13 @@ These 48 variables are read by `base.scss`. They can be changed in the app under
 | `--tpl-col-right-mask` | `var(--tpl-fade-mask-end)` | only here |
 | `--tpl-col-right-position` | `sticky` | only here |
 | `--tpl-fade` | `14px` | only here |
-| `--tpl-fade-mask` | set in the stylesheet (`base.scss`) | only here |
+| `--tpl-fade-mask` | set in the stylesheet (`foundation.scss`) | only here |
+| `--tpl-fade-mask-end` | set in the stylesheet (`foundation.scss`) | only here |
 | `--tpl-focus-color` | `var(--secondary)` = `#1463A3` | only here |
 | `--tpl-focus-offset` | `2px` | Callout colours, The explorer |
 | `--tpl-focus-width` | `2px` | Callout colours, The explorer |
-| `--tpl-header-h` | set in the stylesheet (`base.scss`) | The explorer, The navigation |
-| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | The header |
+| `--tpl-header-h` | set in the stylesheet (`layout.scss`) | The explorer, The navigation |
+| `--tpl-header-pad` | set in the stylesheet (`layout.scss`) | The header |
 | `--tpl-icon-sm` | `0.95rem` | 3 other components |
 | `--tpl-leading-normal` | `1.6` | The navigation |
 | `--tpl-leading-snug` | `1.4rem` | 4 other components |

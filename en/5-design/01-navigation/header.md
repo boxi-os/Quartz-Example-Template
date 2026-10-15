@@ -81,7 +81,7 @@ explicitly.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by `nav-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 17 variables are read by the section `nav-header` in `components-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -91,8 +91,8 @@ These 17 variables are read by `nav-header.scss`. They can be changed in the app
 | `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
 | `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--titleFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | only here |
-| `--tpl-header-pad` | set in the stylesheet (`base.scss`) | 6.4 – Variables |
-| `--tpl-header-title` | set in the stylesheet (`base.scss`) | only here |
+| `--tpl-header-pad` | set in the stylesheet (`layout.scss`) | 6.4 – Variables |
+| `--tpl-header-title` | set in the stylesheet (`layout.scss`) | only here |
 | `--tpl-page-fade` | `24px` | 6.4 – Variables |
 | `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
 | `--tpl-rule-width` | `1px` | 25 other components |

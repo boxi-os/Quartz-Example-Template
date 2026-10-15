@@ -43,7 +43,7 @@ Ausprobieren: eine beliebige nicht existierende Adresse aufrufen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 6 Variablen liest `page-404.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 6 Variablen liest der Abschnitt `page-404` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -52,7 +52,7 @@ Diese 6 Variablen liest `page-404.scss`. Ändern lassen sie sich in der App unte
 | `--tpl-space-2xl` | `4rem` | nur hier |
 | `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-xl` | `2.5rem` | 5 weitere Komponenten |
-| `--tpl-text-3xl` | `2.25rem` | 6.4 – Variablen, Titel und Datum |
+| `--tpl-text-3xl` | `2.25rem` | Titel und Datum, 6.4 – Variablen |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*
 <!-- QuartzControl:variables:end -->

@@ -32,7 +32,7 @@ sie nicht.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 13 Variablen liest `page-popover.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 13 Variablen liest der Abschnitt `page-popover` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Diese 13 Variablen liest `page-popover.scss`. Ändern lassen sie sich in der App
 | `--tpl-space-md` | `1rem` | 18 weitere Komponenten |
 | `--tpl-space-sm` | `0.75rem` | 10 weitere Komponenten |
 | `--tpl-space-xs` | `0.5rem` | 20 weitere Komponenten |
-| `--tpl-text-lg` | `1.15rem` | 6.4 – Variablen, Suche |
+| `--tpl-text-lg` | `1.15rem` | Suche, 6.4 – Variablen |
 | `--tpl-text-sm` | `0.875rem` | 20 weitere Komponenten |
 
 *Diese Tabelle ist erzeugt: Sie wird aus den Stylesheets gelesen, nicht von Hand gepflegt.*

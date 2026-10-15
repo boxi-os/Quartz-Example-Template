@@ -44,7 +44,7 @@ block's surface. The tightest value is 4.61:1 against a threshold of 4.5 — the
 card, and that is exactly what `tertiary` was darkened once more for on 2026-09-09.
 
 The three checks read their values from different files but on the same principle: from
-`palette.mjs`, from `body-callouts.scss` and from `body-code.scss` — always from what ships, never
+`palette.mjs`, from `callouts.scss` and from `content.scss` — always from what ships, never
 from a second list that can be forgotten.
 
 ## The one exception, and where it leads

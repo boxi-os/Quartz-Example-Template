@@ -51,14 +51,14 @@ zwischen den zwei Zeilen zwei verschiedene Lücken.
 > [!note] Kommentare wären der dritte Teil
 > Das Plugin *Comments* (giscus) ist in dieser Vorlage ausgeschaltet — es braucht ein
 > GitHub-Repository, das eine importierende Website nicht hat. Die Gestaltung dafür reist trotzdem
-> mit — im unteren Teil von `site-footer.scss` —, damit ein Einschalten in der App nicht einen
+> mit — im unteren Teil des Abschnitts `site-footer` in `layout.scss` —, damit ein Einschalten in der App nicht einen
 > ungestalteten Rahmen
 > unter jede Seite setzt.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 11 Variablen liest `site-footer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest der Abschnitt `site-footer` in `layout.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

@@ -47,7 +47,7 @@ dark mode. Both are measured against the text colour.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 29 variables are read by `body-content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 29 variables are read by the section `body-content` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -55,12 +55,12 @@ These 29 variables are read by `body-content.scss`. They can be changed in the a
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
 | `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
-| `--icon-task-cancelled` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-task-doing` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-task-done` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-task-forwarded` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-task-open` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-task-question` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-task-cancelled` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-task-doing` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-task-done` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-task-forwarded` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-task-open` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-task-question` | set in the stylesheet (`foundation.scss`) | only here |
 | `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tertiary` | `#196B6B` · dark `#2CAFAD` | 2.9 – Diagrams, The instances |
 | `--textHighlight` | `rgba(226, 189, 92, 0.55)` · dark `rgba(140, 184, 218, 0.30)` | Search results |

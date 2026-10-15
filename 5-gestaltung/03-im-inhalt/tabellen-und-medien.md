@@ -43,7 +43,7 @@ Gestrichelter Balken und getönte Fläche: Man soll sehen, wo fremder Inhalt anf
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `body-media.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 12 Variablen liest der Abschnitt `body-media` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

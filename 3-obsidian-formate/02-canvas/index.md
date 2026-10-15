@@ -51,7 +51,7 @@ keine Seitenleisten, keine [[7-nachschlagen/01-glossar#Brotkrumen|Brotkrumen]].
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 14 Variablen liest `page-canvas.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 14 Variablen liest der Abschnitt `page-canvas` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

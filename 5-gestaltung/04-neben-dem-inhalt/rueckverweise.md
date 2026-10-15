@@ -54,14 +54,14 @@ Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 11 Variablen liest `aside-backlinks.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest der Abschnitt `aside-backlinks` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
-| `--icon-arrow-up-right` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--icon-arrow-up-right` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
 | `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 25 weitere Komponenten |

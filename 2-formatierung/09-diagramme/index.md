@@ -22,7 +22,7 @@ Abläufe, Strukturen, Zeiten und Zahlen — alle aus Text erzeugt und alle in de
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 22 Variablen liest `body-mermaid.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 22 Variablen liest der Abschnitt `body-mermaid` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -32,11 +32,11 @@ Diese 22 Variablen liest `body-mermaid.scss`. Ändern lassen sie sich in der App
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
-| `--mm-1` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
-| `--mm-2` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
-| `--mm-3` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
-| `--mm-4` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
-| `--mm-edge` | im Stylesheet gesetzt (`body-mermaid.scss`) | nur hier |
+| `--mm-1` | im Stylesheet gesetzt (`content.scss`) | nur hier |
+| `--mm-2` | im Stylesheet gesetzt (`content.scss`) | nur hier |
+| `--mm-3` | im Stylesheet gesetzt (`content.scss`) | nur hier |
+| `--mm-4` | im Stylesheet gesetzt (`content.scss`) | nur hier |
+| `--mm-edge` | im Stylesheet gesetzt (`content.scss`) | nur hier |
 | `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tertiary` | `#196B6B` · dunkel `#2CAFAD` | Fließtext, Die Instanzen |
 | `--tpl-radius-md` | `8px` | 17 weitere Komponenten |

@@ -55,7 +55,7 @@ still reads as `github-light`. It is the same thing this template does with Quar
 colours.
 
 They have been checked on every run since: `--check-contrast` reads the five values out of
-`body-code.scss` and measures them against `--tpl-surface-code`. 78 pairs have become 83; with the thirteenth callout, no longer skipped since 2026-09-05, and two control borders, it is 93 today.
+`content.scss` and measures them against `--tpl-surface-code`. 78 pairs have become 83; with the thirteenth callout, no longer skipped since 2026-09-05, and two control borders, it is 93 today.
 
 > [!note] How that works technically
 > shiki writes the colour **inline onto every single `<span>`**
@@ -108,7 +108,7 @@ Surface **and** a bar on the left. A tint alone is too weak on a block that is t
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 22 variables are read by `body-code.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 22 variables are read by the section `body-code` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

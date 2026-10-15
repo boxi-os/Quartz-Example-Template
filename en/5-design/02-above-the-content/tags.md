@@ -35,12 +35,12 @@ while doing so, because the border was already there, transparent.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by `meta-tag-list.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by the section `meta-tag-list` in `components-note.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--font-interface` | `var(--bodyFont)` = `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 other components |
-| `--icon-tag` | set in the stylesheet (`base.scss`) | Folder and tag pages |
+| `--icon-tag` | set in the stylesheet (`foundation.scss`) | Folder and tag pages |
 | `--tag-background` | — | only here |
 | `--tag-background-hover` | — | only here |
 | `--tag-color` | — | only here |

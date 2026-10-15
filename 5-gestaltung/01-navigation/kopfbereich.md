@@ -32,7 +32,7 @@ Zwei Feinheiten:
 - Sie bilden eine **Gruppe** (`toolbar`) mit `wrap`, damit vier Bedienelemente und der Seitenname
   auch auf einem 360 px breiten Telefon nebeneinander passen.
 - Am Telefon wird der Kopf zur **App-Leiste**: Er bleibt beim Scrollen oben stehen, läuft über die
-  volle Breite und nimmt den Schubladen-Knopf der [[5-gestaltung/01-navigation/navigation|Navigation]] mit auf. Die Suche gibt dort ihr Wort
+  volle Breite und nimmt den Schubladen-Button der [[5-gestaltung/01-navigation/navigation|Navigation]] mit auf. Die Suche gibt dort ihr Wort
   auf und wird ein Quadrat wie die beiden anderen; ihre 44 px behält sie.
 
 ## Er bleibt stehen, der Titel geht
@@ -82,7 +82,7 @@ sie musste ausdrücklich zurückgenommen werden.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest `nav-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest der Abschnitt `nav-header` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -92,8 +92,8 @@ Diese 17 Variablen liest `nav-header.scss`. Ändern lassen sie sich in der App u
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
 | `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--titleFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | nur hier |
-| `--tpl-header-pad` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen |
-| `--tpl-header-title` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--tpl-header-pad` | im Stylesheet gesetzt (`layout.scss`) | 6.4 – Variablen |
+| `--tpl-header-title` | im Stylesheet gesetzt (`layout.scss`) | nur hier |
 | `--tpl-page-fade` | `24px` | 6.4 – Variablen |
 | `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 25 weitere Komponenten |

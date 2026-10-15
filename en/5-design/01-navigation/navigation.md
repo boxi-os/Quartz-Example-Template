@@ -81,7 +81,7 @@ failed on a sum: the seven chapter names are about 880 px wide together, and the
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 27 variables are read by `nav-navigations.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 27 variables are read by the section `nav-navigations` in `plugin-navigations.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -92,10 +92,10 @@ These 27 variables are read by `nav-navigations.scss`. They can be changed in th
 | `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | The explorer |
 | `--tpl-backdrop-blur` | `4px` | The explorer |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | The explorer |
-| `--tpl-header-h` | set in the stylesheet (`base.scss`) | 6.4 – Variables, The explorer |
+| `--tpl-header-h` | set in the stylesheet (`layout.scss`) | The explorer, 6.4 – Variables |
 | `--tpl-icon` | `1.1rem` | 3 other components |
 | `--tpl-icon-sm` | `0.95rem` | 3 other components |
-| `--tpl-indent` | `0.85rem` | Table of contents, The explorer |
+| `--tpl-indent` | `0.85rem` | The explorer, Table of contents |
 | `--tpl-leading-normal` | `1.6` | 6.4 – Variables |
 | `--tpl-motion` | `150ms ease` | 13 other components |
 | `--tpl-radius-md` | `8px` | 17 other components |

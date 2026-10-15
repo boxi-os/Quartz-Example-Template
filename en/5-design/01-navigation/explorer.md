@@ -128,28 +128,28 @@ does it start closed, since otherwise half the navigation would stand in front o
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 38 variables are read by `nav-explorer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 38 variables are read by the section `nav-explorer` in `components-navigation.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--darkgray` | `#333333` · dark `#DDDDDD` | 18 other components |
-| `--explorer-ring-reach` | set in the stylesheet (`nav-explorer.scss`) | only here |
+| `--explorer-ring-reach` | set in the stylesheet (`components-navigation.scss`) | only here |
 | `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
-| `--icon-close` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-file` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-folder` | set in the stylesheet (`base.scss`) | only here |
-| `--icon-folder-open` | set in the stylesheet (`base.scss`) | only here |
+| `--icon-close` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-file` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-folder` | set in the stylesheet (`foundation.scss`) | only here |
+| `--icon-folder-open` | set in the stylesheet (`foundation.scss`) | only here |
 | `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
 | `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tpl-accent-bar` | `3px` | 6 other components |
 | `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | The navigation |
 | `--tpl-backdrop-blur` | `4px` | The navigation |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | The navigation |
-| `--tpl-focus-offset` | `2px` | 6.4 – Variables, Callout colours |
-| `--tpl-focus-width` | `2px` | 6.4 – Variables, Callout colours |
-| `--tpl-header-h` | set in the stylesheet (`base.scss`) | 6.4 – Variables, The navigation |
+| `--tpl-focus-offset` | `2px` | Callout colours, 6.4 – Variables |
+| `--tpl-focus-width` | `2px` | Callout colours, 6.4 – Variables |
+| `--tpl-header-h` | set in the stylesheet (`layout.scss`) | 6.4 – Variables, The navigation |
 | `--tpl-icon` | `1.1rem` | 3 other components |
 | `--tpl-icon-sm` | `0.95rem` | 3 other components |
 | `--tpl-indent` | `0.85rem` | Table of contents, The navigation |

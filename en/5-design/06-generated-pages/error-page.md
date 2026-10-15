@@ -42,7 +42,7 @@ To try it: call up any address that does not exist.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 6 variables are read by `page-404.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 6 variables are read by the section `page-404` in `pages.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -51,7 +51,7 @@ These 6 variables are read by `page-404.scss`. They can be changed in the app un
 | `--tpl-space-2xl` | `4rem` | only here |
 | `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-space-xl` | `2.5rem` | 5 other components |
-| `--tpl-text-3xl` | `2.25rem` | 6.4 – Variables, Title and date |
+| `--tpl-text-3xl` | `2.25rem` | Title and date, 6.4 – Variables |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*
 <!-- QuartzControl:variables:end -->

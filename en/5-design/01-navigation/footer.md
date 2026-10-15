@@ -50,13 +50,13 @@ between the two lines.
 > [!note] Comments would be the third part
 > The *Comments* plugin (giscus) is switched off in this template — it needs a GitHub [[en/7-reference/01-glossary#Repository|repository]]
 > that an importing site does not have. The styling travels along anyway — in the lower half of
-> `site-footer.scss` — so
+> the `site-footer` section in `layout.scss` — so
 > that switching it on in the app does not drop an unstyled [[en/7-reference/01-glossary#Frame|frame]] under every page.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by `site-footer.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 11 variables are read by the section `site-footer` in `layout.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

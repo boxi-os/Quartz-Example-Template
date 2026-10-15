@@ -10,13 +10,13 @@ translationKey: gestaltung/navigation/suche
 
 ## Von Haus aus
 
-Ein Knopf mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgray`.
+Ein Button mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgray`.
 
 ## In dieser Vorlage
 
 - Der Rand kommt aus **`gray`**, nicht aus `lightgray`. Das ist die Umsetzung der Kontrastregel:
   `lightgray` misst 1,34:1 gegen den Grund und darf deshalb nichts umranden, das man bedient.
-- Der Knopf steht **im Kopfbereich**, ganz rechts, zusammen mit den drei anderen Bedienelementen.
+- Der Button steht **im Kopfbereich**, ganz rechts, zusammen mit den drei anderen Bedienelementen.
   Er ist 44 px hoch wie seine Nachbarn und 15 rem breit — breit genug, um als Feld gelesen zu
   werden, schmal genug, dass der Kopf weiter dem Seitentitel gehört. Am Telefon wird er ein Quadrat
   ohne Beschriftung.
@@ -46,10 +46,10 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 > Inhaltsbreite des Elements — 110 px statt 240. Die Gruppe kam damit auf 322 px statt 452, und ihre
 > eigenen Kinder hingen in Firefox und Safari 130 px aus dem Fenster.
 >
-> Seit dem 06.09.2026 ist es wieder eine `width: 15rem` an `.search` in `nav-header.scss`, und dabei
+> Seit dem 06.09.2026 ist es wieder eine `width: 15rem` an `.search` in `components-header.scss`, und dabei
 > bleibt es: Eine Breite am Element selbst macht dessen Inhaltsbreite zu 240 px, und darüber sind
 > sich alle drei Engines einig. In der Konfiguration blieb `shrink: false` — ohne das gibt das Feld
-> seine Breite an die zwei Icon-Knöpfe ab, lange bevor die Leiste voll ist. Am Telefon nimmt
+> seine Breite an die zwei Icon-Buttons ab, lange bevor die Leiste voll ist. Am Telefon nimmt
 > dasselbe Stylesheet die Breite wieder weg.
 
 > [!note] Der Index umfasst beide Sprachen
@@ -60,7 +60,7 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 18 Variablen liest `nav-search.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 18 Variablen liest der Abschnitt `nav-search` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

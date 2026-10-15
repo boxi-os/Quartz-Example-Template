@@ -31,7 +31,7 @@ With `@media (hover: none)` it is switched off entirely. From that follows a rul
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by `page-popover.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 13 variables are read by the section `page-popover` in `pages.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -46,7 +46,7 @@ These 13 variables are read by `page-popover.scss`. They can be changed in the a
 | `--tpl-space-md` | `1rem` | 18 other components |
 | `--tpl-space-sm` | `0.75rem` | 10 other components |
 | `--tpl-space-xs` | `0.5rem` | 20 other components |
-| `--tpl-text-lg` | `1.15rem` | 6.4 – Variables, Search |
+| `--tpl-text-lg` | `1.15rem` | Search, 6.4 – Variables |
 | `--tpl-text-sm` | `0.875rem` | 20 other components |
 
 *This table is generated: it is read out of the stylesheets rather than kept by hand.*

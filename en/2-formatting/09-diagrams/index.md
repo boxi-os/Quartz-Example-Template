@@ -23,7 +23,7 @@ this template.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 22 variables are read by `body-mermaid.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 22 variables are read by the section `body-mermaid` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
@@ -33,11 +33,11 @@ These 22 variables are read by `body-mermaid.scss`. They can be changed in the a
 | `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 other components |
 | `--light` | `#FCFCFA` · dark `#16171A` | 14 other components |
-| `--mm-1` | set in the stylesheet (`body-mermaid.scss`) | only here |
-| `--mm-2` | set in the stylesheet (`body-mermaid.scss`) | only here |
-| `--mm-3` | set in the stylesheet (`body-mermaid.scss`) | only here |
-| `--mm-4` | set in the stylesheet (`body-mermaid.scss`) | only here |
-| `--mm-edge` | set in the stylesheet (`body-mermaid.scss`) | only here |
+| `--mm-1` | set in the stylesheet (`content.scss`) | only here |
+| `--mm-2` | set in the stylesheet (`content.scss`) | only here |
+| `--mm-3` | set in the stylesheet (`content.scss`) | only here |
+| `--mm-4` | set in the stylesheet (`content.scss`) | only here |
+| `--mm-edge` | set in the stylesheet (`content.scss`) | only here |
 | `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tertiary` | `#196B6B` · dark `#2CAFAD` | Body text, The instances |
 | `--tpl-radius-md` | `8px` | 17 other components |

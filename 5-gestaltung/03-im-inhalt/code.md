@@ -1,6 +1,6 @@
 ---
 title: Code
-description: Inline, Blöcke, Sprachlabel und der Kopierknopf.
+description: Inline, Blöcke, Sprachlabel und der Kopier-Button.
 section: 5 – Die Gestaltung
 tags:
   - gestaltung
@@ -55,7 +55,7 @@ sich weiterhin als `github-light`. Es ist dasselbe, was diese Vorlage mit Quartz
 tut.
 
 Geprüft werden sie seitdem bei jedem Lauf: `--check-contrast` liest die fünf Werte aus
-`body-code.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten [[7-nachschlagen/01-glossar#Callout|Callout]], der seit dem 05.09.2026 nicht mehr übersprungen wird, und zwei Rändern von Bedienelementen sind es heute 93.
+`content.scss` und misst sie gegen `--tpl-surface-code`. Aus 78 Paaren sind 83 geworden; mit dem dreizehnten [[7-nachschlagen/01-glossar#Callout|Callout]], der seit dem 05.09.2026 nicht mehr übersprungen wird, und zwei Rändern von Bedienelementen sind es heute 93.
 
 > [!note] Wie das technisch geht
 > shiki schreibt die Farbe **inline an jedes einzelne `<span>`**
@@ -73,7 +73,7 @@ Lange Zeilen brechen nicht um, sondern scrollen im Block.
 Oben links steht die Sprache — als `::after` im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]], nicht als Element. Es landet damit
 nicht in einer Kopie und nicht in der Vorlesereihenfolge.
 
-## Der Kopierknopf
+## Der Kopier-Button
 
 **Von Haus aus** erscheint er nur beim Überfahren mit dem Zeiger — auf einem Telefon ist er damit
 unerreichbar.
@@ -88,7 +88,7 @@ von `gray` auf `dark`.
 > [!bug] Die Ausnahme von der Schichtungsregel
 > „Alles in `custom.scss` steht ungeschichtet und gewinnt deshalb gegen die Plugin-Stile" — für
 > Komponenten-CSS stimmt das, für **Ressourcen-Stylesheets** nicht. Quartz liefert die Gestaltung
-> dieses Knopfes in `static/resource-style-….css` aus, ungeschichtet und *nach* `index.css`
+> dieses Buttons in `static/resource-style-….css` aus, ungeschichtet und *nach* `index.css`
 > verlinkt. Bei gleicher Spezifität gewinnt damit die spätere Regel:
 >
 > ```css
@@ -96,7 +96,7 @@ von `gray` auf `dark`.
 >                     background-color: var(--light); margin: .3rem; padding: .4rem }
 > ```
 >
-> Gemessen an der gebauten Seite: Der Knopf meldete weiterhin einen 1-px-Rahmen und `--light`
+> Gemessen an der gebauten Seite: Der Button meldete weiterhin einen 1-px-Rahmen und `--light`
 > dahinter, obwohl jede Regel dieser Vorlage `border: none` und `background: transparent` sagte.
 > Ein Nachfahre im Selektor (`pre .clipboard-button`) entscheidet es.
 
@@ -107,7 +107,7 @@ Fläche **und** Balken links. Eine Tönung allein ist auf einem ohnehin getönte
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 22 Variablen liest `body-code.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 22 Variablen liest der Abschnitt `body-code` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

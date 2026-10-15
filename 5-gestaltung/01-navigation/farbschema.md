@@ -1,6 +1,6 @@
 ---
 title: Farbschema-Umschalter
-description: Der Knopf zwischen hell und dunkel.
+description: Der Button zwischen hell und dunkel.
 section: 5 – Die Gestaltung
 tags:
   - gestaltung
@@ -10,7 +10,7 @@ translationKey: gestaltung/navigation/farbschema
 
 ## Von Haus aus
 
-Ein Knopf mit zwei Symbolen, von denen je nach Schema eines sichtbar ist.
+Ein Button mit zwei Symbolen, von denen je nach Schema eines sichtbar ist.
 
 ## In dieser Vorlage
 
@@ -34,7 +34,7 @@ Daraus die Regel, die überall in dieser Vorlage gilt: **Vor dem Schreiben einer
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 10 Variablen liest `nav-darkmode.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 10 Variablen liest der Abschnitt `nav-darkmode` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

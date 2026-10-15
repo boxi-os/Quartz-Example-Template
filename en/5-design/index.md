@@ -26,8 +26,8 @@ stylesheet of this component reads, with their value and a note on what else mov
 These tables are generated, not kept by hand; they cannot disagree with the stylesheets.
 
 A **stylesheet** is the file in which the look is described — in the language [[en/7-reference/01-glossary#CSS and SCSS|CSS]], here in its
-extension [[en/7-reference/01-glossary#CSS and SCSS|SCSS]]. This template has 30 of them, one per component, and every page here names its
-own. They can be changed in QuartzControl under *Styles → Custom CSS*; when that is necessary and
+extension [[en/7-reference/01-glossary#CSS and SCSS|SCSS]]. This template has twelve of them — one for the layout, one for the content, one for the callouts, one per kind of component and one per plugin of its own — and every page here names
+the section its component stands in. They can be changed in QuartzControl under *Styles → Custom CSS*; when that is necessary and
 when a variable is enough stands in [[en/6-adapting/01-changing-something|6.1 – Changing something]].
 
 ## The sections

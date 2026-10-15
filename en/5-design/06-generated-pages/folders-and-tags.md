@@ -57,13 +57,13 @@ so that it does not end up in the reading order.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 14 variables are read by `page-listing.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 14 variables are read by the section `page-listing` in `pages.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dark `#FCFCFA` | 13 other components |
 | `--gray` | `#5F5F5F` · dark `#A1A1A1` | 22 other components |
-| `--icon-tag` | set in the stylesheet (`base.scss`) | Tags |
+| `--icon-tag` | set in the stylesheet (`foundation.scss`) | Tags |
 | `--secondary` | `#1463A3` · dark `#699DC3` | 19 other components |
 | `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 other components |
 | `--tpl-rule-width` | `1px` | 25 other components |

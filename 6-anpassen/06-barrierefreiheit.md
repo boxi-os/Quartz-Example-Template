@@ -20,7 +20,7 @@ Jedes Bedienelement hat einen sichtbaren Fokusring — eine einzige Regel über 
 eigener Farbe auf getönten Flächen, damit der Ring nicht auf der eigenen Farbe liegt. `outline:
 none` kommt in dieser Vorlage nirgends vor.
 
-Der Kopierknopf am Codeblock erscheint bei Hover, bei Fokus *und* dauerhaft auf Geräten ohne
+Der Kopier-Button am Codeblock erscheint bei Hover, bei Fokus *und* dauerhaft auf Geräten ohne
 Zeiger. **Von Haus aus** ist er nur bei Hover sichtbar — und damit auf einem Telefon unerreichbar.
 
 ## Zielgrößen

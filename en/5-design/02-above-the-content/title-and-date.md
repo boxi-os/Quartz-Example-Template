@@ -50,7 +50,7 @@ date* [[en/7-reference/01-glossary#Plugin|plugin]].
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by `meta-title-and-date.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by the section `meta-title-and-date` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

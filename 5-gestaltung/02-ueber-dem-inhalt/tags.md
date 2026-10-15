@@ -36,12 +36,12 @@ dabei nicht, weil der Rand vorher transparent da war.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest `meta-tag-list.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 12 Variablen liest der Abschnitt `meta-tag-list` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--font-interface` | `var(--bodyFont)` = `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 weitere Komponenten |
-| `--icon-tag` | im Stylesheet gesetzt (`base.scss`) | Ordner- und Tag-Seiten |
+| `--icon-tag` | im Stylesheet gesetzt (`foundation.scss`) | Ordner- und Tag-Seiten |
 | `--tag-background` | — | nur hier |
 | `--tag-background-hover` | — | nur hier |
 | `--tag-color` | — | nur hier |

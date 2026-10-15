@@ -51,7 +51,7 @@ Aus dem [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]], sonst aus dem Dat
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 7 Variablen liest `meta-title-and-date.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 7 Variablen liest der Abschnitt `meta-title-and-date` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

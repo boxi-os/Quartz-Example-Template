@@ -40,20 +40,20 @@ Die Darstellung heißt **Akkordeon**: Jedes Kapitel ist eine Zeile, die aufklapp
 
 ## Am Telefon
 
-Unter 900 px wird das Menü zur **Schublade**. Der Knopf dafür sitzt in der App-Leiste oben links,
+Unter 900 px wird das Menü zur **Schublade**. Der Button dafür sitzt in der App-Leiste oben links,
 die Schublade fährt über eine abgedunkelte und leicht unscharfe Seite, und ein eigener
-Schließknopf steht in der Schublade selbst. Die Zeilen bekommen dort ihre Daumenhöhe von 44 px
+Schließen-Button steht in der Schublade selbst. Die Zeilen bekommen dort ihre Daumenhöhe von 44 px
 zurück; in der Seitenleiste am Desktop sind 32 px richtig.
 
 ## Zurück und Weiter
 
-Unter jedem Text stehen zwei Knöpfe zur vorigen und zur nächsten Seite. Die Reihenfolge läuft durch
+Unter jedem Text stehen zwei Buttons zur vorigen und zur nächsten Seite. Die Reihenfolge läuft durch
 die ganze Gliederung, über Kapitelgrenzen hinweg — ein Handbuch wird der Reihe nach gelesen, und am
 Ende eines Kapitels geht es ins nächste statt in eine Sackgasse.
 
 Sie stehen **ganz unten**: nach dem Text, den zwei Kästen, „Weiterlesen“ und den Eigenschaften.
-Dort sucht man den Weg zur nächsten Seite. Am Telefon stehen die zwei Knöpfe untereinander, damit
-ein langer Seitentitel nicht in einem halben Knopf umbrechen muss, und auf der Startseite, wo es
+Dort sucht man den Weg zur nächsten Seite. Am Telefon stehen die zwei Buttons untereinander, damit
+ein langer Seitentitel nicht in einem halben Button umbrechen muss, und auf der Startseite, wo es
 kein „Zurück“ gibt, steht kein leerer Kasten. Beides tut das Plugin seit Fassung 0.3.1 selbst.
 
 „Zurück“ und „Weiter“ sind klein, versal und gesperrt gesetzt — dieselbe Beschriftung wie über den
@@ -81,7 +81,7 @@ rund 680 px übrig.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 27 Variablen liest `nav-navigations.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 27 Variablen liest der Abschnitt `nav-navigations` in `plugin-navigations.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -92,10 +92,10 @@ Diese 27 Variablen liest `nav-navigations.scss`. Ändern lassen sie sich in der 
 | `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | Explorer |
 | `--tpl-backdrop-blur` | `4px` | Explorer |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | Explorer |
-| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen, Explorer |
+| `--tpl-header-h` | im Stylesheet gesetzt (`layout.scss`) | Explorer, 6.4 – Variablen |
 | `--tpl-icon` | `1.1rem` | 3 weitere Komponenten |
 | `--tpl-icon-sm` | `0.95rem` | 3 weitere Komponenten |
-| `--tpl-indent` | `0.85rem` | Inhaltsverzeichnis, Explorer |
+| `--tpl-indent` | `0.85rem` | Explorer, Inhaltsverzeichnis |
 | `--tpl-leading-normal` | `1.6` | 6.4 – Variablen |
 | `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 17 weitere Komponenten |

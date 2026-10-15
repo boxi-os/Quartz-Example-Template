@@ -244,8 +244,9 @@ laufendes Programm auf jedem Webspace liegen können. Quartz ist einer. →
 
 ### Stylesheet
 
-Eine Datei mit CSS oder SCSS, die das Aussehen beschreibt. Diese Vorlage hat 30, eins je
-Komponente, unter *Stile → Eigenes CSS*. → [[5-gestaltung/index|5 – Die Gestaltung]]
+Eine Datei mit CSS oder SCSS, die das Aussehen beschreibt. Diese Vorlage hat zwölf, unter
+*Stile → Eigenes CSS*: eins fürs Layout, eins für den Inhalt, eins für die Callouts, eins je Art
+von Komponente und eins je eigenem Plugin. → [[5-gestaltung/index|5 – Die Gestaltung]]
 
 ### Symlink
 

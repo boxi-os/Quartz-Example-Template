@@ -58,7 +58,8 @@ Drei Gruppen darunter sind jünger als der Rest und verdienen je einen Satz:
 Ob eine Seitenspalte beim Rollen stehen bleibt, entscheiden **drei Variablen je Spalte**, und sie
 gehören zusammen: Eine Spalte, die stehen bleibt, braucht einen Höhendeckel (sonst ragt sie aus dem
 Fenster und bleibt gar nicht stehen) und eine weiche Unterkante (sonst schneidet der Deckel eine
-Zeile mitten durch). Wer umstellt, stellt alle drei um.
+Zeile mitten durch). Wer die rechte Spalte umstellt, stellt alle drei um; links genügt die
+Position (siehe unten).
 
 | Variable | stehen bleiben | mitlaufen |
 | --- | --- | --- |
@@ -69,6 +70,15 @@ Zeile mitten durch). Wer umstellt, stellt alle drei um.
 Für `…` steht `left` oder `right`. **Die Vorgabe:** rechts bleibt stehen, links läuft mit. Ein
 halber Zustand ist möglich und sieht aus wie ein Fehler — `static` mit Höhendeckel ist eine Spalte,
 die mitten im Text aufhört und in sich selbst rollt.
+
+**Links genügt die Position.** Steht `--tpl-col-left-position` auf `sticky` und stehen Höhe und
+Maske noch auf `none`, setzt die Vorlage die zwei Werte aus der Tabelle selbst ein. Wer eine eigene
+Höhe einträgt, behält sie. Das gilt in allen aktuellen Browsern; ein älterer ohne diese Fähigkeit
+braucht weiter alle drei Zeilen.
+
+Eine Spalte, die in sich selbst rollt, gibt das Mausrad an ihrem Ende an die Seite weiter. Und eine,
+die nichts zu rollen hat, hält es gar nicht erst fest — die Seite rollt, auch wenn der Mauszeiger
+über der Navigation steht.
 
 Links umzustellen ist eine Entscheidung mit Folgen: Die Navigation dieses Handbuchs ist mit offenem
 Kapitel rund 1640 px hoch, auf der Startseite rund 2560 px, bei 900 px Fensterhöhe. Stehen bleiben
@@ -93,17 +103,17 @@ Variable stehen.
 
 ## Was sich wiederholt, und warum es das darf
 
-Zwei Formen stehen in mehreren Stylesheets fast wortgleich:
+Zwei Formen stehen in mehreren Abschnitten der Stylesheets fast wortgleich:
 
-| Form | in wie vielen Dateien |
+| Form | in wie vielen Abschnitten |
 | --- | ---: |
 | Die Panel-Überschrift — Überschriftenschrift, versal, halbfett, gedämpft, `--tpl-tracking-label` | 9 |
 | Der überfahrene Link — Akzentfarbe, unterstrichen, `--tpl-underline-offset` | 8 |
 
-Das ließe sich zu einer gemeinsamen Datei zusammenziehen, und genau das wäre hier falsch. Die
-Stylesheets sind nach Komponenten geschnitten, und die Doku hängt daran: Auf jeder Seite dieses
+Das ließe sich zu einer gemeinsamen Regel zusammenziehen, und genau das wäre hier falsch. Die
+Abschnitte der Stylesheets sind nach Komponenten geschnitten, und die Doku hängt daran: Auf jeder Seite dieses
 Bereichs steht die Tabelle der Variablen, die *ihre* Komponente liest. Zöge man die Panel-Überschrift
-nach `base.scss`, verschwände sie aus neun dieser Tabellen und tauchte in einer auf, die niemand
+in den Abschnitt `base`, verschwände sie aus neun dieser Tabellen und tauchte in einer auf, die niemand
 liest, während man die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] anpasst.
 
 Was geteilt werden muss, sind die **Werte** — und die sind es: `--tpl-tracking-label` und
@@ -124,17 +134,17 @@ Grundabstand ändern will, sucht ihn an vielen Stellen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 48 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 49 Variablen liest der Abschnitt `base` in `foundation.scss`, `layout.scss` und `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--bodyFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 3 weitere Komponenten |
-| `--col-ring-reach` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--col-ring-reach` | im Stylesheet gesetzt (`layout.scss`) | nur hier |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
-| `--icon-chevron` | im Stylesheet gesetzt (`base.scss`) | Callouts |
+| `--icon-chevron` | im Stylesheet gesetzt (`foundation.scss`) | Callouts |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
 | `--tpl-col-left-height` | `none` | nur hier |
 | `--tpl-col-left-mask` | `none` | nur hier |
@@ -143,12 +153,13 @@ Diese 48 Variablen liest `base.scss`. Ändern lassen sie sich in der App unter *
 | `--tpl-col-right-mask` | `var(--tpl-fade-mask-end)` | nur hier |
 | `--tpl-col-right-position` | `sticky` | nur hier |
 | `--tpl-fade` | `14px` | nur hier |
-| `--tpl-fade-mask` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--tpl-fade-mask` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--tpl-fade-mask-end` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
 | `--tpl-focus-color` | `var(--secondary)` = `#1463A3` | nur hier |
 | `--tpl-focus-offset` | `2px` | Callouts, Explorer |
 | `--tpl-focus-width` | `2px` | Callouts, Explorer |
-| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | Explorer, Die Navigation |
-| `--tpl-header-pad` | im Stylesheet gesetzt (`base.scss`) | Kopfbereich |
+| `--tpl-header-h` | im Stylesheet gesetzt (`layout.scss`) | Explorer, Die Navigation |
+| `--tpl-header-pad` | im Stylesheet gesetzt (`layout.scss`) | Kopfbereich |
 | `--tpl-icon-sm` | `0.95rem` | 3 weitere Komponenten |
 | `--tpl-leading-normal` | `1.6` | Die Navigation |
 | `--tpl-leading-snug` | `1.4rem` | 4 weitere Komponenten |

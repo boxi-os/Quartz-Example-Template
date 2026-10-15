@@ -43,17 +43,17 @@ Ein Wert, der hier geändert wird, wird auch hier gemessen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 31 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 31 Variablen liest der Abschnitt `body-callouts` in `callouts.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
-| `--bg` | im Stylesheet gesetzt (`body-callouts.scss`) | nur hier |
-| `--border` | im Stylesheet gesetzt (`body-callouts.scss`) | nur hier |
-| `--callout-tint` | im Stylesheet gesetzt (`body-callouts.scss`) | nur hier |
+| `--bg` | im Stylesheet gesetzt (`callouts.scss`) | nur hier |
+| `--border` | im Stylesheet gesetzt (`callouts.scss`) | nur hier |
+| `--callout-tint` | im Stylesheet gesetzt (`callouts.scss`) | nur hier |
 | `--color` | — | nur hier |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
-| `--icon-chevron` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen |
+| `--icon-chevron` | im Stylesheet gesetzt (`foundation.scss`) | 6.4 – Variablen |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
 | `--tpl-accent-bar` | `3px` | 6 weitere Komponenten |
 | `--tpl-callout-abstract` | `#0369A1` · dunkel `#67C7EF` | nur hier |
@@ -69,8 +69,8 @@ Diese 31 Variablen liest `body-callouts.scss`. Ändern lassen sie sich in der Ap
 | `--tpl-callout-tip` | `#0F766E` · dunkel `#5AD3BC` | nur hier |
 | `--tpl-callout-todo` | `#0E7490` · dunkel `#5AC8DE` | nur hier |
 | `--tpl-callout-warning` | `#9A4B06` · dunkel `#F0A868` | nur hier |
-| `--tpl-focus-offset` | `2px` | 6.4 – Variablen, Explorer |
-| `--tpl-focus-width` | `2px` | 6.4 – Variablen, Explorer |
+| `--tpl-focus-offset` | `2px` | Explorer, 6.4 – Variablen |
+| `--tpl-focus-width` | `2px` | Explorer, 6.4 – Variablen |
 | `--tpl-motion` | `150ms ease` | 13 weitere Komponenten |
 | `--tpl-radius-md` | `8px` | 17 weitere Komponenten |
 | `--tpl-radius-sm` | `4px` | 10 weitere Komponenten |

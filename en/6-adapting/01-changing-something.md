@@ -21,9 +21,9 @@ column that says what else moves with it. Touching `--tpl-space-md` moves the wh
 
 ## 2 · A rule in an existing stylesheet
 
-When a variable is not enough because it is not the value but the shape: the 30 stylesheets sit
-under *Styles → Custom CSS*, **one per component**. Which one belongs to a component stands in the
-same table at the bottom of its page.
+When a variable is not enough because it is not the value but the shape: the twelve stylesheets sit
+under *Styles → Custom CSS*, **in sections by component**. Which file and which section a component
+stands in is said by the table at the bottom of its page.
 
 That changes the template itself. Importing a template package again can overwrite it — for a
 change meant to last, the third way is the safer one.
@@ -47,11 +47,13 @@ With [[en/7-reference/01-glossary#Mermaid|Mermaid]] none of the three ways works
 six more, hard-wired in Quartz's script). Everything else Mermaid colours itself — and writes as a
 `<style>` carrying that SVG's own id into the graphic, an ID selector no class rule can beat.
 
-That is why `body-mermaid.scss` holds 129 `!important` — and why your own rule needs one too. For
-comparison: the other 29 stylesheets together hold 21, each with its reason beside it.
+That is why the `body-mermaid` section of `content.scss` holds 129 `!important` — and why your own
+rule needs one too. For comparison: all the other sections together hold 21, each with its reason
+beside it.
 
 ## What not to touch
 
-`custom.scss` holds three blocks between markers (`imports`, `fonts`, `css-vars`). The app rewrites
-those on every save — whatever you enter there by hand is gone with the next click. The text outside
-the markers stays.
+The load order, the fonts and the variables stand as blocks between markers in `_quartzcontrol.scss`,
+a file of their own next to `custom.scss`. The app rewrites those on every save — whatever you enter
+there by hand is gone with the next click. `custom.scss` is yours; the app only puts the one line
+`@use "./quartzcontrol";` at its top, which loads the blocks.

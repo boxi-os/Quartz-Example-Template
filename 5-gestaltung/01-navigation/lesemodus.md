@@ -12,11 +12,11 @@ Der Lesemodus blendet die Seitenleisten aus, solange man auf der Seite bleibt.
 
 ## Von Haus aus
 
-Ein Knopf, der den Modus umschaltet. Die einzige Rückmeldung ist, dass die Seite anders aussieht.
+Ein Button, der den Modus umschaltet. Die einzige Rückmeldung ist, dass die Seite anders aussieht.
 
 ## In dieser Vorlage
 
-Der Knopf **zeigt seinen Zustand**: Bei eingeschaltetem Lesemodus wechseln Rand, Fläche und Symbol
+Der Button **zeigt seinen Zustand**: Bei eingeschaltetem Lesemodus wechseln Rand, Fläche und Symbol
 auf die Akzentfarbe. Wer ihn versehentlich getroffen hat, sieht woran es liegt — sonst ist die
 einzige Rückmeldung, dass plötzlich die halbe Seite fehlt.
 
@@ -29,7 +29,7 @@ Maße wie bei den Nachbarn: 44 × 44 px, gleicher Rahmen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 10 Variablen liest `nav-reader-mode.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 10 Variablen liest der Abschnitt `nav-reader-mode` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

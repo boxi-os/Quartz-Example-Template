@@ -21,9 +21,9 @@ bewegt zwei weiche Kanten.
 
 ## 2 · Eine Regel im vorhandenen Stylesheet
 
-Wenn eine Variable nicht reicht, weil es nicht der Wert ist, sondern die Form: die 30 Stylesheets
-liegen unter *Stile → Eigenes CSS*, **eins je Komponente**. Welches zu einer Komponente gehört,
-steht in derselben Tabelle unten auf ihrer Seite.
+Wenn eine Variable nicht reicht, weil es nicht der Wert ist, sondern die Form: die zwölf Stylesheets
+liegen unter *Stile → Eigenes CSS*, **in Abschnitten je Komponente**. In welcher Datei und in welchem
+Abschnitt eine Komponente steht, sagt die Tabelle unten auf ihrer Seite.
 
 Das ändert die Vorlage selbst. Beim nächsten Import eines Vorlagenpakets kann das überschrieben
 werden — für eine dauerhafte Änderung ist der dritte Weg der sicherere.
@@ -48,12 +48,13 @@ sechs weitere, fest im Quartz-Skript verdrahtet). Alles andere färbt Mermaid se
 es als `<style>` mit der Kennung des jeweiligen SVG in die Grafik, also mit einem ID-Selektor, den
 keine Klassenregel schlägt.
 
-Deshalb stehen in `body-mermaid.scss` 129 `!important` — und deshalb braucht auch deine eigene Regel
-eins. Zum Vergleich: In den 29 anderen Stylesheets zusammen sind es 21, jedes mit einer
-Begründung daneben.
+Deshalb stehen im Abschnitt `body-mermaid` von `content.scss` 129 `!important` — und deshalb braucht
+auch deine eigene Regel eins. Zum Vergleich: In allen anderen Abschnitten zusammen sind es 21, jedes
+mit einer Begründung daneben.
 
 ## Was du nicht anfassen solltest
 
-In `custom.scss` stehen drei Blöcke zwischen Markierungen (`imports`, `fonts`, `css-vars`). Die
-schreibt die App bei jedem Speichern neu — was du dort von Hand einträgst, ist beim nächsten Klick
-weg. Der Text außerhalb der Markierungen bleibt.
+Die Ladereihenfolge, die Schriften und die Variablen stehen als Blöcke zwischen Markierungen in
+`_quartzcontrol.scss`, einer eigenen Datei neben `custom.scss`. Die schreibt die App bei jedem
+Speichern neu — was du dort von Hand einträgst, ist beim nächsten Klick weg. `custom.scss` gehört
+dir; die App setzt dort nur die eine Zeile `@use "./quartzcontrol";` ganz oben, die die Blöcke lädt.

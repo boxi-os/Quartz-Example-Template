@@ -49,7 +49,7 @@ Transparenz. Beide sind gegen die Textfarbe gemessen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 29 Variablen liest `body-content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 29 Variablen liest der Abschnitt `body-content` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
@@ -57,12 +57,12 @@ Diese 29 Variablen liest `body-content.scss`. Ändern lassen sie sich in der App
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
-| `--icon-task-cancelled` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-task-doing` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-task-done` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-task-forwarded` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-task-open` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-task-question` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--icon-task-cancelled` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-task-doing` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-task-done` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-task-forwarded` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-task-open` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-task-question` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
 | `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tertiary` | `#196B6B` · dunkel `#2CAFAD` | 2.9 – Diagramme, Die Instanzen |
 | `--textHighlight` | `rgba(226, 189, 92, 0.55)` · dunkel `rgba(140, 184, 218, 0.30)` | Suchergebnisse |

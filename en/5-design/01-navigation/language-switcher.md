@@ -62,7 +62,7 @@ then on, regardless of the browser language.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 23 variables are read by `nav-language-switcher.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 23 variables are read by the section `nav-language-switcher` in `plugin-multilanguage.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

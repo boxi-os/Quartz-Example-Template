@@ -57,13 +57,13 @@ Der Titel ist der Tag-Name als reiner Text. Diese Vorlage stellt ihm ein Rautenz
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 14 Variablen liest `page-listing.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 14 Variablen liest der Abschnitt `page-listing` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
-| `--icon-tag` | im Stylesheet gesetzt (`base.scss`) | Tags |
+| `--icon-tag` | im Stylesheet gesetzt (`foundation.scss`) | Tags |
 | `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tpl-rule` | `var(--lightgray)` = `#DDDDDD` | 19 weitere Komponenten |
 | `--tpl-rule-width` | `1px` | 25 weitere Komponenten |

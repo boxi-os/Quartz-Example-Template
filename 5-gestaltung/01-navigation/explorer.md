@@ -60,7 +60,7 @@ Struktur nicht.
   viel Innenabstand, wie die Kante tief ist: Ganz oben steht die erste Zeile deshalb *unter* dem
   Verlauf statt darin, ganz unten die letzte darüber. Beide Enden liest man in voller Stärke; weich
   wird nur, was gerade vorbeizieht.
-- **Am Telefon ist er eine Schublade.** Der Knopf sitzt in der App-Leiste, wird beim Öffnen zum
+- **Am Telefon ist er eine Schublade.** Der Button sitzt in der App-Leiste, wird beim Öffnen zum
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.
 
@@ -123,37 +123,37 @@ Der Explorer **selbst** — die ganze Komponente — ist dagegen aufgeklappt und
 Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe Navigation.
 
 > [!bug] Und einer, der hausgemacht war
-> Genau das ging eine Zeit lang schief: Eine Regel dieser Vorlage gab dem Schubladen-Knopf
+> Genau das ging eine Zeit lang schief: Eine Regel dieser Vorlage gab dem Schubladen-Button
 > `display: grid`, ohne ihn auf schmale Fenster zu beschränken. Weil hier alles ungeschichtet steht,
-> schlug das Quartz' eigenes `display: none` — der Knopf war auch bei 1600 px da. Und das Skript des
-> Plugins endet mit „wenn dieser Knopf sichtbar ist, klapp den Baum zu“. Der Baum war also auf jedem
+> schlug das Quartz' eigenes `display: none` — der Button war auch bei 1600 px da. Und das Skript des
+> Plugins endet mit „wenn dieser Button sichtbar ist, klapp den Baum zu“. Der Baum war also auf jedem
 > Desktop-Aufruf zu, obwohl er gerendert wurde.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 38 Variablen liest `nav-explorer.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 38 Variablen liest der Abschnitt `nav-explorer` in `components-navigation.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |
 | `--dark` | `#17171A` · dunkel `#FCFCFA` | 13 weitere Komponenten |
 | `--darkgray` | `#333333` · dunkel `#DDDDDD` | 18 weitere Komponenten |
-| `--explorer-ring-reach` | im Stylesheet gesetzt (`nav-explorer.scss`) | nur hier |
+| `--explorer-ring-reach` | im Stylesheet gesetzt (`components-navigation.scss`) | nur hier |
 | `--gray` | `#5F5F5F` · dunkel `#A1A1A1` | 22 weitere Komponenten |
 | `--headerFont` | `"Noto Sans", system-ui, "Segoe UI", Robot…` | 15 weitere Komponenten |
-| `--icon-close` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-file` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-folder` | im Stylesheet gesetzt (`base.scss`) | nur hier |
-| `--icon-folder-open` | im Stylesheet gesetzt (`base.scss`) | nur hier |
+| `--icon-close` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-file` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-folder` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
+| `--icon-folder-open` | im Stylesheet gesetzt (`foundation.scss`) | nur hier |
 | `--light` | `#FCFCFA` · dunkel `#16171A` | 14 weitere Komponenten |
 | `--secondary` | `#1463A3` · dunkel `#699DC3` | 19 weitere Komponenten |
 | `--tpl-accent-bar` | `3px` | 6 weitere Komponenten |
 | `--tpl-backdrop` | `rgba(0, 0, 0, 0.3)` | Die Navigation |
 | `--tpl-backdrop-blur` | `4px` | Die Navigation |
 | `--tpl-drawer-width` | `min(86vw, 340px)` | Die Navigation |
-| `--tpl-focus-offset` | `2px` | 6.4 – Variablen, Callouts |
-| `--tpl-focus-width` | `2px` | 6.4 – Variablen, Callouts |
-| `--tpl-header-h` | im Stylesheet gesetzt (`base.scss`) | 6.4 – Variablen, Die Navigation |
+| `--tpl-focus-offset` | `2px` | Callouts, 6.4 – Variablen |
+| `--tpl-focus-width` | `2px` | Callouts, 6.4 – Variablen |
+| `--tpl-header-h` | im Stylesheet gesetzt (`layout.scss`) | 6.4 – Variablen, Die Navigation |
 | `--tpl-icon` | `1.1rem` | 3 weitere Komponenten |
 | `--tpl-icon-sm` | `0.95rem` | 3 weitere Komponenten |
 | `--tpl-indent` | `0.85rem` | Inhaltsverzeichnis, Die Navigation |

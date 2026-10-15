@@ -17,7 +17,7 @@ cover: "[[assets/covers/cover-medien.svg]]"
 
 ![[beispiel-ton.wav]]
 
-Aus dem [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] wird ein `<audio controls>` — mit Abspielknopf, Fortschritt und Lautstärke, ohne
+Aus dem [[7-nachschlagen/01-glossar#Wikilink|Wikilink]] wird ein `<audio controls>` — mit Play-Button, Fortschritt und Lautstärke, ohne
 dass man etwas dafür tut. Unterstützt werden die Formate, die der Browser kennt: **WAV**, **MP3**,
 **OGG**, **M4A**, **FLAC**, **WebM**.
 

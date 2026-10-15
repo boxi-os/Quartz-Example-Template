@@ -35,7 +35,7 @@ whole path stands over four stations.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by `meta-breadcrumbs.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by the section `meta-breadcrumbs` in `components-navigation.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |
