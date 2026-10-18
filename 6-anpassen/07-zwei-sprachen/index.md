@@ -42,7 +42,7 @@ fällt in die Standardsprache — das genügt.
 - **`hreflang` und `og:locale`.** Jede Seite mit Übersetzung bekommt `<link rel="alternate">` auf
   ihre Geschwister und ein `x-default`. Dafür braucht die Konfiguration `baseUrl`.
 - **Hinweise über der Seite.** Wer mit englischer Browsersprache auf einer deutschen Seite landet,
-  bekommt oben einen Kasten: „Diese Seite gibt es auch auf Englisch." Der Text wird erst im Browser
+  bekommt oben einen Kasten: „Diese Seite gibt es auch auf Englisch.“ Der Text wird erst im Browser
   eingesetzt und steht deshalb weder im Suchindex noch in der Beschreibung.
 - **Daten in der Seitensprache.** `localizeDates: true` formatiert jedes `<time>`-Element im
   Browser nach — das Einzige an der Quartz-Oberfläche, was ohne zweiten [[7-nachschlagen/01-glossar#Build|Build]] zweisprachig wird.

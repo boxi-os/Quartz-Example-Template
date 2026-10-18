@@ -34,12 +34,12 @@ heading read as an indent.
 ## Where it stands
 
 **Below the text**, not in the sidebar, and there in a row with the backlinks — two boxes side by
-side, always in two columns above phone width, one below the other underneath. Until 2026-09-10 it
+side, always in two columns above smartphone width, one below the other underneath. Until 2026-09-10 it
 stood at the top left in the sidebar under the [[en/7-reference/01-glossary#Explorer|explorer]]; there it was a third list in a column
 that already carried two.
 
 It is therefore no longer restricted to the desktop either. A box under the article is no obstacle
-on a phone but the thing that comes after reading.
+on a smartphone but the thing that comes after reading.
 
 ## Folder pages do not appear in it
 
@@ -71,7 +71,7 @@ belong to the component you first saw it in.**
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by the section `aside-recent-notes` in `components-note.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 13 variables are read by the section `aside-recent-notes` in `components-note.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

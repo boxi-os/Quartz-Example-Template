@@ -34,14 +34,14 @@ namens `quartz.config.yaml` im Projekt.
 ## QuartzControl — hier wird bedient
 
 QuartzControl ist die Oberfläche für Quartz. Ohne sie bedient man Quartz über die Kommandozeile
-und bearbeitet die Konfiguration im Texteditor; mit ihr klickt man. Die App legt Projekte an,
+und bearbeitet die Konfiguration im Texteditor; mit ihr klickt man. QuartzControl legt Projekte an,
 verknüpft den Inhalt mit einem Vault, installiert Plugins, ändert Farben und Schriften, baut
 Seitenraster in einem Editor, startet die Vorschau, baut die Website und veröffentlicht sie. Ein
 **Projekt** ist dabei ein Ordner mit einer Quartz-Installation; QuartzControl kann mehrere davon
 verwalten.
 
 Diese Vorlage ist mit QuartzControl gebaut und für QuartzControl gemacht: Alles, was sie
-einstellt, ist in der App sichtbar und änderbar.
+einstellt, ist in QuartzControl sichtbar und änderbar.
 
 ## git — hier wird die Geschichte geführt
 

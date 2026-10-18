@@ -12,7 +12,7 @@ Alles, womit man sich durch die Website bewegt. Jedes davon ist ein Bedienelemen
 ## Die Seiten
 
 - [[5-gestaltung/01-navigation/sprachumschalter|Der Sprachumschalter]] — Drei Bauformen, eine davon sichtbar — und wo sie steht.
-- [[5-gestaltung/01-navigation/navigation|Die Navigation]] — Das Akkordeon links, die Schublade am Telefon, „Zurück“ und „Weiter“ unter dem Text.
+- [[5-gestaltung/01-navigation/navigation|Die Navigation]] — Das Akkordeon links, die Schublade am Smartphone, „Zurück“ und „Weiter“ unter dem Text.
 - [[5-gestaltung/01-navigation/explorer|Explorer]] — Der Ordnerbaum — in dieser Vorlage abgeschaltet und trotzdem bis zur vierten Ebene gestaltet.
 - [[5-gestaltung/01-navigation/farbschema|Farbschema-Umschalter]] — Der Button zwischen hell und dunkel.
 - [[5-gestaltung/01-navigation/fusszeile|Fußzeile]] — Was unter jeder Seite steht — und aus welchen zwei [[7-nachschlagen/01-glossar#Baustein|Bausteinen]] es besteht.

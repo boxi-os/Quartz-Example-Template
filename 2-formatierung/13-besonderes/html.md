@@ -58,7 +58,7 @@ Doppelpunktzeile bleibt als Text stehen. Wer sie braucht, schreibt HTML:
   <dd>Die Erklärung dazu</dd>
 </dl>
 
-Für die meisten Fälle tut es eine Tabelle mit zwei Spalten — und die ist auf einem Telefon besser
+Für die meisten Fälle tut es eine Tabelle mit zwei Spalten — und die ist auf einem Smartphone besser
 zu lesen.
 
 > [!warning] HTML wird nicht bereinigt

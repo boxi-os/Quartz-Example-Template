@@ -17,7 +17,7 @@ mit allen sechs Ebenen und eine Seitenleiste, die länger wird als das Fenster.
 
 ## Die Teile einer Seite
 
-Am Desktop hat eine Seite drei Spalten, auf dem Tablet zwei, am Telefon eine. Die Namen in der
+Am Desktop hat eine Seite drei Spalten, auf dem Tablet zwei, am Smartphone eine. Die Namen in der
 Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
 
 | Teil | Wo | Was darin steht |
@@ -27,7 +27,7 @@ Tabelle sind die, die auch QuartzControl im Layout-Editor benutzt.
 | **Über dem Inhalt** (beforeBody) | über dem Text | die [[7-nachschlagen/01-glossar#Brotkrumen\|Brotkrumen]] (der Pfad von der Startseite hierher), die Tags, der Titel, Datum und Lesezeit |
 | **Inhalt** (body) | Mitte | die Notiz selbst |
 | **Der freie Bereich** (custom-8) | direkt unter dem Text | zwei Kästen nebeneinander: die zuletzt geänderten Seiten und die [[7-nachschlagen/01-glossar#Rückverweise\|Rückverweise]] (welche Seiten hierher verlinken) |
-| **Nach dem Inhalt** (afterBody) | darunter | die Box „Weiterlesen“, die Eigenschaften-Tabelle, am Telefon der Hinweis auf die eingeklappte Navigation, ganz unten „Zurück“ und „Weiter“ |
+| **Nach dem Inhalt** (afterBody) | darunter | die Box „Weiterlesen“, die Eigenschaften-Tabelle, am Smartphone der Hinweis auf die eingeklappte Navigation, ganz unten „Zurück“ und „Weiter“ |
 | **Rechte Spalte** (right) | rechts | das Inhaltsverzeichnis und der [[7-nachschlagen/01-glossar#Graph\|Graph]] |
 | **Fußzeile** (footer) | unten | die Impressumszeile |
 

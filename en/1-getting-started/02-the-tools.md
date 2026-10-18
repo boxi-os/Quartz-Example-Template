@@ -33,13 +33,13 @@ plugins there are and how they are set stands in a configuration file called
 ## QuartzControl — where the operating happens
 
 QuartzControl is the interface for Quartz. Without it you operate Quartz from the command line and
-edit the configuration in a text editor; with it you click. The app creates projects, links the
+edit the configuration in a text editor; with it you click. QuartzControl creates projects, links the
 content to a vault, installs plugins, changes colours and typefaces, builds page grids in an
 editor, starts the preview, builds the site and publishes it. A **project** is a folder with a
 Quartz installation; QuartzControl can manage several of them.
 
 This template is built with QuartzControl and made for QuartzControl: everything it sets is
-visible and changeable in the app.
+visible and changeable in QuartzControl.
 
 ## git — where the history is kept
 

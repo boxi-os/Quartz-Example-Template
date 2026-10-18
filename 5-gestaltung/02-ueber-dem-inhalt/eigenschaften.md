@@ -36,7 +36,7 @@ mitbringt.
 
 ## Der Fund mit der Zellenbreite
 
-Die naheliegende Lösung für „der Schlüssel ist so breit wie sein Inhalt" ist `width: 1%` auf der
+Die naheliegende Lösung für „der Schlüssel ist so breit wie sein Inhalt“ ist `width: 1%` auf der
 Schlüsselzelle. Gemessen: Die Zelle wurde 7,94 px breit — exakt 1 % der Tabelle — und der Schlüssel
 lag über dem Wert.
 
@@ -46,7 +46,7 @@ alles, was übrig ist, und lässt dem Schlüssel seine Inhaltsbreite.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 16 Variablen liest der Abschnitt `meta-note-properties` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 16 Variablen liest der Abschnitt `meta-note-properties` in `components-note.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

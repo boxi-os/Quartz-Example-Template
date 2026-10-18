@@ -36,7 +36,7 @@ Die Kurzfassung; was jedes Feld im Einzelnen tut, steht in
 | `title` | Seitentitel, Browsertitel, Beschriftung in Listen und Suche |
 | `description` | Vorschautext in Suche, Listen und beim Teilen |
 | `tags` | Tag-Liste unter dem Titel, Tag-Seiten, Verweise |
-| `date` / `lastmod` | Datum unter dem Titel, Sortierung in „Zuletzt geändert" |
+| `date` / `lastmod` | Datum unter dem Titel, Sortierung in „Zuletzt geändert“ |
 | `aliases` | Weiterleitungen von anderen Pfaden — siehe [[2-formatierung/04-links/aliase\|Aliase]] |
 | `draft: true` | Die Seite wird gar nicht erst gebaut |
 | `unlisted: true` | Die Seite wird gebaut, taucht aber in keiner Liste auf |

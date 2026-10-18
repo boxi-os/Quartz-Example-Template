@@ -45,7 +45,7 @@ Three decisions carry everything else; in full they stand under
    light and dark, the thirteen restated [[en/7-reference/01-glossary#Callout|callout]] colours included. Quartz's own do not — eleven of
    their thirteen types fail.
 3. **No [[en/7-reference/01-glossary#Stylesheet|stylesheet]] sets a colour or a measure itself.** Both come from variables that stay
-   editable in the app after the import.
+   editable in QuartzControl after the import.
 
 ## Two languages, one vault
 

@@ -75,7 +75,7 @@ nicht in einer Kopie und nicht in der Vorlesereihenfolge.
 
 ## Der Kopier-Button
 
-**Von Haus aus** erscheint er nur beim Überfahren mit dem Zeiger — auf einem Telefon ist er damit
+**Von Haus aus** erscheint er nur beim Überfahren mit dem Zeiger — auf einem Smartphone ist er damit
 unerreichbar.
 
 **In dieser Vorlage** erscheint er bei [[7-nachschlagen/01-glossar#Hover|Hover]], **bei Fokus** und **dauerhaft auf Geräten ohne
@@ -86,7 +86,7 @@ Und er ist **nur das Symbol**: kein Rahmen, keine Fläche. Sein Zustand ist die 
 von `gray` auf `dark`.
 
 > [!bug] Die Ausnahme von der Schichtungsregel
-> „Alles in `custom.scss` steht ungeschichtet und gewinnt deshalb gegen die Plugin-Stile" — für
+> „Alles in `custom.scss` steht ungeschichtet und gewinnt deshalb gegen die Plugin-Stile“ — für
 > Komponenten-CSS stimmt das, für **Ressourcen-Stylesheets** nicht. Quartz liefert die Gestaltung
 > dieses Buttons in `static/resource-style-….css` aus, ungeschichtet und *nach* `index.css`
 > verlinkt. Bei gleicher Spezifität gewinnt damit die spätere Regel:
@@ -107,7 +107,7 @@ Fläche **und** Balken links. Eine Tönung allein ist auf einem ohnehin getönte
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 22 Variablen liest der Abschnitt `body-code` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 22 Variablen liest der Abschnitt `body-code` in `content.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

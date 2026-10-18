@@ -11,9 +11,9 @@ layoutBoxCta:
 translationKey: seiten-steuern/layout-boxen-je-seite
 ---
 
-Eine **Layout-Box** ist ein Kasten mit eigenem Inhalt, den das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *quartz-layout-box* an eine
-Stelle des Seitenlayouts setzt — die Wortmarke oben, die Box „Über dieses Handbuch“ links, der
-Kasten „Weiterlesen“ unter dem Text. Diese Vorlage hat sieben davon; was jede tut, steht in
+Eine **Layout-Box** ist ein Stück eigener Inhalt, den das [[7-nachschlagen/01-glossar#Plugin|Plugin]] *quartz-layout-box* an eine
+Stelle des Seitenlayouts setzt — die Wortmarke oben, die Box „Über dieses Handbuch“ links, die
+Box „Weiterlesen“ unter dem Text. Diese Vorlage hat sieben davon; was jede tut, steht in
 [[5-gestaltung/05-layout-boxen/index|5.5 – Layout-Boxen]]. Hier geht es darum, wie eine einzelne
 Seite eine davon anders haben kann.
 
@@ -28,7 +28,7 @@ layoutBoxCta:
 ```
 
 **Was man sehen sollte:** Die Box „Über dieses Handbuch“ in der linken Spalte fehlt hier — auf
-allen anderen Seiten ist sie da. Und der Kasten unter diesem Text zeigt einen anderen Inhalt als
+allen anderen Seiten ist sie da. Und die Box unter diesem Text zeigt einen anderen Inhalt als
 sonst.
 
 ## Die drei Formen
@@ -76,5 +76,5 @@ Wenn beides zutrifft, gewinnt das Frontmatter. Die Rangfolge ist:
 2. `byLang` für die Sprache dieser Seite
 3. die Grundeinstellung des Eintrags
 
-Diese Seite ist die Probe darauf: Ihr Kasten unter dem Text zeigt in beiden Sprachen den eigenen
+Diese Seite ist die Probe darauf: Ihre Box unter dem Text zeigt in beiden Sprachen den eigenen
 Text aus dem Frontmatter, trägt aber die Überschrift, die `byLang` für die jeweilige Sprache setzt.

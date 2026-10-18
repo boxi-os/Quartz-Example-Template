@@ -45,7 +45,7 @@ Drei Entscheidungen tragen alles andere; ausführlich stehen sie unter
    und dunkel, die dreizehn neu gesetzten Callout-Farben eingeschlossen. Quartz' eigene tun das
    nicht — elf ihrer dreizehn Typen scheitern.
 3. **Kein [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]] setzt eine Farbe oder ein Maß selbst.** Beides kommt aus Variablen, die nach
-   dem Import in der App bearbeitbar bleiben.
+   dem Import in QuartzControl bearbeitbar bleiben.
 
 ## Zwei Sprachen, ein Vault
 

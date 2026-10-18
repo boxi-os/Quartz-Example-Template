@@ -69,7 +69,7 @@ Three differences from the default:
   does not end up in a copy.
 - The **copy button** is 44 px across and appears on [[en/7-reference/01-glossary#Hover|hover]], on focus *and* permanently on devices
   without a pointer. **Out of the box** it is only visible on hover and therefore unreachable on a
-  phone.
+  smartphone.
 - The **background** comes from the template, not from the syntax theme: `keepBackground: false`
   makes shiki set only the colours of the characters. That way the block fits in both colour
   schemes.

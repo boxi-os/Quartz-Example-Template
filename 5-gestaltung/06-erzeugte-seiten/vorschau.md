@@ -26,13 +26,13 @@ Vorschau soll die Frage beantworten, ob sich der Klick lohnt — mehr nicht.
 ## Nur mit Zeiger
 
 Bei `@media (hover: none)` wird sie ganz abgeschaltet. Daraus folgt eine Regel für den Inhalt:
-**Keine Information darf ausschließlich in einer Vorschau stehen**, denn auf einem Telefon gibt es
+**Keine Information darf ausschließlich in einer Vorschau stehen**, denn auf einem Smartphone gibt es
 sie nicht.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 13 Variablen liest der Abschnitt `page-popover` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 13 Variablen liest der Abschnitt `page-popover` in `pages.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

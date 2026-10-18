@@ -77,5 +77,5 @@ Direkt eingefügt: 📐 ✓ ⚠️
 Direkt eingefügt: 📐 ✓ ⚠️
 
 > [!tip] Emoji sind kein Ersatz für Text
-> Ein Screenreader liest „Warnschild" vor, nicht „Achtung". Als Schmuck neben einem Wort in
+> Ein Screenreader liest „Warnschild“ vor, nicht „Achtung“. Als Schmuck neben einem Wort in
 > Ordnung, als alleiniger Träger einer Information nicht.

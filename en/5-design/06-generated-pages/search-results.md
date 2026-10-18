@@ -26,7 +26,7 @@ Cards with a title, a path and an excerpt.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by the section `page-search-results` in `components-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 17 variables are read by the section `page-search-results` in `components-header.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

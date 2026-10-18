@@ -35,4 +35,4 @@ stattdessen.
 
 > [!warning] Zugeklappter Inhalt ist trotzdem im Dokument
 > Wer die Seite durchsucht oder ausdruckt, bekommt auch den zugeklappten Text. Faltbar heißt
-> „ordentlich", nicht „versteckt".
+> „ordentlich“, nicht „versteckt“.

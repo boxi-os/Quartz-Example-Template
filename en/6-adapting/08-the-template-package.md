@@ -72,4 +72,4 @@ this one does that through the vault.
 
 Whoever has changed this template and wants to pass the result on exports a new package under
 *Templates* — with the parts that changed. The recipient imports it into their project and
-chooses the same parts. What they overwrite in doing so, the app tells them beforehand.
+chooses the same parts. What they overwrite in doing so, QuartzControl tells them beforehand.

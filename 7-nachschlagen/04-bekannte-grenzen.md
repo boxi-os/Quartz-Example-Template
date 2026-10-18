@@ -53,6 +53,6 @@ Grenzen von QuartzControl, und die sind gemeldet. Die verlinkte Seite hat jeweil
 | --- | --- | --- |
 | Der [[7-nachschlagen/01-glossar#Baustein\|Baustein]] Übersetzungen erreicht die Überschriften der Komponenten nicht | — | [[6-anpassen/08-das-vorlagenpaket\|6.8 – Das Vorlagenpaket]] |
 | [[7-nachschlagen/01-glossar#Snapshot\|Snapshots]] enthalten den Inhalt nicht, wenn `content/` ein Symlink ist | der [[7-nachschlagen/01-glossar#Vault\|Vault]] sichert sich über sein eigenes git | [[1-einstieg/03-von-der-notiz-zur-website\|1.3 – Von der Notiz zur Website]] |
-| Die App schreibt `@font-face`-Regeln ohne `unicode-range` | die Vorlage ersetzt den erzeugten Block | [[6-anpassen/03-schriften\|6.3 – Schriften]] |
+| QuartzControl schreibt `@font-face`-Regeln ohne `unicode-range` | die Vorlage ersetzt den erzeugten Block | [[6-anpassen/03-schriften\|6.3 – Schriften]] |
 | Im Frame-Editor darf ein Wert kein Komma enthalten, und Längen stehen als Zahl, nicht als Variable | `calc()` ohne Komma; Zahlen | [[6-anpassen/05-seitenraster\|6.5 – Seitenraster]] |
-| Drei Blöcke in `custom.scss` schreibt die App bei jedem Speichern neu | eigene Regeln außerhalb der Markierungen oder in eine eigene Datei | [[6-anpassen/01-etwas-aendern\|6.1 – Etwas ändern]] |
+| Drei Blöcke in `custom.scss` schreibt QuartzControl bei jedem Speichern neu | eigene Regeln außerhalb der Markierungen oder in eine eigene Datei | [[6-anpassen/01-etwas-aendern\|6.1 – Etwas ändern]] |

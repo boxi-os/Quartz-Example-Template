@@ -13,7 +13,7 @@ eines aussehen sollen.
 
 ## Von Haus aus
 
-Das Plugin *Footer* schreibt eine Zeile „Erstellt mit Quartz" samt Jahreszahl und darunter die
+Das Plugin *Footer* schreibt eine Zeile „Erstellt mit Quartz“ samt Jahreszahl und darunter die
 Links, die in seinen Optionen stehen — hier vier: Quartz selbst, QuartzControl und die zwei Plugins,
 die diese Vorlage benutzt ([[5-gestaltung/05-layout-boxen/index|Layout-Box]] und Mehrsprachigkeit).
 Gestaltet ist daran nichts; die Links erben, was der Fließtext ihnen vorgibt.
@@ -27,7 +27,7 @@ Gestaltet ist daran nichts; die Links erben, was der Fließtext ihnen vorgibt.
   Fließtext, wo die Unterstreichung Pflicht ist. Hier stehen sie in einer Reihe für sich; dass es
   Links sind, sagt die Reihe.
 - Jeder Link hat **Innenabstand nach oben und unten**. Sie sind klein und oft das Letzte, was
-  jemand auf einem Telefon zu treffen versucht.
+  jemand auf einem Smartphone zu treffen versucht.
 - Die Linkreihe **bricht um** statt überzulaufen.
 
 ## Die zweite Hälfte ist eine Layout-Box
@@ -51,14 +51,14 @@ zwischen den zwei Zeilen zwei verschiedene Lücken.
 > [!note] Kommentare wären der dritte Teil
 > Das Plugin *Comments* (giscus) ist in dieser Vorlage ausgeschaltet — es braucht ein
 > GitHub-Repository, das eine importierende Website nicht hat. Die Gestaltung dafür reist trotzdem
-> mit — im unteren Teil des Abschnitts `site-footer` in `layout.scss` —, damit ein Einschalten in der App nicht einen
+> mit — im unteren Teil des Abschnitts `site-footer` in `layout.scss` —, damit ein Einschalten in QuartzControl nicht einen
 > ungestalteten Rahmen
 > unter jede Seite setzt.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 11 Variablen liest der Abschnitt `site-footer` in `layout.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest der Abschnitt `site-footer` in `layout.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

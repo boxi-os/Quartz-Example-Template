@@ -35,12 +35,12 @@ der Abstand unter der Überschrift las sich wie ein Einzug.
 ## Wo er steht
 
 **Unter dem Text**, nicht in der Seitenleiste, und dort in einer Reihe mit den Rückverweisen — zwei
-Kästen nebeneinander, oberhalb der Telefonbreite immer zweispaltig, darunter untereinander. Bis zum
+Kästen nebeneinander, oberhalb der Smartphone-Breite immer zweispaltig, darunter untereinander. Bis zum
 10.09.2026 stand er links oben in der Seitenleiste unter dem [[7-nachschlagen/01-glossar#Explorer|Explorer]]; dort war er eine dritte
 Liste in einer Spalte, die schon zwei trug.
 
 Er ist damit auch nicht mehr auf den Desktop beschränkt. Ein Kasten unter dem Artikel ist auf einem
-Telefon kein Hindernis mehr, sondern das, was nach dem Lesen kommt.
+Smartphone kein Hindernis mehr, sondern das, was nach dem Lesen kommt.
 
 ## Ordnerseiten stehen nicht drin
 
@@ -72,7 +72,7 @@ nicht der Komponente, in der man ihn zuerst gesehen hat.**
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 13 Variablen liest der Abschnitt `aside-recent-notes` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 13 Variablen liest der Abschnitt `aside-recent-notes` in `components-note.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

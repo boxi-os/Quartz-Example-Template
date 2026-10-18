@@ -80,7 +80,7 @@ dieser einen Seite aufgelöst werden.
 einem Attribut zieht. Das klingt umständlich und ist der einzige Weg, der eine Seite ohne
 Frontmatter überlebt: Einen Platzhalter, den es nicht auflösen kann, lässt das Plugin als Text
 stehen — mit dem Wert im Text hätten 72 der 345 gebauten Seiten `{{frontmatter.section}}` in der
-Leiste gezeigt. Im Attribut lässt sich genau das abfragen (`[data-section^="{{"]`) und der Kasten
+Leiste gezeigt. Im Attribut lässt sich genau das abfragen (`[data-section^="{{"]`) und die Box
 ausblenden.
 
 **Der Ordnerseiten-Marker** rendert ein `<style>`, das nur die aktuelle Seite kennt. Er ist die
@@ -93,7 +93,7 @@ steht beim Rendern zur Verfügung und füllt genau den einen Wert, den der Selek
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 27 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 27 Variablen liest `plugin-layout-box.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

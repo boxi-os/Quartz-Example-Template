@@ -22,7 +22,7 @@ None of this needs the website yet. You can write for days without building.
 
 ## 2 · Looking — the preview in QuartzControl
 
-Under *Preview & Build* the app starts a **dev server**: Quartz builds the site once and then again
+Under *Preview & Build* QuartzControl starts a **dev server**: Quartz builds the site once and then again
 after every saved change, and a browser window shows it at an address like `localhost:8080`. That
 is your own machine; nobody else sees this page. Whoever saves in Obsidian sees the page in the
 browser seconds later.
@@ -37,7 +37,7 @@ for folders and tags — and writes finished [[en/7-reference/01-glossary#HTML|H
 
 ## 4 · Publishing
 
-Under *Publish* the app sends the output folder to a target: a folder, a server via rsync, a [[en/7-reference/01-glossary#git|git]]
+Under *Publish* QuartzControl sends the output folder to a target: a folder, a server via rsync, a [[en/7-reference/01-glossary#git|git]]
 [[en/7-reference/01-glossary#Repository|repository]] for GitHub Pages for instance, or it triggers a webhook. The credentials for that the
 app keeps encrypted. From that moment on the page is public.
 
@@ -62,6 +62,6 @@ content to an existing folder instead of *copying* it. Both can be changed later
 
 Whoever wants not this site but one of their own with this design goes the other way round:
 create a new project in QuartzControl, link your own vault, then import the template under
-*Templates*. The app shows beforehand which parts the package contains and what in the project is
+*Templates*. QuartzControl shows beforehand which parts the package contains and what in the project is
 replaced by them, and takes a snapshot. What comes along and what does not:
 [[en/6-adapting/08-the-template-package|6.8 – The template package]].

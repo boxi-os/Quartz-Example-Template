@@ -53,6 +53,6 @@ those are reported. The linked page has the details in each case.
 | --- | --- | --- |
 | The part Translations does not reach the components' headings | — | [[en/6-adapting/08-the-template-package\|6.8 – The template package]] |
 | [[en/7-reference/01-glossary#Snapshot\|Snapshots]] do not contain the content when `content/` is a symlink | the [[en/7-reference/01-glossary#Vault\|vault]] backs itself up through its own git | [[en/1-getting-started/03-from-note-to-website\|1.3 – From note to website]] |
-| The app writes `@font-face` rules without a `unicode-range` | the template replaces the generated block | [[en/6-adapting/03-typefaces\|6.3 – Typefaces]] |
+| QuartzControl writes `@font-face` rules without a `unicode-range` | the template replaces the generated block | [[en/6-adapting/03-typefaces\|6.3 – Typefaces]] |
 | In the [[en/7-reference/01-glossary#Frame\|frame]] editor a value may not contain a comma, and lengths stand as numbers, not as variables | `calc()` without a comma; numbers | [[en/6-adapting/05-page-grids\|6.5 – Page grids]] |
-| Three blocks in `custom.scss` are rewritten by the app on every save | your own rules outside the markers or in a file of your own | [[en/6-adapting/01-changing-something\|6.1 – Changing something]] |
+| Three blocks in `custom.scss` are rewritten by QuartzControl on every save | your own rules outside the markers or in a file of your own | [[en/6-adapting/01-changing-something\|6.1 – Changing something]] |

@@ -8,7 +8,7 @@ translationKey: anpassen/variablen
 ---
 
 **Farbe und Maß dieser Vorlage stehen nicht in den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]], sondern in 66 Variablen.** Das ist
-keine Kosmetik: Nach dem Import bleiben sie in der App unter *Stile → Variablen* bearbeitbar, ein
+keine Kosmetik: Nach dem Import bleiben sie in QuartzControl unter *Stile → Variablen* bearbeitbar, ein
 Wert in [[7-nachschlagen/01-glossar#CSS und SCSS|SCSS]] nicht.
 
 ## Die sechs mit der größten Reichweite
@@ -48,7 +48,7 @@ Drei Gruppen darunter sind jünger als der Rest und verdienen je einen Satz:
   `warning` mehr. Und sie sind **gemessen, nicht gewählt** — elf von Quartz' zwölf Callout-Farben
   fallen auf hellem Grund durch AA. Jede Titelfarbe hält 4,5:1 auf dem Grund *und* auf der
   getönten Fläche ihres eigenen Kastens. Wer hier eine ändert, kann sie unter diese Schwelle
-  setzen, und die App sagt nichts dazu.
+  setzen, und QuartzControl sagt nichts dazu.
 - **Zwei für den Schleier** hinter jeder Schublade (`--tpl-backdrop`, `--tpl-backdrop-blur`):
   Abdunklung und Unschärfe, für die Navigation und den Explorer derselbe Wert.
 - **Sechs Schalter für die Seitenspalten**, siehe den nächsten Abschnitt.
@@ -121,7 +121,7 @@ Was geteilt werden muss, sind die **Werte** — und die sind es: `--tpl-tracking
 lesbar dort stehen, wo sie wirken.
 
 > [!note] Eine gemeinsame Datei ginge hier ohnehin nicht ohne Weiteres
-> Sass löst so etwas über Partials (`_shared.scss`). Die App lässt einen Dateinamen mit führendem
+> Sass löst so etwas über Partials (`_shared.scss`). QuartzControl lässt einen Dateinamen mit führendem
 > Unterstrich nicht zu, und eine Datei ohne ihn stünde in der Liste unter *Stile → Eigenes [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]]* als
 > Stylesheet, das nichts ausgibt.
 
@@ -134,7 +134,7 @@ Grundabstand ändern will, sucht ihn an vielen Stellen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 49 Variablen liest der Abschnitt `base` in `foundation.scss`, `layout.scss` und `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 49 Variablen liest der Abschnitt `base` in `foundation.scss`, `layout.scss` und `content.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

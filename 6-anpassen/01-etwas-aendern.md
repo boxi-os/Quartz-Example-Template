@@ -55,6 +55,6 @@ mit einer Begründung daneben.
 ## Was du nicht anfassen solltest
 
 Die Ladereihenfolge, die Schriften und die Variablen stehen als Blöcke zwischen Markierungen in
-`_quartzcontrol.scss`, einer eigenen Datei neben `custom.scss`. Die schreibt die App bei jedem
+`_quartzcontrol.scss`, einer eigenen Datei neben `custom.scss`. Die schreibt QuartzControl bei jedem
 Speichern neu — was du dort von Hand einträgst, ist beim nächsten Klick weg. `custom.scss` gehört
-dir; die App setzt dort nur die eine Zeile `@use "./quartzcontrol";` ganz oben, die die Blöcke lädt.
+dir; QuartzControl setzt dort nur die eine Zeile `@use "./quartzcontrol";` ganz oben, die die Blöcke lädt.

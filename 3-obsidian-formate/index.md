@@ -18,12 +18,12 @@ alle drei zu Seiten machen — jeder über ein eigenes [[7-nachschlagen/01-gloss
 
 ## Was sie gemeinsam haben
 
-Alle drei werden zu **eigenen Seitentypen**. Das heißt: Sie bekommen im Layout-Editor der App eine
+Alle drei werden zu **eigenen Seitentypen**. Das heißt: Sie bekommen im Layout-Editor von QuartzControl eine
 eigene Zeile und können ein eigenes Seitenraster nutzen — eine Canvas-Karte braucht die volle
 Breite, eine Bases-Tabelle nicht.
 
 Alle drei sind außerdem **Dateien, keine Texte**. Sie werden in Obsidian bearbeitet, nicht im
-Editor der App. Der Vault ist deshalb der richtige Ort für sie.
+Editor von QuartzControl. Der Vault ist deshalb der richtige Ort für sie.
 
 ## Was sie unterscheidet
 

@@ -92,7 +92,7 @@ fills exactly the one value the selector needs.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 27 variables are read by `plugin-layout-box.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 27 variables are read by `plugin-layout-box.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

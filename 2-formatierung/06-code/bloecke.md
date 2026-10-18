@@ -68,7 +68,7 @@ Drei Unterschiede zum Standard:
 - Die **Sprache** steht oben links am Block, als `::after` im [[7-nachschlagen/01-glossar#Stylesheet|Stylesheet]] — sie landet damit nicht
   in einer Kopie.
 - Der **Kopier-Button** ist 44 px groß und erscheint bei [[7-nachschlagen/01-glossar#Hover|Hover]], bei Fokus *und* dauerhaft auf
-  Geräten ohne Zeiger. **Von Haus aus** ist er nur bei Hover sichtbar und damit auf einem Telefon
+  Geräten ohne Zeiger. **Von Haus aus** ist er nur bei Hover sichtbar und damit auf einem Smartphone
   unerreichbar.
 - Der **Hintergrund** kommt von der Vorlage, nicht vom Syntax-Thema: `keepBackground: false` sorgt
   dafür, dass shiki nur die Farben der Zeichen setzt. So passt der Block in beiden Farbschemata.

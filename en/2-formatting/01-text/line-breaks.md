@@ -66,4 +66,4 @@ break on the page. Obsidian itself behaves that way, which makes the switch temp
 > writing long texts does — gets chopped-up body text with the plugin.
 >
 > Anyone writing line by line (lists, verse, short lines) who really means the break switches it
-> back on in the app under *Plugins*.
+> back on in QuartzControl under *Plugins*.

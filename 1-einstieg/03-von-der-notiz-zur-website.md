@@ -22,7 +22,7 @@ Nichts davon braucht die Website schon. Man kann tagelang schreiben, ohne zu bau
 
 ## 2 · Ansehen — die Vorschau in QuartzControl
 
-Unter *Vorschau & Build* startet die App einen **Dev-Server**: Quartz baut die Website einmal und
+Unter *Vorschau & Build* startet QuartzControl einen **Dev-Server**: Quartz baut die Website einmal und
 danach bei jeder gespeicherten Änderung neu, und ein Browserfenster zeigt sie unter einer Adresse
 wie `localhost:8080`. Das ist der eigene Rechner; niemand sonst sieht diese Seite. Wer in Obsidian
 speichert, sieht die Seite Sekunden später im Browser.
@@ -37,9 +37,9 @@ Entwurf (`draft: true` im [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]])
 
 ## 4 · Veröffentlichen
 
-Unter *Veröffentlichen* schickt die App den Ausgabeordner an ein Ziel: einen Ordner, einen Server
+Unter *Veröffentlichen* schickt QuartzControl den Ausgabeordner an ein Ziel: einen Ordner, einen Server
 per rsync, ein git-Repository etwa für GitHub Pages, oder sie stößt einen Webhook an. Die
-Zugangsdaten dafür verwahrt die App verschlüsselt. Von diesem Moment an ist die Seite öffentlich.
+Zugangsdaten dafür verwahrt QuartzControl verschlüsselt. Von diesem Moment an ist die Seite öffentlich.
 
 ## Wo der Inhalt liegt — und warum als Symlink
 
@@ -62,6 +62,6 @@ mit einem bestehenden Ordner *verknüpft* statt ihn zu *kopieren*. Beides lässt
 
 Wer nicht diese Website, sondern eine eigene mit dieser Gestaltung will, geht den Weg andersherum:
 ein neues Projekt in QuartzControl anlegen, den eigenen Vault verknüpfen, dann unter *Vorlagen*
-die Vorlage importieren. Die App zeigt vorher, welche [[7-nachschlagen/01-glossar#Baustein|Bausteine]] das Paket enthält und was im
+die Vorlage importieren. QuartzControl zeigt vorher, welche [[7-nachschlagen/01-glossar#Baustein|Bausteine]] das Paket enthält und was im
 Projekt dadurch ersetzt wird, und legt einen Snapshot an. Was mitkommt und was nicht:
 [[6-anpassen/08-das-vorlagenpaket|6.8 – Das Vorlagenpaket]].

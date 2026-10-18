@@ -73,4 +73,4 @@ Vorlage, die sich selbst erklärt; diese hier tut das über den Vault.
 
 Wer diese Vorlage verändert hat und das Ergebnis weitergeben will, exportiert unter *Vorlagen* ein
 neues Paket — mit den Bausteinen, die sich geändert haben. Der Empfänger importiert es in sein
-Projekt und wählt dieselben Bausteine. Was er dabei überschreibt, sagt ihm die App vorher.
+Projekt und wählt dieselben Bausteine. Was er dabei überschreibt, sagt ihm QuartzControl vorher.

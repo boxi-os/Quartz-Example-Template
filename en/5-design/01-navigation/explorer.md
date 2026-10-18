@@ -57,7 +57,7 @@ structure.
   as the edge is deep: at the very top the first row therefore sits *below* the gradient rather
   than inside it, at the very bottom the last row above it. Both ends are read at full strength;
   only what is passing through goes soft.
-- **On a phone it is a drawer.** The button sits in the app bar, becomes a cross when opened, the
+- **On a smartphone it is a drawer.** The button sits in the app bar, becomes a cross when opened, the
   drawer travels in from the left over a darkened page, and the page itself does not scroll along
   meanwhile.
 
@@ -115,7 +115,7 @@ head standing.
 > A [[en/7-reference/01-glossary#Stylesheet|stylesheet]] cannot cure that: "open" and "never touched" carry the same class, and CSS cannot
 > tell the two apart.
 
-The explorer **itself** — the whole component — is unfolded and stays that way; only on a phone
+The explorer **itself** — the whole component — is unfolded and stays that way; only on a smartphone
 does it start closed, since otherwise half the navigation would stand in front of the text.
 
 > [!bug] And one that was self-inflicted
@@ -128,7 +128,7 @@ does it start closed, since otherwise half the navigation would stand in front o
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 38 variables are read by the section `nav-explorer` in `components-navigation.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 38 variables are read by the section `nav-explorer` in `components-navigation.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

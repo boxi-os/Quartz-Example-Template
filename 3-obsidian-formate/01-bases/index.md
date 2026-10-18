@@ -68,7 +68,7 @@ Desktop neben dem Inhalt, darunter in einer eigenen Zeile.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 30 Variablen liest der Abschnitt `page-bases` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 30 Variablen liest der Abschnitt `page-bases` in `pages.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

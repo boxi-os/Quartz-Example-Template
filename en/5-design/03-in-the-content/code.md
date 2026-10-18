@@ -75,7 +75,7 @@ does not end up in a copy, nor in the reading order.
 
 ## The copy button
 
-**Out of the box** it appears only on [[en/7-reference/01-glossary#Hover|hover]] with a pointer — on a phone it is therefore
+**Out of the box** it appears only on [[en/7-reference/01-glossary#Hover|hover]] with a pointer — on a smartphone it is therefore
 unreachable.
 
 **In this template** it appears on hover, **on focus** and **permanently on devices without a
@@ -108,7 +108,7 @@ Surface **and** a bar on the left. A tint alone is too weak on a block that is t
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 22 variables are read by the section `body-code` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 22 variables are read by the section `body-code` in `content.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

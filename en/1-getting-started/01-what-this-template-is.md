@@ -10,11 +10,11 @@ translationKey: einstieg/was-diese-vorlage-ist
 **Example** is a template for QuartzControl. A template here is a *design*: colours, typefaces,
 spacing, the page grid, the arrangement of the components, the settings of the [[en/7-reference/01-glossary#Plugin|plugins]] —
 everything that makes a website, except its content. It travels as one file with the extension
-`.qtpl` and is imported into a project of your own in the app under *Templates*. After that your
+`.qtpl` and is imported into a project of your own in QuartzControl under *Templates*. After that your
 own site looks like this one, with your own notes in it.
 
 The template is meant to be used **and** to be rebuilt. Nothing about it is hidden: every colour
-and every measure is a variable you can change in the app. Every [[en/7-reference/01-glossary#Stylesheet|stylesheet]] — the file in which the
+and every measure is a variable you can change in QuartzControl. Every [[en/7-reference/01-glossary#Stylesheet|stylesheet]] — the file in which the
 look of a component is described — belongs to exactly one component and is named after it.
 
 ## Why this site exists
@@ -34,7 +34,7 @@ Everything else follows from these three.
 The page grid — called a *[[en/7-reference/01-glossary#Frame|frame]]* in Quartz — divides the page into twelve equally wide columns and
 gives the text six of them. How wide a line of text gets is thereby decided, in exactly one place.
 There is no second limit on the paragraph that could fall out with the first. What that means for
-tablet and phone stands under [[en/6-adapting/05-page-grids|6.5 – Page grids]].
+tablet and smartphone stands under [[en/6-adapting/05-page-grids|6.5 – Page grids]].
 
 ### 2. Colours are measured
 
@@ -48,7 +48,7 @@ restated here. More under [[en/6-adapting/02-colours-and-contrast|6.2 – Colour
 ### 3. No stylesheet sets a colour or a measure itself
 
 Colours and measures stand in 66 variables, not in the stylesheets. That is not cosmetics: after
-the import, variables stay editable in the app under *Styles → Variables*; a value that stands in
+the import, variables stay editable in QuartzControl under *Styles → Variables*; a value that stands in
 a stylesheet file does not. What does stand as a number in a file is named and justified — the
 callout and syntax colours, because they mean a status and are not a palette; the hairlines; and
 the [[en/7-reference/01-glossary#Breakpoint|breakpoints]], because a [[en/7-reference/01-glossary#Media query|media query]] cannot read a variable. More under

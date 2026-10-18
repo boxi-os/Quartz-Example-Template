@@ -19,10 +19,10 @@ all three into pages — each through a [[en/7-reference/01-glossary#Plugin|plug
 ## What they have in common
 
 All three become **page types of their own**. That means: they get a row of their own in the
-layout editor of the app and can use a page grid of their own — a [[en/7-reference/01-glossary#Canvas|canvas]] needs the full width, a
+layout editor of QuartzControl and can use a page grid of their own — a [[en/7-reference/01-glossary#Canvas|canvas]] needs the full width, a
 [[en/7-reference/01-glossary#Base|bases]] table does not.
 
-All three are also **files, not texts**. They are edited in Obsidian, not in the editor of the app.
+All three are also **files, not texts**. They are edited in Obsidian, not in the editor of QuartzControl.
 The vault is therefore the right place for them.
 
 ## What sets them apart

@@ -21,7 +21,7 @@ eigener Farbe auf getönten Flächen, damit der Ring nicht auf der eigenen Farbe
 none` kommt in dieser Vorlage nirgends vor.
 
 Der Kopier-Button am Codeblock erscheint bei Hover, bei Fokus *und* dauerhaft auf Geräten ohne
-Zeiger. **Von Haus aus** ist er nur bei Hover sichtbar — und damit auf einem Telefon unerreichbar.
+Zeiger. **Von Haus aus** ist er nur bei Hover sichtbar — und damit auf einem Smartphone unerreichbar.
 
 ## Zielgrößen
 
@@ -47,7 +47,7 @@ sobald ein solcher Link existiert.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese Variable liest `a11y.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese Variable liest `a11y.scss`. Ändern lässt sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

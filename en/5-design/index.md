@@ -51,4 +51,4 @@ typefaces, variables, page grids, [[en/7-reference/01-glossary#Accessibility|acc
 1. **The width decides the grid** — the [[en/7-reference/01-glossary#Frame|frame]], in one place, not the paragraph on top of it.
 2. **Colours are measured.** 93 pairs, all above the [[en/7-reference/01-glossary#WCAG|WCAG]] threshold, in both modes.
 3. **Colour and measure do not stand in the stylesheets** but in 66 variables that stay editable
-   in the app. What does stand there literally is named and justified.
+   in QuartzControl. What does stand there literally is named and justified.

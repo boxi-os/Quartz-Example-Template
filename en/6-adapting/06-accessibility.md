@@ -21,7 +21,7 @@ its own on tinted surfaces, so that the ring does not lie on its own colour. `ou
 nowhere in this template.
 
 The copy button on a code block appears on hover, on focus *and* permanently on devices without a
-pointer. **Out of the box** it is visible only on hover — and therefore unreachable on a phone.
+pointer. **Out of the box** it is visible only on hover — and therefore unreachable on a smartphone.
 
 ## Target sizes
 
@@ -47,7 +47,7 @@ a link exists.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-This variable is read by `a11y.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+This variable is read by `a11y.scss`. It can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

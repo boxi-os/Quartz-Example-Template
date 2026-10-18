@@ -26,12 +26,12 @@ blocks. A preview should answer the question of whether the click is worth it �
 ## Only with a pointer
 
 With `@media (hover: none)` it is switched off entirely. From that follows a rule for the content:
-**no information may exist only in a preview**, because on a phone there is none.
+**no information may exist only in a preview**, because on a smartphone there is none.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 13 variables are read by the section `page-popover` in `pages.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 13 variables are read by the section `page-popover` in `pages.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

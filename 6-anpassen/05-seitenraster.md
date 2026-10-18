@@ -29,12 +29,12 @@ sollte lockerer wirken, und mit festen Randspalten kostet eine breitere Rinne de
 vorher. Der Rand blieb bei 20 px: Er ist der Abstand zum Fensterrand, nicht der zwischen zwei
 Dingen. Die Zeilenrinne ist auf jeder Breite 2 rem.
 
-> [!warning] Auf Tablet und Telefon ist die Rinne schmaler
+> [!warning] Auf Tablet und Smartphone ist die Rinne schmaler
 > Ein Zwölf-Spalten-Raster hat elf Rinnen, ganz gleich was darin steht, und die setzen seine
 > Mindestbreite. Bei 4 rem wären das allein 704 px — mehr, als ein 390-px-Bildschirm überhaupt hat.
-> Am Tablet sind es deshalb 3 rem, am Telefon 1 rem; damit liegt die Mindestbreite bei 216 px
+> Am Tablet sind es deshalb 3 rem, am Smartphone 1 rem; damit liegt die Mindestbreite bei 216 px
 > statt bei 744. Gemessen, bevor diese Ausnahme existierte: **jede** Seite scrollte seitwärts um
-> 18 px. Sichtbar ist die Spaltenrinne am Telefon ohnehin nicht, weil dort jeder Bereich über alle
+> 18 px. Sichtbar ist die Spaltenrinne am Smartphone ohnehin nicht, weil dort jeder Bereich über alle
 > zwölf Spalten geht.
 
 | Frame | Genutzt von | Besonderheit |
@@ -65,7 +65,7 @@ Mobil steht alles untereinander.
 
 **Die Reihenfolge unter dem Text ist auf beiden Breiten dieselbe.** Was die Seite über sich selbst
 sagt, kommt zuerst — die zwei Kästen im freien Bereich, dann Inhaltsverzeichnis und Graph —, und
-erst danach, was die Website über sie sagt: „Weiterlesen" und die Eigenschaften-Tabelle. Am Telefon
+erst danach, was die Website über sie sagt: „Weiterlesen“ und die Eigenschaften-Tabelle. Am Smartphone
 steht das Inhaltsverzeichnis abweichend davon *über* dem Text: Eine Gliederung, die man nach dem
 Artikel liest, ist keine Gliederung mehr.
 
@@ -73,7 +73,7 @@ Artikel liest, ist keine Gliederung mehr.
 > `index` hat die rechte Spalte am Tablet lange ausgeblendet statt sie nach unten zu schieben,
 > in der Annahme, sie sei auf einer Listenseite leer: Eine Liste von Links hat keine Überschriften,
 > also kein Inhaltsverzeichnis. Gemessen an `/formatierung/` ist sie es nicht — der Graph steht
-> dort. Auf Tablet und Telefon verschwand er damit von jeder Ordner-, Tag- und Bases-Seite. Seit
+> dort. Auf Tablet und Smartphone verschwand er damit von jeder Ordner-, Tag- und Bases-Seite. Seit
 > dem 09.09.2026 rechnen `editorial` und `index` mit **derselben** Funktion, statt zwei Kopien
 > nebeneinander auseinanderlaufen zu lassen.
 
@@ -106,7 +106,7 @@ calc((300px - 8rem) / 3)
 ```
 
 — zwei Rinnen, deshalb `8rem` — und die Felder 4–9 bleiben leer. Am Tablet steht dieselbe Rechnung
-mit `6rem`, weil die Rinne dort 3 rem ist; am Telefon steht sie gar nicht, dort sind alle zwölf
+mit `6rem`, weil die Rinne dort 3 rem ist; am Smartphone steht sie gar nicht, dort sind alle zwölf
 Spalten wieder gleich.
 
 Gemessen an der gebauten Seite, jeweils gegen die Variante mit zwölf `1fr`-Spalten:

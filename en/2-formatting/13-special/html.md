@@ -58,7 +58,7 @@ measured: the colon line stays there as text. Anyone needing them writes HTML:
   <dd>The explanation for it</dd>
 </dl>
 
-For most cases a two-column table does the job — and it reads better on a phone.
+For most cases a two-column table does the job — and it reads better on a smartphone.
 
 > [!warning] HTML is not sanitised
 > What stands here lands on the page unchanged. With content from a foreign source that is a risk.

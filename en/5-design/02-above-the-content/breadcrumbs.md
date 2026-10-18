@@ -17,7 +17,7 @@ A row with the folders of the path, separated by a character.
 - The **last crumb is the current page**: set more heavily and not clickable. A link to the page
   you are standing on is a dead end.
 - The **separator** is muted and cannot be selected — it should not end up in a copy.
-- The row **wraps** rather than overflowing. Three folders deep, the path on a phone is longer than
+- The row **wraps** rather than overflowing. Three folders deep, the path on a smartphone is longer than
   the screen.
 - Every crumb has **padding above and below**, so that it can be hit on a touchscreen.
 
@@ -35,7 +35,7 @@ whole path stands over four stations.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 7 variables are read by the section `meta-breadcrumbs` in `components-navigation.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 7 variables are read by the section `meta-breadcrumbs` in `components-navigation.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

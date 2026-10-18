@@ -13,7 +13,7 @@ more often than you would think.
 ## 1 · A variable
 
 **The normal case.** 66 variables carry every colour and every measure of this template; not a line
-of CSS is needed for them. In the app under *Styles → Variables*, separated into light and dark.
+of CSS is needed for them. In QuartzControl under *Styles → Variables*, separated into light and dark.
 
 Which variable applies where stands at the bottom of every page in [[en/5-design/index|chapter 5]] — including the
 column that says what else moves with it. Touching `--tpl-space-md` moves the whole site;
@@ -54,6 +54,6 @@ beside it.
 ## What not to touch
 
 The load order, the fonts and the variables stand as blocks between markers in `_quartzcontrol.scss`,
-a file of their own next to `custom.scss`. The app rewrites those on every save — whatever you enter
-there by hand is gone with the next click. `custom.scss` is yours; the app only puts the one line
+a file of their own next to `custom.scss`. QuartzControl rewrites those on every save — whatever you enter
+there by hand is gone with the next click. `custom.scss` is yours; QuartzControl only puts the one line
 `@use "./quartzcontrol";` at its top, which loads the blocks.

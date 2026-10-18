@@ -29,12 +29,12 @@ breathe more, and with fixed outer columns a wider gutter costs the text less th
 margin stayed at 20 px: it is the distance to the edge of the window, not the distance between two
 things. The row gutter is 2 rem at every width.
 
-> [!warning] On tablet and phone the gutter is narrower
+> [!warning] On tablet and smartphone the gutter is narrower
 > A twelve-column grid has eleven gutters whatever it contains, and they set its minimum width. At
 > 4 rem that would be 704 px of gutter alone — more than a 390 px screen has at all. On a tablet it
-> is therefore 3 rem, on a phone 1 rem, which puts the minimum at 216 px instead of 744. Measured
+> is therefore 3 rem, on a smartphone 1 rem, which puts the minimum at 216 px instead of 744. Measured
 > before this exception existed: **every** page scrolled sideways by 18 px. The column gutter is
-> invisible on a phone anyway, because there every area spans all twelve columns.
+> invisible on a smartphone anyway, because there every area spans all twelve columns.
 
 | Frame | Used by | Particularity |
 | --- | --- | --- |
@@ -60,18 +60,18 @@ Every frame is laid out for **three widths**. The thresholds sit at 1200 and 900
 > four plugins against its own thresholds. The two numbers are a decision again.
 
 On a tablet the right **column** falls away; its content slides below the text instead of
-disappearing. On a phone everything stands one below the other.
+disappearing. On a smartphone everything stands one below the other.
 
 **The order below the text is the same at both widths.** What the page says about itself comes
 first — the two boxes in the free area, then the table of contents and the graph — and only then
-what the site says about it: “Read on” and the property table. On a phone the table of contents
+what the site says about it: “Read on” and the property table. On a smartphone the table of contents
 departs from that and stands *above* the text: an outline read after the article is no outline.
 
 > [!example] What used to be wrong here
 > For a long time `index` hid the right column on a tablet instead of moving it down, on the
 > assumption that it was empty on a listing page: a list of links has no headings, hence no table
 > of contents. Measured on `/formatierung/` it is not empty — the [[en/7-reference/01-glossary#Graph|graph]] lives there. On a tablet
-> and on a phone it therefore vanished from every folder, tag and bases page. Since 2026-09-09
+> and on a smartphone it therefore vanished from every folder, tag and bases page. Since 2026-09-09
 > `editorial` and `index` compute from the **same** function rather than letting two copies drift
 > apart.
 
@@ -104,7 +104,7 @@ calc((300px - 8rem) / 3)
 ```
 
 — two gutters, hence `8rem` — and fields 4–9 stay empty. On a tablet the same arithmetic runs with
-`6rem`, because the gutter is 3 rem there; on a phone it does not run at all, and all twelve columns
+`6rem`, because the gutter is 3 rem there; on a smartphone it does not run at all, and all twelve columns
 are equal again.
 
 Measured on the built page, each against the variant with twelve `1fr` columns:

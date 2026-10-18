@@ -35,7 +35,7 @@ Auf einer **Ordner- oder Kapitelseite** steht im Kasten nur ein einzelner Punkt,
 verlinkt ist. Das ist ein Fehler im Plugin und von einer Vorlage aus nicht zu beheben.
 
 Das Skript rechnet Adressen an zwei Stellen um und an jeder anders. Seinen Datensatz schlüsselt es
-mit `simplifySlug`: Das schneidet ein `index` am Ende ab und läßt den Schrägstrich davor stehen, aus
+mit `simplifySlug`: Das schneidet ein `index` am Ende ab und lässt den Schrägstrich davor stehen, aus
 `2-formatierung/01-text/index` wird also `2-formatierung/01-text/`. Die Mitte des Graphen holt es
 dagegen aus der Adresszeile und schneidet den Schrägstrich dort **ab**. Für jede Seite, deren
 Adresse auf einen Schrägstrich endet — und das sind genau die Ordnerseiten — sucht es damit einen
@@ -44,14 +44,14 @@ Knoten, den es selbst nie angelegt hat: keine Kanten, ein Punkt.
 Dieselbe Seite über `…/01-text/index` aufgerufen zeigt neun Knoten und acht Kanten. Ein Zeichen
 Unterschied.
 
-Ausblenden läßt der Kasten sich dort nicht: Quartz' Bedingung `not-index` meint nur die Startseite,
+Ausblenden lässt der Kasten sich dort nicht: Quartz' Bedingung `not-index` meint nur die Startseite,
 und alles Feinere braucht Code statt Konfiguration. Was die Verbindungen einer Ordnerseite
 trotzdem zeigt, sind die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] und die Liste im Text darüber.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest der Abschnitt `aside-graph` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest der Abschnitt `aside-graph` in `components-note.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

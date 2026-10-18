@@ -41,7 +41,7 @@ anderen Seite unter der Liste.
 **`.desc` enthält den Titel, nicht die Beschreibung.** Wer den Namen wörtlich nimmt und die Klasse
 gedämpft setzt, gräut jeden Eintragstitel auf jeder Listenseite aus.
 
-**Dieselben Klassennamen benutzt „zuletzt geändert".** Ohne Eingrenzung auf `.page-listing` landet
+**Dieselben Klassennamen benutzt „zuletzt geändert“.** Ohne Eingrenzung auf `.page-listing` landet
 das dreispaltige Raster in der schmalen Seitenleiste.
 
 ## Die Tag-Seite
@@ -57,7 +57,7 @@ Der Titel ist der Tag-Name als reiner Text. Diese Vorlage stellt ihm ein Rautenz
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 14 Variablen liest der Abschnitt `page-listing` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 14 Variablen liest der Abschnitt `page-listing` in `pages.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

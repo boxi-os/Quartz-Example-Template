@@ -23,7 +23,7 @@ this template.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 22 variables are read by the section `body-mermaid` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 22 variables are read by the section `body-mermaid` in `content.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

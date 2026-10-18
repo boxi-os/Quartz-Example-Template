@@ -35,7 +35,7 @@ while doing so, because the border was already there, transparent.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 12 variables are read by the section `meta-tag-list` in `components-note.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 12 variables are read by the section `meta-tag-list` in `components-note.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

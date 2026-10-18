@@ -46,7 +46,7 @@ to reading size and the button stays square.
 - Every entry carries `lang` and `hreflang`. A screen reader therefore pronounces "English" in
   English, even in the middle of a German page.
 
-## On a phone
+## On a smartphone
 
 The toolbar is a flex row with `wrap`. At 390 px the drawer button, the site name and four controls
 share the space; the search gives up its word and becomes a square, the switcher keeps its name,
@@ -62,7 +62,7 @@ then on, regardless of the browser language.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 23 variables are read by the section `nav-language-switcher` in `plugin-multilanguage.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 23 variables are read by the section `nav-language-switcher` in `plugin-multilanguage.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

@@ -37,4 +37,4 @@ und nicht in der Vorlesereihenfolge.
 [Quartz](https://quartz.jzhao.xyz/ "Die Dokumentation")
 
 Der Text in Anführungszeichen erscheint beim Überfahren als Tooltip. Verlass dich nicht darauf:
-Auf einem Telefon gibt es ihn nicht.
+Auf einem Smartphone gibt es ihn nicht.

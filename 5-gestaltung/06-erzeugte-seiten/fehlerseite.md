@@ -43,7 +43,7 @@ Ausprobieren: eine beliebige nicht existierende Adresse aufrufen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 6 Variablen liest der Abschnitt `page-404` in `pages.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 6 Variablen liest der Abschnitt `page-404` in `pages.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

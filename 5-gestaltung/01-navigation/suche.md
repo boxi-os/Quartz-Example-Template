@@ -18,18 +18,18 @@ Ein Button mit Lupe, der eine Überlagerung öffnet. Der Rand kommt aus `lightgr
   `lightgray` misst 1,34:1 gegen den Grund und darf deshalb nichts umranden, das man bedient.
 - Der Button steht **im Kopfbereich**, ganz rechts, zusammen mit den drei anderen Bedienelementen.
   Er ist 44 px hoch wie seine Nachbarn und 15 rem breit — breit genug, um als Feld gelesen zu
-  werden, schmal genug, dass der Kopf weiter dem Seitentitel gehört. Am Telefon wird er ein Quadrat
+  werden, schmal genug, dass der Kopf weiter dem Seitentitel gehört. Am Smartphone wird er ein Quadrat
   ohne Beschriftung.
 - Die **Überlagerung** trägt einen echten Schatten. Den bekommt in dieser Vorlage nur, was
   wirklich über der Seite schwebt statt in ihr zu liegen: diese Überlagerung, die Linkvorschau,
-  das Sprachmenü, die Schublade am Telefon und der große [[7-nachschlagen/01-glossar#Graph|Graph]]. Fünf Stellen, und die Regel zählt,
+  das Sprachmenü, die Schublade am Smartphone und der große [[7-nachschlagen/01-glossar#Graph|Graph]]. Fünf Stellen, und die Regel zählt,
   nicht die Zahl.
 - Das **Eingabefeld** bekommt keinen Fokusring, sondern eine kräftigere Unterkante — ein Ring
   innerhalb eines abgerundeten Kastens sieht aus wie ein Fehler.
 - **Ergebnisse**: Der Tastatur-Cursor und der Zeiger-Hover sehen gleich aus. Die Pfeiltasten
   bewegen sich durch die Liste, und die hervorgehobene Zeile ist das einzige Signal, wo man steht.
 - Der **Treffer im Text** wird mit derselben Farbe markiert wie `==Hervorhebung==` im Fließtext.
-  „Das hast du gesucht" heißt auf der ganzen Seite dasselbe.
+  „Das hast du gesucht“ heißt auf der ganzen Seite dasselbe.
 
 Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine deckende ersetzt.
 
@@ -49,7 +49,7 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 > Seit dem 06.09.2026 ist es wieder eine `width: 15rem` an `.search` in `components-header.scss`, und dabei
 > bleibt es: Eine Breite am Element selbst macht dessen Inhaltsbreite zu 240 px, und darüber sind
 > sich alle drei Engines einig. In der Konfiguration blieb `shrink: false` — ohne das gibt das Feld
-> seine Breite an die zwei Icon-Buttons ab, lange bevor die Leiste voll ist. Am Telefon nimmt
+> seine Breite an die zwei Icon-Buttons ab, lange bevor die Leiste voll ist. Am Smartphone nimmt
 > dasselbe Stylesheet die Breite wieder weg.
 
 > [!note] Der Index umfasst beide Sprachen
@@ -60,7 +60,7 @@ Bei `prefers-reduced-transparency` wird die durchscheinende Fläche durch eine d
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 18 Variablen liest der Abschnitt `nav-search` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 18 Variablen liest der Abschnitt `nav-search` in `components-header.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

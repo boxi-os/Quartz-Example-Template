@@ -78,7 +78,7 @@ statt eine zweite Kopie davon zu führen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest der Abschnitt `aside-toc` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest der Abschnitt `aside-toc` in `components-note.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

@@ -36,5 +36,5 @@ nor in the reading order of a screen reader.
 
 [Quartz](https://quartz.jzhao.xyz/ "The documentation")
 
-The text in quotation marks appears as a tooltip on [[en/7-reference/01-glossary#Hover|hover]]. Do not rely on it: on a phone there is
+The text in quotation marks appears as a tooltip on [[en/7-reference/01-glossary#Hover|hover]]. Do not rely on it: on a smartphone there is
 none.

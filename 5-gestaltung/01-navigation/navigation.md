@@ -1,6 +1,6 @@
 ---
 title: Die Navigation
-description: Das Akkordeon links, die Schublade am Telefon, „Zurück“ und „Weiter“ unter dem Text.
+description: Das Akkordeon links, die Schublade am Smartphone, „Zurück“ und „Weiter“ unter dem Text.
 section: 5 – Die Gestaltung
 tags:
   - gestaltung
@@ -10,7 +10,7 @@ translationKey: gestaltung/navigation/navigation
 
 Durch dieses Handbuch führen zwei Navigationen: links ein Menü über alle Kapitel, unter jedem
 Text „Zurück“ und „Weiter“. Beide kommen aus demselben [[7-nachschlagen/01-glossar#Plugin|Plugin]],
-`quartz-navigations`, das eine Komponente mit zehn Darstellungen mitbringt; diese Website setzt
+`quartz-navigations`, das eine Komponente mit zehn Varianten mitbringt; diese Website setzt
 zwei davon ein.
 
 ## Von Haus aus
@@ -23,7 +23,7 @@ findet ihn fertig vor.
 
 ## Das Menü links
 
-Die Darstellung heißt **Akkordeon**: Jedes Kapitel ist eine Zeile, die aufklappt.
+Die Variante heißt **Akkordeon**: Jedes Kapitel ist eine Zeile, die aufklappt.
 
 - **Ein Kapitel ist offen, und zwar das, in dem man liest.** Öffnet man ein anderes, schließt sich
   das vorige. Welches offen steht, entscheidet die gelesene Seite — ein zweites Gedächtnis dafür im
@@ -38,7 +38,7 @@ Die Darstellung heißt **Akkordeon**: Jedes Kapitel ist eine Zeile, die aufklapp
 - **Entwürfe und ungelistete Seiten** fehlen im Menü, wie überall sonst
   ([[4-seiten-steuern/02-entwurf-und-ungelistet|4.2]]).
 
-## Am Telefon
+## Am Smartphone
 
 Unter 900 px wird das Menü zur **Schublade**. Der Button dafür sitzt in der App-Leiste oben links,
 die Schublade fährt über eine abgedunkelte und leicht unscharfe Seite, und ein eigener
@@ -52,7 +52,7 @@ die ganze Gliederung, über Kapitelgrenzen hinweg — ein Handbuch wird der Reih
 Ende eines Kapitels geht es ins nächste statt in eine Sackgasse.
 
 Sie stehen **ganz unten**: nach dem Text, den zwei Kästen, „Weiterlesen“ und den Eigenschaften.
-Dort sucht man den Weg zur nächsten Seite. Am Telefon stehen die zwei Buttons untereinander, damit
+Dort sucht man den Weg zur nächsten Seite. Am Smartphone stehen die zwei Buttons untereinander, damit
 ein langer Seitentitel nicht in einem halben Button umbrechen muss, und auf der Startseite, wo es
 kein „Zurück“ gibt, steht kein leerer Kasten. Beides tut das Plugin seit Fassung 0.3.1 selbst.
 
@@ -64,7 +64,7 @@ Kästen daneben.
 Fast nichts, und das ist Absicht. Das Plugin gestaltet Zeilen, Klappen, Pager und Schublade
 selbst, über rund sechzig eigene Variablen. Die Vorlage verbindet diese Variablen mit ihren
 eigenen — Farben, Abstände, Radien, Schatten —, und ergänzt, wofür es keine Variable gibt: die
-Unschärfe hinter der Schublade, die Daumenhöhe am Telefon, die Beschriftung des Pagers.
+Unschärfe hinter der Schublade, die Daumenhöhe am Smartphone, die Beschriftung des Pagers.
 
 Die Variablen des Plugins stehen deshalb **nicht** unter *Stile → Variablen*: Es deklariert sie auf
 seinem eigenen Element, und ein Wert von außen käme dort nie an. Was sich ändern lässt, sind die
@@ -72,7 +72,7 @@ seinem eigenen Element, und ein Wert von außen käme dort nie an. Was sich änd
 
 ## Die anderen acht
 
-Gestaltet sind alle zehn Darstellungen, nicht nur die zwei, die hier zu sehen sind — wer eine
+Gestaltet sind alle zehn Varianten, nicht nur die zwei, die hier zu sehen sind — wer eine
 andere einschaltet, bekommt sie fertig. Eine davon, eine waagerechte Kapitelleiste im
 Kopfbereich, stand einen Nachmittag lang hier und ist an einer Rechnung gescheitert: Die sieben
 Kapitelnamen sind zusammen rund 880 px breit, und der Kopf hat neben Wortmarke und Bedienelementen
@@ -81,7 +81,7 @@ rund 680 px übrig.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 27 Variablen liest der Abschnitt `nav-navigations` in `plugin-navigations.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 27 Variablen liest der Abschnitt `nav-navigations` in `plugin-navigations.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

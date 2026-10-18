@@ -46,5 +46,5 @@ for that there is a way that leaves the template itself untouched.
 
 > [!warning] Two things first
 > Changes to the template itself — way 2 in 6.1 — can be overwritten by the next import of a
-> template package. And in `custom.scss` the app rewrites three blocks on every save; what you
+> template package. And in `custom.scss` QuartzControl rewrites three blocks on every save; what you
 > enter there by hand is gone with the next click. Both stand in full in 6.1.

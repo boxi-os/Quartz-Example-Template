@@ -32,6 +32,6 @@ und schmal, der Wert nimmt den Rest. Die Kopfzeile ist versal und klein — sie 
 nicht Inhalt.
 
 Eine Feinheit mit Messung dahinter: Die Schlüsselspalte bekommt **keine** Breite zugewiesen,
-sondern die Wertspalte `width: 100%`. Beides heißt „der Schlüssel ist so breit wie sein Inhalt" —
+sondern die Wertspalte `width: 100%`. Beides heißt „der Schlüssel ist so breit wie sein Inhalt“ —
 aber nur der zweite Weg funktioniert. Mit `width: 1%` auf dem Schlüssel maß die Zelle 7,94 px, und
 der Text lag über dem Wert.

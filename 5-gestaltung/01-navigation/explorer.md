@@ -60,7 +60,7 @@ Struktur nicht.
   viel Innenabstand, wie die Kante tief ist: Ganz oben steht die erste Zeile deshalb *unter* dem
   Verlauf statt darin, ganz unten die letzte darüber. Beide Enden liest man in voller Stärke; weich
   wird nur, was gerade vorbeizieht.
-- **Am Telefon ist er eine Schublade.** Der Button sitzt in der App-Leiste, wird beim Öffnen zum
+- **Am Smartphone ist er eine Schublade.** Der Button sitzt in der App-Leiste, wird beim Öffnen zum
   Kreuz, die Schublade fährt von links über eine abgedunkelte Seite, und die Seite selbst scrollt
   solange nicht mit.
 
@@ -120,7 +120,7 @@ Inhalt und lässt den Kopf stehen.
 > Klasse, [[7-nachschlagen/01-glossar#CSS und SCSS|CSS]] kann die beiden nicht unterscheiden.
 
 Der Explorer **selbst** — die ganze Komponente — ist dagegen aufgeklappt und bleibt es; nur am
-Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe Navigation.
+Smartphone startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe Navigation.
 
 > [!bug] Und einer, der hausgemacht war
 > Genau das ging eine Zeit lang schief: Eine Regel dieser Vorlage gab dem Schubladen-Button
@@ -132,7 +132,7 @@ Telefon startet er geschlossen, sonst stünde vor dem Text erst einmal die halbe
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 38 Variablen liest der Abschnitt `nav-explorer` in `components-navigation.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 38 Variablen liest der Abschnitt `nav-explorer` in `components-navigation.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

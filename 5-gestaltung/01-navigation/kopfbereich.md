@@ -30,14 +30,14 @@ Zwei Feinheiten:
   der einzige Bereich, den jeder [[7-nachschlagen/01-glossar#Frame|Frame]] hat — auf der Fehlerseite gab es vorher weder Suche noch
   Farbschema-Umschalter, weil sie keine Seitenleisten hat.
 - Sie bilden eine **Gruppe** (`toolbar`) mit `wrap`, damit vier Bedienelemente und der Seitenname
-  auch auf einem 360 px breiten Telefon nebeneinander passen.
-- Am Telefon wird der Kopf zur **App-Leiste**: Er bleibt beim Scrollen oben stehen, läuft über die
+  auch auf einem 360 px breiten Smartphone nebeneinander passen.
+- Am Smartphone wird der Kopf zur **App-Leiste**: Er bleibt beim Scrollen oben stehen, läuft über die
   volle Breite und nimmt den Schubladen-Button der [[5-gestaltung/01-navigation/navigation|Navigation]] mit auf. Die Suche gibt dort ihr Wort
   auf und wird ein Quadrat wie die beiden anderen; ihre 44 px behält sie.
 
 ## Er bleibt stehen, der Titel geht
 
-Seit dem 05.09.2026 klebt der Kopf auf jeder Breite oben am Fenster, nicht mehr nur am Telefon: Die
+Seit dem 05.09.2026 klebt der Kopf auf jeder Breite oben am Fenster, nicht mehr nur am Smartphone: Die
 vier Bedienelemente und der Weg zurück zur Startseite sind das, wonach man mitten in einem langen
 Artikel greift, und mehrere Seiten hier sind drei Bildschirme hoch.
 
@@ -82,7 +82,7 @@ sie musste ausdrücklich zurückgenommen werden.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest der Abschnitt `nav-header` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest der Abschnitt `nav-header` in `components-header.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

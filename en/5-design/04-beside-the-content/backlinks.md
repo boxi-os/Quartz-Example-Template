@@ -30,7 +30,7 @@ below the text, because that is where it belongs: what points at a page is a que
 *after* reading, not beside it — and in the right column it shared the space with an outline that is
 needed while reading.
 
-It shares its row with the box “Recently changed” and is the right-hand one of the two. Above phone
+It shares its row with the box “Recently changed” and is the right-hand one of the two. Above smartphone
 width the two always stand side by side, even when one of them stays empty — the other then takes
 the full width.
 
@@ -53,7 +53,7 @@ That is a word from the tool, not from the language.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by the section `aside-backlinks` in `components-note.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 11 variables are read by the section `aside-backlinks` in `components-note.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

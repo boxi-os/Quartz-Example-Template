@@ -1,6 +1,6 @@
 ---
 title: The navigation
-description: The accordion on the left, the drawer on a phone, “Previous” and “Next” below the text.
+description: The accordion on the left, the drawer on a smartphone, “Previous” and “Next” below the text.
 section: 5 – The design
 tags:
   - design
@@ -10,7 +10,7 @@ translationKey: gestaltung/navigation/navigation
 
 Two navigations lead through this handbook: on the left a menu over all chapters, below every text
 “Previous” and “Next”. Both come from the same [[en/7-reference/01-glossary#Plugin|plugin]],
-`quartz-navigations`, which brings one component with ten forms; this site uses two of them.
+`quartz-navigations`, which brings one component with ten variants; this site uses two of them.
 
 ## Out of the box
 
@@ -22,7 +22,7 @@ ready.
 
 ## The menu on the left
 
-The form is called **accordion**: every chapter is a row that unfolds.
+The variant is called **accordion**: every chapter is a row that unfolds.
 
 - **One chapter is open, and it is the one you are reading in.** Opening another closes the
   previous one. Which one stands open is decided by the page being read — a second memory for it
@@ -38,7 +38,7 @@ The form is called **accordion**: every chapter is a row that unfolds.
 - **Drafts and unlisted pages** are missing from the menu, as everywhere else
   ([[en/4-controlling-a-page/02-draft-and-unlisted|4.2]]).
 
-## On a phone
+## On a smartphone
 
 Below 900 px the menu becomes a **drawer**. Its button sits in the app bar at the top left, the
 drawer slides over a darkened and slightly blurred page, and a close button of its own stands in
@@ -52,7 +52,7 @@ whole outline, across chapter boundaries — a handbook is read in order, and at
 the way leads into the next one instead of into a dead end.
 
 They stand **at the very bottom**: after the text, the two boxes, “Read on” and the properties.
-That is where one looks for the way to the next page. On a phone the two buttons stand one above
+That is where one looks for the way to the next page. On a smartphone the two buttons stand one above
 the other, so that a long page title does not have to wrap inside half a button, and on the home
 page, where there is no “Previous”, no empty box stands. The plugin does both itself since
 version 0.3.1.
@@ -65,7 +65,7 @@ boxes beside them.
 Almost nothing, and that is on purpose. The plugin designs rows, folds, pager and drawer itself,
 through some sixty variables of its own. The template connects these variables to its own —
 colours, spacing, radii, shadows —, and adds what there is no variable for: the blur behind the
-drawer, the thumb height on a phone, the pager's label.
+drawer, the thumb height on a smartphone, the pager's label.
 
 The plugin's variables therefore do **not** stand under *Styles → Variables*: it declares them on
 its own element, and a value from outside would never arrive there. What can be changed are the
@@ -73,7 +73,7 @@ its own element, and a value from outside would never arrive there. What can be 
 
 ## The other eight
 
-All ten forms are designed, not only the two you see here — whoever switches another one on gets
+All ten variants are designed, not only the two you see here — whoever switches another one on gets
 it ready. One of them, a horizontal chapter bar in the header, stood here for an afternoon and
 failed on a sum: the seven chapter names are about 880 px wide together, and the header has about
 680 px left beside the word mark and the controls.
@@ -81,7 +81,7 @@ failed on a sum: the seven chapter names are about 880 px wide together, and the
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 27 variables are read by the section `nav-navigations` in `plugin-navigations.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 27 variables are read by the section `nav-navigations` in `plugin-navigations.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

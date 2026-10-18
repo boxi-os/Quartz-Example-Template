@@ -49,7 +49,7 @@ Transparenz. Beide sind gegen die Textfarbe gemessen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 29 Variablen liest der Abschnitt `body-content` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 29 Variablen liest der Abschnitt `body-content` in `content.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

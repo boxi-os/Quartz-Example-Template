@@ -27,7 +27,7 @@ links inherit whatever the body text gives them.
   underline is compulsory. Here they stand in a row of their own; that they are links is what the
   row says.
 - Every link has **padding above and below**. They are small and often the last thing anyone tries
-  to hit on a phone.
+  to hit on a smartphone.
 - The row of links **wraps** rather than overflowing.
 
 ## The second half is a layout box
@@ -51,12 +51,12 @@ between the two lines.
 > The *Comments* plugin (giscus) is switched off in this template — it needs a GitHub [[en/7-reference/01-glossary#Repository|repository]]
 > that an importing site does not have. The styling travels along anyway — in the lower half of
 > the `site-footer` section in `layout.scss` — so
-> that switching it on in the app does not drop an unstyled [[en/7-reference/01-glossary#Frame|frame]] under every page.
+> that switching it on in QuartzControl does not drop an unstyled [[en/7-reference/01-glossary#Frame|frame]] under every page.
 
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 11 variables are read by the section `site-footer` in `layout.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 11 variables are read by the section `site-footer` in `layout.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

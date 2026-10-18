@@ -18,7 +18,7 @@ Gerendert mit KaTeX. Für alles von einer Variablen im Satz bis zur mehrzeiligen
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 3 Variablen liest der Abschnitt `body-math` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 3 Variablen liest der Abschnitt `body-math` in `content.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

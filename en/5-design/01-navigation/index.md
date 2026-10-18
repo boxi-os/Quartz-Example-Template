@@ -18,4 +18,4 @@ Everything you move through the site with. Each of them is a control and is trea
 - [[en/5-design/01-navigation/explorer|The explorer]] — The folder tree — switched off in this template and still designed down to the fourth level.
 - [[en/5-design/01-navigation/header|The header]] — Word mark, page title and the four controls in one row.
 - [[en/5-design/01-navigation/language-switcher|The language switcher]] — Three forms, one of them visible — and where it sits.
-- [[en/5-design/01-navigation/navigation|The navigation]] — The accordion on the left, the drawer on a phone, “Previous” and “Next” below the text.
+- [[en/5-design/01-navigation/navigation|The navigation]] — The accordion on the left, the drawer on a smartphone, “Previous” and “Next” below the text.

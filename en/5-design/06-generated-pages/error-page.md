@@ -42,7 +42,7 @@ To try it: call up any address that does not exist.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 6 variables are read by the section `page-404` in `pages.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 6 variables are read by the section `page-404` in `pages.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

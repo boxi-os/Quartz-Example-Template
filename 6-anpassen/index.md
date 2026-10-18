@@ -46,5 +46,5 @@ es einen Weg, der die Vorlage selbst nicht anfasst.
 
 > [!warning] Zwei Dinge vorher
 > Änderungen an der Vorlage selbst — Weg 2 in 6.1 — kann der nächste Import eines Vorlagenpakets
-> überschreiben. Und in `custom.scss` schreibt die App drei Blöcke bei jedem Speichern neu; was man
+> überschreiben. Und in `custom.scss` schreibt QuartzControl drei Blöcke bei jedem Speichern neu; was man
 > dort von Hand einträgt, ist beim nächsten Klick weg. Beides steht ausführlich in 6.1.

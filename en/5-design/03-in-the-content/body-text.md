@@ -47,7 +47,7 @@ dark mode. Both are measured against the text colour.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 29 variables are read by the section `body-content` in `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 29 variables are read by the section `body-content` in `content.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

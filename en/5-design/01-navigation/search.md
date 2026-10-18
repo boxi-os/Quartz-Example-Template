@@ -19,11 +19,11 @@ A button with a magnifying glass that opens an overlay. The border comes from `l
   you operate.
 - The button sits **in the header**, at the far right, together with the three other controls. It
   is 44 px high like its neighbours and 15 rem wide — wide enough to be read as a field, narrow
-  enough that the header still belongs to the page title. On a phone it becomes a square without a
+  enough that the header still belongs to the page title. On a smartphone it becomes a square without a
   label.
 - The **overlay** carries a real shadow. In this template only what genuinely floats above the page
   rather than sitting in it gets one: this overlay, the link preview, the language menu, the drawer
-  on a phone and the global [[en/7-reference/01-glossary#Graph|graph]]. Five places — and it is the rule that counts, not the number.
+  on a smartphone and the global [[en/7-reference/01-glossary#Graph|graph]]. Five places — and it is the rule that counts, not the number.
 - The **input field** gets no focus ring but a heavier bottom edge — a ring inside a rounded box
   looks like a mistake.
 - **Results**: the keyboard cursor and the pointer [[en/7-reference/01-glossary#Hover|hover]] look the same. The arrow keys move through
@@ -49,7 +49,7 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 > Since 2026-09-06 it is a `width: 15rem` on `.search` in `components-header.scss` again, and it stays
 > there: a width on the element itself makes its content width 240 px, and all three engines agree
 > on that. `shrink: false` stayed in the configuration — without it the field gives its width up to
-> the two icon buttons long before the bar is full. On a phone the same stylesheet takes the width
+> the two icon buttons long before the bar is full. On a smartphone the same stylesheet takes the width
 > back off.
 
 > [!note] The index spans both languages
@@ -60,7 +60,7 @@ With `prefers-reduced-transparency` the translucent surface is replaced by an op
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 18 variables are read by the section `nav-search` in `components-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 18 variables are read by the section `nav-search` in `components-header.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

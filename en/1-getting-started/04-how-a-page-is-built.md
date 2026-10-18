@@ -17,7 +17,7 @@ than the window.
 
 ## The parts of a page
 
-On the desktop a page has three columns, on a tablet two, on a phone one. The names in the table
+On the desktop a page has three columns, on a tablet two, on a smartphone one. The names in the table
 are the ones QuartzControl uses in the layout editor as well.
 
 | Part | Where | What stands in it |
@@ -27,7 +27,7 @@ are the ones QuartzControl uses in the layout editor as well.
 | **Above the content** (beforeBody) | above the text | the [[en/7-reference/01-glossary#Breadcrumbs\|breadcrumbs]] (the path from the home page to here), the tags, the title, date and reading time |
 | **Content** (body) | centre | the note itself |
 | **The free area** (custom-8) | directly below the text | two boxes side by side: the recently changed pages and the [[en/7-reference/01-glossary#Backlinks\|backlinks]] (which pages link here) |
-| **After the content** (afterBody) | below that | the box “Read on”, the property table, on a phone the hint about the collapsed navigation, and at the very bottom “Previous” and “Next” |
+| **After the content** (afterBody) | below that | the box “Read on”, the property table, on a smartphone the hint about the collapsed navigation, and at the very bottom “Previous” and “Next” |
 | **Right column** (right) | on the right | the table of contents and the [[en/7-reference/01-glossary#Graph\|graph]] |
 | **Footer** | at the bottom | the colophon line |
 

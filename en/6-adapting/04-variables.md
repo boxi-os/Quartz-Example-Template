@@ -8,7 +8,7 @@ translationKey: anpassen/variablen
 ---
 
 **Neither this template's colours nor its measures live in the [[en/7-reference/01-glossary#Stylesheet|stylesheets]]; both come from 66
-variables.** That is not cosmetics: after the import they stay editable in the app under *Styles →
+variables.** That is not cosmetics: after the import they stay editable in QuartzControl under *Styles →
 Variables*, a value in [[en/7-reference/01-glossary#CSS and SCSS|SCSS]] does not.
 
 ## The six with the widest reach
@@ -46,7 +46,7 @@ Three groups among them are younger than the rest and deserve a sentence each:
   each. They mean **status**, not palette: a `warning` that follows the accent colour is no longer
   a `warning`. And they are **measured, not chosen** — eleven of Quartz's twelve callout colours
   fail AA on a light ground. Every title colour holds 4.5:1 on the ground *and* on the tinted
-  surface of its own box. Whoever changes one here can put it below that threshold, and the app
+  surface of its own box. Whoever changes one here can put it below that threshold, and QuartzControl
   says nothing about it.
 - **Two for the scrim** behind every drawer (`--tpl-backdrop`, `--tpl-backdrop-blur`): dimming and
   blur, the same value for the navigation and the explorer.
@@ -81,7 +81,7 @@ pointer over the navigation.
 
 Switching the left one is a decision with consequences: this handbook's navigation is about
 1640 px tall with a chapter open, about 2560 px on the home page, at a window height of 900 px.
-Staying put there necessarily means "scrolls inside itself". The basic template comes to about
+Staying put there necessarily means “scrolls inside itself”. The basic template comes to about
 700 px and would simply stand still. The two columns switch at different widths: the left one from
 901 px, the right one from 1201 px — below that they sit under the text, where staying put means
 nothing.
@@ -121,7 +121,7 @@ What has to be shared are the **values** — and they are: `--tpl-tracking-label
 readable where they take effect.
 
 > [!note] A shared file would not be straightforward here anyway
-> Sass solves this with partials (`_shared.scss`). The app does not allow a filename with a leading
+> Sass solves this with partials (`_shared.scss`). QuartzControl does not allow a filename with a leading
 > underscore, and a file without one would sit in the list under *Styles → Custom [[en/7-reference/01-glossary#CSS and SCSS|CSS]]* as a
 > stylesheet that emits nothing.
 
@@ -134,7 +134,7 @@ change the base gap has to look for it in many places.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 49 variables are read by the section `base` in `foundation.scss`, `layout.scss` and `content.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 49 variables are read by the section `base` in `foundation.scss`, `layout.scss` and `content.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

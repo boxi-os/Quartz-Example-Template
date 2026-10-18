@@ -29,7 +29,7 @@ wenn eine dritte Sprache dazukommt. Die Liste öffnet sich nach unten, rechtsbü
 mit demselben Schatten wie Suche und Vorschau — den einzigen beiden anderen Stellen dieser Vorlage,
 die wirklich über der Seite schweben.
 
-Die beiden anderen Formen sind trotzdem vollständig gestaltet: Wer in der App auf `links` oder
+Die beiden anderen Formen sind trotzdem vollständig gestaltet: Wer in QuartzControl auf `links` oder
 `flags` umstellt, bekommt keine ungestaltete Komponente, sondern eine, die in dieselbe Leiste passt.
 Bei `flags` wächst das Emoji auf Lesegröße und der Button bleibt quadratisch.
 
@@ -37,21 +37,21 @@ Bei `flags` wächst das Emoji auf Lesegröße und der Button bleibt quadratisch.
 
 - Die **aktuelle Sprache** steht als Button-Beschriftung und in der Liste als hervorgehobener,
   nicht anklickbarer Eintrag mit `aria-current`.
-- Die Beschriftung ist der **Name in der jeweiligen Sprache** (`switcher.label: native`) — „Deutsch"
-  und „English", nicht „German". Ein Sprachname, den man nicht liest, weil man die Sprache nicht
+- Die Beschriftung ist der **Name in der jeweiligen Sprache** (`switcher.label: native`) — „Deutsch“
+  und „English“, nicht „German“. Ein Sprachname, den man nicht liest, weil man die Sprache nicht
   kann, ist keine Hilfe.
 - Gibt es **keine Übersetzung** dieser Seite, führt der Eintrag auf die Startseite der anderen
   Sprache (`switcher.missing: home`) und sagt das im `title`. Die Alternativen wären, den Eintrag
   auszublenden — dann verschwindet der Ausweg — oder ihn auszugrauen, was eine Sackgasse zeigt,
   statt einen Weg anzubieten.
-- Jeder Eintrag trägt `lang` und `hreflang`. Ein Screenreader spricht „English" damit englisch aus,
+- Jeder Eintrag trägt `lang` und `hreflang`. Ein Screenreader spricht „English“ damit englisch aus,
   auch mitten in einer deutschen Seite.
 
-## Am Telefon
+## Am Smartphone
 
 Die Werkzeugleiste ist eine Flex-Zeile mit `wrap`. Auf 390 px teilen sich Schubladen-Button,
 Seitenname und vier Bedienelemente den Platz; die Suche gibt ihr Wort auf und wird ein Quadrat, der
-Umschalter behält seinen Namen, weil zwei Buchstaben („DE") weniger sagen als „Deutsch" und der
+Umschalter behält seinen Namen, weil zwei Buchstaben („DE“) weniger sagen als „Deutsch“ und der
 Platz dafür reicht.
 
 ## Die Merkung
@@ -64,7 +64,7 @@ auf Englisch, unabhängig von der Browsersprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 23 Variablen liest der Abschnitt `nav-language-switcher` in `plugin-multilanguage.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 23 Variablen liest der Abschnitt `nav-language-switcher` in `plugin-multilanguage.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

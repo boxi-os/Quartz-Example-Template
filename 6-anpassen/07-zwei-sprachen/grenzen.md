@@ -18,7 +18,7 @@ Jede sichtbare Beschriftung, die nicht aus einer Notiz kommt, holt ihre Sprache 
 liest `cfg?.locale`, die [[7-nachschlagen/01-glossar#Rückverweise|Rückverweise]] `cfg.locale`; keine einzige Komponente sieht die Sprache der
 Seite an, die sie gerade rendert.
 
-Betroffen sind: „Explorer", „Backlinks", „[[7-nachschlagen/01-glossar#Graph|Graph]] View", „Table of Contents", „Recent Notes", der
+Betroffen sind: „Explorer“, „Backlinks“, „[[7-nachschlagen/01-glossar#Graph|Graph]] View“, „Table of Contents“, „Recent Notes“, der
 Leerzustand der Rückverweise, die Beschriftungen der Suche.
 
 **Ausnahme Daten.** `localizeDates: true` formatiert jedes `<time>`-Element im Browser nach der
@@ -38,7 +38,7 @@ Es ist zugleich der Beleg dafür, woran die anderen scheitern: Das Plugin kann d
 ## Eine Suche, ein Graph, eine Liste
 
 Der Suchindex umfasst beide Sprachen — eine deutsche Seite kann in einem englischen Suchergebnis
-auftauchen. Dasselbe gilt für „Zuletzt geändert" und für den globalen Graphen. Die Rückverweise
+auftauchen. Dasselbe gilt für „Zuletzt geändert“ und für den globalen Graphen. Die Rückverweise
 trennen sich von selbst, weil jede Seite nur innerhalb ihres eigenen Baums verlinkt.
 
 ## Die Fehlerseite hat keine Sprache
@@ -62,7 +62,7 @@ html[lang^="de"] .explorer-ul > li:has(> [data-folderpath="en/index"]) { display
 
 Auf einer englischen Seite wird umgekehrt alles außer diesem Ast ausgeblendet, und die Kopfzeile des
 `en`-Ordners gleich mit — sonst stünde der ganze englische Baum eine Ebene eingerückt unter einem
-Ordner namens „en".
+Ordner namens „en“.
 
 ## Seiten ohne Frontmatter lassen sich nicht verknüpfen
 

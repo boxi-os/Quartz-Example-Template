@@ -30,14 +30,14 @@ A few details:
   it is the only area every [[en/7-reference/01-glossary#Frame|frame]] has — on the error page there used to be neither search nor
   [[en/7-reference/01-glossary#Colour scheme|colour scheme]] switch, because it has no sidebars.
 - They form one **group** (`toolbar`) with `wrap`, so that four controls plus the site name still
-  fit on a 360 px phone.
-- On a phone the header becomes an **app bar**: it stays at the top while scrolling, runs the full
+  fit on a 360 px smartphone.
+- On a smartphone the header becomes an **app bar**: it stays at the top while scrolling, runs the full
   width and takes the [[en/5-design/01-navigation/navigation|navigation]]'s drawer button with it. The search gives up its word there and
   becomes a square like the others; it keeps its 44 px.
 
 ## It stays, the title goes
 
-Since 05.09.2026 the header sticks to the top of the window at every width, not just on the phone:
+Since 05.09.2026 the header sticks to the top of the window at every width, not just on the smartphone:
 the four controls and the way back to the start page are what one reaches for in the middle of a
 long article, and several pages here are three screens tall.
 
@@ -81,7 +81,7 @@ explicitly.
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by the section `nav-header` in `components-header.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 17 variables are read by the section `nav-header` in `components-header.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

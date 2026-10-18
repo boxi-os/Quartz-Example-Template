@@ -13,7 +13,7 @@ dem der [[5-gestaltung/04-neben-dem-inhalt/zuletzt-geaendert|zuletzt geänderten
 
 ## Von Haus aus
 
-Eine Liste von Titeln. Der Leerzustand lautet „Keine Backlinks gefunden".
+Eine Liste von Titeln. Der Leerzustand lautet „Keine Backlinks gefunden“.
 
 ## In dieser Vorlage
 
@@ -32,12 +32,12 @@ jetzt unter dem Text, weil er dorthin gehört: Was auf eine Seite zeigt, ist ein
 einer Gliederung, die beim Lesen gebraucht wird.
 
 Er teilt seine Zeile mit dem Kasten „Zuletzt bearbeitete Seiten“ und ist dabei der rechte von
-beiden. Die zwei stehen oberhalb der Telefonbreite immer nebeneinander, auch wenn einer von ihnen
+beiden. Die zwei stehen oberhalb der Smartphone-Breite immer nebeneinander, auch wenn einer von ihnen
 leer bleibt — dann nimmt der andere die ganze Breite.
 
 ## Zur Formulierung
 
-Die Vorlage benennt die Komponente in ihrer Sprachdatei um — „Verweise hierher" statt „Backlinks".
+Die Vorlage benennt die Komponente in ihrer Sprachdatei um — „Verweise hierher“ statt „Backlinks“.
 Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 
 > [!warning] Diese Umbenennung wirkt nicht
@@ -54,7 +54,7 @@ Das ist ein Wort aus dem Werkzeug, nicht aus der Sprache.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 11 Variablen liest der Abschnitt `aside-backlinks` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 11 Variablen liest der Abschnitt `aside-backlinks` in `components-note.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

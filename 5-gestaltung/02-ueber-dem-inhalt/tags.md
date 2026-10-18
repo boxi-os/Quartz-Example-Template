@@ -36,7 +36,7 @@ dabei nicht, weil der Rand vorher transparent da war.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 12 Variablen liest der Abschnitt `meta-tag-list` in `components-note.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 12 Variablen liest der Abschnitt `meta-tag-list` in `components-note.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

@@ -65,4 +65,4 @@ einem Umbruch auf der Seite. Obsidian selbst verhält sich so, weshalb der Schal
 > Texte schreibt — bekommt mit dem Plugin einen zerhackten Fließtext.
 >
 > Wer zeilenweise schreibt (Listen, Verse, kurze Zeilen) und den Umbruch wirklich meint, schaltet
-> es in der App unter *Plugins* wieder ein.
+> es in QuartzControl unter *Plugins* wieder ein.

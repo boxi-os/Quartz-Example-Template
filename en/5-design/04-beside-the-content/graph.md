@@ -51,7 +51,7 @@ connections are the [[en/7-reference/01-glossary#Backlinks|backlinks]] and the l
 <!-- QuartzControl:variables:start -->
 ## Which variables apply here
 
-These 17 variables are read by the section `aside-graph` in `components-note.scss`. They can be changed in the app under *Styles → Variables* — without a line of CSS.
+These 17 variables are read by the section `aside-graph` in `components-note.scss`. They can be changed in QuartzControl under *Styles → Variables* — without a line of CSS.
 
 | Variable | Value | also applies to |
 | --- | --- | --- |

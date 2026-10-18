@@ -38,7 +38,7 @@ Aus dem [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]], sonst aus dem Dat
 > Obsidian-Vault, auf den `content/` per [[7-nachschlagen/01-glossar#Symlink|Symlink]] zeigt; das Plugin folgt dem Symlink und findet auch
 > das git des [[7-nachschlagen/01-glossar#Vault|Vaults]], rechnet den Dateipfad danach aber weiter gegen das Projektverzeichnis — und
 > fragt so nach einem Pfad, der aus dem Vault wieder herausführt. Jede Abfrage scheitert. Für **250
-> der 254 Seiten** stand deshalb *„isn't yet tracked by git, dates will be inaccurate"* im
+> der 254 Seiten** stand deshalb *„isn't yet tracked by git, dates will be inaccurate“* im
 > Bauprotokoll; stumm blieben nur die vier Seiten, die ein `lastmod` im Frontmatter tragen und git
 > daher gar nicht erst fragen. Das Datum kam die ganze Zeit aus dem Dateisystem, `git` in der Liste
 > war nur Lärm. Der Fehler ist gemeldet; sobald er behoben ist, gehört `git` wieder davor.
@@ -51,7 +51,7 @@ Aus dem [[7-nachschlagen/01-glossar#Frontmatter|Frontmatter]], sonst aus dem Dat
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 7 Variablen liest der Abschnitt `meta-title-and-date` in `content.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 7 Variablen liest der Abschnitt `meta-title-and-date` in `content.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

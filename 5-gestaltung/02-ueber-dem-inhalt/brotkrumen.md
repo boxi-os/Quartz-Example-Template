@@ -17,7 +17,7 @@ Eine Zeile mit den Ordnern des Pfades, durch Zeichen getrennt.
 - Die **letzte Krume ist die aktuelle Seite**: kräftiger gesetzt und nicht anklickbar. Ein Link auf
   die Seite, auf der man steht, ist eine Sackgasse.
 - Das **Trennzeichen** ist gedämpft und nicht auswählbar — es soll nicht in einer Kopie landen.
-- Die Zeile **bricht um** statt zu überlaufen. Drei Ordner tief ist der Pfad auf einem Telefon
+- Die Zeile **bricht um** statt zu überlaufen. Drei Ordner tief ist der Pfad auf einem Smartphone
   länger als der Bildschirm.
 - Jede Krume hat **Innenabstand nach oben und unten**, damit sie auf einem Touchscreen zu treffen
   ist.
@@ -36,7 +36,7 @@ der ganze Weg über vier Stationen.
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 7 Variablen liest der Abschnitt `meta-breadcrumbs` in `components-navigation.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 7 Variablen liest der Abschnitt `meta-breadcrumbs` in `components-navigation.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

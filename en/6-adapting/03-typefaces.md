@@ -29,13 +29,13 @@ fonts [[en/7-reference/01-glossary#Plugin|plugin]] off; with that, neither of th
 
 ## The finding behind it
 
-Until 2026-09-06, when a font file was imported the app created a `@font-face` rule **without
+Until 2026-09-06, when a font file was imported QuartzControl created a `@font-face` rule **without
 `font-weight` and without `font-style`**. With a variable font that meant: the browser treats it as
 weight 400 and distorts every bold cut itself instead of using the axis that ships with it. With two
 cuts of the same family the second displaced the first — exactly the case of the upright and italic
 cuts this template brings for its text face.
 
-**That is fixed.** The app now reads the weight axis and the italic bit out of the file itself and
+**That is fixed.** QuartzControl now reads the weight axis and the italic bit out of the file itself and
 writes both. One value is still missing: the `unicode-range`. Without it the browser loads the file
 for characters the Latin subset does not contain at all, and then sets them from a typeface that has
 no glyph for them instead of falling back to the stack.

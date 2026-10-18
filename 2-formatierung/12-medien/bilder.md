@@ -24,7 +24,7 @@ erste kennt einen Alternativtext.
 ## Der Alternativtext ist nicht optional
 
 Was in den eckigen Klammern steht, wird vorgelesen, wenn das Bild nicht ankommt oder nicht gesehen
-wird. „Bild" oder „Screenshot" steht dort besser nicht — beschreibe, was zu sehen ist. Ein rein
+wird. „Bild“ oder „Screenshot“ steht dort besser nicht — beschreibe, was zu sehen ist. Ein rein
 schmückendes Bild bekommt `![]()` mit leerer Klammer; dann wird es übersprungen statt mit dem
 Dateinamen vorgelesen.
 

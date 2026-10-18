@@ -28,8 +28,8 @@ Schlüssel. Von den übrigen fünf gehen drei den Weg darunter und eines den dar
 die beiden Excalidraw-Zeichnungen, ist gar nicht verknüpft — ihre Seite rendert den Umschalter
 nicht, weil das Plugin ein eigenes [[7-nachschlagen/01-glossar#Frame|Frame]] mitbringt.
 
-Der Grund ist ein gemessener: Mehrere Seiten hier tragen denselben Titel. „Grundform" gibt es
-dreimal ([[7-nachschlagen/01-glossar#Callout|Callouts]], Tabellen, Fußnoten), „Code", „Eigenschaften" und „Callouts" je zweimal. Über
+Der Grund ist ein gemessener: Mehrere Seiten hier tragen denselben Titel. „Grundform“ gibt es
+dreimal ([[7-nachschlagen/01-glossar#Callout|Callouts]], Tabellen, Fußnoten), „Code“, „Eigenschaften“ und „Callouts“ je zweimal. Über
 Titel oder Dateinamen wäre nicht entscheidbar, welche englische Seite gemeint ist; das Plugin
 erkennt das und verknüpft in so einem Fall lieber gar nicht, mit einer Warnung im [[7-nachschlagen/01-glossar#Build|Build]].
 

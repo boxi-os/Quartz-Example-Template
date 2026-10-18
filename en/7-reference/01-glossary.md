@@ -43,7 +43,7 @@ The line above the title that shows the way from the home page to the current on
 ### Breakpoint
 
 The window width at which a page breaks differently. This template has two: 1200 px (desktop to
-tablet) and 900 px (tablet to phone). → [[en/6-adapting/05-page-grids|6.5 – Page grids]]
+tablet) and 900 px (tablet to smartphone). → [[en/6-adapting/05-page-grids|6.5 – Page grids]]
 
 ### Build
 

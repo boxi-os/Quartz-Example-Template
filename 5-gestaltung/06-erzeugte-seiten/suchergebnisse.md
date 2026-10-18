@@ -21,13 +21,13 @@ Karten mit Titel, Pfad und Textausschnitt.
   wo man gerade steht — sie darf nicht anders aussehen als das, was der Zeiger zeigt.
 - **Der Textausschnitt** wird nach zwei Zeilen abgeschnitten.
 - **Der Treffer im Text** wird mit derselben Farbe markiert wie `==Hervorhebung==` im Fließtext.
-  „Das hast du gesucht" bedeutet auf der ganzen Seite dasselbe.
+  „Das hast du gesucht“ bedeutet auf der ganzen Seite dasselbe.
 - **Der Pfad** steht in der Codeschrift, gedämpft und klein — er ist Herkunft, nicht Inhalt.
 
 <!-- QuartzControl:variables:start -->
 ## Welche Variablen hier greifen
 
-Diese 17 Variablen liest der Abschnitt `page-search-results` in `components-header.scss`. Ändern lassen sie sich in der App unter *Stile → Variablen* — ohne eine Zeile CSS.
+Diese 17 Variablen liest der Abschnitt `page-search-results` in `components-header.scss`. Ändern lassen sie sich in QuartzControl unter *Stile → Variablen* — ohne eine Zeile CSS.
 
 | Variable | Wert | gilt außerdem für |
 | --- | --- | --- |

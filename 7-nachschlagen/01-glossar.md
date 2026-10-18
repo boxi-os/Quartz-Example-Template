@@ -39,7 +39,7 @@ einzeln übernehmen kann. → [[6-anpassen/08-das-vorlagenpaket|6.8 – Das Vorl
 ### Breakpoint
 
 Die Fensterbreite, ab der eine Seite anders umbricht. Diese Vorlage hat zwei: 1200 px (Desktop zu
-Tablet) und 900 px (Tablet zu Telefon). → [[6-anpassen/05-seitenraster|6.5 – Seitenraster]]
+Tablet) und 900 px (Tablet zu Smartphone). → [[6-anpassen/05-seitenraster|6.5 – Seitenraster]]
 
 ### Brotkrumen
 
@@ -163,7 +163,7 @@ nach dem Inhalt, Fußzeile —, je Seitentyp. In QuartzControl unter *Layout*. �
 
 ### Layout-Box
 
-Ein Plugin, das einen eigenen Kasten mit HTML oder Markdown an eine Stelle des Layouts setzt. Diese
+Ein Plugin, das eine eigene Box mit HTML oder Markdown an eine Stelle des Layouts setzt. Diese
 Vorlage nutzt es siebenmal: Wortmarke, Kapitelname in der Leiste, Seitenleisten-Box, „Weiterlesen“,
 mobiler Hinweis, Impressum — und einmal, ohne dass ein Kasten dabei herauskommt. →
 [[5-gestaltung/05-layout-boxen/index|5.5 – Layout-Boxen]]
