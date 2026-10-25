@@ -1,13 +1,13 @@
 ---
 title: 6.4 – Variablen
-description: 66 Variablen, aus denen die ganze Gestaltung besteht.
+description: 70 Variablen, aus denen die ganze Gestaltung besteht.
 section: 6 – Anpassen
 tags:
   - anpassen
 translationKey: anpassen/variablen
 ---
 
-**Farbe und Maß dieser Vorlage stehen nicht in den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]], sondern in 66 Variablen.** Das ist
+**Farbe und Maß dieser Vorlage stehen nicht in den [[7-nachschlagen/01-glossar#Stylesheet|Stylesheets]], sondern in 70 Variablen.** Das ist
 keine Kosmetik: Nach dem Import bleiben sie in QuartzControl unter *Stile → Variablen* bearbeitbar, ein
 Wert in [[7-nachschlagen/01-glossar#CSS und SCSS|SCSS]] nicht.
 
@@ -33,15 +33,15 @@ zwei Zeilen von 14 px Höhe — ein dreizeiliger Absatz liest sich dann wie drei
 die Notiz-Box in der Seitenleiste aus. Die drei Bereiche, die aus Kleinschrift bestehen — linke
 Leiste, rechte Leiste, Fußzeile — sagen das einmal, statt dass jede Komponente darin es wiederholt.
 
-## Woraus die 66 bestehen
+## Woraus die 70 bestehen
 
-Alle 66 sind eigene `--tpl-*`-Tokens — das eigentliche System. Schriften und die Farben der Palette
+Alle 70 sind eigene `--tpl-*`-Tokens — das eigentliche System. Schriften und die Farben der Palette
 stehen nicht hier, sondern unter *Stile → Basis*; aus ihnen schreibt Quartz selbst `--bodyFont`,
 `--secondary` und die übrigen. Bis zum 20.09.2026 standen hier auch Schriftstapel und Quartz-
 Variablen, und die Schriftstapel verdeckten dabei Quartz' eigenen Rückfall
 ([[6-anpassen/03-schriften|6.3]]).
 
-Drei Gruppen darunter sind jünger als der Rest und verdienen je einen Satz:
+Vier Gruppen darunter sind jünger als der Rest und verdienen je einen Satz:
 
 - **Dreizehn Callout-Farben** (`--tpl-callout-note` bis `--tpl-callout-quote`), je hell und dunkel.
   Sie bedeuten **Status**, nicht Palette: Ein `warning`, das der Akzentfarbe folgt, ist kein
@@ -52,22 +52,27 @@ Drei Gruppen darunter sind jünger als der Rest und verdienen je einen Satz:
 - **Zwei für den Schleier** hinter jeder Schublade (`--tpl-backdrop`, `--tpl-backdrop-blur`):
   Abdunklung und Unschärfe, für die Navigation und den Explorer derselbe Wert.
 - **Sechs Schalter für die Seitenspalten**, siehe den nächsten Abschnitt.
+- **Vier Flächen** (`--tpl-col-left-bg`, `--tpl-col-right-bg`, `--tpl-header-bg`,
+  `--tpl-footer-bg`): Die Seitenspalten werden zu Streifen vom Kopf bis zum Fuß, Kopf und Fuß
+  reichen über die ganze Fensterbreite. Vorgabe ist der Seitengrund, also sieht man sie erst, wenn
+  man sie ändert. Wie bei den Callout-Farben prüft QuartzControl den Kontrast darauf nicht.
 
 ## Die Seitenspalten: stehen bleiben oder mitlaufen
 
 Ob eine Seitenspalte beim Rollen stehen bleibt, entscheiden **drei Variablen je Spalte**, und sie
 gehören zusammen: Eine Spalte, die stehen bleibt, braucht einen Höhendeckel (sonst ragt sie aus dem
 Fenster und bleibt gar nicht stehen) und eine weiche Unterkante (sonst schneidet der Deckel eine
-Zeile mitten durch). Wer die rechte Spalte umstellt, stellt alle drei um; links genügt die
-Position (siehe unten).
+Zeile mitten durch). Wer eine Spalte umstellt, stellt alle drei um; links genügt die Position
+(siehe unten).
 
 | Variable | stehen bleiben | mitlaufen |
 | --- | --- | --- |
 | `--tpl-col-…-position` | `sticky` | `static` |
 | `--tpl-col-…-height` | `calc(100dvh - var(--tpl-header-h) - 2 * var(--tpl-space-lg))` | `none` |
-| `--tpl-col-…-mask` | `var(--tpl-fade-mask-end)` | `none` |
+| `--tpl-col-…-mask` | links `var(--tpl-fade-mask)`, rechts `var(--tpl-fade-mask-end)` | `none` |
 
-Für `…` steht `left` oder `right`. **Die Vorgabe:** rechts bleibt stehen, links läuft mit. Ein
+Für `…` steht `left` oder `right`. **Die Vorgabe:** Beide bleiben stehen. Links blendet die
+Spalte oben und unten weich aus, rechts nur unten, weil dort die Überschriften oben kleben. Ein
 halber Zustand ist möglich und sieht aus wie ein Fehler — `static` mit Höhendeckel ist eine Spalte,
 die mitten im Text aufhört und in sich selbst rollt.
 
@@ -80,11 +85,10 @@ Eine Spalte, die in sich selbst rollt, gibt das Mausrad an ihrem Ende an die Sei
 die nichts zu rollen hat, hält es gar nicht erst fest — die Seite rollt, auch wenn der Mauszeiger
 über der Navigation steht.
 
-Links umzustellen ist eine Entscheidung mit Folgen: Die Navigation dieses Handbuchs ist mit offenem
-Kapitel rund 1640 px hoch, auf der Startseite rund 2560 px, bei 900 px Fensterhöhe. Stehen bleiben
-heißt dort zwingend „rollt in sich selbst“. Das Basis-Template kommt auf rund 700 px und stünde
-einfach still. Die zwei Spalten schalten an verschiedenen Breiten um: links ab 901 px, rechts ab
-1201 px — darunter liegen sie unter dem Text, wo Stehenbleiben nichts bedeutet.
+Die Navigation dieses Handbuchs ist auf der Startseite rund 340 px hoch und mit offenem Kapitel
+höchstens rund 770 px. Bei 900 px Fensterhöhe passt sie gerade noch hinein, in einem kleineren
+Fenster rollt sie in sich selbst. Die zwei Spalten schalten an verschiedenen Breiten um: links ab
+901 px, rechts ab 1201 px — darunter liegen sie unter dem Text, wo Stehenbleiben nichts bedeutet.
 
 ## Was doch literal dasteht
 

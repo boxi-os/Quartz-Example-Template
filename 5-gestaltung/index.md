@@ -51,5 +51,5 @@ Schriften, Variablen, Seitenraster, [[7-nachschlagen/01-glossar#Barrierefreiheit
 
 1. **Die Breite entscheidet das Raster** — der [[7-nachschlagen/01-glossar#Frame|Frame]], an einer Stelle, nicht zusätzlich der Absatz.
 2. **Farben sind gemessen.** 93 Paare, alle über der WCAG-Schwelle, in beiden Modi.
-3. **Farbe und Maß stehen nicht in den Stylesheets**, sondern in 66 Variablen, die in QuartzControl
+3. **Farbe und Maß stehen nicht in den Stylesheets**, sondern in 70 Variablen, die in QuartzControl
    bearbeitbar bleiben. Was doch literal dasteht, ist benannt und begründet.

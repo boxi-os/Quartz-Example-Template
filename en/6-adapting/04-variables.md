@@ -1,13 +1,13 @@
 ---
 title: 6.4 – Variables
-description: 66 variables the whole design is made of.
+description: 70 variables the whole design is made of.
 section: 6 – Adapting
 tags:
   - adapting
 translationKey: anpassen/variablen
 ---
 
-**Neither this template's colours nor its measures live in the [[en/7-reference/01-glossary#Stylesheet|stylesheets]]; both come from 66
+**Neither this template's colours nor its measures live in the [[en/7-reference/01-glossary#Stylesheet|stylesheets]]; both come from 70
 variables.** That is not cosmetics: after the import they stay editable in QuartzControl under *Styles →
 Variables*, a value in [[en/7-reference/01-glossary#CSS and SCSS|SCSS]] does not.
 
@@ -33,14 +33,14 @@ three-line paragraph then reads like three separate ones. That is exactly how th
 sidebar looked. The three areas that consist of small type — left bar, right bar, footer — say it
 once, instead of every component inside them repeating it.
 
-## What the 66 are
+## What the 70 are
 
-All 66 are our own `--tpl-*` tokens — the actual system. Typefaces and the colours of the palette
+All 70 are our own `--tpl-*` tokens — the actual system. Typefaces and the colours of the palette
 do not stand here but under *Styles → Basics*; from those Quartz itself writes `--bodyFont`,
 `--secondary` and the rest. Until 2026-09-20 font stacks and Quartz variables stood here too, and
 the font stacks hid Quartz's own fallback ([[en/6-adapting/03-typefaces|6.3]]).
 
-Three groups among them are younger than the rest and deserve a sentence each:
+Four groups among them are younger than the rest and deserve a sentence each:
 
 - **Thirteen callout colours** (`--tpl-callout-note` to `--tpl-callout-quote`), light and dark
   each. They mean **status**, not palette: a `warning` that follows the accent colour is no longer
@@ -51,23 +51,29 @@ Three groups among them are younger than the rest and deserve a sentence each:
 - **Two for the scrim** behind every drawer (`--tpl-backdrop`, `--tpl-backdrop-blur`): dimming and
   blur, the same value for the navigation and the explorer.
 - **Six switches for the side columns**, see the next section.
+- **Four surfaces** (`--tpl-col-left-bg`, `--tpl-col-right-bg`, `--tpl-header-bg`,
+  `--tpl-footer-bg`): the side columns become strips from the header down to the footer, header
+  and footer reach across the full width of the window. The default is the page ground, so they
+  only show once you change them. As with the callout colours, QuartzControl does not check the
+  contrast on them.
 
 ## The side columns: staying put or scrolling along
 
 Whether a side column stays put while the page scrolls is decided by **three variables per
 column**, and they belong together: a column that stays put needs a height cap (otherwise it runs
 out of the window and does not stay put at all) and a soft lower edge (otherwise the cap cuts a
-line in half). Whoever switches the right column switches all three; on the left, the position
-is enough (see below).
+line in half). Whoever switches a column switches all three; on the left, the position is enough
+(see below).
 
 | Variable | stays put | scrolls along |
 | --- | --- | --- |
 | `--tpl-col-…-position` | `sticky` | `static` |
 | `--tpl-col-…-height` | `calc(100dvh - var(--tpl-header-h) - 2 * var(--tpl-space-lg))` | `none` |
-| `--tpl-col-…-mask` | `var(--tpl-fade-mask-end)` | `none` |
+| `--tpl-col-…-mask` | left `var(--tpl-fade-mask)`, right `var(--tpl-fade-mask-end)` | `none` |
 
-`…` stands for `left` or `right`. **The default:** the right one stays put, the left one scrolls
-along. A half state is possible and looks like a bug — `static` with a height cap is a column that
+`…` stands for `left` or `right`. **The default:** both stay put. The left column fades out softly
+at top and bottom, the right one only at the bottom, because its headings stick to the top. A half
+state is possible and looks like a bug — `static` with a height cap is a column that
 stops in the middle of the text and scrolls inside itself.
 
 **On the left, the position is enough.** When `--tpl-col-left-position` is `sticky` and height and
@@ -79,10 +85,9 @@ A column that scrolls inside itself hands the mouse wheel on to the page at its 
 has nothing to scroll does not hold on to it in the first place — the page scrolls even with the
 pointer over the navigation.
 
-Switching the left one is a decision with consequences: this handbook's navigation is about
-1640 px tall with a chapter open, about 2560 px on the home page, at a window height of 900 px.
-Staying put there necessarily means “scrolls inside itself”. The basic template comes to about
-700 px and would simply stand still. The two columns switch at different widths: the left one from
+This handbook's navigation is about 340 px tall on the home page and at most about 770 px with a
+chapter open. At a window height of 900 px it just fits; in a smaller window it scrolls inside
+itself. The two columns switch at different widths: the left one from
 901 px, the right one from 1201 px — below that they sit under the text, where staying put means
 nothing.
 
